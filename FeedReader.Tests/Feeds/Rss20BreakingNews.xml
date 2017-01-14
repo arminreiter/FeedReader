@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.breakingnews.ie/~d/styles/itemcontent.css"?>
+<rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Business: BreakingNews.ie</title>
+    <link>http://www.breakingnews.ie/business/</link>
+    <description>Ireland's premier breaking news website providing up to the minute news and sports reports.</description>
+    <ttl>3</ttl>
+    <image>
+      <title>BreakingNews.ie</title>
+      <url>http://www.breakingnews.ie/images/rss/bnews_rss.png</url>
+      <link>http://www.breakingnews.ie/</link>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.breakingnews.ie/bnbusiness" />
+    <feedburner:info uri="bnbusiness" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+    <item>
+      <title>Higher wages push stocks to records, but Dow misses 20,000 mark</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/3vYjBEhj44k/higher-wages-push-stocks-to-records-but-dow-misses-20000-mark-771369.html</link>
+      <description>The Dow Jones industrial average missed the 20,000 mark by a fraction of a point on Friday as US stock indexes rose after the government said wages jumped in December, but two other major indexes set records.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/3vYjBEhj44k" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 22:21:36 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/higher-wages-push-stocks-to-records-but-dow-misses-20000-mark-771369.html</guid>
+      <enclosure url="http://media.central.ie/media/images/s/StockGraphGeneric.jpg" type="image/jpeg" />
+      <feedburner:origLink>http://www.breakingnews.ie/business/higher-wages-push-stocks-to-records-but-dow-misses-20000-mark-771369.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Check out these selfie drones unveiled at CES in Las Vegas</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/4CdFsx2Xb6A/check-out-these-selfie-drones-unveiled-at-ces-in-las-vegas-771360.html</link>
+      <description>Our selfies are about to get a whole lot better.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/4CdFsx2Xb6A" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 20:56:52 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/check-out-these-selfie-drones-unveiled-at-ces-in-las-vegas-771360.html</guid>
+      <enclosure />
+      <feedburner:origLink>http://www.breakingnews.ie/business/check-out-these-selfie-drones-unveiled-at-ces-in-las-vegas-771360.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>The MoD is spending Â£30 million on building a futuristic laser weapon</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/59awd2FwY80/the-mod-is-spending-30-million-on-building-a-futuristic-laser-weapon-771327.html</link>
+      <description>The army could have their own death-ray by the mid-2020s.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/59awd2FwY80" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 16:33:10 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/the-mod-is-spending-30-million-on-building-a-futuristic-laser-weapon-771327.html</guid>
+      <enclosure />
+      <feedburner:origLink>http://www.breakingnews.ie/business/the-mod-is-spending-30-million-on-building-a-futuristic-laser-weapon-771327.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Cruise line announces wearable tech that's going to revolutionise your holiday</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/S6IlqPSwGhE/cruise-line-announces-wearable-tech-thats-going-to-revolutionise-your-holiday-771316.html</link>
+      <description>This gadget could make your time on-board so much easier.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/S6IlqPSwGhE" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 15:13:34 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/cruise-line-announces-wearable-tech-thats-going-to-revolutionise-your-holiday-771316.html</guid>
+      <enclosure />
+      <feedburner:origLink>http://www.breakingnews.ie/business/cruise-line-announces-wearable-tech-thats-going-to-revolutionise-your-holiday-771316.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Jamie Oliver closes six restaurants because of tough trading and Brexit</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/3Uz8yhUfAWg/jamie-oliver-closes-six-restaurants-because-of-tough-trading-and-brexit-771299.html</link>
+      <description>The company is focusing on new overseas branches.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/3Uz8yhUfAWg" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 13:36:00 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/jamie-oliver-closes-six-restaurants-because-of-tough-trading-and-brexit-771299.html</guid>
+      <enclosure />
+      <feedburner:origLink>http://www.breakingnews.ie/business/jamie-oliver-closes-six-restaurants-because-of-tough-trading-and-brexit-771299.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Lord Mayor of Dublin says companies should come clean on gender pay gap</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/3sXtoT3en_k/lord-mayor-of-dublin-says-companies-should-come-clean-on-gender-pay-gap-771287.html</link>
+      <description>The Lord Mayor of Dublin has said the time has come to compel companies to publicly detail the gender pay gap within their organisations.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/3sXtoT3en_k" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 12:26:14 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/lord-mayor-of-dublin-says-companies-should-come-clean-on-gender-pay-gap-771287.html</guid>
+      <enclosure url="http://media.central.ie/media/images/w/womanatComputerwithpapers.jpg" type="image/jpeg" />
+      <feedburner:origLink>http://www.breakingnews.ie/business/lord-mayor-of-dublin-says-companies-should-come-clean-on-gender-pay-gap-771287.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Our 5 highlights from the first day on the show floor at CES</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/ET7gxWa8LoQ/our-5-highlights-from-the-first-day-on-the-show-floor-at-ces-771270.html</link>
+      <description>The doors to the worldâ€™s biggest tech show are open.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/ET7gxWa8LoQ" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 10:46:47 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/our-5-highlights-from-the-first-day-on-the-show-floor-at-ces-771270.html</guid>
+      <enclosure />
+      <feedburner:origLink>http://www.breakingnews.ie/business/our-5-highlights-from-the-first-day-on-the-show-floor-at-ces-771270.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Aer Lingus launches new Cork-Cornwall route</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/kJAWe1xxsNk/aer-lingus-launches-new-cork-cornwall-route-771259.html</link>
+      <description>Aer Lingus Regional, operated by Stobart Air, is to launch a new service to Newquay in Cornwall.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/kJAWe1xxsNk" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 09:24:18 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/aer-lingus-launches-new-cork-cornwall-route-771259.html</guid>
+      <enclosure url="http://media.central.ie/media/images/c/CornwallStIvesView.jpg" type="image/jpeg" />
+      <feedburner:origLink>http://www.breakingnews.ie/business/aer-lingus-launches-new-cork-cornwall-route-771259.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Futuristic cars are the stars as doors open at CES in Las Vegas</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/yjs721tumAQ/futuristic-cars-are-the-stars-as-doors-open-at-ces-in-las-vegas-771256.html</link>
+      <description>The Toyota Concept-i was really catching peopleâ€™s eyes at the tech show.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/yjs721tumAQ" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 08:56:54 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/futuristic-cars-are-the-stars-as-doors-open-at-ces-in-las-vegas-771256.html</guid>
+      <enclosure />
+      <feedburner:origLink>http://www.breakingnews.ie/business/futuristic-cars-are-the-stars-as-doors-open-at-ces-in-las-vegas-771256.html</feedburner:origLink>
+    </item>
+    <item>
+      <title>Sony appears to have upped its game with a TV where the sound vibrates through the screen</title>
+      <link>http://feeds.breakingnews.ie/~r/bnbusiness/~3/VethxFnGX4g/sony-appears-to-have-upped-its-game-with-a-tv-where-the-sound-vibrates-through-the-screen-771248.html</link>
+      <description>The company is directly challenging rivals Samsung and LG by using OLED in its screens for the first time.&lt;img src="http://feeds.feedburner.com/~r/bnbusiness/~4/VethxFnGX4g" height="1" width="1" alt=""/&gt;</description>
+      <category>Business</category>
+      <author>BreakingNews.ie</author>
+      <pubDate>Fri, 06 Jan 2017 07:47:04 GMT</pubDate>
+      <guid isPermaLink="false">http://www.breakingnews.ie/business/sony-appears-to-have-upped-its-game-with-a-tv-where-the-sound-vibrates-through-the-screen-771248.html</guid>
+      <enclosure />
+      <feedburner:origLink>http://www.breakingnews.ie/business/sony-appears-to-have-upped-its-game-with-a-tv-where-the-sound-vibrates-through-the-screen-771248.html</feedburner:origLink>
+    </item>
+  </channel>
+</rss>

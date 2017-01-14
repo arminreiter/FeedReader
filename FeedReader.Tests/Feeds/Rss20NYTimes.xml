@@ -1,0 +1,547 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2017  The New York Times Company</copyright>
+    <lastBuildDate>Sat, 07 Jan 2017 15:21:42 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Putin Led a Complex Cyberattack Scheme to Aid Trump, Report Finds</title>
+      <link>http://www.nytimes.com/2017/01/06/us/politics/donald-trump-wall-hack-russia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/politics/donald-trump-wall-hack-russia.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/politics/donald-trump-wall-hack-russia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07trump3_hp/07trump3_hp-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President-elect Donald J. Trump left One World Trade Center after a meeting on Friday.</media:description>
+      <media:credit>Lucas Jackson/Reuters</media:credit>
+      <description>U.S. intelligence agencies presented their unanimous conclusions to Donald J. Trump, bringing the leaders of these agencies face to face with their most vocal skeptic, the president-elect.</description>
+      <dc:creator>MICHAEL D. SHEAR and DAVID E. SANGER</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 01:49:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberattacks and Hackers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+    </item>
+    <item>
+      <title>Trump Finds That Attack-Dog Strategy Has Its Limits</title>
+      <link>http://www.nytimes.com/2017/01/06/us/politics/donald-trump-intelligence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/politics/donald-trump-intelligence.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/politics/donald-trump-intelligence.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07assess/07assess-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Senator Chuck Schumer warned President-elect Donald J. Trump recently that it was &#x201C;really dumb&#x201D; to take on the intelligence services and that he should &#x201C;calm down&#x201D; his Twitter usage.</media:description>
+      <media:credit>Al Drago/The New York Times</media:credit>
+      <description>The report on Russian efforts to influence the outcome of the election made it clear that a tactic from the campaign would not necessarily work in Washington.</description>
+      <dc:creator>GLENN THRUSH</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 03:51:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schumer, Charles E</category>
+    </item>
+    <item>
+      <title>News Analysis: Russian Intervention in American Election Was No One-Off</title>
+      <link>http://www.nytimes.com/2017/01/06/us/politics/russian-hacking-election-intelligence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/politics/russian-hacking-election-intelligence.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/politics/russian-hacking-election-intelligence.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07report/07report-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Vladimir V. Putin holds a grudge against Hillary Clinton, and the Russian intervention to damage her candidacy was the latest fusillade in a yearslong campaign.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>The hacking, detailed in a report by three intelligence agencies was only one element in an information war that has gone on under the radar for years.</description>
+      <dc:creator>SCOTT SHANE</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 02:08:29 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+    </item>
+    <item>
+      <title>What Intelligence Agencies Concluded About the Russian Attack on the U.S. Election</title>
+      <link>http://www.nytimes.com/2017/01/06/us/politics/russian-hack-report.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/politics/russian-hack-report.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/politics/russian-hack-report.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07RUSSIA-TEAR1/07RUSSIA-TEAR1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>In unequivocal language, the unclassified version of the report for President Obama pins responsibility directly on President Vladimir V. Putin.</description>
+      <dc:creator>SCOTT SHANE</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 01:26:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Espionage and Intelligence Services</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Florida Airport Assailant May Have Heard Voices Urging Violence, Officials Say</title>
+      <link>http://www.nytimes.com/2017/01/06/us/fort-lauderdale-airport.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/fort-lauderdale-airport.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/fort-lauderdale-airport.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07fortlauderdale-shooter/07fortlauderdale-shooter-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Esteban Santiago, 26, made disturbing remarks at the F.B.I. office in Anchorage in November, according to a senior law enforcement official.</media:description>
+      <media:credit>Anchorage Police Department</media:credit>
+      <description>Federal law enforcement officials identified the suspect in a shooting that left at least five dead as a 26-year-old former National Guardsmen.</description>
+      <dc:creator>LIZETTE ALVAREZ, RICHARD FAUSSET and ADAM GOLDMAN</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 02:05:46 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fleischer, Ari</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Florida</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Fort Lauderdale (Fla)</category>
+    </item>
+    <item>
+      <title>Scenes From Fort Lauderdale Airport Shooting</title>
+      <link>http://www.nytimes.com/video/us/100000004857694/scenes-from-fort-lauderdale-airport-shooting.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/video/us/100000004857694/scenes-from-fort-lauderdale-airport-shooting.html</guid>
+      <description>Witnesses filmed the chaos after a gunman shot and killed several people inside the Fort Lauderdale-Hollywood International Airport on Friday.</description>
+      <dc:creator/>
+      <pubDate>Fri, 06 Jan 2017 20:49:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Airports</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Fort Lauderdale (Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Murders, Attempted Murders and Homicides</category>
+    </item>
+    <item>
+      <title>Recovery Finally Yields Big Gains for Average Worker&#x2019;s Pay</title>
+      <link>http://www.nytimes.com/2017/01/06/business/economy/unemployment-jobs-report-hiring.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/business/economy/unemployment-jobs-report-hiring.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/business/economy/unemployment-jobs-report-hiring.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/06/business/07JOBS/07JOBS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A job fair in Brighton, Colo., on Dec. 14. For all his criticism of President Obama&#x2019;s economic stewardship during the campaign, Donald J. Trump inherits an economy that is fundamentally solid.</media:description>
+      <media:credit>Matthew Staver/Bloomberg</media:credit>
+      <description>Average hourly earnings rose by 2.9 percent last year, the best performance since the recession, even as job growth tapered off in December.</description>
+      <dc:creator>NELSON D. SCHWARTZ</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 01:03:38 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Layoffs and Job Reductions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+    </item>
+    <item>
+      <title>Economic Legacy: How Obama&#x2019;s Jobs Record Stacks Up</title>
+      <link>http://www.nytimes.com/2017/01/06/upshot/how-obamas-jobs-record-stacks-up.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/upshot/how-obamas-jobs-record-stacks-up.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/upshot/how-obamas-jobs-record-stacks-up.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07up-jobs1/07up-jobs1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Obama in February 2009 after a brutal jobs report, the first issued during his administration.</media:description>
+      <media:credit>Ruth Fremson/The New York Times</media:credit>
+      <description>Comparing his performance with that of other presidents: Things could have been much worse, and at the start, they were.</description>
+      <dc:creator>NEIL IRWIN</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 17:55:56 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+    </item>
+    <item>
+      <title>Take the Polar Plunge in Milwaukee</title>
+      <link>http://www.nytimes.com/video/us/100000004855498/take-the-polar-plunge-in-milwaukee.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/video/us/100000004855498/take-the-polar-plunge-in-milwaukee.html</guid>
+      <description>Every year on Jan. 1 in Milwaukee, hundreds of brave souls swim in the freezing waters of Lake Michigan.</description>
+      <dc:creator/>
+      <pubDate>Sat, 07 Jan 2017 10:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Milwaukee (Wis)</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Lake Michigan</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Swimming</category>
+    </item>
+    <item>
+      <title>Your Daily Mini Crossword</title>
+      <link>http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/crosswords/game/mini</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss"/>
+      <description>Solve a bite-size crossword in just a few minutes.</description>
+      <dc:creator/>
+      <pubDate>Thu, 25 Feb 2016 08:18:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jared Kushner, a Trump In-Law and Adviser, Chases a Chinese Deal</title>
+      <link>http://www.nytimes.com/2017/01/07/us/politics/jared-kushner-trump-business.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/07/us/politics/jared-kushner-trump-business.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/07/us/politics/jared-kushner-trump-business.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/06/us/08KUSHNER1/08KUSHNER1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Donald J. Trump officially announced his campaign for the presidency at Trump Tower in Manhattan on June 16, 2015, with his daughter Ivanka and her husband, Jared Kushner, at his side.</media:description>
+      <media:credit>Todd Heisler/The New York Times</media:credit>
+      <description>As Donald J. Trump&#x2019;s son-in-law prepares for a White House role, his undisclosed talks with a secretive Chinese company highlight potential conflicts of interest.</description>
+      <dc:creator>SUSANNE CRAIG, JO BECKER and JESSE DRUCKER</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 13:57:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conflicts of Interest</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kushner, Jared</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wu Xiaohui</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kushner, Charles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New Jersey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kushner, Josh</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Anbang Insurance Group Co</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Kushner Cos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+    </item>
+    <item>
+      <title>&lt;div&gt;Trump Insists Mexico Will Pay for Wall After U.S. Begins the Work&lt;/div&gt;</title>
+      <link>http://www.nytimes.com/2017/01/06/us/politics/trump-wall-mexico.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/politics/trump-wall-mexico.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/politics/trump-wall-mexico.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/politics/07wall_hp/07wall_hp-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A newly built section of the United States-Mexico border wall, photographed in November. President-elect Donald J. Trump claimed on Friday that Mexico would reimburse the United States once construction began on a new barrier.</media:description>
+      <media:credit>Jose Luis Gonzalez/Reuters</media:credit>
+      <description>President-elect Donald J. Trump made the comments after Republicans in Congress started discussing ways to include money for the barrier in spending bills.</description>
+      <dc:creator>MICHAEL D. SHEAR and EMMARIE HUETTEMAN</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 19:58:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
+    </item>
+    <item>
+      <title>Trump Nominees&#x2019; Filings Threaten to Overwhelm Federal Ethics Office</title>
+      <link>http://www.nytimes.com/2017/01/06/us/politics/trump-nominees-federal-ethics-office.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/politics/trump-nominees-federal-ethics-office.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/politics/trump-nominees-federal-ethics-office.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07ogeconflicts/07ogeconflicts-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Rex W. Tillerson, right, with Senator Benjamin L. Cardin of Maryland. Mr. Tillerson filed an &#x201C;ethics undertakings&#x201D; memo with the State Department this week.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>Rex W. Tillerson&#x2019;s financial disclosure, showing the stocks and other assets he has to sell off to avoid conflicts, is among a wave of filings for what may be the wealthiest cabinet in modern history.</description>
+      <dc:creator>ERIC LIPTON and STEVE EDER</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 02:14:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Exxon Mobil Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tillerson, Rex W</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>The Playlist: Ed Sheeran Returns With a Foot in the Past and an Eye on the Future</title>
+      <link>http://www.nytimes.com/2017/01/06/arts/music/playlist-ed-sheeran-dirty-projectors-brian-eno.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/arts/music/playlist-ed-sheeran-dirty-projectors-brian-eno.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/arts/music/playlist-ed-sheeran-dirty-projectors-brian-eno.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/arts/07PLAYLIST/07PLAYLIST-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Rich Fury/Invision, via Associated Press</media:credit>
+      <description>The new songs that caught our pop critics' attention this week, from Elliott Smith's rediscovered track to the Flaming Lips' latest collaboration with Miley Cyrus.</description>
+      <dc:creator>JON PARELES, JON CARAMANICA and NATE CHINEN</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 20:04:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Video Recordings, Downloads and Streaming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sheeran, Ed</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Smith, Elliott</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cyrus, Miley</category>
+    </item>
+    <item>
+      <title>Beating of Disabled Teenager Highlights a Crime That Often Goes Unpunished</title>
+      <link>http://www.nytimes.com/2017/01/06/us/chicago-racially-charged-attack-video.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/chicago-racially-charged-attack-video.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/chicago-racially-charged-attack-video.html?partner=rss&amp;emc=rss"/>
+      <description>After four in Chicago were charged with hate crimes for an assault caught on a Facebook video, advocates for those with disabilities still hold that violence against the group is often underreported.</description>
+      <dc:creator>MITCH SMITH and RICHARD P&#xC9;REZ-PE&#xD1;A</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 02:02:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Disabilities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Abuse of the Disabled</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Hate Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Chicago (Ill)</category>
+    </item>
+    <item>
+      <title>Hate Crime Charges Brought in Chicago Torture Case</title>
+      <link>http://www.nytimes.com/video/us/100000004857496/hate-crime-charges-brought-in-chicago-torture-case.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/video/us/100000004857496/hate-crime-charges-brought-in-chicago-torture-case.html</guid>
+      <description>The incident set off new discussions about racial tensions and the role of social media.</description>
+      <dc:creator/>
+      <pubDate>Fri, 06 Jan 2017 23:41:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Hate Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Torture</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Chicago (Ill)</category>
+    </item>
+    <item>
+      <title>N.F.L. Wild-Card Matchups: Who We Think Will Win</title>
+      <link>http://www.nytimes.com/2017/01/06/sports/football/nfl-playoffs-schedule-predictions-point-spreads.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/sports/football/nfl-playoffs-schedule-predictions-point-spreads.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/sports/football/nfl-playoffs-schedule-predictions-point-spreads.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/08/sports/08NFLMATCHUPS/08NFLMATCHUPS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Lions quarterback Matthew Stafford has a 1-3 record as a starter since dislocating his right middle finger.</media:description>
+      <media:credit>Raj Mehta/USA Today Sports, via Reuters</media:credit>
+      <description>Sunday&#x2019;s playoff games will recall past triumphs in frigid conditions by the visitors, while Saturday&#x2019;s contests will be missing key players, who are out with injuries.</description>
+      <dc:creator>DAVID WHITE</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 01:15:21 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Detroit Lions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Houston Texans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Oakland Raiders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Seattle Seahawks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Playoff Games</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Giants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Green Bay Packers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Pittsburgh Steelers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Miami Dolphins</category>
+    </item>
+    <item>
+      <title>Raiders vs. Texans: Battle of the Bad Quarterbacks</title>
+      <link>http://www.nytimes.com/2017/01/06/sports/football/oakland-raiders-houston-texans-connor-cook-brock-osweiler.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/sports/football/oakland-raiders-houston-texans-connor-cook-brock-osweiler.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/sports/football/oakland-raiders-houston-texans-connor-cook-brock-osweiler.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/sports/07-quarterbacks-web/07-quarterbacks-web-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Raiders quarterback Connor Cook fumbled in the team&#x2019;s regular-season finale last Sunday against the Broncos. He replaced Matt McGloin, and was 14 of 21 passing for 150 yards.</media:description>
+      <media:credit>Jack Dempsey/Associated Press</media:credit>
+      <description>Brock Osweiler, with 21 career starts, is a wily veteran compared with the Raiders&#x2019; Connor Cook, who will make his first N.F.L. start.</description>
+      <dc:creator>BENJAMIN HOFFMAN</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 18:29:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Playoff Games</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Houston Texans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Oakland Raiders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cook, Connor (1993- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Osweiler, Brock (1990- )</category>
+    </item>
+    <item>
+      <title>&#x2018;He Really Is Beholden to No One &#x2014; Not Even His Own Party&#x2019;</title>
+      <link>http://www.nytimes.com/2017/01/07/nytnow/he-really-is-beholden-to-no-one-not-even-his-own-party.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/07/nytnow/he-really-is-beholden-to-no-one-not-even-his-own-party.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/07/nytnow/he-really-is-beholden-to-no-one-not-even-his-own-party.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07comments1/07comments1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Mikhail Klimentiev/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Our Top 10 Comments of the Week: Readers debate Donald Trump&#x2019;s tweets on security and ethics, what the Democrats want, and the top travel destinations of 2017.</description>
+      <dc:creator>LELA MOORE and SONA PATEL</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 10:19:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Table for Three: Samantha Bee and Jane Pauley Are Breaking the News</title>
+      <link>http://www.nytimes.com/2017/01/07/fashion/table-for-three-samantha-bee-jane-pauley.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/07/fashion/table-for-three-samantha-bee-jane-pauley.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/07/fashion/table-for-three-samantha-bee-jane-pauley.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/08/fashion/0108Table/0108Table-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jane Pauley, left, and Samantha Bee sitting for lunch at Asiate restaurant in the Mandarin Oriental hotel in New York.</media:description>
+      <media:credit>George Etheredge for The New York Times</media:credit>
+      <description>The late-night news comedian and the veteran television journalist compare notes on the news &#x2014; real, fake and satirical.</description>
+      <dc:creator>PHILIP GALANES</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 10:24:21 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Broadcasting Co</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pauley, Jane</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bee, Samantha</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Full Frontal With Samantha Bee (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">CBS Sunday Morning (TV Program)</category>
+    </item>
+    <item>
+      <title>Owners Think Their Dogs Are So Smart. Scientists Are Smarter.</title>
+      <link>http://www.nytimes.com/2017/01/07/well/family/dogs-intelligence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/07/well/family/dogs-intelligence.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/07/well/family/dogs-intelligence.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/08/science/08SMARTDOGS/08SMARTDOGS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Giorgio, 11, with his certificates and achievements at the Yale Canine Cognition Center.</media:description>
+      <media:credit>Joshua Bright for The New York Times</media:credit>
+      <description>University researchers are tapping a growing interest in pets&#x2019; intelligence, even if they have their own ideas about how to define and measure it.</description>
+      <dc:creator>JAN HOFFMAN</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 13:53:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dogs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Petsmart  Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ivy League</category>
+    </item>
+    <item>
+      <title>In Zimbabwe, a First Lady Exerts Her Power</title>
+      <link>http://www.nytimes.com/2017/01/07/world/africa/in-zimbabwe-a-first-lady-exerts-her-power.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/07/world/africa/in-zimbabwe-a-first-lady-exerts-her-power.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/07/world/africa/in-zimbabwe-a-first-lady-exerts-her-power.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/08/world/ZIMBABWE1/ZIMBABWE1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Grace Mugabe at the opening of the Zimbabwe African National Union-Patriotic Front&#x2019;s annual congress last month in Masvingo, Zimbabwe.</media:description>
+      <media:credit>Joao Silva/The New York Times</media:credit>
+      <description>Grace Mugabe, the wife of President Robert Mugabe of Zimbabwe, is one of the main actors maneuvering to succeed him.</description>
+      <dc:creator>NORIMITSU ONISHI</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 10:00:21 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Zimbabwe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Zimbabwe African National Union-Patriotic Front (ZANU-PF)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mugabe, Grace</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mugabe, Robert</category>
+    </item>
+    <item>
+      <title>California Today</title>
+      <link>http://www.nytimes.com/newsletters/california-today?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/newsletters/california-today</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/newsletters/california-today?partner=rss&amp;emc=rss"/>
+      <description>The news and stories that matter to Californians (and anyone else interested in the state). Sign up to get it by email.</description>
+      <dc:creator/>
+      <pubDate>Thu, 06 Oct 2016 13:26:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>On Soccer: After Premier League Title, Leicester City Learns Magic Goes Only So Far</title>
+      <link>http://www.nytimes.com/2017/01/07/sports/soccer/leicester-city-premier-league.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/07/sports/soccer/leicester-city-premier-league.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/07/sports/soccer/leicester-city-premier-league.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/sports/07ONSOCCER1/07ONSOCCER1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Masks of Jamie Vardy of Leicester City after the club&#x2019;s match against Everton on Dec. 26.</media:description>
+      <media:credit>Carl Recine/Reuters</media:credit>
+      <description>Giddy disbelief settled among fans and around the team during the run to the Premier League championship last season. But months after the fact, the glow is fading.</description>
+      <dc:creator>RORY SMITH</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 05:01:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">English Premier League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Leicester City (Soccer Team)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+    </item>
+    <item>
+      <title>In Turkey&#x2019;s Unrest, Some See an Extreme Version of Post-9/11 America</title>
+      <link>http://www.nytimes.com/2017/01/06/world/europe/turkey-terrorist-attacks-erdogan-crackdown.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/world/europe/turkey-terrorist-attacks-erdogan-crackdown.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/world/europe/turkey-terrorist-attacks-erdogan-crackdown.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/world/TURKEY2/TURKEY2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Police officers in Istanbul, near a nightclub where New Year&#x2019;s revelers were killed. President Recep Tayyip Erdogan has responded to violence and a coup attempt with a furious crackdown.</media:description>
+      <media:credit>Emrah Gurel/Associated Press</media:credit>
+      <description>Turkey&#x2019;s president and his allies say no other democracy has withstood such relentless terrorist attacks and a coup attempt.</description>
+      <dc:creator>TIM ARANGO and RICK GLADSTONE</dc:creator>
+      <pubDate>Sat, 07 Jan 2017 01:27:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Erdogan, Recep Tayyip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turkey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kurds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+    </item>
+    <item>
+      <title>Kerry Lists Obama Era&#x2019;s Diplomatic Successes. (Trump Opposes Them All.)</title>
+      <link>http://www.nytimes.com/2017/01/06/world/kerry-lists-obama-eras-diplomatic-successes-trump-opposes-them-all.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/world/kerry-lists-obama-eras-diplomatic-successes-trump-opposes-them-all.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/world/kerry-lists-obama-eras-diplomatic-successes-trump-opposes-them-all.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07Kerrymemo-1/KERRYMEMO1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Secretary of State John Kerry wrote an exit memo enumerating the Obama administration&#x2019;s foreign policy accomplishments.</media:description>
+      <media:credit>Jim Lo Scalzo/European Pressphoto Agency</media:credit>
+      <description>In a memo summing up the last eight years of foreign policy, the secretary of state enumerated and defended the Obama administration&#x2019;s work.</description>
+      <dc:creator>RUSSELL GOLDMAN</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 20:38:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kerry, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Guantanamo Bay Naval Base (Cuba)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+    </item>
+    <item>
+      <title>Trilobites: Light Pillars, a Million-Mirror Optical Illusion on Winter Nights</title>
+      <link>http://www.nytimes.com/2017/01/06/science/light-pillars.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/science/light-pillars.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/science/light-pillars.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/science/07tb-lightpillars01/06tb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Light pillars in Sun Valley, Idaho.</media:description>
+      <media:credit>Nils Ribi</media:credit>
+      <description>It might look like a mother ship hovering above the planet, waiting to carry you away. It&#x2019;s really an interplay of icy clouds and light pollution.</description>
+      <dc:creator>JOANNA KLEIN</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 16:08:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lighting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ice</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Winter (Season)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric Light and Power</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weather</category>
+    </item>
+    <item>
+      <title>Tilikum, the Killer Whale Featured in &#x2018;Blackfish,&#x2019; Dies</title>
+      <link>http://www.nytimes.com/2017/01/06/science/tilikum-dead-seaworld-whale-blackfish.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/science/tilikum-dead-seaworld-whale-blackfish.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/science/tilikum-dead-seaworld-whale-blackfish.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07tilikum_xp/07tilikum_xp-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Tilikum at SeaWorld Orlando in 2010, the year his trainer, Dawn Brancheau, was killed.</media:description>
+      <media:credit>Phelan M. Ebenhack/Associated Press</media:credit>
+      <description>SeaWorld announced that orca, thought to have been around 36 years old, died after suffering health problems, including a lung infection.</description>
+      <dc:creator>CHRISTINE HAUSER</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 17:13:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Whales and Whaling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Amusement and Theme Parks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fish and Other Marine Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">SeaWorld Entertainment Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Blackfish (Movie)</category>
+    </item>
+    <item>
+      <title>Winter Storm Threatens Atlanta and Rest of Southeast</title>
+      <link>http://www.nytimes.com/2017/01/06/us/winter-storm-south.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/us/winter-storm-south.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/us/winter-storm-south.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/07/us/07storm3_xp/07storm3_xp-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Customers looked for eggs on depleted store shelves of a supermarket in Decatur, Ga., on Thursday, ahead of a winter storm expected to drop several inches of snow on southern states.</media:description>
+      <media:credit>Erik S. Lesser/European Pressphoto Agency</media:credit>
+      <description>Snow, sleet and freezing rain were forecast in Kentucky, North Carolina, South Carolina and other states in the South.</description>
+      <dc:creator>ERIN McCANN</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 16:17:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Snow and Snowstorms</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weather</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mid-Atlantic States (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Weather Service</category>
+    </item>
+    <item>
+      <title>The Fix: A High-End Kitchen on the Cheap</title>
+      <link>http://www.nytimes.com/2017/01/06/realestate/a-high-end-kitchen-on-the-cheap.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/realestate/a-high-end-kitchen-on-the-cheap.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/realestate/a-high-end-kitchen-on-the-cheap.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/08/realestate/08FIX1/08FIX1-moth-v4.jpg" medium="image" height="151" width="151"/>
+      <media:description>Collin and Ashley Bond in their kitchen in Scarsdale, N.Y., with appliances scored at bargain prices.</media:description>
+      <media:credit>Linda Jaquez for The New York Times</media:credit>
+      <description>Sites like Craigslist may be the best way to score expensive appliances at rock-bottom prices. All you need is a little patience.</description>
+      <dc:creator>MICHELLE HIGGINS</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 14:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate and Housing (Residential)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Home Repairs and Improvements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Home Appliances</category>
+    </item>
+    <item>
+      <title>Giants Coach Becomes a Zinger Magnet on His Way to the Playoffs</title>
+      <link>http://www.nytimes.com/2017/01/06/sports/football/giants-coach-ben-mcadoo-playoffs-social-media.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/sports/football/giants-coach-ben-mcadoo-playoffs-social-media.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/sports/football/giants-coach-ben-mcadoo-playoffs-social-media.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/06/sports/07MCADOO/07MCADOO-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Giants Coach Ben McAdoo with the play-call sheet that some fans can&#x2019;t get enough of.</media:description>
+      <media:credit>Al Bello/Getty Images</media:credit>
+      <description>Ben McAdoo has been praised, teased, impersonated by a 12-year-old boy and tagged with nicknames like McAdozy and McAdaring &#x2014; all in his first year as head coach.</description>
+      <dc:creator>BILL PENNINGTON</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 10:00:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Giants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McAdoo, Ben</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Football League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Playoff Games</category>
+    </item>
+    <item>
+      <title>Appointment: This Men&#x2019;s Wear Shop Is Not for Everyone</title>
+      <link>http://www.nytimes.com/2017/01/06/fashion/mens-style/vivek-nagrani-menswear-shop.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/06/fashion/mens-style/vivek-nagrani-menswear-shop.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/06/fashion/mens-style/vivek-nagrani-menswear-shop.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2017/01/08/fashion/0108-Vivek-1/0108-Vivek-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Vivek Nagrani in his store in the Bowery, VK Nagrani.</media:description>
+      <media:credit>Andrew White for The New York Times</media:credit>
+      <description>The designer Vivek Nagrani has a close relationship with his clients &#x2014; and Bruce Wayne.</description>
+      <dc:creator>VALERIYA SAFRONOVA</dc:creator>
+      <pubDate>Fri, 06 Jan 2017 22:14:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nagrani, Vivek</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">VK Nagrani (Manhattan, NY, Retailer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lower East Side (Manhattan, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">men's wear</category>
+    </item>
+    <item>
+      <title>The Neediest Cases: A Young Mother&#x2019;s Solitary, Uphill Struggle</title>
+      <link>http://www.nytimes.com/2017/01/04/nyregion/neediest-cases-fund-mothers-struggle.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2017/01/04/nyregion/neediest-cases-fund-mothers-struggle.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2017/01/04/nyregion/neediest-cases-fund-mothers-struggle.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/12/31/nyregion/05neediestmyasiawilliams/05neediestmyasiawilliams-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Myasia Williams with her son, Tyrell Jr., 4. She says she tells him, &#x201C;Daddy&#x2019;s away and he loves you. He misses you very much.&#x201D;</media:description>
+      <media:credit>Emon Hassan for The New York Times</media:credit>
+      <description>Myasia Williams, whose husband is in jail, struggles with motherhood, a job, school, bills, an overcrowded apartment and her husband&#x2019;s absence.</description>
+      <dc:creator>JOHN OTIS</dc:creator>
+      <pubDate>Thu, 05 Jan 2017 16:44:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Times Neediest Cases Fund</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parenting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Children's Aid Society</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Philanthropy</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <atom:link href="http://www.dailymail.co.uk/news/worldnews/index.html" rel="self" type="application/rss+xml"/>
+    <title>World News Articles | Mail Online</title>
+    <link>http://www.dailymail.co.uk/news/worldnews/index.html?ITO=1490&amp;ns_mchannel=rss&amp;ns_campaign=1490</link>
+    <description>
+      Get the latest world news and international headlines with in-depth analysis, pictures and videos from the Daily Mail Online and Mail on Sunday
+    </description>
+    <language>en-gb</language>
+    <copyright>Copyright 2017 Associated Newspapers Ltd</copyright>
+    <pubDate>Sat, 07 Jan 2017 15:25:29 +0000</pubDate>
+    <lastBuildDate>Sat, 07 Jan 2017 15:25:29 +0000</lastBuildDate>
+    <managingEditor>editorial@mailonline.co.uk (Editor)</managingEditor>
+    <category>World News</category>
+    <category domain="dmoz">
+      Regional/Europe/United_Kingdom/News_and_Media/Newspapers
+    </category>
+    <image>
+      <title>World News Articles | Mail Online</title>
+      <url>
+	http://i.dailymail.co.uk/i/furniture/mastHead_1_rss.png
+      </url>
+      <link>
+	http://www.dailymail.co.uk/news/worldnews/index.html?ITO=1490&amp;ns_mchannel=rss&amp;ns_campaign=1490
+      </link>
+    </image>
+  </channel>
+</rss>

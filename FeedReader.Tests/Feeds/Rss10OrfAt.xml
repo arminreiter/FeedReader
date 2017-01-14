@@ -1,0 +1,1063 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:orfon="http://rss.orf.at/1.0/"
+  xmlns="http://purl.org/rss/1.0/"
+>
+  <channel rdf:about="http://orf.at/">
+    <title>news.ORF.at</title>
+    <link>http://orf.at/</link>
+    <dc:date>2017-01-07T15:57:36+01:00</dc:date>
+    <description>Die aktuellsten Nachrichten auf einen Blick - aus Ã–sterreich und der ganzen Welt. In Text, Bild und Video.</description>
+    <dc:publisher>ORF Ã–sterreichischer Rundfunk, Wien</dc:publisher>
+    <dc:creator>ORF Online und Teletext GmbH &amp; Co KG</dc:creator>
+    <dc:language>de</dc:language>
+    <dc:rights>Copyright &#169; 2017 ORF Online und Teletext GmbH &amp; Co KG</dc:rights>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>2</sy:updateFrequency>
+    <sy:updateBase>2000-01-01T00:00:00Z</sy:updateBase>
+    <orfon:site>news.ORF.at</orfon:site>
+
+
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://orf.at/stories/2374140/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374139/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374138/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374137/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374136/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374135/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374134/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374129/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374133/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374119/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374132/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374131/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374128/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374127/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374126/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374124/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374123/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374122/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374121/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374120/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374118/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374116/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374117/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374115/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374114/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374113/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374112/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374111/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374102/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374110/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374109/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374108/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374107/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374105/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374104/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374103/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374101/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2367080/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374100/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374099/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374098/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374097/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374096/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374095/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374094/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374093/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374092/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374091/" />
+
+        <rdf:li rdf:resource="http://orf.at/stories/2374087/" />
+
+
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="http://orf.at/stories/2374140/">
+    <title>Fassade hochgeklettert: TÃ¶dlicher Absturz</title>
+
+    <link>http://orf.at/stories/2374140/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T15:57:36+01:00</dc:date>
+
+    <orfon:usid>news:2374140</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374139/">
+    <title>Wiener Szenelokal verweigert Gudenus Bedienung</title>
+
+    <link>http://orf.at/stories/2374139/</link>
+    <dc:subject>Leute</dc:subject>
+    <dc:date>2017-01-07T15:39:34+01:00</dc:date>
+
+    <orfon:usid>news:2374139</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:GesellschaftUndLeute" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374138/">
+    <title>Zehn Menschen bei Unfall in Marokko verbrannt</title>
+
+    <link>http://orf.at/stories/2374138/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T15:28:35+01:00</dc:date>
+
+    <orfon:usid>news:2374138</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374137/">
+    <title>Physik-Popstar Stephen Hawking ist 75</title>
+
+    <link>http://orf.at/stories/2374137/</link>
+    <dc:subject>Science</dc:subject>
+    <dc:date>2017-01-07T15:17:15+01:00</dc:date>
+
+    <orfon:usid>news:2374137</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft:WissenschaftUeberblick" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374136/">
+    <title>Irak: Einigung Ã¼ber Abzug tÃ¼rkischer Truppen</title>
+
+    <link>http://orf.at/stories/2374136/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T15:03:35+01:00</dc:date>
+
+    <orfon:usid>news:2374136</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374135/">
+    <title>TÃ¶dlicher Unfall mit Paragleiter in Salzburg</title>
+
+    <link>http://orf.at/stories/2374135/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T14:43:55+01:00</dc:date>
+
+    <orfon:usid>news:2374135</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374134/">
+    <title>FÃ¼nf Tote nach SchÃ¼ssen auf US-Airport: Suche nach Motiv</title>
+
+    <link>http://orf.at/stories/2374134/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T14:25:21+01:00</dc:date>
+
+    <orfon:usid>news:2374134</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374129/">
+    <title>KÃ¤ltewelle: Schneesturm legt Istanbul lahm</title>
+
+    <link>http://orf.at/stories/2374129/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T14:23:18+01:00</dc:date>
+
+    <orfon:usid>news:2374129</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:story" />
+
+    <orfon:substories>
+      <rdf:Bag>
+        <rdf:li
+  rdf:resource="http://wetter.orf.at/oes/prognose"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374129/2374130/"
+/>
+        <rdf:li
+         rdf:resource="http://oesterreich.orf.at/stories/2818592/"
+/>
+        <rdf:li
+         rdf:resource="http://steiermark.orf.at/news/stories/2818555/"
+/>
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374133/">
+    <title>Italiens Museen feierten 2016 Besucherrekorde</title>
+
+    <link>http://orf.at/stories/2374133/</link>
+    <dc:subject>Kultur</dc:subject>
+    <dc:date>2017-01-07T13:50:44+01:00</dc:date>
+
+    <orfon:usid>news:2374133</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:KulturUndFreizeit:KulturUeberblick" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374119/">
+    <title>Abschiedsparty: Obamas feiern mit Superstars</title>
+
+    <link>http://orf.at/stories/2374119/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T13:28:35+01:00</dc:date>
+
+    <orfon:usid>news:2374119</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:story" />
+
+    <orfon:substories>
+      <rdf:Bag>
+        <rdf:li
+  rdf:resource="http://debatte.orf.at/stories/1775386/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374119/2374125/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374087/2374089/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374087/2374088/"
+/>
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374132/">
+    <title>14-JÃ¤hriger am Steuer eines gestohlenen Autos angehalten</title>
+
+    <link>http://orf.at/stories/2374132/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T13:24:50+01:00</dc:date>
+
+    <orfon:usid>news:2374132</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374131/">
+    <title>â€žProfilâ€œ: Wiener Lokal verweigerte Gudenus Bedienung</title>
+
+    <link>http://orf.at/stories/2374131/</link>
+    <dc:subject>Inland</dc:subject>
+    <dc:date>2017-01-07T13:22:01+01:00</dc:date>
+
+    <orfon:usid>news:2374131</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikInland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374128/">
+    <title>Syrien: Offensive gegen vom IS kontrollierten Staudamm</title>
+
+    <link>http://orf.at/stories/2374128/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T12:18:21+01:00</dc:date>
+
+    <orfon:usid>news:2374128</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374127/">
+    <title>Geldnot: Schauspieler Mujic verkaufte Silbernen BÃ¤ren</title>
+
+    <link>http://orf.at/stories/2374127/</link>
+    <dc:subject>Leute</dc:subject>
+    <dc:date>2017-01-07T12:15:22+01:00</dc:date>
+
+    <orfon:usid>news:2374127</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:GesellschaftUndLeute" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374126/">
+    <title>Soldatenrevolte in der ElfenbeinkÃ¼ste: SchÃ¼sse in Abidjan</title>
+
+    <link>http://orf.at/stories/2374126/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T12:05:08+01:00</dc:date>
+
+    <orfon:usid>news:2374126</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374124/">
+    <title>Pakistans Ex-Armeechef soll Anti-Terror-Allianz leiten</title>
+
+    <link>http://orf.at/stories/2374124/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T12:01:32+01:00</dc:date>
+
+    <orfon:usid>news:2374124</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374123/">
+    <title>Berlin-Anschlag: Amris Waffe kÃ¶nnte aus Schweiz stammen</title>
+
+    <link>http://orf.at/stories/2374123/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T11:43:06+01:00</dc:date>
+
+    <orfon:usid>news:2374123</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374122/">
+    <title>Vorratsdaten: Neue Regelung soll bis Februar stehen</title>
+
+    <link>http://orf.at/stories/2374122/</link>
+    <dc:subject>Inland</dc:subject>
+    <dc:date>2017-01-07T11:35:11+01:00</dc:date>
+
+    <orfon:usid>news:2374122</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikInland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374121/">
+    <title>Parkplatzmord in Tirol: Witwe im Visier der Ermittler</title>
+
+    <link>http://orf.at/stories/2374121/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T11:31:16+01:00</dc:date>
+
+    <orfon:usid>news:2374121</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374120/">
+    <title>NFL: â€žWildesâ€œ Wochenende erÃ¶ffnet Schlussspurt</title>
+
+    <link>http://orf.at/stories/2374120/</link>
+    <dc:subject>Sport</dc:subject>
+    <dc:date>2017-01-07T11:28:52+01:00</dc:date>
+
+    <orfon:usid>news:2374120</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Sport:Sportueberblick" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374118/">
+    <title>Duzdar stÃ¶rt Art der Debatte Ã¼ber Kopftuchverbot</title>
+
+    <link>http://orf.at/stories/2374118/</link>
+    <dc:subject>Inland</dc:subject>
+    <dc:date>2017-01-07T11:12:10+01:00</dc:date>
+
+    <orfon:usid>news:2374118</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikInland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374116/">
+    <title>LawinenabgÃ¤nge: Tourengeher lebend geborgen</title>
+
+    <link>http://orf.at/stories/2374116/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T10:57:33+01:00</dc:date>
+
+    <orfon:usid>news:2374116</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374117/">
+    <title>Promiparty zu Obamas Abschied im WeiÃŸen Haus</title>
+
+    <link>http://orf.at/stories/2374117/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T10:56:34+01:00</dc:date>
+
+    <orfon:usid>news:2374117</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374115/">
+    <title>Server der baltischen Nachrichtenagentur BNS angegriffen</title>
+
+    <link>http://orf.at/stories/2374115/</link>
+    <dc:subject>Medien</dc:subject>
+    <dc:date>2017-01-07T10:51:52+01:00</dc:date>
+
+    <orfon:usid>news:2374115</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:MedienUndWerbung:Medien" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374114/">
+    <title>BBC-Musikprognose: Ray BLK soll 2017 durchstarten</title>
+
+    <link>http://orf.at/stories/2374114/</link>
+    <dc:subject>Kultur</dc:subject>
+    <dc:date>2017-01-07T10:50:45+01:00</dc:date>
+
+    <orfon:usid>news:2374114</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:KulturUndFreizeit:Musik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374113/">
+    <title>KÃ¤lte hat Europa fest im Griff - mehrere Tote</title>
+
+    <link>http://orf.at/stories/2374113/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T10:28:09+01:00</dc:date>
+
+    <orfon:usid>news:2374113</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374112/">
+    <title>â€žGemeinsamer Wegâ€œ: Platter appelliert an Ã–VP-Spitze</title>
+
+    <link>http://orf.at/stories/2374112/</link>
+    <dc:subject>Inland</dc:subject>
+    <dc:date>2017-01-07T10:10:38+01:00</dc:date>
+
+    <orfon:usid>news:2374112</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikInland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374111/">
+    <title>Irakische Armee: Neuer VorstoÃŸ im Kampf um Mossul</title>
+
+    <link>http://orf.at/stories/2374111/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T10:01:16+01:00</dc:date>
+
+    <orfon:usid>news:2374111</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374102/">
+    <title>Obergrenzenstreit: Doskozil attackiert EU-Kommission</title>
+
+    <link>http://orf.at/stories/2374102/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T10:00:07+01:00</dc:date>
+
+    <orfon:usid>news:2374102</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:story" />
+
+    <orfon:substories>
+      <rdf:Bag>
+        <rdf:li
+  rdf:resource="http://orf.at/stories/2374102/2374106/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374102/2373997/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374102/2373894/"
+/>
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374110/">
+    <title>Kritik an teuren Rechnungen nach RettungseinsÃ¤tzen</title>
+
+    <link>http://orf.at/stories/2374110/</link>
+    <dc:subject>Inland</dc:subject>
+    <dc:date>2017-01-07T09:46:58+01:00</dc:date>
+
+    <orfon:usid>news:2374110</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikInland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374109/">
+    <title>Tirol: Fahrerflucht nach Geisterfahrerunfall</title>
+
+    <link>http://orf.at/stories/2374109/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T09:40:41+01:00</dc:date>
+
+    <orfon:usid>news:2374109</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374108/">
+    <title>SchneestÃ¼rme an amerikanischer WestkÃ¼ste</title>
+
+    <link>http://orf.at/stories/2374108/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T09:37:56+01:00</dc:date>
+
+    <orfon:usid>news:2374108</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374107/">
+    <title>Islamische Glaubensgemeinschaft will Moscheen Ã¶ffnen</title>
+
+    <link>http://orf.at/stories/2374107/</link>
+    <dc:subject>Religion</dc:subject>
+    <dc:date>2017-01-07T09:26:23+01:00</dc:date>
+
+    <orfon:usid>news:2374107</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Religion" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374105/">
+    <title>Josef Hader gibt DebÃ¼t als Regisseur und Drehbuchautor</title>
+
+    <link>http://orf.at/stories/2374105/</link>
+    <dc:subject>Kultur</dc:subject>
+    <dc:date>2017-01-07T08:25:36+01:00</dc:date>
+
+    <orfon:usid>news:2374105</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:KulturUndFreizeit:FilmUndKino" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374104/">
+    <title>OÃ–: Gesuchter Bergsteiger vom GroÃŸen Pyhrgas gerettet</title>
+
+    <link>http://orf.at/stories/2374104/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T08:23:13+01:00</dc:date>
+
+    <orfon:usid>news:2374104</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374103/">
+    <title>FuÃŸball: Real hat Barcas Rekord im Visier</title>
+
+    <link>http://orf.at/stories/2374103/</link>
+    <dc:subject>Sport</dc:subject>
+    <dc:date>2017-01-07T07:53:05+01:00</dc:date>
+
+    <orfon:usid>news:2374103</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Sport:Sportueberblick" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374101/">
+    <title>Skispringen: Stoch holt sich Tournee-Triumph</title>
+
+    <link>http://orf.at/stories/2374101/</link>
+    <dc:subject>Sport</dc:subject>
+    <dc:date>2017-01-07T07:47:07+01:00</dc:date>
+
+    <orfon:usid>news:2374101</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Sport:Sportueberblick" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2367080/">
+    <title>BrÃ¼sselisierung: Stadtplanung mit der Abrissbirne</title>
+
+    <link>http://orf.at/stories/2367080/</link>
+    <dc:subject>Kultur</dc:subject>
+    <dc:date>2017-01-07T07:45:29+01:00</dc:date>
+
+    <orfon:usid>news:2367080</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:KulturUndFreizeit:KulturUeberblick" />
+    <orfon:storyType rdf:resource="urn:orfon:type:story" />
+
+    <orfon:substories>
+      <rdf:Bag>
+        <rdf:li
+  rdf:resource="http://orf.at/stories/2367080/2367081/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2367080/2367518/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2367080/2370355/"
+/>
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374100/">
+    <title>Mindestens zwÃ¶lf Tote bei Ãœberflutungen in Thailand</title>
+
+    <link>http://orf.at/stories/2374100/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T07:39:41+01:00</dc:date>
+
+    <orfon:usid>news:2374100</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374099/">
+    <title>Bericht: Charles Manson zu schwach fÃ¼r eine Operation</title>
+
+    <link>http://orf.at/stories/2374099/</link>
+    <dc:subject>Leute</dc:subject>
+    <dc:date>2017-01-07T07:36:53+01:00</dc:date>
+
+    <orfon:usid>news:2374099</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:GesellschaftUndLeute" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374098/">
+    <title>Ski alpin: Hirscher sucht Trost in Adelboden</title>
+
+    <link>http://orf.at/stories/2374098/</link>
+    <dc:subject>Sport</dc:subject>
+    <dc:date>2017-01-07T07:33:15+01:00</dc:date>
+
+    <orfon:usid>news:2374098</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Sport:Sportueberblick" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374097/">
+    <title>China WeltmarktfÃ¼hrer bei erneuerbaren Energien</title>
+
+    <link>http://orf.at/stories/2374097/</link>
+    <dc:subject>Wirtschaft</dc:subject>
+    <dc:date>2017-01-07T07:32:48+01:00</dc:date>
+
+    <orfon:usid>news:2374097</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wirtschaft:Wirtschaftspolitik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374096/">
+    <title>Bulgarien: Erneut zwei FlÃ¼chtlinge erfroren</title>
+
+    <link>http://orf.at/stories/2374096/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T07:30:58+01:00</dc:date>
+
+    <orfon:usid>news:2374096</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374095/">
+    <title>Bericht: TÃ¼rkei entlÃ¤sst weitere 6.000 Staatsbedienstete</title>
+
+    <link>http://orf.at/stories/2374095/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T07:30:57+01:00</dc:date>
+
+    <orfon:usid>news:2374095</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374094/">
+    <title>Israel kÃ¼rzt BeitrÃ¤ge an UNO</title>
+
+    <link>http://orf.at/stories/2374094/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-07T04:46:12+01:00</dc:date>
+
+    <orfon:usid>news:2374094</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374093/">
+    <title>Tote bei Protesten gegen SpritpreiserhÃ¶hung in Mexiko</title>
+
+    <link>http://orf.at/stories/2374093/</link>
+    <dc:subject>Chronik</dc:subject>
+    <dc:date>2017-01-07T03:08:53+01:00</dc:date>
+
+    <orfon:usid>news:2374093</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:Chronik" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374092/">
+    <title>Carrie Fisher und Debbie Reynolds in LA beigesetzt</title>
+
+    <link>http://orf.at/stories/2374092/</link>
+    <dc:subject>Leute</dc:subject>
+    <dc:date>2017-01-06T23:44:56+01:00</dc:date>
+
+    <orfon:usid>news:2374092</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten:GesellschaftUndLeute" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374091/">
+    <title>Schriftsteller Ricardo Piglia ist tot</title>
+
+    <link>http://orf.at/stories/2374091/</link>
+    <dc:subject>Kultur</dc:subject>
+    <dc:date>2017-01-06T23:34:55+01:00</dc:date>
+
+    <orfon:usid>news:2374091</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:KulturUndFreizeit:Literatur" />
+    <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+
+    <orfon:substories>
+      <rdf:Bag>
+
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+  <item rdf:about="http://orf.at/stories/2374087/">
+    <title>Putin als Wahlhelfer? Hackerangriffe bleiben Topthema in den USA</title>
+
+    <link>http://orf.at/stories/2374087/</link>
+    <dc:subject>Ausland</dc:subject>
+    <dc:date>2017-01-06T23:28:34+01:00</dc:date>
+
+    <orfon:usid>news:2374087</orfon:usid>
+    <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik:PolitikAusland" />
+    <orfon:storyType rdf:resource="urn:orfon:type:story" />
+
+    <orfon:substories>
+      <rdf:Bag>
+        <rdf:li
+  rdf:resource="http://debatte.orf.at/stories/1775386/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374087/2374088/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374087/2374090/"
+/>
+        <rdf:li
+         rdf:resource="http://orf.at/stories/2374087/2374089/"
+/>
+      </rdf:Bag>
+    </orfon:substories>
+  </item>
+
+
+</rdf:RDF>
+
+

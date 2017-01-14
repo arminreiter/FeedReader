@@ -1,0 +1,439 @@
+﻿<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:mir="http://www.mirror.co.uk" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>mirror - World news</title>
+    <link>http://www.mirror.co.uk/</link>
+    <atom:link href="http://www.mirror.co.uk/news/world-news/?service=rss" rel="self" type="application/rss+xml"/>
+    <description>RSS feed from Mirror</description>
+    <language>en-gb</language>
+    <copyright>Trinity Mirror 2012</copyright>
+    <pubDate>Thu, 04 Aug 2016 14:40:31 GMT</pubDate>
+    <category>World news</category>
+    <lastBuildDate>Thu, 04 Aug 2016 14:40:31 GMT</lastBuildDate>
+    <!-- Not mobile -->
+    <item>
+      <title>Sickening video shows crocodile keep snapping its jaws after being beheaded on cruel reptile farm</title>
+      <link>http://www.mirror.co.uk/news/world-news/sickening-video-shows-crocodile-keep-9578868</link>
+      <description><![CDATA[&#xa; WARNING GRAPHIC&nbsp;FOOTAGE&#x3a; The stricken animal is brutally killed as a farm worker laughs in this stomach-churning film&#xa; ]]></description>
+      <author>Joshua Taylor</author>
+      <pubDate>Sat, 07 Jan 2017 14:26:00 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/sickening-video-shows-crocodile-keep-9578868</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Animal cruelty , Crocodiles ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9578840.ece/ALTERNATES/s98/HORRIFIC-FOOTAGE.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9578840.ece/ALTERNATES/s615/HORRIFIC-FOOTAGE.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9578840.ece/ALTERNATES/s615/HORRIFIC-FOOTAGE.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9578868</mir:commentsID>
+    </item>
+    <item>
+      <title>Woman left close to death after &#039;drunk husband forces 40cm rolling pin inside her because she&#039;s infertile&#039;</title>
+      <link>http://www.mirror.co.uk/news/world-news/woman-left-close-death-after-9578671</link>
+      <description><![CDATA[&#xa; WARNING - GRAPHIC CONTENT&#x3a; The 38-year-old woman was admitted to hospital on Christmas Day after complaining of severe abdominal pains and swelling&#xa; ]]></description>
+      <author>Anthony Bond</author>
+      <pubDate>Sat, 07 Jan 2017 14:14:43 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/woman-left-close-death-after-9578671</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Hospitals , Fertility ]]></media:keywords>
+      <media:thumbnail url="http://i1.mirror.co.uk/incoming/article9578954.ece/ALTERNATES/s98/PAY-MAIN-Woman-left-close-to-death-after-husband-forces-40cm-rolling-pin-into-wife.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i4.mirror.co.uk/incoming/article9578954.ece/ALTERNATES/s615/PAY-MAIN-Woman-left-close-to-death-after-husband-forces-40cm-rolling-pin-into-wife.jpg" />
+      <media:content url="http://i4.mirror.co.uk/incoming/article9578954.ece/ALTERNATES/s615/PAY-MAIN-Woman-left-close-to-death-after-husband-forces-40cm-rolling-pin-into-wife.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9578671</mir:commentsID>
+    </item>
+    <item>
+      <title>Scientists develop blood test &#039;able to predict how long you will live&#039;</title>
+      <link>http://www.mirror.co.uk/news/world-news/scientists-develop-blood-test-able-9578689</link>
+      <description><![CDATA[&#xa; Researchers at Boston University in the US say the revolutionary test will allow medics to determine patients&#x27; chances of getting age-related diseases such as cancer&#xa; ]]></description>
+      <author>Richard Wheatstone</author>
+      <pubDate>Sat, 07 Jan 2017 13:38:45 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/scientists-develop-blood-test-able-9578689</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Boston University ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9578784.ece/ALTERNATES/s98/MAIN-Untitled-1.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9578784.ece/ALTERNATES/s615/MAIN-Untitled-1.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9578784.ece/ALTERNATES/s615/MAIN-Untitled-1.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9578689</mir:commentsID>
+    </item>
+    <item>
+      <title>Horror accident at trampoline play park leaves mum with nose torn from lip</title>
+      <link>http://www.mirror.co.uk/news/world-news/horror-accident-trampoline-play-park-9578354</link>
+      <description><![CDATA[&#xa; Michelle Conway had blood pouring down her face after her top lip was ripped away from her nose in the accident at Flip Out, Chester&#xa; ]]></description>
+      <author>Cath Ascroft</author>
+      <pubDate>Sat, 07 Jan 2017 13:24:15 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/horror-accident-trampoline-play-park-9578354</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Hospitals , Theme parks , Parenting ]]></media:keywords>
+      <media:thumbnail url="http://i1.mirror.co.uk/incoming/article9578702.ece/ALTERNATES/s98/PAY-MAIN-Michelle-Conway.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i4.mirror.co.uk/incoming/article9578702.ece/ALTERNATES/s615/PAY-MAIN-Michelle-Conway.jpg" />
+      <media:content url="http://i4.mirror.co.uk/incoming/article9578702.ece/ALTERNATES/s615/PAY-MAIN-Michelle-Conway.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9578354</mir:commentsID>
+    </item>
+    <item>
+      <title>The haunting pictures taken inside once-grand hotel with rotting bedding and peeling walls</title>
+      <link>http://www.mirror.co.uk/news/world-news/haunting-pictures-taken-inside-once-9574199</link>
+      <description><![CDATA[&#xa; The Thomas Jefferson Hotel was once a bustling 19-floor, 300-room hotel, completed in 1929&#xa; ]]></description>
+      <author>Keyan Milanian</author>
+      <pubDate>Sat, 07 Jan 2017 12:39:47 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/haunting-pictures-taken-inside-once-9574199</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Viral ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9574589.ece/ALTERNATES/s98/Hotel-main.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9574589.ece/ALTERNATES/s615/Hotel-main.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9574589.ece/ALTERNATES/s615/Hotel-main.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9574199</mir:commentsID>
+    </item>
+    <item>
+      <title>Dad forced to carry dead body of daughter, 5, for nine miles because he was too poor for a hearse</title>
+      <link>http://www.mirror.co.uk/news/world-news/dad-forced-carry-dead-body-9578237</link>
+      <description><![CDATA[&#xa; He did not have enough money for a hearse and was not made aware of a free transportation service&#xa; ]]></description>
+      <author>Joshua Taylor</author>
+      <pubDate>Sat, 07 Jan 2017 12:08:33 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/dad-forced-carry-dead-body-9578237</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Hospitals , Funerals , poverty ]]></media:keywords>
+      <media:thumbnail url="http://i3.mirror.co.uk/incoming/article9578208.ece/ALTERNATES/s98/Untitled-5.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i2.mirror.co.uk/incoming/article9578208.ece/ALTERNATES/s615/Untitled-5.jpg" />
+      <media:content url="http://i2.mirror.co.uk/incoming/article9578208.ece/ALTERNATES/s615/Untitled-5.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9578237</mir:commentsID>
+    </item>
+    <item>
+      <title>Terrifying video shows boy, 3, found wandering around petrol station forecourt by himself in the dead of night</title>
+      <link>http://www.mirror.co.uk/news/world-news/terrifying-video-shows-boy-3-9578213</link>
+      <description><![CDATA[&#xa; The boy wearing his pyjamas was picked up by police after being taken in by petrol station staff&#xa; ]]></description>
+      <author>Joshua Taylor</author>
+      <pubDate>Sat, 07 Jan 2017 11:53:23 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/terrifying-video-shows-boy-3-9578213</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Police , Detroit, Michigan Airport ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9578141.ece/ALTERNATES/s98/MAIN-3-year-old-seen-wandering-around-by-himself-in-at-petrol-station-at-430am.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9578141.ece/ALTERNATES/s615/MAIN-3-year-old-seen-wandering-around-by-himself-in-at-petrol-station-at-430am.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9578141.ece/ALTERNATES/s615/MAIN-3-year-old-seen-wandering-around-by-himself-in-at-petrol-station-at-430am.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9578213</mir:commentsID>
+    </item>
+    <item>
+      <title>Mum regularly mistaken for being same age as two daughters half her age - but can you tell them apart?</title>
+      <link>http://www.mirror.co.uk/news/world-news/mum-regularly-mistaken-being-same-9578105</link>
+      <description><![CDATA[Natalie Wardell, 45, says daughters Jazmyne, 21 and Tamika, 19 are more like her best friends - with the blonde trio partying together almost every weekend]]></description>
+      <author>Rachel Bishop</author>
+      <pubDate>Sat, 07 Jan 2017 11:10:10 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/mum-regularly-mistaken-being-same-9578105</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Cars , Age gap ]]></media:keywords>
+      <media:thumbnail url="http://i4.mirror.co.uk/incoming/article9578151.ece/ALTERNATES/s98/MAIN-Natalie-Jazmyne-and-Tamika-Wardell.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i3.mirror.co.uk/incoming/article9578151.ece/ALTERNATES/s615/MAIN-Natalie-Jazmyne-and-Tamika-Wardell.jpg" />
+      <media:content url="http://i3.mirror.co.uk/incoming/article9578151.ece/ALTERNATES/s615/MAIN-Natalie-Jazmyne-and-Tamika-Wardell.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9578105</mir:commentsID>
+    </item>
+    <item>
+      <title>&#039;Ethiopian Spice Girls&#039; will no longer be given millions of pounds of British taxpayers&#039; money</title>
+      <link>http://www.mirror.co.uk/news/world-news/ethiopian-spice-girls-no-longer-9577891</link>
+      <description><![CDATA[&#xa; A Department for International Development spokesman said&#x3a; &quot;There are more effective ways to invest UK aid and to deliver even better results for the world&#x27;s poorest and value for taxpayers&#x27; money&quot;&#xa; ]]></description>
+      <author>David Hughes</author>
+      <pubDate>Sat, 07 Jan 2017 09:54:45 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/ethiopian-spice-girls-no-longer-9577891</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[International Development , Priti Patel , Spice Girls , Public services , Films , Tax ]]></media:keywords>
+      <media:thumbnail url="http://i4.mirror.co.uk/incoming/article9577916.ece/ALTERNATES/s98/Ethiopian-girl-band-yegna.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i3.mirror.co.uk/incoming/article9577916.ece/ALTERNATES/s615/Ethiopian-girl-band-yegna.jpg" />
+      <media:content url="http://i3.mirror.co.uk/incoming/article9577916.ece/ALTERNATES/s615/Ethiopian-girl-band-yegna.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577891</mir:commentsID>
+    </item>
+    <item>
+      <title>King of Instagram Dan Bilzerian poses with topless models, private jets and guns in latest lavish video</title>
+      <link>http://www.mirror.co.uk/news/world-news/king-instagram-dan-bilzerian-poses-9577897</link>
+      <description><![CDATA[&#xa; The millionaire playboy said&#x3a; &quot;If you hate seeing me do well, 2017 gonna be another f&#x2a;&#x2a;&#x2a;&#x2a;&#x2a; up year for you&quot;&#xa; ]]></description>
+      <author>Joshua Taylor</author>
+      <pubDate>Sat, 07 Jan 2017 09:13:20 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/king-instagram-dan-bilzerian-poses-9577897</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Dan Bilzerian , Private jets , Boobs ]]></media:keywords>
+      <media:thumbnail url="http://i4.mirror.co.uk/incoming/article9577917.ece/ALTERNATES/s98/MAIN-Babes-butts-and-boobs-Smug-King-of-Instagram-flaunts-epic-lifestyle-in-new-video-Dan-Blizerian.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i3.mirror.co.uk/incoming/article9577917.ece/ALTERNATES/s615/MAIN-Babes-butts-and-boobs-Smug-King-of-Instagram-flaunts-epic-lifestyle-in-new-video-Dan-Blizerian.jpg" />
+      <media:content url="http://i3.mirror.co.uk/incoming/article9577917.ece/ALTERNATES/s615/MAIN-Babes-butts-and-boobs-Smug-King-of-Instagram-flaunts-epic-lifestyle-in-new-video-Dan-Blizerian.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577897</mir:commentsID>
+    </item>
+    <item>
+      <title>Dad recalls harrowing moment he found wife and daughter dead after horror Christmas crash with learner driver</title>
+      <link>http://www.mirror.co.uk/news/world-news/dad-recalls-harrowing-moment-found-9577824</link>
+      <description><![CDATA[&#xa; Noel Clancy&#x27;s wife Geraldine and daughter Louise drowned in a ditch after their car was hit on their way to do Christmas shopping&#xa; ]]></description>
+      <author>Brynmor Pattison</author>
+      <pubDate>Sat, 07 Jan 2017 06:52:11 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/dad-recalls-harrowing-moment-found-9577824</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Car crashes ]]></media:keywords>
+      <media:thumbnail url="http://i3.mirror.co.uk/incoming/article7059898.ece/ALTERNATES/s98/MAIN-Cork-river-crash-victims.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i2.mirror.co.uk/incoming/article7059898.ece/ALTERNATES/s615/MAIN-Cork-river-crash-victims.jpg" />
+      <media:content url="http://i2.mirror.co.uk/incoming/article7059898.ece/ALTERNATES/s615/MAIN-Cork-river-crash-victims.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577824</mir:commentsID>
+    </item>
+    <item>
+      <title>Parents hunted after five-year-old boy beaten, scalded with boiling water and dumped at hospital</title>
+      <link>http://www.mirror.co.uk/news/world-news/parents-hunted-after-five-year-9577819</link>
+      <description><![CDATA[&#xa; The child had suffered scalding to his groin and abdomen where boiling water had been deliberately poured on his genitals&#xa; ]]></description>
+      <author>Natalie Evans</author>
+      <pubDate>Sat, 07 Jan 2017 06:16:03 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/parents-hunted-after-five-year-9577819</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Child abuse , Crime ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9576066.ece/ALTERNATES/s98/MAIN-Police-were-today-hunting-the-parents-of-a-five-year-boy-dumped.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9576066.ece/ALTERNATES/s615/MAIN-Police-were-today-hunting-the-parents-of-a-five-year-boy-dumped.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9576066.ece/ALTERNATES/s615/MAIN-Police-were-today-hunting-the-parents-of-a-five-year-boy-dumped.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577819</mir:commentsID>
+    </item>
+    <item>
+      <title>Chapecoense plane crash survivor Neto chats to youth players as devastated Brazilian side presents new team</title>
+      <link>http://www.mirror.co.uk/sport/football/news/chapecoense-plane-crash-survivor-neto-9577767</link>
+      <description><![CDATA[&#xa; The football club lost almost all its senior players when the jet carrying them to the Copa Sudamericana hit a mountain in Colombia&#xa; ]]></description>
+      <author>Natalie Evans</author>
+      <pubDate>Sat, 07 Jan 2017 04:13:06 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/sport/football/news/chapecoense-plane-crash-survivor-neto-9577767</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Plane crash , AssociaÃ§Ã£o Chapecoense de Futebol ]]></media:keywords>
+      <media:thumbnail url="http://i3.mirror.co.uk/incoming/article9577679.ece/ALTERNATES/s98/MAIN-Chapecoense.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i2.mirror.co.uk/incoming/article9577679.ece/ALTERNATES/s615/MAIN-Chapecoense.jpg" />
+      <media:content url="http://i2.mirror.co.uk/incoming/article9577679.ece/ALTERNATES/s615/MAIN-Chapecoense.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577767</mir:commentsID>
+    </item>
+    <item>
+      <title>Was Fort Lauderdale shooting air rage? Suspect &#039;argued with passengers&#039; before &#039;executing five people at baggage reclaim&#039;</title>
+      <link>http://www.mirror.co.uk/news/world-news/fort-lauderdale-shooting-air-rage-9577691</link>
+      <description><![CDATA[Esteban Santiago-Ruiz is thought to have collected his gun from his checked luggage before loading it in a bathroom and returning to open fire]]></description>
+      <author>Natalie Evans</author>
+      <pubDate>Sat, 07 Jan 2017 02:06:19 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/fort-lauderdale-shooting-air-rage-9577691</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Crime , Gun crime ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9577493.ece/ALTERNATES/s98/MAIN-Lauderdale.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9577493.ece/ALTERNATES/s615/MAIN-Lauderdale.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9577493.ece/ALTERNATES/s615/MAIN-Lauderdale.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577691</mir:commentsID>
+    </item>
+    <item>
+      <title>Vladimir Putin &#039;directed cyber hacking campaign to help Donald Trump win US presidential election&#039;</title>
+      <link>http://www.mirror.co.uk/news/world-news/vladimir-putin-directed-cyber-hacking-9577475</link>
+      <description><![CDATA[&#xa; US intelligence agencies concluded Russia sought to help Trump by discrediting rival Hillary Clinton&#xa; ]]></description>
+      <author>Natalie Evans</author>
+      <pubDate>Sat, 07 Jan 2017 00:59:57 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/vladimir-putin-directed-cyber-hacking-9577475</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Donald Trump , Vladimir Putin , Hillary Rodham Clinton , US Election , Politics ]]></media:keywords>
+      <media:thumbnail url="http://i3.mirror.co.uk/incoming/article9577605.ece/ALTERNATES/s98/MAIN-Trump-and-Putin.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i2.mirror.co.uk/incoming/article9577605.ece/ALTERNATES/s615/MAIN-Trump-and-Putin.jpg" />
+      <media:content url="http://i2.mirror.co.uk/incoming/article9577605.ece/ALTERNATES/s615/MAIN-Trump-and-Putin.jpg" type=""
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577475</mir:commentsID>
+    </item>
+    <item>
+      <title>British spies alerted America to Russia&#039;s cyber attack on US election</title>
+      <link>http://www.mirror.co.uk/news/world-news/british-spies-alerted-america-russias-9577651</link>
+      <description><![CDATA[&#xa; GCHQ had prevented a breach of every Whitehall server in 2015, including the Home Office, Foreign Office and Ministry of Defence&#xa; ]]></description>
+      <author>Christopher Bucktin</author>
+      <pubDate>Sat, 07 Jan 2017 00:35:35 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/british-spies-alerted-america-russias-9577651</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Donald Trump , Vladimir Putin , Politics , US Election ]]></media:keywords>
+      <media:thumbnail url="http://i3.mirror.co.uk/incoming/article9577605.ece/ALTERNATES/s98/MAIN-Trump-and-Putin.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i2.mirror.co.uk/incoming/article9577605.ece/ALTERNATES/s615/MAIN-Trump-and-Putin.jpg" />
+      <media:content url="http://i2.mirror.co.uk/incoming/article9577605.ece/ALTERNATES/s615/MAIN-Trump-and-Putin.jpg" type=""
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577651</mir:commentsID>
+    </item>
+    <item>
+      <title>Fort Lauderdale Airport shooting suspect Esteban Santiago-Ruiz &#039;told FBI he was forced to fight for ISIS&#039;</title>
+      <link>http://www.mirror.co.uk/news/world-news/fort-lauderdale-airport-shooting-suspect-9577604</link>
+      <description><![CDATA[Santiago-Ruiz&#x27;s aunt claims he was hospitalised with mental health issues after he &quot;lost his mind&quot; following a tour of duty in Iraq]]></description>
+      <author>Natalie Evans</author>
+      <pubDate>Fri, 06 Jan 2017 23:30:50 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/fort-lauderdale-airport-shooting-suspect-9577604</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Crime , Gun crime ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9577567.ece/ALTERNATES/s98/MAIN-Suspect-of-Fort-Lauderdale-airport-shooting-Esteban-Santiago.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9577567.ece/ALTERNATES/s615/MAIN-Suspect-of-Fort-Lauderdale-airport-shooting-Esteban-Santiago.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9577567.ece/ALTERNATES/s615/MAIN-Suspect-of-Fort-Lauderdale-airport-shooting-Esteban-Santiago.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577604</mir:commentsID>
+    </item>
+    <item>
+      <title>Fort Lauderdale Airport shooting suspect named as Esteban Santiago-Ruiz: what we know so far</title>
+      <link>http://www.mirror.co.uk/news/world-news/what-know-fort-lauderdale-airport-9576476</link>
+      <description><![CDATA[The shooter, who killed five people in the airport baggage claim, has been named as Esteban Santiago-Ruiz, from New Jersey but who had lived in Alaska]]></description>
+      <author>Patrick Lion</author>
+      <pubDate>Fri, 06 Jan 2017 22:27:00 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/what-know-fort-lauderdale-airport-9576476</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Crime , Gun crime ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9577493.ece/ALTERNATES/s98/MAIN-Lauderdale.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9577493.ece/ALTERNATES/s615/MAIN-Lauderdale.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9577493.ece/ALTERNATES/s615/MAIN-Lauderdale.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9576476</mir:commentsID>
+    </item>
+    <item>
+      <title>First picture of Fort Lauderdale Airport shooting suspect Esteban Santiago-Ruiz</title>
+      <link>http://www.mirror.co.uk/news/world-news/first-picture-fort-lauderdale-airport-9577334</link>
+      <description><![CDATA[Esteban Santiago-Ruiz has been named as the suspected shooter after five were killed and eight injured during a rampage at a Florida airport]]></description>
+      <author>Patrick Lion</author>
+      <pubDate>Fri, 06 Jan 2017 22:06:38 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/first-picture-fort-lauderdale-airport-9577334</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Crime , Gun crime ]]></media:keywords>
+      <media:thumbnail url="http://i1.mirror.co.uk/incoming/article9577377.ece/ALTERNATES/s98/Lauderdale.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i4.mirror.co.uk/incoming/article9577377.ece/ALTERNATES/s615/Lauderdale.jpg" />
+      <media:content url="http://i4.mirror.co.uk/incoming/article9577377.ece/ALTERNATES/s615/Lauderdale.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577334</mir:commentsID>
+    </item>
+    <item>
+      <title>Was Lee Harvey Oswald&#039;s killer Jack Ruby injected with cancer to stop him revealing who really shot JFK?</title>
+      <link>http://www.mirror.co.uk/news/world-news/lee-harvey-oswalds-killer-jack-9577093</link>
+      <description><![CDATA[&#xa; This week marks the 50th anniversary of the death of Jack Ruby, who shot dead Oswald and carried his story to the grave&#xa; &#xa; ]]></description>
+      <author>Rod McPhee</author>
+      <pubDate>Fri, 06 Jan 2017 21:46:27 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/lee-harvey-oswalds-killer-jack-9577093</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Central Intelligence Agency , Lee Harvey Oswald , Crime , Cancer , John F. Kennedy ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9576790.ece/ALTERNATES/s98/PROD-MAIN-BLP_CHP_060117SLUG_050JPG.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9576790.ece/ALTERNATES/s615/PROD-MAIN-BLP_CHP_060117SLUG_050JPG.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9576790.ece/ALTERNATES/s615/PROD-MAIN-BLP_CHP_060117SLUG_050JPG.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9577093</mir:commentsID>
+    </item>
+    <item>
+      <title>EuroMillions results: Tonight&#039;s winning numbers for Â£31 million jackpot on Friday, January 6</title>
+      <link>http://www.mirror.co.uk/news/uk-news/euromillions-results-tonights-winning-numbers-9576823</link>
+      <description><![CDATA[Tonight&#x27;s estimated jackpot could net you a life-changing sum - but have you just become a multi-millionaire&#x3f; Check your numbers here...]]></description>
+      <author>Richard Wheatstone</author>
+      <pubDate>Fri, 06 Jan 2017 20:38:46 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/uk-news/euromillions-results-tonights-winning-numbers-9576823</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Euromillions , National Lottery , EuroMillions results ]]></media:keywords>
+      <media:thumbnail url="http://i1.mirror.co.uk/incoming/article7586577.ece/ALTERNATES/s98/EuromillionsMAIN.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i4.mirror.co.uk/incoming/article7586577.ece/ALTERNATES/s615/EuromillionsMAIN.jpg" />
+      <media:content url="http://i4.mirror.co.uk/incoming/article7586577.ece/ALTERNATES/s615/EuromillionsMAIN.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9576823</mir:commentsID>
+    </item>
+    <item>
+      <title>Florida airport shooting: Fears of &#039;co-ordinated attack&#039; after reports of &#039;second gunman on the loose&#039;</title>
+      <link>http://www.mirror.co.uk/news/world-news/florida-airport-shooting-people-injured-9576762</link>
+      <description><![CDATA[WARNING&#x3a; GRAPHIC CONTENT At least 13 people were shot by a gunman at Fort Lauderdale Airport in Florida this afternoon, officials say]]></description>
+      <author>Sophie Evans</author>
+      <pubDate>Fri, 06 Jan 2017 20:22:36 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/florida-airport-shooting-people-injured-9576762</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[shooting , Planes ]]></media:keywords>
+      <media:thumbnail url="http://i2.mirror.co.uk/incoming/article9576784.ece/ALTERNATES/s98/MAIN-Fort-Lauderdale-Airport-shooting-suspect-named-as-Esteban-Santiago-what-we-know-so-far.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i1.mirror.co.uk/incoming/article9576784.ece/ALTERNATES/s615/MAIN-Fort-Lauderdale-Airport-shooting-suspect-named-as-Esteban-Santiago-what-we-know-so-far.jpg" />
+      <media:content url="http://i1.mirror.co.uk/incoming/article9576784.ece/ALTERNATES/s615/MAIN-Fort-Lauderdale-Airport-shooting-suspect-named-as-Esteban-Santiago-what-we-know-so-far.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9576762</mir:commentsID>
+    </item>
+    <item>
+      <title>Britain blamed for derailing Barack Obama&#039;s plans to bomb Syria by John Kerry</title>
+      <link>http://www.mirror.co.uk/news/world-news/britain-blamed-derailing-barack-obamas-9576687</link>
+      <description><![CDATA[&#xa; The US Secretary of State said MPs&rsquo; 2013 vote against action hindered President Obama using force against the Assad regime&#xa; ]]></description>
+      <author>Andy Lines</author>
+      <pubDate>Fri, 06 Jan 2017 20:09:07 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/britain-blamed-derailing-barack-obamas-9576687</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Barack Obama , David Cameron , Syria , Politics ]]></media:keywords>
+      <media:thumbnail url="http://i3.mirror.co.uk/incoming/article9576527.ece/ALTERNATES/s98/PROD-MAIN-BLP_CHP_060117SLUG_040JPG.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i2.mirror.co.uk/incoming/article9576527.ece/ALTERNATES/s615/PROD-MAIN-BLP_CHP_060117SLUG_040JPG.jpg" />
+      <media:content url="http://i2.mirror.co.uk/incoming/article9576527.ece/ALTERNATES/s615/PROD-MAIN-BLP_CHP_060117SLUG_040JPG.jpg" type=""
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9576687</mir:commentsID>
+    </item>
+    <item>
+      <title>&#039;We have a special sex lifeâ€™: Quadriplegic man trying for family with his new bride</title>
+      <link>http://www.mirror.co.uk/news/world-news/we-special-sex-life-quadriplegic-9576375</link>
+      <description><![CDATA[Joel Jackson suffered devastating injuries after his car accident, but the couple say they hope to have a family in the future]]></description>
+      <author>Jessica Haworth</author>
+      <pubDate>Fri, 06 Jan 2017 19:14:08 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/we-special-sex-life-quadriplegic-9576375</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[Marriage , Starting a family , Adoption , Car crashes ]]></media:keywords>
+      <media:thumbnail url="http://i1.mirror.co.uk/incoming/article9574827.ece/ALTERNATES/s98/APP_MDG_060117jackson_007MAIN.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i4.mirror.co.uk/incoming/article9574827.ece/ALTERNATES/s615/APP_MDG_060117jackson_007MAIN.jpg" />
+      <media:content url="http://i4.mirror.co.uk/incoming/article9574827.ece/ALTERNATES/s615/APP_MDG_060117jackson_007MAIN.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9576375</mir:commentsID>
+    </item>
+    <item>
+      <title>Florida airport shooting: Five dead and eight others injured after gunman opens fire in baggage claim</title>
+      <link>http://www.mirror.co.uk/news/world-news/florida-airport-shooting-people-injured-9576092</link>
+      <description><![CDATA[Suspect Esteban Santiago-Ruiz, 26, allegedly shot at least 13 people at Florida&#x27;s Fort Lauderdale Airport, killing five]]></description>
+      <author>Christopher Bucktin</author>
+      <pubDate>Fri, 06 Jan 2017 19:13:00 GMT</pubDate>
+      <guid>http://www.mirror.co.uk/news/world-news/florida-airport-shooting-people-injured-9576092</guid>
+      <category>World news</category>
+      <media:keywords><![CDATA[shooting , Planes ]]></media:keywords>
+      <media:thumbnail url="http://i1.mirror.co.uk/incoming/article9577822.ece/ALTERNATES/s98/PAY-MAIN-BannerShooting-at-Fort-Lauderdale-Airport-USA-06-Jan-2017.jpg" width="96"
+      height="98"/>
+      <enclosure url="http://i4.mirror.co.uk/incoming/article9577822.ece/ALTERNATES/s615/PAY-MAIN-BannerShooting-at-Fort-Lauderdale-Airport-USA-06-Jan-2017.jpg" />
+      <media:content url="http://i4.mirror.co.uk/incoming/article9577822.ece/ALTERNATES/s615/PAY-MAIN-BannerShooting-at-Fort-Lauderdale-Airport-USA-06-Jan-2017.jpg" type="image/jpeg"
+      width="615" height="409" />
+      <mir:hascomments>false</mir:hascomments>
+      <mir:commentsID>mirror-9576092</mir:commentsID>
+    </item>
+  </channel>
+</rss>

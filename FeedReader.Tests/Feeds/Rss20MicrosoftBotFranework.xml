@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bot Framework Blog</title>
+    <description>The Microsoft Bot Framework provides just what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services.
+</description>
+    <link>http://blog.botframework.com/</link>
+    <atom:link href="http://blog.botframework.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Dec 2016 19:34:23 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Dec 2016 19:34:23 +0000</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>More Ways to Make Smart Bots</title>
+        <description>&lt;p&gt;Today weâ€™re excited to announce we are releasing two new offerings designed to make it easier for you to create smart bots. Hereâ€™s a bit more about each:&lt;/p&gt;
+
+&lt;h2 id=&quot;qna-maker-service&quot;&gt;QnA Maker Service&lt;/h2&gt;
+
+&lt;p&gt;Brought to you by the same engineers that develop Bing, our latest addition to &lt;a href=&quot;http://www.microsoft.com/cognitive&quot; target=&quot;_blank&quot;&gt;Microsoft Cognitive Services&lt;/a&gt;, &lt;a href=&quot;https://qnamaker.ai/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;QnA Maker&lt;/strong&gt;&lt;/a&gt; is a free, easy-to-use, REST API- and web-based service that trains AI to respond to usersâ€™ questions in a more natural, conversational way. With optimized machine learning logic and the ability to integrate industry-leading language processing, QnA Maker Service distills semi-structured data like those commonly found in website FAQs into distinct, helpful answers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12-13-2016-smart-bots/1qna_faqtobot.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;QnA Maker works in three steps: extraction, training and publishing. To start, feed it anything from existing FAQ URLs to documents and editorial content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12-13-2016-smart-bots/2qna_createnew.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;QnA Maker extracts all possible pairs of questions and answers, and through the easy-to-use web interface you can edit, remove or add any pairs, as well as test and train the knowledge base.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12-13-2016-smart-bots/3qna_kbchat.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once youâ€™re satisfied with the scope of responses, you can publish your knowledge base as an API endpoint.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12-13-2016-smart-bots/4qna_publish.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Even after publishing, you can review interactions in real time and refine responses as needed. QnA Maker integrates with other APIs and solutions seamlessly and at scale. By using other Cognitive Services with QnA Maker, you can create something as elegantly simple as a chat bot that answers FAQs, or as complex as an interactive virtual guide.
+Lastly, QnA Maker is also available as a template on &lt;a href=&quot;https://azure.microsoft.com/en-us/services/bot-service/&quot; target=&quot;_blank&quot;&gt;Azure Bot Service&lt;/a&gt;. Azure Bot Service runs in a serverless environment, and enables rapid intelligent bot development powered by Microsoft Bot Framework. Bots scale based on demand and you pay only for the resources you consume.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12-13-2016-smart-bots/5qna_azurebotservice.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bing-location-control&quot;&gt;Bing Location Control&lt;/h2&gt;
+
+&lt;p&gt;The open source &lt;a href=&quot;https://docs.botframework.com/en-us/bot-intelligence/location-control/&quot; target=&quot;_blank&quot;&gt;Bing Location Control for Bot Framework&lt;/a&gt; allows bot developers to easily and reliably get the userâ€™s desired location within a conversation. The control is available in C# and Node.js and works consistently across all messaging channels supported by Bot Framework. All this with a few lines of code. Key features include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Address look up and validation via Bingâ€™s Maps REST services.&lt;/li&gt;
+  &lt;li&gt;Address disambiguation when more than one address is found.&lt;/li&gt;
+  &lt;li&gt;Support for declaring required location fields.&lt;/li&gt;
+  &lt;li&gt;Support for FB Messengerâ€™s location picker GUI dialog.&lt;/li&gt;
+  &lt;li&gt;The control is open-source, with fully-customizable and localizable dialog strings, and is available &lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Location&quot; target=&quot;_blank&quot;&gt;here on github&lt;/a&gt; (awaiting your feedback and contributions)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12-13-2016-smart-bots/multiresults3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/12-13-2016-smart-bots/code.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Happy Making!
+The Bot Framework and Cognitive Services Teams&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Dec 2016 18:30:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/12/13/More-Ways-to-Make-Smart-Bots/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/12/13/More-Ways-to-Make-Smart-Bots/</guid>
+        
+        <category>azurebotservice</category>
+        
+        <category>botframework</category>
+        
+        <category>bots</category>
+        
+        <category>CUI</category>
+        
+        <category>microsoft</category>
+        
+        <category>AI</category>
+        
+        <category>microsoftresearch</category>
+        
+        <category>fuselabs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>New and Improved Bot Framework Emulator</title>
+        <description>&lt;p&gt;Hello! Today we released v3.5.22 of the Bot Framework Emulator. Summary of the major changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bot-Initiated Conversations&lt;/strong&gt; â€“ Bots can initiate new conversations with the user.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Simplified App Settings&lt;/strong&gt; â€“ Emulator listening port and callback URL are now managed internally by the app.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Added Remaining System Events&lt;/strong&gt; â€“ You can send ContactRelationUpdate, Typing, Ping, and DeleteUserData activity types to your bot.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved Button Layout&lt;/strong&gt; â€“ Buttons no longer stack vertically, but arrange horizontally and wrap as necessary.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Relaxed Hyperlink Filtering&lt;/strong&gt; â€“ Hyperlinks in the chat window were previously limited to http and https protocols. This restriction has been removed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you already have the Bot Framework Emulator installed, youâ€™ll get an update prompt the next time you launch it. Otherwise, &lt;a href=&quot;https://github.com/Microsoft/BotFramework-Emulator/#download&quot;&gt;&lt;strong&gt;download it today&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;#HappyEmulating&lt;/p&gt;
+
+&lt;p&gt;The Bot Framework Team&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2016 15:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/12/08/bot-framework-emulator-3522/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/12/08/bot-framework-emulator-3522/</guid>
+        
+        <category>azurebotservice</category>
+        
+        <category>botframework</category>
+        
+        <category>bots</category>
+        
+        <category>CUI</category>
+        
+        <category>microsoft</category>
+        
+        <category>AI</category>
+        
+        <category>microsoftresearch</category>
+        
+        <category>fuselabs</category>
+        
+        <category>emulator</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Microsoft Bot Framework November Update â€“ Cross Platform Emulator App, Enhanced Direct Line REST API, Updated SDKs, Card Types and new Azure Bot Service (Preview)</title>
+        <description>&lt;p&gt;Weâ€™ve made a number of enhancements in the November Bot Framework Update all of which are designed to help you build better bots faster. The enhancements fall into two categories â€“ those in Bot Framework and those in Azure Bot Service (Preview), a new offering created in partnership with our colleagues in the Azure team.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First, hereâ€™s a summary of the enhancements to Bot Framework:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open source Bot Framework Emulator app is available &lt;a href=&quot;http://github.com/microsoft/botframework-emulator&quot;&gt;here on github&lt;/a&gt; for Mac, Windows and Linux. The Emulator provides a superior local testing and debugging solution, allowing multiple bot configurations and featuring the Web Chat control. Through the Emulator, you can now see your botâ€™s conversation, the JSON and logs all within one handy interface.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/nov16/emulator.png&quot; alt=&quot;Bot Framework Emulator&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Direct Line 3.0, a REST API which allows you to host your bot in your app or website, has been updated to support the latest Bot Framework schema, inclusive of all card types (new card types include audio, animation and video) and activities (play, edit, delete). Additionally, Direct Line 3.0 now supports both sockets and polling for increased efficiency and responsiveness.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open source Web Chat control available &lt;a href=&quot;http://github.com/microsoft/botframework-webchat&quot;&gt;here on github&lt;/a&gt; is now built upon Direct Line 3.0 for first-class bot interactions on the web. The control is customizable to suit your customerâ€™s needs and is ready to be improved upon with the help of community contributions. Itâ€™s also available on your botâ€™s dashboard in the Bot Framework Developer Portal.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/nov16/webchatcontrol.png&quot; alt=&quot;Web Chat Control&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bot Builder SDK updates (both Node.js and .NET) enable your bot to have more flexible conversations with users by allowing for in-progress dialogs to be interrupted and changed to another dialog based on an action or trigger. Additionally, the .Net SDK now provides improved integrated language understanding dialogs, powered by Cognitive Services.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;And, in case you missed it â€“ on November 2nd, we announced support for Microsoft Teams, the chat-based workspace for Office 365. Fulfilling on our promise to write once, run anywhere, your bot can join the conversation today on Teams just by tapping â€œAddâ€ in the dashboardâ€¦ You can read the Microsoft Teams &lt;a href=&quot;https://dev.office.com/blogs/microsoft-teams-developer-preview&quot;&gt;full blog post here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Second, we are very excited to announce availability of &lt;a href=&quot;https://azure.microsoft.com/en-us/blog/microsoft-azure-announces-industry-s-first-cloud-bot-as-a-service/&quot;&gt;Azure Bot Service (Preview)&lt;/a&gt;, a new public cloud bot service powered by the Microsoft Bot Framework and Azureâ€™s trusted, global- scale platform. 
+With the Azure Bot Service, you can:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use Bot Framework with the Microsoft Azure serverless platform to run and scale your bots while only paying for what you use.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get started easily with out of the box templates for Node.js and .NET to create a basic bot, language understanding bot, form bot or proactive bot.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/nov16/azurebotservice-create.png&quot; alt=&quot;Azure Bot Service Create Bot&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Write bot code directly in the browser experience within Azure, test using the Web Chat control or use the IDE and code editor of your choice.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/nov16/azurebotservice-findmybike.png&quot; alt=&quot;Azure Bot IDE&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Configure conversation channels from either Azure or the Bot Framework Developer Portal.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Take advantage of integrated continuous deployment so you can use your preferred DevOps tool chain and commit code to popular source control systems such as GitHub, BitBucket, and Visual Studio Team System and automatically publish the code into Azure to continuously improve your bot.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Weâ€™d like to thank you for being such an active community. Many of these improvements were informed by your feedback and we really appreciate it!&lt;/p&gt;
+
+&lt;p&gt;Happy making.&lt;/p&gt;
+
+&lt;p&gt;The Bot Framework Team&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Nov 2016 15:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/11/15/November_Update/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/11/15/November_Update/</guid>
+        
+        <category>azurebotservice</category>
+        
+        <category>botframework</category>
+        
+        <category>bots</category>
+        
+        <category>CUI</category>
+        
+        <category>microsoft</category>
+        
+        <category>AI</category>
+        
+        <category>microsoftresearch</category>
+        
+        <category>fuselabs</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Microsoft Teams Available in Bot Framework</title>
+        <description>&lt;p&gt;Thereâ€™s a new channel in town â€“ Microsoft Teams.&lt;/p&gt;
+
+&lt;p&gt;Announced earlier today, Microsoft Teams, the chat-based workspace for Office 365 is now in preview. You will find Teams in the list of channels on which your bot can talk in the Bot Framework developer portal effective immediately.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/teams_announce.png&quot; alt=&quot;Bot Framework love Teams&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can read the Microsoft Teams &lt;a href=&quot;https://dev.office.com/blogs/microsoft-teams-developer-preview&quot;&gt;full blog post here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Nov 2016 17:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/11/02/teams-announce/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/11/02/teams-announce/</guid>
+        
+        <category>teams</category>
+        
+        <category>botframework</category>
+        
+        <category>collaboration</category>
+        
+        <category>office365</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>New Bing and Cognitive Services APIs samples added to the Bot Builder samples repo</title>
+        <description>&lt;p&gt;This week, we added new sample bots to our &lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/&quot; target=&quot;_blank&quot;&gt;Bot Builder-Samples GitHub&lt;/a&gt; repository, showcasing how some Bing and Cognitive Services APIs for vision, speech and search can help developers build smarter conversational interfaces.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Sample&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;API used&lt;/th&gt;
+      &lt;th&gt;Sample link&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image Caption&lt;/td&gt;
+      &lt;td&gt;Takes an image as input and provides a description of the image using the popular Cognitive Services Computer Vision API.&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.microsoft.com/cognitive-services/en-us/computer-vision-api&quot; target=&quot;_blank&quot;&gt;Vision&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/blob/master/CSharp/intelligence-ImageCaption&quot; target=&quot;_blank&quot;&gt;C#&lt;/a&gt;|&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/blob/master/Node/intelligence-ImageCaption&quot; target=&quot;_blank&quot;&gt;Node&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Speech To Text&lt;/td&gt;
+      &lt;td&gt;Takes an audio file as input and converts the audio stream to text using Bingâ€™s Speech API.&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.microsoft.com/cognitive-services/en-us/speech-api&quot; target=&quot;_blank&quot;&gt;Speech&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/blob/master/CSharp/intelligence-SpeechToText&quot; target=&quot;_blank&quot;&gt;C#&lt;/a&gt;|&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/blob/master/Node/intelligence-SpeechToText&quot; target=&quot;_blank&quot;&gt;Node&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Similar Products&lt;/td&gt;
+      &lt;td&gt;Takes a product image as input and responds back with a list of similar products using Bingâ€™s visually similar search capabilities. It also suggests Internet merchant locations to buy the products online.&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.microsoft.com/cognitive-services/en-us/bing-image-search-api&quot; target=&quot;_blank&quot;&gt;Image Search&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/blob/master/CSharp/intelligence-SimilarProducts&quot; target=&quot;_blank&quot;&gt;C#&lt;/a&gt;|&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/blob/master/Node/intelligence-SimilarProducts&quot; target=&quot;_blank&quot;&gt;Node&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;We are committed to helping developers build the next great conversational experiences. If you have ideas for future code samples, please use this &lt;a href=&quot;https://cognitive.uservoice.com/forums/353865-tutorials-samples-request&quot; target=&quot;_blank&quot;&gt;forum&lt;/a&gt; to post them and we will review them shortly.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.botframework.com/en-us/bot-intelligence/vision/&quot; target=&quot;_blank&quot;&gt;Vision API&lt;/a&gt;: Brings advanced image and video understanding skills to your bots using the popular Microsoft Cognitive Services API. It uses tags, descriptions and domain-specific models to identify content and label it with confidence. For example, you can use it to recognize objects, peopleâ€™s faces, age, gender or even feelings. In addition, it recognizes adult/racy content in images to allow automated restriction of adult content. It also identifies image types and color schemes. Try out the &lt;a href=&quot;https://www.microsoft.com/cognitive-services/en-us/computer-vision-api&quot; target=&quot;_blank&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.botframework.com/en-us/bot-intelligence/speech/#navtitle&quot; target=&quot;_blank&quot;&gt;Speech API&lt;/a&gt;: Recognizes audio from a file and transcribes the content to provide a text output. The Bing Speech API enables you to build smart bots that are voice triggered. It uses built-in language and acoustic models that cover a wide range of scenarios with high accuracy. Additionally, when bots need to â€œtalkâ€ back to their users, the API can also be used to convert text that is generated by the bot into audio that can be played back to the user. The API uses the same speech-to-text and text-to-speech services used in Cortana. Try out the &lt;a href=&quot;https://www.microsoft.com/cognitive-services/en-us/speech-api&quot; target=&quot;_blank&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.botframework.com/en-us/bot-intelligence/search/#navtitle&quot; target=&quot;_blank&quot;&gt;Image Search API&lt;/a&gt;: Searches the web for images and provides comprehensive results using Bingâ€™s knowledge and intelligence services. Results include thumbnails, full image URLs, publishing website info, image metadata, and more. It is ideal for any bot that needs to embed search results directly into messages, or leverage them as input for other interesting applications. Besides search, the Bing API supports several intelligent features like celebrity recognition, visually similar product search (where to buy), which can be used across a broad array of scenarios. Try out the &lt;a href=&quot;https://www.microsoft.com/cognitive-services/en-us/bing-image-search-api&quot; target=&quot;_blank&quot;&gt;demo&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 12 Oct 2016 15:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/10/12/new-bot-intelligence-samples/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/10/12/new-bot-intelligence-samples/</guid>
+        
+        <category>bot</category>
+        
+        <category>intelligence</category>
+        
+        <category>cognitive</category>
+        
+        <category>api</category>
+        
+        <category>bing</category>
+        
+        <category>botframework</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Botmetrics adds support for the Bot Framework</title>
+        <description>&lt;p&gt;As bots become an important part of how people are productive and have fun, bot analytics are becoming ever more important to the bot developer. What did my botâ€™s traffic look like? Who is using my bot? What channels are most popular?&lt;/p&gt;
+
+&lt;p&gt;For web pages, the tools for web analytics are well understood and used widely. In the bot space, the open source community is innovating on new analytics solutions for bot developers. One such project recently announced an integration with Bot Framework via the Bot Builder SDK for Node.js. Arun Thampiâ€™s &lt;a href=&quot;https://getbotmetrics.com&quot; target=&quot;_blank&quot;&gt;botmetrics&lt;/a&gt; integrates with BotBuilder using middleware. He did a great &lt;a href=&quot;https://blog.getbotmetrics.com/botframework-%EF%B8%8F-botmetrics-471fb77b6d69&quot; target=&quot;_blank&quot;&gt;post&lt;/a&gt; on how you can get started - great to see exciting open source technologies being made available to Bot Framework developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbotmetrics.com&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/botmetrics-analytics.png&quot; alt=&quot;Screenshot from BotMetrics analytics&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;imagecaption&quot;&gt;&lt;span&gt;A snapshot from botmetrics&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;Thanks and happy bot building!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Oct 2016 22:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/10/11/botmetrics-guest-post/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/10/11/botmetrics-guest-post/</guid>
+        
+        <category>Metrics</category>
+        
+        <category>analytics</category>
+        
+        <category>getbotmetrics</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>New Bot Builder SDK samples released!</title>
+        <description>&lt;p&gt;Last week weâ€™ve released a new set of Bot Builder SDK samples in a dedicated &lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples&quot; target=&quot;_blank&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new Bot Builder samples are organized into groups (core, cards, intelligence, demo) and are designed to illustrate task-focused samples in C# and Node.js to help you build great bots.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/bot-builder-samples/samples-list-main.png&quot; alt=&quot;Samples outcome in Bot Framework Emulator, Facebook Messenger, and Skype&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;imagecaption&quot;&gt;&lt;span&gt;A snapshot of the new core samples&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;Each sample has a readme file that highlights the particular code snippet that is relevant for that sample, and provides screenshots of the end result in the Bot Framework Emulator, Facebook Messenger, and Skype.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Microsoft/BotBuilder-Samples/blob/master/README.md#cards&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/bot-builder-samples/sample-outcome.png&quot; alt=&quot;Samples outcome in Bot Framework Emulator, Facebook Messenger, and Skype&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;imagecaption&quot;&gt;&lt;span&gt;Sample outcome of the Hero Card sample on Bot Framework Emulator, Facebook Messenger, and Skype&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;As a bonus, if you have an Azure subscription, each sample provides an easy one click deployment to Azure, to get you up and running in no time.&lt;/p&gt;
+
+&lt;p&gt;We hope youâ€™ll find these samples useful to get you started building great bots.&lt;/p&gt;
+
+&lt;p&gt;Thanks and happy bot building!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Sep 2016 15:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/09/26/new-bot-builder-sdk-samples-released/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/09/26/new-bot-builder-sdk-samples-released/</guid>
+        
+        <category>bot</category>
+        
+        <category>framework</category>
+        
+        <category>samples</category>
+        
+        <category>code</category>
+        
+        <category>cards</category>
+        
+        <category>dialogs</category>
+        
+        <category>forms</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Using the new Facebook Messenger 1.2 Features with Bot Framework</title>
+        <description>&lt;p&gt;This week, Facebook announced new v1.2 updates to their Facebook Messenger bot platform including new capabilities for developers. Bot Frameworkâ€™s design allows you to take advantage of several of these features immediately, and weâ€™ll make it even easier to use them as we add native support over time.&lt;/p&gt;
+
+&lt;h3 id=&quot;bot-framework-schema-and-channeldata&quot;&gt;Bot Framework Schema and ChannelData&lt;/h3&gt;
+
+&lt;p&gt;The Bot Framework makes it easy to write a conversational Bot that works across multiple channels. It does so by bringing the most common features together into the schema and SDKâ€™s, and normalizes the differences in capabilities between channels. As such, a series of radio buttons in one channel might become a numbered text list on SMS.&lt;/p&gt;
+
+&lt;p&gt;The Bot Framework is designed to quickly adapt to new channel capabilities. The ChannelData feature enables developers to immediately get access to new channel features as soon as theyâ€™re available, before theyâ€™ve become common across channels and incorporated into the core framework.&lt;/p&gt;
+
+&lt;h3 id=&quot;using-channeldata-to-access-new-facebook-quick-replies&quot;&gt;Using ChannelData to access new Facebook Quick Replies&lt;/h3&gt;
+
+&lt;p&gt;Facebookâ€™s Quick Replies (aka keyboards on other channels) were updated to include two new features this week; specifically the ability to have icons on the individual buttons, and the location button to enable location sharing on mobile devices. Below is a C# sample demonstrating how to use the C# BotBuilder SDK, channelData and JSON.net:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-csharp&quot; data-lang=&quot;csharp&quot;&gt;&lt;span class=&quot;n&quot;&gt;Activity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;replyToConversation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;CreateReply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Quick Replies&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;dynamic&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quickReplies&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;JObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;dynamic&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fbQRButtonRed&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;JObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonRed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content_type&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonRed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;red&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonRed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_RED&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonRed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image_url&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Button_Icon_Red.svg/300px-Button_Icon_Red.svg.png&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;dynamic&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fbQRButtonBlue&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;JObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonBlue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content_type&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonBlue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;blue&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonBlue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_BLUE&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonBlue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image_url&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Button_Icon_Blue.svg/768px-Button_Icon_Blue.svg.png&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;dynamic&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fbQRButtonLocation&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;JObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fbQRButtonLocation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content_type&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;quickReplies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quick_replies&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;JArray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fbQRButtonRed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fbQRButtonBlue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fbQRButtonLocation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;replyToConversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ChannelData&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quickReplies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;connector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Conversations&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ReplyToActivityAsync&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replyToConversation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The Button objects now have the new image_url field for the button icon, and thereâ€™s a new button with content_type location that will add a location sharing button on the mobile client.&lt;/p&gt;
+
+&lt;p&gt;You can get the same behavior using the Node.JS version of the BotBuilder SDK with the sourceEvent property:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;replyMessage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Testing&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;replyMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sourceEvent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; 
+        &lt;span class=&quot;na&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+            &lt;span class=&quot;na&quot;&gt;quick_replies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;content_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Red&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_RED&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;image_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Button_Icon_Red.svg/300px-Button_Icon_Red.svg.png&quot;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;            
+            &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;content_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Blue&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_BLUE&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;image_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Button_Icon_Blue.svg/768px-Button_Icon_Blue.svg.png&quot;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;content_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;location&quot;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replyMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can use the ChannelData feature to also take advantage of the new Facebook Share button type on generic template cards, as well as controlling the view height of the webview control.&lt;/p&gt;
+
+&lt;p&gt;ChannelData works for mulitple channels, not just Facebook, and gives you additional control over your interaction with the channel, as well as additional channel-specific information in messages coming into the bot. To learn more about ChannelData check out the &lt;a href=&quot;https://docs.botframework.com/en-us/csharp/builder/sdkreference/channels.html&quot;&gt;ChannelData Documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As always, you can send feedback on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/botframework&quot;&gt;StackOverflow&lt;/a&gt; using the [botframework] tag, and on our &lt;a href=&quot;https://github.com/microsoft/botbuilder/issues&quot;&gt;Bot Builder&lt;/a&gt; github repo.&lt;/p&gt;
+
+&lt;p&gt;Thanks and happy bot building!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 15 Sep 2016 15:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/09/15/facebook-messenger-updates/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/09/15/facebook-messenger-updates/</guid>
+        
+        <category>facebook</category>
+        
+        <category>bot</category>
+        
+        <category>framework</category>
+        
+        <category>1.2</category>
+        
+        <category>channelData</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Skype says Hello to new bots</title>
+        <description>&lt;p&gt;Skype has always been the home for your most important conversations.&lt;/p&gt;
+
+&lt;p&gt;At this yearâ€™s Microsoft Build Conference, CEO Satya Nadella showed us the beginning of a new world.
+A universe where technology works with your everyday conversations to make life easier, more productive, and fun.&lt;/p&gt;
+
+&lt;p&gt;In April we released a series of preview Skype Botsâ€”intelligent helpers that make it easier to get things done by communicating directly in your Skype chats.&lt;/p&gt;
+
+&lt;p&gt;Since spring we have seen positive momentum in the creation of Skype Bots.&lt;/p&gt;
+
+&lt;p&gt;We have over 30,000 developers building bots on our platform and thousands of developers are able to share their bot through a Skype join link directly on their website.&lt;/p&gt;
+
+&lt;p&gt;Today, we are introducing a series of partner-inspired bots into the Skype Bot directory on our Android, Windows, iOS, Mac and Web apps.&lt;/p&gt;
+
+&lt;p&gt;Read the full blog post on the &lt;a href=&quot;http://blogs.skype.com/2016/08/03/skype-says-hello-to-new-bots/&quot; target=&quot;_blank&quot;&gt;Skype Blog&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Aug 2016 15:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/08/03/skype-consumer-launch/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/08/03/skype-consumer-launch/</guid>
+        
+        <category>skype</category>
+        
+        <category>bot</category>
+        
+        <category>framework</category>
+        
+        <category>artificial</category>
+        
+        <category>intelligence</category>
+        
+        <category>ai</category>
+        
+        <category>virtual</category>
+        
+        <category>personal</category>
+        
+        <category>assistant</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Microsoft Bot Framework July Update - Cards, and New Skype, Slack, and Facebook Bot Features</title>
+        <description>&lt;p&gt;The industry is abuzz with news about bots and bot events. Of recent note, the
+Botness conference was a resounding success as was the Skype Hackathon held June
+21-22 in the Valley. The energy and participation at these events has been
+inspiring and invigorating!&lt;/p&gt;
+
+&lt;p&gt;Today, we are releasing an important update to the Bot Framework developed
+largely in response to feedback received from the active Bot Framework
+community. The update is focused on quality, schema features, and performance.
+Enhancements include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Well-defined support for cards and carousels for both channels that support them natively (Skype, Facebook) and text-rendered for those that donâ€™t;&lt;/li&gt;
+  &lt;li&gt;Automatic configuration of Skype â€“ no copy-and-paste needed!&lt;/li&gt;
+  &lt;li&gt;Simplified addressing of users and groups;&lt;/li&gt;
+  &lt;li&gt;Additional dialog types and capabilities in the Bot Builder SDK;&lt;/li&gt;
+  &lt;li&gt;Added Cognitive Services LUIS Intent Dialog type to the SDK;&lt;/li&gt;
+  &lt;li&gt;Support for Skype calling features added to the SDK;&lt;/li&gt;
+  &lt;li&gt;Enhancements to the Bot Framework Emulator;&lt;/li&gt;
+  &lt;li&gt;Support for Slackâ€™s recent addition of buttons; and&lt;/li&gt;
+  &lt;li&gt;Support for many of Facebookâ€™s newest Bot features.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These improvements come with some changes to the API/SDK that will impact your bot.&lt;/p&gt;
+
+&lt;p&gt;To take advantage of the new features, youâ€™ll need to update your bot. For most bots, the changes will be straightforward. Existing bots will continue to run for some time, however, we encourage you to update your Bot to the new release.&lt;/p&gt;
+
+&lt;p&gt;For a step-by-step guide to upgrading your bot please visit the documentation at &lt;a href=&quot;https://aka.ms/bf-migrate&quot;&gt;https://docs.botframework.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Weâ€™ve also updated our terms of use. By continuing to use the Microsoft Bot Framework you agree to the &lt;a href=&quot;http://aka.ms/bf-terms&quot;&gt;online services agreement&lt;/a&gt; and &lt;a href=&quot;http://aka.ms/bf-conduct&quot;&gt;code of conduct&lt;/a&gt;. Weâ€™re excited to provide this update, and acknowledge the inconvenience of revising the protocol. Thank you for your continued engagement with Bot Framework and in helping us to make a better way for you to build, deploy and publish high-quality bots for your users wherever they converse.&lt;/p&gt;
+
+&lt;p&gt;For more Bot related news from Microsoft, check out the &lt;a href=&quot;http://blogs.skype.com/2016/07/08/skype-bot-developer-update-cards-groups-and-more/&quot;&gt;Skype blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Keep on botting!&lt;/p&gt;
+
+&lt;p&gt;The Microsoft Bot Framework Team&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Jul 2016 15:00:00 +0000</pubDate>
+        <link>http://blog.botframework.com/2016/07/07/July-Update/</link>
+        <guid isPermaLink="true">http://blog.botframework.com/2016/07/07/July-Update/</guid>
+        
+        <category>bot</category>
+        
+        <category>framework</category>
+        
+        <category>build2016</category>
+        
+        <category>microsoft</category>
+        
+        <category>research</category>
+        
+        <category>cui</category>
+        
+        <category>hci</category>
+        
+        <category>botframework</category>
+        
+        <category>kik</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

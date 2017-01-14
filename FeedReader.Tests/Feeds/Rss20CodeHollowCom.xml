@@ -1,0 +1,1500 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+  <channel>
+    <title>codehollow</title>
+    <atom:link href="https://codehollow.com/feed/" rel="self" type="application/rss+xml" />
+    <link>https://codehollow.com</link>
+    <description>Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things</description>
+    <lastBuildDate>Fri, 23 Dec 2016 09:01:55 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7</generator>
+
+    <image>
+      <url>https://codehollow.com/wp-content/uploads/2016/09/cropped-favicon-32x32.png</url>
+      <title>codehollow</title>
+      <link>https://codehollow.com</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <site xmlns="com-wordpress:feed-additions:1">114401317</site>
+    <item>
+      <title>Export Azure RateCard data to CSV with C# and Billing API</title>
+      <link>https://codehollow.com/2016/12/export-azure-ratecard-data-csv-csharp-billing-api/</link>
+      <comments>https://codehollow.com/2016/12/export-azure-ratecard-data-csv-csharp-billing-api/#respond</comments>
+      <pubDate>Thu, 22 Dec 2016 07:00:28 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[C#]]></category>
+      <category><![CDATA[Active Directory]]></category>
+      <category><![CDATA[BillingAPI]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=749</guid>
+      <description>
+        <![CDATA[<p>The Azure Billing API allows to programmatically read Azure costs. On the one hand, there are the costs that are already spent, on the other hand there are the basic costs for resources &#8211; so e.g. the costs for a storage account or a specific virtual machine in a specific region. Each of these two &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/12/export-azure-ratecard-data-csv-csharp-billing-api/">Export Azure RateCard data to CSV with C# and Billing API</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>The Azure Billing API allows to programmatically read Azure costs. On the one hand, there are the costs that are already spent, on the other hand there are the basic costs for resources &#8211; so e.g. the costs for a storage account or a specific virtual machine in a specific region. Each of these two use cases has its own API: the <strong>RateCard API</strong> which returns the potential costs of the resources (&#8220;basic costs&#8221;) and the <strong>Resource Usage API</strong> which returns the costs of a subscription. </p>
+<p>In this blog post, I&#8217;ll focus on the RateCard API. There is a sample available on GitHub, but when I used it, I ran into some issues. So I decided to developed a simple C# console application and blog about my experiences. The application reads data from the RateCard API and creates a CSV file out of it. The CSV file can be opened in Excel and should already help to do some calculations. </p>
+<p><em>The application/this post is mostly inspired by: <a href="https://github.com/Azure-Samples/billing-dotnet-ratecard-api">https://github.com/Azure-Samples/billing-dotnet-ratecard-api</a>.</em></p>
+<p><span id="more-749"></span></p>
+<h2>RateCard C# Application</h2>
+<p>Please download or clone the solution from GitHub: <a href="https://github.com/codehollow/AzureBillingRateCardSample">https://github.com/codehollow/AzureBillingRateCardSample</a>.</p>
+<h3>Step 1: basic app.config configuration</h3>
+<p>Open the solution and the app.config and configure the following values:</p>
+<pre class="brush: xml; title: ; notranslate">
+    &lt;add key=&quot;Tenant&quot;         value=&quot;TENANT.onmicrosoft.com&quot; /&gt;
+    &lt;add key=&quot;SubscriptionId&quot; value=&quot;SUBSCRIPTIONID&quot; /&gt;
+    
+    &lt;!-- RateCard API Parameters --&gt;
+    &lt;add key=&quot;OfferDurableId&quot; value=&quot;MS-AZR-0003p&quot; /&gt;  &lt;!-- see: https://azure.microsoft.com/en-us/support/legal/offer-details/ --&gt; 
+    &lt;add key=&quot;Currency&quot;       value=&quot;EUR&quot; /&gt;  &lt;!-- EUR, USD, GBP, ... --&gt; 
+    &lt;add key=&quot;Locale&quot;         value=&quot;en-US&quot; /&gt;
+    &lt;add key=&quot;RegionInfo&quot;     value=&quot;AT&quot; /&gt;
+
+    &lt;add key=&quot;CsvFilePath&quot;    value=&quot;c:\data\ratecarddata.csv&quot;/&gt;
+</pre>
+<p>The other values will be configured in the next step. So leave the file open so that you can copy and paste the values from the AAD configuration.</p>
+<h2 id="configuration">Configuration</h2>
+<p>Before we can run the sample application, we have to add the application to Azure AD and give it the right permissions.</p>
+<h3 id="addapptoad">Step 2: add new application to active directory</h3>
+<p>Open the new portal <a href="https://portal.azure.com">https://portal.azure.com</a> and navigate to the Active Directory. Open &#8220;App registrations&#8221; and click the Add Button:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_01_adAppConfig.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_01_adAppConfig-1024x659.png" alt="" width="960" height="618" class="aligncenter size-large wp-image-752" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_01_adAppConfig-1024x659.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161222_01_adAppConfig-300x193.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161222_01_adAppConfig-768x494.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161222_01_adAppConfig.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<ul>
+<li><strong>Name: </strong>billingapi <em>&#8211; can be whatever you want</em></li>
+<li><strong>Application Type: </strong>Native <em>&#8211; we use the API from a console application, so native is the right one. If you develop a web application that should access the api, &#8220;Web App/API&#8221; is the right one for you</em></li>
+<li><strong>Redirect URI: </strong> http://localhost/billingapi <em>&#8211; can be whatever we want, because the console application will not redirect to an url</em></li>
+</ul>
+<p>Copy the Redirect URI and paste it to the app.config to &#8220;RedirectUrl&#8221;.</p>
+<h3 id="adpermissions">Step 3: add permissions to the service management api</h3>
+<p>When the app is created, open the app (in App registrations), go to Settings and &#8220;Required permissions&#8221;. Press the add button and add: <strong>Windows Azure Service Management API</strong>. </p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_02_permissionsSelect.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_02_permissionsSelect-1024x226.png" alt="" width="960" height="212" class="aligncenter size-large wp-image-753" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_02_permissionsSelect-1024x226.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161222_02_permissionsSelect-300x66.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161222_02_permissionsSelect-768x169.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161222_02_permissionsSelect.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Select &#8220;Access Azure Service Management as organization users (preview)&#8221; and save it:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_03_delegatePermission.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_03_delegatePermission-1024x271.png" alt="" width="960" height="254" class="aligncenter size-large wp-image-754" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_03_delegatePermission-1024x271.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161222_03_delegatePermission-300x80.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161222_03_delegatePermission-768x204.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161222_03_delegatePermission.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h3>Step 4: copy the client Id</h3>
+<p>The client Id is called &#8220;Application ID&#8221; in the Azure portal. You can find it when you select the app in the &#8220;App registrations&#8221;. Copy it and paste it to the app.config to &#8220;ClientId&#8221;.</p>
+<h3 id="subscriptionpermission">Step 5: give the user/application access to the subscription</h3>
+<p>There are two ways how to authenticate. You can sign in with your <strong>user</strong> or you can use a client id and a client secret to authenticate (<strong>application</strong>). The first is good if you want to work with a specific user, the second is good for clients that run in the background (azure function, jobs, &#8230;) </p>
+<p>Depending on what you want to use, you have to give the <strong>user</strong> or the <strong>application</strong> &#8220;Reader&#8221;, &#8220;Contributor&#8221; or &#8220;Owner&#8221; access to the subscription.</p>
+<p>Navigate to your subscription, select your application and go to &#8220;Access control (IAM)&#8221;.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_04_subscriptionAccessControl.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_04_subscriptionAccessControl-1024x574.png" alt="" width="960" height="538" class="aligncenter size-large wp-image-755" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_04_subscriptionAccessControl-1024x574.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161222_04_subscriptionAccessControl-300x168.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161222_04_subscriptionAccessControl-768x431.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161222_04_subscriptionAccessControl.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>If you want to use <strong>user</strong> and your user does not already have rights, just add the user and give him at least &#8220;Reader&#8221; access:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_05_addUser.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_05_addUser.png" alt="" width="600" height="332" class="aligncenter size-full wp-image-756" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_05_addUser.png 600w, https://codehollow.com/wp-content/uploads/2016/12/20161222_05_addUser-300x166.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p>If you use <strong>application</strong>, search for the application and give it at least &#8220;Reader&#8221; access:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_06_addApplication.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_06_addApplication.png" alt="" width="600" height="275" class="aligncenter size-full wp-image-757" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_06_addApplication.png 600w, https://codehollow.com/wp-content/uploads/2016/12/20161222_06_addApplication-300x138.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<h3>Step 5.1: create client secret (only for authentication via application)</h3>
+<p>If you use <strong>application</strong> (see previous step), you need to create a client secret &#8211; a key. You can skip this step if you use <strong>user</strong> authentication. The key can be created by navigating to the active directory &#8211; &#8220;App registrations&#8221; and selecting Keys. Add a new key, give it a name and select a duration:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_07_addKey.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_07_addKey-1024x370.png" alt="" width="960" height="347" class="aligncenter size-large wp-image-759" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_07_addKey-1024x370.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161222_07_addKey-300x108.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161222_07_addKey-768x277.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161222_07_addKey.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Press save and copy the key! This is the client secret that needs to be pasted into the app.config &#8211; &#8220;ClientSecret&#8221;.</p>
+<h2>Run the application</h2>
+<p>If all steps mentioned in <a href="#configuration">Configuration</a> are done and the app.config is configured, build and run the application. If you use <strong>user</strong> authentication, you must allow the application (only the first time) to sign in and to access the service management api:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_08_appCredentials.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_08_appCredentials-266x300.png" alt="" width="266" height="300" class="aligncenter size-medium wp-image-761" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_08_appCredentials-266x300.png 266w, https://codehollow.com/wp-content/uploads/2016/12/20161222_08_appCredentials-768x868.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161222_08_appCredentials-906x1024.png 906w, https://codehollow.com/wp-content/uploads/2016/12/20161222_08_appCredentials.png 1132w" sizes="(max-width: 266px) 100vw, 266px" /></a></p>
+<p>If the application finished successfully, you should find a csv file at the path specified in the app.config (by default: c:\data\ratecarddata.csv)</p>
+<h2 id="troubleshoot">Troubleshooting</h2>
+<p>I ran into some issues, so here is what I did:</p>
+<h3>401 &#8211; Unauthorized</h3>
+<p>There are many reasons why this could happen. Look at the output of the webrequest and check the error_description field. I once got the following message: &#8220;<em>The access token is from wrong audience or resource.</em>&#8220;.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161222_09_console401Unauthorized.png" rel="lightbox[749]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161222_09_console401Unauthorized-1024x568.png" alt="" width="960" height="533" class="aligncenter size-large wp-image-763" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161222_09_console401Unauthorized-1024x568.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161222_09_console401Unauthorized-300x166.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161222_09_console401Unauthorized-768x426.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>This issue can be solved by fixing the resource url. The correct value is:<br />
+https://management.azure.com/</p>
+<p>And&#8230;believe or not&#8230;the <strong>slash / at the end does matter</strong>! So if you are using: https://management.azure.com (without / at the end), then you will receive this error!</p>
+<h3>403 Forbidden</h3>
+<p>That&#8217;s a good message, because it means that you are already logged in! I got this error, when the user/application did not have access to the subscription. Please double check if you did <a href="#subscriptionpermission">Step 5: give the user/application access to the subscription</a></p>
+<h3>System.AggregateException</h3>
+<p>If you get this at the <em>authTask.Wait();</em> statement, check the InnerException. I got the following errors:</p>
+<p><em><strong>AADSTS65005</strong>: The client application has requested access to resource &#8216;https://management.azure.com/&#8217;. This request has failed because the client has not specified this resource in its requiredResourceAccess list.</em><br />
+This error occurs if the application does not have enough permissions. I solved it by doing <a href="#adpermissions">Step 3: add permissions to the service management api</a>. If you have another application, then you probably need to add other/additional permissions. For the RateCard Billing API it&#8217;s enough to configure access to the Service Management API.</p>
+<p><em><strong>AADSTS70002</strong>: The request body must contain the following parameter: &#8216;client_secret or client_assertion&#8217;.</em><br />
+I got this error when I used <strong>user</strong> authentication <strong>and</strong> the application in the Azure AD was configured as web/api application. I changed the application to native (because it is a console application) and it worked (see<br />
+<a href="#addapptoad">Step 2: add new application to active directory</a>).<br />
+If you use <strong>application</strong> authentication (client id + client secret), this error will not occur because the authentication process does not call the reply url. </p>
+<h2>Additional information</h2>
+<p>Microsoft Azure Billing API Code Samples: <a href="https://github.com/Azure/BillingCodeSamples">https://github.com/Azure/BillingCodeSamples</a><br />
+Microsoft Azure Billing API Code Samples &#8211; Usage API: <a href="https://azure.microsoft.com/en-us/resources/samples/billing-dotnet-usage-api/">https://azure.microsoft.com/en-us/resources/samples/billing-dotnet-usage-api/</a><br />
+Azure Billing RateCard REST API Reference: <a href="https://msdn.microsoft.com/en-us/library/azure/mt219004.aspx">https://msdn.microsoft.com/en-us/library/azure/mt219004.aspx</a></p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/12/export-azure-ratecard-data-csv-csharp-billing-api/">Export Azure RateCard data to CSV with C# and Billing API</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/12/export-azure-ratecard-data-csv-csharp-billing-api/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">749</post-id>
+    </item>
+    <item>
+      <title>Connect Azure App Service to virtual network</title>
+      <link>https://codehollow.com/2016/12/connect-azure-app-service-to-virtual-network/</link>
+      <comments>https://codehollow.com/2016/12/connect-azure-app-service-to-virtual-network/#respond</comments>
+      <pubDate>Sun, 18 Dec 2016 15:00:30 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[AppService]]></category>
+      <category><![CDATA[VirtualNetwork]]></category>
+      <category><![CDATA[WebApp]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=698</guid>
+      <description>
+        <![CDATA[<p>Let&#8217;s assume you have to read data from your on-premise network e.g. from a SAP, ERP or other system. It could also be that you want to have access to your virtual machines in your virtual network. How to connect to your on-premise environment? Simple answer is: via VPN or ExpressRoute! But that&#8217;s just a &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/12/connect-azure-app-service-to-virtual-network/">Connect Azure App Service to virtual network</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Let&#8217;s assume you have to read data from your on-premise network e.g. from a SAP, ERP or other system. It could also be that you want to have access to your virtual machines in your virtual network.<br />
+How to connect to your on-premise environment? Simple answer is: via VPN or ExpressRoute! But that&#8217;s just a part of the job, you also have to connect the App service to your virtual network at first. If the web app is in the virtual network, you have access to all resources in the network &#8211; virtual machines for example. If the virtual network is connected to your on-premise network, you can also access those resources. This blog post is about how to connect the app service to your virtual network and how to design the network. The VPN connection is not part of this blog post.</p>
+<h2>Overview</h2>
+<p>The connection between App Service, virtual network and on-premise network needs the following resources:</p>
+<ul>
+<li>App Service + Web App/API App/Logic App/Function/&#8230;</li>
+<li>Virtual network</li>
+<li>Virtual network gateway</li>
+<li>Point-to-Site VPN from Web App etc. to the virtual network gateway</li>
+<li>Local network gateway</li>
+<li>Site-to-Site VPN from Azure virtual network gateway to the local network gateway (VPN device)</li>
+</ul>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_01_overview.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_01_overview-1024x659.png" alt="" width="960" height="618" class="aligncenter size-large wp-image-729" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_01_overview-1024x659.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161219_01_overview-300x193.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161219_01_overview-768x494.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161219_01_overview.png 1211w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p><span id="more-698"></span></p>
+<h2>Network design</h2>
+<p>The first thing to do is to define the Azure network address space. You could use each address space and configure routing and other stuff. But the easiest way is to define a unique address space in Azure which is not already in use in your on premise network. Let&#8217;s assume you have the following address space reserved for the Azure network: </p>
+<ul>
+<li>Azure address space: 10.10.0.0/24 (10.10.0.0 &#8211; 10.10.0.255)</li>
+</ul>
+<p><em>If you are not familiar with the CIDR notation or you don&#8217;t know all the spaces &#8211; MX toolbox is a good resource to calculate them: <a href="http://mxtoolbox.com/subnetcalculator.aspx">http://mxtoolbox.com/subnetcalculator.aspx</a></em></p>
+<p>It has a size of 255 addresses which seems to be a lot, but we have to consider that we need address spaces for:</p>
+<ul>
+<li><strong>Gateway Subnet</strong>: The minimal size for the gateway subnet is /29 (8 addresses), but I strongly recommend you to use at least /28 (16 addresses) or even better /27 (32 addresses). The reason for this is, that you probably want to connect additional networks to your virtual network. If you have configured the gateway subnet and you have added the virtual network gateway &#8211; there is no way to change the address space. It means: if you need more space, you have to delete the virtual network gateway, change the address space and recreate it. The creation takes about 45 minutes and the recreation will result in a new public IP for your virtual network gateway. As a result, you also have to reconfigure your local VPN device (if you have a vpn connection to your on-premise resources). The gateway subnet is a subnet only for the virtual network gateway, so don&#8217;t deploy e.g. virtual machines to it.</li>
+<li><strong>Default Subnet</strong>: The subnet for virtual machines and others. You can e.g. use a virtual machine to test your network related settings.</li>
+<li><strong>Point-to-site space</strong>: The app service will be connected via point-to-site VPN to the virtual network gateway. Therefore, you have to specify an address space for these point-to-site VPN devices. I also tend to use at least /28 for it, because you need to connect every single web app. That means, if you have 5 web apps in one app service, you connect 5 web apps and each gets its own IP address. You can also connect your local client via VPN to test if everything works. It&#8217;s important to know that this reserved client address space is not part of the virtual network!</li>
+</ul>
+<p>Okay, so we need a few subnets and some space for Point-to-Site VPN. I configured it as follows: </p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_01_azureNetworkConfig.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_01_azureNetworkConfig-1024x89.png" alt="" width="960" height="83" class="aligncenter size-large wp-image-723" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_01_azureNetworkConfig-1024x89.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161219_01_azureNetworkConfig-300x26.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161219_01_azureNetworkConfig-768x67.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161219_01_azureNetworkConfig.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<ul>
+<li><strong>Azure address space</strong>: 10.10.0.0/24 (10.10.0.0 &#8211; 10.10.0.255)</li>
+<li><strong>Virtual network</strong>: 10.10.0.0/25 (10.10.0.0 &#8211; 10.10.0.127)</li>
+<ul>
+<li><strong>Default subnet</strong>: 10.10.0.0/26 (10.10.0.0 &#8211; 10.10.0.63)</li>
+<li><strong>Free space</strong>: 10.10.0.64/27 (10.10.0.64 &#8211; 10.10.0.95) &#8211; for future use like backend subnet or any others</li>
+<li><strong>Gateway subnet</strong>: 10.10.0.96/27 (10.10.0.96 &#8211; 10.10.0.127)</li>
+</ul>
+<li><strong>Point-to-site space</strong>: 10.10.0.128/26 (10.10.0.128 &#8211; 10.10.0.191)</li>
+<li><strong>Free space</strong>: 10.10.0.192/26 (10.10.0.192 &#8211; 10.10.0.255) &#8211; fur future use &#8211; can be added to virtual network or for additional virtual network gateways.</li>
+</ul>
+<h2>Create the virtual network</h2>
+<p>First step is to create the virtual network with the parameters defined above &#8211; a virtual network with 2 subnets:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_02_createVnet.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_02_createVnet-126x300.png" alt="" width="126" height="300" class="aligncenter size-medium wp-image-732" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_02_createVnet-126x300.png 126w, https://codehollow.com/wp-content/uploads/2016/12/20161219_02_createVnet.png 400w" sizes="(max-width: 126px) 100vw, 126px" /></a></p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_03_gatewaySubnet.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_03_gatewaySubnet-1024x250.png" alt="" width="960" height="234" class="aligncenter size-large wp-image-725" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_03_gatewaySubnet-1024x250.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161219_03_gatewaySubnet-300x73.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161219_03_gatewaySubnet-768x187.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161219_03_gatewaySubnet.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h2>Create the virtual network gateway</h2>
+<p>The app service will be connected via point-to-site VPN to the virtual network. For a point-to-site VPN we have to create a virtual network gateway. The creation takes about 45 minutes (it takes that long because Azure creates an invisible virtual machine running Windows in the background and configures remote access, routing etc.). The gateway type is VPN, the VPN type can be route based and also policy based. If you only want to connect the app service to the virtual network and you have no connection to your on-premise VPN device, then you can simply use route based. If you want a VPN to your local network, the VPN type depends on your security requirements and your on-premise VPN device. Please check the documentation and check what is supported or recommended for your VPN device: <a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-devices">https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpn-devices</a>.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_04_virtualNetworkGateway.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_04_virtualNetworkGateway-126x300.png" alt="" width="126" height="300" class="aligncenter size-medium wp-image-726" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_04_virtualNetworkGateway-126x300.png 126w, https://codehollow.com/wp-content/uploads/2016/12/20161219_04_virtualNetworkGateway-431x1024.png 431w, https://codehollow.com/wp-content/uploads/2016/12/20161219_04_virtualNetworkGateway.png 505w" sizes="(max-width: 126px) 100vw, 126px" /></a></p>
+<p>When the virtual network gateway is deployed, we can continue to set the point-to-site configuration. If you immediately try to put the app service to your virtual network, you will see the message <em>&#8220;Gateway does not have any point-to-site addresses&#8221;</em>.</p>
+<h3>Configure the point-to-site addresses</h3>
+<p>Go to your virtual network gateway and to the point-to-site configuration. Add the address space, in our case 10.10.0.128/26 and press save. The message <em>&#8220;Add at least one root certificate in order to be able to download the VPN client.&#8221;</em> can be ignored as long as we don&#8217;t want to connect our client to the virtual network. The certificate for the app service is created and configured automatically.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_05_pointToSite.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_05_pointToSite-1024x907.png" alt="" width="960" height="850" class="aligncenter size-large wp-image-731" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_05_pointToSite-1024x907.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161219_05_pointToSite-300x266.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161219_05_pointToSite-768x680.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161219_05_pointToSite.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h2>Connect the app service</h2>
+<p>The virtual network and the virtual network gateway are created. The point-to-site configuration is done and I assume that the app service already exists. The app service must be standard or premium, basic and free do not support vnet integration. </p>
+<p>The next step is the easiest one. Just navigate to the web app, select networking and click on setup:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_06_setupWebApp.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_06_setupWebApp-1024x860.png" alt="" width="960" height="806" class="aligncenter size-large wp-image-735" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_06_setupWebApp-1024x860.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161219_06_setupWebApp-300x252.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161219_06_setupWebApp-768x645.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161219_06_setupWebApp.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Select the virtual network and the connection will be established.</p>
+<h2>Issues and Troubleshooting</h2>
+<h3>Use a virtual machine</h3>
+<p>One way to troubleshoot the network is to create a virtual machine and try to connect from or to the web app. I currently use a Windows Server 2016 Datacenter image, but an Ubuntu, Windows 10 or anything else will also do the job. </p>
+<h3>Kudu console</h3>
+<p>You can use the kudu console and try to ping your client or virtual machine. You can find the kudu console in the web app under development tools. The ping command is tcpping. I created a virtual machine in the virtual network and it got the ip 10.10.0.4 &#8211; so the command is:</p>
+<p><em>tcpping 10.10.0.4</em></p>
+<p>I executed it and I got the error:<br />
+<em>Connection attempt failed: Connection timed out.</em> </p>
+<p>I am pinging a virtual machine and there is a good chance that the vm does not allow incoming pings or that the network security group for the virtual machine blocks them. The good thing is, that there is a port that is open by default &#8211; the port for the remote desktop connection &#8211; and we can use it for our ping request:</p>
+<p><em>tcpping 10.10.0.4:3389</em></p>
+<p>That already did the job for me:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/12/20161219_07_kuduConsole.png" rel="lightbox[698]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161219_07_kuduConsole-1024x615.png" alt="" width="960" height="577" class="aligncenter size-large wp-image-742" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161219_07_kuduConsole-1024x615.png 1024w, https://codehollow.com/wp-content/uploads/2016/12/20161219_07_kuduConsole-300x180.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161219_07_kuduConsole-768x461.png 768w, https://codehollow.com/wp-content/uploads/2016/12/20161219_07_kuduConsole.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>If you want to ping your client, then you need to establish a VPN connection from your client to the Azure network:</p>
+<h3>Connect your client to the virtual network</h3>
+<p>Another way to troubleshoot your connection is to connect your client via VPN to the Azure virtual network. You need to upload a certificate and use it to connect to the virtual network. If you don&#8217;t have a certificate, you can create a self-signed certificate. This process is very well described here:<br />
+<a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal">https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal</a></p>
+<h3>Execute a webrequest from your web app</h3>
+<p>Another way to test the connectivity is to execute a web request to one of your servers or your client. I  downloaded <a href="http://nginx.org/">nginx</a> for the test and started it on my client. The client was connected to the Azure virtual network (VPN). The web app was an API app with Swagger and my TestController class had a piece of code which executes a webrequest to an address that I can define as parameter:</p>
+<pre class="brush: csharp; title: ; notranslate">
+        [Route(&quot;test/webrequest/{address}&quot;)]
+        [HttpPost]
+        public async Task&lt;string&gt; GetWebRequest(string address)
+        {
+            var client = new HttpClient();
+            var response = await client.GetAsync(address);
+            return await response.Content.ReadAsStringAsync();
+        }
+</pre>
+<p>I added the url of my webserver with a slash at the end (important because without the slash, swagger has issues to read the whole address) &#8211; e.g. http://10.10.0.133/. As a result, I got the html code of the nginx default homepage which is enough for me to know that it works.</p>
+<p>Another way is to use kudu console and the <strong>curl</strong> command:<br />
+<em>curl http://10.10.0.133</em></p>
+<h3>Use private address space</h3>
+<p>I once got the message &#8220;<em>A non-recoverable error occurred during a database lookup</em>&#8220;. I got this error when I tried to use tcpping (kudu console) or others to connect to a resource in my virtual network. The reason for it was, that I used 172.100.0.0/24 as address space for the point-to-site configuration. This configuration is possible and allowed and it works if you have an App Service Environment and also if you connect your client via VPN. But it does not work if you connect an App Service (Web App, API App, &#8230;) to the virtual network.<br />
+If you look at the virtual network integration, everything seems fine. But if you look into the point-to-site configuration, you can see that there is no allocated IP address, although the app service is connected to the virtual network.</p>
+<p>Fix this by using a private address space which is or is inside of one of these:</p>
+<ul>
+<li>10.0.0.0/8 (10.0.0.0 &#8211; 10.255.255.255)</li>
+<li>172.16.0.0/12 (172.16.0.0 &#8211; 172.31.255.255)</li>
+<li>192.168.0.0/16 (192.168.0.0 &#8211; 192.168.255.255)</li>
+</ul>
+<h2>Additional information</h2>
+<p>VPN Gateway FAQ: <a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq">https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vpn-faq</a><br />
+Integrate your app with an Azure Virtual Network: <a href="https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-integrate-with-vnet">https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-integrate-with-vnet</a></p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/12/connect-azure-app-service-to-virtual-network/">Connect Azure App Service to virtual network</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/12/connect-azure-app-service-to-virtual-network/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">698</post-id>
+    </item>
+    <item>
+      <title>Auto shutdown Azure virtual machines</title>
+      <link>https://codehollow.com/2016/12/auto-shutdown-azure-virtual-machines/</link>
+      <comments>https://codehollow.com/2016/12/auto-shutdown-azure-virtual-machines/#respond</comments>
+      <pubDate>Thu, 01 Dec 2016 13:00:47 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[VirtualMachine]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=687</guid>
+      <description>
+        <![CDATA[<p>I already blogged about how to Automatically shutdown virtual machines in Azure. The previous post is still useful if you want to shutdown a group (or all) of virtual machines at the same time. It uses the automation service to get the virtual machines and shuts them down. So you can control it at one &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/12/auto-shutdown-azure-virtual-machines/">Auto shutdown Azure virtual machines</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>I already blogged about how to <a href="https://codehollow.com/2016/07/automatically-shutdown-virtual-machines-azure/">Automatically shutdown virtual machines in Azure</a>. The previous post is still useful if you want to shutdown a group (or all) of virtual machines at the same time. It uses the automation service to get the virtual machines and shuts them down. So you can control it at one place.</p>
+<p>At November 22, 2016, Microsoft announced a new feature which makes it easy to configure the auto shutdown for a virtual machine: <a href="https://azure.microsoft.com/en-us/updates/set-auto-shutdown-within-a-couple-of-clicks-for-vms-using-azure-resource-manager/">https://azure.microsoft.com/en-us/updates/set-auto-shutdown-within-a-couple-of-clicks-for-vms-using-azure-resource-manager/</a>.</p>
+<p>This new feature is available in the Azure portal. Just navigate to your virtual machine, scroll down to &#8220;Schedules&#8221; and select &#8220;Auto-shutdown&#8221;:</p>
+<p><span id="more-687"></span></p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/12/20161201_01_autoShutdownVm.png" rel="lightbox[687]"><img src="https://codehollow.com/wp-content/uploads/2016/12/20161201_01_autoShutdownVm.png" alt="20161201_01_autoshutdownvm" width="851" height="737" class="aligncenter size-full wp-image-688" srcset="https://codehollow.com/wp-content/uploads/2016/12/20161201_01_autoShutdownVm.png 851w, https://codehollow.com/wp-content/uploads/2016/12/20161201_01_autoShutdownVm-300x260.png 300w, https://codehollow.com/wp-content/uploads/2016/12/20161201_01_autoShutdownVm-768x665.png 768w" sizes="(max-width: 851px) 100vw, 851px" /></a></p>
+<p>You can easily configure the schedule and there is also a property for a webhook that will be called when the auto-shutdown is about to happen. So if you want to log the shutdown, receive an email or anything else, then you can use <a href="https://codehollow.com/2016/11/working-with-azure-functions-part-2-c/"> Azure functions</a> or logic apps to perform an action. Both of them allow to configure a HTTP trigger that can be called from the auto-shutdown.</p>
+<p>If you want to auto-shutdown multiple virtual machines at once, then I still recommend to use the automation service as described here: <a href="https://codehollow.com/2016/07/automatically-shutdown-virtual-machines-azure/">Automatically shutdown virtual machines in Azure</a></p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/12/auto-shutdown-azure-virtual-machines/">Auto shutdown Azure virtual machines</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/12/auto-shutdown-azure-virtual-machines/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">687</post-id>
+    </item>
+    <item>
+      <title>Working with Azure functions (part 2 &#8211; C#)</title>
+      <link>https://codehollow.com/2016/11/working-with-azure-functions-part-2-c/</link>
+      <comments>https://codehollow.com/2016/11/working-with-azure-functions-part-2-c/#respond</comments>
+      <pubDate>Wed, 09 Nov 2016 06:00:25 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[C#]]></category>
+      <category><![CDATA[API management]]></category>
+      <category><![CDATA[AzureFunctions]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=652</guid>
+      <description>
+        <![CDATA[<p>In my first blog post about Azure functions, I created an Azure function app and a function that uses Powershell to read data from RSS and writes it to Azure Table Storage. In this post, I&#8217;ll create a C# function that reads all upcoming events of my https://www.meetup.com groups and creates an iCal file out &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/11/working-with-azure-functions-part-2-c/">Working with Azure functions (part 2 &#8211; C#)</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>In my <a href="https://codehollow.com/2016/11/working-azure-functions-part-1-powershell">first blog post about Azure functions</a>, I created an Azure function app and a function that uses Powershell to read data from RSS and writes it to Azure Table Storage. In this post, I&#8217;ll create a C# function that reads all upcoming events of my <a href="https://www.meetup.com">https://www.meetup.com</a> groups and creates an iCal file out of it.<br />
+Unfortunately it&#8217;s not possible to do that at the meetup site. What you can do is, that you (manually) subscribe to each iCal calendar of each group that you have, but that results in a lot of calendars and if you join or leave a group, you also have to add/remove the calendar subscription.</p>
+<h2>Building the C# application</h2>
+<p>I&#8217;ll at first create a simple C# application in VisualStudio and move the code later on to the Azure function. The application itself is simple and does the following steps:</p>
+<ol>
+<li>Read data from the meetup API</li>
+<li>Transform the data to an event object</li>
+<li>Create an iCal file</li>
+</ol>
+<p>To achieve that, I&#8217;ll at first add the NuGet packages &#8220;Ical.Net&#8221; and &#8220;Newtonsoft.Json&#8221; to my console application.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161109_01_nuGetPackages.png" rel="lightbox[652]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161109_01_nuGetPackages.png" alt="20161109_01_nugetpackages" width="720" height="169" class="aligncenter size-full wp-image-654" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161109_01_nuGetPackages.png 720w, https://codehollow.com/wp-content/uploads/2016/11/20161109_01_nuGetPackages-300x70.png 300w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
+<p><span id="more-652"></span></p>
+<h3>Read data from meetup API</h3>
+<p>Reading the data from the meetup API is simple. The rest call to <em>/self/calender</em> will give us all upcoming events. The call ca be tested with the meetup API console: <a href="https://secure.meetup.com/meetup_api/console/?path=/self/calendar">https://secure.meetup.com/meetup_api/console/?path=/self/calendar</a>.</p>
+<p>For the final REST call, we have to including the API key which results in the following URL:<br />
+https://api.meetup.com/self/calendar?&#038;sign=true&#038;photo-host=public&#038;page=200&#038;key=[MyAPIKey]
+You can get your API key here: <a href="https://secure.meetup.com/meetup_api/key/">https://secure.meetup.com/meetup_api/key/</a></p>
+<p>Seems easy, we just have to <strong>call that REST service</strong> in our C# application and transform the JSON result to a C# object:</p>
+<pre class="brush: csharp; title: Program.cs; notranslate">
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace CodeHollow.MeetupIcal
+{
+    public class MeetupEvent
+    {
+        public DateTime Created { get; private set; }
+        public DateTime Date { get; private set; }
+        public DateTime EndDate { get; private set; }
+        public string Group { get; private set; }
+        public string Id { get; private set; }
+        public string Link { get; private set; }
+        public string Location { get; private set; }
+        public string Title { get; private set; }
+        public string Description { get; private set; }
+        public Tuple&lt;double, double&gt; GeoLocation { get; private set; }
+
+        public MeetupEvent(JToken eventInfo)
+        {
+            Created = eventInfo.Value&lt;long&gt;(&quot;created&quot;).FromUnixTime();
+            Date = eventInfo.Value&lt;long&gt;(&quot;time&quot;).FromUnixTime();
+            EndDate = Date.AddMilliseconds(eventInfo.Value&lt;long&gt;(&quot;duration&quot;));
+            Id = eventInfo.Value&lt;string&gt;(&quot;id&quot;);
+            Link = eventInfo.Value&lt;string&gt;(&quot;link&quot;);
+            Title = eventInfo.Value&lt;string&gt;(&quot;name&quot;);
+            Description = eventInfo.Value&lt;string&gt;(&quot;description&quot;);
+            Group = eventInfo[&quot;group&quot;].Value&lt;string&gt;(&quot;name&quot;);
+            var venue = eventInfo[&quot;venue&quot;];
+            if (venue != null)
+            {
+                Location = string.Format(&quot;{0}, {1}, {2}&quot;,
+                    venue.Value&lt;string&gt;(&quot;name&quot;),
+                    venue.Value&lt;string&gt;(&quot;address_1&quot;),
+                    venue.Value&lt;string&gt;(&quot;city&quot;));
+
+                GeoLocation = new Tuple&lt;double, double&gt;(venue.Value&lt;double&gt;(&quot;lat&quot;), venue.Value&lt;double&gt;(&quot;lon&quot;));
+            }
+        }
+
+        public override string ToString()
+        {
+            return string.Format(&quot;{0}, {1}, {2}, {3}&quot;, Group, Title, Date.ToLocalTime(), EndDate.ToLocalTime());
+        }
+    }
+
+    public static class DateTimeExtensions
+    {
+        public static DateTime FromUnixTime(this long unixTime)
+        {
+            var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+            return epoch.AddMilliseconds(unixTime);
+        }
+    }
+
+    class Program
+    {
+        const string MEETUP_URL = &quot;https://api.meetup.com/self/calendar?&amp;sign=true&amp;photo-host=public&amp;page=200&amp;key={0}&quot;;
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(&quot;Getting events from meetup...&quot;);
+            var getEventsTask = GetEvents(&quot;[API KEY]&quot;);
+            getEventsTask.Wait();
+
+            if (!getEventsTask.IsFaulted)
+            {
+                var events = getEventsTask.Result;
+                events.ForEach(x =&gt; Console.WriteLine(x.ToString()));
+            }
+
+            Console.WriteLine(&quot;Done! Press key to exit.&quot;);
+            Console.Read();
+        }
+
+        public static async Task&lt;List&lt;MeetupEvent&gt;&gt; GetEvents(string apiKey)
+        {
+            if (String.IsNullOrEmpty(apiKey))
+                throw new ArgumentException(&quot;API key is missing, please visit https://secure.meetup.com/meetup_api/key/ to get your API Key&quot;, &quot;apiKey&quot;);
+
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Add(&quot;Accept&quot;, &quot;application/json&quot;);
+
+            var jsonResult = await client.GetStringAsync(string.Format(MEETUP_URL, apiKey));
+            JToken token = JToken.Parse(jsonResult);
+
+            var result = new List&lt;MeetupEvent&gt;();
+
+            foreach (var item in token)
+            {
+                try
+                {
+                    result.Add(new MeetupEvent(item));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+            }
+
+            return result;
+        }
+    }
+}
+</pre>
+<p>I put everything into one file because the Azure function will also be just one file. It&#8217;s possible to create multiple functions and files in Azure functions, but it&#8217;s much easier if it&#8217;s just one.<br />
+The code above reads the next 200 upcoming events from the meetup API and writes them to the output. The output looks like:<br />
+<em><br />
+Getting events from meetup&#8230;<br />
+Event XYZ1, 05.11.2016 09:30:00, 05.11.2016 19:30:00<br />
+Event XYZ2, 06.11.2016 10:00:00, 06.11.2016 15:00:00<br />
+Event XYZ3, 10.11.2016 09:15:00, 10.11.2016 09:15:00<br />
+Done! Press key to exit.<br />
+</em></p>
+<h3>Creating an iCal file</h3>
+<p>I already added the NuGet package <a href="https://github.com/rianjs/ical.net">Ical.Net</a> (thanks to Rian Stockbower) which makes creating an iCal file very easy:</p>
+<pre class="brush: csharp; title: ; notranslate">
+        public static string CreateIcal(List&lt;MeetupEvent&gt; events)
+        {
+            var calendar = new Calendar();
+            calendar.AddProperty(&quot;X-WR-CALNAME&quot;, &quot;My Meetups&quot;); // sets the calendar title
+            calendar.AddProperty(&quot;X-ORIGINAL-URL&quot;, &quot;https://codehollow.com&quot;);
+            calendar.AddProperty(&quot;METHOD&quot;, &quot;PUBLISH&quot;);
+            foreach (var item in events)
+            {
+                var icalevent = new Event()
+                {
+                    DtStart = new CalDateTime(item.Date),
+                    DtEnd = new CalDateTime(item.EndDate),
+                    Created = new CalDateTime(item.Created),
+                    Location = item.Location,
+                    Summary = item.Title,
+                    Url = new Uri(item.Link)
+                };
+
+                string description = item.Description;
+                if (!String.IsNullOrEmpty(item.Link))
+                    description = string.Format(&quot;URL: &lt;a href=\&quot;{0}\&quot;&gt;{0}&lt;/a&gt;&lt;br /&gt;{1}&quot;, item.Link, item.Description);
+
+                icalevent.AddProperty(&quot;X-ALT-DESC;FMTTYPE=text/html&quot;, description); // creates an HTML description
+
+                if (item.GeoLocation != null)
+                    icalevent.GeographicLocation = new GeographicLocation(item.GeoLocation.Item1, item.GeoLocation.Item2);
+
+                calendar.Events.Add(icalevent);
+            }
+            
+            var serializer = new CalendarSerializer(new SerializationContext());
+            return serializer.SerializeToString(calendar);
+        }
+</pre>
+<p>This method creates the ical file out of my events. We just need to call it and write the output to the local file system.</p>
+<h3>The final console application</h3>
+<pre class="brush: csharp; title: Program.cs; notranslate">
+using Ical.Net;
+using Ical.Net.DataTypes;
+using Ical.Net.Serialization;
+using Ical.Net.Serialization.iCalendar.Serializers;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace CodeHollow.MeetupIcal
+{
+    public class MeetupEvent
+    {
+        public DateTime Created { get; private set; }
+        public DateTime Date { get; private set; }
+        public DateTime EndDate { get; private set; }
+        public string Group { get; private set; }
+        public string Id { get; private set; }
+        public string Link { get; private set; }
+        public string Location { get; private set; }
+        public string Title { get; private set; }
+        public string Description { get; private set; }
+        public Tuple&lt;double, double&gt; GeoLocation { get; private set; }
+
+        public MeetupEvent(JToken eventInfo)
+        {
+            Created = eventInfo.Value&lt;long&gt;(&quot;created&quot;).FromUnixTime();
+            Date = eventInfo.Value&lt;long&gt;(&quot;time&quot;).FromUnixTime();
+            EndDate = Date.AddMilliseconds(eventInfo.Value&lt;long&gt;(&quot;duration&quot;));
+            Id = eventInfo.Value&lt;string&gt;(&quot;id&quot;);
+            Link = eventInfo.Value&lt;string&gt;(&quot;link&quot;);
+            Title = eventInfo.Value&lt;string&gt;(&quot;name&quot;);
+            Description = eventInfo.Value&lt;string&gt;(&quot;description&quot;);
+            Group = eventInfo[&quot;group&quot;].Value&lt;string&gt;(&quot;name&quot;);
+            var venue = eventInfo[&quot;venue&quot;];
+            if (venue != null)
+            {
+                Location = string.Format(&quot;{0}, {1}, {2}&quot;,
+                    venue.Value&lt;string&gt;(&quot;name&quot;),
+                    venue.Value&lt;string&gt;(&quot;address_1&quot;),
+                    venue.Value&lt;string&gt;(&quot;city&quot;));
+
+                GeoLocation = new Tuple&lt;double, double&gt;(venue.Value&lt;double&gt;(&quot;lat&quot;), venue.Value&lt;double&gt;(&quot;lon&quot;));
+            }
+        }
+
+        public override string ToString()
+        {
+            return string.Format(&quot;{0}, {1}, {2}, {3}&quot;, Group, Title, Date.ToLocalTime(), EndDate.ToLocalTime());
+        }
+    }
+
+    public static class DateTimeExtensions
+    {
+        public static DateTime FromUnixTime(this long unixTime)
+        {
+            var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+            return epoch.AddMilliseconds(unixTime);
+        }
+    }
+
+    class Program
+    {
+        const string MEETUP_URL = &quot;https://api.meetup.com/self/calendar?&amp;sign=true&amp;photo-host=public&amp;page=200&amp;key={0}&quot;;
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine(&quot;Getting events from meetup...&quot;);
+            var getEventsTask = GetEvents(&quot;[API KEY]&quot;);
+            getEventsTask.Wait();
+
+            if (!getEventsTask.IsFaulted)
+            {
+                var events = getEventsTask.Result;
+                events.ForEach(x =&gt; Console.WriteLine(x.ToString()));
+
+                System.IO.File.WriteAllText(&quot;C:\\data\\mymeetups.ics&quot;, CreateIcal(events));
+            }
+
+            Console.WriteLine(&quot;Done! Press key to exit.&quot;);
+            Console.Read();
+        }
+
+        public static async Task&lt;List&lt;MeetupEvent&gt;&gt; GetEvents(string apiKey)
+        {
+            if (String.IsNullOrEmpty(apiKey))
+                throw new ArgumentException(&quot;API key is missing, please visit https://secure.meetup.com/meetup_api/key/ to get your API Key&quot;, &quot;apiKey&quot;);
+
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Add(&quot;Accept&quot;, &quot;application/json&quot;);
+
+            var jsonResult = await client.GetStringAsync(string.Format(MEETUP_URL, apiKey));
+            JToken token = JToken.Parse(jsonResult);
+
+            var result = new List&lt;MeetupEvent&gt;();
+
+            foreach (var item in token)
+            {
+                try
+                {
+                    result.Add(new MeetupEvent(item));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+            }
+
+            return result;
+        }
+
+        public static string CreateIcal(List&lt;MeetupEvent&gt; events)
+        {
+            var calendar = new Calendar();
+            calendar.AddProperty(&quot;X-WR-CALNAME&quot;, &quot;My Meetups&quot;); // sets the calendar title
+            calendar.AddProperty(&quot;X-ORIGINAL-URL&quot;, &quot;https://codehollow.com&quot;);
+            calendar.AddProperty(&quot;METHOD&quot;, &quot;PUBLISH&quot;);
+            foreach (var item in events)
+            {
+                var icalevent = new Event()
+                {
+                    DtStart = new CalDateTime(item.Date),
+                    DtEnd = new CalDateTime(item.EndDate),
+                    Created = new CalDateTime(item.Created),
+                    Location = item.Location,
+                    Summary = item.Title,
+                    Url = new Uri(item.Link)
+                };
+
+                string description = item.Description;
+                if (!String.IsNullOrEmpty(item.Link))
+                    description = string.Format(&quot;URL: &lt;a href=\&quot;{0}\&quot;&gt;{0}&lt;/a&gt;&lt;br /&gt;{1}&quot;, item.Link, item.Description);
+
+                icalevent.AddProperty(&quot;X-ALT-DESC;FMTTYPE=text/html&quot;, description); // creates an HTML description
+
+                if (item.GeoLocation != null)
+                    icalevent.GeographicLocation = new GeographicLocation(item.GeoLocation.Item1, item.GeoLocation.Item2);
+
+                calendar.Events.Add(icalevent);
+            }
+            
+            var serializer = new CalendarSerializer(new SerializationContext());
+            return serializer.SerializeToString(calendar);
+        }
+    }
+}
+
+</pre>
+<h2>Building the Azure function</h2>
+<p>The console application works and creates the iCal file. Next step is to move everything to an Azure function. The Azure function is a C# function that runs every time when someone calls a specific URL. The URL will contain the API key and will return the iCal file. So we have to do the following things:</p>
+<ol>
+<li>Create Azure function with HTTP trigger</li>
+<li>Add the NuGet packages to the Azure function</li>
+<li>Move the C# code to the Azure function and adapt it</li>
+</ol>
+<h3>Create Azure function with HTTP trigger</h3>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161109_02_createAzureFunction.png" rel="lightbox[652]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161109_02_createAzureFunction-1024x606.png" alt="20161109_02_createazurefunction" width="960" height="568" class="aligncenter size-large wp-image-656" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161109_02_createAzureFunction-1024x606.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161109_02_createAzureFunction-300x178.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161109_02_createAzureFunction-768x455.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161109_02_createAzureFunction.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>The authorization level handles who is allowed to call the function. The value Function means that you need a function key to call the URL, Admin means that you need the master key. Both keys can be found under &#8220;Manage&#8221;. I use <strong>Anonymous</strong> so that everyone can use it&#8230;let&#8217;s see if that will be a mistake :). And here is my new function:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161109_03_CSharpHttpFunction.png" rel="lightbox[652]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161109_03_CSharpHttpFunction-1024x595.png" alt="20161109_03_csharphttpfunction" width="960" height="558" class="aligncenter size-large wp-image-657" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161109_03_CSharpHttpFunction-1024x595.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161109_03_CSharpHttpFunction-300x174.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161109_03_CSharpHttpFunction-768x446.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161109_03_CSharpHttpFunction.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h3>Add the NuGet packages to the Azure function</h3>
+<p>The NuGet packages for the Azure function are maintained in the project.json file of the function. So we need to get access to the file system. Fortunately that&#8217;s simple. Navigate to the &#8220;Function app settings&#8221; and open the &#8220;App service settings&#8221;</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161109_04_appServiceSettings.png" rel="lightbox[652]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161109_04_appServiceSettings-1024x605.png" alt="20161109_04_appservicesettings" width="960" height="567" class="aligncenter size-large wp-image-658" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161109_04_appServiceSettings-1024x605.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161109_04_appServiceSettings-300x177.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161109_04_appServiceSettings-768x454.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161109_04_appServiceSettings.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>In the upcoming window, scroll down to the &#8220;Development Tools&#8221; section and open the App Service Editor which is currently in preview.</p>
+<p>In the app service editor, open the function and add a new file &#8220;project.json&#8221; with the following content:</p>
+<pre class="brush: jscript; title: ; notranslate">
+{
+  &quot;frameworks&quot;: {
+    &quot;net46&quot;: {
+      &quot;dependencies&quot;: {
+        &quot;Ical.Net&quot;: &quot;2.2.19&quot;,
+        &quot;Newtonsoft.Json&quot;: &quot;9.0.1&quot;
+      }
+    }
+   }
+}
+</pre>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161109_05_azureFunctionsNuGetPackages.png" rel="lightbox[652]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161109_05_azureFunctionsNuGetPackages-1024x605.png" alt="20161109_05_azurefunctionsnugetpackages" width="960" height="567" class="aligncenter size-large wp-image-659" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161109_05_azureFunctionsNuGetPackages-1024x605.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161109_05_azureFunctionsNuGetPackages-300x177.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161109_05_azureFunctionsNuGetPackages-768x454.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161109_05_azureFunctionsNuGetPackages.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>The app service editor automatically saves the file. So after inserting the packages, we can go back to the Azure function and check the log file. If everythings correct, then we should see a message that all packages are restored:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161109_06_nuGetLogOutput.png" rel="lightbox[652]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161109_06_nuGetLogOutput.png" alt="20161109_06_nugetlogoutput" width="800" height="241" class="aligncenter size-full wp-image-660" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161109_06_nuGetLogOutput.png 800w, https://codehollow.com/wp-content/uploads/2016/11/20161109_06_nuGetLogOutput-300x90.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161109_06_nuGetLogOutput-768x231.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></a></p>
+<p>You can also simply add some using statements at the top of the function with namespaces that are part of the NuGet packages. When you save the function, the code is automatically compiled and you can see the output in the log window.</p>
+<h3>Move the C# code to the Azure function</h3>
+<p>The next step is to move the C# code to the Azure function. It&#8217;s not completely straight forward, but also not a big deal. I had to change the following things so that it works:</p>
+<ul>
+<li>Replace Console.WriteLine by log.Info, log.Warning or log.Verbose</li>
+<li>Removed the DateTimeExtensions class (but let the method still there so that the extension is not nested into another class)</li>
+<li>Replaced the apikey by using the one from the request parameters</li>
+<li>Return the iCal file as HttpResponse (instead of writing to the filesystem)</li>
+</ul>
+<p>This results in the following code:</p>
+<pre class="brush: csharp; title: run.csx; notranslate">
+using Ical.Net;
+using Ical.Net.DataTypes;
+using Ical.Net.Serialization;
+using Ical.Net.Serialization.iCalendar.Serializers;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
+ 
+const string MEETUP_URL = &quot;https://api.meetup.com/self/calendar?&amp;sign=true&amp;photo-host=public&amp;page=200&amp;key={0}&quot;;
+ 
+public static async Task&lt;HttpResponseMessage&gt; Run(HttpRequestMessage req, TraceWriter log)
+{
+    try
+    {
+        log.Info($&quot;C# HTTP trigger function processed a request. RequestUri={req.RequestUri}&quot;);
+    
+        // parse query parameter
+        string apikey = req.GetQueryNameValuePairs()
+            .FirstOrDefault(q =&gt; string.Compare(q.Key, &quot;apikey&quot;, true) == 0)
+            .Value;
+    
+        // Get request body
+        dynamic data = await req.Content.ReadAsAsync&lt;object&gt;();
+    
+        // Set name to query string or body data
+        apikey = apikey ?? data?.apikey;
+    
+        if(String.IsNullOrEmpty(apikey) || apikey.Equals(&quot;[YOURAPIKEY]&quot;, StringComparison.InvariantCultureIgnoreCase))
+            return req.CreateResponse(HttpStatusCode.BadRequest, &quot;Please pass your meetup apikey (https://secure.meetup.com/meetup_api/key/) as URL parameter: https://codehollow-functions.azurewebsites.net/api/MeetupToICal?apikey=[YOURAPIKEY]&quot;);
+     
+        log.Verbose(&quot;Getting events from meetup...&quot;);
+    
+        var getEventsTask = GetEvents(apikey, log);
+        getEventsTask.Wait();
+    
+        if (!getEventsTask.IsFaulted)
+        {
+            var events = getEventsTask.Result;
+            //events.ForEach(x =&gt; log.Info(x.ToString()));
+            var icalContent = CreateIcal(events);
+    
+            // ical content to byte array and return it as attachment
+            var result = new HttpResponseMessage(HttpStatusCode.OK);
+            result.Content = new ByteArrayContent(System.Text.Encoding.UTF8.GetBytes(icalContent));
+            result.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue(&quot;attachment&quot;) 
+                { FileName = &quot;mymeetups.ics&quot; };
+            result.Content.Headers.ContentType = new MediaTypeHeaderValue(&quot;application/octet-stream&quot;);
+    
+            return result;
+        }
+    
+        return req.CreateResponse(HttpStatusCode.BadRequest, &quot;An error occurred. Please contact blog@codehollow.com&quot;);
+    }
+    catch(Exception ex)
+    {
+        log.Warning(ex.ToString());
+        return req.CreateResponse(HttpStatusCode.BadRequest, &quot;An error occurred. Please check your API key or contact blog@codehollow.com&quot;);
+    }
+}
+ 
+public static async Task&lt;List&lt;MeetupEvent&gt;&gt; GetEvents(string apiKey, TraceWriter log)
+{
+    if (String.IsNullOrEmpty(apiKey))
+        throw new ArgumentException(&quot;API key is missing, please visit https://secure.meetup.com/meetup_api/key/ to get your API Key&quot;, &quot;apiKey&quot;);
+ 
+    var client = new HttpClient();
+    client.DefaultRequestHeaders.Add(&quot;Accept&quot;, &quot;application/json&quot;);
+ 
+    var jsonResult = await client.GetStringAsync(string.Format(MEETUP_URL, apiKey));
+    JToken token = JToken.Parse(jsonResult);
+ 
+    var result = new List&lt;MeetupEvent&gt;();
+ 
+    foreach (var item in token)
+    {
+        try
+        {
+            result.Add(new MeetupEvent(item));
+        }
+        catch (Exception ex)
+        {
+            log.Warning(ex.ToString());
+        }
+    }
+ 
+    return result;
+}
+ 
+public static string CreateIcal(List&lt;MeetupEvent&gt; events)
+{
+    var calendar = new Calendar();
+    calendar.AddProperty(&quot;X-WR-CALNAME&quot;, &quot;My Meetups&quot;); // sets the calendar title
+    calendar.AddProperty(&quot;X-ORIGINAL-URL&quot;, &quot;https://codehollow.com&quot;);
+    calendar.AddProperty(&quot;METHOD&quot;, &quot;PUBLISH&quot;);
+    foreach (var item in events)
+    {
+        var icalevent = new Event()
+        {
+            DtStart = new CalDateTime(item.Date),
+            DtEnd = new CalDateTime(item.EndDate),
+            Created = new CalDateTime(item.Created),
+            Location = item.Location,
+            Summary = item.Title,
+            Url = new Uri(item.Link)
+        };
+ 
+        string description = item.Description;
+        if (!String.IsNullOrEmpty(item.Link))
+            description = string.Format(&quot;URL: &lt;a href=\&quot;{0}\&quot;&gt;{0}&lt;/a&gt;&lt;br /&gt;{1}&quot;, item.Link, item.Description);
+ 
+        icalevent.AddProperty(&quot;X-ALT-DESC;FMTTYPE=text/html&quot;, description); // creates an HTML description
+ 
+        if (item.GeoLocation != null)
+            icalevent.GeographicLocation = new GeographicLocation(item.GeoLocation.Item1, item.GeoLocation.Item2);
+ 
+        calendar.Events.Add(icalevent);
+    }
+     
+    var serializer = new CalendarSerializer(new SerializationContext());
+    return serializer.SerializeToString(calendar);
+}
+ 
+public class MeetupEvent
+{
+    public DateTime Created { get; private set; }
+    public DateTime Date { get; private set; }
+    public DateTime EndDate { get; private set; }
+    public string Group { get; private set; }
+    public string Id { get; private set; }
+    public string Link { get; private set; }
+    public string Location { get; private set; }
+    public string Title { get; private set; }
+    public string Description { get; private set; }
+    public Tuple&lt;double, double&gt; GeoLocation { get; private set; }
+ 
+    public MeetupEvent(JToken eventInfo)
+    {
+        Created = eventInfo.Value&lt;long&gt;(&quot;created&quot;).FromUnixTime();
+        Date = eventInfo.Value&lt;long&gt;(&quot;time&quot;).FromUnixTime();
+        EndDate = Date.AddMilliseconds(eventInfo.Value&lt;long&gt;(&quot;duration&quot;));
+        Id = eventInfo.Value&lt;string&gt;(&quot;id&quot;);
+        Link = eventInfo.Value&lt;string&gt;(&quot;link&quot;);
+        Title = eventInfo.Value&lt;string&gt;(&quot;name&quot;);
+        Description = eventInfo.Value&lt;string&gt;(&quot;description&quot;);
+        Group = eventInfo[&quot;group&quot;].Value&lt;string&gt;(&quot;name&quot;);
+        var venue = eventInfo[&quot;venue&quot;];
+        if (venue != null)
+        {
+            Location = string.Format(&quot;{0}, {1}, {2}&quot;,
+                venue.Value&lt;string&gt;(&quot;name&quot;),
+                venue.Value&lt;string&gt;(&quot;address_1&quot;),
+                venue.Value&lt;string&gt;(&quot;city&quot;));
+ 
+            GeoLocation = new Tuple&lt;double, double&gt;(venue.Value&lt;double&gt;(&quot;lat&quot;), venue.Value&lt;double&gt;(&quot;lon&quot;));
+        }
+    }
+ 
+    public override string ToString()
+    {
+        return string.Format(&quot;{0}, {1}, {2}, {3}&quot;, Group, Title, Date.ToLocalTime(), EndDate.ToLocalTime());
+    }
+}
+ 
+public static DateTime FromUnixTime(this long unixTime)
+{
+    var epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+    return epoch.AddMilliseconds(unixTime);
+}
+</pre>
+<h3>Run the Azure function</h3>
+<p>Testing or running the Azure function is very easy as you just have to press the Run button. The only thing to mention here is that this button look-alike thing on the upper right side with the text &#8220;Run&#8221; is not button, it&#8217;s a tab. So click it and you&#8217;ll see that you can enter input parameters, query parameters and such stuff to your run:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161109_07_testAzureFunction.png" rel="lightbox[652]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161109_07_testAzureFunction-1024x563.png" alt="20161109_07_testazurefunction" width="960" height="528" class="aligncenter size-large wp-image-662" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161109_07_testAzureFunction-1024x563.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161109_07_testAzureFunction-300x165.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161109_07_testAzureFunction-768x422.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161109_07_testAzureFunction.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h2>Get all upcoming meetups of all groups as iCal (ics)</h2>
+<p>The last step is to subscribe to the meetup calendar in your favorite calendar app. The URL for it is: <strong>webcal://codehollow-functions.azurewebsites.net/api/MeetupToICal?apikey=[YOURAPIKEY]</strong></p>
+<p>You have to replace [YOURAPIKEY] with the apikey from this page: <a href="https://secure.meetup.com/meetup_api/key/">https://secure.meetup.com/meetup_api/key/</a></p>
+<p>The URL returns an iCal (.ics) file that contains the next <strong>200 upcoming events</strong> of all your groups from <a href="https://www.meetup.com">https://www.meetup.com</a>. It does not include events from the past!</p>
+<p>I suggest you to use the webcal protocol for it (I had issues with one client), but you can also access it via https:<br />
+https://codehollow-functions.azurewebsites.net/api/MeetupToICal?apikey=[YOURAPIKEY]
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/11/working-with-azure-functions-part-2-c/">Working with Azure functions (part 2 &#8211; C#)</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/11/working-with-azure-functions-part-2-c/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">652</post-id>
+    </item>
+    <item>
+      <title>Working with Azure functions (part 1 &#8211; Powershell)</title>
+      <link>https://codehollow.com/2016/11/working-azure-functions-part-1-powershell/</link>
+      <comments>https://codehollow.com/2016/11/working-azure-functions-part-1-powershell/#respond</comments>
+      <pubDate>Mon, 07 Nov 2016 06:00:25 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[Powershell]]></category>
+      <category><![CDATA[AzureFunctions]]></category>
+      <category><![CDATA[Scripts]]></category>
+      <category><![CDATA[Storage]]></category>
+      <category><![CDATA[Table Storage]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=639</guid>
+      <description>
+        <![CDATA[<p>Azure functions, also called Azure function apps, are a great way to build simple components &#8211; functions &#8211; and run them in the cloud (also called &#8220;serverless computing&#8221; or FaaS). Those functions are triggered via timer, http trigger, webhooks and many others. The functions itself can be implemented in one of the following languages: C#, &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/11/working-azure-functions-part-1-powershell/">Working with Azure functions (part 1 &#8211; Powershell)</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Azure functions, also called Azure function apps, are a great way to build simple components &#8211; functions &#8211; and run them in the cloud (also called &#8220;serverless computing&#8221; or FaaS). Those functions are <strong>triggered via timer, http trigger, webhooks and many others</strong>. The functions itself can be implemented in one of the following languages: <strong>C#, F#, JavaScript/Node.js, PHP, Powershell, Python, Batch, Bash</strong>. </p>
+<p>It&#8217;s important to mention, that functions have a <strong>timeout of 5 minutes</strong> &#8211; so if you have an endless running job, then you should go for webjobs. The idea behind Azure functions is, that you execute just a small piece of code. That&#8217;s why there is this timeout. Running those small pieces is very cheap. The first 1.000.000 executions and the first 400.000 GB/s of execution are for free. 400.000 GB/s means: Let&#8217;s assume you have a memory size for your function app of 512 MB: 400.000*1024 / 512 = 800.000 seconds are for free. So you can execute your function 1 Mio times with an average execution time of 1.25 seconds and it&#8217;s still free.</p>
+<p>I will use the Azure functions to build two &#8220;applications&#8221;/functions. One of them will read data from my RSS feed and write it to my table storage. The second one will read all my upcoming events from <a href="https://www.meetup.com/">https://www.meetup.com/</a> and create an iCal file out of it so that I can add it to my calendar. </p>
+<p><span id="more-639"></span></p>
+<p>In this blog post, I will create the <strong>Azure function app with Powershell</strong> to read data from my RSS feed and write it to the table storage. I already did the coding part in one of my <a href="https://codehollow.com/2016/10/working-with-azure-table-storage-and-excel/">previous blog posts</a>, so this post will focus on the Azure function.</p>
+<h2>Create the Azure function app</h2>
+<p>If you just want to try out Azure functions, the easiest way is to go to <a href="https://functions.azure.com/try">https://functions.azure.com/try</a>. It allows to create an Azure function and try it for free &#8211; but only for 60 minutes. Unfortunately it only allows to create C# and JavaScript functions and it has a limited functionality.</p>
+<p>We want all functionality and it should be running regularly the next years, so we&#8217;ll create an Azure function in the Azure portal:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161107_01_createAzureFunctionApp.png" rel="lightbox[639]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161107_01_createAzureFunctionApp-1024x881.png" alt="20161107_01_createazurefunctionapp" width="960" height="826" class="aligncenter size-large wp-image-640" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161107_01_createAzureFunctionApp-1024x881.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161107_01_createAzureFunctionApp-300x258.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161107_01_createAzureFunctionApp-768x660.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161107_01_createAzureFunctionApp.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>I&#8217;ll use the Hosting plan &#8220;App Service Plan&#8221; because I already have a running app service. You can also choose dynamic. If you just want to try it out, it makes sense to use dynamic and to create a new resource group and a new storage account because it allows you to delete all created things by deleting the resource group.<br />
+I want to use those functions for a longer period, so I&#8217;ll create it in one of my existing resource groups and I&#8217;ll also reuse one of my storage accounts.</p>
+<p>After the creation, open the function app. If it shows that there is a new version of Azure functions available, upgrade it by clicking the link, scrolling to the top and pressing update.</p>
+<h3>Create a new Powershell function</h3>
+<p>Click the new function button on the left side and change the filter for language to Powershell. I&#8217;ll create a time triggered function and will therefore use the template &#8220;TimeTrigger-Powershell&#8221;.<br />
+The default schedule: 0 */5 * * * * means every 5 minutes. We can change that later on to 0 0 0 * * * which means daily.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161107_02_createPsFunction.png" rel="lightbox[639]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161107_02_createPsFunction-1024x605.png" alt="20161107_02_createpsfunction" width="960" height="567" class="aligncenter size-large wp-image-641" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161107_02_createPsFunction-1024x605.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161107_02_createPsFunction-300x177.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161107_02_createPsFunction-768x454.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161107_02_createPsFunction.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>After that, I&#8217;ll collect the code from the blog post <a href="https://codehollow.com/2016/10/working-with-azure-table-storage-and-excel/">Working with Azure Table Storage and Excel</a> and add it to the Powershell function:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Write-Output &quot;PowerShell Timer trigger function ReadRssUpdateTable executed at:$(get-date)&quot;;
+
+Import-Module AzureRM.Profile
+Import-Module Azure.Storage
+
+function GetOrCreateTable ($storageContext, $tableName) {
+    $table = Get-AzureStorageTable â€“Name $tableName -Context $ctx -ErrorAction Ignore
+ 
+    if ($table -eq $null) {
+       $table = New-AzureStorageTable â€“Name $tableName -Context $ctx
+    }
+ 
+    return $table
+}
+
+# adds a new row to an azure table but checks at first if entry already exists
+function Add-Entity($table, $partitionKey, $rowKey, $values) {
+  # check if entry already exists
+  $existing = $table.CloudTable.Execute([Microsoft.WindowsAzure.Storage.Table.TableOperation]::Retrieve($partitionKey, $rowKey))
+  if($existing.HttpStatusCode -eq &quot;200&quot;) { return; }
+ 
+  $entity = New-Object -TypeName Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity $partitionKey, $rowKey
+ 
+  foreach($value in $values.GetEnumerator()) {
+    $entity.Properties.Add($value.Key, $value.Value);
+  }
+
+  Write-Output (&quot;Add new entry: &quot; + $values[&quot;title&quot;])
+
+  $result = $table.CloudTable.Execute([Microsoft.WindowsAzure.Storage.Table.TableOperation]::Insert($entity))
+}
+
+# define the storage account and context.
+$storageAccountName = &quot;[STORAGE ACCOUNT NAME]&quot;
+$storageAccountKey = &quot;[STORAGE ACCOUNT KEY]&quot;
+$tableName = &quot;testdata&quot;
+ 
+$ctx = New-AzureStorageContext $storageAccountName -StorageAccountKey $storageAccountKey 
+$table = GetOrCreateTable $ctx $tableName 
+
+Write-Output &quot;Read data from feed...&quot;
+$chfeed = [xml](Invoke-WebRequest &quot;https://codehollow.com/feed/&quot; -UseBasicParsing)
+Write-Output &quot;Reading data done&quot;
+ 
+foreach($entry in $chfeed.rss.channel.item) {
+    $values = @{ &quot;URL&quot; = $entry.link;
+        &quot;Title&quot; = $entry.title;
+        &quot;PubDate&quot; = [DateTime]::Parse($entry.pubDate) }
+    $rowKey = $entry.'post-id'.InnerText.PadLeft(5, '0') # add 0 at beginning for sorting
+    Add-Entity $table &quot;CodeHollow&quot; $rowKey $values
+}
+</pre>
+<p>The code is nearly the same as in the mentioned blog post, I just changed the following things:</p>
+<ul>
+<li>I added some Write-Output statements so that I can see the progress in the log.</li>
+<li>I used the &#8220;short&#8221; version of the script which reads the last 10 blog posts (instead of all) because I guess that I&#8217;ll never have more than 10 new blog posts withing 24 hours.</li>
+<li>During my first run, I received the error: <i>Invoke-WebRequest : The response content cannot be parsed because the Internet Explorer engine is not available, or Internet Explorer&#8217;s first-launch configuration is not complete. Specify the UseBasicParsing parameter and try again. </i>. Therefore I added the parameter <strong>-UseBasicParsing</strong> to the <em>Invoke-WebRequest</em></li>
+</ul>
+<p>And that&#8217;s the result:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/11/20161107_03_runFunction.png" rel="lightbox[639]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161107_03_runFunction-1024x592.png" alt="20161107_03_runfunction" width="960" height="555" class="aligncenter size-large wp-image-642" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161107_03_runFunction-1024x592.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161107_03_runFunction-300x173.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161107_03_runFunction-768x444.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161107_03_runFunction.png 1600w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>I now have an Azure function that runs daily and writes some basic data of my blog posts to an Azure table storage (which I access from Excel). That&#8217;s awesome.</p>
+<p>My first function is running. In my next blog post, I&#8217;ll create another Azure function, but I&#8217;ll use C#. That function will read all my upcoming events from all my group from the <a href="https://www.meetup.com">https://www.meetup.com</a> API and will create an iCal file out of it which I can add to my calendar.</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/11/working-azure-functions-part-1-powershell/">Working with Azure functions (part 1 &#8211; Powershell)</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/11/working-azure-functions-part-1-powershell/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">639</post-id>
+    </item>
+    <item>
+      <title>Powershell package management &#8211; NuGet, Chocolatey and Co</title>
+      <link>https://codehollow.com/2016/11/powershell-package-management-nuget-chocolatey-co/</link>
+      <comments>https://codehollow.com/2016/11/powershell-package-management-nuget-chocolatey-co/#comments</comments>
+      <pubDate>Thu, 03 Nov 2016 22:15:24 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Powershell]]></category>
+      <category><![CDATA[chocolatey]]></category>
+      <category><![CDATA[NuGet]]></category>
+      <category><![CDATA[Package Manager]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=608</guid>
+      <description>
+        <![CDATA[<p>There is a new feature available for Powershell since the release of Windows 10. It&#8217;s a (open source) package management tool called OneGet. It allows o add different package managers (NuGet, chocolatey, â€¦) and install packages from those sources. That&#8217;s really awesome as we know the useful apt-get or as developers in the Microsoft area &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/11/powershell-package-management-nuget-chocolatey-co/">Powershell package management &#8211; NuGet, Chocolatey and Co</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>There is a new feature available for Powershell since the release of Windows 10. It&#8217;s a (open source) package management tool called <a href="https://github.com/OneGet/oneget">OneGet</a>. It allows o add different package managers (NuGet, chocolatey, â€¦) and install packages from those sources.<br />
+That&#8217;s really awesome as we know the useful apt-get or as developers in the Microsoft area &#8211; the nice NuGet Package manager. Such package management is now available for Powershell! So let&#8217;s have a look on the basic features of it and let&#8217;s start with NuGet for Powershell.</p>
+<p><span id="more-608"></span></p>
+<h2 id="nugetForPowershell">NuGet for Powershell</h2>
+<p><em>This blog post uses Powershell 5.0. The previous versions do not contain the package management, but you can use a preview version of package management for Powershell 3 and 4. I added a short description how to install and how to use it at the <a href="#pm4Ps3and4">end of this blog post</a></em></p>
+<p>Searching for NuGet package is simple and can be done via:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Find-Module
+</pre>
+<p>It will probably ask to install the NuGet provider at first &#8211; just type y and you will get a list with tons of modules. </p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_01_findModule.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_01_findModule-1024x751.png" alt="20161103_01_findmodule" width="960" height="704" class="aligncenter size-large wp-image-609" /></a></p>
+<p>We can already see a lot of Azure modules! So since Powershell 5.0 it&#8217;s much easier to install them or keep them up to date &#8211; all via the package management. If you want to search for a module &#8211; e.g. if you want to find modules for Twitter, just type:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Find-Module *twitter*
+# or, which gives you a bit more information:
+Find-Module *twitter* | fl
+</pre>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_02_findTwitterModule.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_02_findTwitterModule-1024x944.png" alt="20161103_02_findtwittermodule" width="960" height="885" class="aligncenter size-large wp-image-616" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161103_02_findTwitterModule-1024x944.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161103_02_findTwitterModule-300x277.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161103_02_findTwitterModule-768x708.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161103_02_findTwitterModule.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h3>NuGet Commandlets</h2>
+<p>The NuGet module for Powershell has the name &#8220;PowerShellGet&#8221;. We can list all available commandlets via:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Get-Command -Module PowerShellGet
+</pre>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_03_nuGetCommandlets.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_03_nuGetCommandlets-1024x584.png" alt="20161103_03_nugetcommandlets" width="960" height="548" class="aligncenter size-large wp-image-611" /></a></p>
+<p>The three main parts of it are in the area of:<br />
+<strong>Module:</strong> Modules are the core part of the feature &#8211; you can install/update/uninstall new modules (like Azure.Storage)<br />
+<strong>Script:</strong> There are some scripts available that you can download to your local environment and use them. I&#8217;ll show this later in this post<br />
+<strong>PSRepository:</strong> You can add, set or remove repositories. One repository is the PSGallery (Get-PSRepository lists all registered ones). You can also create your own PSRepository and publish your stuff there!</p>
+<h3>Install NuGet Modules</h3>
+<p>Basically works via <em>Install-Module</em>. You can find and search a module in one step or just install it if you know the name of the module:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Find-Module RockPaperScissors | Install-Module # throws an error if powershell doesn't run with elevated privileges
+Find-Module RockPaperScissors | Install-Module -Scope CurrentUser
+# or
+Install-Module RockPaperScissors -Scope CurrentUser
+
+# show all installed modules
+Get-Module -ListAvailable
+</pre>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_04_installAndGetModules.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_04_installAndGetModules-1024x560.png" alt="20161103_04_installandgetmodules" width="960" height="525" class="aligncenter size-large wp-image-613" /></a></p>
+<p>After the installation, the module must be imported via <em>Import-Module</em>. After that, we can get all commandlets of the module:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Import-Module RockPaperScissors
+Find-Command -ModuleName RockPaperScissors # searches in registered repositories
+Get-Command -Module Rock* # show commands of imported modules
+</pre>
+<p>Seems that <em>Start-RPSGame</em> is the commandlet.<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_05_importModule.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_05_importModule-1024x584.png" alt="20161103_05_importmodule" width="960" height="548" class="aligncenter size-large wp-image-614" /></a></p>
+<h3>Import Scripts</h3>
+<p>As already mentioned it&#8217;s possible to download scripts to your local environment. The following powershell code searches for scripts, installs it to a specific location and runs it: </p>
+<pre class="brush: powershell; title: ; notranslate">
+Find-Script
+Install-Script Minesweeper -Scope CurrentUser
+Get-InstalledScript
+$script = Get-InstalledScript minesweeper
+$script.InstalledLocation
+cd $script.InstalledLocation
+.\minesweeper.ps1
+
+# or you save it to your preferred location
+Save-Script minesweeper -Path c:\data\
+</pre>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_06_scriptMinesweeper.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_06_scriptMinesweeper-1024x750.png" alt="20161103_06_scriptminesweeper" width="960" height="703" class="aligncenter size-large wp-image-620" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161103_06_scriptMinesweeper-1024x750.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161103_06_scriptMinesweeper-300x220.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161103_06_scriptMinesweeper-768x563.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161103_06_scriptMinesweeper.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h2>Package management</h2>
+<p>NuGet is only one package manager in the package management. So there is a lot more to explore! Let&#8217;s see what else is provided by the package management:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Get-Command -Module PackageManagement # show all commandlets
+Get-PackageProvider # shows all registered package providers
+</pre>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_07_packageManager.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_07_packageManager-1024x549.png" alt="20161103_07_packagemanager" width="960" height="515" class="aligncenter size-large wp-image-622" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161103_07_packageManager-1024x549.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161103_07_packageManager-300x161.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161103_07_packageManager-768x412.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161103_07_packageManager.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>if you want to see all installed packages, just type<br />
+<em>Get-Package</em><br />
+There are a lot of msi and msu packages. So let&#8217;s add a new package manager &#8211; <strong>chocolatey</strong> &#8211; and use it to install some basic packages:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Find-PackageProvider  # list all available package proviers
+Install-PackageProvider chocolatey -Scope CurrentUser
+</pre>
+<p>This commandlet lists the available package providers. If we want to get all available packages &#8211; just use:<br />
+</em>Find-Package</em><br />
+but it will list tons of packages. So you can filter on a package provider or on a name:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Find-Package -Source chocolatey
+Find-Package notepad*
+Install-Package notepadplusplus
+</pre>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/11/20161103_08_installNpp.png" rel="lightbox[608]"><img src="https://codehollow.com/wp-content/uploads/2016/11/20161103_08_installNpp-1024x549.png" alt="20161103_08_installnpp" width="960" height="515" class="aligncenter size-large wp-image-623" srcset="https://codehollow.com/wp-content/uploads/2016/11/20161103_08_installNpp-1024x549.png 1024w, https://codehollow.com/wp-content/uploads/2016/11/20161103_08_installNpp-300x161.png 300w, https://codehollow.com/wp-content/uploads/2016/11/20161103_08_installNpp-768x412.png 768w, https://codehollow.com/wp-content/uploads/2016/11/20161103_08_installNpp.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Chocolatey is by default not a trusted provider and that&#8217;s why you have to confirm the installation. If you don&#8217;t want to confirm it every time, make chocolatey a trusted package source:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Set-PackageSource -Name chocolatey -Trusted
+Get-PackageSource 
+</pre>
+<p>That&#8217;s really awesome! So I guess my next client setup will be done via Powershell and chocolatey instead of Ninite. I&#8217;ll do it via the following script:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Install-PackageProvider chocolatey -Scope CurrentUser
+Set-PackageSource -Name chocolatey -Trusted
+
+$packages = ( &quot;7zip&quot;, &quot;adobereader&quot;, &quot;Firefox&quot;, &quot;filezilla&quot;, &quot;flashplayerplugin&quot;, 
+&quot;foobar2000&quot;, &quot;GoogleChrome&quot;, &quot;javaruntime&quot;, &quot;keepass&quot;, &quot;microsoftazurestorageexplorer&quot;, 
+&quot;Opera&quot;, &quot;paint.net&quot;, &quot;skype&quot;, &quot;teamviewer&quot;, &quot;todoist&quot;, &quot;vlc&quot;, &quot;WhatsApp&quot;, &quot;fiddler4&quot; )
+
+$packages | ForEach { Install-Package $_ }
+</pre>
+<p><strong>Updating</strong> a package can be done via:<br />
+Install-Package foobar2000 -InstallUpdate</p>
+<h2 id="pm4Ps3and4">Package Management for Powershell 3 and 4</h2>
+<p>Microsoft announced a preview of package management for Powershell 3 &#038; 4 in March 2016: <a href="https://blogs.msdn.microsoft.com/powershell/2016/03/08/package-management-preview-march-2016-for-powershell-4-3-is-now-available/">https://blogs.msdn.microsoft.com/powershell/2016/03/08/package-management-preview-march-2016-for-powershell-4-3-is-now-available/</a>. To use it, execute the following steps:</p>
+<ol>
+<li>Download the preview from <a href="https://www.microsoft.com/en-us/download/details.aspx?id=51451">Microsoft Download Center</a></li>
+<li>(Re)start Powershell</li>
+<li>Run <em>Import-Module PowerShellGet</em></li>
+<ol>
+<li>If you receive the following error: <em>&#8220;Import-Module : File C:\Program Files (x86)\WindowsPowerShell\Modules\PowerShellGet\PSModule.psm1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at&#8221;</em>, execute:</li>
+<li><em>Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser</em></li>
+<li>Run <em>Import-Module PowerShellGet</em> once more.</li>
+</ol>
+<li>Run <em>Get-Module</em> to check if the module is loaded</li>
+<li>Continue at the <a href="#nugetForPowershell">top</a> of this blog post and enjoy</li>
+</ol>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/11/powershell-package-management-nuget-chocolatey-co/">Powershell package management &#8211; NuGet, Chocolatey and Co</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/11/powershell-package-management-nuget-chocolatey-co/feed/</wfw:commentRss>
+      <slash:comments>3</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">608</post-id>
+    </item>
+    <item>
+      <title>Working with Azure Table Storage and Excel</title>
+      <link>https://codehollow.com/2016/10/working-with-azure-table-storage-and-excel/</link>
+      <comments>https://codehollow.com/2016/10/working-with-azure-table-storage-and-excel/#respond</comments>
+      <pubDate>Fri, 21 Oct 2016 00:30:58 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[Storage]]></category>
+      <category><![CDATA[Table Storage]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=563</guid>
+      <description>
+        <![CDATA[<p>Azure table storage is a NoSql table and it&#8217;s great for storing tons of data, but it&#8217;s also good for just a few records. You can connect to the table storage with Excel, Access and &#8211; by sure &#8211; with PowerBI. It&#8217;s easy to programmatically write data to the table storage and with the Excel/PowerBI &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/working-with-azure-table-storage-and-excel/">Working with Azure Table Storage and Excel</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>Azure table storage is a NoSql table and it&#8217;s great for storing tons of data, but it&#8217;s also good for just a few records. You can connect to the table storage with Excel, Access and &#8211; by sure &#8211; with PowerBI. It&#8217;s easy to programmatically write data to the table storage and with the Excel/PowerBI connection, it&#8217;s great to use it for data analysis or for dynamic Excel files.<br />
+Additionally, the Azure table storage is very cheap! 1 GB storage + 100.000 transactions = 0.06â‚¬ per month. That&#8217;s nearly nothing, because it is designed to work with tons of data. Troy Hunt used it with 154 million records &#8211; and it worked like a charm! <a href="https://www.troyhunt.com/working-with-154-million-records-on/">https://www.troyhunt.com/working-with-154-million-records-on/</a>. </p>
+<p><span id="more-563"></span></p>
+<p>In this blog post, I will create a table storage and put only a few records in it. After that I&#8217;ll connect Excel to the table storage. So the steps to do are:</p>
+<ul>
+<li>Create a storage account</li>
+<li>Create a table in the storage account</li>
+<li>Fill it with data</li>
+<li>Check if data is there (storage explorer)</li>
+<li>Connect with Excel</li>
+</ul>
+<h2>Create storage account</h2>
+<p>The first step is to create a storage account in the Azure Portal.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_01_createStorageAccount.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_01_createStorageAccount-1024x587.png" alt="20161021_01_createstorageaccount" width="960" height="550" class="aligncenter size-large wp-image-564" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_01_createStorageAccount-1024x587.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_01_createStorageAccount-300x172.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_01_createStorageAccount-768x440.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>I decided to use the cheapest version (locally-redundant storage) with standard performance and without encryption, because I&#8217;ll only use it for small data which I will fill programmatically and show in Excel.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_02_createStorageAccount-1.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_02_createStorageAccount-1.png" alt="20161021_02_createstorageaccount" width="337" height="800" class="aligncenter size-full wp-image-595" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_02_createStorageAccount-1.png 337w, https://codehollow.com/wp-content/uploads/2016/10/20161021_02_createStorageAccount-1-126x300.png 126w" sizes="(max-width: 337px) 100vw, 337px" /></a></p>
+<p>The storage account is created. The next step is to create a table in the table storage &#8211; so let&#8217;s check it in the Azure portal:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_03_createTableStorage.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_03_createTableStorage-1024x604.png" alt="20161021_03_createtablestorage" width="960" height="566" class="aligncenter size-large wp-image-566" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_03_createTableStorage-1024x604.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_03_createTableStorage-300x177.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_03_createTableStorage-768x453.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>We can see that there is no &#8220;create table&#8221; button available. So it seems we have to do it another way. I&#8217;ll use, as usual, my beloved Powershell. But before jumping into the script, we should copy the storage access key which can be found in the Settings &#8211; &#8220;Access Keys&#8221;:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_04_azureStorageKeys.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_04_azureStorageKeys-1024x901.png" alt="20161021_04_azurestoragekeys" width="960" height="845" class="aligncenter size-large wp-image-567" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_04_azureStorageKeys-1024x901.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_04_azureStorageKeys-300x264.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_04_azureStorageKeys-768x676.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h2>Create a table using Powershell</h2>
+<p>There are already some basic commandlets available to create a table in the Azure Storage. These commandlets are part of the Azure.Storage module. If it isn&#8217;t already loaded, execute the following lines:</p>
+<pre class="brush: powershell; title: ; notranslate">
+Import-Module AzureRM.Profile
+Import-Module Azure.Storage
+</pre>
+<p>The commandlet to create a storage table is <em>New-AzureStorageTable</em>. The whole script, including the connection and a check if the table already exists:</p>
+<pre class="brush: powershell; title: ; notranslate">
+function GetOrCreateTable ($storageContext, $tableName) {
+    $table = Get-AzureStorageTable â€“Name $tableName -Context $ctx -ErrorAction Ignore
+
+    if ($table -eq $null) {
+       $table = New-AzureStorageTable â€“Name $tableName -Context $ctx
+    }
+
+    return $table
+}
+
+# define the storage account and context.
+$storageAccountName = &quot;[STORAGE ACCOUNT NAME]&quot;
+$storageAccountKey = &quot;[STORAGE ACCOUNT KEY]&quot;
+$tableName = &quot;testdata&quot;
+
+$ctx = New-AzureStorageContext $storageAccountName -StorageAccountKey $storageAccountKey
+# alternative - using connection string:
+# New-AzureStorageContext -ConnectionString &quot;[azurestorageconnectionstring]&quot;
+
+$table = GetOrCreateTable $ctx $tableName
+$table
+</pre>
+<p>Et voila, the table is there:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_05_azureTable.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_05_azureTable-1024x574.png" alt="20161021_05_azuretable" width="960" height="538" class="aligncenter size-large wp-image-601" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_05_azureTable-1024x574.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_05_azureTable-300x168.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_05_azureTable-768x430.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h2>Fill the Azure Table</h2>
+<p>The first thing to mention before filling the data is, that the Table Storage has 2 keys: <strong>PartitionKey </strong>and <strong>RowKey</strong>. These keys together uniquely define a record. Records with the same PartitionKey are stored at the same partition server, so if we are working with a huge amount of data, then we should really think about our identifiers. As I&#8217;m working only with a few values, all my records will have the same PartitionKey.</p>
+<p>Adding an entity via Powershell can basically be done via:</p>
+<pre class="brush: powershell; title: ; notranslate">
+$entity = New-Object -TypeName Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity -ArgumentList &quot;MyPartitionKey, &quot;MyPartitionValue&quot;
+$entity.Properties.Add(&quot;MyCustomColumn&quot;, &quot;MyCustomValue&quot;);
+$result = $table.CloudTable.Execute([Microsoft.WindowsAzure.Storage.Table.TableOperation]::Insert($entity))
+</pre>
+<p>Let&#8217;s put that into a function:</p>
+<pre class="brush: powershell; title: ; notranslate">
+# adds a new row to an azure table
+function Add-Entity($table, $partitionKey, $rowKey, $values) {
+  $entity = New-Object -TypeName Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity $partitionKey, $rowKey
+  
+  foreach($value in $values.GetEnumerator()) {
+    $entity.Properties.Add($value.Key, $value.Value);
+  }
+
+  $result = $table.CloudTable.Execute([Microsoft.WindowsAzure.Storage.Table.TableOperation]::Insert($entity))
+}
+
+# usage sample:
+#$values = @{&quot;MyKey&quot; = &quot;MyValue&quot;; &quot;MySecondKey&quot; = &quot;MySecondValue&quot;; &quot;CurrentDate&quot; = (get-date)}
+#Add-Entity $table &quot;MyPartitionKey&quot; &quot;MyRowKey&quot; $values
+</pre>
+<p>This script throws an error if there is already an entry with the same PartitionKey and RowKey.<br />
+I want to fill my Azure Table with the data from my blog. To do that, I&#8217;ll use the script from yesterdays post (<a href="https://codehollow.com/2016/10/read-rss-feeds-via-powershell/">Read RSS feeds via Powershell</a>) to read my RSS feed. I also extended the function Add-Entity so that it checks if the entry was already added:</p>
+<pre class="brush: powershell; title: ; notranslate">
+# adds a new row to an azure table but checks at first if entry already exists
+function Add-Entity($table, $partitionKey, $rowKey, $values) {
+  # check if entry already exists
+  $existing = $table.CloudTable.Execute([Microsoft.WindowsAzure.Storage.Table.TableOperation]::Retrieve($partitionKey, $rowKey))
+  if($existing.HttpStatusCode -eq &quot;200&quot;) { return; }
+
+  $entity = New-Object -TypeName Microsoft.WindowsAzure.Storage.Table.DynamicTableEntity $partitionKey, $rowKey
+
+  foreach($value in $values.GetEnumerator()) {
+    $entity.Properties.Add($value.Key, $value.Value);
+  }
+
+  $result = $table.CloudTable.Execute([Microsoft.WindowsAzure.Storage.Table.TableOperation]::Insert($entity))
+}
+
+$i = 1
+while($true) {
+    try { $chfeed = [xml](Invoke-WebRequest &quot;https://codehollow.com/feed/?paged=$i&quot;) }
+    catch { break; }
+
+    foreach($entry in $chfeed.rss.channel.item) {
+        $values = @{ &quot;URL&quot; = $entry.link;
+            &quot;Title&quot; = $entry.title;
+            &quot;PubDate&quot; = [DateTime]::Parse($entry.pubDate) }
+        $rowKey = $entry.'post-id'.InnerText.PadLeft(5, '0') #add 0 at beginning for sorting
+        Add-Entity $table &quot;CodeHollow&quot; $rowKey $values
+        $entry.title
+    }
+    
+    $i++
+}
+</pre>
+<p>The script executed without an error, but is the data really stored?</p>
+<h2>Read Azure Table Storage using Storage Explorer</h2>
+<p>There is a really great, useful and free tool available &#8211; the storage explorer (Download <a href="http://storageexplorer.com/">http://storageexplorer.com/</a>). It allows us to browse and modify the stuff in our storage account.<br />
+So let&#8217;s check if the data is there, before we connect Excel:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_06_storageExplorer.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_06_storageExplorer-1024x660.png" alt="20161021_06_storageexplorer" width="960" height="619" class="aligncenter size-large wp-image-580" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_06_storageExplorer-1024x660.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_06_storageExplorer-300x193.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_06_storageExplorer-768x495.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Looks good, so let&#8217;s continue&#8230;</p>
+<h2>Read Azure Table Storage using Excel</h2>
+<p>Open Excel, navigate to the Data Ribbon and add a new query:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_07_ExcelConnect.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_07_ExcelConnect-1024x585.png" alt="20161021_07_excelconnect" width="960" height="548" class="aligncenter size-large wp-image-581" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_07_ExcelConnect-1024x585.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_07_ExcelConnect-300x171.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_07_ExcelConnect-768x438.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Next step is to enter the storage account name and the Account Key (one of the Access Keys). You should now be able to select the table and load the data. Click on &#8220;edit&#8221; as we also want to show our &#8220;custom&#8221; (content) columns:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_08_connectATS.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_08_connectATS-1024x809.png" alt="20161021_08_connectats" width="960" height="758" class="aligncenter size-large wp-image-597" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_08_connectATS-1024x809.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_08_connectATS-300x237.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_08_connectATS-768x607.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161021_08_connectATS.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Press the small button at the &#8220;content&#8221; column and ok:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_09_selectColumns.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_09_selectColumns.png" alt="20161021_09_selectcolumns" width="960" height="864" class="aligncenter size-full wp-image-598" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_09_selectColumns.png 960w, https://codehollow.com/wp-content/uploads/2016/10/20161021_09_selectColumns-300x270.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_09_selectColumns-768x691.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>So everythings configured, press close &#038; load, modify some columns (format as datetime) and the result is there:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/10/20161021_10_filledExcel.png" rel="lightbox[563]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161021_10_filledExcel-1024x476.png" alt="20161021_10_filledexcel" width="960" height="446" class="aligncenter size-large wp-image-584" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161021_10_filledExcel-1024x476.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161021_10_filledExcel-300x140.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161021_10_filledExcel-768x357.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>From now on, everytime I open this Excel, I can easily refresh the data by clicking &#8220;Refresh&#8221; in the Data Ribbon.</p>
+<p>The data is currently added manually each time I execute the script. So the next step is to run the script automatically so that the Azure Table gets filled periodically. There are multiple ways to achieve that &#8211; two of them are Azure Functions and Azure WebJobs. I&#8217;ll write blog posts about both of them.</p>
+<h2>Additional information</h2>
+<ul>
+<li>Azure Table Storage Design Guide: <a href="https://azure.microsoft.com/en-us/documentation/articles/storage-table-design-guide/">https://azure.microsoft.com/en-us/documentation/articles/storage-table-design-guide/</a></li>
+<li>Using Azure PowerShell with Azure Storage: <a href="https://azure.microsoft.com/en-us/documentation/articles/storage-powershell-guide-full/">https://azure.microsoft.com/en-us/documentation/articles/storage-powershell-guide-full/</a></li>
+<li>
+Working with 154 million records on Azure Table Storage â€“ the story of &#8220;Have I been pwned?&#8221;: <a href="https://www.troyhunt.com/working-with-154-million-records-on/">https://www.troyhunt.com/working-with-154-million-records-on/</a></li>
+<li>Read RSS feed via Powershell: <a href="https://codehollow.com/2016/10/read-rss-feeds-via-powershell/">https://codehollow.com/2016/10/read-rss-feeds-via-powershell/</a></li>
+</ul>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/working-with-azure-table-storage-and-excel/">Working with Azure Table Storage and Excel</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/10/working-with-azure-table-storage-and-excel/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">563</post-id>
+    </item>
+    <item>
+      <title>Read RSS feeds via Powershell</title>
+      <link>https://codehollow.com/2016/10/read-rss-feeds-via-powershell/</link>
+      <comments>https://codehollow.com/2016/10/read-rss-feeds-via-powershell/#respond</comments>
+      <pubDate>Thu, 20 Oct 2016 19:42:30 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Powershell]]></category>
+      <category><![CDATA[Scripts]]></category>
+      <category><![CDATA[WebRequest]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=570</guid>
+      <description>
+        <![CDATA[<p>It&#8217;s very easy to read RSS feeds via Powershell. You just need to use Invoke-WebRequest and convert the output to XML: Result: As we can see, it returns only 10 entries. So&#8230; How to get older RSS feeds via Powershell? It&#8217;s not so easy because it depends on the RSS type &#8211; ATOM e.g. works &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/read-rss-feeds-via-powershell/">Read RSS feeds via Powershell</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>It&#8217;s very easy to read RSS feeds via Powershell. You just need to use Invoke-WebRequest and convert the output to XML:</p>
+<pre class="brush: powershell; title: ; notranslate">
+$chfeed = [xml](Invoke-WebRequest &quot;https://codehollow.com/feed/&quot;)
+$chfeed.rss.channel.item | Select-Object @{Name=&quot;Id&quot;;Expression={$_.&quot;post-id&quot;.InnerText}}, title, link, pubDate
+</pre>
+<p><span id="more-570"></span></p>
+<p>Result:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/10/20161020_01_Powershell.png" rel="lightbox[570]"><img class="aligncenter size-large wp-image-571" src="https://codehollow.com/wp-content/uploads/2016/10/20161020_01_Powershell-1024x403.png" alt="20161020_01_powershell" width="960" height="378" /></a></p>
+<p>As we can see, it returns only 10 entries. So&#8230;</p>
+<h2>How to get older RSS feeds via Powershell?</h2>
+<p>It&#8217;s not so easy because it depends on the RSS type &#8211; ATOM e.g. works with &#8220;?page=2&#8221; &#8230; Other feed types do not support paging. If it&#8217;s an <strong>RSS 2.0</strong> feed, then you can simply add &#8220;?paged=2&#8221; to the URL and you&#8217;ll get the second page.</p>
+<p>Let&#8217;s use this information to create a Powershell script that returns all entries of a RSS feed:</p>
+<pre class="brush: powershell; title: ; notranslate">
+$i = 1
+while($true) {
+
+    try { $chfeed = [xml](Invoke-WebRequest &quot;https://codehollow.com/feed/?paged=$i&quot;) }
+    catch { break; }
+
+    $chfeed.rss.channel.item | Select-Object @{Name=&quot;Id&quot;;Expression={$_.&quot;post-id&quot;.InnerText}}, title, link, pubDate
+    
+    $i++
+}
+</pre>
+<p>Result:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/10/20161020_02_Powershell.png" rel="lightbox[570]"><img class="aligncenter size-large wp-image-573" src="https://codehollow.com/wp-content/uploads/2016/10/20161020_02_Powershell-1024x403.png" alt="20161020_02_powershell" width="960" height="378" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161020_02_Powershell-1024x403.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161020_02_Powershell-300x118.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161020_02_Powershell-768x302.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161020_02_Powershell.png 1200w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/read-rss-feeds-via-powershell/">Read RSS feeds via Powershell</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/10/read-rss-feeds-via-powershell/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">570</post-id>
+    </item>
+    <item>
+      <title>Protect background API in Azure API management</title>
+      <link>https://codehollow.com/2016/10/protect-background-api-azure-api-management/</link>
+      <comments>https://codehollow.com/2016/10/protect-background-api-azure-api-management/#respond</comments>
+      <pubDate>Mon, 10 Oct 2016 12:26:50 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[API management]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=536</guid>
+      <description>
+        <![CDATA[<p>There are many articles about how to protect an API in Azure API management. Most of them target the API in the API management itself. So for example I imported an API (see Introduction to API management part 1) and can now access them via: https://codehollowtestapi.azure-api.net/simpleapi. After the creation, I secured the API (in API &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/protect-background-api-azure-api-management/">Protect background API in Azure API management</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>There are many articles about how to protect an API in Azure API management. Most of them target the API in the API management itself. So for example I imported an API (see <a href="https://codehollow.com/2016/09/introduction-azure-api-management-part-1/">Introduction to API management part 1</a>) and can now access them via: <a href="https://codehollowtestapi.azure-api.net/simpleapi">https://codehollowtestapi.azure-api.net/simpleapi</a>. After the creation, I secured the API (in API management service) with Azure Active Directory <a href="https://codehollow.com/2016/10/introduction-azure-api-management-part-2/">Introduction to Azure API management (part 2)</a>. Everything&#8217;s fine, but what about the API that is running in the background? In my case the webservice URL of the backend service is: <a href="https://codehollowsimpleapi.azurewebsites.net/">https://codehollowsimpleapi.azurewebsites.net/</a><br />
+This service was public available (and easily accessible via Swagger &#8211; you&#8217;re welcome ;)). Sure, you need to know the URL, but if you know it, then you can easily use it and spam my API. All my efforts in building up an API management were useless.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161010_06_apiManagement.png" rel="lightbox[536]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161010_06_apiManagement-1024x201.png" alt="20161010_06_apimanagement" width="960" height="188" class="aligncenter size-large wp-image-553" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161010_06_apiManagement-1024x201.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161010_06_apiManagement-300x59.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161010_06_apiManagement-768x151.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p><span id="more-536"></span></p>
+<p>A more common scenario is, that you have an existing API for your users, applications or for your internal developers. After some time and growth, you introduce the API management service. You tell your customers to switch to the new APIs and two weeks later you want to &#8220;turn off&#8221; the original API (the real webservice in the background). You will immediately face the question &#8211; how to protect an existing API that is running in the background and that is called by the API management service? And how to do it without any additional costs?</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161010_01_backgroundApiAccess.png" rel="lightbox[536]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161010_01_backgroundApiAccess.png" alt="20161010_01_backgroundapiaccess" width="246" height="326" class="aligncenter size-full wp-image-537" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161010_01_backgroundApiAccess.png 246w, https://codehollow.com/wp-content/uploads/2016/10/20161010_01_backgroundApiAccess-226x300.png 226w" sizes="(max-width: 246px) 100vw, 246px" /></a></p>
+<h2>How to protect the background API?</h2>
+<p>There are a few ways to protect the background API. You can simply create a new, unreadable URL and migrate your service to the new URL. It&#8217;s okay, but not really secure. Another way is to protect your API e.g. with HTTP basic authentication and let the API management authenticate to your background API by using policies.<br />
+The simplest way in my opinion is to restrict the calls to your background API to the IP of the API management service.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161010_02_backgroundApiIpFilter.png" rel="lightbox[536]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161010_02_backgroundApiIpFilter.png" alt="20161010_02_backgroundapiipfilter" width="287" height="353" class="aligncenter size-full wp-image-538" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161010_02_backgroundApiIpFilter.png 287w, https://codehollow.com/wp-content/uploads/2016/10/20161010_02_backgroundApiIpFilter-244x300.png 244w" sizes="(max-width: 287px) 100vw, 287px" /></a></p>
+<p>The <strong>IP filter</strong> is configurable in the web.config. So you don&#8217;t need to create an app gateway including a web application firewall (WAF). You also don&#8217;t need to put your app service into a virtual network and connect the API management with the backend. It&#8217;s a simple configuration in the web.config. If you want, you can modify it directly in Azure by modifying the web.config with the app service editor. Just extend the config by:</p>
+<pre class="brush: xml; title: ; notranslate">
+  &lt;system.webServer&gt;
+    &lt;security&gt;
+      &lt;!-- IP Whitelist--&gt;
+      &lt;ipSecurity allowUnlisted=&quot;false&quot; denyAction=&quot;Forbidden&quot;&gt;
+        &lt;!-- denyActions: &quot;AbortRequest&quot;, &quot;Unauthorized&quot;, &quot;Forbidden&quot; (default), &quot;NotFound&quot; --&gt;
+        &lt;clear /&gt;
+        &lt;add ipAddress=&quot;127.0.0.1&quot; allowed=&quot;true&quot; /&gt;
+        &lt;!-- azure api management --&gt;
+        &lt;add ipAddress=&quot;[API Management IP]&quot; allowed=&quot;true&quot;/&gt;
+      &lt;/ipSecurity&gt;
+    &lt;/security&gt;
+  &lt;/system.webServer&gt;
+</pre>
+<p>I added the localhost IP so that we can still debug and test the API on our development machines. If you change the web.config in your <strong>Visual Studio project</strong> and you try to run the application, you will receive the following error:</p>
+<p>in <strong>.net Core</strong>:<br />
+<em>Unable to start process C:\Program Files\dotnet\dotnet.exe. The web server request failed with status code 500, Internal Server Error. The full response has been written to C:\Users\&#8230;\AppData\Local\Temp\HttpFailure 01-04-48.html. </em></p>
+<p>in <strong>.net 4.5 and others</strong> you&#8217;ll receive an internal server error with the following information in &#8220;config error&#8221;:<br />
+<em>This configuration section cannot be used at this path. This happens when the section is locked at a parent level. Locking is either by default (overrideModeDefault=&#8221;Deny&#8221;), or set explicitly by a location tag with overrideMode=&#8221;Deny&#8221; or the legacy allowOverride=&#8221;false&#8221;.</em></p>
+<p>This can fixed by modifying the <em>&#8230;\VisualStudioProjectFolder\.vs\config\applicationhost.config</em> file. Simply replace:</p>
+<pre class="brush: xml; title: ; notranslate">
+&lt;!-- replace --&gt;
+&lt;section name=&quot;ipSecurity&quot; overrideModeDefault=&quot;Deny&quot; /&gt;
+&lt;!-- by: --&gt;
+&lt;section name=&quot;ipSecurity&quot; overrideModeDefault=&quot;Allow&quot; /&gt;
+</pre>
+<p>From now on, all users that access <a href="https://codehollowsimpleapi.azurewebsites.net/">https://codehollowsimpleapi.azurewebsites.net/</a> receive the following message:<br />
+<em>You do not have permission to view this directory or page.</em></p>
+<h2>How to get the IP of the API management service?</h2>
+<p>Go to the Azure portal (classic), select the API management service and go to the Dashboard:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161010_03_apiManagementIp.png" rel="lightbox[536]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161010_03_apiManagementIp-1024x660.png" alt="20161010_03_apimanagementip" width="960" height="619" class="aligncenter size-large wp-image-539" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161010_03_apiManagementIp-1024x660.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161010_03_apiManagementIp-300x193.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161010_03_apiManagementIp-768x495.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h2>Directly change web.config with app service editor</h2>
+<p>If you want to change the security directly for your running API application, then you can use the app service editor for it. Just go to the Azure portal, select your web app and scroll down to the &#8220;Development Tools&#8221; section:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161010_04_appServiceEditor.png" rel="lightbox[536]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161010_04_appServiceEditor-1024x624.png" alt="20161010_04_appserviceeditor" width="960" height="585" class="aligncenter size-large wp-image-540" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161010_04_appServiceEditor-1024x624.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161010_04_appServiceEditor-300x183.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161010_04_appServiceEditor-768x468.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Scroll down to the web.config and insert the ipSecurity section into it:<br />
+<a href="https://codehollow.com/wp-content/uploads/2016/10/20161010_05_appServiceEditor.png" rel="lightbox[536]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161010_05_appServiceEditor-1024x605.png" alt="20161010_05_appserviceeditor" width="960" height="567" class="aligncenter size-large wp-image-542" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161010_05_appServiceEditor-1024x605.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161010_05_appServiceEditor-300x177.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161010_05_appServiceEditor-768x454.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/protect-background-api-azure-api-management/">Protect background API in Azure API management</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/10/protect-background-api-azure-api-management/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">536</post-id>
+    </item>
+    <item>
+      <title>Introduction to Azure API management (part 2)</title>
+      <link>https://codehollow.com/2016/10/introduction-azure-api-management-part-2/</link>
+      <comments>https://codehollow.com/2016/10/introduction-azure-api-management-part-2/#respond</comments>
+      <pubDate>Tue, 04 Oct 2016 15:20:53 +0000</pubDate>
+      <dc:creator><![CDATA[Armin Reiter]]></dc:creator>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[API management]]></category>
+
+      <guid isPermaLink="false">https://codehollow.com/?p=499</guid>
+      <description>
+        <![CDATA[<p>My first blog post about Azure API management service (Introduction to Azure API management (part 1)) contained the basics of API management. What it is about and how to configure it. In this post I want to describe how to configure basic Azure Active Directory authentication and have glimpse into policies. Configure Azure Active Directory &#8230;</p>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/introduction-azure-api-management-part-2/">Introduction to Azure API management (part 2)</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </description>
+      <content:encoded>
+        <![CDATA[<p>My first blog post about Azure API management service (<a href="https://codehollow.com/2016/09/introduction-azure-api-management-part-1/">Introduction to Azure API management (part 1)</a>) contained the basics of API management. What it is about and how to configure it. In this post I want to describe how to configure basic Azure Active Directory authentication and have glimpse into policies.</p>
+<p><span id="more-499"></span></p>
+<h2>Configure Azure Active Directory authentication</h2>
+<p>The configuration of the Azure Active Directory authentication is useful if you want to give people in your AAD access to APIs in the API management service. You can also configure a group in your AAD that have automatically unlimited access to your APIs. The configuration is available in the publisher portal where you can also configure authentication via Facebook, Google or others:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_01_security.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_01_security-1024x648.png" alt="20161004_01_security" width="960" height="608" class="aligncenter size-large wp-image-501" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_01_security-1024x648.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_01_security-300x190.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_01_security-768x486.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_01_security.png 1216w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>After selecting the Azure Active Directory we have to enter cliend id, client secret and allowed tenants. There is also a &#8220;Redirect URL&#8221; which is the sign in URL for our AAD application that we will create:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_02_security.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_02_security-1024x611.png" alt="20161004_02_security" width="960" height="573" class="aligncenter size-large wp-image-502" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_02_security-1024x611.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_02_security-300x179.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_02_security-768x458.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_02_security.png 1212w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>So let&#8217;s copy the &#8220;Redirect URL&#8221; and let&#8217;s jump into the AAD configuration in the Azure portal. Go to &#8220;App registrations&#8221; and add a new application:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_03_aadAppRegistration.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_03_aadAppRegistration-1024x481.png" alt="20161004_03_aadappregistration" width="960" height="451" class="aligncenter size-large wp-image-503" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_03_aadAppRegistration-1024x481.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_03_aadAppRegistration-300x141.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_03_aadAppRegistration-768x361.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_03_aadAppRegistration.png 1599w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>The application must be a multi-tenant application. This can be configured in the &#8220;Properties&#8221;. If you don&#8217;t configure it as multi-tenant, users will end up in an endless sign-in loop when they try to log in. </p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_04_multiTenant.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_04_multiTenant.png" alt="20161004_04_multitenant" width="568" height="711" class="aligncenter size-full wp-image-510" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_04_multiTenant.png 568w, https://codehollow.com/wp-content/uploads/2016/10/20161004_04_multiTenant-240x300.png 240w" sizes="(max-width: 568px) 100vw, 568px" /></a></p>
+<p>The required permissions for the app are &#8220;Read directory data&#8221; for the application and &#8220;Sign in and read user profile&#8221; as delegated permissions:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_05_adPermissions.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_05_adPermissions-1024x480.png" alt="20161004_05_adpermissions" width="960" height="450" class="aligncenter size-large wp-image-511" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_05_adPermissions-1024x480.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_05_adPermissions-300x140.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_05_adPermissions-768x360.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_05_adPermissions.png 1341w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>The final step is to create a client secret. Go to application configuration in AAD and to &#8220;Keys&#8221;. Create a new key and press &#8220;save&#8221;. After pressing save you&#8217;ll see the key:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_06_adClientIdSecret.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_06_adClientIdSecret-1024x493.png" alt="20161004_06_adclientidsecret" width="960" height="462" class="aligncenter size-large wp-image-512" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_06_adClientIdSecret-1024x493.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_06_adClientIdSecret-300x144.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_06_adClientIdSecret-768x370.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_06_adClientIdSecret.png 1599w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>Copy and paste Client Id and Client Secret into the API management configuration and set the allowed tenants. Those are all tenants that are allowed to access the API management. A tenant is for example &#8220;mytenant.onmicrosoft.com&#8221;:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_07_apiMgmtSecurityConfig.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_07_apiMgmtSecurityConfig-1024x679.png" alt="20161004_07_apimgmtsecurityconfig" width="960" height="637" class="aligncenter size-large wp-image-513" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_07_apiMgmtSecurityConfig-1024x679.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_07_apiMgmtSecurityConfig-300x199.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_07_apiMgmtSecurityConfig-768x510.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_07_apiMgmtSecurityConfig.png 1159w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>The next step is to sign in with the admin user. Sign in with a global admin user and accept the permission request. It is required to do it with an admin because the admin accepts the permission request for the whole company:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_08_adminConsent.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_08_adminConsent-1024x492.png" alt="20161004_08_adminconsent" width="960" height="461" class="aligncenter size-large wp-image-516" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_08_adminConsent-1024x492.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_08_adminConsent-300x144.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_08_adminConsent-768x369.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_08_adminConsent.png 1596w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>After that, the users in your AAD should be able to sign in, browse the APIs and subscribe to products. The first sign in also creates the managed application in the local directory. Clicking on the link (or navigating through &#8220;Enterprise Applications&#8221;) allows to configure if users from AAD must be assigned to the application or not (and of course to assign them):</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_11_managedApplication.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_11_managedApplication-1024x309.png" alt="20161004_11_managedapplication" width="960" height="290" class="aligncenter size-large wp-image-524" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_11_managedApplication-1024x309.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_11_managedApplication-300x91.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_11_managedApplication-768x232.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>If you want to globally restrict the access to the developer portal to only registered users, set the &#8220;Redirect anonymous users to sign-in page&#8221; flag in the identities tab. This setting is AAD independent:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_09_restrictAccess.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_09_restrictAccess-1024x681.png" alt="20161004_09_restrictaccess" width="960" height="638" class="aligncenter size-large wp-image-519" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_09_restrictAccess-1024x681.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_09_restrictAccess-300x199.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_09_restrictAccess-768x511.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_09_restrictAccess.png 1155w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<h3>Error: AADSTS90093 &#8211; application requires permission</h3>
+<p>If you try to sign in with a non admin user, then you&#8217;ll probably receive the following error:<br />
+<em>AADSTS90093: This application requires application permissions to another application. Consent for application permissions can only be performed by an administrator. Sign out and sign in as an administrator or contact one of your organization&#8217;s administrators.</em></p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_10_signInError.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_10_signInError-1024x492.png" alt="20161004_10_signinerror" width="960" height="461" class="aligncenter size-large wp-image-520" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_10_signInError-1024x492.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_10_signInError-300x144.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_10_signInError-768x369.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_10_signInError.png 1599w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>This error occurs if the permissions (application and delegated permissions) for the application are insufficient. Check if you set the permissions for API management application to &#8220;Read directory data&#8221; and &#8220;Sign in and read user profile&#8221; as delegated permission. </p>
+<p><strong>If the error still occurs</strong> you probably faced a bug in Azure. This bug is described here: <a href="http://stackoverflow.com/questions/29791557/why-azure-ad-fails-to-login-non-admins-in-multi-tenant-scenario">http://stackoverflow.com/questions/29791557/why-azure-ad-fails-to-login-non-admins-in-multi-tenant-scenario</a></p>
+<p>To <strong>fix it</strong>, open a new incognito (private) window, go to your sign in page, click on &#8220;Sign in with Azure Active Directory&#8221;. At the following page, add the query string &#8220;<strong>&#038;prompt=admin_consent</strong>&#8221; at the end of the URL, so it looks like: https://login.microsoftonline.com/common/oauth2/authorize?client_id={&#8230;}<strong>&#038;prompt=admin_consent</strong><br />
+Sign in with your global admin and accept the permission request. After that, try to sign in again with a non-admin user.</p>
+<h2>Policies in API Management</h2>
+<p>You maybe noticed that there are already some products available in the API management service. There is one unlimited service with no restrictions and a &#8220;Starter&#8221; product. The &#8220;Starter&#8221; product has a limitation of 5 calls per user per minute. What if we want to change the limit or create our own product? Then we need some knowledge about policies!</p>
+<p>The policies are very well described in the Azure documentation (<a href="https://azure.microsoft.com/en-us/documentation/articles/api-management-howto-policies/">https://azure.microsoft.com/en-us/documentation/articles/api-management-howto-policies/</a>). That&#8217;s why I&#8217;ll keep it short in that blog post. It&#8217;s just important to know what are policies and what to do with them.</p>
+<p>Policies are a possibility to change the behavior of an API. They can be applied to the request (inbound), before the request goes to the backend (backend), the response (outbound) or if an error occurs (on-error). The available scopes are global, product, API and operation. Some samples for policies are:</p>
+<ul>
+<li>Authenticate with basic http/client certificate</li>
+<li>Check HTTP Header (e.g. for JWT Token validation)</li>
+<li>Convert from JSON to XML and vice versa</li>
+<li>Allow/configure CORS</li>
+<li>Find and replace string in body</li>
+<li>Forward requests to backend</li>
+<li>Limit call rate per minute per user/subscription/key</li>
+<li>Log to EventHub</li>
+<li>Read/Write cache</li>
+<li>Restrict access to some specific IPs</li>
+<li>Return response</li>
+<li>Send request to a service</li>
+<li>Modify the response (body, header, &#8230;)</li>
+</ul>
+<p>&#8230;and others. A full list is available at <a href="https://azure.microsoft.com/en-us/documentation/articles/api-management-policy-reference/">https://azure.microsoft.com/en-us/documentation/articles/api-management-policy-reference/</a></p>
+<p>Let&#8217;s check the existing policies for our &#8220;Starter&#8221; product:</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_12_policies.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_12_policies-1024x684.png" alt="20161004_12_policies" width="960" height="641" class="aligncenter size-large wp-image-525" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_12_policies-1024x684.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_12_policies-300x200.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_12_policies-768x513.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_12_policies.png 1147w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>We can see the following policy:</p>
+<pre class="brush: xml; title: ; notranslate">
+	&lt;inbound&gt;
+		&lt;rate-limit calls=&quot;5&quot; renewal-period=&quot;60&quot; /&gt;
+		&lt;quota calls=&quot;100&quot; renewal-period=&quot;604800&quot; /&gt;
+		&lt;base /&gt;
+	&lt;/inbound&gt;
+</pre>
+<p>So there is a limit of 5 calls per 60 seconds and a quota of 100 calls per week. The &#8220;base&#8221; element means that higher policies should be executed. In this case, the scope is &#8220;product&#8221; and the higher scope is &#8220;global&#8221;. So at first there is the rate limitation, then the quota limitation and none of the limits is violated, it executes the global policies.</p>
+<h3>What happens if the rate-limit is violated?</h3>
+<p>We can easily try that with a simple Powershell script:</p>
+<pre class="brush: powershell; title: ; notranslate">
+$baseurl = &quot;https://codehollowtestapi.azure-api.net/simpleapi/&quot;
+$ext = &quot;api/Values&quot;
+$subscriptionKey = &quot;{subscriptionKey}&quot;
+
+for ($i = 0;$i -lt 100; $i++) {
+    Invoke-WebRequest -Uri ($baseurl + $ext) -Headers @{&quot;Ocp-Apim-Subscription-Key&quot;=&quot;$subscriptionKey&quot;}
+    Write-Progress -Activity &quot;calling webservice...&quot; -PercentComplete $i -Status &quot;$i% complete&quot;
+}
+</pre>
+<p>The API returns 5 successful responses and after that it gives us status code 429 &#8211; &#8220;Rate limit is exceeded. Try again in 60 seconds&#8221;.</p>
+<p><a href="https://codehollow.com/wp-content/uploads/2016/10/20161004_13_policyViolation.png" rel="lightbox[499]"><img src="https://codehollow.com/wp-content/uploads/2016/10/20161004_13_policyViolation-1024x540.png" alt="20161004_13_policyviolation" width="960" height="506" class="aligncenter size-large wp-image-527" srcset="https://codehollow.com/wp-content/uploads/2016/10/20161004_13_policyViolation-1024x540.png 1024w, https://codehollow.com/wp-content/uploads/2016/10/20161004_13_policyViolation-300x158.png 300w, https://codehollow.com/wp-content/uploads/2016/10/20161004_13_policyViolation-768x405.png 768w, https://codehollow.com/wp-content/uploads/2016/10/20161004_13_policyViolation.png 1327w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+<p>So that was a quick introduction to the API management. I plan to write additional blog posts about how to easily secure the &#8220;hidden&#8221; API in the background or how to re-import an API.</p>
+<h2>Additional information</h2>
+<ul>
+<li>How to authorize developer accounts using Azure Active Directory in Azure API Management: <a href="https://azure.microsoft.com/en-us/documentation/articles/api-management-howto-aad/">https://azure.microsoft.com/en-us/documentation/articles/api-management-howto-aad/</a></li>
+<li>Integrating application with Azure Active Directory: <a href="https://azure.microsoft.com/en-us/documentation/articles/active-directory-integrating-applications/">https://azure.microsoft.com/en-us/documentation/articles/active-directory-integrating-applications/</a></li>
+</ul>
+<p>The post <a rel="nofollow" href="https://codehollow.com/2016/10/introduction-azure-api-management-part-2/">Introduction to Azure API management (part 2)</a> appeared first on <a rel="nofollow" href="https://codehollow.com">codehollow</a>.</p>
+]]>
+      </content:encoded>
+      <wfw:commentRss>https://codehollow.com/2016/10/introduction-azure-api-management-part-2/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+      <post-id xmlns="com-wordpress:feed-additions:1">499</post-id>
+    </item>
+  </channel>
+</rss>
+
+<!-- Dynamic page generated in 0.860 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-01-07 16:12:29 -->

@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Thomas Maurer</title>
+	<atom:link href="http://www.thomasmaurer.ch/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.thomasmaurer.ch</link>
+	<description>Cloud and Virtualization</description>
+	<lastBuildDate>Thu, 29 Dec 2016 20:22:59 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7</generator>
+
+<image>
+	<url>https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2015/08/cropped-logo-small-512x512.png?fit=32%2C32</url>
+	<title>Thomas Maurer</title>
+	<link>http://www.thomasmaurer.ch</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">71605618</site>	<item>
+		<title>Speaking at Microsoft TechDaysÂ 2017 Switzerland</title>
+		<link>http://www.thomasmaurer.ch/2016/12/speaking-at-microsoft-techdays-2017-switzerland/</link>
+		<comments>http://www.thomasmaurer.ch/2016/12/speaking-at-microsoft-techdays-2017-switzerland/#respond</comments>
+		<pubDate>Wed, 28 Dec 2016 12:30:42 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Containers]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Azure]]></category>
+		<category><![CDATA[Nano Server]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Private Cloud]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows 10]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Baden]]></category>
+		<category><![CDATA[Conference]]></category>
+		<category><![CDATA[Container]]></category>
+		<category><![CDATA[Docker]]></category>
+		<category><![CDATA[Event]]></category>
+		<category><![CDATA[Presenter]]></category>
+		<category><![CDATA[Speaker]]></category>
+		<category><![CDATA[Storage]]></category>
+		<category><![CDATA[Storage Replica]]></category>
+		<category><![CDATA[Storage Spaces]]></category>
+		<category><![CDATA[Storage Spaces Direct]]></category>
+		<category><![CDATA[Switzerland]]></category>
+		<category><![CDATA[Techdays]]></category>
+		<category><![CDATA[TechDays 2017]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8383</guid>
+		<description><![CDATA[I hope everyone had or is still having a great holiday. Today I am proud to announce that I have the opportunity to speak againÂ at the Microsoft TechDays in Switzerland. From 30th &#8211; 31st January the Microsoft TechDays will take place in Baden. The conference will cover the latest trends and news from the industry...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/12/speaking-at-microsoft-techdays-2017-switzerland/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>I hope everyone had or is still having a great holiday. Today I am proud to announce that I have the opportunity to speak againÂ at the <a href="http://www.techdays.ch">Microsoft TechDays</a> in Switzerland. From <strong>30th &#8211; 31st January</strong> the <strong>Microsoft TechDays</strong> will take place in Baden. The conference will cover the latest trends and news from the industry and is a great opportunity for IT professionals and software developers to learn all about the newest developments in Microsoft technologies, products and services.</p>
+<p><img class="alignnone size-large wp-image-8384" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/12/TechDaysFeaturedSpeaker.jpg?resize=595%2C311" alt="Microsoft TechDays Featured Speaker" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/12/TechDaysFeaturedSpeaker.jpg?w=1024 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/12/TechDaysFeaturedSpeaker.jpg?resize=300%2C157 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/12/TechDaysFeaturedSpeaker.jpg?resize=768%2C402 768w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>My session will be placed under the IT Pro track and I will cover some of the new stuff coming with Windows Server 2016 and Hyper-V 2016, including:</p>
+<ul>
+<li>Hyper-V 2016 features</li>
+<li>Nano Server</li>
+<li>Storage Spaces Direct</li>
+<li>Storage Replica</li>
+<li>Windows Server Containers</li>
+<li>And more!</li>
+</ul>
+<p>So if you want to learn the latest and greatest about Microsoft technology, make sure you attend this event.</p>
+<div class="cta"><div class="cta-button"><a class="button default" href="http://www.techdays.ch">Check Out</a></div><div class="cta-text-with-button"><h3>TechDays 2017</h3><p>From 30th &#8211; 31st January the Microsoft TechDays will take place in Baden. The conference will cover the latest trends and news from the industry and is a great opportunity for IT professionals and software developers to learn all about the newest developments in Microsoft technologies, products and services.</p></div></div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/12/speaking-at-microsoft-techdays-2017-switzerland/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8383</post-id>	</item>
+		<item>
+		<title>Manage Hyper-V from Azure Server Management Tools</title>
+		<link>http://www.thomasmaurer.ch/2016/11/manage-hyper-v-from-azure-server-management-tools/</link>
+		<comments>http://www.thomasmaurer.ch/2016/11/manage-hyper-v-from-azure-server-management-tools/#respond</comments>
+		<pubDate>Tue, 29 Nov 2016 16:23:14 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Azure]]></category>
+		<category><![CDATA[Nano Server]]></category>
+		<category><![CDATA[Operations Management Suite]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Private Cloud]]></category>
+		<category><![CDATA[Server Core]]></category>
+		<category><![CDATA[Virtual Machine Manager]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows 10]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2012 R2]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Hyper-V Manager]]></category>
+		<category><![CDATA[PowerShell]]></category>
+		<category><![CDATA[Server Management Tools]]></category>
+		<category><![CDATA[SMT]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8367</guid>
+		<description><![CDATA[Microsoft released an updated to the Azure Server Management Tools (SMT) and this improves some of the existing tools such as File Explorer and Device Manager. But the big announcement here is, that you now can manage your Hyper-V Server and Virtual Machines directly from Microsoft Azure from where ever you are. This is one...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/11/manage-hyper-v-from-azure-server-management-tools/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>Microsoft released an updated to the <a href="http://www.thomasmaurer.ch/2016/02/manage-nano-server-and-windows-server-from-azure-using-remote-server-management-tools/">Azure Server Management Tools (SMT)</a> and this improves some of the existing tools such as File Explorer and Device Manager. But the big announcement here is, that you now can manage your Hyper-V Server and Virtual Machines directly from Microsoft Azure from where ever you are. This is one of the great examples of using cloud solutions to extend your on premise environment,Â By using Management as a Service you basically don&#8217;t need to updated anything, you just got this new feature available in the Azure portal and you can start using it.</p>
+<p>In this update to the Server Management Tools,Â MicrosoftÂ supports the following VM management functionality:</p>
+<ul>
+<li>Start/Shutdown/Turn off/Pause/Resume</li>
+<li>Save State/Delete Saved State</li>
+<li>Take/Apply &amp; rename checkpoints</li>
+</ul>
+<p>You can see the Virtual Machines on which are running on the Hyper-V server</p>
+<p><img class="alignnone size-large wp-image-8368" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-Manager-in-Azure-SMT.jpg?resize=595%2C357" alt="Hyper-V Manager in Azure SMT" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-Manager-in-Azure-SMT.jpg?resize=1024%2C615 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-Manager-in-Azure-SMT.jpg?resize=300%2C180 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-Manager-in-Azure-SMT.jpg?resize=768%2C461 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-Manager-in-Azure-SMT.jpg?resize=280%2C168 280w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-Manager-in-Azure-SMT.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>You can also do basic management of checkpoints</p>
+<p><img class="alignnone size-large wp-image-8370" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-VM-in-Azure-SMT.jpg?resize=595%2C357" alt="Hyper-V VM in Azure SMT" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-VM-in-Azure-SMT.jpg?resize=1024%2C615 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-VM-in-Azure-SMT.jpg?resize=300%2C180 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-VM-in-Azure-SMT.jpg?resize=768%2C461 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-VM-in-Azure-SMT.jpg?resize=280%2C168 280w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Hyper-V-VM-in-Azure-SMT.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>If you want to know more about the Server Management Tools (SMT) check out my blog post: <a href="http://www.thomasmaurer.ch/2016/02/manage-nano-server-and-windows-server-from-azure-using-remote-server-management-tools/">Manage Nano Server and Windows Server from Azure using Remote Server Management Tools</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/11/manage-hyper-v-from-azure-server-management-tools/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8367</post-id>	</item>
+		<item>
+		<title>How to Install Linux Bash on Windows 10</title>
+		<link>http://www.thomasmaurer.ch/2016/11/how-to-install-linux-bash-on-windows-10/</link>
+		<comments>http://www.thomasmaurer.ch/2016/11/how-to-install-linux-bash-on-windows-10/#respond</comments>
+		<pubDate>Tue, 29 Nov 2016 15:35:50 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows 10]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Bash]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Linux Subsystem]]></category>
+		<category><![CDATA[PowerShell]]></category>
+		<category><![CDATA[shell]]></category>
+		<category><![CDATA[Subsystem for Linux]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8286</guid>
+		<description><![CDATA[With the Windows 10 Anniversary Update, which was released by Microsoft in Summer 2016, Microsoft included a Windows Subsystem for Linux in Windows 10. This allows you to enable Bash on Windows 10. In this blog post I quickly want to show how you can enable the Windows Subsystem for Linux on Windows 10. This...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/11/how-to-install-linux-bash-on-windows-10/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>With the Windows 10 Anniversary Update, which was released by Microsoft in Summer 2016, Microsoft included a Windows Subsystem for Linux in Windows 10. This allows you to enable Bash on Windows 10. In this blog post I quickly want to show how you can enable the Windows Subsystem for Linux on Windows 10. This is great if you want to use some Linux tools on your Windows 10 machine. I use it for example to use SSH to connect to Linux Virtual Machines on Azure.</p>
+<p>First you have the following requirements:</p>
+<ul>
+<li>Windows 10 Anniversary Update â€“ Windows 10 Build 14393 and higher</li>
+<li>64-bit versions of Windows 10</li>
+<li>Internet Connection to download the Windows Subsystem for Linux in Windows</li>
+<li>Active Developer Mode in Windows 10</li>
+</ul>
+<p>First enable Developer Mode There are two option you can do this</p>
+<p>Open the Settings App, go to Update &amp; Security, go to For developers and enable Developer mode:</p>
+<p><img class="alignnone size-large wp-image-8287" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Developer-Mode.jpg?resize=595%2C330" alt="Windows 10 - Developer Mode" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Developer-Mode.jpg?resize=1024%2C568 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Developer-Mode.jpg?resize=300%2C166 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Developer-Mode.jpg?resize=768%2C426 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Developer-Mode.jpg?w=1190 1190w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Developer-Mode.jpg?w=1785 1785w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>You can also use the following PowerShell command to enable Developer Mode:</p>
+<pre class="crayon-plain-tag">reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock&quot; /t REG_DWORD /f /v &quot;AllowDevelopmentWithoutDevLicense&quot; /d &quot;1&quot;</pre>
+<p>After this you can enable the Windows Subsystem for Linux as a Windows Feature in the Control Panel or PowerShell</p>
+<p><img class="alignnone size-large wp-image-8288" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Windows-Subsystem-for-Linux.jpg?resize=595%2C310" alt="Windows 10 - Windows Subsystem for Linux" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Windows-Subsystem-for-Linux.jpg?resize=1024%2C534 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Windows-Subsystem-for-Linux.jpg?resize=300%2C157 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Windows-Subsystem-for-Linux.jpg?resize=768%2C401 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-10-Windows-Subsystem-for-Linux.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Run the following PowerShell command to enable the Windows Subsystem for Linux:</p>
+<p><img class="alignnone size-large wp-image-8289" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Enable-Windows-Subsystem-for-Linux-PowerShell.jpg?resize=595%2C117" alt="Enable Windows Subsystem for Linux using PowerShell" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Enable-Windows-Subsystem-for-Linux-PowerShell.jpg?resize=1024%2C201 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Enable-Windows-Subsystem-for-Linux-PowerShell.jpg?resize=300%2C59 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Enable-Windows-Subsystem-for-Linux-PowerShell.jpg?resize=768%2C151 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Enable-Windows-Subsystem-for-Linux-PowerShell.jpg?w=1190 1190w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Enable-Windows-Subsystem-for-Linux-PowerShell.jpg?w=1785 1785w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<pre class="crayon-plain-tag">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</pre>
+<p>After that you will need to restart your computer.</p>
+<p>Now you can open up PowerShell or the command prompt and start using bash. (You can also start Bash directly from the Start Menu)</p>
+<p><img class="alignnone size-large wp-image-8291" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Bash-on-Windows-10.jpg?resize=595%2C172" alt="Bash on Windows 10" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Bash-on-Windows-10.jpg?resize=1024%2C296 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Bash-on-Windows-10.jpg?resize=300%2C87 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Bash-on-Windows-10.jpg?resize=768%2C222 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Bash-on-Windows-10.jpg?w=1190 1190w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Bash-on-Windows-10.jpg?w=1785 1785w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Hope this helps you to get started.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/11/how-to-install-linux-bash-on-windows-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8286</post-id>	</item>
+		<item>
+		<title>Speaking at Microsoft Technical Summit 2016 in Darmstadt Germany</title>
+		<link>http://www.thomasmaurer.ch/2016/11/speaking-at-microsoft-technical-summit-2016-in-darmstadt-germany/</link>
+		<comments>http://www.thomasmaurer.ch/2016/11/speaking-at-microsoft-technical-summit-2016-in-darmstadt-germany/#respond</comments>
+		<pubDate>Fri, 25 Nov 2016 14:20:58 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Containers]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Azure]]></category>
+		<category><![CDATA[Nano Server]]></category>
+		<category><![CDATA[Operations Management Suite]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Private Cloud]]></category>
+		<category><![CDATA[System Center]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Event]]></category>
+		<category><![CDATA[Microsoft Techncial Summit]]></category>
+		<category><![CDATA[msts]]></category>
+		<category><![CDATA[PowerShell]]></category>
+		<category><![CDATA[Presentation]]></category>
+		<category><![CDATA[Presenter]]></category>
+		<category><![CDATA[Session]]></category>
+		<category><![CDATA[Speaker]]></category>
+		<category><![CDATA[Techncial Summit]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8362</guid>
+		<description><![CDATA[After some great events like ITDEV Connections in Las Vegas, E2EVC in Rome and ExpertsLive in Amsterdam, I will also speak at the Microsoft Technical Summit 2016 in Darmstadt, Germany. The Microsoft Technical Summit will be the Microsoft IT event in 2016. This time it will be in Darmstadt from December 6-8. In my session...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/11/speaking-at-microsoft-technical-summit-2016-in-darmstadt-germany/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>After some great events like <a href="http://www.thomasmaurer.ch/2016/09/speaking-at-itdev-connections-in-las-vegas/">ITDEV Connections in </a>Las Vegas, <a href="http://www.thomasmaurer.ch/2016/11/speaking-at-e2evc-2016-rome/">E2EVC</a> in Rome and <a href="http://www.thomasmaurer.ch/2016/11/speaking-at-expertslive-2016-in-amsterdam/">ExpertsLive</a> in Amsterdam, I will also speak at the <a href="https://www.microsoft.com/germany/technical-summit">Microsoft Technical Summit 2016 </a>in Darmstadt, Germany. The Microsoft Technical Summit will be the Microsoft IT event in 2016. This time it will be in Darmstadt from December 6-8. In my session I will speak about the new Nano Server deployment option in Windows Server 2016.</p>
+<div class="cta"><div class="cta-button"><a class="button default" href="https://www.microsoft.com/germany/technical-summit/">Technical Summit</a></div><div class="cta-text-with-button"><h3>Nano Server - The Future of Windows Server</h3><p>Nano Server is the future of Windows Server. With Nano Server Microsoft created the foundation for Windows Server for the next years. In this session you will get an overview about Nano Server and see some great live demos how you can deploy, manage and operate Nano Server as well as creating applications for it. Get a better understanding of Nano Server and see how you deploy, manage and operate it.</p></div></div>
+<p>This will be more the last conference I will be speaking in 2016. I am really looking forward and hopefully see you there.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/11/speaking-at-microsoft-technical-summit-2016-in-darmstadt-germany/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8362</post-id>	</item>
+		<item>
+		<title>Speaking at ExpertsLive 2016 in Amsterdam</title>
+		<link>http://www.thomasmaurer.ch/2016/11/speaking-at-expertslive-2016-in-amsterdam/</link>
+		<comments>http://www.thomasmaurer.ch/2016/11/speaking-at-expertslive-2016-in-amsterdam/#comments</comments>
+		<pubDate>Wed, 16 Nov 2016 14:53:01 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Containers]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Azure]]></category>
+		<category><![CDATA[Nano Server]]></category>
+		<category><![CDATA[Operations Management Suite]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Server Core]]></category>
+		<category><![CDATA[System Center]]></category>
+		<category><![CDATA[Virtual Machine Manager]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows 10]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Amsterdam]]></category>
+		<category><![CDATA[Container]]></category>
+		<category><![CDATA[Docker]]></category>
+		<category><![CDATA[Event]]></category>
+		<category><![CDATA[ExpertsLive]]></category>
+		<category><![CDATA[Presenter]]></category>
+		<category><![CDATA[Savision]]></category>
+		<category><![CDATA[Session]]></category>
+		<category><![CDATA[Speaker]]></category>
+		<category><![CDATA[Storage Replica]]></category>
+		<category><![CDATA[Storage Spaces Direct]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8296</guid>
+		<description><![CDATA[Last year I had the chance to speak for the first time at ExpertsLive.nl in Amsterdam. Today I am proud that I will be speaking at ExpertsLive.nl again this year. Next week I will be presenting in two session about Windows Server 2016 together with Michael RÃ¼efli. Also check out the Savison blog post about...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/11/speaking-at-expertslive-2016-in-amsterdam/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>Last year I had the chance to speak for the first time at <a href="http://www.thomasmaurer.ch/2015/09/speaking-at-experts-live-2015/">ExpertsLive.nl in Amsterdam</a>. Today I am proud that I will be speaking at ExpertsLive.nl again this year. Next week I will be presenting in two session about Windows Server 2016 together with Michael RÃ¼efli.</p>
+<p>Also check out the <a href="https://www.savision.com/resources/empower-your-knowledge-at-experts-live-2016?utm_source=Twitter&amp;utm_medium=Social&amp;utm_content=Empower+your+knowledge+at+Experts+Live+2016&amp;utm_campaign=Experts+Live+2016">Savison blog post about ExpertsLive</a> from Isidora KataniÄ‡ and me: Empower your knowledge at Experts Live 2016!</p>
+<p><img class="alignnone size-large wp-image-7719" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/01/Presenting-ExpertsLive-1024x684.jpg?resize=595%2C397" alt="Presenting ExpertsLive" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/01/Presenting-ExpertsLive.jpg?resize=1024%2C684 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/01/Presenting-ExpertsLive.jpg?resize=300%2C200 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/01/Presenting-ExpertsLive.jpg?resize=768%2C513 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/01/Presenting-ExpertsLive.jpg?w=1190 1190w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/01/Presenting-ExpertsLive.jpg?w=1785 1785w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<div class="cta"><div class="cta-button"><a class="button default" href="http://expertslive.nl/sessions/greatest-server-os-hits-best-of-server-2016-en/">ExpertsLive</a></div><div class="cta-text-with-button"><h3>Greatest Server OS Hits; best of Server 2016</h3><p>In this presentation we will guide you through the highly anticipated innovations including: â€¢Hyper-V 2016 features â€¢Nano Server â€¢Storage Spaces Direct â€¢Storage Replica â€¢Windows Server Containers â€¢And more</p></div></div><div class="cta"><div class="cta-button"><a class="button default" href="http://expertslive.nl/sessions/the-future-of-your-datacenter-nano-server-and-container-en/">ExpertsLive</a></div><div class="cta-text-with-button"><h3>The future of your datacenter: Nano Server and Container </h3><p>Nano Server is the future of Windows Server. With Nano Server Microsoft created the foundation for Windows Server for the next 20 year. In this session you will get an overview about Nano Server and see some great live demos how you can deploy, manage and operate Nano Server as well as creating applications for it. Get a better understanding of Nano Server and see how you deploy, manage and operate it.</p></div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/11/speaking-at-expertslive-2016-in-amsterdam/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8296</post-id>	</item>
+		<item>
+		<title>Speaking at E2EVC 2016 Rome</title>
+		<link>http://www.thomasmaurer.ch/2016/11/speaking-at-e2evc-2016-rome/</link>
+		<comments>http://www.thomasmaurer.ch/2016/11/speaking-at-e2evc-2016-rome/#respond</comments>
+		<pubDate>Mon, 14 Nov 2016 15:26:42 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Active Directory]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Containers]]></category>
+		<category><![CDATA[Fun]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Nano Server]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Private Cloud]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Conference]]></category>
+		<category><![CDATA[Container]]></category>
+		<category><![CDATA[E2EVC]]></category>
+		<category><![CDATA[E2EVC 2016]]></category>
+		<category><![CDATA[Event]]></category>
+		<category><![CDATA[Italy]]></category>
+		<category><![CDATA[Rome]]></category>
+		<category><![CDATA[Speaker]]></category>
+		<category><![CDATA[Storage]]></category>
+		<category><![CDATA[Storage Replica]]></category>
+		<category><![CDATA[Storage Spaces Direct]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8352</guid>
+		<description><![CDATA[I just came back from the Microsoft MVP Summit in Redmond and this week I will travel to Rome for the Experts 2 Experts Virtualization Conference. On Friday I will talk about Windows Server 2016 and what is new in the RTM versions. E2EVC Virtualization Conference is a non-commercial, virtualization community event.Â The main goal of...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/11/speaking-at-e2evc-2016-rome/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>I just came back from the Microsoft MVP Summit in Redmond and this week I will travel to Rome for the Experts 2 Experts Virtualization Conference. On Friday I will talk about Windows Server 2016 and what is new in the RTM versions.</p>
+<div class="cta"><div class="cta-button"><a class="button default" href="http://www.e2evc.com/home">E2EVC</a></div><div class="cta-text-with-button"><h3>The best of Windows Server 2016 </h3><p>The best of Windows Server 2016 &#8211; RTM. Join this session for the Best of Windows Server 2016 â€” The New Foundation of your Datacenter. Youâ€™ll be one of the first to know about new, exciting improvements that are coming in Windows Server 2016 and how theyâ€™ll improve your day-to-day job. </p></div></div>
+<p>E2EVC Virtualization Conference is a non-commercial, virtualization community event.Â The main goal of the E2EVC is to bring the best virtualization experts together to exchange knowledge and to establish new connections. E2EVC is a weekend crammed with presentations, Master Classes and discussions delivered by both virtualization vendors product teams and independent experts. I am happy to be part of the community and listen to other industryÂ leading experts.</p>
+<p>I am looking forward to the E2EVC and hopefully see you in Rome.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/11/speaking-at-e2evc-2016-rome/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8352</post-id>	</item>
+		<item>
+		<title>How to deploy Nano Server in Azure</title>
+		<link>http://www.thomasmaurer.ch/2016/11/how-to-deploy-nano-server-in-azure/</link>
+		<comments>http://www.thomasmaurer.ch/2016/11/how-to-deploy-nano-server-in-azure/#comments</comments>
+		<pubDate>Mon, 07 Nov 2016 18:09:33 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Azure]]></category>
+		<category><![CDATA[Nano Server]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Private Cloud]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows 10]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[PowerShell]]></category>
+		<category><![CDATA[Remoting]]></category>
+		<category><![CDATA[Virtual Machine]]></category>
+		<category><![CDATA[VM]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8324</guid>
+		<description><![CDATA[In some other post I have written how you can deploy a Nano Server on premise using PowerShell or the Nano Server Image Builder. In this post I will quickly show you how you can setup a new Nano Server in Microsoft Azure. To deploy Nano Server in Azure, Microsoft offers you a Nano Server...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/11/how-to-deploy-nano-server-in-azure/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>In some other post I have written how you can deploy a <a href="http://www.thomasmaurer.ch/2016/11/nano-server-the-future-of-windows-server-just-enough-os/">Nano Server</a> on premise using <a href="http://www.thomasmaurer.ch/2016/10/how-to-create-a-nano-server-image-using-powershell/">PowerShell</a> or the <a href="http://www.thomasmaurer.ch/2016/10/create-a-nano-server-using-the-nano-server-image-builder/">Nano Server Image Builder</a>. In this post I will quickly show you how you can setup a new Nano Server in Microsoft Azure.</p>
+<p>To deploy Nano Server in Azure, Microsoft offers you a Nano Server Image in the Marketplace.</p>
+<h2>Using the Azure Portal to deploy Nano Server on Microsoft Azure</h2>
+<p>There are also several ways you can deploy Nano Server, for example using the Azure Portal or PowerShell. First this will show you how you can create a Nano Server Virtual Machine using the Azure Portal.</p>
+<p><img class="alignnone size-large wp-image-8329" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure.jpg?resize=595%2C336" alt="Nano Server on Azure Marketplace" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure.jpg?resize=1024%2C578 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure.jpg?resize=300%2C169 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure.jpg?resize=768%2C433 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure.jpg?w=1581 1581w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Simply follow the steps to create a new Azure Virtual Machine.</p>
+<p><img class="alignnone size-large wp-image-8328" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Size.jpg?resize=595%2C336" alt="Nano Server on Azure VM Size" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Size.jpg?resize=1024%2C578 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Size.jpg?resize=300%2C169 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Size.jpg?resize=768%2C433 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Size.jpg?w=1581 1581w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Size.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>The most important part is to configure the Network Security Groups to allow PowerShell Remoting since Nano Server does not support RDP. There are two options to do this, using WinRM over http (5985)Â or using WinRM using https (5986). To be honest in production you should only use https, but for some demos or if you are configuring Nano Server to be used over a VPN you can also use WinRM over http.Â I also recommend that you remove the RDP port rule, since this is not really necessary. If the WinRM rule in the network security group is not already there, just create it. For easy setup you can use 5985 if you want to use SSL you will require additional steps.</p>
+<p><img class="alignnone size-large wp-image-8326" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-NSG-WinRM-https.jpg?resize=595%2C336" alt="Nano Server on Azure Network Security Groups NSG" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-NSG-WinRM-https.jpg?resize=1024%2C578 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-NSG-WinRM-https.jpg?resize=300%2C169 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-NSG-WinRM-https.jpg?resize=768%2C433 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-NSG-WinRM-https.jpg?w=1581 1581w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-NSG-WinRM-https.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Follow the rest of the wizard to deploy the new Nano Server VM. After the VM is created you will see it in the Azure Portal. You can now use the IP address to connect to the virtual machine using PowerShell remoting. If you don&#8217;t have a VPN connection to the Azure VM Network you will need to use the public IP address, if it is connected trough a VPN or from another machine running in the same VM Network, you can use the internal IP address. In my demo case I am using the public IP address to connect to the virtual machine. To make it easier I also created a Public DNS name for this Azure IP address.</p>
+<p><img class="alignnone size-large wp-image-8330" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Public-DNS-Name.jpg?resize=595%2C336" alt="Nano Server on Azure Public DNS Name" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Public-DNS-Name.jpg?resize=1024%2C578 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Public-DNS-Name.jpg?resize=300%2C169 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Public-DNS-Name.jpg?resize=768%2C433 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Public-DNS-Name.jpg?w=1581 1581w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-on-Azure-Public-DNS-Name.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>To connect to your Nano Server you also have to setup PowerShell Remoting on your machine and add the host to your trusted hosts group.</p>
+<pre class="crayon-plain-tag">&lt;div&gt;# Start the WinRM Service&lt;/div&gt;
+&lt;div&gt;Start-Service WinRM&lt;/div&gt;
+&lt;div&gt;Set-Item WSMan:\localhost\Client\TrustedHosts -Value &quot;servername or IP&quot;&lt;/div&gt;</pre>
+<p>You can now connect to your Nano Server running in Azure.</p>
+<p><img class="alignnone size-large wp-image-8331" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-PowerShell-Remoting.jpg?resize=595%2C171" alt="Nano Server PowerShell Remoting Azure VM" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-PowerShell-Remoting.jpg?resize=1024%2C295 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-PowerShell-Remoting.jpg?resize=300%2C86 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-PowerShell-Remoting.jpg?resize=768%2C221 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Nano-Server-PowerShell-Remoting.jpg?w=1199 1199w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<pre class="crayon-plain-tag">Enter-PSSession -ComputerName tomsnano02.westeurope.cloudapp.azure.com -Credential ~\ThomasMaurer</pre>
+<h2>Using the AzureÂ PowerShell moduleÂ to deploy Nano Server on Microsoft Azure</h2>
+<p>First you have to install the <a href="http://www.thomasmaurer.ch/2016/05/how-to-install-the-azure-powershell-module/">Azure PowerShell Module</a> and get the NanoServerAzureHelper PowerShell Module (<a href="https://msdnshared.blob.core.windows.net/media/2016/10/NanoServerAzureHelper_20160927.zip">NanoServerAzureHelper_20160927</a>) this will help you with the setup.</p>
+<p>Time to fire up PowerShell and login to Azure</p>
+<pre class="crayon-plain-tag">Login-AzureRmAccount</pre>
+<p>First create a new Azure Resource Group and a Key Vault if you don&#8217;t have them already available. The key vault will be helping you to use SSL configuration for your PowerShell remoting.</p>
+<pre class="crayon-plain-tag">New-AzureRmResourceGroup -Name &ldquo;NanoServerAzurePS&rdquo; -Location &quot;West Europe&quot;
+New-AzureRmKeyVault -VaultName &ldquo;NanoServerAzurePSVault&rdquo; -ResourceGroupName &ldquo;NanoServerAzurePS&rdquo; -Location &quot;West Europe&quot; -EnabledForDeployment</pre>
+<p>Import the NanoServerAzureHelper PowerShell module which you have downloaded before.</p>
+<p><img class="alignnone size-large wp-image-8334" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/NanoServerAzureHelper-Powershell-Module.jpg?resize=595%2C267" alt="NanoServerAzureHelper PowerShell Module" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/NanoServerAzureHelper-Powershell-Module.jpg?resize=1024%2C459 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/NanoServerAzureHelper-Powershell-Module.jpg?resize=300%2C134 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/NanoServerAzureHelper-Powershell-Module.jpg?resize=768%2C344 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/NanoServerAzureHelper-Powershell-Module.jpg?w=1199 1199w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<pre class="crayon-plain-tag">Import-Module .\PowerShell\NanoServerAzureHelper_20160927\NanoServerAzureHelper.psm1 -Verbose</pre>
+<p>This will give you some new PowerShell cmdlets to deploy Nano Server quickly on Azure.</p>
+<p>The most important for creating new Nano Server VMs in Azure is simply the New-NanoServerAzureVM.</p>
+<p><img class="alignnone size-large wp-image-8335" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM.jpg?resize=595%2C165" alt="New-NanoServerAzureVM" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM.jpg?resize=1024%2C284 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM.jpg?resize=300%2C83 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM.jpg?resize=768%2C213 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM.jpg?w=1199 1199w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Create a new Nano Server VM in Azure using the following PowerShellÂ command:</p>
+<p><img class="alignnone size-large wp-image-8336" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM-Create-Nano-Server-VM.jpg?resize=595%2C455" alt="New-NanoServerAzureVM Create Nano Server VM" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM-Create-Nano-Server-VM.jpg?resize=1024%2C783 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM-Create-Nano-Server-VM.jpg?resize=300%2C229 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM-Create-Nano-Server-VM.jpg?resize=768%2C587 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/New-NanoServerAzureVM-Create-Nano-Server-VM.jpg?w=1199 1199w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<pre class="crayon-plain-tag">New-NanoServerAzureVM -Location &quot;West Europe&quot; &ndash;VMName &quot;tm01-nanops&quot; -AdminUsername &quot;ThomasMaurer&quot; -VaultName &quot;NanoServerAzurePSVault&quot; -ResourceGroupName &quot;NanoServerAzurePS&quot; -Verbose</pre>
+<p>To connect you can get the public IP address for the system you deployed and connect to it</p>
+<pre class="crayon-plain-tag">Get-AzureRmPublicIpAddress -ResourceGroupName &quot;NanoServerAzurePS&quot;
+
+Enter-PSSession -ConnectionUri &quot;https://tm01-nanops.westeurope.cloudapp.azure.com:5986/WSMAN&quot; -Credential &quot;~\ThomasMaurer&quot;</pre>
+<p>&nbsp;</p>
+<h2>Using PowerShell Package Management to Install Roles and Features on Nano Server</h2>
+<p>Since in Nano Server does not include any roles per default you can now use PowerShell Package Management to installed Nano Server PackagesÂ on your Azure Virtual Machine.</p>
+<p><img class="alignnone size-large wp-image-8332" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Azure-Nano-Server-PowerShell-Package-Management.jpg?resize=595%2C427" alt="Azure Nano Server PowerShell Package Management" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Azure-Nano-Server-PowerShell-Package-Management.jpg?resize=1024%2C735 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Azure-Nano-Server-PowerShell-Package-Management.jpg?resize=300%2C215 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Azure-Nano-Server-PowerShell-Package-Management.jpg?resize=768%2C551 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/11/Azure-Nano-Server-PowerShell-Package-Management.jpg?w=1199 1199w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>If you want to know more about PowerShell Package Management on Nano Server, check out my blog post. If you want to know more about Nano Server in general check this post here: <a href="http://www.thomasmaurer.ch/2016/11/nano-server-the-future-of-windows-server-just-enough-os/">Nano Server â€“ The future of Windows Server â€“ Just enough OS</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/11/how-to-deploy-nano-server-in-azure/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8324</post-id>	</item>
+		<item>
+		<title>Nano Server &#8211; The future of Windows Server &#8211; Just enough OS</title>
+		<link>http://www.thomasmaurer.ch/2016/11/nano-server-the-future-of-windows-server-just-enough-os/</link>
+		<comments>http://www.thomasmaurer.ch/2016/11/nano-server-the-future-of-windows-server-just-enough-os/#respond</comments>
+		<pubDate>Tue, 01 Nov 2016 15:40:25 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Containers]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Microsoft Azure]]></category>
+		<category><![CDATA[Nano Server]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Private Cloud]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[Windows 10]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[Container]]></category>
+		<category><![CDATA[Deployment]]></category>
+		<category><![CDATA[Management]]></category>
+		<category><![CDATA[Nano Server Image Builder]]></category>
+		<category><![CDATA[Packages]]></category>
+		<category><![CDATA[PowerShell]]></category>
+		<category><![CDATA[Remote Management]]></category>
+		<category><![CDATA[Server Management Tools]]></category>
+		<category><![CDATA[Storage]]></category>
+		<category><![CDATA[System Center]]></category>
+		<category><![CDATA[Troubleshooting]]></category>
+		<category><![CDATA[Virtual Machine]]></category>
+		<category><![CDATA[VMM]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=7652</guid>
+		<description><![CDATA[Finally, Microsoft released Windows Server 2016 and with Windows Server 2016 we also get the first version of Nano Server. I had the opportunity to speak on several different events and conferences about Nano Server, so I tried to create a quick summary of my presentation in this blog post. Nano Server installation option Just...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/11/nano-server-the-future-of-windows-server-just-enough-os/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>Finally, <a href="http://www.thomasmaurer.ch/2016/10/getting-started-with-windows-server-2016-and-system-center-2016/">Microsoft released Windows Server 2016 </a>and with Windows Server 2016 we also get the first version of Nano Server. I had the opportunity to speak on several different events and conferences about Nano Server, so I tried to create a quick summary of my presentation in this blog post.</p>
+<h2>Nano Server installation option Just enough OS</h2>
+<p><img class="alignnone size-large wp-image-8235" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Just-enough-OS.jpg?resize=595%2C238" alt="Nano Server - Just enough OS" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Just-enough-OS.jpg?resize=1024%2C410 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Just-enough-OS.jpg?resize=300%2C120 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Just-enough-OS.jpg?resize=768%2C307 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Just-enough-OS.jpg?w=1419 1419w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Just-enough-OS.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Nano Server is a redesign version of Windows ServerÂ which is very lightweight, very small footprint and fullyÂ remote managed and it is designed to solve some of the datacenter challenges we have today. Nano Server is a headless, 64-bit only deployment option of Windows Server. Microsoft basically removed all components from the base image. Roles and feature are not directly included in the base image and they have to be added while creating a new Nano Server Image or online using PowerShell Package Management. Not even the drivers are included in the base image, since you don&#8217;t want the physical drivers in a virtual machines, and you don&#8217;t want the virtual drivers on a physical machine This is also the reason why Nano Server does not show up during the installation dialog when you boot the Windows Server 2016 ISO file.</p>
+<h3>Nano Server Key Scenarios</h3>
+<p>The first version of Nano Server is designed for the following key scenarios:</p>
+<ol>
+<li>Born-in-the-cloud applications â€“ support for multiple programming languages and runtimes. (e.g. ASP.NET Core, C#, Java, Node.js, Python, etc.) running in containers, virtual machines, or on physical servers.</li>
+<li>Microsoft Cloud Platform infrastructure â€“ support for compute clusters running Hyper-V and storage clusters running Scale-out File Server and Storage Spaces Direct.</li>
+<li>But Microsoft also added some other roles like DNS and IIS to the Nano Server and we can expect more roles and features in the future.</li>
+</ol>
+<p>In this version Nano Server will of course not replace Windows Server Core and Windows Server (Full or Server with Desktop Experience), but it will be definitely be they way going forward.</p>
+<h2>Nano Server Footprint</h2>
+<p>Nano Server has a very small foot print, The default WIM file has a size around 170 MB and if you create a Nano Server VHD or VHDX file it can be only around 400 MB in size. If you add more roles, features and drivers the size of the image gets bigger, but even if you add more stuff the size will be around 800 MB for an Hyper-V server including the Hyper-V role, Failover Clustering Feature, DCB feature,Â Physical OEM drivers and additional network adapter and storage controller drivers. If you compare Nano Server to Windows Server you can see some of the following changes:</p>
+<ul>
+<li>93 percent lower VHD size</li>
+<li>92 percent fewer critical bulletins</li>
+<li>80 percent fewer reboots</li>
+</ul>
+<h3>Nano Server Servicing Improvements</h3>
+<p><img class="alignnone size-large wp-image-8232" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing-Improvments.jpg?resize=595%2C264" alt="Nano Server Servicing Improvments" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing-Improvments.jpg?resize=1024%2C454 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing-Improvments.jpg?resize=300%2C133 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing-Improvments.jpg?resize=768%2C341 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing-Improvments.jpg?w=1334 1334w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing-Improvments.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<h3>Nano Server Deployment Improvements</h3>
+<p><img class="alignnone size-large wp-image-8231" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Deployment-Improvments.jpg?resize=595%2C223" alt="Nano Server Deployment Improvments" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Deployment-Improvments.jpg?resize=1024%2C383 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Deployment-Improvments.jpg?resize=300%2C112 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Deployment-Improvments.jpg?resize=768%2C287 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Deployment-Improvments.jpg?w=1376 1376w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Deployment-Improvments.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>This not only reduced deployment time and gives you some operational improvements, it also reduces the attack surface by a lot and this is a huge security improvement.</p>
+<p>To achieve these results, Microsoft removed some parts of Windows Server such as:</p>
+<ul>
+<li>GUI stack</li>
+<li>32 bit support (WOW64)</li>
+<li>MSI support</li>
+<li>RDP</li>
+<li>Some default Server Core components</li>
+<li>Basic OEM Drivers</li>
+<li>and more</li>
+</ul>
+<h2>Nano Server Management</h2>
+<p>By removing theÂ User InterfaceÂ stack, Microsoft made this server to a true headless server, without any login screen or RDP support.Â By removing the Graphic User Interface, Windows Administrator have to learn new ways how they manage servers, or better use existing waysÂ to manage a Nano Server environment. The answer is simple and is the best practice for managing servers for a long time called Remote Management. Nano Server will offer some advanced remote Management features such as:</p>
+<ul>
+<li>WMI</li>
+<li>PowerShell Remoting</li>
+<li><a href="http://www.thomasmaurer.ch/2015/12/hyper-v-powershell-direct/">PowerShell Direct</a></li>
+<li>PowerShell Desired State Configuration</li>
+<li>RSAT Tools (Server Manager, Hyper-V Manager, Failover Cluster Manager, &#8230;)</li>
+<li>System Center and other Management tools</li>
+<li><a href="http://www.thomasmaurer.ch/2016/02/manage-nano-server-and-windows-server-from-azure-using-remote-server-management-tools/">Server Management Tools</a> (Azure Web-based management tools to replace local inbox management tools)</li>
+</ul>
+<p>With that, existing Remote Management Tools, suchÂ as Server Manager and other RSATÂ tools,Â willÂ continue to work. But Microsoft also improved PowerShell Remoting and introduces the Azure Serivce for Server Management Tools.</p>
+<h3>Server Management Tools</h3>
+<p><img class="alignnone wp-image-7779" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Microsoft-Azure-Server-Management-Tools-Topology.png?resize=590%2C524" alt="Microsoft Azure Server Management Tools Topology" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Microsoft-Azure-Server-Management-Tools-Topology.png?w=853 853w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Microsoft-Azure-Server-Management-Tools-Topology.png?resize=300%2C267 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Microsoft-Azure-Server-Management-Tools-Topology.png?resize=768%2C682 768w" sizes="(max-width: 590px) 100vw, 590px" data-recalc-dims="1" /></p>
+<p>This service allows you to manage your servers directly from Azure using a web-based HTML5 portal. I personally think that this could also replace Server Manager and allows you to easily manage non-GUI servers such as Windows Server Core and Nano Server.</p>
+<p><img class="alignnone size-large wp-image-7791" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Azure-Remote-Server-Management-Nano-Server-1.png?resize=595%2C352" alt="Azure Remote Server Management Nano Server" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Azure-Remote-Server-Management-Nano-Server-1.png?resize=1024%2C605 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Azure-Remote-Server-Management-Nano-Server-1.png?resize=300%2C177 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Azure-Remote-Server-Management-Nano-Server-1.png?resize=768%2C454 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Azure-Remote-Server-Management-Nano-Server-1.png?w=1190 1190w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/02/Azure-Remote-Server-Management-Nano-Server-1.png?w=1785 1785w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>If you want to know more about the Sever Management Tools, check out my blog post: <a href="http://www.thomasmaurer.ch/2016/02/manage-nano-server-and-windows-server-from-azure-using-remote-server-management-tools/">Manage Nano Server and Windows Server from Azure using Remote Server Management Tools</a></p>
+<p>The Server Management Tools do not only support Nano Server, they also support Windows Server 2016, Windows Server 2012 R2 and Windows Server 2012 with <a href="http://www.thomasmaurer.ch/2014/04/windows-management-framework-v5-preview/">WMF 5.0</a> and higher.</p>
+<h3>Remote Manage Nano Server with PowerShell</h3>
+<p><img class="alignnone wp-image-8237" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-PowerShell-Remoting.jpg?resize=595%2C164" alt="Nano Server PowerShell Remoting" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-PowerShell-Remoting.jpg?w=963 963w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-PowerShell-Remoting.jpg?resize=300%2C83 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-PowerShell-Remoting.jpg?resize=768%2C211 768w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>The simplest way to manage Nano Server is by using PowerShell Remoting using for exmaple the following command.</p>
+<pre class="crayon-plain-tag">Enter-PSSession -ComputerName &quot;NanoServer.thomasmaurer.ch&quot; -Credentials (Get-Credentials)</pre>
+<p>If you are directly on a Hyper-V Server you can also use PowerShell Direct which allows you to directly connect to a Virtual Machine using the Hyper-V VMBus.</p>
+<pre class="crayon-plain-tag">Enter-PSSession -VMName &quot;NanoVM01&quot; -Credentials (Get-Credentials)</pre>
+<p>If you want to know more about Managing Nano Server check out the following blog posts <a href="http://www.thomasmaurer.ch/2015/12/how-to-remote-manage-your-nano-server-using-powershell/">How to Remote Manage your Nano Server using PowerShell</a> or Hyper-V <a href="http://www.thomasmaurer.ch/2015/12/hyper-v-powershell-direct/">PowerShell Direct</a>.</p>
+<h3>Manage Nano Server using System Center</h3>
+<p>Nano Server can also be managed using System Center Virtual Machine Manager and System Center Operations Manager. With SCVMM you can deploy new Hyper-V and Storage Spaces Direct hosts as well as Virtual Machines.</p>
+<h2>DeployÂ Nano Server</h2>
+<p>To <a href="http://www.thomasmaurer.ch/2016/10/how-to-deploy-nano-server/">deploy Nano Server</a> as a virtual machine or as a physical host you have to create a new Nano Server Image. For this you have basically have two option. The first one is using the built in Nano Server Image Generator PowerShell module and the second option is the Nano Server Image Builder UI wizard.</p>
+<h3>Nano Server Image Generator PowerShell module</h3>
+<p><img class="alignnone size-large wp-image-8210" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/New-NanoServerImage.jpg?resize=595%2C261" alt="New-NanoServerImage" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/New-NanoServerImage.jpg?resize=1024%2C449 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/New-NanoServerImage.jpg?resize=300%2C132 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/New-NanoServerImage.jpg?resize=768%2C337 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/New-NanoServerImage.jpg?w=1058 1058w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>The Nano Server Image Generator PowerShell module allows you to create new Nano Server Images. You can find this on the Windows Server 2016 media in the Nano Server folder. Here is a quick example how to create a new VHDX using the PowerShell module.</p>
+<pre class="crayon-plain-tag">&lt;div&gt;# Change Working Directory
+cd C:\NanoServer&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;# Import Module
+Import-Module .\NanoServerImageGenerator.psm1&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;# Create Nano Server Image VHDX
+New-NanoServerImage -MediaPath .\Files -BasePath .\Base -TargetPath .\Images\NanoVMGA.vhdx -MaxSize 20GB -DeploymentType Guest -Edition Datacenter -ComputerName &quot;Nano01&quot;&lt;/div&gt;</pre>
+<h3>Nano Server Image Builder</h3>
+<p><img class="alignnone size-large wp-image-8217" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Image-Builder-1.jpg?resize=595%2C368" alt="Nano Server Image Builder" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Image-Builder-1.jpg?resize=1024%2C633 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Image-Builder-1.jpg?resize=300%2C185 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Image-Builder-1.jpg?resize=768%2C474 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Image-Builder-1.jpg?w=1164 1164w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>The Nano Server Image Builder is a UI based wizard to create Nano Server Images in VHDX, VHD, WIM or ISO to install Nano Server on all possible systems.</p>
+<p>The Nano Server Image Builder can help you with the following tasks:</p>
+<ul>
+<li>Graphical UI to create Nano Server Images</li>
+<li>Adding drivers</li>
+<li>Choose Windows Server Edition</li>
+<li>Adding roles and features</li>
+<li>Adding drivers</li>
+<li>Adding updates</li>
+<li>Configuration of Network Settings</li>
+<li>ConfigurationÂ of Domain settings</li>
+<li>Set Remoting Options</li>
+<li>Create an ISO file to boot from DVD or BMC (remote connection like HP ILO)</li>
+</ul>
+<p>First downloadÂ and install the Windows Assessment and Deployment Kit (ADK) and the Nano Server Image Builder.</p>
+<ul>
+<li><a href="https://developer.microsoft.com/en-us/windows/hardware/windows-assessment-deployment-kit">Windows Assessment and Deployment Kit (ADK)</a></li>
+<li><a href="http://aka.ms/NanoServerImageBuilder">Nano Server Image Builder</a></li>
+<li><a href="http://www.thomasmaurer.ch/2016/10/getting-started-with-windows-server-2016-and-system-center-2016/">Windows Server 2016 ISO media</a></li>
+</ul>
+<p>If you need more information about deploying Nano Server check my blog post about<a href="http://www.thomasmaurer.ch/2016/10/create-a-nano-server-using-the-nano-server-image-builder/"> Create a Nano Server using the Nano Server Image Builder</a> and <a href="http://www.thomasmaurer.ch/2016/10/how-to-create-a-nano-server-image-using-powershell/">How to create a Nano Server Image using PowerShell</a>.</p>
+<h2>Nano Server Packages</h2>
+<p><img class="alignnone size-large wp-image-8209" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Packages.jpg?resize=595%2C261" alt="Nano Server Packages" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Packages.jpg?resize=1024%2C449 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Packages.jpg?resize=300%2C132 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Packages.jpg?resize=768%2C337 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Packages.jpg?w=1058 1058w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Roles, Features and Drivers live outside of the basic Nano Server Image have to be added while creating the Nano Server Image or after that using PowerShell Package Management.</p>
+<p>You can find and install Windows Packages from the online package repository by using the NanoServerPackage provider of <a href="http://www.thomasmaurer.ch/2014/04/more-about-powershell-oneget/">PackageManagement (OneGet) </a>PowerShell module.</p>
+<pre class="crayon-plain-tag"># Import PowerShell Module
+
+Save-Module -Path &ldquo;$env:ProgramFiles\WindowsPowerShell\Modules&rdquo; -Name NanoServerPackage -MinimumVersion 1.0.0.0
+
+Import-PackageProvider NanoServerPackage
+
+# Find Nano Server Package
+
+Find-NanoServerPackage
+
+# Online Install Nano Server Package
+
+Install-NanoServerPackage -Name Microsoft-NanoServer-Containers-Package
+
+# Offline Install Nano Server Package
+
+Install-NanoServerPackage -Name Microsoft-NanoServer-Conainers-Package -culture de-de -RequiredVersion 10.0.14393.0 -ToVHd C:\NanoServer\Images\Nano01.vhdx
+
+# Download and save a Nano Server Package
+
+Find-NanoServerPackage -Name *containers* -MaximumVersion 10.2 -MinimumVersion 1.0 -Culture&nbsp;de-de | Save-NanoServerPackage -Path C:\NanoServer\Packages
+
+# Get Installed Nano Server Packages (online)
+
+Get-Package -provider NanoserverPackage
+
+# Get Installed Nano Server Packages (offline)
+
+Get-Package -provider NanoserverPackage -fromVhd C:\NanoServer\Images\Nano01.vhdx</pre>
+<h2>Troubleshooting Nano Server</h2>
+<h3>Nano Server Recovery Console</h3>
+<p><img class="alignnone size-large wp-image-8211" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Hyper-V-Nano-Server-Console.jpg?resize=595%2C508" alt="Hyper-V Nano Server Console" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Hyper-V-Nano-Server-Console.jpg?resize=1024%2C875 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Hyper-V-Nano-Server-Console.jpg?resize=300%2C256 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Hyper-V-Nano-Server-Console.jpg?resize=768%2C656 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Hyper-V-Nano-Server-Console.jpg?w=1040 1040w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>When you boot Nano Server you can not really login to Nano Server and browse the file system. What you can do is login to the Nano Server Recovery Console which allows you to do some basic tasks:</p>
+<ul>
+<li>Shows computer info like Name, IP Configuration, OS Version and more</li>
+<li>Reset Networking to DHCP</li>
+<li>Reset basic Windows Firewall rules</li>
+<li>If the Server is a Hyper-V Server you can see the VM running on the system and remove the Virtual Switch</li>
+</ul>
+<h3>Sysinternals for Nano Server</h3>
+<p><img class="alignnone size-large wp-image-8239" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Sysinternals-for-Nano-Server.jpg?resize=595%2C250" alt="Sysinternals for Nano Server" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Sysinternals-for-Nano-Server.jpg?resize=1024%2C431 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Sysinternals-for-Nano-Server.jpg?resize=300%2C126 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Sysinternals-for-Nano-Server.jpg?resize=768%2C323 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Sysinternals-for-Nano-Server.jpg?w=1361 1361w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Sysinternals-for-Nano-Server.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>There is also a Sysinternals version for Nano Server.</p>
+<h3>Nano Server over a serial port with Emergency Management Services</h3>
+<p>Emergency Management Services (EMS) lets you perform basic troubleshooting, get network status, and open console sessions (including CMD/PowerShell) by using a terminal emulator over a serial port. This replaces the need for a keyboard and monitor to troubleshoot a server.</p>
+<p>You can include this using the following cmdlets</p>
+<pre class="crayon-plain-tag"># Debugging using a serial port
+
+New-NanoServerImage -MediaPath .\Files -BasePath .\Base -TargetPath .\Images\EnablingEMS.vhdx -EnableEMS -EMSPort 3 -EMSBaudRate 9600
+
+# Debugging over a TCP/IP network
+
+New-NanoServerImage -MediaPath .\Files -BasePath .\Base -TargetPath .\Images\EMS.vhdx -DebugMethod Net -DebugRemoteIP&nbsp;172.21.22.1 -DebugPort 64000</pre>
+<h2>Nano Server Servicing</h2>
+<p><img class="alignnone size-large wp-image-8242" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing.jpg?resize=595%2C273" alt="Nano Server Servicing" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing.jpg?resize=1024%2C470 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing.jpg?resize=300%2C138 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing.jpg?resize=768%2C352 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing.jpg?w=1452 1452w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Nano-Server-Servicing.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Windows Server are usually from the Long Term Servicing Branch and have 5 + 5 years of servicing and only get security and quality fixes, no new features. In Windows Server 2016 Server Core and Server with Desktop Experience follow this traditional servicing model. Nano Server on the other hand will be in a new servicing branch called Current Branch for Business (CBB).</p>
+<ul>
+<li>Nano Server will not have an LTSB with Windows Server 2016 and therefore not have 5+5 years of servicing</li>
+<li>Nano Server installations will have to move forward to future CBB releases of Nano Server to continue to be serviced</li>
+<li>Licensing Nano Server will require Software Assurance (SA)</li>
+<li>Installation of new CBBs are always controlled by administrators, no forced upgrades</li>
+</ul>
+<h2>Nano Server Key Wins</h2>
+<ul>
+<li>Easy and fast to deploy</li>
+<li>Lightweight</li>
+<li>Easily integrates with our automated approach</li>
+<li>Reduces attack surface</li>
+<li>Works withÂ existing deploymentÂ tools (WDS, SCVMM, SCCMÂ and boot from VHDX)</li>
+<li>Reduces operational overhead</li>
+<li>Highly stable</li>
+<li>Delivers on scale and performance</li>
+</ul>
+<h2>Conclusion</h2>
+<p>In my opinion the effort Microsoft does with Nano Server really makes sense and will help Service Providers as well as Enterprise companies to deploy clouds even faster, more secure, more efficient and with less management overhead. Of course it is still early and Nano Server may not fit every case and scenario today, but definitely in the future.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/11/nano-server-the-future-of-windows-server-just-enough-os/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">7652</post-id>	</item>
+		<item>
+		<title>Veeam Backup for Microsoft Office 365</title>
+		<link>http://www.thomasmaurer.ch/2016/10/veeam-backup-for-microsoft-office-365/</link>
+		<comments>http://www.thomasmaurer.ch/2016/10/veeam-backup-for-microsoft-office-365/#respond</comments>
+		<pubDate>Mon, 31 Oct 2016 14:51:05 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Exchange Online]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Office]]></category>
+		<category><![CDATA[Office365]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Backup]]></category>
+		<category><![CDATA[Backup for Office 365]]></category>
+		<category><![CDATA[Exchange]]></category>
+		<category><![CDATA[Mail]]></category>
+		<category><![CDATA[Mailbox]]></category>
+		<category><![CDATA[Office 365]]></category>
+		<category><![CDATA[restore]]></category>
+		<category><![CDATA[Veeam]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8313</guid>
+		<description><![CDATA[Some weeks ago Veeam announced Veeam Backup for Microsoft Office 365 and now you can finally download the Beta of it. To be honest with you the installation is brutally boring and simple, so I will only show you how you quickly can create a new backup job. First create a new job Select a...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/10/veeam-backup-for-microsoft-office-365/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>Some weeks ago Veeam announced <a href="https://go.veeam.com/backup-microsoft-office-365">Veeam Backup for Microsoft Office 365</a> and now you can finally download the Beta of it. To be honest with you the installation is brutally boring and simple, so I will only show you how you quickly can create a new backup job.</p>
+<p>First create a new job</p>
+<p><img class="alignnone size-large wp-image-8316" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job.jpg?resize=595%2C337" alt="Veeam Backup for Microsoft Office 365 New Backup Job" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job.jpg?w=1024 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job.jpg?resize=300%2C170 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job.jpg?resize=768%2C435 768w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Select a which mailboxes you want to backup</p>
+<p><img class="alignnone size-large wp-image-8315" src="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Select-Mailboxes.jpg?resize=595%2C335" alt="Veeam Backup for Microsoft Office 365 New Backup Job Select Mailboxes" srcset="https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Select-Mailboxes.jpg?resize=1024%2C576 1024w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Select-Mailboxes.jpg?resize=300%2C169 300w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Select-Mailboxes.jpg?resize=768%2C432 768w, https://i2.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Select-Mailboxes.jpg?w=1025 1025w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>configure schedule and retention and you are ready to go</p>
+<p><img class="alignnone size-large wp-image-8314" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Schedule.jpg?resize=595%2C335" alt="Veeam Backup for Microsoft Office 365 New Backup Job Schedule" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Schedule.jpg?resize=1024%2C576 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Schedule.jpg?resize=300%2C169 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Schedule.jpg?resize=768%2C432 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Backup-for-Microsoft-Office-365-New-Backup-Job-Schedule.jpg?w=1027 1027w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>And guest what, with the Veeam Explorer for Microsoft Exchange, you can also restore mails from your Office 365 mailboxes.</p>
+<p><img class="alignnone size-large wp-image-8319" src="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Explorer-for-Microsoft-Exchange-1024x549.jpg?resize=595%2C319" alt="Veeam Explorer for Microsoft Exchange" srcset="https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Explorer-for-Microsoft-Exchange.jpg?resize=1024%2C549 1024w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Explorer-for-Microsoft-Exchange.jpg?resize=300%2C161 300w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Explorer-for-Microsoft-Exchange.jpg?resize=768%2C411 768w, https://i0.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Veeam-Explorer-for-Microsoft-Exchange.jpg?w=1120 1120w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>Check out the <a href="https://go.veeam.com/backup-microsoft-office-365">Veeam Backup for Microsoft Office 365 here</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/10/veeam-backup-for-microsoft-office-365/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8313</post-id>	</item>
+		<item>
+		<title>Verify installed Windows Azure Pack version</title>
+		<link>http://www.thomasmaurer.ch/2016/10/verify-installed-windows-azure-pack-version/</link>
+		<comments>http://www.thomasmaurer.ch/2016/10/verify-installed-windows-azure-pack-version/#respond</comments>
+		<pubDate>Thu, 27 Oct 2016 07:49:13 +0000</pubDate>
+		<dc:creator><![CDATA[Thomas Maurer]]></dc:creator>
+				<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[Hyper-V]]></category>
+		<category><![CDATA[IT]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Private Cloud]]></category>
+		<category><![CDATA[Service Management Automation]]></category>
+		<category><![CDATA[System Center]]></category>
+		<category><![CDATA[Virtual Machine Manager]]></category>
+		<category><![CDATA[Virtualization]]></category>
+		<category><![CDATA[Windows Azure Pack]]></category>
+		<category><![CDATA[Windows Server]]></category>
+		<category><![CDATA[Windows Server 2012 R2]]></category>
+		<category><![CDATA[Windows Server 2016]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[Azure Pack]]></category>
+		<category><![CDATA[Installed Version]]></category>
+		<category><![CDATA[PowerShell]]></category>
+		<category><![CDATA[Update Rollup]]></category>
+		<category><![CDATA[UR]]></category>
+		<category><![CDATA[version]]></category>
+		<category><![CDATA[WAP]]></category>
+
+		<guid isPermaLink="false">http://www.thomasmaurer.ch/?p=8303</guid>
+		<description><![CDATA[If you want toÂ check which version of Windows Azure Pack is installed or if you want to find out which Update Rollup of Windows Azure Pack is installed you can simply do this using two ways. You can check the version of the installed Windows Azure Pack components on each server, using the Control Panel...<div class="read-more"><a href="http://www.thomasmaurer.ch/2016/10/verify-installed-windows-azure-pack-version/">Read More</a></div>]]></description>
+				<content:encoded><![CDATA[<p>If you want toÂ check which version of <a href="http://www.thomasmaurer.ch/2014/03/windows-azure-pack-virtual-machine-cloud/">Windows Azure Pack</a> is installed or if you want to find out which Update Rollup of Windows Azure Pack is installed you can simply do this using two ways.</p>
+<p>You can check the version of the installed Windows Azure Pack components on each server, using the Control Panel &#8211; Programs and it shows you the installed components:</p>
+<p><img class="alignnone size-large wp-image-8304" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version.jpg?resize=595%2C310" alt="Windows Azure Pack Version" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version.jpg?resize=1024%2C533 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version.jpg?resize=300%2C156 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version.jpg?resize=768%2C400 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version.jpg?w=1426 1426w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version.jpg?w=1190 1190w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<p>You can also use the following PowerShell command to check the installed Windows Azure Pack server</p>
+<p><img class="alignnone size-large wp-image-8305" src="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version-PowerShell.jpg?resize=595%2C109" alt="Windows Azure Pack Version PowerShell" srcset="https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version-PowerShell.jpg?resize=1024%2C187 1024w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version-PowerShell.jpg?resize=300%2C55 300w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version-PowerShell.jpg?resize=768%2C140 768w, https://i1.wp.com/www.thomasmaurer.ch/wp-content/uploads/2016/10/Windows-Azure-Pack-version-PowerShell.jpg?w=1150 1150w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></p>
+<pre class="crayon-plain-tag">Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like &quot;Windows Azure Pack *&quot; } | Format-Table -AutoSize</pre>
+<p>You can now compare the version numbers in this list an you can see which Windows Azure Pack Update Rollup is installed. Every component on every sever has to be checked.</p>
+<table summary="table">
+<tbody>
+<tr>
+<th scope="col">Windows Azure Pack (links to KB articles)</th>
+<th scope="col">Version number</th>
+<th scope="col">Build Date</th>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="https://support.microsoft.com/en-us/kb/3158609">Update Rollup 10</a></td>
+<td data-th="Version number">3.33.8196.14</td>
+<td data-th="Build Date">04/20/2016</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/3146301">Security Update Rollup 9.1</a></td>
+<td data-th="Version number">3.32.8196.12</td>
+<td data-th="Build Date">3/2/2016</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/3114172">Update Rollup 8.1</a></td>
+<td data-th="Version number">3.29.8196.0</td>
+<td data-th="Build Date">11/16/2015</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/3096392">Update Rollup 8</a></td>
+<td data-th="Version number">3.28.8196.48</td>
+<td data-th="Build Date">10/28/2015</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/3091399">Update Rollup 7.1</a></td>
+<td data-th="Version number">3.27.8196.3</td>
+<td data-th="Build Date">8/25/2015</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/3069121">Update Rollup 7</a></td>
+<td data-th="Version number">3.25.8196.75</td>
+<td data-th="Build Date">7/31/2015</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/3051166">Update Rollup 6</a></td>
+<td data-th="Version number">3.24.8196.35</td>
+<td data-th="Build Date">4/28/2015</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/3023209">Update Rollup 5</a></td>
+<td data-th="Version number">3.22.8196.48</td>
+<td data-th="Build Date">2/10/2015</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/2992027">Update Rollup 4</a></td>
+<td data-th="Version number">3.19.8196.21</td>
+<td data-th="Build Date">10/21/2014</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/2965416">Update Rollup 3</a></td>
+<td data-th="Version number">3.15.8196.48</td>
+<td data-th="Build Date">7/22/2014</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/2932946">Update Rollup 2</a></td>
+<td data-th="Version number">3.14.8196.32</td>
+<td data-th="Build Date">4/16/2014</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)"><a href="http://support.microsoft.com/kb/2924386">Update Rollup 1</a></td>
+<td data-th="Version number">3.12.8198.0</td>
+<td data-th="Build Date">1/20/2014</td>
+</tr>
+<tr>
+<td data-th="Windows Azure Pack (links to KB articles)">RTM release</td>
+<td data-th="Version number">3.10.8198.9</td>
+<td data-th="Build Date">9/16/2013</td>
+</tr>
+</tbody>
+</table>
+<p>If you need more information please check the following Microsoft TechNet article: <a href="https://technet.microsoft.com/en-us/library/dn747884.aspx">Install Windows Azure Pack updates and verify versions</a></p>
+<p>Thanks to <a href="https://twitter.com/fulvioferrarini">Fulvio Ferrarini </a>(itnetX) which helped me with this blog post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.thomasmaurer.ch/2016/10/verify-installed-windows-azure-pack-version/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">8303</post-id>	</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.175 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-01-07 14:51:22 -->

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   
+   
+   <channel>
+	  
+	  <atom:link href="http://www.lefigaro.fr/rss/figaro_culture.xml" rel="self" type="application/rss+xml" />
+	  <category>Culture</category>
+	  <title>LE FIGARO - Le Figaro - Culture : CinÃ©ma, thÃ©Ã¢tre, arts, expositions, musique et tÃ©lÃ©vision</title>
+	  <description>Culture : Retrouvez nos critiques cinÃ©ma, les piÃ¨ces de thÃ©Ã¢tre, les expositions et tous les Ã©vÃ¨nements culturels Ã  venir sur le Figaro</description>
+	  <link>http://www.lefigaro.fr</link>
+	  <language>fr</language>
+	  <copyright>Droits de reproduction et de diffusion rÃ©servÃ©s lefigaro.fr</copyright>
+	  <lastBuildDate>Sat, 7 Jan 2017 16:22:29 +0100</lastBuildDate>
+	  <pubDate>Sat, 7 Jan 2017 16:22:29 +0100</pubDate>
+	  <docs>http://www.lefigaro.fr/rss</docs>
+	  <ttl>1</ttl>
+	  <image>
+		 <title>LE FIGARO - Le Figaro - Culture : CinÃ©ma, thÃ©Ã¢tre, arts, expositions, musique et tÃ©lÃ©vision</title>
+		 <url>http://www.lefigaro.fr/rss/img/logo_figaro.gif</url>
+		 <link>http://www.lefigaro.fr</link>
+		 <description>Culture : Retrouvez nos critiques cinÃ©ma, les piÃ¨ces de thÃ©Ã¢tre, les expositions et tous les Ã©vÃ¨nements culturels Ã  venir sur le Figaro</description>
+	  </image>
+	  
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/livres/2017/01/07/03005-20170107ARTFIG00006-en-ecrivant-j-ai-eu-le-sentiment-de-reprendre-possession-de-la-vie-de-mon-pere-bernard-maris.php</guid>
+		 <title>Â«En Ã©crivant j&#39;ai eu le sentiment de reprendre possession de la vie de mon pÃ¨re, Bernard MarisÂ»</title>
+		 <description>&lt;b&gt;INTERVIEW&lt;/b&gt; - Il y a deux ans, l&#39;Ã©conomiste Bernard Maris, directeur adjoint de Charlie Hebdo, Ã©tait assassinÃ© par les frÃ¨res Kouachi. Gabrielle Maris-Victorin publie &lt;i&gt;Prends le temps de penser Ã  moi&lt;/i&gt;, rÃ©cit poignant d&#39;une relation pÃ¨re-fille marquÃ©e par Â«un goÃ»t extrÃªme pour la vieÂ».</description>
+		 <link>http://www.lefigaro.fr/livres/2017/01/07/03005-20170107ARTFIG00006-en-ecrivant-j-ai-eu-le-sentiment-de-reprendre-possession-de-la-vie-de-mon-pere-bernard-maris.php</link>
+		 <pubDate>Sat, 7 Jan 2017 08:00:45 +0100</pubDate>
+		 <author>Scappaticci, Elena</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/2017/01/07/03004-20170107ARTFIG00054-les-dessinateurs-de-presse-paient-trop-frequemment-le-prix-fort-de-leur-impertinence.php</guid>
+		 <title>Â«Les dessinateurs de presse paient trop frÃ©quemment le prix fort de leur impertinenceÂ»</title>
+		 <description>Reporters sans frontiÃ¨res rappelle que depuis l&#39;attentat contre Charlie Hebdo, le mÃ©tier de caricaturiste est toujours trÃ¨s exposÃ© aux reprÃ©sailles parfois violentes.</description>
+		 <link>http://www.lefigaro.fr/culture/2017/01/07/03004-20170107ARTFIG00054-les-dessinateurs-de-presse-paient-trop-frequemment-le-prix-fort-de-leur-impertinence.php</link>
+		 <pubDate>Sat, 7 Jan 2017 11:44:12 +0100</pubDate>
+		 <author>agence, AFP, figaro.fr, Le</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/2017/01/07/03004-20170107ARTFIG00048-deux-ans-apres-l-attentat-contre-charlie-hebdo-un-espace-cabu-va-etre-inaugure.php</guid>
+		 <title>Deux ans aprÃ¨s l&#39;attentat contre Charlie Hebdo, un Â«Espace CabuÂ» va Ãªtre inaugurÃ©</title>
+		 <description>Pour rendre hommage Ã  la rÃ©daction de Charlie Hebdo, dont une partie a Ã©tÃ© dÃ©cimÃ©e pendant l&#39;attentat du 7 janvier 2015, les initiatives se multiplient, notamment Ã  ChÃ¢lons-en-Champagne. La ville natale de Cabu accueillera prochainement un espace cÃ©lÃ©brant le caricaturiste.</description>
+		 <link>http://www.lefigaro.fr/culture/2017/01/07/03004-20170107ARTFIG00048-deux-ans-apres-l-attentat-contre-charlie-hebdo-un-espace-cabu-va-etre-inaugure.php</link>
+		 <pubDate>Sat, 7 Jan 2017 11:10:13 +0100</pubDate>
+		 <author>agence, AFP, figaro.fr, Le</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/bd/2017/01/07/03014-20170107ARTFIG00007-la-case-bd-tintin-au-pays-des-soviets-ou-la-naissance-de-la-houppette.php</guid>
+		 <title>La case BD: &lt;i&gt;Tintin au pays des Soviets&lt;/i&gt; ou la naissance de la houppette</title>
+		 <description>Chaque samedi, retrouvez notre rendez-vous BD. Cette semaine, c&#39;est l&#39;une des cases les plus emblÃ©matique de l&#39;histoire de la bande dessinÃ©e. Sur la planche 8, HergÃ©, alors Ã¢gÃ© de 21 ans, donne naissance Ã  la mÃ¨che lÃ©gendaire de Tintin en un coup de vent.</description>
+		 <link>http://www.lefigaro.fr/bd/2017/01/07/03014-20170107ARTFIG00007-la-case-bd-tintin-au-pays-des-soviets-ou-la-naissance-de-la-houppette.php</link>
+		 <pubDate>Sat, 7 Jan 2017 08:00:48 +0100</pubDate>
+		 <author>Delcroix, Olivier</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/07/03006-20170107ARTFIG00071-le-jour-o-georges-pretre-a-enflamme-vienne-avec-la-marche-de-radetzky.php</guid>
+		 <title>Le jour oÃ¹ Georges PrÃªtre a enflammÃ© Vienne avec &lt;i&gt;La Marche de Radetzky&lt;/i&gt; </title>
+		 <description>VIDÃ‰O - Le cÃ©lÃ¨bre chef d&#39;orchestre franÃ§ais, inhumÃ© ce samedi, avait dirigÃ© le Philarmonique de Vienne lors du cÃ©lÃ¨bre concert du Nouvel An en 2008 et 2010. Cette derniÃ¨re annÃ©e, sa Marche avait Ã©tÃ© splendide !</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/07/03006-20170107ARTFIG00071-le-jour-o-georges-pretre-a-enflamme-vienne-avec-la-marche-de-radetzky.php</link>
+		 <pubDate>Sat, 7 Jan 2017 13:08:50 +0100</pubDate>
+		 <author>Boudisseau, Julien, Jouin-Claude, Allyson</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/07/03006-20170107ARTFIG00018-le-dj-et-producteur-mme-dans-la-cour-des-grands.php</guid>
+		 <title>Le DJ et producteur MÃ¸me dans la cour des grands</title>
+		 <description>AprÃ¨s le succÃ¨s de son titre &lt;i&gt;Aloha&lt;/i&gt;, le NiÃ§ois a sorti son premier album fin 2016. le jeune musicien de 27Â ans, qui affiche complet Ã  La Cigale samedi 7 janvier, sera de retour Ã  Paris pour un Olympia le 17Â juin.</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/07/03006-20170107ARTFIG00018-le-dj-et-producteur-mme-dans-la-cour-des-grands.php</link>
+		 <pubDate>Sat, 7 Jan 2017 08:00:35 +0100</pubDate>
+		 <author>Bouleau, Marie-Sarah</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00055-daniel-pennac-ressucite-les-malaussene.php</guid>
+		 <title>Daniel Pennac ressuscite les MalaussÃ¨ne</title>
+		 <description>DOSSIER - Trente ans aprÃ¨s la parution du &lt;i&gt;Bonheur des ogres&lt;/i&gt;, le romancier poursuit la saga qui a fait son succÃ¨s. Ses personnages se sont-ils assagis avec le temps ?</description>
+		 <link>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00055-daniel-pennac-ressucite-les-malaussene.php</link>
+		 <pubDate>Thu, 5 Jan 2017 08:19:22 +0100</pubDate>
+		 <author>de Larminat, Astrid, Dargent, FranÃ§oise, AÃ¯ssaoui, Mohammed</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00142-jean-edern-hallier-le-coup-d-eclat-permanent.php</guid>
+		 <title>Jean-Edern Hallier, le coup d&#39;Ã©clat permanent</title>
+		 <description>&lt;b&gt;LA CHRONIQUE D&#39;Ã‰TIENNE DE MONTETY -&lt;/b&gt; Jean-Claude Lamy brosse le portrait de Jean-Edern Hallier, vingt ans aprÃ¨s sa disparition.</description>
+		 <link>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00142-jean-edern-hallier-le-coup-d-eclat-permanent.php</link>
+		 <pubDate>Thu, 5 Jan 2017 12:35:36 +0100</pubDate>
+		 <author>de Montety, Etienne</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00135--la-france-ciblee-la-guerre-d-algerie-dans-l-hexagone.php</guid>
+		 <title>&lt;i&gt;La France ciblÃ©e:&lt;/i&gt; la guerre d&#39;AlgÃ©rie dans l&#39;Hexagone</title>
+		 <description>Ã€ l&#39;Ã©tÃ© 1958, les autoritÃ©s franÃ§aises doivent faire face Ã  la stratÃ©gie de terreur du FLN en France mÃ©tropole.</description>
+		 <link>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00135--la-france-ciblee-la-guerre-d-algerie-dans-l-hexagone.php</link>
+		 <pubDate>Thu, 5 Jan 2017 12:23:24 +0100</pubDate>
+		 <author>BastiÃ¨re, Jean-Marc</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00136-olivier-wieviorka-les-ennemis-secrets-du-reich.php</guid>
+		 <title>Olivier Wieviorka: les ennemis secrets du Reich</title>
+		 <description>L&#39;historien franÃ§ais Ã©tudie des mouvements de rÃ©sistance Ã Â l&#39;occupationÂ allemande dans six pays d&#39;Europe.</description>
+		 <link>http://www.lefigaro.fr/livres/2017/01/05/03005-20170105ARTFIG00136-olivier-wieviorka-les-ennemis-secrets-du-reich.php</link>
+		 <pubDate>Thu, 5 Jan 2017 12:27:33 +0100</pubDate>
+		 <author>Paoli, Paul-FranÃ§ois</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/le-live/2017/01/07/03018-20170107ARTFIG00008-la-recette-magique-de-broken-back.php</guid>
+		 <title>La recette magique de Broken Back</title>
+		 <description>&lt;b&gt;LE LIVE&lt;/b&gt; - Une peu de folk acoustique et une bonne dose d&#39;arrangements Ã©lectro : c&#39;est la formule simple mais terriblement efficace de ce jeune breton de 26 ans, dont les tubes ont bercÃ© votre Ã©tÃ©.</description>
+		 <link>http://www.lefigaro.fr/le-live/2017/01/07/03018-20170107ARTFIG00008-la-recette-magique-de-broken-back.php</link>
+		 <pubDate>Sat, 7 Jan 2017 08:00:51 +0100</pubDate>
+		 <author>Keller, AthÃ©naÃ¯s</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/livres/2017/01/06/03005-20170106ARTFIG00212-le-clash-culture-faut-il-lire-le-cas-malaussene-de-daniel-pennac.php</guid>
+		 <title>Le Clash Culture : faut-il lire &lt;i&gt;Le cas MalaussÃ¨ne &lt;/i&gt;de Daniel Pennac &lt;i&gt;?&lt;/i&gt; </title>
+		 <description>&lt;b&gt;LE CLASH CULTURE FIGARO-L&#39;OBS&lt;/b&gt; - L&#39;Ã©crivain fait revivre, dix-huit ans aprÃ¨s, la saga qui a fait son succÃ¨s. Jean-Christophe Buisson, du &lt;i&gt;Figaro Magazine&lt;/i&gt; et GrÃ©goire LemÃ©nager, de &lt;i&gt;L&#39;Obs&lt;/i&gt; se disputent pour ce premier numÃ©ro de l&#39;annÃ©e 2017.</description>
+		 <link>http://www.lefigaro.fr/livres/2017/01/06/03005-20170106ARTFIG00212-le-clash-culture-faut-il-lire-le-cas-malaussene-de-daniel-pennac.php</link>
+		 <pubDate>Fri, 6 Jan 2017 16:34:03 +0100</pubDate>
+		 <author>Buisson, Jean-Christophe</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00291-deces-de-george-michael-son-petit-ami-entendu-par-la-police.php</guid>
+		 <title>DÃ©cÃ¨s de George Michael : son petit ami entendu par la police</title>
+		 <description>Alors que la police cherche toujours Ã  Ã©lucider les raisons de la mort du chanteur, survenue le 25 dÃ©cembre dernier, son compagnon, le coiffeur des stars Fadi Fawaz, a Ã©tÃ© interrogÃ© par les autoritÃ©s de la rÃ©gion de Thames Valle, Ã  l&#39;ouest de Londres.</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00291-deces-de-george-michael-son-petit-ami-entendu-par-la-police.php</link>
+		 <pubDate>Fri, 6 Jan 2017 18:38:28 +0100</pubDate>
+		 <author>Scappaticci, Elena</author>
+	  </item> 
+	  
+	  <item>
+		 <category>VidÃ©o Figaro</category>
+		 <guid>http://video.lefigaro.fr/figaro/video/broken-back-excuses/5271543310001/</guid>
+		 <title>Broken Back - &quot;Excuses&quot;</title>
+		 <description>Jeune auteur-compositeur breton, Broken Back est venu nous interprÃ©ter en live quelques extraits de son premier album dans le studio de Figaro TV.</description>
+		 <link>http://video.lefigaro.fr/figaro/video/broken-back-excuses/5271543310001/</link>
+		 <pubDate>Fri, 6 Jan 2017 12:21:55 +0100</pubDate>
+		 <author></author>
+	  </item> 
+	  
+	  <item>
+		 <category>VidÃ©o Figaro</category>
+		 <guid>http://video.lefigaro.fr/figaro/video/broken-back-halcyon-birds/5271527740001/</guid>
+		 <title>Broken Back - &quot;Halcyon Birds&quot;</title>
+		 <description>Le jeune auteur-compositeur breton est venu nous prÃ©senter son premier album Ã©lectro-folk, accompagnÃ© de son batteur de toujours et d&#39;une nouvelle recrue Ã  la guitare. </description>
+		 <link>http://video.lefigaro.fr/figaro/video/broken-back-halcyon-birds/5271527740001/</link>
+		 <pubDate>Fri, 6 Jan 2017 12:21:55 +0100</pubDate>
+		 <author></author>
+	  </item> 
+	  
+	  <item>
+		 <category>VidÃ©o Figaro</category>
+		 <guid>http://video.lefigaro.fr/figaro/video/broken-back-gangsta-s-paradise/5271527739001/</guid>
+		 <title>Broken Back - &quot;Gangsta&#39;s Paradise&quot;</title>
+		 <description>La nouvelle coqueluche de l&#39;Ã©lectro-folk franÃ§ais est venu nous prÃ©senter son premier album. Il en profite pour nous offrir une version acoustique trÃ¨s personnelle du titre de Stevie Wonder, repris par Coolio.</description>
+		 <link>http://video.lefigaro.fr/figaro/video/broken-back-gangsta-s-paradise/5271527739001/</link>
+		 <pubDate>Fri, 6 Jan 2017 12:21:55 +0100</pubDate>
+		 <author></author>
+	  </item> 
+	  
+	  <item>
+		 <category>VidÃ©o Figaro</category>
+		 <guid>http://video.lefigaro.fr/figaro/video/broken-back-fait-son-live/5271536362001/</guid>
+		 <title>Broken Back fait son &quot;Live&quot;</title>
+		 <description>Le jeune auteur-compositeur franÃ§ais qui a bercÃ© votre Ã©tÃ© est venu nous prÃ©senter son premier album et rÃ©pondre aux questions d&#39;AthÃ©naÃ¯s Keller.</description>
+		 <link>http://video.lefigaro.fr/figaro/video/broken-back-fait-son-live/5271536362001/</link>
+		 <pubDate>Fri, 6 Jan 2017 12:21:55 +0100</pubDate>
+		 <author></author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00316-boom-du-vinyle-on-vend-une-dizaine-de-nirvana-par-jour.php</guid>
+		 <title>Boom du vinyle: Â«On vend une dizaine de Nirvana par jour!Â»</title>
+		 <description>&lt;b&gt;INTERVIEW -&lt;/b&gt; Georges Vidal, gÃ©rant de Lucky Records, vend des 33 et 45 tours dans le centre de Paris depuis 1991. S&#39;il a peur que ce retour en grÃ¢ce ne soit qu&#39;un phÃ©nomÃ¨ne de mode, le disquaire tente de l&#39;expliquer.</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00316-boom-du-vinyle-on-vend-une-dizaine-de-nirvana-par-jour.php</link>
+		 <pubDate>Fri, 6 Jan 2017 19:11:26 +0100</pubDate>
+		 <author>Talabot, Jean</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00248-non-david-bowie-n-a-pas-mis-en-scene-sa-mort-avec-lazarus.php</guid>
+		 <title>Non, David Bowie n&#39;a pas mis en scÃ¨ne sa mort avec &lt;i&gt;Lazarus&lt;/i&gt; </title>
+		 <description>VIDÃ‰O - Contrairement aux nombreux commentaires qui laissaient entendre que son album &lt;i&gt;Blackstar&lt;/i&gt; Ã©tait prÃ©monitoire, l&#39;auteur-compositeur de &lt;i&gt;Starman&lt;/i&gt; et &lt;i&gt;Space Oddity&lt;/i&gt; n&#39;aurait appris sa maladie qu&#39;Ã  la fin du tournage de son dernier clip.</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00248-non-david-bowie-n-a-pas-mis-en-scene-sa-mort-avec-lazarus.php</link>
+		 <pubDate>Fri, 6 Jan 2017 17:41:10 +0100</pubDate>
+		 <author>Cannone, Robin</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/cinema/2017/01/06/03002-20170106ARTFIG00263-om-puri-mort-d-une-legende-bollywoodienne.php</guid>
+		 <title>Om Puri, Â«GandhiÂ» au cinÃ©ma, est mort</title>
+		 <description>&lt;b&gt;DISPARITION &lt;/b&gt;- L&#39;acteur indien qui avait notamment jouÃ© dans la monumentale fresque de Richard Attenborough, est dÃ©cÃ©dÃ© ce vendredi 6 janvier des suites d&#39;une crise cardiaque Ã  66 ans, Ã  son domicile de Bombay</description>
+		 <link>http://www.lefigaro.fr/cinema/2017/01/06/03002-20170106ARTFIG00263-om-puri-mort-d-une-legende-bollywoodienne.php</link>
+		 <pubDate>Fri, 6 Jan 2017 17:56:19 +0100</pubDate>
+		 <author>Delterme, Jean, agence, AFP</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/theatre/2017/01/07/03003-20170107ARTFIG00003--letter-toaman-mikhail-baryshnikov-a-la-folie.php</guid>
+		 <title>&lt;i&gt;Letter toÂ aÂ Man&lt;/i&gt;Â : Mikhail Baryshnikov, Ã  la folie</title>
+		 <description>Ã€ l&#39;Espace Cardin Ã  Paris, Robert Wilson prÃ©sente &lt;i&gt;Letter toÂ aÂ Man&lt;/i&gt;. InspirÃ© du &lt;i&gt;Journal&lt;/i&gt; deÂ VaslavÂ Nijinski, ceÂ spectacle bref, beau, volontairement rÃ©pÃ©titif, est illuminÃ© par la prÃ©sence duÂ danseur russe quiÂ n&#39;a rien perdu deÂ saÂ grÃ¢ce envoÃ»tante.</description>
+		 <link>http://www.lefigaro.fr/theatre/2017/01/07/03003-20170107ARTFIG00003--letter-toaman-mikhail-baryshnikov-a-la-folie.php</link>
+		 <pubDate>Sat, 7 Jan 2017 06:00:03 +0100</pubDate>
+		 <author>HÃ©liot, Armelle</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Programme TV</category>
+		 <guid>http://tvmag.lefigaro.fr/programme-tv/onpc-les-invites-de-laurent-ruquier-ce-samedi-7-janvier_6c257b1c-d42e-11e6-b36e-ce717b784d0d/</guid>
+		 <title>&lt;i&gt;ONPC&lt;/i&gt;: les invitÃ©s de Laurent Ruquier ce samedi 7 janvier</title>
+		 <description>FRANCE 2/00h20 - Samedi soir, dans &lt;i&gt;On nâ€™est pas couchÃ©&lt;/i&gt;, Laurent Ruquier recevra notamment Vincent Peillon, Mazarine Pingeot et Didier Barbelivien.
+</description>
+		 <link>http://tvmag.lefigaro.fr/programme-tv/onpc-les-invites-de-laurent-ruquier-ce-samedi-7-janvier_6c257b1c-d42e-11e6-b36e-ce717b784d0d/</link>
+		 <pubDate>Sat, 7 Jan 2017 15:00:04 +0100</pubDate>
+		 <author>TVMag.com, Le</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Programme TV</category>
+		 <guid>http://tvmag.lefigaro.fr/programme-tv/le-film-a-voir-ce-soir-legend_bef4f996-d34b-11e6-ae35-79550273466e/</guid>
+		 <title>Le film Ã  voir ce soir: &lt;i&gt;Legend&lt;/i&gt; </title>
+		 <description>&lt;b&gt;CANAL+/21H00&lt;/b&gt; - Tom Hardy se dÃ©double pour interprÃ©ter les jumeaux Kray, fameux gangsters qui firent trembler le Londres des annÃ©es 60, dans ce thriller rÃ©alisÃ© par le scÃ©nariste de &lt;i&gt;Mystic River&lt;/i&gt; et de &lt;i&gt;LA Confidential&lt;/i&gt;.
+</description>
+		 <link>http://tvmag.lefigaro.fr/programme-tv/le-film-a-voir-ce-soir-legend_bef4f996-d34b-11e6-ae35-79550273466e/</link>
+		 <pubDate>Sat, 7 Jan 2017 15:00:03 +0100</pubDate>
+		 <author>Jouenne, Nicolas</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Programme TV</category>
+		 <guid>http://tvmag.lefigaro.fr/programme-tv/programme-tv-london-spy-l-espion-qu-on-aime-trop_595dc756-d423-11e6-b36e-ce717b784d0d/</guid>
+		 <title>Programme TV : &lt;i&gt;London Spy&lt;/i&gt;, lâ€™espion quâ€™on aime trop</title>
+		 <description>CANAL + SÃ‰RIES/20H50 - Cette sÃ©rie britannique haletante se double dâ€™une histoire dâ€™amour bouleversante.Brillant, Ben Whishaw, le nouveau Q de James Bond, plonge en eaux troubles.</description>
+		 <link>http://tvmag.lefigaro.fr/programme-tv/programme-tv-london-spy-l-espion-qu-on-aime-trop_595dc756-d423-11e6-b36e-ce717b784d0d/</link>
+		 <pubDate>Sat, 7 Jan 2017 14:15:03 +0100</pubDate>
+		 <author>Jamet, Constance</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Programme TV</category>
+		 <guid>http://tvmag.lefigaro.fr/programme-tv/les-12-coups-de-midi-christian-depasse-les-800-000-euros_bbd89730-d4d2-11e6-ab28-e18d41dc5bee/</guid>
+		 <title>&lt;i&gt;Les 12 coups de midi&lt;/i&gt; : Christian dÃ©passe les 800.000 euros</title>
+		 <description>TÃ‰LÃ‰VISION / VIDÃ‰O - Mais oÃ¹ sâ€™arrÃªtera-t-il ? Pour sa 186e participation, le cÃ©lÃ¨bre champion du jeu de TF1 a atteint, ce samedi 7 janvier, 804.092 euros.</description>
+		 <link>http://tvmag.lefigaro.fr/programme-tv/les-12-coups-de-midi-christian-depasse-les-800-000-euros_bbd89730-d4d2-11e6-ab28-e18d41dc5bee/</link>
+		 <pubDate>Sat, 7 Jan 2017 13:35:43 +0100</pubDate>
+		 <author>TVMag.com, Le</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/encheres/2017/01/06/03016-20170106ARTFIG00318-les-giacometti-d-hubert-de-givenchy-aux-encheres.php</guid>
+		 <title>Les Giacometti d&#39;Hubert de Givenchy aux enchÃ¨res</title>
+		 <description>&lt;b&gt;EXCLUSIF &lt;/b&gt;- Ã€ l&#39;aube de ses 90 ans, le grand couturier a dÃ©cidÃ© de Â«mettre de l&#39;ordre dans ses affairesÂ». Sous le marteau de Christie&#39;s, le 6 mars Ã  Paris, il met en vente 22 Å“uvres rÃ©alisÃ©es sur mesure par le dÃ©corateur et le sculpteur. Pour &lt;i&gt;Le Figaro&lt;/i&gt;, le grand couturier raconte sa rencontre et son amitiÃ© avec Diego et son admiration pour Alberto.</description>
+		 <link>http://www.lefigaro.fr/culture/encheres/2017/01/06/03016-20170106ARTFIG00318-les-giacometti-d-hubert-de-givenchy-aux-encheres.php</link>
+		 <pubDate>Fri, 6 Jan 2017 19:12:36 +0100</pubDate>
+		 <author>Sasportas, ValÃ©rie, de RochebouÃ«t, BÃ©atrice</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/encheres/2017/01/06/03016-20170106ARTFIG00268-hubert-de-givenchy-et-diego-giacometti-une-collection-sur-mesure.php</guid>
+		 <title>Hubert de Givenchy et Diego Giacometti: une collection sur mesure</title>
+		 <description>INTERVIEW - Ã€ la veille de ses 90 ans, le cÃ©lÃ¨bre couturier Hubert de Givenchy s&#39;apprÃªte Ã  se sÃ©parer, chez Christie&#39;s, d&#39;Å“uvres conÃ§ues par l&#39;artiste pour le chÃ¢teau du Jonchet.</description>
+		 <link>http://www.lefigaro.fr/culture/encheres/2017/01/06/03016-20170106ARTFIG00268-hubert-de-givenchy-et-diego-giacometti-une-collection-sur-mesure.php</link>
+		 <pubDate>Fri, 6 Jan 2017 18:12:01 +0100</pubDate>
+		 <author>de RochebouÃ«t, BÃ©atrice, Sasportas, ValÃ©rie</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/cinema/2017/01/04/03002-20170104ARTFIG00145--le-parc-neruda-primaire-les-sorties-cine-de-la-semaine.php</guid>
+		 <title>&lt;i&gt;Le Parc&lt;/i&gt;, &lt;i&gt;Neruda&lt;/i&gt;, &lt;i&gt;Primaire&lt;/i&gt;...Les sorties cinÃ© de la semaine</title>
+		 <description>&lt;b&gt;VIDÃ‰OS&lt;/b&gt; - Que faut-il voir ou ne pas voir cette semaine dans les salles ? La sÃ©lection et les conseils de la rÃ©daction du&lt;i&gt; Figaro&lt;/i&gt;.</description>
+		 <link>http://www.lefigaro.fr/cinema/2017/01/04/03002-20170104ARTFIG00145--le-parc-neruda-primaire-les-sorties-cine-de-la-semaine.php</link>
+		 <pubDate>Wed, 4 Jan 2017 12:48:08 +0100</pubDate>
+		 <author>figaro.fr, Le</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/cinema/2017/01/04/03002-20170104ARTFIG00190--primaire-l-ecole-n-est-pas-finie.php</guid>
+		 <title>Tendre et drÃ´le, le film &lt;i&gt;Primaire&lt;/i&gt; rÃ©concilie avec l&#39;Ã‰ducation nationale</title>
+		 <description>CRITIQUE - Une plongÃ©e rÃ©aliste et joyeuse dans une salle de classe animÃ©e parÂ une institutrice investie. SaraÂ Forestier, dansÂ le rÃ´le principal, illumine l&#39;Ã©cran.</description>
+		 <link>http://www.lefigaro.fr/cinema/2017/01/04/03002-20170104ARTFIG00190--primaire-l-ecole-n-est-pas-finie.php</link>
+		 <pubDate>Wed, 4 Jan 2017 14:57:30 +0100</pubDate>
+		 <author>Simon, Nathalie</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/cinema/2017/01/03/03002-20170103ARTFIG00233-neruda-un-alchimiste-de-la-politique-et-de-la-poesie.php</guid>
+		 <title>&lt;i&gt;Neruda&lt;/i&gt;, un alchimiste de la politique et de la poÃ©sie</title>
+		 <description>VIDÃ‰O - Dans son dernier film &lt;i&gt;Neruda&lt;/i&gt;, Pablo Larrain imagine la fuite de l&#39;illustre poÃ¨te en 1948, aprÃ¨s l&#39;interdiction du Parti communiste.</description>
+		 <link>http://www.lefigaro.fr/cinema/2017/01/03/03002-20170103ARTFIG00233-neruda-un-alchimiste-de-la-politique-et-de-la-poesie.php</link>
+		 <pubDate>Tue, 3 Jan 2017 16:51:11 +0100</pubDate>
+		 <author>Tranchant, Marie-NoÃ«lle</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/cinema/2017/01/03/03002-20170103ARTFIG00249--mountain-la-maman-et-les-putains.php</guid>
+		 <title>&lt;i&gt;Mountain &lt;/i&gt;: la maman et les putains</title>
+		 <description>Le film met en scÃ¨ne l&#39;histoire d&#39;une juive orthodoxe dÃ©laissÃ©e par son mari Ã  JÃ©rusalem. Un premier long-mÃ©trage Ã©trange et beau de l&#39;IsraÃ©lienne Yaelle Kayam.</description>
+		 <link>http://www.lefigaro.fr/cinema/2017/01/03/03002-20170103ARTFIG00249--mountain-la-maman-et-les-putains.php</link>
+		 <pubDate>Tue, 3 Jan 2017 17:42:19 +0100</pubDate>
+		 <author>Sorin, Etienne</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/cinema/2017/01/03/03002-20170103ARTFIG00192--nocturnal-animals-meurtres-sous-vide.php</guid>
+		 <title>&lt;i&gt;Nocturnal Animals&lt;/i&gt;: meurtres sous vide</title>
+		 <description>LA CHRONIQUE D&#39;Ã‰RIC NEUHOFF -â€ˆAvec &lt;i&gt;Nocturnal Animals&lt;/i&gt;, Tom Ford signe un polar bourrÃ© de clichÃ©s et totalement dÃ©sincarnÃ©.</description>
+		 <link>http://www.lefigaro.fr/cinema/2017/01/03/03002-20170103ARTFIG00192--nocturnal-animals-meurtres-sous-vide.php</link>
+		 <pubDate>Tue, 3 Jan 2017 15:11:45 +0100</pubDate>
+		 <author>Neuhoff, Eric</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00342--elysee-de-laurent-grasso-le-pouvoir-de-la-video.php</guid>
+		 <title>&lt;i&gt;Ã‰lysÃ©e&lt;/i&gt; de Laurent Grasso, le pouvoir de la vidÃ©o</title>
+		 <description>&lt;b&gt;AVANT-PREMIÃˆRE &lt;/b&gt;- L&#39;artiste franÃ§ais a rÃ©ussi Ã  filmer le bureau - vide- du prÃ©sident de la RÃ©publique. Une rÃ©flexion unique sur l&#39;esthÃ©tique et la reprÃ©sentation du pouvoir, Ã  mÃ©diter en citoyen ou en philosophe Ã  l&#39;heure de la campagne prÃ©sidentielle.</description>
+		 <link>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00342--elysee-de-laurent-grasso-le-pouvoir-de-la-video.php</link>
+		 <pubDate>Fri, 6 Jan 2017 19:50:46 +0100</pubDate>
+		 <author>Duponchelle, ValÃ©rie</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00180-renaud-roi-des-ventes-d-albums-2016.php</guid>
+		 <title>Renaud, roi des ventes d&#39;albums 2016</title>
+		 <description>Le chanteur au bandana a de quoi garder la banane. Avec 730.000 disques ou Ã©quivalent vendus, il est l&#39;artiste qui a rÃ©alisÃ© les meilleurs chiffres en 2016 en France devant CÃ©line Dion et Kids United.</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00180-renaud-roi-des-ventes-d-albums-2016.php</link>
+		 <pubDate>Fri, 6 Jan 2017 15:19:48 +0100</pubDate>
+		 <author>agence, AFP, Talabot, Jean</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00281-u2-bruce-springsteen-2017-un-bon-cru-pour-la-musique.php</guid>
+		 <title>U2, Bruce Springsteen... 2017, un bon cru pour la musique !</title>
+		 <description>Belle annÃ©e en perspective pour la scÃ¨ne musicale avec des stars du rock, de la pop, du hip-hop et de l&#39;electro qui vont remplir les salles et envahir les bacs avec leurs nouveaux albums. Tour d&#39;horizon.</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00281-u2-bruce-springsteen-2017-un-bon-cru-pour-la-musique.php</link>
+		 <pubDate>Fri, 6 Jan 2017 18:28:05 +0100</pubDate>
+		 <author>Delterme, Jean, agence, AFP</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/cinema/2017/01/04/03002-20170104ARTFIG00185-quel-est-votre-film-incontournable-de-2016.php</guid>
+		 <title>Quel est votre film incontournable de 2016?</title>
+		 <description>JEU-CONCOURS - Du 4 au 17 janvier 2017, avec &lt;i&gt;Le Figaro&lt;/i&gt; Culture et UGC, tentez de remporter 1 an de cinÃ©ma en choisissant votre film coup de cÅ“ur parmi les incontournables de l&#39;annÃ©e 2016.</description>
+		 <link>http://www.lefigaro.fr/cinema/2017/01/04/03002-20170104ARTFIG00185-quel-est-votre-film-incontournable-de-2016.php</link>
+		 <pubDate>Wed, 4 Jan 2017 14:46:01 +0100</pubDate>
+		 <author>figaro.fr, Le</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/bd/2017/01/06/03014-20170106ARTFIG00130--charlie-hebdo-la-veuve-de-tignous-refuse-d-etre-une-victime.php</guid>
+		 <title>&lt;i&gt;Charlie Hebdo &lt;/i&gt;: la veuve de Tignous refuse d&#39;Ãªtre une victime</title>
+		 <description>Deux ans aprÃ¨s l&#39;attentat dans lequel son mari a perdu la vie, ChloÃ© Verlhac surmonte le drame en poursuivant l&#39;Å“uvre et l&#39;engagement de son mari. Elle publie un nouveau recueil de dessins et lance un Â«prix TignousÂ» dont l&#39;ambition est de valoriser le dessin de presse politique.</description>
+		 <link>http://www.lefigaro.fr/bd/2017/01/06/03014-20170106ARTFIG00130--charlie-hebdo-la-veuve-de-tignous-refuse-d-etre-une-victime.php</link>
+		 <pubDate>Fri, 6 Jan 2017 12:31:54 +0100</pubDate>
+		 <author>Vertaldi, AurÃ©lia, Aubel, FranÃ§ois</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00222-au-quebec-le-violon-s-enseigne-des-la-maternelle.php</guid>
+		 <title>Au QuÃ©bec, le violon s&#39;enseigne dÃ¨s la maternelle</title>
+		 <description>L&#39;Orchestre symphonique de MontrÃ©al a lancÃ© le mois dernier un programme expÃ©rimental d&#39;Ã©ducation musicale intensive pour les 4-5 ans. Pendant trois ans, des chercheurs vont Ã©tudier ses effets sur les enfants concernÃ©s et leur famille.</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00222-au-quebec-le-violon-s-enseigne-des-la-maternelle.php</link>
+		 <pubDate>Fri, 6 Jan 2017 16:48:30 +0100</pubDate>
+		 <author>HillÃ©riteau, Thierry</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/encheres/2017/01/06/03016-20170106ARTFIG00268-hubert-de-givenchy-et-diego-giacometti-une-collection-sur-mesure.php</guid>
+		 <title>Hubert de Givenchy et Diego Giacometti: une collection sur mesure</title>
+		 <description>INTERVIEW - Ã€ la veille de ses 90 ans, le cÃ©lÃ¨bre couturier Hubert de Givenchy s&#39;apprÃªte Ã  se sÃ©parer, chez Christie&#39;s, d&#39;Å“uvres conÃ§ues par l&#39;artiste pour le chÃ¢teau du Jonchet.</description>
+		 <link>http://www.lefigaro.fr/culture/encheres/2017/01/06/03016-20170106ARTFIG00268-hubert-de-givenchy-et-diego-giacometti-une-collection-sur-mesure.php</link>
+		 <pubDate>Fri, 6 Jan 2017 18:12:01 +0100</pubDate>
+		 <author>de RochebouÃ«t, BÃ©atrice, Sasportas, ValÃ©rie</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/encheres/2016/12/28/03016-20161228ARTFIG00126-encheres-de-fetes-a-paris-et-a-marrakech.php</guid>
+		 <title>EnchÃ¨res de fÃªtes Ã  Paris et Ã  Marrakech</title>
+		 <description>ENCHÃˆRES - Rompant la traditionnelle Â«trÃªve des confiseursÂ» des salles de ventes parisiennes, Artcurial organise, jeudi 29 dÃ©cembre une session dÃ©diÃ©e au peintre orientaliste Jacques Majorelle et Ã  ses contemporains, en duplex de France et du Maroc.</description>
+		 <link>http://www.lefigaro.fr/culture/encheres/2016/12/28/03016-20161228ARTFIG00126-encheres-de-fetes-a-paris-et-a-marrakech.php</link>
+		 <pubDate>Wed, 28 Dec 2016 15:39:24 +0100</pubDate>
+		 <author>Scappaticci, Elena, Sasportas, ValÃ©rie</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/encheres/2016/12/21/03016-20161221ARTFIG00282-l-art-contemporain-dope-les-ventes-sur-le-sol-francais.php</guid>
+		 <title>L&#39;art contemporain dope les ventes sur le sol franÃ§ais</title>
+		 <description>MÃªme si elle ne bat pas les records de Londres ou New-York, la France entre enfin dans la course internationale de la vente d&#39;art contemporain.</description>
+		 <link>http://www.lefigaro.fr/culture/encheres/2016/12/21/03016-20161221ARTFIG00282-l-art-contemporain-dope-les-ventes-sur-le-sol-francais.php</link>
+		 <pubDate>Wed, 21 Dec 2016 19:59:58 +0100</pubDate>
+		 <author>de RochebouÃ«t, BÃ©atrice</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/encheres/2016/12/21/03016-20161221ARTFIG00229-marche-de-l-art-paris-maintient-le-cap.php</guid>
+		 <title>MarchÃ© de l&#39;art: Paris maintient le cap</title>
+		 <description>ENCHÃˆRES - GrÃ¢ce Ã  une stratÃ©gie affinÃ©e, Christie&#39;s garde son avance sur Sotheby&#39;s. Suit Artcurial. Drouot reste stable.</description>
+		 <link>http://www.lefigaro.fr/culture/encheres/2016/12/21/03016-20161221ARTFIG00229-marche-de-l-art-paris-maintient-le-cap.php</link>
+		 <pubDate>Wed, 21 Dec 2016 18:20:55 +0100</pubDate>
+		 <author>de RochebouÃ«t, BÃ©atrice</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/encheres/2016/12/20/03016-20161220ARTFIG00112-les-dix-plus-belles-encheres-de-2016.php</guid>
+		 <title>Les dix plus belles enchÃ¨res de 2016</title>
+		 <description>&lt;b&gt;RÃ‰TROSPECTIVE&lt;/b&gt; - Damien Hirst, Monet, Marc Newson ou HergÃ©, sont les vedettes des enchÃ¨res cette annÃ©e.</description>
+		 <link>http://www.lefigaro.fr/culture/encheres/2016/12/20/03016-20161220ARTFIG00112-les-dix-plus-belles-encheres-de-2016.php</link>
+		 <pubDate>Tue, 20 Dec 2016 11:57:00 +0100</pubDate>
+		 <author>de RochebouÃ«t, BÃ©atrice</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00286-sotheby-s-expose-des-pieces-rares-d-un-bestiaire-tres-prise-de-diego-giacometti.php</guid>
+		 <title>Sotheby&#39;s expose des piÃ¨ces rares d&#39;un bestiaire trÃ¨s prisÃ© de Diego Giacometti</title>
+		 <description>La maison de vente rassemble du 25 au 31 janvier, Galerie Charpentier, quelque 80 piÃ¨ces du grand sculpteur suisse autour du thÃ¨me animalier.</description>
+		 <link>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00286-sotheby-s-expose-des-pieces-rares-d-un-bestiaire-tres-prise-de-diego-giacometti.php</link>
+		 <pubDate>Fri, 6 Jan 2017 18:31:44 +0100</pubDate>
+		 <author>de RochebouÃ«t, BÃ©atrice</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00162-les-enfoires-reviennent-avec-juste-une-p-tite-chanson.php</guid>
+		 <title>Les EnfoirÃ©s reviennent avec &lt;i&gt;Juste une p&#39;tite chanson&lt;/i&gt; </title>
+		 <description>La troupe qui se produira Ã  Toulouse du 18 au 23 janvier dans le cadre du spectacle Â«Mission EnfoirÃ©sÂ» a livrÃ©, en exclusivitÃ© sur RTL, seize secondes de son hymne annuel. Une chanson bienveillante et Â«pleine d&#39;espoirÂ».</description>
+		 <link>http://www.lefigaro.fr/musique/2017/01/06/03006-20170106ARTFIG00162-les-enfoires-reviennent-avec-juste-une-p-tite-chanson.php</link>
+		 <pubDate>Fri, 6 Jan 2017 14:20:19 +0100</pubDate>
+		 <author>Cannone, Robin</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00202--rueil-elle-court-elle-court-la-banlieue.php</guid>
+		 <title>Ã€ Rueil, elle court, elle court, la banlieue</title>
+		 <description>De Corot Ã  Vlaminck, entre nostalgie et enthousiasme, les peintres ont enregistrÃ© les mutations du paysage francilien.</description>
+		 <link>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00202--rueil-elle-court-elle-court-la-banlieue.php</link>
+		 <pubDate>Fri, 6 Jan 2017 16:08:38 +0100</pubDate>
+		 <author>BiÃ©try-Rivierre, Eric</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00203-les-reves-en-couleur-de-leon-bakst.php</guid>
+		 <title>Les rÃªves en couleur de LÃ©on Bakst</title>
+		 <description>Le Palais Garnier expose les maquettes et les costumes du dÃ©corateur des Ballets russes. Et souligne son influence constante.</description>
+		 <link>http://www.lefigaro.fr/arts-expositions/2017/01/06/03015-20170106ARTFIG00203-les-reves-en-couleur-de-leon-bakst.php</link>
+		 <pubDate>Fri, 6 Jan 2017 16:13:49 +0100</pubDate>
+		 <author>Bavelier, Ariane</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/2016/12/07/03004-20161207ARTFIG00219-vivez-comme-un-courtisan-a-versailles-avec-notre-long-format.php</guid>
+		 <title>Vivez comme un courtisan Ã  Versailles avec notre long format</title>
+		 <description>LONG FORMAT - VidÃ©o 360Â°, visite virtuelle de la chapelle royale, quiz... DÃ©couvrez les plaisirs de la cour au grÃ© des saisons dans notre nouveau long format exclusif, Ã©galement disponible sur mobile.</description>
+		 <link>http://www.lefigaro.fr/culture/2016/12/07/03004-20161207ARTFIG00219-vivez-comme-un-courtisan-a-versailles-avec-notre-long-format.php</link>
+		 <pubDate>Wed, 7 Dec 2016 15:52:37 +0100</pubDate>
+		 <author>figaro.fr, Le</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/culture/2017/01/06/03004-20170106ARTFIG00246-frequentation-le-centre-pompidou-s-en-sort-mieux-que-le-louvre.php</guid>
+		 <title>FrÃ©quentation: le Centre Pompidou s&#39;en sort mieux que le Louvre</title>
+		 <description>Le climat de peur instaurÃ© par les attentats de Paris a fait fuir la plupart des touristes Ã©trangers des grands musÃ©es ou des grands chÃ¢teaux. Mais Beaubourg a vu son nombre de visiteurs grimper de 9% et a rÃ©ussi Ã  franchir la barre des trois millions de visites.</description>
+		 <link>http://www.lefigaro.fr/culture/2017/01/06/03004-20170106ARTFIG00246-frequentation-le-centre-pompidou-s-en-sort-mieux-que-le-louvre.php</link>
+		 <pubDate>Fri, 6 Jan 2017 17:32:36 +0100</pubDate>
+		 <author>Delterme, Jean, agence, AFP, Bommelaer, Claire, Bommelaer, Claire</author>
+	  </item> 
+	  
+	  <item>
+		 <category>Culture</category>
+		 <guid>http://www.lefigaro.fr/livres/2017/01/06/03005-20170106ARTFIG00098-les-textes-qui-ont-valu-la-prison-a-asli-erdogan-publies-en-francais.php</guid>
+		 <title>Les textes qui ont valu la prison Ã  Asli Erdogan publiÃ©s en franÃ§ais</title>
+		 <description>&lt;b&gt;CRITIQUE &lt;/b&gt;- Alors que l&#39;Ã©crivaine turque a obtenu la libertÃ© provisoire il y a quelques jours, ses chroniques parues dans le journal pro-kurde &lt;i&gt;Ã–zgÃ¼r GÃ¼ndem &lt;/i&gt;sont parues le 4 janvier dernier chez Actes Sud. IntitulÃ© &lt;i&gt;Le silence mÃªme n&#39;est plus Ã  toi,&lt;/i&gt; le recueil dresse le portrait d&#39;une femme dÃ©terminÃ©e Ã  lutter par les mots contre toute forme d&#39;oppression.</description>
+		 <link>http://www.lefigaro.fr/livres/2017/01/06/03005-20170106ARTFIG00098-les-textes-qui-ont-valu-la-prison-a-asli-erdogan-publies-en-francais.php</link>
+		 <pubDate>Fri, 6 Jan 2017 11:09:09 +0100</pubDate>
+		 <author>Scappaticci, Elena</author>
+	  </item> 
+	  
+   </channel>
+   
+</rss>
+

@@ -1,0 +1,3 @@
+rss 0.92
+basefeeditem
+rssitem (basis item für rss091 092 und 20)
