@@ -122,6 +122,36 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
+        public void TestRss092ParseFullSample()
+        {
+            var feed = (Rss092Feed)FeedReader.ReadFromFile("Feeds/Rss092FullSample.xml").SpecificFeed;
+
+            Eq("Dave Winer: Grateful Dead", feed.Title);
+            Eq("http://www.scripting.com/blog/categories/gratefulDead.html", feed.Link);
+            Eq("A high-fidelity Grateful Dead song every day. This is where we're experimenting with enclosures on RSS news items that download when you're not using your computer. If it works (it will) it will be the end of the Click-And-Wait multimedia experience on the Internet. ", feed.Description);
+            Eq("Fri, 13 Apr 2001 19:23:02 GMT", feed.LastBuildDateString);
+            Eq("http://backend.userland.com/rss092", feed.Docs);
+            Eq("dave@userland.com (Dave Winer)", feed.ManagingEditor);
+            Eq("dave@userland.com (Dave Winer)", feed.WebMaster);
+            Eq("data.ourfavoritesongs.com", feed.Cloud.Domain);
+            Eq("80", feed.Cloud.Port);
+            Eq("/RPC2", feed.Cloud.Path);
+            Eq("ourFavoriteSongs.rssPleaseNotify", feed.Cloud.RegisterProcedure);
+            Eq("xml-rpc", feed.Cloud.Protocol);
+
+            Eq(22, feed.Items.Count);
+            var item = (Rss092FeedItem)feed.Items.ElementAt(20);
+            Eq("A touch of gray, kinda suits you anyway..", item.Description);
+            Eq("http://www.scripting.com/mp3s/touchOfGrey.mp3", item.Enclosure.Url);
+            Eq(5588242, item.Enclosure.Length);
+            Eq("audio/mpeg", item.Enclosure.MediaType);
+
+            var secondItem = (Rss092FeedItem)feed.Items.ElementAt(1);
+            Eq("http://scriptingnews.userland.com/xml/scriptingNews2.xml", secondItem.Source.Url);
+            Eq("Scripting News", secondItem.Source.Value);
+        }
+
+        [TestMethod]
         public void TestRss10ParseFullSample()
         {
             var feed = (Rss10Feed)FeedReader.ReadFromFile("Feeds/Rss10FeedWebResourceSample.xml").SpecificFeed;

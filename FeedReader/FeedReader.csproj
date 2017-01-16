@@ -51,6 +51,9 @@
     <Compile Include="Feeds\0.91\Rss091Feed.cs" />
     <Compile Include="Feeds\0.91\Rss091FeedImage.cs" />
     <Compile Include="Feeds\0.91\Rss091FeedItem.cs" />
+    <Compile Include="Feeds\0.92\Rss092Feed.cs" />
+    <Compile Include="Feeds\0.92\Rss092FeedImage.cs" />
+    <Compile Include="Feeds\0.92\Rss092FeedItem.cs" />
     <Compile Include="Feeds\1.0\Rss10FeedImage.cs" />
     <Compile Include="Feeds\1.0\Rss10FeedItem.cs" />
     <Compile Include="Feeds\1.0\Rss10FeedTextInput.cs" />
@@ -81,6 +84,7 @@
     <Compile Include="FeedType.cs" />
     <Compile Include="HtmlFeedLink.cs" />
     <Compile Include="Parser\Rss091Parser.cs" />
+    <Compile Include="Parser\Rss092Parser.cs" />
     <Compile Include="Parser\Rss10Parser.cs" />
     <Compile Include="Parser\Rss20Parser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

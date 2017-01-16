@@ -13,7 +13,7 @@ FeedReader library is **currently under development**
 
 ## Specifications
 - RSS 0.91: http://www.rssboard.org/rss-0-9-1-netscape
-- RSS 0.92: http://backend.userland.com/rss092
+- RSS 0.92: http://backend.userland.com/rss092, http://www.rssboard.org/rss-0-9-2
 - RSS 1.0 : http://web.resource.org/rss/1.0/spec
 - RSS 2.0 : https://validator.w3.org/feed/docs/rss2.html
 - ATOM    : https://validator.w3.org/feed/docs/atom.html

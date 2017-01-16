@@ -3,10 +3,11 @@
     public enum FeedType
     {
         Atom,
-        Unknown,
+        Rss_0_91,
+        Rss_0_92,
         Rss_1_0,
         Rss_2_0,
-        Rss,
-        Rss_0_91
+        Rss, 
+        Unknown
     }
 }

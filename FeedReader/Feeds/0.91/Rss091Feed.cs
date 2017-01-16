@@ -83,10 +83,7 @@
 
             var items = channel.GetElements("item");
 
-            foreach (var item in items)
-            {
-                this.Items.Add(new Rss091FeedItem(item));
-            }
+            AddItems(items);
         }
 
         public override Feed ToFeed()
@@ -102,6 +99,14 @@
             f.Type = FeedType.Rss_0_91;
 
             return f;
+        }
+
+        internal virtual void AddItems(IEnumerable<XElement> items)
+        {
+            foreach (var item in items)
+            {
+                this.Items.Add(new Rss091FeedItem(item));
+            }
         }
     }
 }

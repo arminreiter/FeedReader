@@ -29,6 +29,9 @@
                 if (version.Equals("0.91", StringComparison.InvariantCultureIgnoreCase))
                     return FeedType.Rss_0_91;
 
+                if (version.Equals("0.92", StringComparison.InvariantCultureIgnoreCase))
+                    return FeedType.Rss_0_92;
+
                 return FeedType.Rss;
             }
 
