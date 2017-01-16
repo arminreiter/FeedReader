@@ -10,7 +10,7 @@ namespace CodeHollow.FeedReader.Tests
         public void TestDownload400BadRequest()
         {
             // results in a 400 BadRequest if webclient is not initialized correctly
-            string content = FeedReader.Download("http://www.methode.at/blog?format=RSS");
+            string content = Helpers.Download("http://www.methode.at/blog?format=RSS");
             Assert.IsTrue(content.Length > 200);
         }
 

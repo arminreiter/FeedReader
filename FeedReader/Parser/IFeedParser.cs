@@ -1,7 +1,9 @@
-﻿namespace CodeHollow.FeedReader.Parser
+﻿using CodeHollow.FeedReader.Feeds;
+
+namespace CodeHollow.FeedReader.Parser
 {
-    public interface IFeedParser
+    internal interface IFeedParser
     {
-        Feed Parse(string feedXml);
+        BaseFeed Parse(string feedXml);
     }
 }

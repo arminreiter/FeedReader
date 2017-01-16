@@ -8,7 +8,7 @@
     /// <summary>
     /// RSS 2.0 feed item accoring to specification: https://validator.w3.org/feed/docs/rss2.html
     /// </summary>
-    public class Rss20FeedItem : FeedItem
+    public class Rss20FeedItem : BaseFeedItem
     {
         public string Description { get; set; } // description
 
@@ -42,7 +42,7 @@
             this.Author = item.GetValue("author");
             this.Enclosure = new FeedItemEnclosure(item.GetElement("enclosure"));
             this.PublishingDateString = item.GetValue("pubDate");
-            this.PublishingDate = Helpers.TryParse(this.PublishingDateString);
+            this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString);
             this.DC = new DublinCore(item);
             this.Source = new FeedItemSource(item.GetElement("source"));
 
@@ -52,6 +52,21 @@
             this.Guid = item.GetValue("guid");
             this.Description = item.GetValue("description");
             this.Content = item.GetValue("content:encoded")?.HtmlDecode();
+        }
+
+        internal override FeedItem ToFeedItem()
+        {
+            FeedItem fi = new FeedItem(this);
+
+            fi.Author = this.Author;
+            fi.Categories = this.Categories;
+            fi.Content = this.Content;
+            fi.Description = this.Description;
+            fi.Id = this.Guid;
+            fi.PublishingDate = this.PublishingDate;
+            fi.PublishingDateString = this.PublishingDateString;
+
+            return fi;
         }
     }
 }

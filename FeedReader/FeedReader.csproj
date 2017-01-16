@@ -60,13 +60,14 @@
     <Compile Include="Feeds\Atom\AtomPerson.cs" />
     <Compile Include="Feeds\Atom\AtomFeed.cs" />
     <Compile Include="Feeds\Atom\AtomFeedItem.cs" />
+    <Compile Include="Feeds\Base\BaseFeed.cs" />
+    <Compile Include="Feeds\Base\BaseFeedItem.cs" />
     <Compile Include="Feeds\Base\FeedCloud.cs" />
     <Compile Include="Feeds\Base\FeedImage.cs" />
     <Compile Include="Feeds\Base\FeedItemEnclosure.cs" />
     <Compile Include="Feeds\Base\FeedItemSource.cs" />
     <Compile Include="Feeds\Base\FeedTextInput.cs" />
     <Compile Include="Feeds\DublinCore.cs" />
-    <Compile Include="Feeds\IFromXElement.cs" />
     <Compile Include="Feeds\1.0\Rss10Feed.cs" />
     <Compile Include="Feeds\Syndication.cs" />
     <Compile Include="Helpers.cs" />

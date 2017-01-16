@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using Parser;
+    using Feeds;
 
     public static class FeedReader
     {
@@ -15,7 +16,7 @@
         /// <returns>parsed feed</returns>
         public static Feed Read(string url)
         {
-            string feedContent = Download(url);
+            string feedContent = Helpers.Download(url);
 
             return ReadFromString(feedContent);
         }
@@ -44,7 +45,8 @@
         }
 
         /// <summary>
-        /// Returns the absolute url of a link on a page
+        /// Returns the absolute url of a link on a page. If you got the feed links via
+        /// GetFeedUrlsFromUrl(url) and the url is relative, you can use this method to get the full url.
         /// </summary>
         /// <param name="pageUrl">the original url to the page</param>
         /// <param name="feedLink">a referenced feed (link)</param>
@@ -93,7 +95,7 @@
         public static IEnumerable<HtmlFeedLink> GetFeedUrlsFromUrl(string url)
         {
             url = GetAbsoluteUrl(url);
-            string pageContent = Download(url);
+            string pageContent = Helpers.Download(url);
             return ParseFeedUrlsFromHtml(pageContent);
         }
 
@@ -143,25 +145,6 @@
         {
             return new UriBuilder(url).ToString();
         }
-
-        /// <summary>
-        /// Download the content from an url
-        /// </summary>
-        /// <param name="url">correct url</param>
-        /// <returns>content as string</returns>
-        public static string Download(string url)
-        {
-            url = System.Web.HttpUtility.UrlDecode(url);
-            using (var webclient = new System.Net.WebClient())
-            {
-                // header required - without it, some pages return a bad request (e.g. http://www.methode.at/blog?format=RSS)
-                // see: https://msdn.microsoft.com/en-us/library/system.net.webclient(v=vs.110).aspx
-                webclient.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
-
-                return webclient.DownloadString(url);
-            }
-        }
-
 
         /// <summary>
         /// read the rss feed type from the type statement of an html link

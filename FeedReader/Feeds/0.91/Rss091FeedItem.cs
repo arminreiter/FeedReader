@@ -6,7 +6,7 @@
     /// <summary>
     /// Rss 0.91 Feed Item according to specification: http://www.rssboard.org/rss-0-9-1-netscape#image
     /// </summary>
-    public class Rss091FeedItem : FeedItem
+    public class Rss091FeedItem : BaseFeedItem
     {
         public string Description { get; set; } // description
 
@@ -22,7 +22,19 @@
         {
             this.Description = item.GetValue("description");
             this.PublishingDateString = item.GetValue("pubDate");
-            this.PublishingDate = Helpers.TryParse(this.PublishingDateString);
+            this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString);
+        }
+
+        internal override FeedItem ToFeedItem()
+        {
+            FeedItem fi = new FeedItem(this);
+
+            fi.Description = this.Description;
+            fi.PublishingDate = this.PublishingDate;
+            fi.PublishingDateString = this.PublishingDateString;
+            fi.Id = this.Link;
+
+            return fi;
         }
     }
 }

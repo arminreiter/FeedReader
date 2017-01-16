@@ -9,7 +9,7 @@
     /// Rss Feed according to Rss 0.91 specification:
     /// http://www.rssboard.org/rss-0-9-1-netscape
     /// </summary>
-    public class Rss091Feed : Feed
+    public class Rss091Feed : BaseFeed
     {
         public string Description { get; set; } // required field description
 
@@ -62,10 +62,10 @@
             this.Rating = channel.GetValue("rating");
 
             this.PublishingDateString = channel.GetValue("pubDate");
-            this.PublishingDate = Helpers.TryParse(this.PublishingDateString);
+            this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString);
 
             this.LastBuildDateString = channel.GetValue("lastBuildDate");
-            this.LastBuildDate = Helpers.TryParse(this.LastBuildDateString);
+            this.LastBuildDate = Helpers.TryParseDateTime(this.LastBuildDateString);
 
             this.Docs = channel.GetValue("docs");
 
@@ -87,6 +87,21 @@
             {
                 this.Items.Add(new Rss091FeedItem(item));
             }
+        }
+
+        public override Feed ToFeed()
+        {
+            Feed f = new Feed(this);
+
+            f.Copyright = this.Copyright;
+            f.Description = this.Description;
+            f.ImageUrl = this.Image?.Url;
+            f.Language = this.Language;
+            f.LastUpdatedDate = this.LastBuildDate;
+            f.LastUpdatedDateString = this.LastBuildDateString;
+            f.Type = FeedType.Rss_0_91;
+
+            return f;
         }
     }
 }

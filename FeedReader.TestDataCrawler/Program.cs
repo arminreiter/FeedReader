@@ -37,7 +37,7 @@ namespace CodeHollow.FeedReader.TestDataCrawler
                     title = Regex.Replace(title.ToLower(), "[^a-z]*", "");
                     var curl = FeedReader.GetAbsoluteFeedUrl(url, link);
 
-                    string content = FeedReader.Download(curl.Url);
+                    string content = Helpers.Download(curl.Url);
                     System.IO.File.WriteAllText("c:\\data\\feeds\\" + title + "_" + Guid.NewGuid().ToString() + ".xml", content);
                     Console.Write("+");
                 }

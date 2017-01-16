@@ -3,9 +3,9 @@
     using System.Xml.Linq;
     using Feeds;
 
-    public class AtomParser : AbstractXmlFeedParser
+    internal class AtomParser : AbstractXmlFeedParser
     {
-        public override Feed Parse(string feedXml, XDocument feedDoc)
+        public override BaseFeed Parse(string feedXml, XDocument feedDoc)
         {
             AtomFeed feed = new AtomFeed(feedXml, feedDoc.Root);
             return feed;

@@ -1,32 +1,40 @@
 ﻿namespace CodeHollow.FeedReader
 {
+    using Feeds;
+    using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class Feed
     {
-        public string Title { get; set; }
+        public FeedType Type { get; set; }
 
+        public string Title { get; set; }
         public string Link { get; set; }
+        public string Description { get; set; }
+        public string Language { get; set; }
+        public string Copyright { get; set; }
+        public string LastUpdatedDateString { get; set; }
+        public DateTime? LastUpdatedDate { get; set; }
+        public string ImageUrl { get; set; }
 
         public ICollection<FeedItem> Items { get; set; }
-
+        
         /// <summary>
         /// Gets the whole, original feed as string
         /// </summary>
-        public string OriginalDocument { get; private set; }
+        public string OriginalDocument { get { return SpecificFeed.OriginalDocument; } }
 
-        public Feed()
+        public BaseFeed SpecificFeed { get; set; }
+
+        public Feed(BaseFeed feed)
         {
-            this.Items = new List<FeedItem>();
-        }
+            SpecificFeed = feed;
 
-        public Feed(string feedXml, System.Xml.Linq.XElement xelement)
-            : this()
-        {
-            this.OriginalDocument = feedXml;
+            Title = feed.Title;
+            Link = feed.Link;
 
-            this.Title = xelement.GetValue("title");
-            this.Link = xelement.GetValue("link");
+            Items = feed.Items.Select(x => x.ToFeedItem()).ToList();
         }
     }
 }

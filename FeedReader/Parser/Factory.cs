@@ -1,6 +1,6 @@
 ﻿namespace CodeHollow.FeedReader.Parser
 {
-    public static class Factory
+    internal static class Factory
     {
         public static AbstractXmlFeedParser GetParser(FeedType feedType)
         {

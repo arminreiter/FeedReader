@@ -4,7 +4,25 @@
 
     public static class Helpers
     {
-        public static DateTime? TryParse(string datetime)
+        /// <summary>
+        /// Download the content from an url
+        /// </summary>
+        /// <param name="url">correct url</param>
+        /// <returns>content as string</returns>
+        public static string Download(string url)
+        {
+            url = System.Web.HttpUtility.UrlDecode(url);
+            using (var webclient = new System.Net.WebClient())
+            {
+                // header required - without it, some pages return a bad request (e.g. http://www.methode.at/blog?format=RSS)
+                // see: https://msdn.microsoft.com/en-us/library/system.net.webclient(v=vs.110).aspx
+                webclient.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
+
+                return webclient.DownloadString(url);
+            }
+        }
+
+        public static DateTime? TryParseDateTime(string datetime)
         {
             if (string.IsNullOrEmpty(datetime))
                 return null;

@@ -16,7 +16,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestAtomParseTheVerge()
         {
-            var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomTheVerge.xml");
+            var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomTheVerge.xml").SpecificFeed;
 
             Eq("The Verge -  Front Pages", feed.Title);
             Eq("https://cdn2.vox-cdn.com/community_logos/34086/verge-fv.png", feed.Icon);
@@ -42,7 +42,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestAtomYouTubeInvestmentPunk()
         {
-            var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomYoutubeInvestmentPunk.xml");
+            var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomYoutubeInvestmentPunk.xml").SpecificFeed;
 
             Eq("http://www.youtube.com/feeds/videos.xml?channel_id=UCmEN5ZnsHUXIxgpLitRTmWw", feed.Links.First().Href);
             Eq("yt:channel:UCmEN5ZnsHUXIxgpLitRTmWw", feed.Id);
@@ -61,7 +61,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestRss091ParseStadtFWeiz()
         {
-            var feed = (Rss091Feed)FeedReader.ReadFromFile("Feeds/Rss091Stadtfeuerwehr.xml");
+            var feed = (Rss091Feed)FeedReader.ReadFromFile("Feeds/Rss091Stadtfeuerwehr.xml").SpecificFeed;
 
             Eq("Stadtfeuerwehr Weiz - Einsätze", feed.Title);
             Eq("http://www.stadtfeuerwehr-weiz.at", feed.Link);
@@ -83,7 +83,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestRss091ParseFullSample()
         {
-            var feed = (Rss091Feed)FeedReader.ReadFromFile("Feeds/Rss091FullSample.xml");
+            var feed = (Rss091Feed)FeedReader.ReadFromFile("Feeds/Rss091FullSample.xml").SpecificFeed;
             Eq("Copyright 1997-1999 UserLand Software, Inc.", feed.Copyright);
             Eq("Thu, 08 Jul 1999 07:00:00 GMT", feed.PublishingDateString);
             Eq("Thu, 08 Jul 1999 16:20:26 GMT", feed.LastBuildDateString);
@@ -124,7 +124,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestRss10ParseFullSample()
         {
-            var feed = (Rss10Feed)FeedReader.ReadFromFile("Feeds/Rss10FeedWebResourceSample.xml");
+            var feed = (Rss10Feed)FeedReader.ReadFromFile("Feeds/Rss10FeedWebResourceSample.xml").SpecificFeed;
 
             Eq("XML.com", feed.Title);
             Eq("http://xml.com/pub", feed.Link);
@@ -151,10 +151,10 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestRss10ParseOrfAt()
         {
-            var feed = (Rss10Feed)FeedReader.ReadFromFile("Feeds/Rss10OrfAt.xml");
+            var feed = (Rss10Feed)FeedReader.ReadFromFile("Feeds/Rss10OrfAt.xml").SpecificFeed;
             Eq("news.ORF.at", feed.Title);
             Eq("http://orf.at/", feed.Link);
-            Eq("2017-01-07T15:57:36+01:00", feed.DC.Date);
+            Eq("2017-01-07T15:57:36+01:00", feed.DC.DateString);
             Eq("Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.", feed.Description);
             Eq("ORF Österreichischer Rundfunk, Wien", feed.DC.Publisher);
             Eq("ORF Online und Teletext GmbH & Co KG", feed.DC.Creator);
@@ -170,13 +170,13 @@ namespace CodeHollow.FeedReader.Tests
             Eq("Irak: Einigung über Abzug türkischer Truppen", item.Title);
             Eq("http://orf.at/stories/2374136/", item.Link);
             Eq("Ausland", item.DC.Subject);
-            Eq("2017-01-07T15:03:35+01:00", item.DC.Date);
+            Eq("2017-01-07T15:03:35+01:00", item.DC.DateString);
         }
 
         [TestMethod]
         public void TestRss20ParseWebResourceSampleFull()
         {
-            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20FeedWebResourceSample.xml");
+            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20FeedWebResourceSample.xml").SpecificFeed;
 
             Eq("Scripting News", feed.Title);
             Eq("http://www.scripting.com/", feed.Link);
@@ -204,7 +204,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestRss20ParseCodeHollow()
         {
-            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20CodeHollowCom.xml");
+            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20CodeHollowCom.xml").SpecificFeed;
 
             Eq("codehollow", feed.Title);
             Eq("https://codehollow.com", feed.Link);
@@ -235,7 +235,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestRss20ParseContentWindGerman()
         {
-            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20ContentWindCom.xml");
+            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20ContentWindCom.xml").SpecificFeed;
             Eq("ContentWind", feed.Title);
             Eq("http://content-wind.com", feed.Link);
             Eq("Do, 22 Dez 2016 17:36:00 +0000", feed.LastBuildDateString);
@@ -258,7 +258,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestRss20ParseMoscowTimes()
         {
-            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20MoscowTimes.xml");
+            var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20MoscowTimes.xml").SpecificFeed;
             Eq("The Moscow Times - News, Business, Culture & Multimedia from Russia", feed.Title);
             Eq("https://themoscowtimes.com/", feed.Link);
             Eq("The Moscow Times offers everything you need to know about Russia: Breaking news, top stories, business, analysis, opinion, multimedia, upcoming cultural events", feed.Description);

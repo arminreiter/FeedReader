@@ -8,7 +8,7 @@
     /// <summary>
     /// Atom 1.0 feed object according to specification: https://validator.w3.org/feed/docs/atom.html
     /// </summary>
-    public class AtomFeed : Feed
+    public class AtomFeed : BaseFeed
     {
         public AtomPerson Author { get; set; }
 
@@ -58,7 +58,7 @@
             this.Links = feed.GetElements("link").Select(x => new AtomLink(x)).ToList();
 
             this.UpdatedDateString = feed.GetValue("updated");
-            this.UpdatedDate = Helpers.TryParse(this.UpdatedDateString);
+            this.UpdatedDate = Helpers.TryParseDateTime(this.UpdatedDateString);
 
             var items = feed.GetElements("entry");
 
@@ -66,6 +66,21 @@
             {
                 this.Items.Add(new AtomFeedItem(item));
             }
+        }
+
+        public override Feed ToFeed()
+        {
+            Feed f = new Feed(this);
+
+            f.Copyright = this.Rights;
+            f.Description = null;
+            f.ImageUrl = this.Icon;
+            f.Language = null;
+            f.LastUpdatedDate = this.UpdatedDate;
+            f.LastUpdatedDateString = this.UpdatedDateString;
+            f.Type = FeedType.Atom;
+
+            return f;
         }
     }
 }

@@ -1,11 +1,12 @@
 ﻿namespace CodeHollow.FeedReader.Feeds
 {
+    using System;
     using System.Xml.Linq;
 
     /// <summary>
     /// Rss 1.0 Feed according to specification: http://web.resource.org/rss/1.0/spec
     /// </summary>
-    public class Rss10Feed : Feed
+    public class Rss10Feed : BaseFeed
     {
         public string About { get; set; }
 
@@ -38,6 +39,25 @@
             {
                 this.Items.Add(new Rss10FeedItem(item));
             }
+        }
+
+        public override Feed ToFeed()
+        {
+            Feed f = new Feed(this);
+
+            if (this.DC != null)
+            {
+                f.Copyright = this.DC.Rights;
+                f.Language = this.DC.Language;
+                f.LastUpdatedDate = this.DC.Date;
+                f.LastUpdatedDateString = this.DC.DateString;
+            }
+
+            f.Description = this.Description;
+            f.ImageUrl = this.Image?.Url;
+            f.Type = FeedType.Rss_1_0;
+
+            return f;
         }
     }
 }

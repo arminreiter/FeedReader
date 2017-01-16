@@ -1,4 +1,6 @@
-﻿namespace CodeHollow.FeedReader.Feeds
+﻿using System;
+
+namespace CodeHollow.FeedReader.Feeds
 {
     public class DublinCore
     {
@@ -14,7 +16,8 @@
 
         public string Contributor { get; set; }
 
-        public string Date { get; set; }
+        public string DateString { get; set; }
+        public DateTime? Date { get; set; }
 
         public string Type { get; set; }
 
@@ -42,7 +45,8 @@
             this.Description = item.GetValue("dc:description");
             this.Publisher = item.GetValue("dc:publisher");
             this.Contributor = item.GetValue("dc:contributor");
-            this.Date = item.GetValue("dc:date");
+            this.DateString = item.GetValue("dc:date");
+            this.Date = Helpers.TryParseDateTime(DateString);
             this.Type = item.GetValue("dc:type");
             this.Format = item.GetValue("dc:format");
             this.Identifier = item.GetValue("dc:identifier");

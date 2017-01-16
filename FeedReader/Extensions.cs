@@ -5,7 +5,7 @@
     using System.Text;
     using System.Xml.Linq;
 
-    public static class Extensions
+    internal static class Extensions
     {
         public static string HtmlDecode(this string text)
         {

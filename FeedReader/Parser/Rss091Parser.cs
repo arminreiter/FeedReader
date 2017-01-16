@@ -3,9 +3,9 @@
     using System.Xml.Linq;
     using Feeds;
 
-    public class Rss091Parser : AbstractXmlFeedParser
+    internal class Rss091Parser : AbstractXmlFeedParser
     {
-        public override Feed Parse(string feedXml, XDocument feedDoc)
+        public override BaseFeed Parse(string feedXml, XDocument feedDoc)
         {
             var rss = feedDoc.Root;
             var channel = rss.GetElement("channel");

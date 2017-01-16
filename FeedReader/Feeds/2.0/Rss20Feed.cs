@@ -8,7 +8,7 @@
     /// <summary>
     /// RSS 2.0 feed accoring to specification: https://validator.w3.org/feed/docs/rss2.html
     /// </summary>
-    public class Rss20Feed : Feed
+    public class Rss20Feed : BaseFeed
     {
         public string Description { get; set; }
 
@@ -61,9 +61,9 @@
             this.WebMaster = channel.GetValue("webMaster");
             this.Docs = channel.GetValue("docs");
             this.PublishingDateString = channel.GetValue("pubDate");
-            this.PublishingDate = Helpers.TryParse(this.PublishingDateString);
+            this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString);
             this.LastBuildDateString = channel.GetValue("lastBuildDate");
-            this.LastBuildDate = Helpers.TryParse(this.LastBuildDateString);
+            this.LastBuildDate = Helpers.TryParseDateTime(this.LastBuildDateString);
 
             var categories = channel.GetElements("category");
             this.Categories = categories.Select(x => x.GetValue()).ToList();
@@ -89,6 +89,21 @@
             {
                 this.Items.Add(new Rss20FeedItem(item));
             }
+        }
+
+        public override Feed ToFeed()
+        {
+            Feed f = new Feed(this);
+
+            f.Copyright = this.Copyright;
+            f.Description = this.Description;
+            f.ImageUrl = this.Image?.Url;
+            f.Language = this.Language;
+            f.LastUpdatedDate = this.LastBuildDate;
+            f.LastUpdatedDateString = this.LastBuildDateString;
+            f.Type = FeedType.Rss_2_0;
+
+            return f;
         }
     }
 }
