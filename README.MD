@@ -1,9 +1,9 @@
 # FeedReader
 FeedReader is a .net library used for reading and parsing RSS and ATOM feeds. Supports RSS 0.91, 0.92, 1.0, 2.0 and ATOM.
-Developed because tested existing libraries do not work with different languages or have other issues. 
+Developed because tested existing libraries do not work with different languages, encodings or have other issues. 
 Library tested with multiple languages and feeds.
 
-FeedReader library is **currently under development**
+FeedReader library is **currently under development** and will be published soon as NuGet package.
 
 ## Usage
 The simplest way to read a feed and show the information is:
