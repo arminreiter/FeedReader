@@ -5,11 +5,35 @@ Library tested with multiple languages and feeds.
 
 FeedReader library is **currently under development**
 
-## ToDo list
-- rss 0.92, 0.94?
-- basefeeditem
-- rssitem (basis item für rss091 092 und 20)
-- support for multiple feeds per url
+## Usage
+The simplest way to read a feed and show the information is:
+```cs
+    var feed = FeedReader.Read("https://codehollow.com/feed");
+
+    Console.WriteLine("Feed Title: " + feed.Title);
+    Console.WriteLine("Feed Description: " + feed.Description);
+    Console.WriteLine("Feed Image: " + feed.ImageUrl);
+    // ...
+    foreach(var item in feed.Items)
+    {
+        Console.WriteLine(item.Title + " - " + item.Link);
+    }
+```
+
+If you want to get all properties, then you have to know the type:
+```cs
+    var feed = FeedReader.Read("https://codehollow.com/feed");
+
+    Console.WriteLine("Feed Title: " + feed.Title);
+            
+    if(feed.Type == FeedType.Rss_2_0)
+    {
+        var rss20feed = (Feeds.Rss20Feed)feed.SpecificFeed;
+        Console.WriteLine("Generator: " + rss20feed.Generator);
+    }
+```
+
+
 
 ## Specifications
 - RSS 0.91: http://www.rssboard.org/rss-0-9-1-netscape

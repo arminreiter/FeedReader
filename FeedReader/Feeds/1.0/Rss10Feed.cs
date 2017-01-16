@@ -8,21 +8,47 @@
     /// </summary>
     public class Rss10Feed : BaseFeed
     {
+        /// <summary>
+        /// The "about" attribute of the element
+        /// </summary>
         public string About { get; set; }
 
+        /// <summary>
+        /// All elements starting with "dc:"
+        /// </summary>
         public DublinCore DC { get; set; }
 
+        /// <summary>
+        /// All elements starting with "sy:"
+        /// </summary>
         public Syndication Sy { get; set; }
 
+        /// <summary>
+        /// The "description" field
+        /// </summary>
         public string Description { get; set; }
 
+        /// <summary>
+        /// The "image" element
+        /// </summary>
         public FeedImage Image { get; set; }
 
+        /// <summary>
+        /// The "textInput" element
+        /// </summary>
         public FeedTextInput TextInput { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
         public Rss10Feed()
             : base() { }
 
+        /// <summary>
+        /// Reads a rss 1.0 feed based on the xml given in xelement
+        /// </summary>
+        /// <param name="feedXml"></param>
+        /// <param name="xelement"></param>
         public Rss10Feed(string feedXml, XElement xelement)
             : base(feedXml, xelement)
         {
@@ -41,6 +67,10 @@
             }
         }
 
+        /// <summary>
+        /// Creates the base <see cref="Feed"/> element out of this feed.
+        /// </summary>
+        /// <returns>feed</returns>
         public override Feed ToFeed()
         {
             Feed f = new Feed(this);

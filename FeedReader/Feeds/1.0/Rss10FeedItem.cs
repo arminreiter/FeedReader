@@ -8,17 +8,36 @@
     /// </summary>
     public class Rss10FeedItem : BaseFeedItem
     {
+        /// <summary>
+        /// The "about" attribute of the element
+        /// </summary>
         public string About { get; set; }
 
+        /// <summary>
+        /// The "description" field
+        /// </summary>
         public string Description { get; set; }
 
+        /// <summary>
+        /// All elements starting with "dc:"
+        /// </summary>
         public DublinCore DC { get; set; }
 
+        /// <summary>
+        /// All elements starting with "sy:"
+        /// </summary>
         public Syndication Sy { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
         public Rss10FeedItem()
             : base() { }
 
+        /// <summary>
+        /// Reads a rss 1.0 feed item based on the xml given in item
+        /// </summary>
+        /// <param name="item"></param>
         public Rss10FeedItem(XElement item)
             : base(item)
         {

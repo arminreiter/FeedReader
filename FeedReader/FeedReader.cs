@@ -4,44 +4,30 @@
     using System.Collections.Generic;
     using System.Linq;
     using Parser;
-    using Feeds;
 
+    /// <summary>
+    /// The static FeedReader class which allows to read feeds from a given url. Use it to 
+    /// parse a feed from an url <see cref="Read(string)"/>, a file <see cref="ReadFromFile(string)"/>  
+    /// or a string <see cref="ReadFromString(string)"/>. If the feed url is not known, <see cref="ParseFeedUrlsFromHtml(string)"/> 
+    /// returns all feed links on a given page. 
+    /// </summary>
+    /// <example>
+    /// var links = FeedReader.ParseFeedUrlsFromHtml("https://codehollow.com");
+    /// var firstLink = links.First();
+    /// var feed = FeedReader.Read(firstLink.Url);
+    /// Console.WriteLine(feed.Title);
+    /// </example>
     public static class FeedReader
     {
         /// <summary>
-        /// reads a feed from an url. the url must be a feed. Use ParseFeedUrlsFromHtml to
-        /// parse the feeds from a url which is not a feed.
+        /// gets a url (with or without http) and returns the full url
         /// </summary>
-        /// <param name="url">the url to a feed</param>
-        /// <returns>parsed feed</returns>
-        public static Feed Read(string url)
+        /// <param name="url">url with or without http</param>
+        /// <returns>full url</returns>
+        /// <example>GetUrl("codehollow.com"); => returns https://codehollow.com</example>
+        public static string GetAbsoluteUrl(string url)
         {
-            string feedContent = Helpers.Download(url);
-
-            return ReadFromString(feedContent);
-        }
-
-        /// <summary>
-        /// reads a feed from a file
-        /// </summary>
-        /// <param name="filePath">the path to the feed</param>
-        /// <returns>parsed feed</returns>
-        public static Feed ReadFromFile(string filePath)
-        {
-            string feedContent = System.IO.File.ReadAllText(filePath);
-
-            return ReadFromString(feedContent);
-        }
-
-        /// <summary>
-        /// reads a feed from the <paramref name="feedContent" />
-        /// </summary>
-        /// <param name="feedContent">the feed content (xml)</param>
-        /// <returns>parsed feed</returns>
-        public static Feed ReadFromString(string feedContent)
-        {
-            var feed = FeedParser.GetFeed(feedContent);
-            return feed;
+            return new UriBuilder(url).ToString();
         }
 
         /// <summary>
@@ -51,6 +37,7 @@
         /// <param name="pageUrl">the original url to the page</param>
         /// <param name="feedLink">a referenced feed (link)</param>
         /// <returns>a feed link</returns>
+        /// <example>GetAbsoluteFeedUrl("codehollow.com", myRelativeFeedLink);</example>
         public static HtmlFeedLink GetAbsoluteFeedUrl(string pageUrl, HtmlFeedLink feedLink)
         {
             string tmpUrl = feedLink.Url.HtmlDecode();
@@ -81,17 +68,9 @@
         /// Opens a webpage and reads all feed urls from it (link rel="alternate" type="application/...")
         /// </summary>
         /// <param name="url">the url of the page</param>
-        /// <returns>a list of links, an empty list if no links are found</returns>
-        public static string[] ParseFeedUrlsAsString(string url)
-        {
-            return GetFeedUrlsFromUrl(url).Select(x => x.Url).ToArray();
-        }
-
-        /// <summary>
-        /// Opens a webpage and reads all feed urls from it (link rel="alternate" type="application/...")
-        /// </summary>
-        /// <param name="url">the url of the page</param>
         /// <returns>a list of links including the type and title, an empty list if no links are found</returns>
+        /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at 
+        /// https://codehollow.com </example>
         public static IEnumerable<HtmlFeedLink> GetFeedUrlsFromUrl(string url)
         {
             url = GetAbsoluteUrl(url);
@@ -99,6 +78,16 @@
             return ParseFeedUrlsFromHtml(pageContent);
         }
 
+        /// <summary>
+        /// Opens a webpage and reads all feed urls from it (link rel="alternate" type="application/...")
+        /// </summary>
+        /// <param name="url">the url of the page</param>
+        /// <returns>a list of links, an empty list if no links are found</returns>
+        public static string[] ParseFeedUrlsAsString(string url)
+        {
+            return GetFeedUrlsFromUrl(url).Select(x => x.Url).ToArray();
+        }
+        
         /// <summary>
         /// Parses RSS links from html page and returns all links
         /// </summary>
@@ -136,16 +125,39 @@
         }
 
         /// <summary>
-        /// gets a url (with or without http) and returns the full url
+        /// reads a feed from an url. the url must be a feed. Use ParseFeedUrlsFromHtml to
+        /// parse the feeds from a url which is not a feed.
         /// </summary>
-        /// <param name="url">url with or without http</param>
-        /// <returns>full url</returns>
-        /// <example>GetUrl("codehollow.com"); => returns https://codehollow.com</example>
-        public static string GetAbsoluteUrl(string url)
+        /// <param name="url">the url to a feed</param>
+        /// <returns>parsed feed</returns>
+        public static Feed Read(string url)
         {
-            return new UriBuilder(url).ToString();
+            string feedContent = Helpers.Download(url);
+            return ReadFromString(feedContent);
         }
 
+        /// <summary>
+        /// reads a feed from a file
+        /// </summary>
+        /// <param name="filePath">the path to the feed file</param>
+        /// <returns>parsed feed</returns>
+        public static Feed ReadFromFile(string filePath)
+        {
+            string feedContent = System.IO.File.ReadAllText(filePath);
+            return ReadFromString(feedContent);
+        }
+
+        /// <summary>
+        /// reads a feed from the <paramref name="feedContent" />
+        /// </summary>
+        /// <param name="feedContent">the feed content (xml)</param>
+        /// <returns>parsed feed</returns>
+        public static Feed ReadFromString(string feedContent)
+        {
+            var feed = FeedParser.GetFeed(feedContent);
+            return feed;
+        }
+        
         /// <summary>
         /// read the rss feed type from the type statement of an html link
         /// </summary>
@@ -155,7 +167,7 @@
         {
             if (linkType.Contains("application/rss"))
                 return FeedType.Rss;
-
+            
             if (linkType.Contains("application/atom"))
                 return FeedType.Atom;
 

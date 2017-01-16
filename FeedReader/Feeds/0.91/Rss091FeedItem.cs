@@ -8,15 +8,31 @@
     /// </summary>
     public class Rss091FeedItem : BaseFeedItem
     {
+        /// <summary>
+        /// The "description" field
+        /// </summary>
         public string Description { get; set; } // description
 
-        public string PublishingDateString { get; set; } // pubDate
+        /// <summary>
+        /// The "pubDate" field
+        /// </summary>
+        public string PublishingDateString { get; set; }
 
-        public DateTime? PublishingDate { get; set; } // pubDate
+        /// <summary>
+        /// The "pubDate" field as DateTime. Null if parsing failed or pubDate is empty.
+        /// </summary>
+        public DateTime? PublishingDate { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
         public Rss091FeedItem()
             : base() { }
 
+        /// <summary>
+        /// Creates this object based on the xml in the XElement parameter.
+        /// </summary>
+        /// <param name="item">feed item as xml</param>
         public Rss091FeedItem(XElement item)
             : base(item)
         {

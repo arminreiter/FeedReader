@@ -7,8 +7,21 @@
     /// </summary>
     public class Rss10FeedImage : FeedImage
     {
+        /// <summary>
+        /// The "about" attribute of the element
+        /// </summary>
         public string About { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
+        public Rss10FeedImage() : base()
+        { }
+
+        /// <summary>
+        /// Reads a rss 1.0 feed image based on the xml given in element
+        /// </summary>
+        /// <param name="element"></param>
         public Rss10FeedImage(XElement element)
             : base(element)
         {

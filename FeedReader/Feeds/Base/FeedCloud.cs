@@ -7,16 +7,41 @@
     /// </summary>
     public class FeedCloud
     {
+        /// <summary>
+        /// The "domain" element
+        /// </summary>
         public string Domain { get; set; }
-
+        
+        /// <summary>
+        /// The "port" element
+        /// </summary>
         public string Port { get; set; }
 
+        /// <summary>
+        /// The "path" element
+        /// </summary>
         public string Path { get; set; }
 
+        /// <summary>
+        /// The "registerProcedure" element
+        /// </summary>
         public string RegisterProcedure { get; set; }
 
+        /// <summary>
+        /// The "protocol" element
+        /// </summary>
         public string Protocol { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
+        public FeedCloud()
+        { }
+
+        /// <summary>
+        /// Reads a rss feed cloud element based on the xml given in element
+        /// </summary>
+        /// <param name="element"></param>
         public FeedCloud(XElement element)
         {
             this.Domain = element.GetAttributeValue("domain");

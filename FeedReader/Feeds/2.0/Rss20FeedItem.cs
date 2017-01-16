@@ -10,31 +10,71 @@
     /// </summary>
     public class Rss20FeedItem : BaseFeedItem
     {
-        public string Description { get; set; } // description
+        /// <summary>
+        /// The "description" field of the feed item
+        /// </summary>
+        public string Description { get; set; }
 
-        public string Author { get; set; } // author
+        /// <summary>
+        /// The "author" field of the feed item
+        /// </summary>
+        public string Author { get; set; }
 
-        public string Comments { get; set; } // comments
+        /// <summary>
+        /// The "comments" field of the feed item
+        /// </summary>
+        public string Comments { get; set; } 
 
-        public FeedItemEnclosure Enclosure { get; set; } // enclosure
+        /// <summary>
+        /// The "enclosure" field
+        /// </summary>
+        public FeedItemEnclosure Enclosure { get; set; }
 
-        public string Guid { get; set; } // guid
+        /// <summary>
+        /// The "guid" field
+        /// </summary>
+        public string Guid { get; set; }
 
-        public string PublishingDateString { get; set; } // pubDate
+        /// <summary>
+        /// The "pubDate" field
+        /// </summary>
+        public string PublishingDateString { get; set; }
 
-        public DateTime? PublishingDate { get; set; } // pubDate
+        /// <summary>
+        /// The "pubDate" field as DateTime. Null if parsing failed or pubDate is empty.
+        /// </summary>
+        public DateTime? PublishingDate { get; set; }
 
-        public FeedItemSource Source { get; set; } // source
+        /// <summary>
+        /// The "source" field
+        /// </summary>
+        public FeedItemSource Source { get; set; } 
 
-        public ICollection<string> Categories { get; set; } // category
+        /// <summary>
+        /// All entries "category" entries
+        /// </summary>
+        public ICollection<string> Categories { get; set; }
 
-        public string Content { get; set; } // content:encoded
+        /// <summary>
+        /// The "content:encoded" field
+        /// </summary>
+        public string Content { get; set; }
 
+        /// <summary>
+        /// All elements starting with "dc:"
+        /// </summary>
         public DublinCore DC { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
         public Rss20FeedItem()
             : base() { }
 
+        /// <summary>
+        /// Reads a new feed item element based on the given xml item
+        /// </summary>
+        /// <param name="item">the xml containing the feed item</param>
         public Rss20FeedItem(XElement item)
             : base(item)
         {

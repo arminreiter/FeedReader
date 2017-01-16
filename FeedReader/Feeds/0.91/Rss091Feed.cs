@@ -11,38 +11,89 @@
     /// </summary>
     public class Rss091Feed : BaseFeed
     {
-        public string Description { get; set; } // required field description
+        /// <summary>
+        /// The required field "description"
+        /// </summary>
+        public string Description { get; set; }
 
-        public string Language { get; set; } // required field language
+        /// <summary>
+        /// The required field "language"
+        /// /// </summary>
+        public string Language { get; set; }
 
+        /// <summary>
+        /// The "copyright" field
+        /// </summary>
         public string Copyright { get; set; }
 
+        /// <summary>
+        /// The "docs" field
+        /// </summary>
         public string Docs { get; set; }
 
+        /// <summary>
+        /// The "image" element
+        /// </summary>
         public FeedImage Image { get; set; }
 
+        /// <summary>
+        /// The "lastBuildDate" element
+        /// </summary>
         public string LastBuildDateString { get; set; }
 
+        /// <summary>
+        /// The "lastBuildDate" as DateTime. Null if parsing failed or lastBuildDate is empty.
+        /// </summary>
         public DateTime? LastBuildDate { get; set; }
 
+        /// <summary>
+        /// The "managingEditor" field
+        /// </summary>
         public string ManagingEditor { get; set; }
 
+        /// <summary>
+        /// The "pubDate" field
+        /// </summary>
         public string PublishingDateString { get; set; }
 
+        /// <summary>
+        /// The "pubDate" field as DateTime. Null if parsing failed or pubDate is empty.
+        /// </summary>
         public DateTime? PublishingDate { get; set; }
 
+        /// <summary>
+        /// The "rating" field
+        /// </summary>
         public string Rating { get; set; }
 
+        /// <summary>
+        /// All "day" elements in "skipDays"
+        /// </summary>
         public ICollection<string> SkipDays { get; set; }
 
+        /// <summary>
+        /// All "hour" elements in "skipHours"
+        /// </summary>
         public ICollection<string> SkipHours { get; set; }
 
+        /// <summary>
+        /// The "textInput" element
+        /// </summary>
         public FeedTextInput TextInput { get; set; }
 
+        /// <summary>
+        /// The "webMaster" element
+        /// </summary>
         public string WebMaster { get; set; }
 
+        /// <summary>
+        /// All elements that start with "sy:"
+        /// </summary>
         public Syndication Sy { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
         public Rss091Feed()
             : base()
         {
@@ -50,6 +101,11 @@
             this.SkipHours = new List<string>();
         }
 
+        /// <summary>
+        /// Reads a rss 0.91 feed based on the xml given in channel
+        /// </summary>
+        /// <param name="feedXml">the whole feed as xml</param>
+        /// <param name="channel">the channel xml element</param>
         public Rss091Feed(string feedXml, XElement channel)
             : base(feedXml, channel)
         {
@@ -86,6 +142,10 @@
             AddItems(items);
         }
 
+        /// <summary>
+        /// Creates the base <see cref="Feed"/> element out of this feed.
+        /// </summary>
+        /// <returns>feed</returns>
         public override Feed ToFeed()
         {
             Feed f = new Feed(this);

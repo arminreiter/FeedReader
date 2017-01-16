@@ -7,12 +7,31 @@
     /// </summary>
     public class Rss091FeedImage : FeedImage
     {
+        /// <summary>
+        /// The "description" element
+        /// </summary>
         public string Description { get; set; }
 
+        /// <summary>
+        /// The "width" element
+        /// </summary>
         public int? Width { get; set; }
 
+        /// <summary>
+        /// The "height" element
+        /// </summary>
         public int? Height { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
+        public Rss091FeedImage() : base()
+        { }
+
+        /// <summary>
+        /// Creates this object based on the xml in the XElement parameter.
+        /// </summary>
+        /// <param name="element">feed image as xml</param>
         public Rss091FeedImage(XElement element)
             : base(element)
         {

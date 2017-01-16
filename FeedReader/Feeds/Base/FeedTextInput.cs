@@ -7,14 +7,36 @@
     /// </summary>
     public class FeedTextInput
     {
+        /// <summary>
+        /// The "title" element
+        /// </summary>
         public string Title { get; set; }
 
+        /// <summary>
+        /// The "link" element
+        /// </summary>
         public string Link { get; set; }
 
+        /// <summary>
+        /// The "description" field
+        /// </summary>
         public string Description { get; set; }
 
+        /// <summary>
+        /// The "name" element
+        /// </summary>
         public string Name { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
+        public FeedTextInput()
+        { }
+
+        /// <summary>
+        /// Reads a rss textInput element based on the xml given in element
+        /// </summary>
+        /// <param name="element"></param>
         public FeedTextInput(XElement element)
         {
             this.Title = element.GetValue("title");

@@ -2,6 +2,9 @@
 {
     using System;
 
+    /// <summary>
+    /// static class with helper functions
+    /// </summary>
     public static class Helpers
     {
         /// <summary>
@@ -22,6 +25,11 @@
             }
         }
 
+        /// <summary>
+        /// Tries to parse the string as datetime and returns null if it fails
+        /// </summary>
+        /// <param name="datetime">datetime as string</param>
+        /// <returns>datetime or null</returns>
         public static DateTime? TryParseDateTime(string datetime)
         {
             if (string.IsNullOrEmpty(datetime))
@@ -35,7 +43,7 @@
                 {
                     int pos = datetime.IndexOf(',') + 1;
                     string newdtstring = datetime.Substring(pos).Trim();
-
+                    
                     DateTimeOffset.TryParse(newdtstring, out dt);
                 }
             }
@@ -46,6 +54,11 @@
             return dt.UtcDateTime;
         }
 
+        /// <summary>
+        /// Tries to parse the string as int and returns null if it fails
+        /// </summary>
+        /// <param name="input">int as string</param>
+        /// <returns>integer or null</returns>
         public static int? TryParseInt(string input)
         {
             int tmp;

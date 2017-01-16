@@ -7,10 +7,26 @@
     /// </summary>
     public class FeedItemSource
     {
+        /// <summary>
+        /// The "url" element
+        /// </summary>
         public string Url { get; set; }
 
+        /// <summary>
+        /// The value of the element
+        /// </summary>
         public string Value { get; set; }
 
+        /// <summary>
+        /// default constructor (for serialization)
+        /// </summary>
+        public FeedItemSource()
+        { }
+
+        /// <summary>
+        /// Reads a rss feed item based on the xml given in element
+        /// </summary>
+        /// <param name="element"></param>
         public FeedItemSource(XElement element)
         {
             this.Url = element.GetAttributeValue("url");
