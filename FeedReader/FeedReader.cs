@@ -3,10 +3,16 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using CodeHollow.FeedReader.Parser;
+    using Parser;
 
     public static class FeedReader
     {
+        /// <summary>
+        /// reads a feed from an url. the url must be a feed. Use ParseFeedUrlsFromHtml to
+        /// parse the feeds from a url which is not a feed.
+        /// </summary>
+        /// <param name="url">the url to a feed</param>
+        /// <returns>parsed feed</returns>
         public static Feed Read(string url)
         {
             string feedContent = Download(url);
@@ -14,6 +20,11 @@
             return ReadFromString(feedContent);
         }
 
+        /// <summary>
+        /// reads a feed from a file
+        /// </summary>
+        /// <param name="filePath">the path to the feed</param>
+        /// <returns>parsed feed</returns>
         public static Feed ReadFromFile(string filePath)
         {
             string feedContent = System.IO.File.ReadAllText(filePath);
@@ -21,11 +32,14 @@
             return ReadFromString(feedContent);
         }
 
+        /// <summary>
+        /// reads a feed from the <paramref name="feedContent" />
+        /// </summary>
+        /// <param name="feedContent">the feed content (xml)</param>
+        /// <returns>parsed feed</returns>
         public static Feed ReadFromString(string feedContent)
         {
-            FeedParser parser = new FeedParser();
-            var feed = parser.GetFeed(feedContent);
-
+            var feed = FeedParser.GetFeed(feedContent);
             return feed;
         }
 
@@ -120,6 +134,17 @@
         }
 
         /// <summary>
+        /// gets a url (with or without http) and returns the full url
+        /// </summary>
+        /// <param name="url">url with or without http</param>
+        /// <returns>full url</returns>
+        /// <example>GetUrl("codehollow.com"); => returns https://codehollow.com</example>
+        public static string GetAbsoluteUrl(string url)
+        {
+            return new UriBuilder(url).ToString();
+        }
+
+        /// <summary>
         /// Download the content from an url
         /// </summary>
         /// <param name="url">correct url</param>
@@ -137,16 +162,6 @@
             }
         }
 
-        /// <summary>
-        /// gets a url (with or without http) and returns the full url
-        /// </summary>
-        /// <param name="url">url with or without http</param>
-        /// <returns>full url</returns>
-        /// <example>GetUrl("codehollow.com"); => returns https://codehollow.com</example>
-        public static string GetAbsoluteUrl(string url)
-        {
-            return new UriBuilder(url).ToString();
-        }
 
         /// <summary>
         /// read the rss feed type from the type statement of an html link

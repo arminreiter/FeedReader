@@ -3,7 +3,7 @@
     using System;
     using System.Xml.Linq;
 
-    public class FeedParser
+    internal static class FeedParser
     {
         /// <summary>
         /// Returns the feed type - rss 1.0, rss 2.0, atom, ...
@@ -35,14 +35,19 @@
             throw new Exception("unknown feed format");
         }
 
-        public Feed GetFeed(string feedXml)
+        /// <summary>
+        /// Returns the parsed feed
+        /// </summary>
+        /// <param name="feedContent">the feed document</param>
+        /// <returns>parsed feed</returns>
+        public static Feed GetFeed(string feedContent)
         {
-            XDocument feedDoc = XDocument.Parse(feedXml);
+            XDocument feedDoc = XDocument.Parse(feedContent);
 
             var feedType = ParseFeedType(feedDoc);
 
             var parser = Factory.GetParser(feedType);
-            var feed = parser.Parse(feedXml);
+            var feed = parser.Parse(feedContent);
 
             return feed;
         }

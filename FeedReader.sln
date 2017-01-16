@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.MD = README.MD
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedReader.ConsoleSample", "FeedReader.ConsoleSample\FeedReader.ConsoleSample.csproj", "{C2B3ED64-BBE0-44FF-8001-90895C8F4396}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{305D3DDE-41ED-4AB7-9D56-297B97C1EB6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,15 @@ Global
 		{45875170-DB82-4DF2-9C0E-19E4E5933261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45875170-DB82-4DF2-9C0E-19E4E5933261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45875170-DB82-4DF2-9C0E-19E4E5933261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B3ED64-BBE0-44FF-8001-90895C8F4396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B3ED64-BBE0-44FF-8001-90895C8F4396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B3ED64-BBE0-44FF-8001-90895C8F4396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B3ED64-BBE0-44FF-8001-90895C8F4396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2B3ED64-BBE0-44FF-8001-90895C8F4396} = {305D3DDE-41ED-4AB7-9D56-297B97C1EB6B}
 	EndGlobalSection
 EndGlobal
