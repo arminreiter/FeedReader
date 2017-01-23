@@ -21,7 +21,7 @@
         {
             if (encoding == Encoding.UTF8)
                 return text.ToUtf8();
-
+            
             var utf = Encoding.UTF8;
             var convertedBytes = Encoding.Convert(encoding, utf, encoding.GetBytes(text));
             return Encoding.UTF8.GetString(convertedBytes);
@@ -37,9 +37,6 @@
             var encoding = Encoding.Default;
             if (!string.IsNullOrEmpty(encodingStr))
                 encoding = Encoding.GetEncoding(encodingStr);
-
-            if (encoding == Encoding.UTF8)
-                return element?.Value;
 
             return element?.Value?.ToUtf8(encoding);
         }

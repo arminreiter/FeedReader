@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("FeedReader")]
 [assembly: AssemblyDescription("FeedReader is a .net library used for reading and parsing RSS and ATOM feeds. Supports RSS 0.91, 0.92, 1.0, 2.0 and ATOM. Developed because tested existing libraries do not work with different languages, encodings or have other issues. Library tested with multiple languages and feeds.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Armin Reiter, codehollow.com")]
+[assembly: AssemblyCompany("Armin Reiter")]
 [assembly: AssemblyProduct("FeedReader")]
 [assembly: AssemblyCopyright("Copyright © 2017 codehollow.com")]
 [assembly: AssemblyTrademark("")]
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.0.1.0")]
