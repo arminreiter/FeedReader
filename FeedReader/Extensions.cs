@@ -38,6 +38,9 @@
             if (!string.IsNullOrEmpty(encodingStr))
                 encoding = Encoding.GetEncoding(encodingStr);
 
+            if (encoding == Encoding.UTF8)
+                return element?.Value;
+
             return element?.Value?.ToUtf8(encoding);
         }
 

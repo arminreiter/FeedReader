@@ -67,7 +67,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadSimpleFeed()
         {
-            var feed = FeedReader.Read("http://codehollow.com/feed");
+            var feed = FeedReader.Read("https://codehollow.com/feed");
             string title = feed.Title;
             Assert.AreEqual("codehollow", title);
             Assert.AreEqual(10, feed.Items.Count());
