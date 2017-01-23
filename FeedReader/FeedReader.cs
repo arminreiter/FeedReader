@@ -116,9 +116,9 @@
                 {
                     yield return new HtmlFeedLink()
                     {
-                        Title = node.Attributes["title"]?.Value,
-                        Url = node.Attributes["href"]?.Value,
-                        FeedType = GetFeedTypeFromLinkType(node.Attributes["type"].Value)
+                        Title = node.Attributes["title"]?.Value?.HtmlDecode(),
+                        Url = node.Attributes["href"]?.Value.HtmlDecode(),
+                        FeedType = GetFeedTypeFromLinkType(node.Attributes["type"].Value.HtmlDecode())
                     };
                 }
             }

@@ -51,11 +51,11 @@ namespace CodeHollow.FeedReader.Tests
             Eq("Investment Punk Academy by Gerald Hörhan", feed.Author.Name);
             Eq("http://www.youtube.com/channel/UCmEN5ZnsHUXIxgpLitRTmWw", feed.Author.Uri);
             var item = (AtomFeedItem)feed.Items.First();
-            Eq("yt:video:-qF_ABYEHxQ", item.Id);
-            Eq("Sanierung I Blockchain-Technologie I Daytrading #ASKTHEPUNK 69", item.Title);
+            Eq("yt:video:AFA8ZtMwrvc", item.Id);
+            Eq("Zukunft von Vertretern I Kernfusion I Musikgeschäft #ASKTHEPUNK 71", item.Title);
             Eq("alternate", item.Links.First().Relation);
-            Eq("2017-01-07T15:20:24+00:00", item.UpdatedDateString);
-            Eq("2017-01-06T16:00:00+00:00", item.PublishedDateString);
+            Eq("2017-01-23T18:14:49+00:00", item.UpdatedDateString);
+            Eq("2017-01-20T16:00:00+00:00", item.PublishedDateString);
         }
 
         [TestMethod]
@@ -184,23 +184,23 @@ namespace CodeHollow.FeedReader.Tests
             var feed = (Rss10Feed)FeedReader.ReadFromFile("Feeds/Rss10OrfAt.xml").SpecificFeed;
             Eq("news.ORF.at", feed.Title);
             Eq("http://orf.at/", feed.Link);
-            Eq("2017-01-07T15:57:36+01:00", feed.DC.DateString);
+            Eq("2017-01-23T21:54:55+01:00", feed.DC.DateString);
             Eq("Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.", feed.Description);
             Eq("ORF Österreichischer Rundfunk, Wien", feed.DC.Publisher);
             Eq("ORF Online und Teletext GmbH & Co KG", feed.DC.Creator);
             Eq("de", feed.DC.Language);
-            Eq("Copyright � 2017 ORF Online und Teletext GmbH & Co KG", feed.DC.Rights);
+            Eq("Copyright © 2017 ORF Online und Teletext GmbH & Co KG", feed.DC.Rights);
             Eq("hourly", feed.Sy.UpdatePeriod);
             Eq("2", feed.Sy.UpdateFrequency);
             Eq("2000-01-01T00:00:00Z", feed.Sy.UpdateBase);
-            Eq(49, feed.Items.Count);
+            Eq(50, feed.Items.Count);
 
             var item = (Rss10FeedItem)feed.Items.ElementAt(4);
 
-            Eq("Irak: Einigung über Abzug türkischer Truppen", item.Title);
-            Eq("http://orf.at/stories/2374136/", item.Link);
-            Eq("Ausland", item.DC.Subject);
-            Eq("2017-01-07T15:03:35+01:00", item.DC.DateString);
+            Eq("Feldsperling erstmals häufigster Vogel", item.Title);
+            Eq("http://orf.at/stories/2376365/", item.Link);
+            Eq("Chronik", item.DC.Subject);
+            Eq("2017-01-23T20:51:06+01:00", item.DC.DateString);
         }
 
         [TestMethod]
@@ -293,22 +293,22 @@ namespace CodeHollow.FeedReader.Tests
             Eq("https://themoscowtimes.com/", feed.Link);
             Eq("The Moscow Times offers everything you need to know about Russia: Breaking news, top stories, business, analysis, opinion, multimedia, upcoming cultural events", feed.Description);
             Eq("en-us", feed.Language);
-            Eq("Sat, 07 Jan 2017 07:02:27 +0000", feed.LastBuildDateString);
+            Eq("Mon, 23 Jan 2017 16:45:02 +0000", feed.LastBuildDateString);
             Eq("600", feed.TTL);
 
             var item = (Rss20FeedItem)feed.Items.First();
-            Eq("American Unintelligence on Russia (Op-ed)", item.Title);
-            Eq("https://themoscowtimes.com/articles/american-unintelligence-on-russia-op-ed-56746", item.Link);
-            Eq("America’s case against the Kremlin suffers from major flaws that should be acknowledged, even by those who argue that Russia hacked U.S. democratic institutions, says Kevin Rothrock.", item.Description);
-            Eq("Sat, 07 Jan 2017 07:02:27 +0000", item.PublishingDateString);
-            Eq("https://themoscowtimes.com/articles/american-unintelligence-on-russia-op-ed-56746", item.Guid);
+            Eq("Russian State TV Praises Trump for Avoiding ‘Democracy’ in Inauguration Speech", item.Title);
+            Eq("https://themoscowtimes.com/articles/russian-state-tv-praises-trump-for-avoiding-democracy-in-inauguration-speech-56901", item.Link);
+            Eq("Though he welcomed the end of Obama’s presidency as the start of a bright new era, the Kremlin’s “chief propagandist” quickly found himself struggling to find convincing scapegoats for the world’s problems this week.", item.Description);
+            Eq("Mon, 23 Jan 2017 16:45:02 +0000", item.PublishingDateString);
+            Eq("https://themoscowtimes.com/articles/russian-state-tv-praises-trump-for-avoiding-democracy-in-inauguration-speech-56901", item.Guid);
 
             item = (Rss20FeedItem)feed.Items.Last();
-            Eq("Russian Man-Hating Plants and Other Wonderful Creatures", item.Title);
-            Eq("https://themoscowtimes.com/articles/russian-man-hating-plants-and-other-wonderful-creatures-56557", item.Link);
-            Eq("If misogyny is hatred or prejudice against women, what’s hatred or prejudice against men? This word is much less common in English: misandry. And how do you say “misandry” in Russian? Simple! Феминизм (feminism).", item.Description);
-            Eq("Fri, 16 Dec 2016 11:00:00 +0000", item.PublishingDateString);
-            Eq("https://themoscowtimes.com/articles/russian-man-hating-plants-and-other-wonderful-creatures-56557", item.Guid);
+            Eq("Don’t Say It", item.Title);
+            Eq("https://themoscowtimes.com/articles/dont-say-it-56774", item.Link);
+            Eq("They say “sex sells,” but don't go peddling it near dinner tables in Russia, where families in an ostensibly conservative society say the subject is too taboo to discuss at home.", item.Description);
+            Eq("Tue, 10 Jan 2017 19:58:13 +0000", item.PublishingDateString);
+            Eq("https://themoscowtimes.com/articles/dont-say-it-56774", item.Guid);
 
         }
 

@@ -20,7 +20,7 @@
         public static string ToUtf8(this string text, Encoding encoding)
         {
             if (encoding == Encoding.UTF8)
-                return text.ToUtf8();
+                return text;
             
             var utf = Encoding.UTF8;
             var convertedBytes = Encoding.Convert(encoding, utf, encoding.GetBytes(text));
