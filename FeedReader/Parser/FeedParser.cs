@@ -45,6 +45,8 @@
         /// <returns>parsed feed</returns>
         public static Feed GetFeed(string feedContent)
         {
+            feedContent = feedContent.Replace(((char)0x1C).ToString(), ""); // replaces special char 0x1C, fixes issues with at least one feed
+
             XDocument feedDoc = XDocument.Parse(feedContent);
 
             var feedType = ParseFeedType(feedDoc);
