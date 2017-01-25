@@ -1,9 +1,9 @@
 # FeedReader
-FeedReader is a .net library used for reading and parsing RSS and ATOM feeds. Supports RSS 0.91, 0.92, 1.0, 2.0 and ATOM.
+FeedReader is a .net library used for reading and parsing RSS and ATOM feeds. Supports **RSS 0.91, 0.92, 1.0, 2.0 and ATOM**.
 Developed because tested existing libraries do not work with different languages, encodings or have other issues. 
-Library tested with multiple languages and feeds.
+Library tested with multiple languages, encodings and feeds.
 
-FeedReader library is **currently under development** and will be published soon as NuGet package.
+FeedReader library is available as NuGet package: https://www.nuget.org/packages/CodeHollow.FeedReader/
 
 ## Usage
 The simplest way to read a feed and show the information is:
@@ -20,7 +20,8 @@ The simplest way to read a feed and show the information is:
     }
 ```
 
-If you want to get all properties, then you have to know the type:
+There are some properties that are only available in e.g. RSS 2.0. If you want to get those properties, the property "SpecificFeed" is the right one:
+
 ```cs
     var feed = FeedReader.Read("https://codehollow.com/feed");
 
@@ -33,6 +34,31 @@ If you want to get all properties, then you have to know the type:
     }
 ```
 
+If the url to the feed is not known, then you can use FeedReader.GetFeedUrlsFromUrl(url) to parse the url from the html webpage:
+
+```cs
+	string url = "codehollow.com";
+    var urls = FeedReader.GetFeedUrlsFromUrl(url);
+            
+    string feedUrl;
+    if (urls.Count() < 1) // no url - probably the url is already the right feed url
+        feedUrl = url;
+    else if (urls.Count() == 1)
+        feedUrl = urls.First().Url;
+    else if (urls.Count() == 2) // if 2 urls, then its usually a feed and a comments feed, so take the first per default
+        feedUrl = urls.First().Url;
+	else
+	{
+		// show all urls and let the user select (or take the first or ...)
+		// ...
+	}
+
+	var feed = FeedReader.Read(feedUrl);
+	// ...
+```
+
+
+The code contains a sample console application: https://github.com/codehollow/FeedReader/tree/master/FeedReader.ConsoleSample
 
 
 ## Specifications
