@@ -309,7 +309,18 @@ namespace CodeHollow.FeedReader.Tests
             Eq("They say “sex sells,” but don't go peddling it near dinner tables in Russia, where families in an ostensibly conservative society say the subject is too taboo to discuss at home.", item.Description);
             Eq("Tue, 10 Jan 2017 19:58:13 +0000", item.PublishingDateString);
             Eq("https://themoscowtimes.com/articles/dont-say-it-56774", item.Guid);
+        }
 
+        [TestMethod]
+        public void TestRss20CityDogKyrillicNoEncodingDefined()
+        {
+            var feed = FeedReader.ReadFromFile("Feeds/Rss20CityDog.xml");
+            Eq("Новости - citydog.by", feed.Title);
+            Eq("Последние обновления - citydog.by", feed.Description);
+
+            var item = feed.Items.First();
+            Eq("Группа «Серебряная свадьба» ушла в бессрочный отпуск", item.Title);
+            Eq("http://citydog.by/post/zaden-serebrianaya-svadba-v-otpuske/", item.Id);
         }
 
         [TestMethod]
