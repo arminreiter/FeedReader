@@ -132,7 +132,7 @@
         /// <returns>parsed feed</returns>
         public static Feed Read(string url)
         {
-            string feedContent = Helpers.Download(url);
+            string feedContent = Helpers.Download(GetAbsoluteUrl(url));
             return ReadFromString(feedContent);
         }
 

@@ -113,6 +113,13 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
+        public void TestReadRss20FeedCharter97Handle403Forbidden()
+        {
+            var feed = FeedReader.Read("charter97.org/rss.php");
+            Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
+        }
+
+        [TestMethod]
         public void TestReadRssScottHanselmanWeb()
         {
             var feed = FeedReader.Read("http://feeds.hanselman.com/ScottHanselman");
