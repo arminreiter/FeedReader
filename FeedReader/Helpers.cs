@@ -21,7 +21,10 @@
                 // header required - without it, some pages return a bad request (e.g. http://www.methode.at/blog?format=RSS)
                 // see: https://msdn.microsoft.com/en-us/library/system.net.webclient(v=vs.110).aspx
                 webclient.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
-
+                
+                // some servers also requires the accept header
+                webclient.Headers.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
+                
                 try
                 {
                     return webclient.DownloadString(url);

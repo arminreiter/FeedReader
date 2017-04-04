@@ -6,6 +6,8 @@ namespace CodeHollow.FeedReader.Tests
     [TestClass]
     public class FeedReaderTest
     {
+        #region special cases
+
         [TestMethod]
         public void TestDownload400BadRequest()
         {
@@ -14,10 +16,27 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(content.Length > 200);
         }
 
+        public void TestAcceptHeaderForbidden()
+        {
+            // results in 403 Forbidden if webclient does not have the accept header set
+            string content = Helpers.Download("http://www.girlsguidetopm.com/feed/");
+            Assert.IsTrue(content.Length > 200);
+        }
+
+        public void TestAcceptHeaderForbiddenWithParsing()
+        {
+            // results in 403 Forbidden if webclient does not have the accept header set
+            var feed = FeedReader.Read("http://www.girlsguidetopm.com/feed/");
+            string title = feed.Title;
+            Assert.IsTrue(feed.Items.Count > 2);
+            Assert.IsTrue(!string.IsNullOrEmpty(title));
+        }
+
+        #endregion
+
         #region ParseRssLinksFromHTML
 
         [TestMethod]
-        [Ignore] // destroys blog statistics :)
         public void TestParseRssLinksCodehollow()
         {
             TestParseRssLinks("https://codehollow.com", 2);

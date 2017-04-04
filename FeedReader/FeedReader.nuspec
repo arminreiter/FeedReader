@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/codehollow/FeedReader/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>fixed issue with pages that do not allow the .net webclient with specific user-agent defined in the header</releaseNotes>
+    <releaseNotes>fixed issue with missing accept header (403 forbidden) for some feeds</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>feed rss atom</tags>
   </metadata>
