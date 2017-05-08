@@ -95,7 +95,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadRss20GermanFeed()
         {
-            var feed = FeedReader.Read("http://content-wind.com/feed");
+            var feed = FeedReader.Read("http://botential.at/feed");
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 0);
         }
