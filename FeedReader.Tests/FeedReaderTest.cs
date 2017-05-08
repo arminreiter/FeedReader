@@ -16,13 +16,7 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(content.Length > 200);
         }
 
-        public void TestAcceptHeaderForbidden()
-        {
-            // results in 403 Forbidden if webclient does not have the accept header set
-            string content = Helpers.Download("http://www.girlsguidetopm.com/feed/");
-            Assert.IsTrue(content.Length > 200);
-        }
-
+        [TestMethod]
         public void TestAcceptHeaderForbiddenWithParsing()
         {
             // results in 403 Forbidden if webclient does not have the accept header set
@@ -31,6 +25,24 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(feed.Items.Count > 2);
             Assert.IsTrue(!string.IsNullOrEmpty(title));
         }
+
+        [TestMethod]
+        public void TestAcceptForbiddenUserAgent()
+        {
+            // results in 403 Forbidden if webclient does not have the accept header set
+            string content = Helpers.Download("https://mikeclayton.wordpress.com/feed/");
+            Assert.IsTrue(content.Length > 200);
+        }
+
+
+        [TestMethod]
+        public void TestAcceptForbiddenUserAgentWrike()
+        {
+            // results in 403 Forbidden if webclient does not have the accept header set
+            string content = Helpers.Download("https://www.wrike.com/blog");
+            Assert.IsTrue(content.Length > 200);
+        }
+        
 
         #endregion
 
@@ -144,6 +156,13 @@ namespace CodeHollow.FeedReader.Tests
             var feed = FeedReader.Read("http://feeds.hanselman.com/ScottHanselman");
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
             Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadBuildAzure()
+        {
+            string content = Helpers.Download("https://buildazure.com");
+            Assert.IsTrue(content.Length > 200);
         }
 
         #endregion
