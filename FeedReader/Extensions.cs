@@ -14,7 +14,7 @@
 
         public static string ToUtf8(this string text)
         {
-            return Encoding.UTF8.GetString(Encoding.Default.GetBytes(text));
+            return Encoding.UTF8.GetString(Encoding.GetEncoding(0).GetBytes(text));
         }
 
         public static string ToUtf8(this string text, Encoding encoding)
@@ -22,7 +22,8 @@
             if (encoding == Encoding.UTF8)
                 return text;
 
-            if (encoding == Encoding.Default)
+            var y = Encoding.GetEncoding(0);
+            if (encoding == Encoding.GetEncoding(0))
                 return text;
 
             var utf = Encoding.UTF8;
@@ -37,7 +38,7 @@
 
             string encodingStr = element.Document.Declaration?.Encoding;
 
-            var encoding = Encoding.Default;
+            var encoding = Encoding.GetEncoding(0);
             if (!string.IsNullOrEmpty(encodingStr))
                 encoding = Encoding.GetEncoding(encodingStr);
 
@@ -61,7 +62,7 @@
 
             string encodingStr = attribute.Document.Declaration?.Encoding;
 
-            var encoding = Encoding.Default;
+            var encoding = Encoding.GetEncoding(0);
             if (!string.IsNullOrEmpty(encodingStr))
                 encoding = Encoding.GetEncoding(encodingStr);
 

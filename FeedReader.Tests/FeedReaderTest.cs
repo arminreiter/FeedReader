@@ -157,12 +157,93 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
             Assert.IsTrue(feed.Items.Count > 0);
         }
-
+        
         [TestMethod]
         public void TestReadBuildAzure()
         {
             string content = Helpers.Download("https://buildazure.com");
             Assert.IsTrue(content.Length > 200);
+        }
+
+        [TestMethod]
+        public void TestReadNoticiasCatolicas()
+        {
+            var feed = FeedReader.Read("feeds.feedburner.com/NoticiasCatolicasAleteia");
+            Assert.AreEqual("Noticias Catolicas", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadTimeDoctor()
+        {
+            var feed = FeedReader.Read("https://blog.timedoctor.com/feed/");
+            Assert.AreEqual("Time Doctor", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadMikeC()
+        {
+            var feed = FeedReader.Read("https://mikeclayton.wordpress.com/feed/");
+            Assert.AreEqual("Shift Happens!", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadTheLPM()
+        {
+            var feed = FeedReader.Read("https://thelazyprojectmanager.wordpress.com/feed/");
+            Assert.AreEqual("The Lazy Project Manager's Blog", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+
+        [TestMethod]
+        public void TestReadStrategyEx()
+        {
+            var feed = FeedReader.Read("http://blog.strategyex.com/feed/");
+            Assert.AreEqual("Strategy Execution Blog", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadTechRep()
+        {
+            var feed = FeedReader.Read("http://www.techrepublic.com/rssfeeds/topic/project-management/");
+            Assert.AreEqual("Project Management on TechRepublic", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadAPOD()
+        {
+            var feed = FeedReader.Read("https://apod.nasa.gov/apod.rss");
+            Assert.AreEqual("APOD", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadThaqafnafsak()
+        {
+            var feed = FeedReader.Read("http://www.thaqafnafsak.com/feed");
+            Assert.AreEqual("ثقف نفسك", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadTheStudentLawyer()
+        {
+            var feed = FeedReader.Read("http://us10.campaign-archive.com/feed?u=8da2e137a07b178e5d9a71c2c&id=9134b0cc95");
+            Assert.AreEqual("The Student Lawyer Careers Network Archive Feed", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public void TestReadLiveBold()
+        {
+            var feed = FeedReader.Read("http://feeds.feedburner.com/LiveBoldAndBloom");
+            Assert.AreEqual("Live Bold and Bloom", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
         }
 
         #endregion

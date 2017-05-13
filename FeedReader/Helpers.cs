@@ -1,6 +1,8 @@
 ﻿namespace CodeHollow.FeedReader
 {
     using System;
+    using System.Net.Http;
+    using System.Threading.Tasks;
 
     /// <summary>
     /// static class with helper functions
@@ -14,32 +16,37 @@
         /// <returns>content as string</returns>
         public static string Download(string url)
         {
-            url = System.Web.HttpUtility.UrlDecode(url);
-            using (var webclient = new System.Net.WebClient())
+            url = System.Net.WebUtility.UrlDecode(url);
+
+            using (var httpclient = new HttpClient())
             {
-                webclient.Encoding = System.Text.Encoding.UTF8;
+                //webclient.Encoding = System.Text.Encoding.UTF8; // TODO
                 // header required - without it, some pages return a bad request (e.g. http://www.methode.at/blog?format=RSS)
                 // see: https://msdn.microsoft.com/en-us/library/system.net.webclient(v=vs.110).aspx
-                webclient.Headers.Add("user-agent", "Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0");
+                httpclient.DefaultRequestHeaders.Add("user-agent", "Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0");
+                httpclient.DefaultRequestHeaders.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
                 
-                // some servers also requires the accept header
-                webclient.Headers.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
-                
-                try
-                {
-                    return webclient.DownloadString(url);
-                }
-                catch(System.Net.WebException ex)
-                {
-                    if (ex.Status == System.Net.WebExceptionStatus.ProtocolError)
+                string result = string.Empty;
+                Task.Run(async () =>
                     {
-                        // webclient.Headers is now empty. Some pages return forbidden if user-agent is set.
-                        return webclient.DownloadString(url);
-                    }
+                        var response = await httpclient.GetAsync(url);
+                        
+                        if(!response.IsSuccessStatusCode)
+                        {
+                            httpclient.DefaultRequestHeaders.Clear();
+                            // httpclient.Headers are now empty. Some pages return forbidden if user-agent is set.
+                            response = await httpclient.GetAsync(url);
+                        }
 
-                    throw;
-                }
+                        // ReadAsByteArray avoids encoding issues that probably occur by using ReadAsStringAsync()
+                        //  - this issue is captured by testcase TestReadRss20FeedCharter97Handle403Forbidden
+                        var resultAsByteArray = await response.Content.ReadAsByteArrayAsync();
+                        result = System.Text.Encoding.UTF8.GetString(resultAsByteArray);
+                    }).Wait();
+
+                return result;
             }
+
         }
 
         /// <summary>
@@ -60,7 +67,7 @@
                 {
                     int pos = datetime.IndexOf(',') + 1;
                     string newdtstring = datetime.Substring(pos).Trim();
-                    
+
                     DateTimeOffset.TryParse(newdtstring, out dt);
                 }
             }

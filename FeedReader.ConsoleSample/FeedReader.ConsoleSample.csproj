@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -51,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FeedReader\FeedReader.csproj">
-      <Project>{4a156856-c9d1-4ce9-a9c1-37b077cd579b}</Project>
+      <Project>{e6d73d4a-2166-4715-a7b0-c3644469959a}</Project>
       <Name>FeedReader</Name>
     </ProjectReference>
   </ItemGroup>

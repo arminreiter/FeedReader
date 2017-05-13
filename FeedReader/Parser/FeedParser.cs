@@ -14,22 +14,22 @@
         {
             string rootElement = doc.Root.Name.LocalName;
 
-            if (rootElement.Equals("feed", StringComparison.InvariantCultureIgnoreCase))
+            if (rootElement.Equals("feed", StringComparison.OrdinalIgnoreCase))
                 return FeedType.Atom;
 
-            if (rootElement.Equals("rdf", StringComparison.InvariantCultureIgnoreCase))
+            if (rootElement.Equals("rdf", StringComparison.OrdinalIgnoreCase))
                 return FeedType.Rss_1_0;
 
-            if (rootElement.Equals("rss", StringComparison.InvariantCultureIgnoreCase))
+            if (rootElement.Equals("rss", StringComparison.OrdinalIgnoreCase))
             {
                 string version = doc.Root.Attribute("version").Value;
-                if (version.Equals("2.0", StringComparison.InvariantCultureIgnoreCase))
+                if (version.Equals("2.0", StringComparison.OrdinalIgnoreCase))
                     return FeedType.Rss_2_0;
 
-                if (version.Equals("0.91", StringComparison.InvariantCultureIgnoreCase))
+                if (version.Equals("0.91", StringComparison.OrdinalIgnoreCase))
                     return FeedType.Rss_0_91;
 
-                if (version.Equals("0.92", StringComparison.InvariantCultureIgnoreCase))
+                if (version.Equals("0.92", StringComparison.OrdinalIgnoreCase))
                     return FeedType.Rss_0_92;
 
                 return FeedType.Rss;
