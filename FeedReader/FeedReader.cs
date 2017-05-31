@@ -79,7 +79,6 @@
             return GetFeedUrlsFromUrlAsync(url).Result;
         }
 
-
         /// <summary>
         /// Opens a webpage and reads all feed urls from it (link rel="alternate" type="application/...")
         /// </summary>
@@ -99,7 +98,7 @@
         /// </summary>
         /// <param name="url">the url of the page</param>
         /// <returns>a list of links, an empty list if no links are found</returns>
-        [Obsolete("Use the ParseFeedUrlsAsString method")]
+        [Obsolete("Use the ParseFeedUrlsAsStringAsync method")]
         public static string[] ParseFeedUrlsAsString(string url)
         {
             return ParseFeedUrlsAsStringAsync(url).Result;

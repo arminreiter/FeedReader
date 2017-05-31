@@ -173,12 +173,10 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
-        // The timedoctor feed does not exist anymore
         [TestMethod]
-        [Ignore]
         public void TestReadTimeDoctor()
         {
-            var feed = FeedReader.Read("https://blog.timedoctor.com/feed/");
+            var feed = FeedReader.Read("https://www.timedoctor.com/blog/feed/");
             Assert.AreEqual("Time Doctor", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }

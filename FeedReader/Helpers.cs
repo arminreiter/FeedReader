@@ -1,6 +1,7 @@
 ﻿namespace CodeHollow.FeedReader
 {
     using System;
+    using System.Globalization;
     using System.Net.Http;
     using System.Text;
     using System.Threading.Tasks;
@@ -60,13 +61,16 @@
         /// Tries to parse the string as datetime and returns null if it fails
         /// </summary>
         /// <param name="datetime">datetime as string</param>
+        /// <param name="cultureInfo">The cultureInfo for parsing</param>
         /// <returns>datetime or null</returns>
-        public static DateTime? TryParseDateTime(string datetime)
+        public static DateTime? TryParseDateTime(string datetime, CultureInfo cultureInfo = null)
         {
-            if (string.IsNullOrEmpty(datetime))
+            if (string.IsNullOrWhiteSpace(datetime))
                 return null;
-            DateTimeOffset dt;
-            if (!DateTimeOffset.TryParse(datetime, out dt))
+
+            var dateTimeFormat = cultureInfo?.DateTimeFormat ?? DateTimeFormatInfo.CurrentInfo;
+
+            if (!DateTimeOffset.TryParse(datetime, dateTimeFormat, DateTimeStyles.None, out var dt))
             {
                 // Do, 22 Dez 2016 17:36:00 +0000
                 // note - tried ParseExact with diff formats like "ddd, dd MMM yyyy hh:mm:ss K"
@@ -75,7 +79,7 @@
                     int pos = datetime.IndexOf(',') + 1;
                     string newdtstring = datetime.Substring(pos).Trim();
 
-                    DateTimeOffset.TryParse(newdtstring, out dt);
+                    DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None, out dt);
                 }
             }
 

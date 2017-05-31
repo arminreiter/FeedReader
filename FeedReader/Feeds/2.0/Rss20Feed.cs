@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Globalization;
     using System.Linq;
     using System.Xml.Linq;
 
@@ -129,6 +130,28 @@
             this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString);
             this.LastBuildDateString = channel.GetValue("lastBuildDate");
             this.LastBuildDate = Helpers.TryParseDateTime(this.LastBuildDateString);
+
+            if(this.Language != null && (this.PublishingDate == null || this.LastBuildDate == null))
+            {
+                CultureInfo culture = null;
+
+                try
+                {
+                    culture = new CultureInfo(this.Language);
+                    if (this.PublishingDate == null)
+                    {
+                        this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString, culture);
+                    }
+
+                    if (this.LastBuildDate == null)
+                    {
+                        this.LastBuildDate = Helpers.TryParseDateTime(this.LastBuildDateString, culture);
+                    }
+                }
+                catch(CultureNotFoundException)
+                {
+                }
+            }
 
             var categories = channel.GetElements("category");
             this.Categories = categories.Select(x => x.GetValue()).ToList();

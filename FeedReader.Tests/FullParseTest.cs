@@ -263,10 +263,6 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
-        [Ignore]
-        // this test is invalid since RSS 2.0 feeds must follow the 
-        // http://www.faqs.org/rfcs/rfc822.html RFC822 for Date and Time formats
-        // therefore a date specified in german is not a valid date for an RSS feed
         public void TestRss20ParseContentWindGerman()
         {
             var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20ContentWindCom.xml").SpecificFeed;
