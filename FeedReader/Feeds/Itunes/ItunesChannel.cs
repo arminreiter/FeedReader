@@ -33,7 +33,7 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
 
             var ownerElement = channelElement.GetElement("itunes", "owner");
 
-            if(ownerElement != null)
+            if (ownerElement != null)
             {
                 Owner = new ItunesOwner(ownerElement.GetValue("itunes", "name"), ownerElement.GetValue("itunes", "email"));
             }

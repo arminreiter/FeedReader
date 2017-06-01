@@ -23,14 +23,18 @@
         public string UpdateBase { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Syndication"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public Syndication() { }
+        public Syndication()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Syndication"/> class.
         /// Creates the object based on the xml in the given XElement
         /// </summary>
-        /// <param name="xelement"></param>
+        /// <param name="xelement">syndication element as xml</param>
         public Syndication(XElement xelement)
         {
             this.UpdateBase = xelement.GetValue("sy:updateBase");

@@ -38,15 +38,18 @@
         public int? Length { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomLink"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public AtomLink()
-        { }
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomLink"/> class.
         /// Reads an atom link based on the xml given in element
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">link as xml</param>
         public AtomLink(XElement element)
         {
             this.Href = element.GetAttributeValue("href");
@@ -60,7 +63,7 @@
         /// <summary>
         /// Returns the Href of the link
         /// </summary>
-        /// <returns></returns>
+        /// <returns>the href of the link</returns>
         public override string ToString()
         {
             return this.Href;

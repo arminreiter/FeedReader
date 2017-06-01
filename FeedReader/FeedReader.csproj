@@ -20,6 +20,16 @@
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType></RepositoryType>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.3|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.3\CodeHollow.FeedReader.xml</DocumentationFile>
+    <NoWarn></NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net452|AnyCPU'">
+    <DocumentationFile>bin\Debug\net452\CodeHollow.FeedReader.xml</DocumentationFile>
+    <NoWarn></NoWarn>
+  </PropertyGroup>
   
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">
     <PackageReference Include="HtmlAgilityPack.NetCore" Version="1.5.0.1" />
@@ -28,6 +38,10 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net452'">
     <PackageReference Include="HtmlAgilityPack" Version="1.4.9.5" />
     <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="5.11.0.1761" />
   </ItemGroup>
 
 </Project>

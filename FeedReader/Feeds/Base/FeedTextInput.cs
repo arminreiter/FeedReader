@@ -28,15 +28,18 @@
         public string Name { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedTextInput"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public FeedTextInput()
-        { }
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedTextInput"/> class.
         /// Reads a rss textInput element based on the xml given in element
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">text input element as xml</param>
         public FeedTextInput(XElement element)
         {
             this.Title = element.GetValue("title");

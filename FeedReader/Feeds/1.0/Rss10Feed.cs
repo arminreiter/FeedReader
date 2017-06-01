@@ -39,28 +39,32 @@
         public FeedTextInput TextInput { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss10Feed"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public Rss10Feed()
-            : base() { }
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss10Feed"/> class.
         /// Reads a rss 1.0 feed based on the xml given in xelement
         /// </summary>
-        /// <param name="feedXml"></param>
-        /// <param name="xelement"></param>
-        public Rss10Feed(string feedXml, XElement xelement)
-            : base(feedXml, xelement)
+        /// <param name="feedXml">the entire feed xml as string</param>
+        /// <param name="channel">the "channel" element in the xml as XElement</param>
+        public Rss10Feed(string feedXml, XElement channel)
+            : base(feedXml, channel)
         {
-            this.About = xelement.GetAttribute("rdf:about").GetValue();
-            this.DC = new DublinCore(xelement);
-            this.Sy = new Syndication(xelement);
-            this.Description = xelement.GetValue("description");
+            this.About = channel.GetAttribute("rdf:about").GetValue();
+            this.DC = new DublinCore(channel);
+            this.Sy = new Syndication(channel);
+            this.Description = channel.GetValue("description");
 
-            this.Image = new Rss10FeedImage(xelement.Parent.GetElement("image"));
-            this.TextInput = new Rss10FeedTextInput(xelement.Parent.GetElement("textinput"));
+            this.Image = new Rss10FeedImage(channel.Parent.GetElement("image"));
+            this.TextInput = new Rss10FeedTextInput(channel.Parent.GetElement("textinput"));
 
-            var items = xelement.Parent.GetElements("item");
+            var items = channel.Parent.GetElements("item");
             foreach (var item in items)
             {
                 this.Items.Add(new Rss10FeedItem(item));

@@ -6,7 +6,7 @@
 
     /// <summary>
     /// Generic feed item object that contains some basic properties. The feed item is typically
-    /// an article or a blog post. If a property is not available 
+    /// an article or a blog post. If a property is not available
     /// for a specific feed type (e.g. Rss 1.0), then the property is empty.
     /// If a feed item has more properties, like the Generator property for Rss 2.0, then you can use
     /// the <see cref="SpecificItem"/> property.
@@ -35,7 +35,7 @@
         public string PublishingDateString { get; set; }
 
         /// <summary>
-        /// The published date as datetime. Null if parsing failed or if 
+        /// The published date as datetime. Null if parsing failed or if
         /// no publishing date is set. If null, please check <see cref="PublishingDateString"/> property.
         /// </summary>
         public DateTime? PublishingDate { get; set; }
@@ -67,11 +67,15 @@
         public BaseFeedItem SpecificItem { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedItem"/> class.
         /// Default constructor, just there for serialization.
         /// </summary>
-        public FeedItem() { }
+        public FeedItem()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedItem"/> class.
         /// Creates the generic feed item object based on a parsed <see cref="BaseFeedItem"/>
         /// </summary>
         /// <param name="feedItem">BaseFeedItem which is a <see cref="Rss20FeedItem"/> , <see cref="Rss10FeedItem"/>, or another.</param>

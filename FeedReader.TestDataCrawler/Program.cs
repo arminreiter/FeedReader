@@ -22,7 +22,7 @@ namespace CodeHollow.FeedReader.TestDataCrawler
 
         static void Do(string url)
         {
-            var links = FeedReader.GetFeedUrlsFromUrl(url);
+            var links = FeedReader.GetFeedUrlsFromUrlAsync(url).Result;
             
             foreach (var link in links)
             {
@@ -37,7 +37,7 @@ namespace CodeHollow.FeedReader.TestDataCrawler
                     title = Regex.Replace(title.ToLower(), "[^a-z]*", "");
                     var curl = FeedReader.GetAbsoluteFeedUrl(url, link);
 
-                    string content = Helpers.Download(curl.Url);
+                    string content = Helpers.DownloadAsync(curl.Url).Result;
                     System.IO.File.WriteAllText("c:\\data\\feeds\\" + title + "_" + Guid.NewGuid().ToString() + ".xml", content);
                     Console.Write("+");
                 }

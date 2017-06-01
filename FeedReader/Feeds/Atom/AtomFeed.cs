@@ -71,16 +71,20 @@
         public ICollection<AtomLink> Links { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomFeed"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public AtomFeed()
-            : base() { }
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomFeed"/> class.
         /// Reads an atom feed based on the xml given in channel
         /// </summary>
-        /// <param name="feedXml"></param>
-        /// <param name="feed"></param>
+        /// <param name="feedXml">the entire feed xml as string</param>
+        /// <param name="feed">the feed element in the xml as XElement</param>
         public AtomFeed(string feedXml, XElement feed)
             : base(feedXml, feed)
         {
@@ -118,16 +122,16 @@
         /// <returns>feed</returns>
         public override Feed ToFeed()
         {
-            Feed f = new Feed(this);
-
-            f.Copyright = this.Rights;
-            f.Description = null;
-            f.ImageUrl = this.Icon;
-            f.Language = null;
-            f.LastUpdatedDate = this.UpdatedDate;
-            f.LastUpdatedDateString = this.UpdatedDateString;
-            f.Type = FeedType.Atom;
-
+            Feed f = new Feed(this)
+            {
+                Copyright = this.Rights,
+                Description = null,
+                ImageUrl = this.Icon,
+                Language = null,
+                LastUpdatedDate = this.UpdatedDate,
+                LastUpdatedDateString = this.UpdatedDateString,
+                Type = FeedType.Atom
+            };
             return f;
         }
     }

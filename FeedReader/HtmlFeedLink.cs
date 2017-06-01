@@ -21,6 +21,7 @@
         public FeedType FeedType { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="HtmlFeedLink"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public HtmlFeedLink()
@@ -28,11 +29,12 @@
         }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="HtmlFeedLink"/> class.
         /// Creates an html feed link item
         /// </summary>
-        /// <param name="title"></param>
-        /// <param name="url"></param>
-        /// <param name="feedtype"></param>
+        /// <param name="title">title fo the feed</param>
+        /// <param name="url">url of the feed</param>
+        /// <param name="feedtype">type of the feed (rss 1.0, 2.0, ...)</param>
         public HtmlFeedLink(string title, string url, FeedType feedtype)
         {
             this.Title = title;

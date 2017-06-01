@@ -24,12 +24,16 @@
         public DateTime? PublishingDate { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss091FeedItem"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public Rss091FeedItem()
-            : base() { }
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss091FeedItem"/> class.
         /// Creates this object based on the xml in the XElement parameter.
         /// </summary>
         /// <param name="item">feed item as xml</param>
@@ -43,13 +47,13 @@
 
         internal override FeedItem ToFeedItem()
         {
-            FeedItem fi = new FeedItem(this);
-
-            fi.Description = this.Description;
-            fi.PublishingDate = this.PublishingDate;
-            fi.PublishingDateString = this.PublishingDateString;
-            fi.Id = this.Link;
-
+            FeedItem fi = new FeedItem(this)
+            {
+                Description = this.Description,
+                PublishingDate = this.PublishingDate,
+                PublishingDateString = this.PublishingDateString,
+                Id = this.Link
+            };
             return fi;
         }
     }

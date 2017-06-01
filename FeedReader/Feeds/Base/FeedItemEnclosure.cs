@@ -23,15 +23,18 @@
         public string MediaType { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedItemEnclosure"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public FeedItemEnclosure()
-        { }
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedItemEnclosure"/> class.
         /// Reads a rss feed item enclosure based on the xml given in element
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">enclosure element as xml</param>
         public FeedItemEnclosure(XElement element)
         {
             this.Url = element.GetAttributeValue("url");

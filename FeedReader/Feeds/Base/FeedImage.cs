@@ -23,6 +23,7 @@
         public string Link { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedImage"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public FeedImage()
@@ -30,9 +31,10 @@
         }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedImage"/> class.
         /// Reads a feed image based on the xml given in element
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">feed image as xml</param>
         public FeedImage(XElement element)
         {
             this.Title = element.GetValue("title");

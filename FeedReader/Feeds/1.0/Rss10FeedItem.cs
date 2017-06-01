@@ -29,15 +29,19 @@
         public Syndication Sy { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss10FeedItem"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public Rss10FeedItem()
-            : base() { }
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss10FeedItem"/> class.
         /// Reads a rss 1.0 feed item based on the xml given in item
         /// </summary>
-        /// <param name="item"></param>
+        /// <param name="item">feed item as xml</param>
         public Rss10FeedItem(XElement item)
             : base(item)
         {
@@ -48,6 +52,7 @@
             this.Description = item.GetValue("description");
         }
 
+        /// <inheritdoc/>
         internal override FeedItem ToFeedItem()
         {
             FeedItem f = new FeedItem(this);

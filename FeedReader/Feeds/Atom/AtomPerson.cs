@@ -23,14 +23,18 @@
         public string Uri { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomPerson"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public AtomPerson() { }
+        public AtomPerson()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomPerson"/> class.
         /// Reads an atom person based on the xml given in element
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">person element as xml</param>
         public AtomPerson(XElement element)
         {
             this.Name = element.GetValue("name");
@@ -41,7 +45,7 @@
         /// <summary>
         /// returns the name of the author including the email if available
         /// </summary>
-        /// <returns></returns>
+        /// <returns>name of the author with email if available</returns>
         public override string ToString()
         {
             if (string.IsNullOrEmpty(this.EMail))

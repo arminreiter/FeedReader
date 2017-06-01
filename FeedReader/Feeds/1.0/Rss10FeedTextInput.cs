@@ -13,15 +13,19 @@
         public string About { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss10FeedTextInput"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public Rss10FeedTextInput() : base()
-        { }
+        public Rss10FeedTextInput()
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss10FeedTextInput"/> class.
         /// Reads a rss 1.0 textInput element based on the xml given in item
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">about element as xml</param>
         public Rss10FeedTextInput(XElement element)
             : base(element)
         {

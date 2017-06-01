@@ -10,7 +10,7 @@ namespace CodeHollow.FeedReader.ConsoleSample
             Console.WriteLine("Please enter feed url:");
             string url = Console.ReadLine();
 
-            var urls = FeedReader.GetFeedUrlsFromUrl(url);
+            var urls = FeedReader.GetFeedUrlsFromUrlAsync(url).Result;
             
             string feedUrl;
             if (urls.Count() < 1)
@@ -28,8 +28,8 @@ namespace CodeHollow.FeedReader.ConsoleSample
                     Console.WriteLine($"{i++.ToString()} - {feedurl.Title} - {feedurl.Url}");
                 }
                 var input = Console.ReadLine();
-                int index;
-                if (!int.TryParse(input, out index) || index < 1 || index > urls.Count())
+
+                if (!int.TryParse(input, out int index) || index < 1 || index > urls.Count())
                 {
                     Console.WriteLine("Wrong input. Press key to exit");
                     Console.ReadKey();
@@ -38,7 +38,7 @@ namespace CodeHollow.FeedReader.ConsoleSample
                 feedUrl = urls.ElementAt(index).Url;
             }
 
-            var reader = FeedReader.Read(feedUrl);
+            var reader = FeedReader.ReadAsync(feedUrl).Result;
 
             foreach (var item in reader.Items)
             {

@@ -12,15 +12,14 @@ namespace CodeHollow.FeedReader.Tests
         public void TestDownload400BadRequest()
         {
             // results in a 400 BadRequest if webclient is not initialized correctly
-            string content = Helpers.Download("http://www.methode.at/blog?format=RSS");
-            Assert.IsTrue(content.Length > 200);
+            DownloadTest("http://www.methode.at/blog?format=RSS");
         }
 
         [TestMethod]
         public void TestAcceptHeaderForbiddenWithParsing()
         {
             // results in 403 Forbidden if webclient does not have the accept header set
-            var feed = FeedReader.Read("http://www.girlsguidetopm.com/feed/");
+            var feed = FeedReader.ReadAsync("http://www.girlsguidetopm.com/feed/").Result;
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 2);
             Assert.IsTrue(!string.IsNullOrEmpty(title));
@@ -30,8 +29,7 @@ namespace CodeHollow.FeedReader.Tests
         public void TestAcceptForbiddenUserAgent()
         {
             // results in 403 Forbidden if webclient does not have the accept header set
-            string content = Helpers.Download("https://mikeclayton.wordpress.com/feed/");
-            Assert.IsTrue(content.Length > 200);
+            DownloadTest("https://mikeclayton.wordpress.com/feed/");
         }
 
 
@@ -39,8 +37,7 @@ namespace CodeHollow.FeedReader.Tests
         public void TestAcceptForbiddenUserAgentWrike()
         {
             // results in 403 Forbidden if webclient does not have the accept header set
-            string content = Helpers.Download("https://www.wrike.com/blog");
-            Assert.IsTrue(content.Length > 200);
+            DownloadTest("https://www.wrike.com/blog");
         }
         
 
@@ -69,7 +66,7 @@ namespace CodeHollow.FeedReader.Tests
 
         private void TestParseRssLinks(string url, int expectedNumberOfLinks)
         {
-            string[] urls = FeedReader.ParseFeedUrlsAsString(url);
+            string[] urls = FeedReader.ParseFeedUrlsAsStringAsync(url).Result;
             Assert.AreEqual(expectedNumberOfLinks, urls.Length);
         }
 
@@ -81,7 +78,7 @@ namespace CodeHollow.FeedReader.Tests
         public void TestParseAndAbsoluteUrlDerStandard1()
         {
             string url = "derstandard.at";
-            var links = FeedReader.GetFeedUrlsFromUrl(url);
+            var links = FeedReader.GetFeedUrlsFromUrlAsync(url).Result;
 
             foreach (var link in links)
             {
@@ -98,7 +95,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadSimpleFeed()
         {
-            var feed = FeedReader.Read("https://codehollow.com/feed");
+            var feed = FeedReader.ReadAsync("https://codehollow.com/feed").Result;
             string title = feed.Title;
             Assert.AreEqual("codehollow", title);
             Assert.AreEqual(10, feed.Items.Count());
@@ -107,7 +104,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadRss20GermanFeed()
         {
-            var feed = FeedReader.Read("http://botential.at/feed");
+            var feed = FeedReader.ReadAsync("http://botential.at/feed").Result;
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -115,7 +112,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadRss10GermanFeed()
         {
-            var feed = FeedReader.Read("http://rss.orf.at/news.xml");
+            var feed = FeedReader.ReadAsync("http://rss.orf.at/news.xml").Result;
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 10);
         }
@@ -123,7 +120,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadAtomFeedHeise()
         {
-            var feed = FeedReader.Read("https://www.heise.de/newsticker/heise-atom.xml");
+            var feed = FeedReader.ReadAsync("https://www.heise.de/newsticker/heise-atom.xml").Result;
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
             Assert.IsTrue(feed.Items.Count > 1);
         }
@@ -131,14 +128,14 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadAtomFeedGitHub()
         {
-            var feed = FeedReader.Read("https://github.com/codehollow/AzureBillingRateCardSample/commits/master.atom");
+            var feed = FeedReader.ReadAsync("https://github.com/codehollow/AzureBillingRateCardSample/commits/master.atom").Result;
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
         }
 
         [TestMethod]
         public void TestReadRss20GermanFeedPowershell()
         {
-            var feed = FeedReader.Read("http://www.powershell.co.at/feed/");
+            var feed = FeedReader.ReadAsync("http://www.powershell.co.at/feed/").Result;
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -146,14 +143,14 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadRss20FeedCharter97Handle403Forbidden()
         {
-            var feed = FeedReader.Read("charter97.org/rss.php");
+            var feed = FeedReader.ReadAsync("charter97.org/rss.php").Result;
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
         }
 
         [TestMethod]
         public void TestReadRssScottHanselmanWeb()
         {
-            var feed = FeedReader.Read("http://feeds.hanselman.com/ScottHanselman");
+            var feed = FeedReader.ReadAsync("http://feeds.hanselman.com/ScottHanselman").Result;
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -161,14 +158,13 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadBuildAzure()
         {
-            string content = Helpers.Download("https://buildazure.com");
-            Assert.IsTrue(content.Length > 200);
+            DownloadTest("https://buildazure.com");
         }
 
         [TestMethod]
         public void TestReadNoticiasCatolicas()
         {
-            var feed = FeedReader.Read("feeds.feedburner.com/NoticiasCatolicasAleteia");
+            var feed = FeedReader.ReadAsync("feeds.feedburner.com/NoticiasCatolicasAleteia").Result;
             Assert.AreEqual("Noticias Catolicas", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -176,7 +172,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadTimeDoctor()
         {
-            var feed = FeedReader.Read("https://www.timedoctor.com/blog/feed/");
+            var feed = FeedReader.ReadAsync("https://www.timedoctor.com/blog/feed/").Result;
             Assert.AreEqual("Time Doctor", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -184,7 +180,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadMikeC()
         {
-            var feed = FeedReader.Read("https://mikeclayton.wordpress.com/feed/");
+            var feed = FeedReader.ReadAsync("https://mikeclayton.wordpress.com/feed/").Result;
             Assert.AreEqual("Shift Happens!", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -192,7 +188,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadTheLPM()
         {
-            var feed = FeedReader.Read("https://thelazyprojectmanager.wordpress.com/feed/");
+            var feed = FeedReader.ReadAsync("https://thelazyprojectmanager.wordpress.com/feed/").Result;
             Assert.AreEqual("The Lazy Project Manager's Blog", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -201,7 +197,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadStrategyEx()
         {
-            var feed = FeedReader.Read("http://blog.strategyex.com/feed/");
+            var feed = FeedReader.ReadAsync("http://blog.strategyex.com/feed/").Result;
             Assert.AreEqual("Strategy Execution Blog", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -209,7 +205,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadTechRep()
         {
-            var feed = FeedReader.Read("http://www.techrepublic.com/rssfeeds/topic/project-management/");
+            var feed = FeedReader.ReadAsync("http://www.techrepublic.com/rssfeeds/topic/project-management/").Result;
             Assert.AreEqual("Project Management on TechRepublic", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -217,7 +213,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadAPOD()
         {
-            var feed = FeedReader.Read("https://apod.nasa.gov/apod.rss");
+            var feed = FeedReader.ReadAsync("https://apod.nasa.gov/apod.rss").Result;
             Assert.AreEqual("APOD", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -225,7 +221,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadThaqafnafsak()
         {
-            var feed = FeedReader.Read("http://www.thaqafnafsak.com/feed");
+            var feed = FeedReader.ReadAsync("http://www.thaqafnafsak.com/feed").Result;
             Assert.AreEqual("ثقف نفسك", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -233,7 +229,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadTheStudentLawyer()
         {
-            var feed = FeedReader.Read("http://us10.campaign-archive.com/feed?u=8da2e137a07b178e5d9a71c2c&id=9134b0cc95");
+            var feed = FeedReader.ReadAsync("http://us10.campaign-archive.com/feed?u=8da2e137a07b178e5d9a71c2c&id=9134b0cc95").Result;
             Assert.AreEqual("The Student Lawyer Careers Network Archive Feed", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -241,9 +237,19 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadLiveBold()
         {
-            var feed = FeedReader.Read("http://feeds.feedburner.com/LiveBoldAndBloom");
+            var feed = FeedReader.ReadAsync("http://feeds.feedburner.com/LiveBoldAndBloom").Result;
             Assert.AreEqual("Live Bold and Bloom", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        #endregion
+
+        #region private helpers
+
+        private void DownloadTest(string url)
+        {
+            string content = Helpers.DownloadAsync(url).Result;
+            Assert.IsTrue(content.Length > 200);
         }
 
         #endregion

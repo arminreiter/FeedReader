@@ -40,26 +40,28 @@
         public XElement Element { get; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="BaseFeed"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public BaseFeed()
+        protected BaseFeed()
         {
             this.Items = new List<BaseFeedItem>();
         }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="BaseFeed"/> class.
         /// Reads a base feed based on the xml given in element
         /// </summary>
-        /// <param name="feedXml"></param>
-        /// <param name="xelement"></param>
-        public BaseFeed(string feedXml, XElement xelement)
+        /// <param name="feedXml">the entire feed xml as string</param>
+        /// <param name="channel">the "channel" element in the xml as XElement</param>
+        protected BaseFeed(string feedXml, XElement channel)
             : this()
         {
             this.OriginalDocument = feedXml;
 
-            this.Title = xelement.GetValue("title");
-            this.Link = xelement.GetValue("link");
-            this.Element = xelement;
+            this.Title = channel.GetValue("title");
+            this.Link = channel.GetValue("link");
+            this.Element = channel;
         }
     }
 }

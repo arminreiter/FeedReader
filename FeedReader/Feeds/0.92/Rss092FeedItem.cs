@@ -25,16 +25,21 @@
         public FeedItemSource Source { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss092FeedItem"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public Rss092FeedItem() : base()
-        { }
+        public Rss092FeedItem()
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss092FeedItem"/> class.
         /// Creates a new feed item element based on the given xml XELement
         /// </summary>
         /// <param name="item">the xml containing the feed item</param>
-        public Rss092FeedItem(XElement item) : base(item)
+        public Rss092FeedItem(XElement item)
+            : base(item)
         {
             this.Enclosure = new FeedItemEnclosure(item.GetElement("enclosure"));
             this.Source = new FeedItemSource(item.GetElement("source"));

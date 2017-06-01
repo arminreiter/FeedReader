@@ -23,12 +23,16 @@
         public int? Height { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss091FeedImage"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public Rss091FeedImage() : base()
-        { }
+        public Rss091FeedImage()
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss091FeedImage"/> class.
         /// Creates this object based on the xml in the XElement parameter.
         /// </summary>
         /// <param name="element">feed image as xml</param>

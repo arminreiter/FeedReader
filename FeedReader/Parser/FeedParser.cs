@@ -3,6 +3,9 @@
     using System;
     using System.Xml.Linq;
 
+    /// <summary>
+    /// Internal FeedParser - returns the type of the feed or the parsed feed.
+    /// </summary>
     internal static class FeedParser
     {
         /// <summary>
@@ -45,7 +48,7 @@
         /// <returns>parsed feed</returns>
         public static Feed GetFeed(string feedContent)
         {
-            feedContent = feedContent.Replace(((char)0x1C).ToString(), ""); // replaces special char 0x1C, fixes issues with at least one feed
+            feedContent = feedContent.Replace(((char)0x1C).ToString(), string.Empty); // replaces special char 0x1C, fixes issues with at least one feed
 
             XDocument feedDoc = XDocument.Parse(feedContent);
 

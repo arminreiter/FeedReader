@@ -8,10 +8,10 @@
     using Parser;
 
     /// <summary>
-    /// The static FeedReader class which allows to read feeds from a given url. Use it to 
-    /// parse a feed from an url <see cref="Read(string)"/>, a file <see cref="ReadFromFile(string)"/>  
-    /// or a string <see cref="ReadFromString(string)"/>. If the feed url is not known, <see cref="ParseFeedUrlsFromHtml(string)"/> 
-    /// returns all feed links on a given page. 
+    /// The static FeedReader class which allows to read feeds from a given url. Use it to
+    /// parse a feed from an url <see cref="Read(string)"/>, a file <see cref="ReadFromFile(string)"/>
+    /// or a string <see cref="ReadFromString(string)"/>. If the feed url is not known, <see cref="ParseFeedUrlsFromHtml(string)"/>
+    /// returns all feed links on a given page.
     /// </summary>
     /// <example>
     /// var links = FeedReader.ParseFeedUrlsFromHtml("https://codehollow.com");
@@ -52,8 +52,7 @@
             if (tmpUrl.StartsWith("//", StringComparison.OrdinalIgnoreCase)) // special case
                 tmpUrl = "http:" + tmpUrl;
 
-            Uri finalUri;
-            if (Uri.TryCreate(tmpUrl, UriKind.RelativeOrAbsolute, out finalUri))
+            if (Uri.TryCreate(tmpUrl, UriKind.RelativeOrAbsolute, out Uri finalUri))
             {
                 if (finalUri.IsAbsoluteUri)
                 {
@@ -71,7 +70,7 @@
         /// </summary>
         /// <param name="url">the url of the page</param>
         /// <returns>a list of links including the type and title, an empty list if no links are found</returns>
-        /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at 
+        /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at
         /// https://codehollow.com </example>
         [Obsolete("Use GetFeedUrlsFromUrlAsync method")]
         public static IEnumerable<HtmlFeedLink> GetFeedUrlsFromUrl(string url)
@@ -84,7 +83,7 @@
         /// </summary>
         /// <param name="url">the url of the page</param>
         /// <returns>a list of links including the type and title, an empty list if no links are found</returns>
-        /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at 
+        /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at
         /// https://codehollow.com </example>
         public static async Task<IEnumerable<HtmlFeedLink>> GetFeedUrlsFromUrlAsync(string url)
         {
@@ -113,7 +112,7 @@
         {
             return (await GetFeedUrlsFromUrlAsync(url)).Select(x => x.Url).ToArray();
         }
-        
+
         /// <summary>
         /// Parses RSS links from html page and returns all links
         /// </summary>
@@ -194,7 +193,7 @@
         {
             return FeedParser.GetFeed(feedContent);
         }
-        
+
         /// <summary>
         /// read the rss feed type from the type statement of an html link
         /// </summary>
@@ -204,7 +203,7 @@
         {
             if (linkType.Contains("application/rss"))
                 return FeedType.Rss;
-            
+
             if (linkType.Contains("application/atom"))
                 return FeedType.Atom;
 

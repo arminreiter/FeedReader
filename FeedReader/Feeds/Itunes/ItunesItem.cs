@@ -18,7 +18,7 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
 
             var duration = itemElement.GetValue("itunes", "duration");
 
-            if(duration != null)
+            if (duration != null)
             {
                 try
                 {
@@ -46,8 +46,8 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
             Explicit = explicitValue == "Yes" || explicitValue == "Explicit" || explicitValue == "True";
 
             IsClosedCaptioned = itemElement.GetValue("itunes", "isClosedCaptioned") == "Yes";
-            
-            if(int.TryParse(itemElement.GetValue("itunes", "order"), out var order))
+
+            if (int.TryParse(itemElement.GetValue("itunes", "order"), out var order))
             {
                 Order = order;
             }

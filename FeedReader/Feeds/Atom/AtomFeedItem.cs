@@ -76,15 +76,19 @@
         public ICollection<AtomLink> Links { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomFeedItem"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public AtomFeedItem()
-            : base() { }
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="AtomFeedItem"/> class.
         /// Reads an atom feed based on the xml given in item
         /// </summary>
-        /// <param name="item"></param>
+        /// <param name="item">feed item as xml</param>
         public AtomFeedItem(XElement item)
             : base(item)
         {
@@ -111,18 +115,19 @@
             this.UpdatedDate = Helpers.TryParseDateTime(this.UpdatedDateString);
         }
 
+        /// <inheritdoc/>
         internal override FeedItem ToFeedItem()
         {
-            FeedItem fi = new FeedItem(this);
-
-            fi.Author = this.Author?.ToString();
-            fi.Categories = this.Categories;
-            fi.Content = this.Content;
-            fi.Description = this.Summary;
-            fi.Id = this.Id;
-            fi.PublishingDate = this.PublishedDate;
-            fi.PublishingDateString = this.PublishedDateString;
-
+            FeedItem fi = new FeedItem(this)
+            {
+                Author = this.Author?.ToString(),
+                Categories = this.Categories,
+                Content = this.Content,
+                Description = this.Summary,
+                Id = this.Id,
+                PublishingDate = this.PublishedDate,
+                PublishingDateString = this.PublishedDateString
+            };
             return fi;
         }
     }

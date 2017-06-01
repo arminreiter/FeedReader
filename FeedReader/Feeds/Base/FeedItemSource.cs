@@ -18,15 +18,18 @@
         public string Value { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedItemSource"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public FeedItemSource()
-        { }
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedItemSource"/> class.
         /// Reads a rss feed item based on the xml given in element
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">item source element as xml</param>
         public FeedItemSource(XElement element)
         {
             this.Url = element.GetAttributeValue("url");

@@ -92,6 +92,7 @@
         public Syndication Sy { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss091Feed"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public Rss091Feed()
@@ -102,10 +103,11 @@
         }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss091Feed"/> class.
         /// Reads a rss 0.91 feed based on the xml given in channel
         /// </summary>
-        /// <param name="feedXml">the whole feed as xml</param>
-        /// <param name="channel">the channel xml element</param>
+        /// <param name="feedXml">the entire feed xml as string</param>
+        /// <param name="channel">the "channel" element in the xml as XElement</param>
         public Rss091Feed(string feedXml, XElement channel)
             : base(feedXml, channel)
         {
@@ -148,19 +150,23 @@
         /// <returns>feed</returns>
         public override Feed ToFeed()
         {
-            Feed f = new Feed(this);
-
-            f.Copyright = this.Copyright;
-            f.Description = this.Description;
-            f.ImageUrl = this.Image?.Url;
-            f.Language = this.Language;
-            f.LastUpdatedDate = this.LastBuildDate;
-            f.LastUpdatedDateString = this.LastBuildDateString;
-            f.Type = FeedType.Rss_0_91;
-
+            Feed f = new Feed(this)
+            {
+                Copyright = this.Copyright,
+                Description = this.Description,
+                ImageUrl = this.Image?.Url,
+                Language = this.Language,
+                LastUpdatedDate = this.LastBuildDate,
+                LastUpdatedDateString = this.LastBuildDateString,
+                Type = FeedType.Rss_0_91
+            };
             return f;
         }
 
+        /// <summary>
+        /// Adds feed items to the items collection
+        /// </summary>
+        /// <param name="items">feed items as XElements</param>
         internal virtual void AddItems(IEnumerable<XElement> items)
         {
             foreach (var item in items)

@@ -25,15 +25,19 @@
         internal abstract FeedItem ToFeedItem();
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="BaseFeedItem"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public BaseFeedItem() { }
+        protected BaseFeedItem()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="BaseFeedItem"/> class.
         /// Reads a base feed item based on the xml given in element
         /// </summary>
-        /// <param name="item"></param>
-        public BaseFeedItem(XElement item)
+        /// <param name="item">feed item as xml</param>
+        protected BaseFeedItem(XElement item)
         {
             this.Title = item.GetValue("title");
             this.Link = item.GetValue("link");

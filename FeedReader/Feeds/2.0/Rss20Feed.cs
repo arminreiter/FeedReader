@@ -107,16 +107,20 @@
         public Syndication Sy { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss20Feed"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public Rss20Feed()
-            : base() { }
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss20Feed"/> class.
         /// Reads a rss 2.0 feed based on the xml given in channel
         /// </summary>
-        /// <param name="feedXml"></param>
-        /// <param name="channel"></param>
+        /// <param name="feedXml">the entire feed xml as string</param>
+        /// <param name="channel">the "channel" element in the xml as XElement</param>
         public Rss20Feed(string feedXml, XElement channel)
             : base(feedXml, channel)
         {
@@ -127,31 +131,8 @@
             this.WebMaster = channel.GetValue("webMaster");
             this.Docs = channel.GetValue("docs");
             this.PublishingDateString = channel.GetValue("pubDate");
-            this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString);
             this.LastBuildDateString = channel.GetValue("lastBuildDate");
-            this.LastBuildDate = Helpers.TryParseDateTime(this.LastBuildDateString);
-
-            if(this.Language != null && (this.PublishingDate == null || this.LastBuildDate == null))
-            {
-                CultureInfo culture = null;
-
-                try
-                {
-                    culture = new CultureInfo(this.Language);
-                    if (this.PublishingDate == null)
-                    {
-                        this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString, culture);
-                    }
-
-                    if (this.LastBuildDate == null)
-                    {
-                        this.LastBuildDate = Helpers.TryParseDateTime(this.LastBuildDateString, culture);
-                    }
-                }
-                catch(CultureNotFoundException)
-                {
-                }
-            }
+            this.ParseDates(this.Language, this.PublishingDateString, this.LastBuildDateString);
 
             var categories = channel.GetElements("category");
             this.Categories = categories.Select(x => x.GetValue()).ToList();
@@ -185,17 +166,69 @@
         /// <returns>feed</returns>
         public override Feed ToFeed()
         {
-            Feed f = new Feed(this);
-
-            f.Copyright = this.Copyright;
-            f.Description = this.Description;
-            f.ImageUrl = this.Image?.Url;
-            f.Language = this.Language;
-            f.LastUpdatedDate = this.LastBuildDate;
-            f.LastUpdatedDateString = this.LastBuildDateString;
-            f.Type = FeedType.Rss_2_0;
-
+            Feed f = new Feed(this)
+            {
+                Copyright = this.Copyright,
+                Description = this.Description,
+                ImageUrl = this.Image?.Url,
+                Language = this.Language,
+                LastUpdatedDate = this.LastBuildDate,
+                LastUpdatedDateString = this.LastBuildDateString,
+                Type = FeedType.Rss_2_0
+            };
             return f;
+        }
+
+        /// <summary>
+        /// Sets the PublishingDate and LastBuildDate. If parsing fails, then it checks if the language
+        /// is set and tries to parse the date based on the culture of the language.
+        /// </summary>
+        /// <param name="language">language of the feed</param>
+        /// <param name="publishingDate">publishing date as string</param>
+        /// <param name="lastBuildDate">last build date as string</param>
+        private void ParseDates(string language, string publishingDate, string lastBuildDate)
+        {
+            this.PublishingDate = Helpers.TryParseDateTime(publishingDate);
+            this.LastBuildDate = Helpers.TryParseDateTime(lastBuildDate);
+
+            // check if language is set - if so, check if dates could be parsed or try to parse it with culture of the language
+            if (string.IsNullOrWhiteSpace(language))
+                return;
+
+            // if publishingDateString is set but PublishingDate is null - try to parse with culture of "Language" property
+            bool parseLocalizedPublishingDate = this.PublishingDate == null && !string.IsNullOrWhiteSpace(this.PublishingDateString);
+
+            // if LastBuildDateString is set but LastBuildDate is null - try to parse with culture of "Language" property
+            bool parseLocalizedLastBuildDate = this.LastBuildDate == null && !string.IsNullOrWhiteSpace(this.LastBuildDateString);
+
+            // if both dates are set - return
+            if (!parseLocalizedPublishingDate && !parseLocalizedLastBuildDate)
+                return;
+
+            // dates are set, but one of them couldn't be parsed - so try again with the culture set to the language
+            CultureInfo culture = null;
+            try
+            {
+                culture = new CultureInfo(this.Language);
+            }
+            catch (CultureNotFoundException)
+            {
+                // should be replace by a try parse or by getting all cultures and selecting the culture
+                // out of the collection. That's unfortunately not available in .net standard 1.3 for now
+                // this case should never happen, but in some rare cases it does - so catching the exception
+                // is acceptable in that case.
+                return; // culture couldn't be found, return as it was already tried to parse with default values
+            }
+
+            if (parseLocalizedPublishingDate)
+            {
+                this.PublishingDate = Helpers.TryParseDateTime(this.PublishingDateString, culture);
+            }
+
+            if (parseLocalizedLastBuildDate)
+            {
+                this.LastBuildDate = Helpers.TryParseDateTime(this.LastBuildDateString, culture);
+            }
         }
     }
 }

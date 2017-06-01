@@ -11,7 +11,7 @@
         /// The "domain" element
         /// </summary>
         public string Domain { get; set; }
-        
+
         /// <summary>
         /// The "port" element
         /// </summary>
@@ -33,15 +33,18 @@
         public string Protocol { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedCloud"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public FeedCloud()
-        { }
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FeedCloud"/> class.
         /// Reads a rss feed cloud element based on the xml given in element
         /// </summary>
-        /// <param name="element"></param>
+        /// <param name="element">cloud element as xml</param>
         public FeedCloud(XElement element)
         {
             this.Domain = element.GetAttributeValue("domain");

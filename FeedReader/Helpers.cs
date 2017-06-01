@@ -47,7 +47,7 @@
 
                 var response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);
 
-                if(!response.IsSuccessStatusCode)
+                if (!response.IsSuccessStatusCode)
                 {
                     request.Headers.Clear();
                     response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);
@@ -96,8 +96,7 @@
         /// <returns>integer or null</returns>
         public static int? TryParseInt(string input)
         {
-            int tmp;
-            if (!int.TryParse(input, out tmp))
+            if (!int.TryParse(input, out int tmp))
                 return null;
             return tmp;
         }

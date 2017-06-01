@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace CodeHollow.FeedReader.Feeds
+﻿namespace CodeHollow.FeedReader.Feeds
 {
+    using System;
+
     /// <summary>
     /// The parsed "dc:" elements in a feed
     /// </summary>
@@ -88,14 +88,18 @@ namespace CodeHollow.FeedReader.Feeds
         public string Rights { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="DublinCore"/> class.
         /// default constructor (for serialization)
         /// </summary>
-        public DublinCore() { }
+        public DublinCore()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="DublinCore"/> class.
         /// Reads a dublincore (dc:) element based on the xml given in element
         /// </summary>
-        /// <param name="item"></param>
+        /// <param name="item">item element as xml</param>
         public DublinCore(System.Xml.Linq.XElement item)
         {
             this.Title = item.GetValue("dc:title");

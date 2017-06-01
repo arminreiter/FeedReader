@@ -23,7 +23,7 @@
         /// <summary>
         /// The "comments" field of the feed item
         /// </summary>
-        public string Comments { get; set; } 
+        public string Comments { get; set; }
 
         /// <summary>
         /// The "enclosure" field
@@ -48,7 +48,7 @@
         /// <summary>
         /// The "source" field
         /// </summary>
-        public FeedItemSource Source { get; set; } 
+        public FeedItemSource Source { get; set; }
 
         /// <summary>
         /// All entries "category" entries
@@ -66,12 +66,16 @@
         public DublinCore DC { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss20FeedItem"/> class.
         /// default constructor (for serialization)
         /// </summary>
         public Rss20FeedItem()
-            : base() { }
+            : base()
+        {
+        }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="Rss20FeedItem"/> class.
         /// Reads a new feed item element based on the given xml item
         /// </summary>
         /// <param name="item">the xml containing the feed item</param>
@@ -94,18 +98,19 @@
             this.Content = item.GetValue("content:encoded")?.HtmlDecode();
         }
 
+        /// <inheritdoc/>
         internal override FeedItem ToFeedItem()
         {
-            FeedItem fi = new FeedItem(this);
-
-            fi.Author = this.Author;
-            fi.Categories = this.Categories;
-            fi.Content = this.Content;
-            fi.Description = this.Description;
-            fi.Id = this.Guid;
-            fi.PublishingDate = this.PublishingDate;
-            fi.PublishingDateString = this.PublishingDateString;
-
+            FeedItem fi = new FeedItem(this)
+            {
+                Author = this.Author,
+                Categories = this.Categories,
+                Content = this.Content,
+                Description = this.Description,
+                Id = this.Guid,
+                PublishingDate = this.PublishingDate,
+                PublishingDateString = this.PublishingDateString
+            };
             return fi;
         }
     }
