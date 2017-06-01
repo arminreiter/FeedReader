@@ -1,6 +1,7 @@
 ﻿namespace CodeHollow.FeedReader.Feeds
 {
     using System.Collections.Generic;
+    using System.Xml.Linq;
 
     /// <summary>
     /// BaseFeed object which contains the basic properties that each feed has.
@@ -34,6 +35,11 @@
         public string OriginalDocument { get; private set; }
 
         /// <summary>
+        /// Gets the underlying XElement in order to allow reading properties that are not available in the class itself
+        /// </summary>
+        public XElement Element { get; }
+
+        /// <summary>
         /// default constructor (for serialization)
         /// </summary>
         public BaseFeed()
@@ -46,13 +52,14 @@
         /// </summary>
         /// <param name="feedXml"></param>
         /// <param name="xelement"></param>
-        public BaseFeed(string feedXml, System.Xml.Linq.XElement xelement)
+        public BaseFeed(string feedXml, XElement xelement)
             : this()
         {
             this.OriginalDocument = feedXml;
 
             this.Title = xelement.GetValue("title");
             this.Link = xelement.GetValue("link");
+            this.Element = xelement;
         }
     }
 }

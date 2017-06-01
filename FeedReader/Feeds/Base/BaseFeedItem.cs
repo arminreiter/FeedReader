@@ -17,6 +17,11 @@
         /// </summary>
         public string Link { get; set; } // link
 
+        /// <summary>
+        /// Gets the underlying XElement in order to allow reading properties that are not available in the class itself
+        /// </summary>
+        public XElement Element { get; }
+
         internal abstract FeedItem ToFeedItem();
 
         /// <summary>
@@ -32,6 +37,7 @@
         {
             this.Title = item.GetValue("title");
             this.Link = item.GetValue("link");
+            this.Element = item;
         }
     }
 }

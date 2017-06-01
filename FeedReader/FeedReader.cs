@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Text.RegularExpressions;
+    using System.Threading.Tasks;
     using Parser;
 
     /// <summary>
@@ -72,10 +73,23 @@
         /// <returns>a list of links including the type and title, an empty list if no links are found</returns>
         /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at 
         /// https://codehollow.com </example>
+        [Obsolete("Use GetFeedUrlsFromUrlAsync method")]
         public static IEnumerable<HtmlFeedLink> GetFeedUrlsFromUrl(string url)
         {
+            return GetFeedUrlsFromUrlAsync(url).Result;
+        }
+
+        /// <summary>
+        /// Opens a webpage and reads all feed urls from it (link rel="alternate" type="application/...")
+        /// </summary>
+        /// <param name="url">the url of the page</param>
+        /// <returns>a list of links including the type and title, an empty list if no links are found</returns>
+        /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at 
+        /// https://codehollow.com </example>
+        public static async Task<IEnumerable<HtmlFeedLink>> GetFeedUrlsFromUrlAsync(string url)
+        {
             url = GetAbsoluteUrl(url);
-            string pageContent = Helpers.Download(url);
+            string pageContent = await Helpers.DownloadAsync(url);
             return ParseFeedUrlsFromHtml(pageContent);
         }
 
@@ -84,9 +98,20 @@
         /// </summary>
         /// <param name="url">the url of the page</param>
         /// <returns>a list of links, an empty list if no links are found</returns>
+        [Obsolete("Use the ParseFeedUrlsAsStringAsync method")]
         public static string[] ParseFeedUrlsAsString(string url)
         {
-            return GetFeedUrlsFromUrl(url).Select(x => x.Url).ToArray();
+            return ParseFeedUrlsAsStringAsync(url).Result;
+        }
+
+        /// <summary>
+        /// Opens a webpage and reads all feed urls from it (link rel="alternate" type="application/...")
+        /// </summary>
+        /// <param name="url">the url of the page</param>
+        /// <returns>a list of links, an empty list if no links are found</returns>
+        public static async Task<string[]> ParseFeedUrlsAsStringAsync(string url)
+        {
+            return (await GetFeedUrlsFromUrlAsync(url)).Select(x => x.Url).ToArray();
         }
         
         /// <summary>
@@ -131,9 +156,21 @@
         /// </summary>
         /// <param name="url">the url to a feed</param>
         /// <returns>parsed feed</returns>
+        [Obsolete("Use ReadAsync method")]
         public static Feed Read(string url)
         {
-            string feedContent = Helpers.Download(GetAbsoluteUrl(url));
+            return ReadAsync(url).Result;
+        }
+
+        /// <summary>
+        /// reads a feed from an url. the url must be a feed. Use ParseFeedUrlsFromHtml to
+        /// parse the feeds from a url which is not a feed.
+        /// </summary>
+        /// <param name="url">the url to a feed</param>
+        /// <returns>parsed feed</returns>
+        public static async Task<Feed> ReadAsync(string url)
+        {
+            string feedContent = await Helpers.DownloadAsync(GetAbsoluteUrl(url));
             return ReadFromString(feedContent);
         }
 
@@ -155,8 +192,7 @@
         /// <returns>parsed feed</returns>
         public static Feed ReadFromString(string feedContent)
         {
-            var feed = FeedParser.GetFeed(feedContent);
-            return feed;
+            return FeedParser.GetFeed(feedContent);
         }
         
         /// <summary>

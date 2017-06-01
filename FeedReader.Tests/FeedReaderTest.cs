@@ -176,7 +176,7 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestReadTimeDoctor()
         {
-            var feed = FeedReader.Read("https://blog.timedoctor.com/feed/");
+            var feed = FeedReader.Read("https://www.timedoctor.com/blog/feed/");
             Assert.AreEqual("Time Doctor", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
