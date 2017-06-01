@@ -9,41 +9,42 @@
     /// </summary>
     public class ItunesChannel
     {
+        internal const string NAMESPACEPREFIX = "itunes";
         /// <summary>
         /// Initializes a new instance of the <see cref="ItunesChannel"/> class.
         /// </summary>
         /// <param name="channelElement"></param>
         public ItunesChannel(XElement channelElement)
         {
-            Author = channelElement.GetValue("itunes", "author");
-            Block = channelElement.GetValue("itunes", "block") == "Yes";
+            Author = channelElement.GetValue(NAMESPACEPREFIX, "author");
+            Block = channelElement.GetValue(NAMESPACEPREFIX, "block").EqualsIgnoreCase("yes");
             Categories = GetItunesCategories(channelElement);
 
-            var imageElement = channelElement.GetElement("itunes", "image");
+            var imageElement = channelElement.GetElement(NAMESPACEPREFIX, "image");
             if (imageElement != null)
             {
                 Image = new ItunesImage(imageElement);
             }
 
-            var explicitValue = channelElement.GetValue("itunes", "explicit");
+            var explicitValue = channelElement.GetValue(NAMESPACEPREFIX, "explicit");
             Explicit = explicitValue.EqualsIgnoreCase("yes", "explicit", "true");
             
-            Complete = channelElement.GetValue("itunes", "complete").EqualsIgnoreCase("yes");
+            Complete = channelElement.GetValue(NAMESPACEPREFIX, "complete").EqualsIgnoreCase("yes");
 
-            if (Uri.TryCreate(channelElement.GetValue("itunes", "new-feed-url"), UriKind.Absolute, out var newFeedUrl))
+            if (Uri.TryCreate(channelElement.GetValue(NAMESPACEPREFIX, "new-feed-url"), UriKind.Absolute, out var newFeedUrl))
             {
                 NewFeedUrl = newFeedUrl;
             }
 
-            var ownerElement = channelElement.GetElement("itunes", "owner");
+            var ownerElement = channelElement.GetElement(NAMESPACEPREFIX, "owner");
 
             if (ownerElement != null)
             {
                 Owner = new ItunesOwner(ownerElement);
             }
 
-            Subtitle = channelElement.GetValue("itunes", "subtitle");
-            Summary = channelElement.GetValue("itunes", "summary");
+            Subtitle = channelElement.GetValue(NAMESPACEPREFIX, "subtitle");
+            Summary = channelElement.GetValue(NAMESPACEPREFIX, "summary");
         }
 
         /// <summary>
@@ -103,7 +104,7 @@
         /// <returns>the itunes:categries</returns>
         private ItunesCategory[] GetItunesCategories(XElement element)
         {
-            var query = from categoryElement in element.GetElements("itunes", "category")
+            var query = from categoryElement in element.GetElements(NAMESPACEPREFIX, "category")
                         let children = GetItunesCategories(categoryElement)
                         select new ItunesCategory(categoryElement.GetAttributeValue("text"), children);
 

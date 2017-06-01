@@ -28,6 +28,8 @@
         /// <returns></returns>
         public static bool EqualsIgnoreCase(this string text, string compareTo)
         {
+            if (text == null)
+                return compareTo == null;
             return text.Equals(compareTo, StringComparison.OrdinalIgnoreCase);
         }
 

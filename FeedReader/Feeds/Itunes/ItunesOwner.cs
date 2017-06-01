@@ -13,8 +13,8 @@
         /// <param name="ownerElement">the owner xml element</param>
         public ItunesOwner(XElement ownerElement)
         {
-            Name = ownerElement.GetValue("itunes", "name");
-            Email = ownerElement.GetValue("itunes", "email");
+            Name = ownerElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "name");
+            Email = ownerElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "email");
         }
         
         /// <summary>

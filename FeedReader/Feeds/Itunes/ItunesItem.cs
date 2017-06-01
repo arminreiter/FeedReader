@@ -14,30 +14,30 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
         /// <param name="itemElement"></param>
         public ItunesItem(XElement itemElement)
         {
-            Author = itemElement.GetValue("itunes", "author");
-            Block = itemElement.GetValue("itunes", "block").EqualsIgnoreCase("yes");
-            var imageElement = itemElement.GetElement("itunes", "image");
+            Author = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "author");
+            Block = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "block").EqualsIgnoreCase("yes");
+            var imageElement = itemElement.GetElement(ItunesChannel.NAMESPACEPREFIX, "image");
 
             if (imageElement != null)
             {
                 Image = new ItunesImage(imageElement);
             }
 
-            var duration = itemElement.GetValue("itunes", "duration");
+            var duration = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "duration");
             Duration = ParseDuration(duration);
 
-            var explicitValue = itemElement.GetValue("itunes", "explicit");
+            var explicitValue = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "explicit");
             Explicit = explicitValue.EqualsIgnoreCase("yes", "explicit", "true");
 
-            IsClosedCaptioned = itemElement.GetValue("itunes", "isClosedCaptioned").EqualsIgnoreCase("yes");
+            IsClosedCaptioned = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "isClosedCaptioned").EqualsIgnoreCase("yes");
 
-            if (int.TryParse(itemElement.GetValue("itunes", "order"), out var order))
+            if (int.TryParse(itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "order"), out var order))
             {
                 Order = order;
             }
 
-            Subtitle = itemElement.GetValue("itunes", "subtitle");
-            Summary = itemElement.GetValue("itunes", "summary");
+            Subtitle = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "subtitle");
+            Summary = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "summary");
         }
 
         private static TimeSpan? ParseDuration(string duration)
