@@ -61,8 +61,8 @@
                 else if (Uri.TryCreate(pageUrl + '/' + tmpUrl.TrimStart('/'), UriKind.Absolute, out finalUri))
                     return new HtmlFeedLink(feedLink.Title.HtmlDecode(), finalUri.ToString(), feedLink.FeedType);
             }
-
-            throw new Exception($"Could not get the absolute url out of {pageUrl} and {feedLink.Url}");
+            
+            throw new UrlNotFoundException($"Could not get the absolute url out of {pageUrl} and {feedLink.Url}");
         }
 
         /// <summary>
@@ -207,7 +207,7 @@
             if (linkType.Contains("application/atom"))
                 return FeedType.Atom;
 
-            throw new Exception($"The link type '{linkType}' is not a valid feed link!");
+            throw new InvalidFeedLinkException($"The link type '{linkType}' is not a valid feed link!");
         }
     }
 }

@@ -17,28 +17,28 @@
         {
             string rootElement = doc.Root.Name.LocalName;
 
-            if (rootElement.Equals("feed", StringComparison.OrdinalIgnoreCase))
+            if (rootElement.EqualsIgnoreCase("feed"))
                 return FeedType.Atom;
 
-            if (rootElement.Equals("rdf", StringComparison.OrdinalIgnoreCase))
+            if (rootElement.EqualsIgnoreCase("rdf"))
                 return FeedType.Rss_1_0;
 
-            if (rootElement.Equals("rss", StringComparison.OrdinalIgnoreCase))
+            if (rootElement.EqualsIgnoreCase("rss"))
             {
                 string version = doc.Root.Attribute("version").Value;
-                if (version.Equals("2.0", StringComparison.OrdinalIgnoreCase))
+                if (version.EqualsIgnoreCase("2.0"))
                     return FeedType.Rss_2_0;
 
-                if (version.Equals("0.91", StringComparison.OrdinalIgnoreCase))
+                if (version.EqualsIgnoreCase("0.91"))
                     return FeedType.Rss_0_91;
 
-                if (version.Equals("0.92", StringComparison.OrdinalIgnoreCase))
+                if (version.EqualsIgnoreCase("0.92"))
                     return FeedType.Rss_0_92;
 
                 return FeedType.Rss;
             }
-
-            throw new Exception("unknown feed format");
+            
+            throw new FeedTypeNotSupportedException($"unknown feed type {rootElement}");
         }
 
         /// <summary>
