@@ -49,6 +49,7 @@
         public static Feed GetFeed(string feedContent)
         {
             feedContent = feedContent.Replace(((char)0x1C).ToString(), string.Empty); // replaces special char 0x1C, fixes issues with at least one feed
+            feedContent = feedContent.Replace(((char)65279).ToString(), string.Empty); // replaces special char, fixes issues with at least one feed
 
             XDocument feedDoc = XDocument.Parse(feedContent);
 
