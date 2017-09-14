@@ -39,22 +39,23 @@
         public static async Task<string> DownloadAsync(string url)
         {
             url = System.Net.WebUtility.UrlDecode(url);
-
+            HttpResponseMessage response;
             using (var request = new HttpRequestMessage(HttpMethod.Get, url))
             {
                 request.Headers.TryAddWithoutValidation(ACCEPT_HEADER_NAME, ACCEPT_HEADER_VALUE);
                 request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, USER_AGENT_VALUE);
 
-                var response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);
-
-                if (!response.IsSuccessStatusCode)
+                response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);
+            }
+            if (!response.IsSuccessStatusCode)
+            {
+                using (var request = new HttpRequestMessage(HttpMethod.Get, url))
                 {
-                    request.Headers.Clear();
                     response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);
                 }
-
-                return Encoding.UTF8.GetString(await response.Content.ReadAsByteArrayAsync());
             }
+
+            return Encoding.UTF8.GetString(await response.Content.ReadAsByteArrayAsync());
         }
 
         /// <summary>
