@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace CodeHollow.FeedReader.Tests
 {
@@ -9,64 +10,64 @@ namespace CodeHollow.FeedReader.Tests
         #region special cases
 
         [TestMethod]
-        public void TestDownload400BadRequest()
+        public async Task TestDownload400BadRequest()
         {
             // results in a 400 BadRequest if webclient is not initialized correctly
-            DownloadTest("http://www.methode.at/blog?format=RSS");
+            await DownloadTestAsync("http://www.methode.at/blog?format=RSS").ConfigureAwait(false);
         }
 
         [TestMethod]
-        public void TestAcceptHeaderForbiddenWithParsing()
+        public async Task TestAcceptHeaderForbiddenWithParsing()
         {
             // results in 403 Forbidden if webclient does not have the accept header set
-            var feed = FeedReader.ReadAsync("http://www.girlsguidetopm.com/feed/").Result;
+            var feed = await FeedReader.ReadAsync("http://www.girlsguidetopm.com/feed/").ConfigureAwait(false);
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 2);
             Assert.IsTrue(!string.IsNullOrEmpty(title));
         }
 
         [TestMethod]
-        public void TestAcceptForbiddenUserAgent()
+        public async Task TestAcceptForbiddenUserAgent()
         {
             // results in 403 Forbidden if webclient does not have the accept header set
-            DownloadTest("https://mikeclayton.wordpress.com/feed/");
+            await DownloadTestAsync("https://mikeclayton.wordpress.com/feed/").ConfigureAwait(false);
         }
 
 
         [TestMethod]
-        public void TestAcceptForbiddenUserAgentWrike()
+        public async Task TestAcceptForbiddenUserAgentWrike()
         {
             // results in 403 Forbidden if webclient does not have the accept header set
-            DownloadTest("https://www.wrike.com/blog");
+            await DownloadTestAsync("https://www.wrike.com/blog").ConfigureAwait(false);
         }
-        
+
 
         #endregion
 
         #region ParseRssLinksFromHTML
 
         [TestMethod]
-        public void TestParseRssLinksCodehollow()
+        public async Task TestParseRssLinksCodehollow()
         {
-            TestParseRssLinks("https://codehollow.com", 2);
+            await TestParseRssLinksAsync("https://codehollow.com", 2).ConfigureAwait(false);
         }
 
         [TestMethod]
-        public void TestParseRssLinksHeise() { TestParseRssLinks("http://heise.de/", 2); }
+        public async Task TestParseRssLinksHeise() { await TestParseRssLinksAsync("http://heise.de/", 2).ConfigureAwait(false); }
         [TestMethod]
-        public void TestParseRssLinksHeise2() { TestParseRssLinks("heise.de", 2); }
+        public async Task TestParseRssLinksHeise2() { await TestParseRssLinksAsync("heise.de", 2).ConfigureAwait(false); }
         [TestMethod]
-        public void TestParseRssLinksHeise3() { TestParseRssLinks("www.heise.de", 2); }
+        public async Task TestParseRssLinksHeise3() { await TestParseRssLinksAsync("www.heise.de", 2).ConfigureAwait(false); }
         [TestMethod]
-        public void TestParseRssLinksDerStandard() { TestParseRssLinks("derstandard.at", 15); }
+        public async Task TestParseRssLinksDerStandard() { await TestParseRssLinksAsync("derstandard.at", 15).ConfigureAwait(false); }
         [TestMethod]
-        public void TestParseRssLinksDerStandard1() { TestParseRssLinks("http://www.derstandard.at", 15); }
+        public async Task TestParseRssLinksDerStandard1() { await TestParseRssLinksAsync("http://www.derstandard.at", 15).ConfigureAwait(false); }
         [TestMethod]
-        public void TestParseRssLinksNYTimes() { TestParseRssLinks("nytimes.com", 1); }
+        public async Task TestParseRssLinksNYTimes() { await TestParseRssLinksAsync("nytimes.com", 1).ConfigureAwait(false); }
 
-        private void TestParseRssLinks(string url, int expectedNumberOfLinks)
+        private static async Task TestParseRssLinksAsync(string url, int expectedNumberOfLinks)
         {
-            string[] urls = FeedReader.ParseFeedUrlsAsStringAsync(url).Result;
+            string[] urls = await FeedReader.ParseFeedUrlsAsStringAsync(url).ConfigureAwait(false);
             Assert.AreEqual(expectedNumberOfLinks, urls.Length);
         }
 
@@ -75,10 +76,10 @@ namespace CodeHollow.FeedReader.Tests
         #region Parse Html and check if it returns absolute urls
 
         [TestMethod]
-        public void TestParseAndAbsoluteUrlDerStandard1()
+        public async Task TestParseAndAbsoluteUrlDerStandard1()
         {
             string url = "derstandard.at";
-            var links = FeedReader.GetFeedUrlsFromUrlAsync(url).Result;
+            var links = await FeedReader.GetFeedUrlsFromUrlAsync(url).ConfigureAwait(false);
 
             foreach (var link in links)
             {
@@ -93,151 +94,151 @@ namespace CodeHollow.FeedReader.Tests
         #region Read Feed
 
         [TestMethod]
-        public void TestReadSimpleFeed()
+        public async Task TestReadSimpleFeed()
         {
-            var feed = FeedReader.ReadAsync("https://codehollow.com/feed").Result;
+            var feed = await FeedReader.ReadAsync("https://codehollow.com/feed").ConfigureAwait(false);
             string title = feed.Title;
             Assert.AreEqual("codehollow", title);
             Assert.AreEqual(10, feed.Items.Count());
         }
 
         [TestMethod]
-        public void TestReadRss20GermanFeed()
+        public async Task TestReadRss20GermanFeed()
         {
-            var feed = FeedReader.ReadAsync("http://botential.at/feed").Result;
+            var feed = await FeedReader.ReadAsync("http://botential.at/feed").ConfigureAwait(false);
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadRss10GermanFeed()
+        public async Task TestReadRss10GermanFeed()
         {
-            var feed = FeedReader.ReadAsync("http://rss.orf.at/news.xml").Result;
+            var feed = await FeedReader.ReadAsync("http://rss.orf.at/news.xml").ConfigureAwait(false);
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 10);
         }
 
         [TestMethod]
-        public void TestReadAtomFeedHeise()
+        public async Task TestReadAtomFeedHeise()
         {
-            var feed = FeedReader.ReadAsync("https://www.heise.de/newsticker/heise-atom.xml").Result;
+            var feed = await FeedReader.ReadAsync("https://www.heise.de/newsticker/heise-atom.xml").ConfigureAwait(false);
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
             Assert.IsTrue(feed.Items.Count > 1);
         }
 
         [TestMethod]
-        public void TestReadAtomFeedGitHub()
+        public async Task TestReadAtomFeedGitHub()
         {
-            var feed = FeedReader.ReadAsync("https://github.com/codehollow/AzureBillingRateCardSample/commits/master.atom").Result;
+            var feed = await FeedReader.ReadAsync("https://github.com/codehollow/AzureBillingRateCardSample/commits/master.atom").ConfigureAwait(false);
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
         }
 
         [TestMethod]
-        public void TestReadRss20GermanFeedPowershell()
+        public async Task TestReadRss20GermanFeedPowershell()
         {
-            var feed = FeedReader.ReadAsync("http://www.powershell.co.at/feed/").Result;
+            var feed = await FeedReader.ReadAsync("http://www.powershell.co.at/feed/").ConfigureAwait(false);
+            Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
+        [TestMethod]
+        public async Task TestReadRss20FeedCharter97Handle403Forbidden()
+        {
+            var feed = await FeedReader.ReadAsync("charter97.org/rss.php").ConfigureAwait(false);
+            Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
+        }
+
+        [TestMethod]
+        public async Task TestReadRssScottHanselmanWeb()
+        {
+            var feed = await FeedReader.ReadAsync("http://feeds.hanselman.com/ScottHanselman").ConfigureAwait(false);
             Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadRss20FeedCharter97Handle403Forbidden()
+        public async Task TestReadBuildAzure()
         {
-            var feed = FeedReader.ReadAsync("charter97.org/rss.php").Result;
-            Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
+            await DownloadTestAsync("https://buildazure.com").ConfigureAwait(false);
         }
 
         [TestMethod]
-        public void TestReadRssScottHanselmanWeb()
+        public async Task TestReadNoticiasCatolicas()
         {
-            var feed = FeedReader.ReadAsync("http://feeds.hanselman.com/ScottHanselman").Result;
-            Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
-            Assert.IsTrue(feed.Items.Count > 0);
-        }
-        
-        [TestMethod]
-        public void TestReadBuildAzure()
-        {
-            DownloadTest("https://buildazure.com");
-        }
-
-        [TestMethod]
-        public void TestReadNoticiasCatolicas()
-        {
-            var feed = FeedReader.ReadAsync("feeds.feedburner.com/NoticiasCatolicasAleteia").Result;
+            var feed = await FeedReader.ReadAsync("feeds.feedburner.com/NoticiasCatolicasAleteia").ConfigureAwait(false);
             Assert.AreEqual("Noticias Catolicas", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadTimeDoctor()
+        public async Task TestReadTimeDoctor()
         {
-            var feed = FeedReader.ReadAsync("https://www.timedoctor.com/blog/feed/").Result;
+            var feed = await FeedReader.ReadAsync("https://www.timedoctor.com/blog/feed/").ConfigureAwait(false);
             Assert.AreEqual("Time Doctor", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadMikeC()
+        public async Task TestReadMikeC()
         {
-            var feed = FeedReader.ReadAsync("https://mikeclayton.wordpress.com/feed/").Result;
+            var feed = await FeedReader.ReadAsync("https://mikeclayton.wordpress.com/feed/").ConfigureAwait(false);
             Assert.AreEqual("Shift Happens!", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadTheLPM()
+        public async Task TestReadTheLPM()
         {
-            var feed = FeedReader.ReadAsync("https://thelazyprojectmanager.wordpress.com/feed/").Result;
+            var feed = await FeedReader.ReadAsync("https://thelazyprojectmanager.wordpress.com/feed/").ConfigureAwait(false);
             Assert.AreEqual("The Lazy Project Manager's Blog", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
 
         [TestMethod]
-        public void TestReadStrategyEx()
+        public async Task TestReadStrategyEx()
         {
-            var feed = FeedReader.ReadAsync("http://blog.strategyex.com/feed/").Result;
+            var feed = await FeedReader.ReadAsync("http://blog.strategyex.com/feed/").ConfigureAwait(false);
             Assert.AreEqual("Strategy Execution Blog", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadTechRep()
+        public async Task TestReadTechRep()
         {
-            var feed = FeedReader.ReadAsync("http://www.techrepublic.com/rssfeeds/topic/project-management/").Result;
+            var feed = await FeedReader.ReadAsync("http://www.techrepublic.com/rssfeeds/topic/project-management/").ConfigureAwait(false);
             Assert.AreEqual("Project Management on TechRepublic", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadAPOD()
+        public async Task TestReadAPOD()
         {
-            var feed = FeedReader.ReadAsync("https://apod.nasa.gov/apod.rss").Result;
+            var feed = await FeedReader.ReadAsync("https://apod.nasa.gov/apod.rss").ConfigureAwait(false);
             Assert.AreEqual("APOD", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadThaqafnafsak()
+        public async Task TestReadThaqafnafsak()
         {
-            var feed = FeedReader.ReadAsync("http://www.thaqafnafsak.com/feed").Result;
+            var feed = await FeedReader.ReadAsync("http://www.thaqafnafsak.com/feed").ConfigureAwait(false);
             Assert.AreEqual("ثقف نفسك", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadTheStudentLawyer()
+        public async Task TestReadTheStudentLawyer()
         {
-            var feed = FeedReader.ReadAsync("http://us10.campaign-archive.com/feed?u=8da2e137a07b178e5d9a71c2c&id=9134b0cc95").Result;
+            var feed = await FeedReader.ReadAsync("http://us10.campaign-archive.com/feed?u=8da2e137a07b178e5d9a71c2c&id=9134b0cc95").ConfigureAwait(false);
             Assert.AreEqual("The Student Lawyer Careers Network Archive Feed", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
         [TestMethod]
-        public void TestReadLiveBold()
+        public async Task TestReadLiveBold()
         {
-            var feed = FeedReader.ReadAsync("http://feeds.feedburner.com/LiveBoldAndBloom").Result;
+            var feed = await FeedReader.ReadAsync("http://feeds.feedburner.com/LiveBoldAndBloom").ConfigureAwait(false);
             Assert.AreEqual("Live Bold and Bloom", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -246,9 +247,9 @@ namespace CodeHollow.FeedReader.Tests
 
         #region private helpers
 
-        private void DownloadTest(string url)
+        private static async Task DownloadTestAsync(string url)
         {
-            string content = Helpers.DownloadAsync(url).Result;
+            var content = await Helpers.DownloadAsync(url).ConfigureAwait(false);
             Assert.IsTrue(content.Length > 200);
         }
 
