@@ -110,3 +110,4 @@ http://www.mn.ru/
 https://news.yandex.ru/Moscow
 http://massanews.com/
 http://www.trespassosnews.com.br/
+https://www.parool.nl/nieuws/rss.xml

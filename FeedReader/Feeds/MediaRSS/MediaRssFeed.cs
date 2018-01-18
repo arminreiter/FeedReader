@@ -7,7 +7,7 @@
     using System.Xml.Linq;
 
     /// <summary>
-    /// Media RSS 2.0 feed accoring to specification: http://www.rssboard.org/media-rss
+    /// Media RSS 2.0 feed according to specification: http://www.rssboard.org/media-rss
     /// </summary>
     public class MediaRssFeed : BaseFeed
     {
