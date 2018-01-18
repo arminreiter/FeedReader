@@ -1,5 +1,6 @@
 ﻿namespace CodeHollow.FeedReader
 {
+    using CodeHollow.FeedReader.Feeds.MediaRSS;
     using System;
     using System.Globalization;
     using System.Net.Http;
@@ -101,5 +102,62 @@
                 return null;
             return tmp;
         }
+
+        /// <summary>
+        /// Tries to parse a string and returns the media type
+        /// </summary>
+        /// <param name="medium">media type as string</param>
+        /// <returns><see cref="Medium"/></returns>
+        public static Medium TryParseMedium (string medium)
+        {
+
+            if (string.IsNullOrEmpty(medium))
+            {
+                return Medium.Unknown;
+            }
+
+            switch (medium.ToLower()) {
+                case "image":
+                    return Medium.Image;
+                case "audio":
+                    return Medium.Audio;
+                case "video":
+                    return Medium.Video;
+                case "document":
+                    return Medium.Document;
+                case "executable":
+                    return Medium.Executable;
+                default:
+                    return Medium.Unknown;
+            }
+
+
+        }
+
+        /// <summary>
+        /// Tries to parse the string as int and returns null if it fails
+        /// </summary>
+        /// <param name="input">int as string</param>
+        /// <returns>integer or null</returns>
+        public static bool? TryParseBool(string input)
+        {
+            if (!string.IsNullOrEmpty(input))
+            {
+                input = input.ToLower();
+
+                if (input == "true")
+                {
+                    return true;
+                }
+                else if (input == "false")
+                {
+                    return false;
+                }
+            }
+            
+            return null;
+            
+        }
+
     }
 }

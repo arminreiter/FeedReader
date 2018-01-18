@@ -8,15 +8,21 @@ namespace CodeHollow.FeedReader.TestDataCrawler
     {
         static void Main(string[] args)
         {
-            var feeds = System.IO.File.ReadAllLines("feeds.txt");
-            Parallel.ForEach<string>(feeds, x =>
-            {
-                try
-                {
-                    Do(x);
-                }
-                catch { }
-            });
+
+
+            var contents = FeedReader.ReadAsync("https://www.telegraaf.nl/rss.xml").Result;
+
+            var x = contents.Items.Count;
+
+            //var feeds = System.IO.File.ReadAllLines("feeds.txt");
+            //Parallel.ForEach<string>(feeds, x =>
+            //{
+            //    try
+            //    {
+            //        Do(x);
+            //    }
+            //    catch { }
+            //});
             
         }
 
