@@ -16,7 +16,7 @@
         public static FeedType ParseFeedType(XDocument doc)
         {
             string rootElement = doc.Root.Name.LocalName;
-
+            
             if (rootElement.EqualsIgnoreCase("feed"))
                 return FeedType.Atom;
 
@@ -26,8 +26,13 @@
             if (rootElement.EqualsIgnoreCase("rss"))
             {
                 string version = doc.Root.Attribute("version").Value;
-                if (version.EqualsIgnoreCase("2.0"))
-                    return FeedType.Rss_2_0;
+                if (version.EqualsIgnoreCase("2.0")) {
+                    if (doc.Root.Attribute(XName.Get("media", XNamespace.Xmlns.NamespaceName)) != null) {
+                        return FeedType.MediaRss;
+                    } else {
+                        return FeedType.Rss_2_0;
+                    }
+                }
 
                 if (version.EqualsIgnoreCase("0.91"))
                     return FeedType.Rss_0_91;

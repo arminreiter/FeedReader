@@ -26,9 +26,15 @@
         Rss_1_0,
 
         /// <summary>
-        /// Rss 2.0 fedd
+        /// Rss 2.0 feed
         /// </summary>
         Rss_2_0,
+
+        /// <summary>
+        /// Media Rss feed
+        /// </summary>
+        MediaRss,
+
 
         /// <summary>
         /// Rss feed - is used for <see cref="HtmlFeedLink"/> type

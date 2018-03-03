@@ -8,16 +8,19 @@ namespace CodeHollow.FeedReader.TestDataCrawler
     {
         static void Main(string[] args)
         {
+
             var feeds = System.IO.File.ReadAllLines("feeds.txt");
-            Parallel.ForEach<string>(feeds, x =>
-            {
-                try
-                {
-                    Do(x);
-                }
-                catch { }
-            });
-            
+            Parallel.ForEach<string> (feeds, x =>
+               {
+                   try
+                   {
+                       Do(x);
+   
+                   }
+                   catch { }
+               }
+            );
+
         }
 
         static void Do(string url)
@@ -38,7 +41,7 @@ namespace CodeHollow.FeedReader.TestDataCrawler
                     var curl = FeedReader.GetAbsoluteFeedUrl(url, link);
 
                     string content = Helpers.DownloadAsync(curl.Url).Result;
-                    System.IO.File.WriteAllText("c:\\data\\feeds\\" + title + "_" + Guid.NewGuid().ToString() + ".xml", content);
+                    System.IO.File.WriteAllText("d:\\feeds\\" + title + "_" + Guid.NewGuid().ToString() + ".xml", content);
                     Console.Write("+");
                 }
                 catch (Exception ex)
