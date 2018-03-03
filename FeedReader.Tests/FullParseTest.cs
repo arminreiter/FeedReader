@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using CodeHollow.FeedReader.Feeds;
+using CodeHollow.FeedReader.Feeds.Itunes;
 
 namespace CodeHollow.FeedReader.Tests
 {
@@ -331,8 +332,19 @@ namespace CodeHollow.FeedReader.Tests
             {
                 var feed = FeedReader.ReadFromFile(file);
                 if (feed != null)
+                {
                     Assert.IsTrue(!string.IsNullOrEmpty(feed.Link));
+                    TestItunesParsingForException(feed);
+                }
             }
+        }
+
+        private static void TestItunesParsingForException(Feed feed)
+        {
+            Assert.IsNotNull(feed.GetItunesChannel());
+
+            foreach (var item in feed.Items)
+                Assert.IsNotNull(item.GetItunesItem());
         }
     }
 }

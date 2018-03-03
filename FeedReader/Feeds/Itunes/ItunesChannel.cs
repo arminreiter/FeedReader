@@ -104,9 +104,13 @@
         /// <returns>the itunes:categries</returns>
         private ItunesCategory[] GetItunesCategories(XElement element)
         {
-            var query = from categoryElement in element.GetElements(NAMESPACEPREFIX, "category")
-                        let children = GetItunesCategories(categoryElement)
-                        select new ItunesCategory(categoryElement.GetAttributeValue("text"), children);
+            var categoryElements = element.GetElements(NAMESPACEPREFIX, "category");
+            if (categoryElements == null)
+                return new ItunesCategory[0];
+
+            var query = from categoryElement in categoryElements
+                let children = GetItunesCategories(categoryElement)
+                select new ItunesCategory(categoryElement.GetAttributeValue("text"), children);
 
             return query.ToArray();
         }
