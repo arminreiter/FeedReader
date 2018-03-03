@@ -59,9 +59,9 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public async Task TestParseRssLinksHeise3() { await TestParseRssLinksAsync("www.heise.de", 2).ConfigureAwait(false); }
         [TestMethod]
-        public async Task TestParseRssLinksDerStandard() { await TestParseRssLinksAsync("derstandard.at", 15).ConfigureAwait(false); }
+        public async Task TestParseRssLinksDerStandard() { await TestParseRssLinksAsync("derstandard.at", 14).ConfigureAwait(false); }
         [TestMethod]
-        public async Task TestParseRssLinksDerStandard1() { await TestParseRssLinksAsync("http://www.derstandard.at", 15).ConfigureAwait(false); }
+        public async Task TestParseRssLinksDerStandard1() { await TestParseRssLinksAsync("http://www.derstandard.at", 14).ConfigureAwait(false); }
         [TestMethod]
         public async Task TestParseRssLinksNYTimes() { await TestParseRssLinksAsync("nytimes.com", 1).ConfigureAwait(false); }
 
@@ -199,7 +199,7 @@ namespace CodeHollow.FeedReader.Tests
         public async Task TestReadStrategyEx()
         {
             var feed = await FeedReader.ReadAsync("http://blog.strategyex.com/feed/").ConfigureAwait(false);
-            Assert.AreEqual("Strategy Execution Blog", feed.Title);
+            Assert.AreEqual("StrategyEx Blog", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 

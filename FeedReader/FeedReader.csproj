@@ -9,18 +9,18 @@
     <Company>Armin Reiter</Company>
     <Product>CodeHollow.FeedReader</Product>
     <Description>FeedReader is a .net standard 1.3 library used for reading and parsing RSS and ATOM feeds. Supports RSS 0.91, 0.92, 1.0, 2.0 and ATOM. Developed because existing libraries do not work with different languages, encodings or have other issues. Library tested with multiple languages and feeds.</Description>
-	<Copyright>Copyright 2017</Copyright>
+	<Copyright>Copyright 2018</Copyright>
     <PackageLicenseUrl>https://github.com/codehollow/FeedReader/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/codehollow/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/codehollow/FeedReader/</RepositoryUrl>
-    <Version>1.1.0.2</Version>
-    <PackageReleaseNotes>Fixed issue with same request retry (The request message was already sent. Cannot send the same request message multiple times). Thanks @curtiswellborne</PackageReleaseNotes>
+    <Version>1.1.1.0</Version>
+    <PackageReleaseNotes>Fixed null pointer exception for itunes feeds (@azEf), added support for mediaRss (thanks @koenrot)</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.1.0.2</AssemblyVersion>
-    <FileVersion>1.1.0.2</FileVersion>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <FileVersion>1.1.1.0</FileVersion>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
   </PropertyGroup>
 
