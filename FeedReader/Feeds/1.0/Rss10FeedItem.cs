@@ -59,7 +59,7 @@
 
             if (this.DC != null)
             {
-                f.Author = this.DC.Publisher;
+                f.Author = this.DC.Creator;
                 f.Content = this.DC.Description;
                 f.PublishingDate = this.DC.Date;
                 f.PublishingDateString = this.DC.DateString;
