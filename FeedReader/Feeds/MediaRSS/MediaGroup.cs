@@ -20,7 +20,7 @@ namespace CodeHollow.FeedReader.Feeds.MediaRSS
         /// <param name="element">enclosure element as xml</param>
         public MediaGroup (XElement element)
         {
-            var media = element.GetElements("media", "contents");
+            var media = element.GetElements("media", "content");
             this.Media = media.Select(x => new Media(x)).ToList();
         }
 
