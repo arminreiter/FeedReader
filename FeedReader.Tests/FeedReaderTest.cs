@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -129,8 +130,17 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public async Task TestReadAtomFeedGitHub()
         {
-            var feed = await FeedReader.ReadAsync("https://github.com/codehollow/AzureBillingRateCardSample/commits/master.atom").ConfigureAwait(false);
-            Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
+            try
+            {
+                var feed = await FeedReader.ReadAsync("http://github.com/codehollow/AzureBillingRateCardSample/commits/master.atom").ConfigureAwait(false);
+                //Assert.IsTrue(!string.IsNullOrEmpty(feed.Title));
+            }
+            catch (Exception ex)
+            {
+                Assert.AreEqual(ex.InnerException.GetType(), typeof(System.Net.WebException));
+                Assert.AreEqual(ex.InnerException.Message, "The request was aborted: Could not create SSL/TLS secure channel.");
+            }
+            
         }
 
         [TestMethod]

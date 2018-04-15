@@ -13,14 +13,14 @@
     <PackageLicenseUrl>https://github.com/codehollow/FeedReader/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/codehollow/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/codehollow/FeedReader/</RepositoryUrl>
-    <Version>1.1.1.0</Version>
-    <PackageReleaseNotes>Fixed null pointer exception for itunes feeds (@azEf), added support for mediaRss (thanks @koenrot)</PackageReleaseNotes>
+    <Version>1.1.1.1</Version>
+    <PackageReleaseNotes>fix dublin core using for FeedItem.Author (replace Publisher by Creator - thanks @Viktor-Ramin), fix issue with loading media content from a group (thanks @ceemafour)</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.1.1.0</AssemblyVersion>
-    <FileVersion>1.1.1.0</FileVersion>
+    <AssemblyVersion>1.1.1.1</AssemblyVersion>
+    <FileVersion>1.1.1.1</FileVersion>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
   </PropertyGroup>
 

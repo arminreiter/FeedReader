@@ -108,15 +108,15 @@
         /// </summary>
         /// <param name="medium">media type as string</param>
         /// <returns><see cref="Medium"/></returns>
-        public static Medium TryParseMedium (string medium)
+        public static Medium TryParseMedium(string medium)
         {
-
             if (string.IsNullOrEmpty(medium))
             {
                 return Medium.Unknown;
             }
 
-            switch (medium.ToLower()) {
+            switch (medium.ToLower())
+            {
                 case "image":
                     return Medium.Image;
                 case "audio":
@@ -130,8 +130,6 @@
                 default:
                     return Medium.Unknown;
             }
-
-
         }
 
         /// <summary>
@@ -154,10 +152,8 @@
                     return false;
                 }
             }
-            
-            return null;
-            
-        }
 
+            return null;
+        }
     }
 }
