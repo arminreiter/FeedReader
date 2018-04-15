@@ -36,8 +36,9 @@
         /// Download the content from an url
         /// </summary>
         /// <param name="url">correct url</param>
+        /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
         /// <returns>Content as string</returns>
-        public static async Task<string> DownloadAsync(string url)
+        public static async Task<string> DownloadAsync(string url, bool autoRedirect = true)
         {
             url = System.Net.WebUtility.UrlDecode(url);
             HttpResponseMessage response;
@@ -50,6 +51,11 @@
             }
             if (!response.IsSuccessStatusCode)
             {
+                if (autoRedirect && (int)response.StatusCode == 308) // moved permanently
+                {
+                    url = response.Headers?.Location?.AbsoluteUri ?? url;
+                }
+
                 using (var request = new HttpRequestMessage(HttpMethod.Get, url))
                 {
                     response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);

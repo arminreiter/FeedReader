@@ -15,7 +15,7 @@ namespace CodeHollow.FeedReader.ConsoleSample
                 var urls = FeedReader.GetFeedUrlsFromUrlAsync(url).Result;
 
                 string feedUrl;
-                if (urls.Count() < 1)
+                if (urls == null || urls.Count() < 1)
                     feedUrl = url;
                 else if (urls.Count() == 1)
                     feedUrl = urls.First().Url;

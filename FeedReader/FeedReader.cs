@@ -82,14 +82,16 @@
         /// Opens a webpage and reads all feed urls from it (link rel="alternate" type="application/...")
         /// </summary>
         /// <param name="url">the url of the page</param>
+        /// /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
         /// <returns>a list of links including the type and title, an empty list if no links are found</returns>
         /// <example>FeedReader.GetFeedUrlsFromUrl("codehollow.com"); // returns a list of all available feeds at
         /// https://codehollow.com </example>
-        public static async Task<IEnumerable<HtmlFeedLink>> GetFeedUrlsFromUrlAsync(string url)
+        public static async Task<IEnumerable<HtmlFeedLink>> GetFeedUrlsFromUrlAsync(string url, bool autoRedirect = true)
         {
             url = GetAbsoluteUrl(url);
-            string pageContent = await Helpers.DownloadAsync(url);
-            return ParseFeedUrlsFromHtml(pageContent);
+            string pageContent = await Helpers.DownloadAsync(url, autoRedirect);
+            var links = ParseFeedUrlsFromHtml(pageContent);
+            return links;
         }
 
         /// <summary>
@@ -133,7 +135,11 @@
 
             if (htmlDoc.DocumentNode != null)
             {
-                var nodes = htmlDoc.DocumentNode.SelectNodes("//link").Where(
+                var links = htmlDoc.DocumentNode?.SelectNodes("//link");
+                if (links == null)
+                    yield break; // no links
+
+                var nodes = links.Where(
                     x => x.Attributes["type"] != null &&
                     (x.Attributes["type"].Value.Contains("application/rss") || x.Attributes["type"].Value.Contains("application/atom")));
 
@@ -166,10 +172,11 @@
         /// parse the feeds from a url which is not a feed.
         /// </summary>
         /// <param name="url">the url to a feed</param>
+        /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
         /// <returns>parsed feed</returns>
-        public static async Task<Feed> ReadAsync(string url)
+        public static async Task<Feed> ReadAsync(string url, bool autoRedirect = true)
         {
-            string feedContent = await Helpers.DownloadAsync(GetAbsoluteUrl(url));
+            string feedContent = await Helpers.DownloadAsync(GetAbsoluteUrl(url), autoRedirect);
             return ReadFromString(feedContent);
         }
 

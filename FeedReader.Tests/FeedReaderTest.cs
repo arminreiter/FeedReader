@@ -253,6 +253,14 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
+        [TestMethod]
+        public async Task TestPermanentMove()
+        {
+            var feed = await FeedReader.ReadAsync("http://t3n.de/tag/blockchain/rss.xml").ConfigureAwait(false);
+            Assert.AreEqual("t3n RSS Feed - Blockchain", feed.Title);
+            Assert.IsTrue(feed.Items.Count > 0);
+        }
+
         #endregion
 
         #region private helpers
