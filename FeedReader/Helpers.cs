@@ -1,6 +1,6 @@
 ﻿namespace CodeHollow.FeedReader
 {
-    using CodeHollow.FeedReader.Feeds.MediaRSS;
+    using Feeds.MediaRSS;
     using System;
     using System.Globalization;
     using System.Net.Http;
@@ -47,7 +47,7 @@
                 request.Headers.TryAddWithoutValidation(ACCEPT_HEADER_NAME, ACCEPT_HEADER_VALUE);
                 request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, USER_AGENT_VALUE);
 
-                response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);
+                response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead).ConfigureAwait(false);
             }
             if (!response.IsSuccessStatusCode)
             {
@@ -58,11 +58,11 @@
 
                 using (var request = new HttpRequestMessage(HttpMethod.Get, url))
                 {
-                    response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead);
+                    response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead).ConfigureAwait(false);
                 }
             }
 
-            return Encoding.UTF8.GetString(await response.Content.ReadAsByteArrayAsync());
+            return Encoding.UTF8.GetString(await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false));
         }
 
         /// <summary>
