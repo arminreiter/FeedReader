@@ -37,7 +37,7 @@
         /// </summary>
         /// <param name="url">correct url</param>
         /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
-        /// <returns>Content as string</returns>
+        /// <returns>Content as byte array</returns>
         public static async Task<byte[]> DownloadBytesAsync(string url, bool autoRedirect = true)
         {
             url = System.Net.WebUtility.UrlDecode(url);
@@ -67,6 +67,14 @@
             return content;
         }
 
+        /// <summary>
+        /// Download the content from an url and returns it as utf8 encoded string.
+        /// Preferred way is to use <see cref="DownloadBytesAsync(string, bool)"/> because it works
+        /// better with encoding.
+        /// </summary>
+        /// <param name="url">correct url</param>
+        /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
+        /// <returns>Content as string</returns>
         public static async Task<string> DownloadAsync(string url, bool autoRedirect = true)
         {
             var content = await DownloadBytesAsync(url, autoRedirect).ConfigureAwait(false);

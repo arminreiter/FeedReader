@@ -270,6 +270,13 @@ namespace CodeHollow.FeedReader.Tests
             var feed = await FeedReader.ReadAsync("https://www.retriever-info.com/feed/2004645/intranet30/index.xml");
             Assert.AreEqual("intranet30", feed.Title);
         }
+
+        [TestMethod]
+        public async Task TestStadtfeuerwehrWeiz_ISO8859_1()
+        {
+            var feed = await FeedReader.ReadAsync("http://www.stadtfeuerwehr-weiz.at/rss/einsaetze.xml");
+            Assert.AreEqual("Stadtfeuerwehr Weiz - Einsätze", feed.Title);
+        }
         #endregion
 
         #region private helpers
