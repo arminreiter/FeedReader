@@ -60,10 +60,6 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public async Task TestParseRssLinksHeise3() { await TestParseRssLinksAsync("www.heise.de", 2).ConfigureAwait(false); }
         [TestMethod]
-        public async Task TestParseRssLinksDerStandard() { await TestParseRssLinksAsync("derstandard.at", 14).ConfigureAwait(false); }
-        [TestMethod]
-        public async Task TestParseRssLinksDerStandard1() { await TestParseRssLinksAsync("http://www.derstandard.at", 14).ConfigureAwait(false); }
-        [TestMethod]
         public async Task TestParseRssLinksNYTimes() { await TestParseRssLinksAsync("nytimes.com", 1).ConfigureAwait(false); }
 
         private static async Task TestParseRssLinksAsync(string url, int expectedNumberOfLinks)
@@ -257,7 +253,7 @@ namespace CodeHollow.FeedReader.Tests
         public async Task TestPermanentMove()
         {
             var feed = await FeedReader.ReadAsync("http://t3n.de/tag/blockchain/rss.xml").ConfigureAwait(false);
-            Assert.AreEqual("t3n RSS Feed - Blockchain", feed.Title);
+            Assert.IsTrue(feed.Title.StartsWith("t3n RSS Feed"));
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
