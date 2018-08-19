@@ -1,219 +1,220 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <rss version="0.91">
 <channel>
-<title>Stadtfeuerwehr Weiz - EinsÃ¤tze</title>
+<title>Stadtfeuerwehr Weiz - Einsätze</title>
 <link>http://www.stadtfeuerwehr-weiz.at</link>
-<description>Die letzten 15 EinsÃ¤tze der Stadtfeuerwehr Weiz.</description>
+<description>Die letzten 15 Einsätze der Stadtfeuerwehr Weiz.</description>
 <language>de-de</language>
 <copyright>Stadtfeuerwehr Weiz / Markus Horwath</copyright>
 
 <item>
 	<title>
-		[06.01.2017 - 06:59 Uhr] Baum-Bergung
+		[19.08.2018 - 07:08 Uhr] Brandmeldeanlagenalarm
 	</title>
 	<description><![CDATA[
-		Einsatzort: Naas, B64<br />
-		Alarmierung: Gruppenruf<br />
-		Eingesetzte Fahrzeuge: MTF 4 / SRF 6<br />
-		Weitere Informationen und Details sowie Fotos zu diesem Einsatz finden Sie auf unserer Website.
+		Einsatzort: Weiz, Elingasse (Fa. Andritz Hydro Werk Nord) <br />
+		Alarmierung: Sammelruf<br />
+		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8a<br />
+		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4565/]]></link>
-	<pubDate>Fri, 06 Jan 2017 06:59:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5220/]]></link>
+	<pubDate>Sun, 19 Aug 2018 07:08:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[03.01.2017 - 23:14 Uhr] Balkonbrand
+		[17.08.2018 - 20:35 Uhr] Technische Hilfeleistung
 	</title>
 	<description><![CDATA[
-		Einsatzort: Weiz, Dr.-Karl-Renner-Gasse<br />
-		Alarmierung: Sammelruf, Sirene<br />
-		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 2000 5 / TLF-A 4000 8<br />
-		Weitere Informationen und Details sowie Fotos zu diesem Einsatz finden Sie auf unserer Website.
-	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4564/]]></link>
-	<pubDate>Tue, 03 Jan 2017 23:14:00 +0100</pubDate>
-</item>
-
-<item>
-	<title>
-		[03.01.2017 - 19:10 Uhr] Zimmerbrand
-	</title>
-	<description><![CDATA[
-		Einsatzort: Anger<br />
+		Einsatzort: Weiz, Birkfelder Straße <br />
 		Alarmierung: telefonisch<br />
-		Eingesetzte Fahrzeuge: TSA 15<br />
+		Eingesetzte Fahrzeuge: VF 2a / TMB-42 10<br />
 		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4563/]]></link>
-	<pubDate>Tue, 03 Jan 2017 19:10:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5218/]]></link>
+	<pubDate>Fri, 17 Aug 2018 20:35:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[03.01.2017 - 15:53 Uhr] Fahrzeugbrand
+		[17.08.2018 - 20:09 Uhr] Brandmeldeanlagenalarm
 	</title>
 	<description><![CDATA[
-		Einsatzort: Weiz, BirkfelderstraÃŸe<br />
+		Einsatzort: Weiz, Kaplanweg (Interspar)<br />
 		Alarmierung: Sammelruf<br />
-		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 2000 5 / TLF-A 4000 8 / KRF-S 13<br />
+		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8a<br />
 		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4562/]]></link>
-	<pubDate>Tue, 03 Jan 2017 15:53:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5217/]]></link>
+	<pubDate>Fri, 17 Aug 2018 20:09:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[01.01.2017 - 13:21 Uhr] Dachstuhlbrand
-	</title>
-	<description><![CDATA[
-		Einsatzort: Birkfeld, Hauptplatz<br />
-		Alarmierung: Sammelruf<br />
-		Eingesetzte Fahrzeuge: TMB-42 10<br />
-		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
-	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4561/]]></link>
-	<pubDate>Sun, 01 Jan 2017 13:21:00 +0100</pubDate>
-</item>
-
-<item>
-	<title>
-		[31.12.2016 - 23:44 Uhr] Brandsicherheitswache
-	</title>
-	<description><![CDATA[
-		Alarmierung: telefonisch<br />
-		Eingesetzte Fahrzeuge: TLF-A 4000 8<br />
-		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
-	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4560/]]></link>
-	<pubDate>Sat, 31 Dec 2016 23:44:00 +0100</pubDate>
-</item>
-
-<item>
-	<title>
-		[31.12.2016 - 19:57 Uhr] TÃ¼rÃ¶ffnung
-	</title>
-	<description><![CDATA[
-		Einsatzort: Mortantsch, GÃ¶ttelsberg<br />
-		Alarmierung: Sammelruf<br />
-		Eingesetzte Fahrzeuge: KDO 1 / SRF 6 / TLF-A 4000 8<br />
-		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
-	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4559/]]></link>
-	<pubDate>Sat, 31 Dec 2016 19:57:00 +0100</pubDate>
-</item>
-
-<item>
-	<title>
-		[29.12.2016 - 09:30 Uhr] Technische Hilfeleistung
+		[16.08.2018 - 16:30 Uhr] Insekteneinsatz
 	</title>
 	<description><![CDATA[
 		Einsatzort: Weiz, Stadtgebiet<br />
 		Alarmierung: telefonisch<br />
-		Eingesetzte Fahrzeuge: WLF 3<br />
+		Eingesetzte Fahrzeuge: TLF-A 2000 5<br />
 		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4557/]]></link>
-	<pubDate>Thu, 29 Dec 2016 09:30:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5219/]]></link>
+	<pubDate>Thu, 16 Aug 2018 16:30:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[28.12.2016 - 07:11 Uhr] Verkehrsunfall
+		[16.08.2018 - 11:37 Uhr] Brandmeldeanlagenalarm
 	</title>
 	<description><![CDATA[
-		Einsatzort: Naas, B64 HÃ¶he Weizklamm<br />
+		Einsatzort: Weiz, Kunsthaus (Elingasse)<br />
+		Alarmierung: Sammelruf<br />
+		Eingesetzte Fahrzeuge: KDO 1<br />
+		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
+	]]></description>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5216/]]></link>
+	<pubDate>Thu, 16 Aug 2018 11:37:00 +0100</pubDate>
+</item>
+
+<item>
+	<title>
+		[13.08.2018 - 16:08 Uhr] Verkehrsunfall
+	</title>
+	<description><![CDATA[
+		Einsatzort: Naas, Naasgraben<br />
+		Alarmierung: Gruppenruf<br />
+		Eingesetzte Fahrzeuge: WLF 3 / MTF 4 / SRF 6 / LKW 9b<br />
+		Weitere Informationen und Details sowie Fotos zu diesem Einsatz finden Sie auf unserer Website.
+	]]></description>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5214/]]></link>
+	<pubDate>Mon, 13 Aug 2018 16:08:00 +0100</pubDate>
+</item>
+
+<item>
+	<title>
+		[13.08.2018 - 12:22 Uhr] Auspumparbeiten
+	</title>
+	<description><![CDATA[
+		Einsatzort: Weiz, Hans-Sutter-Gasse<br />
+		Alarmierung: Gruppenruf<br />
+		Eingesetzte Fahrzeuge: KLF-A 11<br />
+		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
+	]]></description>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5213/]]></link>
+	<pubDate>Mon, 13 Aug 2018 12:22:00 +0100</pubDate>
+</item>
+
+<item>
+	<title>
+		[11.08.2018 - 18:47 Uhr] Traktorbergung
+	</title>
+	<description><![CDATA[
+		Einsatzort: Naas, Gössental<br />
 		Alarmierung: Gruppenruf<br />
 		Eingesetzte Fahrzeuge: MTF 4 / SRF 6<br />
-		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
+		Weitere Informationen und Details sowie Fotos zu diesem Einsatz finden Sie auf unserer Website.
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4556/]]></link>
-	<pubDate>Wed, 28 Dec 2016 07:11:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5212/]]></link>
+	<pubDate>Sat, 11 Aug 2018 18:47:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[27.12.2016 - 08:30 Uhr] Technische Hilfeleistung
+		[10.08.2018 - 10:44 Uhr] Ölbindearbeiten
 	</title>
 	<description><![CDATA[
-		Einsatzort: Weiz, Hauptplatz<br />
+		Einsatzort: Mortantsch, L356 Nähe Literwirt<br />
+		Alarmierung: Gruppenruf<br />
+		Eingesetzte Fahrzeuge: MTF 4 / SRF 6 / LKW 9b<br />
+		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
+	]]></description>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5211/]]></link>
+	<pubDate>Fri, 10 Aug 2018 10:44:00 +0100</pubDate>
+</item>
+
+<item>
+	<title>
+		[08.08.2018 - 17:45 Uhr] Insekteneinsatz
+	</title>
+	<description><![CDATA[
+		Einsatzort: Weiz, Stadtgebiet<br />
 		Alarmierung: telefonisch<br />
-		Eingesetzte Fahrzeuge: TMB-42 10<br />
+		Eingesetzte Fahrzeuge: TLF-A 2000 5 / LKW 9b<br />
 		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4558/]]></link>
-	<pubDate>Tue, 27 Dec 2016 08:30:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5215/]]></link>
+	<pubDate>Wed, 08 Aug 2018 17:45:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[26.12.2016 - 16:44 Uhr] Ã–leinsatz
+		[06.08.2018 - 18:08 Uhr] Insekteneinsatz
 	</title>
 	<description><![CDATA[
-		Einsatzort: Weiz, GÃ¶tzenbichl bis Greith<br />
-		Alarmierung: Gruppenruf<br />
-		Eingesetzte Fahrzeuge: MTF 4 / LKW 9<br />
+		Einsatzort: Weiz, Stadtgebiet<br />
+		Alarmierung: telefonisch<br />
+		Eingesetzte Fahrzeuge: LKW 9b<br />
 		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4555/]]></link>
-	<pubDate>Mon, 26 Dec 2016 16:44:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5210/]]></link>
+	<pubDate>Mon, 06 Aug 2018 18:08:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[20.12.2016 - 06:03 Uhr] Verkehrsunfall mit eingeklemmter Person
+		[06.08.2018 - 04:53 Uhr] Brandmeldeanlagenalarm
 	</title>
 	<description><![CDATA[
-		Einsatzort: Mitterdorf a.d. Raab, B72 HÃ¶he HÃ¶llboden/Hohenkogl<br />
-		Alarmierung: Sammelruf, Sirene<br />
-		Eingesetzte Fahrzeuge: KDO 1 / MTF 4 / SRF 6 / TLF-A 4000 8<br />
-		Weitere Informationen und Details sowie Fotos zu diesem Einsatz finden Sie auf unserer Website.
-	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4554/]]></link>
-	<pubDate>Tue, 20 Dec 2016 06:03:00 +0100</pubDate>
-</item>
-
-<item>
-	<title>
-		[17.12.2016 - 10:14 Uhr] Ã–leinsatz
-	</title>
-	<description><![CDATA[
-		Einsatzort: Weiz, Spitzweg<br />
-		Alarmierung: Gruppenruf<br />
-		Eingesetzte Fahrzeuge: MTF 4 / SRF 6<br />
-		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
-	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4553/]]></link>
-	<pubDate>Sat, 17 Dec 2016 10:14:00 +0100</pubDate>
-</item>
-
-<item>
-	<title>
-		[16.12.2016 - 09:56 Uhr] Kaminbrand
-	</title>
-	<description><![CDATA[
-		Einsatzort: Weiz, DorfstraÃŸe<br />
+		Einsatzort: Weiz, Landeskrankenhaus (Franz-Pichler-Straße)<br />
 		Alarmierung: Sammelruf<br />
-		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8 / TMB-42 10<br />
-		Weitere Informationen und Details sowie Fotos zu diesem Einsatz finden Sie auf unserer Website.
+		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8a<br />
+		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4552/]]></link>
-	<pubDate>Fri, 16 Dec 2016 09:56:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5209/]]></link>
+	<pubDate>Mon, 06 Aug 2018 04:53:00 +0100</pubDate>
 </item>
 
 <item>
 	<title>
-		[12.12.2016 - 09:08 Uhr] Brandmeldeanlagenalarm
+		[05.08.2018 - 15:42 Uhr] Brandmeldeanlagenalarm
 	</title>
 	<description><![CDATA[
-		Einsatzort: Weiz, Fa. Magna Presstec (Elin-SÃ¼d-StraÃŸe, Werk 2)<br />
+		Einsatzort: Weiz, Landeskrankenhaus (Franz-Pichler-Straße)<br />
 		Alarmierung: Sammelruf<br />
-		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8 / KRF-S 13<br />
+		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8a<br />
 		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
 	]]></description>
-	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4551/]]></link>
-	<pubDate>Mon, 12 Dec 2016 09:08:00 +0100</pubDate>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5208/]]></link>
+	<pubDate>Sun, 05 Aug 2018 15:42:00 +0100</pubDate>
+</item>
+
+<item>
+	<title>
+		[02.08.2018 - 18:57 Uhr] Brandmeldeanlagenalarm
+	</title>
+	<description><![CDATA[
+		Einsatzort: Weiz, Interspar (Kaplanweg)<br />
+		Alarmierung: Sammelruf<br />
+		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8a<br />
+		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
+	]]></description>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5204/]]></link>
+	<pubDate>Thu, 02 Aug 2018 18:57:00 +0100</pubDate>
+</item>
+
+<item>
+	<title>
+		[02.08.2018 - 11:18 Uhr] Brandmeldeanlagenalarm
+	</title>
+	<description><![CDATA[
+		Einsatzort: Weiz, Kunsthaus (Elingasse)<br />
+		Alarmierung: Sammelruf<br />
+		Eingesetzte Fahrzeuge: KDO 1 / TLF-A 4000 8a<br />
+		Weitere Informationen und Details zu diesem Einsatz finden Sie auf unserer Website
+	]]></description>
+	<link><![CDATA[http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5203/]]></link>
+	<pubDate>Thu, 02 Aug 2018 11:18:00 +0100</pubDate>
 </item>
 
 </channel>

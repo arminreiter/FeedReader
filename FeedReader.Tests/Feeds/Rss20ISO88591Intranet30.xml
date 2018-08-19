@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<rss version="2.0" xmlns:ret="http://www.retriever-info.com">
+
+	<channel>
+	    <title>intranet30</title>
+	    <link>http://www.retriever-info.com</link>
+	    <description>RSS 2.0 News feed from Retriever Norge AS</description>
+	
+	    <image>
+			<title>_INDEX_</title>
+			<url>http://www.retriever-info.com/gfx/logo/retriever_logo.jpg</url>
+			<link>http://www.retriever-info.com</link>
+	    </image>
+	
+	    <webMaster>support@retriever-info.com</webMaster>
+	    <pubDate>Sun, 19 Aug 2018 07:26:08 GMT</pubDate>
+	
+	    <ret:profile_id>0</ret:profile_id>
+	    <ret:profile_name>_INDEX_</ret:profile_name>
+	    <ret:delivery_id>50869</ret:delivery_id>
+	    <ret:delivery_name>intranet30</ret:delivery_name>
+
+    
+	    <item>
+			<title>SVART MÅNAD - DÖDSOLYCKA i Vetlanda</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00201120180819281555686&amp;p=200108&amp;s=2011&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.hoglandsnytt.se%2Fsvart-manad-dodsolycka-i-vetlanda%2F&amp;x=33d88e677ce6481d9882de22c76e4234</link>
+			<description>Under juli 2018 omkom 39 personer och 1 521 skadades i vägtrafiken. Det visar de preliminära uppgifter som inkommit till Transportstyrelsen fram till den 15 augusti 2018. Det är åtta fler omkomna jämfört med juli månad 2017.</description>
+			<pubDate>Sun, 19 Aug 2018 07:14:00 GMT</pubDate>
+			<guid isPermaLink="false">00201120180819281555686</guid>
+			<author>Höglandsnytt</author>
+		
+			<ret:docdate>2018-08-19 09:14:00</ret:docdate>
+			<ret:source>Höglandsnytt</ret:source>
+			<ret:source_id>2011</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>258</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline></ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Green Cargo - en miljöbov som orsakar hörselskador och bränder</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00100120180819281553604&amp;p=200108&amp;s=1001&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.st.nu%2Fartikel%2Fopinion%2Finsandare%2Fgreen-cargo-en-miljobov-som-orsakar-horselskador-och-brander-1&amp;x=3a53e9d90a6c5823508a313724674e11</link>
+			<description>Green Cargo är en stor miljöbov enligt mitt tycke. Dom borde inte få trafikera våra järnvägar med sina diesellok som spyr ut avgaser (helt orenade tror jag).</description>
+			<pubDate>Sun, 19 Aug 2018 05:30:00 GMT</pubDate>
+			<guid isPermaLink="false">00100120180819281553604</guid>
+			<author>Sundsvalls Tidning</author>
+		
+			<ret:docdate>2018-08-19 07:30:00</ret:docdate>
+			<ret:source>Sundsvalls Tidning</ret:source>
+			<ret:source_id>1001</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>418</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline></ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>&quot;En häst blir aldrig 100 procent trafiksäker&quot;</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=050804201808194d892f3a639357d791431a203d4c1947&amp;p=200108&amp;s=50804&amp;sa=2016177&amp;x=174d87ce574ad2053bfcecbae7649846</link>
+			<description>Vi har länge kunnat följa hetsiga diskussioner mellan bilister och ryttare när det gäller vad som är rätt och fel i trafiken. Många kan tycka att sunt förnuft bör vara tillräckligt - men ändå sker olyckor som kanske skulle gått att undvika.</description>
+			<pubDate>Sun, 19 Aug 2018 05:13:37 GMT</pubDate>
+			<guid isPermaLink="false">050804201808194d892f3a639357d791431a203d4c1947</guid>
+			<author>Nerikes Allehanda</author>
+		
+			<ret:docdate>2018-08-19</ret:docdate>
+			<ret:source>Nerikes Allehanda</ret:source>
+			<ret:source_id>50804</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>871</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Hanna Eriksson</ret:byline>
+			<ret:imgtext>Konsekvenserna när olyckan varit framme varierar. Men oavsett vem som orsakat olyckan, är ryttaren berättigad ersättning för personskadorna genom fordonets trafikförsäkring. | Vägmärket Varning för ridande utmärker en vägsträcka där ridande ofta korsar eller befinner sig på vägen. | För Kattis Stenbäck är det en fråga om bristande respekt, både från bilister och ryttare. | Kattis Stenbäck och det tyska halvblodet Favourite Edition, även kallad Ed.</ret:imgtext>
+			<ret:page>12-13</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=050804201808194d892f3a639357d791431a203d4c1947&amp;p=200108&amp;s=50804&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=174d87ce574ad2053bfcecbae7649846</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Över om tre veckor</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=05715120180819c22fdb7f3d763c652841c50134cfde23&amp;p=200108&amp;s=57151&amp;sa=2016177&amp;x=ace27f8d208948b3ad92877fea776e81</link>
+			<description>Dan Eliasson påstår att &amp;quot;inköp av brandflyg är en ganska dyr historia&amp;quot;, visst men sedan när blev det ett problem att bränna skattepengar i det här landet?</description>
+			<pubDate>Sun, 19 Aug 2018 04:13:56 GMT</pubDate>
+			<guid isPermaLink="false">05715120180819c22fdb7f3d763c652841c50134cfde23</guid>
+			<author>Folkbladet Östergötland</author>
+		
+			<ret:docdate>2018-08-19</ret:docdate>
+			<ret:source>Folkbladet Östergötland</ret:source>
+			<ret:source_id>57151</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>591</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Johnny Hornbrink Ordförande SD-Finnveden</ret:byline>
+			<ret:imgtext>Dagens debattör hoppas att valet om tre veckor ska innebära Stefan Löfvens avgång som statsminister.</ret:imgtext>
+			<ret:page>14</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=05715120180819c22fdb7f3d763c652841c50134cfde23&amp;p=200108&amp;s=57151&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=ace27f8d208948b3ad92877fea776e81</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Miljöbov som orsakar hörselskador och bränder</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=05712720180819ef780120b825cceb1714b8ab9db587ef&amp;p=200108&amp;s=57127&amp;sa=2016177&amp;x=6cfb563c23595441f777909b6db968a3</link>
+			<description></description>
+			<pubDate>Sun, 19 Aug 2018 02:00:00 GMT</pubDate>
+			<guid isPermaLink="false">05712720180819ef780120b825cceb1714b8ab9db587ef</guid>
+			<author>Sundsvalls Tidning</author>
+		
+			<ret:docdate>2018-08-19</ret:docdate>
+			<ret:source>Sundsvalls Tidning</ret:source>
+			<ret:source_id>57127</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>368</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Lina Holmgren</ret:byline>
+			<ret:preintro>? SVAR DIREKT</ret:preintro>
+			<ret:imgtext>Hur gröna är Green Cargo? Skribenten har synpunkter på logistikföretaget som här svarar direkt.</ret:imgtext>
+			<ret:page>18</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=05712720180819ef780120b825cceb1714b8ab9db587ef&amp;p=200108&amp;s=57127&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=6cfb563c23595441f777909b6db968a3</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Näslund: Märkligt så tysta kanonerna är i valrörelsen</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00026020180818281535903&amp;p=200108&amp;s=260&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.bt.se%2Fledare%2Fnaslund-markligt-sa-tysta-kanonerna-ar-i-valrorelsen%2F&amp;x=70fcec27f2225864d1abab0ed21febc7</link>
+			<description>ENGELSBERG. Valrörelsen bär på många märkligheter. En av dem om mängder av kulor och krut. Ändå hör vi inte att det smäller, hur vi än lägger örat till slaget om väljarna.</description>
+			<pubDate>Sat, 18 Aug 2018 13:13:09 GMT</pubDate>
+			<guid isPermaLink="false">00026020180818281535903</guid>
+			<author>Borås Tidning</author>
+		
+			<ret:docdate>2018-08-18 15:13:09</ret:docdate>
+			<ret:source>Borås Tidning</ret:source>
+			<ret:source_id>260</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>1323</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Lars Näslund</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Så ska bilister bete sig mot hästar i trafiken: &quot;En häst blir aldrig hundra procent trafiksäker&quot;</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00599320180818281535672&amp;p=200108&amp;s=5993&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.nynashamnsposten.se%2Fartikel%2Fallmant%2Fsa-ska-bilister-bete-sig-mot-hastar-i-trafiken-en-hast-blir-aldrig-hundra-procent-trafiksaker-1&amp;x=a01b3258cf9838cc859166dd3cf1fa51</link>
+			<description>Vi har länge kunnat följa hetsiga diskussioner mellan bilister och ryttare när det gäller vad som är rätt och fel i trafiken. Många kan tycka att sunt förnuft bör vara tillräckligt - men ändå sker olyckor som kanske skulle gått att undvika.</description>
+			<pubDate>Sat, 18 Aug 2018 13:00:00 GMT</pubDate>
+			<guid isPermaLink="false">00599320180818281535672</guid>
+			<author>Nynäshamns Posten</author>
+		
+			<ret:docdate>2018-08-18 15:00:00</ret:docdate>
+			<ret:source>Nynäshamns Posten</ret:source>
+			<ret:source_id>5993</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>874</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Hanna Eriksson</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Det kan löna sig att ta körkortet i en intensiv fart</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00188820180818281531446&amp;p=200108&amp;s=1888&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.vasterastidning.se%2Fvasteras%2Fdet-kan-lona-sig-att-ta-korkortet-i-en-intensiv-fart%2Freprhr%21ggpEGnHNgVCl2cVowTWT%40w%2F&amp;x=59958095b2420b93fdb31397a72f4c88</link>
+			<description>Att skaffa ett körkort kan bli en dyr och tidskrävande historia. Inte alla klarar teori och uppkörning första gången, speciellt inte de som bara kör privat. En variant när det är dags att ta körkort är att gå en intensivkurs på en körskola.</description>
+			<pubDate>Sat, 18 Aug 2018 07:58:00 GMT</pubDate>
+			<guid isPermaLink="false">00188820180818281531446</guid>
+			<author>Västerås Tidning</author>
+		
+			<ret:docdate>2018-08-18 09:58:00</ret:docdate>
+			<ret:source>Västerås Tidning</ret:source>
+			<ret:source_id>1888</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>776</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Helena Andersson</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Säpo utreder kapat konto</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=050915201808181bab9d412255a77075d1c4919daf6c5f&amp;p=200108&amp;s=50915&amp;sa=2016177&amp;x=57aad60fb4989429c16583ec33f33489</link>
+			<description>Riksdagsledamoten Tuve Skånberg (KD) fick sitt Facebookkonto kapat. Någon tog ko...</description>
+			<pubDate>Sat, 18 Aug 2018 04:04:23 GMT</pubDate>
+			<guid isPermaLink="false">050915201808181bab9d412255a77075d1c4919daf6c5f</guid>
+			<author>Dagens Nyheter</author>
+		
+			<ret:docdate>2018-08-18</ret:docdate>
+			<ret:source>Dagens Nyheter</ret:source>
+			<ret:source_id>50915</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>326</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Lisa Röstlund</ret:byline>
+			<ret:imgtext>Tuve Skånberg (KD). | Eva-Lena Gustavsson (S).</ret:imgtext>
+			<ret:page>7</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=050915201808181bab9d412255a77075d1c4919daf6c5f&amp;p=200108&amp;s=50915&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=57aad60fb4989429c16583ec33f33489</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Allt färre dödsolyckor till havs</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=05735120180818911f231cd8fe5f14779f9f6e8912cef4&amp;p=200108&amp;s=57351&amp;sa=2016177&amp;x=869325003540d84544d378b9f9e0bbae</link>
+			<description>Sedan statistik började föras i början av 1970-talet har fritidsbåtolyckorna minskat med drygt 80 procent och de senaste åren har olycksstatistiken fortsatt att sjunka kraftigt. Nya båtvanor och ett bättre samarbete mellan organisationer och myndigheter verkar ligga bakom den nedåtgående trenden.</description>
+			<pubDate>Sat, 18 Aug 2018 02:19:17 GMT</pubDate>
+			<guid isPermaLink="false">05735120180818911f231cd8fe5f14779f9f6e8912cef4</guid>
+			<author>Strömstads Tidning / Norra Bohuslän</author>
+		
+			<ret:docdate>2018-08-18</ret:docdate>
+			<ret:source>Strömstads Tidning / Norra Bohuslän</ret:source>
+			<ret:source_id>57351</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>583</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>TOBIAS SCHREIBER</ret:byline>
+			<ret:preintro>BOHUSLÄN</ret:preintro>
+			<ret:imgtext>INSATS. Sjöräddningssällskapet på plats vid en motorbåt som tagit in vatten och börjat sjunka.</ret:imgtext>
+			<ret:page>9</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=05735120180818911f231cd8fe5f14779f9f6e8912cef4&amp;p=200108&amp;s=57351&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=869325003540d84544d378b9f9e0bbae</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Förskolebussen avställd</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=05707920180818a37a01fb8ef6c86525064a24fa7dec38&amp;p=200108&amp;s=57079&amp;sa=2016177&amp;x=c05cad41e59197b4fbed0bec7d997cff</link>
+			<description>Den sprillans nya förskolan Fullriggarens nya grepp - en buss - invigdes på torsdagen. Men var bussen av eller på? Svaret är: mittemellan!</description>
+			<pubDate>Sat, 18 Aug 2018 02:07:06 GMT</pubDate>
+			<guid isPermaLink="false">05707920180818a37a01fb8ef6c86525064a24fa7dec38</guid>
+			<author>Nya Wermlands-Tidningen</author>
+		
+			<ret:docdate>2018-08-18</ret:docdate>
+			<ret:source>Nya Wermlands-Tidningen</ret:source>
+			<ret:source_id>57079</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>250</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Nicole de Bouczan</ret:byline>
+			<ret:subheadline>KARLSTAD. Räknas som saluvagn</ret:subheadline>
+			<ret:imgtext>Projektledaren Anders Malmros visar förskolebussens utekök. | Till vänster i rutan skymtar den gröna saluvagnsskylten.</ret:imgtext>
+			<ret:page>36</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=05707920180818a37a01fb8ef6c86525064a24fa7dec38&amp;p=200108&amp;s=57079&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=c05cad41e59197b4fbed0bec7d997cff</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Så ser planen ut för olyckskorsningen</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=0571492018081859e29b10a5b185177e0c6a6f4888dc56&amp;p=200108&amp;s=57149&amp;sa=2016177&amp;x=072eb6acffc85a67c5289e7f8153c965</link>
+			<description>? 2020 är det tänkt att den olycksdrabbade korsningen på E 22 vid Preem i Ålem ska börja byggas om. ? Samrådsprocessen kring den nya vägplanen är inledd.</description>
+			<pubDate>Sat, 18 Aug 2018 02:00:00 GMT</pubDate>
+			<guid isPermaLink="false">0571492018081859e29b10a5b185177e0c6a6f4888dc56</guid>
+			<author>Östra Småland</author>
+		
+			<ret:docdate>2018-08-18</ret:docdate>
+			<ret:source>Östra Småland</ret:source>
+			<ret:source_id>57149</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>272</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>ÅSA BOREFUR</ret:byline>
+			<ret:imgtext>Så här ser den planerade lösningen ut. Grön markering avser förslag för ombyggnad av korsningen. Röd och gul markering avser alternativ för gång- och cykelpassage. SKISS: TRAFIKVERKET</ret:imgtext>
+			<ret:page>23</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=0571492018081859e29b10a5b185177e0c6a6f4888dc56&amp;p=200108&amp;s=57149&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=072eb6acffc85a67c5289e7f8153c965</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Åtta riksdagsår går mot sitt slut</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=0574702018081873c8b1afc6bba6637d006d1fec3deb22&amp;p=200108&amp;s=57470&amp;sa=2016177&amp;x=21812df8ff96455dd0539f9315976947</link>
+			<description>I samband med avslutningen av vårriksdagen den 20 juni avtackades jag av talmannen för mina åtta år i riksdagen. Men uppdraget fortsätter tills de nyvalda riksdagsledamöterna tar över den 24 september.</description>
+			<pubDate>Sat, 18 Aug 2018 02:00:00 GMT</pubDate>
+			<guid isPermaLink="false">0574702018081873c8b1afc6bba6637d006d1fec3deb22</guid>
+			<author>Norra Skåne</author>
+		
+			<ret:docdate>2018-08-18</ret:docdate>
+			<ret:source>Norra Skåne</ret:source>
+			<ret:source_id>57470</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>589</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Per-Ingvar Johnsson riksdagsledamot (C), Ripa, Åhus ledamot i Konstitutionsutskottet</ret:byline>
+			<ret:imgtext>Per-Ingvar Johnsson (C). ARKIVBILD</ret:imgtext>
+			<ret:page>21</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=0574702018081873c8b1afc6bba6637d006d1fec3deb22&amp;p=200108&amp;s=57470&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=21812df8ff96455dd0539f9315976947</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Tipsen inför ditt första bilköp</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=057705201808186c5f011dfc59aec12f89dd7afc091fa8&amp;p=200108&amp;s=57705&amp;sa=2016177&amp;x=f23a571699bf01f259084c839b6766c4</link>
+			<description>Det är självklart spännande att köpa sin första bil. Men vad du bör kolla upp och tänka på när du köper en begagnad bil? Motormännens Riksförbund delar med sig av sina bästa tips.</description>
+			<pubDate>Sat, 18 Aug 2018 02:00:00 GMT</pubDate>
+			<guid isPermaLink="false">057705201808186c5f011dfc59aec12f89dd7afc091fa8</guid>
+			<author>Järfälla Tidning</author>
+		
+			<ret:docdate>2018-08-18</ret:docdate>
+			<ret:source>Järfälla Tidning</ret:source>
+			<ret:source_id>57705</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>558</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline></ret:byline>
+			<ret:page>25</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=057705201808186c5f011dfc59aec12f89dd7afc091fa8&amp;p=200108&amp;s=57705&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=f23a571699bf01f259084c839b6766c4</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Hat-trick av Helsingborgspolisen</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00706520180817281516658&amp;p=200108&amp;s=7065&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.tidningenproffs.se%2Fnyhet%2F2018%2F08%2Fhat-trick-av-helsingborgspolisen%2F&amp;x=6d94413a8221c8d4993e2ab4d32a579a</link>
+			<description>Torsdagen den 16 augusti, kontrollerar helsingborgspolisen yrkestrafiken på E6 norrgående.</description>
+			<pubDate>Fri, 17 Aug 2018 18:07:00 GMT</pubDate>
+			<guid isPermaLink="false">00706520180817281516658</guid>
+			<author>Proffs</author>
+		
+			<ret:docdate>2018-08-17 20:07:00</ret:docdate>
+			<ret:source>Proffs</ret:source>
+			<ret:source_id>7065</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>560</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Heidi Bodensjö</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Säpo utreder riksdagsledamots kapade Facebook-konto</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=01520720180817281509284&amp;p=200108&amp;s=15207&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.dn.se%2Fnyheter%2Fpolitik%2Fsapo-utreder-riksdagsledamots-kapade-facebook-konto%2F&amp;x=f30c5228d95b59322aae50dd0da82fad</link>
+			<description>Riksdagsledamoten Tuve Skånberg (KD) fick sitt Facebook-konto kapat. Någon tog s...</description>
+			<pubDate>Fri, 17 Aug 2018 16:08:33 GMT</pubDate>
+			<guid isPermaLink="false">01520720180817281509284</guid>
+			<author>Dagens Nyheter - Login</author>
+		
+			<ret:docdate>2018-08-17 18:08:33</ret:docdate>
+			<ret:source>Dagens Nyheter - Login</ret:source>
+			<ret:source_id>15207</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>399</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Lisa Röstlund</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Han planerar 3700 mil för att hjälpa i foderkrisen</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00032820180817281501287&amp;p=200108&amp;s=328&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.landlantbruk.se%2Flantbruk%2Fhan-planerar-3700-mil-for-att-hjalpa-i-foderkrisen%2F&amp;x=df6cd3056208ca6a26a4114cda23884e</link>
+			<description>Förra veckan var det 400 mil, nu är det 700 mil. Men totalt planerar Kristoffer Nilsson från boden att köra över 3700 mil för att leverera foder till drabbade djurägare på Gotland.</description>
+			<pubDate>Fri, 17 Aug 2018 13:01:49 GMT</pubDate>
+			<guid isPermaLink="false">00032820180817281501287</guid>
+			<author>Land Lantbruk</author>
+		
+			<ret:docdate>2018-08-17 15:01:49</ret:docdate>
+			<ret:source>Land Lantbruk</ret:source>
+			<ret:source_id>328</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>574</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Louise Carlsson Örning</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Yttrande över remiss av ändring i TSFS 2010:96 om förorening från fartyg</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00735620180817281495462&amp;p=200108&amp;s=7356&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.trafa.se%2Fsjofart%2Fyttrande-over-remiss-av-andring-i-tsfs-201096-om--fororening-fran-fartyg-7673%2F&amp;x=a80ebad4dfba9b8a73ef3596543a9c3a</link>
+			<description>Trafikanalys har beretts möjlighet att yttra sig över externremissen av förslag till införlivande av IMO:s regelverk om övervakning, rapportering och verifiering av koldioxidutsläpp från fartyg, genom ändring av TSFS 2010:96.</description>
+			<pubDate>Fri, 17 Aug 2018 11:14:00 GMT</pubDate>
+			<guid isPermaLink="false">00735620180817281495462</guid>
+			<author>Trafikanalys</author>
+		
+			<ret:docdate>2018-08-17 13:14:00</ret:docdate>
+			<ret:source>Trafikanalys</ret:source>
+			<ret:source_id>7356</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>168</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline></ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Planering för ombyggnad av olycksdrabbad korsning pågår</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00952320180817281494670&amp;p=200108&amp;s=9523&amp;sa=2016177&amp;x=14c3f5269ccc7b344e9c675af9c0f5cd</link>
+			<description>2020 är det tänkt att den olycksdrabbade korsningen på E22 vid Preem i Ålem ska börja byggas om. Samrådsprocessen kring den nya vägplanen är inledd. Foto: Skiss: Trafikverket Så här ser den planerade lösningen ut.</description>
+			<pubDate>Fri, 17 Aug 2018 10:55:10 GMT</pubDate>
+			<guid isPermaLink="false">00952320180817281494670</guid>
+			<author>Barometern Plus</author>
+		
+			<ret:docdate>2018-08-17 12:55:10</ret:docdate>
+			<ret:source>Barometern Plus</ret:source>
+			<ret:source_id>9523</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>296</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Åsa Borefur</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Fler åker dit för cabotagebrott</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00096020180817281492992&amp;p=200108&amp;s=960&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.transportarbetaren.se%2Ffler-aker-dit-for-cabotagebrott%2F&amp;x=ed81ad694ee980a45d837a64e05ccce0</link>
+			<description>Åkeri. Under årets första halvår syns en kraftig ökning av uttagna sanktionsavgifter för brott mot reglerna om cabotage och kombinerade transporter.</description>
+			<pubDate>Fri, 17 Aug 2018 10:24:00 GMT</pubDate>
+			<guid isPermaLink="false">00096020180817281492992</guid>
+			<author>Transportarbetaren</author>
+		
+			<ret:docdate>2018-08-17 12:24:00</ret:docdate>
+			<ret:source>Transportarbetaren</ret:source>
+			<ret:source_id>960</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>414</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>John Antonsson</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Så ska bilister bete sig mot hästar i trafiken: &quot;En häst blir aldrig hundra procent trafiksäker&quot;</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00061820180817281491813&amp;p=200108&amp;s=618&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.norrteljetidning.se%2Fartikel%2Fstockholm%2Fnorrtalje-kommun%2Fsa-ska-bilister-bete-sig-mot-hastar-i-trafiken-en-hast-blir-aldrig-hundra-procent-trafiksaker-4&amp;x=a9c3846e7fb5d27e5b5c63dc24654aef</link>
+			<description>Vi har länge kunnat följa hetsiga diskussioner mellan bilister och ryttare när det gäller vad som är rätt och fel i trafiken. Många kan tycka att sunt förnuft bör vara tillräckligt - men ändå sker olyckor som kanske skulle gått att undvika.</description>
+			<pubDate>Fri, 17 Aug 2018 10:01:00 GMT</pubDate>
+			<guid isPermaLink="false">00061820180817281491813</guid>
+			<author>Norrtelje Tidning</author>
+		
+			<ret:docdate>2018-08-17 12:01:00</ret:docdate>
+			<ret:source>Norrtelje Tidning</ret:source>
+			<ret:source_id>618</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>874</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Hanna Eriksson</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Regler vid grovfoderimport till sjöss</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00596320180817281488646&amp;p=200108&amp;s=5963&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.lrf.se%2Fmitt-lrf%2Fnyheter%2Friks%2F2018%2F08%2Fgrovfoderimport-till-sjoss%2F&amp;x=9c1cd73ae92dd25c3220ebd6f8bd3224</link>
+			<description>Riks På grund av torkan är det många som vill importera grovfoder. Vill man importera foder med fartyg bör man tänka på att hö och halm räknas som farligt gods vid sjötransport.</description>
+			<pubDate>Fri, 17 Aug 2018 09:07:30 GMT</pubDate>
+			<guid isPermaLink="false">00596320180817281488646</guid>
+			<author>Lantbrukarnas Riksförbund</author>
+		
+			<ret:docdate>2018-08-17 11:07:30</ret:docdate>
+			<ret:source>Lantbrukarnas Riksförbund</ret:source>
+			<ret:source_id>5963</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>394</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline></ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Därför fick bussen köras - trots att den är avställd</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00876020180817281487543&amp;p=200108&amp;s=8760&amp;sa=2016177&amp;x=ce3b50905de1d8ae3d3f4e453b50fd6b</link>
+			<description>KARLSTAD: Projektledaren Anders Malmros förklarar Den sprillans nya förskolan Fullriggarens nya grepp - en buss - invigdes på torsdagen. Men var bussen av eller på? Svaret är: mittemellan! NWT:s läsare är uppmärksamma.</description>
+			<pubDate>Fri, 17 Aug 2018 08:31:00 GMT</pubDate>
+			<guid isPermaLink="false">00876020180817281487543</guid>
+			<author>Nya Wermlands-Tidningen Plus</author>
+		
+			<ret:docdate>2018-08-17 10:31:00</ret:docdate>
+			<ret:source>Nya Wermlands-Tidningen Plus</ret:source>
+			<ret:source_id>8760</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>259</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>nicole de bouczan</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Antalet omkomna i trafiken fortsätter öka</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=00091220180817281480594&amp;p=200108&amp;s=912&amp;sa=2016177&amp;u=http%3A%2F%2Fwww.motormagasinet.se%2Farticle%2Fview%2F614946%2Fantalet_omkomna_i_trafiken_fortsatter_oka&amp;x=4077f89be788ee103ba1a0ceb6b2fb43</link>
+			<description>Under juli 2018 omkom 39 personer och 1 521 skadades i vägtrafiken. Det visar de preliminära uppgifter som inkommit till Transportstyrelsen fram till den 15 augusti 2018. Det är åtta fler omkomna jämfört med juli månad 2017.</description>
+			<pubDate>Fri, 17 Aug 2018 05:36:00 GMT</pubDate>
+			<guid isPermaLink="false">00091220180817281480594</guid>
+			<author>MotorMagasinet</author>
+		
+			<ret:docdate>2018-08-17 07:36:00</ret:docdate>
+			<ret:source>MotorMagasinet</ret:source>
+			<ret:source_id>912</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>web</ret:mediatype>
+			<ret:wordcount>204</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Olle Holm</ret:byline>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>web</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Kreativ lösning för övergångsställe</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=05731120180817cccf8e8e1f406d3e61614ac12301ca26&amp;p=200108&amp;s=57311&amp;sa=2016177&amp;x=802791ddf255ba5910e485cd07f08674</link>
+			<description>I början av augusti var det inte säkert att det skulle bli ett övergångsställe i pridefärgerna. Men efter att allmänheten begärde det anordnades det snabbt, och denna gång på ett annorlunda sätt.</description>
+			<pubDate>Fri, 17 Aug 2018 04:24:24 GMT</pubDate>
+			<guid isPermaLink="false">05731120180817cccf8e8e1f406d3e61614ac12301ca26</guid>
+			<author>Barometern</author>
+		
+			<ret:docdate>2018-08-17</ret:docdate>
+			<ret:source>Barometern</ret:source>
+			<ret:source_id>57311</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>334</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>MOA PALMGREN</ret:byline>
+			<ret:imgtext>Såhär blev lösningen när kommunen inte kunde måla på det vita för att skapa prideflaggan.</ret:imgtext>
+			<ret:page>4</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=05731120180817cccf8e8e1f406d3e61614ac12301ca26&amp;p=200108&amp;s=57311&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=802791ddf255ba5910e485cd07f08674</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>M i Helsingborg vill ha alkoholförbud på fartyg</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=05090220180817d44c2f98818e201d3841fa3bde5e8606&amp;p=200108&amp;s=50902&amp;sa=2016177&amp;x=0a1e9b9b590760815aa7bf44bdb467b8</link>
+			<description>HELSINGBORG</description>
+			<pubDate>Fri, 17 Aug 2018 04:02:56 GMT</pubDate>
+			<guid isPermaLink="false">05090220180817d44c2f98818e201d3841fa3bde5e8606</guid>
+			<author>Nordvästra Skånes Tidningar</author>
+		
+			<ret:docdate>2018-08-17</ret:docdate>
+			<ret:source>Nordvästra Skånes Tidningar</ret:source>
+			<ret:source_id>50902</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>282</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>JENNIE LORENTSSON</ret:byline>
+			<ret:subheadline>SJÖSÄKERHET</ret:subheadline>
+			<ret:imgtext>ARKIVF: JOHAN NILSSON TT Handelsfartyget BBC Lagos gick på grund utanför Råå den 3 augusti.</ret:imgtext>
+			<ret:page>6</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=05090220180817d44c2f98818e201d3841fa3bde5e8606&amp;p=200108&amp;s=50902&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=0a1e9b9b590760815aa7bf44bdb467b8</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Antalet döda i trafiken ökar</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=050902201808176b5ab1317977ac5260d45201078d8ca4&amp;p=200108&amp;s=50902&amp;sa=2016177&amp;x=de9fcf5651cf19aed2bc3b09cb500bf1</link>
+			<description>? Antalet omkomna i vägtrafiken fortsätter att öka. Under årets sju första månad...</description>
+			<pubDate>Fri, 17 Aug 2018 04:02:55 GMT</pubDate>
+			<guid isPermaLink="false">050902201808176b5ab1317977ac5260d45201078d8ca4</guid>
+			<author>Nordvästra Skånes Tidningar</author>
+		
+			<ret:docdate>2018-08-17</ret:docdate>
+			<ret:source>Nordvästra Skånes Tidningar</ret:source>
+			<ret:source_id>50902</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>335</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline></ret:byline>
+			<ret:preintro>TRAFIK</ret:preintro>
+			<ret:page>10</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=050902201808176b5ab1317977ac5260d45201078d8ca4&amp;p=200108&amp;s=50902&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=de9fcf5651cf19aed2bc3b09cb500bf1</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Antalet döda i trafiken fortsätter öka</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=050909201808171e6540ef21ac3ebad5405ef9e776d434&amp;p=200108&amp;s=50909&amp;sa=2016177&amp;x=0df5ff05dcd5e3cb6b89dcea090ab387</link>
+			<description>Svenska vägar bli mindre och mindre säkra. Hittills i år har 176 personer dött i...</description>
+			<pubDate>Fri, 17 Aug 2018 04:01:34 GMT</pubDate>
+			<guid isPermaLink="false">050909201808171e6540ef21ac3ebad5405ef9e776d434</guid>
+			<author>GT</author>
+		
+			<ret:docdate>2018-08-17</ret:docdate>
+			<ret:source>GT</ret:source>
+			<ret:source_id>50909</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>147</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>Henning Eklund</ret:byline>
+			<ret:page>30</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=050909201808171e6540ef21ac3ebad5405ef9e776d434&amp;p=200108&amp;s=50909&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=0df5ff05dcd5e3cb6b89dcea090ab387</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Dystra siffror för sommartrafiken</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=057089201808175f06caef6d86609ef9e4a5cf3ba7214c&amp;p=200108&amp;s=57089&amp;sa=2016177&amp;x=c2afb95946108f6640ab23d9920d02a7</link>
+			<description>Antalet omkomna i vägtrafiken fortsätter att öka. Under årets sju första månader har 176 personer mist livet i olika trafikolyckor - den högsta siffran sedan 2011, visar preliminär statistik från Transportstyrelsen.</description>
+			<pubDate>Fri, 17 Aug 2018 02:14:56 GMT</pubDate>
+			<guid isPermaLink="false">057089201808175f06caef6d86609ef9e4a5cf3ba7214c</guid>
+			<author>Skaraborgs Allehanda</author>
+		
+			<ret:docdate>2018-08-17</ret:docdate>
+			<ret:source>Skaraborgs Allehanda</ret:source>
+			<ret:source_id>57089</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>225</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline>(TT)</ret:byline>
+			<ret:subheadline>OLYCKOR. Kraftig ökning av antalet omkomna</ret:subheadline>
+			<ret:page>20</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=057089201808175f06caef6d86609ef9e4a5cf3ba7214c&amp;p=200108&amp;s=57089&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=c2afb95946108f6640ab23d9920d02a7</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	    <item>
+			<title>Fler omkommer i trafiken</title> 
+			<link>https://www.retriever-info.com/go/?a=30338&amp;d=0570862018081746421db72f8721e132335dfe72f2a35d&amp;p=200108&amp;s=57086&amp;sa=2016177&amp;x=8cace37ce307e9bd22d86c9ea39e558d</link>
+			<description></description>
+			<pubDate>Fri, 17 Aug 2018 02:09:32 GMT</pubDate>
+			<guid isPermaLink="false">0570862018081746421db72f8721e132335dfe72f2a35d</guid>
+			<author>Nya Kristinehamns-Posten</author>
+		
+			<ret:docdate>2018-08-17</ret:docdate>
+			<ret:source>Nya Kristinehamns-Posten</ret:source>
+			<ret:source_id>57086</ret:source_id>
+			<ret:dynteaser></ret:dynteaser>
+			<ret:mediatype>print</ret:mediatype>
+			<ret:wordcount>53</ret:wordcount>
+			<ret:language>SV</ret:language>
+			<ret:byline></ret:byline>
+			<ret:preintro>TRAFIK.</ret:preintro>
+			<ret:page>16</ret:page>
+			<ret:pdfurl>https://www.retriever-info.com/go/?a=30338&amp;d=0570862018081746421db72f8721e132335dfe72f2a35d&amp;p=200108&amp;s=57086&amp;sa=2016177&amp;u=https%3A%2F%2Fwww.retriever-info.com%2Fservices%2Farchive%2FdisplayPDF&amp;x=8cace37ce307e9bd22d86c9ea39e558d</ret:pdfurl>
+			<ret:profile>200108</ret:profile>
+			<ret:mediatype>print</ret:mediatype>
+	    </item>
+    
+	</channel>
+	
+</rss>

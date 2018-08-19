@@ -72,11 +72,11 @@ namespace CodeHollow.FeedReader.Tests
 
             var item = (Rss091FeedItem)feed.Items.First();
 
-            Eq(@"[06.01.2017 - 06:59 Uhr] Baum-Bergung", item.Title.Trim());
+            Eq(@"[19.08.2018 - 07:08 Uhr] Brandmeldeanlagenalarm", item.Title.Trim());
             Assert.IsTrue(item.Description.Contains("Weitere Informationen"));
-            Eq("http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/4565/", item.Link);
-            Eq("Fri, 06 Jan 2017 06:59:00 +0100", item.PublishingDateString);
-            Eq(new DateTime(2017, 1, 6, 5, 59, 0), item.PublishingDate);
+            Eq("http://www.stadtfeuerwehr-weiz.at/einsaetze/einsatz-detail/5220/", item.Link);
+            Eq("Sun, 19 Aug 2018 07:08:00 +0100", item.PublishingDateString);
+            Eq(new DateTime(2018, 8, 19, 6, 08, 0), item.PublishingDate);
 
             Eq(15, feed.Items.Count);
         }
@@ -310,6 +310,26 @@ namespace CodeHollow.FeedReader.Tests
             Eq("They say “sex sells,” but don't go peddling it near dinner tables in Russia, where families in an ostensibly conservative society say the subject is too taboo to discuss at home.", item.Description);
             Eq("Tue, 10 Jan 2017 19:58:13 +0000", item.PublishingDateString);
             Eq("https://themoscowtimes.com/articles/dont-say-it-56774", item.Guid);
+        }
+
+        [TestMethod]
+        public void TestRss20ParseSwedishFeedWithIso8859_1()
+        {
+            //var feed = (Rss20Feed)FeedReader.ReadFromFile("Feeds/Rss20ISO88591Intranet30.xml").SpecificFeed;
+            var content = System.IO.File.ReadAllBytes("Feeds/Rss20ISO88591Intranet30.xml");
+            var feed = (Rss20Feed)FeedReader.ReadFromByteArray(content).SpecificFeed;
+            Eq("intranet30", feed.Title);
+            Eq("http://www.retriever-info.com", feed.Link);
+            Eq("RSS 2.0 News feed from Retriever Norge AS", feed.Description);
+            
+            var item = (Rss20FeedItem)feed.Items.First();
+            Eq("SVART MÅNAD - DÖDSOLYCKA i Vetlanda", item.Title);
+            Eq("https://www.retriever-info.com/go/?a=30338&d=00201120180819281555686&p=200108&s=2011&sa=2016177&u=http%3A%2F%2Fwww.hoglandsnytt.se%2Fsvart-manad-dodsolycka-i-vetlanda%2F&x=33d88e677ce6481d9882de22c76e4234", item.Link);
+            Eq("Under juli 2018 omkom 39 personer och 1 521 skadades i vägtrafiken. Det visar de preliminära uppgifter som inkommit till Transportstyrelsen fram till den 15 augusti 2018. Det är åtta fler omkomna jämfört med juli månad 2017.", item.Description);
+            Eq("Sun, 19 Aug 2018 07:14:00 GMT", item.PublishingDateString);
+            Eq("00201120180819281555686", item.Guid);
+            Eq("Höglandsnytt", item.Author);
+
         }
 
         [TestMethod]

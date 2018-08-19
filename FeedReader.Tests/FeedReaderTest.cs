@@ -257,6 +257,19 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
+        [TestMethod]
+        public async Task TestMoved()
+        {
+            var feed = await FeedReader.ReadAsync("http://www.medicalnewstoday.com/rss/diabetes.xml");
+            Assert.AreEqual("Diabetes News From Medical News Today", feed.Title);
+        }
+
+        [TestMethod]
+        public async Task TestSwedish_ISO8859_1()
+        {
+            var feed = await FeedReader.ReadAsync("https://www.retriever-info.com/feed/2004645/intranet30/index.xml");
+            Assert.AreEqual("intranet30", feed.Title);
+        }
         #endregion
 
         #region private helpers

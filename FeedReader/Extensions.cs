@@ -88,63 +88,51 @@
             if (element == null)
                 return null;
 
-            string encodingStr = element.Document.Declaration?.Encoding;
-
-            var encoding = Encoding.GetEncoding(0);
-            if (!string.IsNullOrEmpty(encodingStr))
-                encoding = Encoding.GetEncoding(encodingStr);
-
-            return element?.Value?.ToUtf8(encoding);
+            return element.Value;
         }
 
         /// <summary>
-        /// Gets the value of the element "name" as utf8 encoded string
+        /// Gets the value of the element "name"
         /// </summary>
         /// <param name="element">xml element</param>
         /// <param name="name">name of the element</param>
-        /// <returns>the value of the XElement as utf8 encoded string</returns>
+        /// <returns>the value of the XElement</returns>
         public static string GetValue(this XElement element, string name)
         {
             return element?.GetElement(name).GetValue();
         }
 
         /// <summary>
-        /// Gets the value of the element "name" as UTF-8 encoded string
+        /// Gets the value of the element "name"
         /// </summary>
         /// <param name="element">xml element</param>
         /// <param name="namespacePrefix">the namespace prefix of the element that should be returned</param>
         /// <param name="name">name of the element</param>
-        /// <returns>the value of the XElement as utf8 encoded string</returns>
+        /// <returns>the value of the XElement</returns>
         public static string GetValue(this XElement element, string namespacePrefix, string name)
         {
             return element?.GetElement(namespacePrefix, name).GetValue();
         }
 
         /// <summary>
-        /// Gets the value of the given attribute as UTF-8 encoded string
+        /// Gets the value of the given attribute
         /// </summary>
         /// <param name="attribute">the xml attribute</param>
-        /// <returns>value as UTF-8 encoded string</returns>
+        /// <returns>value</returns>
         public static string GetValue(this XAttribute attribute)
         {
             if (attribute == null)
                 return null;
 
-            string encodingStr = attribute.Document.Declaration?.Encoding;
-
-            var encoding = Encoding.GetEncoding(0);
-            if (!string.IsNullOrEmpty(encodingStr))
-                encoding = Encoding.GetEncoding(encodingStr);
-
-            return attribute?.Value?.ToUtf8(encoding);
+            return attribute.Value;
         }
 
         /// <summary>
-        /// Gets the value of the attribute <paramref name="name"/> as UTF-8 encoded string
+        /// Gets the value of the attribute <paramref name="name"/>
         /// </summary>
         /// <param name="element">the xml element</param>
         /// <param name="name">the name of the attribute</param>
-        /// <returns>value of the attribute as UTF-8 encoded string</returns>
+        /// <returns>value of the attribute</returns>
         public static string GetAttributeValue(this XElement element, string name)
         {
             return element.GetAttribute(name)?.GetValue();

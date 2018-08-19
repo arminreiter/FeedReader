@@ -38,7 +38,7 @@
         /// <param name="url">correct url</param>
         /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
         /// <returns>Content as string</returns>
-        public static async Task<string> DownloadAsync(string url, bool autoRedirect = true)
+        public static async Task<byte[]> DownloadBytesAsync(string url, bool autoRedirect = true)
         {
             url = System.Net.WebUtility.UrlDecode(url);
             HttpResponseMessage response;
@@ -51,7 +51,9 @@
             }
             if (!response.IsSuccessStatusCode)
             {
-                if (autoRedirect && (int)response.StatusCode == 308) // moved permanently
+                var statusCode = (int)response.StatusCode;
+                // redirect if statuscode = 301 - Moved Permanently, 308 - Permanent redirect
+                if (autoRedirect && (statusCode == 301 || statusCode == 308)) 
                 {
                     url = response.Headers?.Location?.AbsoluteUri ?? url;
                 }
@@ -61,8 +63,14 @@
                     response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead).ConfigureAwait(false);
                 }
             }
+            var content = await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
+            return content;
+        }
 
-            return Encoding.UTF8.GetString(await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false));
+        public static async Task<string> DownloadAsync(string url, bool autoRedirect = true)
+        {
+            var content = await DownloadBytesAsync(url, autoRedirect).ConfigureAwait(false);
+            return Encoding.UTF8.GetString(content);
         }
 
         /// <summary>

@@ -8,7 +8,7 @@
 
     /// <summary>
     /// The static FeedReader class which allows to read feeds from a given url. Use it to
-    /// parse a feed from an url <see cref="Read(string)"/>, a file <see cref="ReadFromFile(string)"/>
+    /// parse a feed from an url <see cref="Read(string)"/>, a file <see cref="ReadFromFile(string)"/>, a byte array <see cref="ReadFromByteArray(byte[])"/>
     /// or a string <see cref="ReadFromString(string)"/>. If the feed url is not known, <see cref="ParseFeedUrlsFromHtml(string)"/>
     /// returns all feed links on a given page.
     /// </summary>
@@ -175,8 +175,8 @@
         /// <returns>parsed feed</returns>
         public static async Task<Feed> ReadAsync(string url, bool autoRedirect = true)
         {
-            string feedContent = await Helpers.DownloadAsync(GetAbsoluteUrl(url), autoRedirect).ConfigureAwait(false);
-            return ReadFromString(feedContent);
+            var feedContent = await Helpers.DownloadBytesAsync(GetAbsoluteUrl(url), autoRedirect).ConfigureAwait(false);
+            return ReadFromByteArray(feedContent);
         }
 
         /// <summary>
@@ -186,8 +186,8 @@
         /// <returns>parsed feed</returns>
         public static Feed ReadFromFile(string filePath)
         {
-            string feedContent = System.IO.File.ReadAllText(filePath);
-            return ReadFromString(feedContent);
+            var feedContent = System.IO.File.ReadAllBytes(filePath);
+            return ReadFromByteArray(feedContent);
         }
 
         /// <summary>
@@ -196,6 +196,17 @@
         /// <param name="feedContent">the feed content (xml)</param>
         /// <returns>parsed feed</returns>
         public static Feed ReadFromString(string feedContent)
+        {
+            return FeedParser.GetFeed(feedContent);
+        }
+
+        /// <summary>
+        /// reads a feed from the bytearray <paramref name="feedContent"/>
+        /// This could be useful if some special encoding is used.
+        /// </summary>
+        /// <param name="feedContent"></param>
+        /// <returns></returns>
+        public static Feed ReadFromByteArray(byte[] feedContent)
         {
             return FeedParser.GetFeed(feedContent);
         }
