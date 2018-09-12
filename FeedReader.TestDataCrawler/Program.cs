@@ -25,9 +25,10 @@ namespace CodeHollow.FeedReader.TestDataCrawler
 
         static void Do(string url)
         {
-            var links = FeedReader.GetFeedUrlsFromUrlAsync(url).Result;
-            
-            foreach (var link in links)
+            var linksTask = FeedReader.GetFeedUrlsFromUrlAsync(url);
+            linksTask.ConfigureAwait(false);
+
+            foreach (var link in linksTask.Result)
             {
                 try
                 {
@@ -40,8 +41,10 @@ namespace CodeHollow.FeedReader.TestDataCrawler
                     title = Regex.Replace(title.ToLower(), "[^a-z]*", "");
                     var curl = FeedReader.GetAbsoluteFeedUrl(url, link);
 
-                    string content = Helpers.DownloadAsync(curl.Url).Result;
-                    System.IO.File.WriteAllText("d:\\feeds\\" + title + "_" + Guid.NewGuid().ToString() + ".xml", content);
+                    var contentTask = Helpers.DownloadAsync(curl.Url);
+                    contentTask.ConfigureAwait(false);
+
+                    System.IO.File.WriteAllText("d:\\feeds\\" + title + "_" + Guid.NewGuid().ToString() + ".xml", contentTask.Result);
                     Console.Write("+");
                 }
                 catch (Exception ex)
