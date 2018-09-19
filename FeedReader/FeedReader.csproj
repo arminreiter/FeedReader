@@ -14,7 +14,7 @@
     <PackageProjectUrl>https://github.com/codehollow/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/codehollow/FeedReader/</RepositoryUrl>
     <Version>1.1.5</Version>
-    <PackageReleaseNotes>fixed encoding issue, fixed UI app deadlocks (thanks @inyutin-maxim)</PackageReleaseNotes>
+    <PackageReleaseNotes>fixed some deadlocks - thanks @curtiswellborn</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
