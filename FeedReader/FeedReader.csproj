@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net452</TargetFrameworks>
+    <TargetFrameworks>netstandard1.3;net452;netcoreapp2.1</TargetFrameworks>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
 	<Title>CodeHollow.FeedReader</Title>
@@ -13,14 +13,14 @@
     <PackageLicenseUrl>https://github.com/codehollow/FeedReader/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/codehollow/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/codehollow/FeedReader/</RepositoryUrl>
-    <Version>1.1.4</Version>
+    <Version>1.1.5</Version>
     <PackageReleaseNotes>fixed encoding issue, fixed UI app deadlocks (thanks @inyutin-maxim)</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.1.4.0</AssemblyVersion>
-    <FileVersion>1.1.4.0</FileVersion>
+    <AssemblyVersion>1.1.5.0</AssemblyVersion>
+    <FileVersion>1.1.5.0</FileVersion>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
   </PropertyGroup>
 
@@ -34,8 +34,20 @@
     <NoWarn></NoWarn>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp2.1|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\CodeHollow.FeedReader.xml</DocumentationFile>
+    <UseNETCoreGenerator>true</UseNETCoreGenerator>
+    <NoWarn></NoWarn>
+  </PropertyGroup>
+
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard1.3|AnyCPU'">
     <DocumentationFile>bin\Release\netstandard1.3\CodeHollow.FeedReader.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp2.1|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.1\CodeHollow.FeedReader.xml</DocumentationFile>
+    <UseNETCoreGenerator>true</UseNETCoreGenerator>
+    <NoWarn></NoWarn>
   </PropertyGroup>
   
   <ItemGroup Condition="'$(TargetFramework)' == 'net452'">

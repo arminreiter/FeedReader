@@ -29,7 +29,10 @@
         [Obsolete("Use the DownloadAsync method")]
         public static string Download(string url)
         {
-            return DownloadAsync(url).Result;
+            var downloadTask = DownloadAsync(url);
+            downloadTask.ConfigureAwait(false);
+
+            return downloadTask.Result;
         }
 
         /// <summary>

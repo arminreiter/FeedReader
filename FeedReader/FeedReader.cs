@@ -8,7 +8,7 @@
 
     /// <summary>
     /// The static FeedReader class which allows to read feeds from a given url. Use it to
-    /// parse a feed from an url <see cref="Read(string)"/>, a file <see cref="ReadFromFile(string)"/>, a byte array <see cref="ReadFromByteArray(byte[])"/>
+    /// parse a feed from an url <see cref="Read(string)"/>, a file <see cref="ReadFromFile(string)"/> or <see cref="ReadFromFileAsync(string)"/>, a byte array <see cref="ReadFromByteArray(byte[])"/>
     /// or a string <see cref="ReadFromString(string)"/>. If the feed url is not known, <see cref="ParseFeedUrlsFromHtml(string)"/>
     /// returns all feed links on a given page.
     /// </summary>
@@ -74,7 +74,9 @@
         [Obsolete("Use GetFeedUrlsFromUrlAsync method")]
         public static IEnumerable<HtmlFeedLink> GetFeedUrlsFromUrl(string url)
         {
-            return GetFeedUrlsFromUrlAsync(url).Result;
+            var task = GetFeedUrlsFromUrlAsync(url);
+            task.ConfigureAwait(false);
+            return task.Result;
         }
 
         /// <summary>
@@ -101,7 +103,10 @@
         [Obsolete("Use the ParseFeedUrlsAsStringAsync method")]
         public static string[] ParseFeedUrlsAsString(string url)
         {
-            return ParseFeedUrlsAsStringAsync(url).Result;
+            var task = ParseFeedUrlsAsStringAsync(url);
+            task.ConfigureAwait(false);
+
+            return task.Result;
         }
 
         /// <summary>
@@ -163,7 +168,10 @@
         [Obsolete("Use ReadAsync method")]
         public static Feed Read(string url)
         {
-            return ReadAsync(url).Result;
+            var task = ReadAsync(url);
+            task.ConfigureAwait(false);
+
+            return task.Result;
         }
 
         /// <summary>
@@ -188,6 +196,30 @@
         {
             var feedContent = System.IO.File.ReadAllBytes(filePath);
             return ReadFromByteArray(feedContent);
+        }
+
+        /// <summary>
+        /// reads a feed from a file
+        /// </summary>
+        /// <param name="filePath">the path to the feed file</param>
+        /// <returns>parsed feed</returns>
+        public static async Task<Feed> ReadFromFileAsync(string filePath)
+        {
+            byte[] result;
+            #if NETCOREAPP2_1
+            {
+                result = await System.IO.File.ReadAllBytesAsync(filePath).ConfigureAwait(false);
+            }
+            #else
+            {
+                using (var stream = System.IO.File.Open(filePath, System.IO.FileMode.Open))
+                {
+                    result = new byte[stream.Length];
+                    await stream.ReadAsync(result, 0, (int)stream.Length).ConfigureAwait(false);
+                }
+            }
+            #endif
+            return ReadFromByteArray(result);
         }
 
         /// <summary>
