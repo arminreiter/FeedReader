@@ -1,0 +1,1600 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us"><author><name>Blizzard Entertainment</name></author><title type="text">StarCraft® II</title><updated>2018-11-20T19:59:19.147Z</updated>
+  <id>3</id>
+  <entry><title type="text">StarCraft II 4.7.1 Patch Notes</title><published>2018-11-20T18:30:00.000Z</published><updated>2018-11-20T19:59:19.147Z</updated><id>22771167</id><link href="http://us.battle.net///en/blog/22771167"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Major balance changes are here along with the beginning of Season 4. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Today marks the beginning of Season 4 of 2018, as well as the debut of all the new balance changes that we’ve been working on for the last few months. Thank you again to the pros and to the community that gave us the feedback we needed—we couldn’t have done it without you!</p>
+
+<h2>General</h2>
+
+<ul>
+	<li>New Hydralisk Trophy Top for Season 4.</li>
+</ul>
+
+<h2>Versus</h2>
+<img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/4WFXAVVRHR2E1535767526640.png"/>
+<h3><strong>TERRAN</strong></h3>
+
+<ul>
+	<li><strong>Widow Mine</strong>
+
+	<ul>
+		<li>The Drilling Claws upgrade now permanently cloaks Widow Mines when they're burrowed.</li>
+		<li>If Drilling Claws is researched, the Widow Mine will have a visual indicator to show that the unit has the upgrade.</li>
+	</ul>
+	</li>
+	<li><strong>Cyclone</strong>
+	<ul>
+		<li>Now requires a Tech Lab to be built at the Factory.</li>
+		<li>Health decreased from 180 to 120.</li>
+		<li>Movement speed increased from 4.13 to 4.73.</li>
+		<li>Tornado Blaster weapon changed to the Typhoon Missile Pod weapon:
+		<ul>
+			<li>Damage changed from 3 (+2 vs Armored) to 18.</li>
+			<li>Can target air and ground units.</li>
+			<li>Weapon speed changed from 0.1 to 0.71.</li>
+			<li>Range decreased from 6 to 5.</li>
+			<li>Weapon upgrades changed from +1 to +2 to account for the new damage value.</li>
+		</ul>
+		</li>
+		<li>Lock On ability changed:
+		<ul>
+			<li>Ability can auto cast.</li>
+			<li>Can now target ground and flying units and structures.</li>
+			<li>Damage changed from 160 to 400 damage over 14 seconds.</li>
+		</ul>
+		</li>
+		<li>Rapid Fire Launchers upgrade removed.</li>
+		<li>Added Mag-Field Accelerator upgrade:
+		<ul>
+			<li>After researching Mag-Field Accelerator upgrade, Lock On will deal 400 (+400 vs Armored) over 14 seconds to ground and flying targets.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Thor</strong>
+	<ul>
+		<li>Armor reduced from 2 to 1.</li>
+		<li>Explosive Payload AoE radius reduced from 0.6 to 0.5.</li>
+		<li>250mm Punisher Cannons damage changed from 35 (+15 vs Armored) to 40 (+15 vs Massive).</li>
+		<li>Vehicle Weapons upgrade bonuses for 250mm Punisher Cannons changed from +3 (+2 vs Armored) to +4 (+2 vs Massive).</li>
+		<li>250mm Punisher Cannons weapon speed changed from 2.14 to 1.71.</li>
+	</ul>
+	</li>
+	<li><strong>Medivac</strong>
+	<ul>
+		<li>High Capacity Fuel Tanks upgrade name changed to Rapid Reignition System.</li>
+		<li>Rapid Reignition System upgrade no longer increases Ignite Afterburners duration from 4.29 seconds to 6.43 seconds. Now, it decreases its cooldown duration from 8.57 seconds to 6.43 seconds. </li>
+		<li>Medivacs can now heal units Graviton'd by Phoenix.</li>
+	</ul>
+	</li>
+	<li><strong>Banshee</strong>
+	<ul>
+		<li>Hyperflight Rotors upgrade cost decreased from 200/200 to 150/150.</li>
+	</ul>
+	</li>
+	<li><strong>Raven</strong>
+	<ul>
+		<li>Anti-Armor splash damage decreased from 15 to 0.</li>
+		<li>In addition to armor reduction, Anti-Armor Missile will also reduce Protoss shield armor by 3.</li>
+	</ul>
+	</li>
+	<li><strong>Battlecruiser</strong>
+	<ul>
+		<li>Removed random delay between shots.</li>
+		<li>ATA Laser Battery damage decreased from 6 to 5.</li>
+		<li>Can now move while shooting.</li>
+		<li>Yamato Cannon damage decreased from 300 to 240.</li>
+	</ul>
+	</li>
+	<li><strong>Engineering Bay</strong>
+	<ul>
+		<li>Neosteel Frame and Structure Armor upgrades merged. The new upgrade is called Neosteel Armor and will retain the functionality of both upgrades combined. It will cost 150/150 and take 100 seconds to research.</li>
+	</ul>
+	</li>
+	<li><strong>Barracks, Factory, Starport - Tech Lab</strong>
+	<ul>
+		<li>If a player tries to lift a structure when there is an upgrade being researched in an attached Tech Lab, they will not be able to do so and will receive a red text error message.</li>
+	</ul>
+	</li>
+	<li><strong>Sensor Tower</strong>
+	<ul>
+		<li>The structure's pre-placement selection display will now show a range indicator on the mini-map.</li>
+	</ul>
+	</li>
+</ul>
+<img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/T11OW3UY1WBL1535767526690.png"/>
+<h3><strong>ZERG</strong></h3>
+
+<ul>
+	<li><strong>Queen</strong>
+
+	<ul>
+		<li>Transfusion no longer restores 125 health instantly. Now, it restores 75 health instantly plus an additional 50 health over the next 7.14 seconds.</li>
+	</ul>
+	</li>
+	<li><strong>Creep Tumor, Nydus Worm</strong>
+	<ul>
+		<li>Time in between creep growth increased from 0.3 to 0.45.</li>
+	</ul>
+	</li>
+	<li><strong>Overlord</strong>
+	<ul>
+		<li>Time between Generate Creep growth periods increased from 0.36 to 0.45.</li>
+	</ul>
+	</li>
+	<li><strong>Zergling</strong>
+	<ul>
+		<li>Unburrow speed decreased from 0.71 to 0.36.</li>
+		<li>Unburrow random delay decreased from 0.36 to 0.08.</li>
+	</ul>
+	</li>
+	<li><strong>Roach</strong>
+	<ul>
+		<li>Tunneling Claws cost decreased from 150/150 to 100/100.</li>
+		<li>Tunneling Claws no longer increases the health regeneration rate of Roaches from 7 HP/second to 14 HP/second.</li>
+	</ul>
+	</li>
+	<li><strong>Hydralisk</strong>
+	<ul>
+		<li>Unburrow speed decreased from 0.71 to 0.36.</li>
+		<li>Unburrow random delay decreased from 0.36 to 0.08.</li>
+		<li>Needle Spines attack speed changed from 0.54 to 0.59.</li>
+	</ul>
+	</li>
+	<li><strong>Infestor</strong>
+	<ul>
+		<li>Unit radius decreased from 0.75 to 0.625.</li>
+		<li>Model scale decreased from 0.85 to 0.75.</li>
+		<li>Burrowed unit radius now matches the new unborrowed unit radius.</li>
+		<li>Infestors can now move through units while burrowed.</li>
+		<li>Fungal Growth no longer allows affected units to Blink, Tactical Jump, or load into transport sand buildings.</li>
+		<li>Infested Terran cast range increased from 7 to 8.</li>
+	</ul>
+	</li>
+	<li><strong>Ultralisk</strong>
+	<ul>
+		<li>New upgrade added: Evolve Anabolic Synthesis
+		<ul>
+			<li>Cost: 150 Minerals/150 Gas/42.85 second research time</li>
+			<li>Increases Ultralisk speed when off creep from 4.13 to 4.55.  The Ultralisk on-creep speed will remain the same at 5.36.</li>
+			<li>If Anabolic Synthesis is researched, Ultralisks will have visual indicators to show that they have the upgrade.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Nydus Network/Nydus Worm</strong>
+	<ul>
+		<li>Nydus Network cost decreased from 150/200 to 150/150.</li>
+		<li>Nydus Worm cost decreased from 100/100 to 50/50.</li>
+		<li>Nydus Worm are no longer be invincible when emerging. Now, they have 6 armor while emerging from the ground.</li>
+	</ul>
+	</li>
+	<li><strong>Burrow/Unburrow</strong>
+	<ul>
+		<li>Burrow and Unburrow have been separated into two separate buttons.</li>
+		<li>Burrowed and Unburrowed Zerg unit types will now be on the same tab-select, and both will be selected when double clicking on units.</li>
+	</ul>
+	</li>
+</ul>
+<img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/NCV1H8DG5GM91535767526641.png"/>
+<h3><strong>PROTOSS</strong></h3>
+
+<ul>
+	<li><strong>Nexus</strong>
+
+	<ul>
+		<li>Mass Recall renamed to Strategic Recall.</li>
+		<li>Strategic Recall radius decreased from 6.5 to 2.5. </li>
+		<li>Strategic Recall cooldown decreased from 130 to 85 seconds.</li>
+		<li>Chrono Boost will now display a visual status on boosted structures.</li>
+	</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><strong>Sentry</strong>
+
+	<ul>
+		<li>Hallucination energy cost decreased from 100 to 75.</li>
+		<li>Guardian Shield radius increased from 4 to 4.5.</li>
+	</ul>
+	</li>
+	<li><strong>High Templar</strong>
+	<ul>
+		<li>Feedback now deals 0.5 damage per point of energy drained, down from 1 damage per point of energy drained.</li>
+	</ul>
+	</li>
+	<li><strong>Dark Templar</strong>
+	<ul>
+		<li>Shadow Stride research time decreased from 121 to 100 seconds.</li>
+		<li>Shadow Stride cooldown decreased from 21 to 14 seconds.</li>
+	</ul>
+	</li>
+	<li><strong>Robotics Bay</strong>
+	<ul>
+		<li>Cost decreased from 200/200 to 150/150.</li>
+	</ul>
+	</li>
+	<li><strong>Colossus</strong>
+	<ul>
+		<li>Colossus weapons now have turret tracking.</li>
+	</ul>
+	</li>
+	<li><strong>Disruptor</strong>
+	<ul>
+		<li>Purification Nova changed back to pre-4.0 state. Purification Nova deploys a ball of energy that will detonate after 2 seconds, dealing 155 damage and an additional 55 shield damage to all ground units in its radius.</li>
+		<li>Purification Nova no longer detonates on contact with enemy units.</li>
+		<li>Purification Nova now sends a threat signal to the opponent on detonation instead of during the launch phase.</li>
+	</ul>
+	</li>
+	<li><strong>Void Ray</strong>
+	<ul>
+		<li>Prismatic Alignment speed reduction decreased from 40% to 25%.</li>
+	</ul>
+	</li>
+	<li><strong>Tempest</strong>
+	<ul>
+		<li>Cost decreased from 300/200 to 250/175.</li>
+		<li>Supply cost decreased from 6 to 5.</li>
+		<li>HP/Shields decreased from 300/150 to 150/125.</li>
+		<li>Movement speed increased from 2.63 to 3.5.</li>
+		<li>Acceleration increased from 1.49 to 2.8.</li>
+	</ul>
+	</li>
+	<li><strong>Carrier</strong>
+	<ul>
+		<li>Build time decreased from 86 seconds to 64 seconds.</li>
+		<li>HP/Shields increased from 250/150 to 300/150.</li>
+		<li>Interceptor build time increased from 6 seconds to 11 seconds.</li>
+		<li>Graviton Catapult upgrade removed from the Fleet Beacon.</li>
+		<li>Interceptor release period changed from 0.36 to 0.27.</li>
+	</ul>
+	</li>
+	<li><strong>Mothership</strong>
+	<ul>
+		<li>Strategic Recall name changed to Mass Recall.</li>
+		<li>In addition to slowing unit movement speed by 50%, Time Warp now also reduces unit and structure attack speed by 50%.</li>
+	</ul>
+	</li>
+	<li><strong>Assimilator</strong>
+	<ul>
+		<li>HP/Shields decreased from 450/450 to 300/300.</li>
+	</ul>
+	</li>
+	<li><strong>Shield Battery</strong>
+	<ul>
+		<li>HP/Shields decreased from 200/200 to 150/150.</li>
+		<li>Shield Battery can now regenerate shields of units Graviton'd by Phoenix.</li>
+	</ul>
+	</li>
+	<li><strong>Gateway</strong>
+	<ul>
+		<li>Transform to Warp Gate will now be an auto-cast ability.</li>
+	</ul>
+	</li>
+</ul>
+
+<p/>
+
+<h2>Bug Fixes</h2>
+
+<p><strong>Maps</strong></p>
+
+<ul>
+	<li>Stats LE: Fixed an issue that allowed melee units to attack destructible debris from the low ground.</li>
+	<li>Kairos Junction LE: The lighting status is no longer out of date.</li>
+	<li>Multiprocessor LE: Fixed an issue that allowed flying units to clip into certain doodads.  </li>
+	<li>Emerald City LE: Fixed an issue that slightly restricted the pathing of ground units on certain ramps.</li>
+</ul>
+
+<p><strong>Versus</strong></p>
+
+<ul>
+	<li>Battlecruiser
+	<ul style="list-style-type:circle;">
+		<li>The upper turrets will no longer track its last target through the fog of war.  </li>
+		<li>The bottom turrets will now track their target.</li>
+	</ul>
+	</li>
+</ul>
+
+<p/>
+</div></content></entry><entry><title type="text">Final Balance Changes for Season 4</title><published>2018-11-13T19:00:00.000Z</published><updated>2018-11-14T00:27:58.971Z</updated><id>22640615</id><link href="http://us.battle.net///en/blog/22640615"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">These will be the last changes before our major balance update goes live. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Congrats to our new WCS Global Finals champion, Serral! It’s certainly been an eventful year for StarCraft, and now that the season has ended, it’s time to continue forward with our post-BlizzCon design and balance changes. Thanks to everyone for testing; your feedback has helped us iterate and make many improvements. Before the changes go live, we have a few more updates we’d like to add in:
+<p/>
+
+<h2><strong>Terran</strong></h2>
+
+<h3>Cyclone</h3>
+
+<ul>
+	<li><strong>Cyclone supply cost reduced from 4 to 3.</strong></li>
+</ul>
+
+<p>When the Cyclone had its Vespene Gas cost reduced in a patch prior to 3.8, and we also increased its supply out of caution against mass Cyclones becoming too prevalent at the time. More recently, we have gotten some high-level feedback that this Cyclone could perhaps be too weak due to how the meta has developed. In addition, when we first announced our pre-3.8 Cyclone revert, we emphasized our intention to have them scale better into the late-game. Thus, to improve the Cyclone’s mid- and late-game potential, we are reducing the supply cost, so they can hopefully be more easily utilized as support units in a larger army.</p>
+
+<h3>Thor</h3>
+
+<ul>
+	<li><strong>Thor 250mm Punisher Cannon damage increased from 40 (+10 Massive) to 40 (+15 Massive).</strong></li>
+	<li><strong>Thor 250mm Punisher Cannon attack period decreased from 1.78 to 1.71.</strong></li>
+</ul>
+
+<p>When we initially announced our balance revamp this year, we stated that we wanted to push the Thor into a “giant that slays other giants” role, but we haven’t heard much discussion regarding this new focus. In addition, with the recent Carrier damage revert and the Thor’s now lower armor, Thors are not able to fulfill this role as well as we’d like. Thus, we’ve carefully tweaked the numbers on the Thor’s anti-Massive weapon so that it will consistently defeat Carriers in one-on-one combat and be more powerful against the new fast-moving Tempests. At the same time, we were cautious to not critically affect its relationship against Brood Lords. As with many of our other changes in this patch, we want new options to feel powerful out of the gate, but we are also ready to readjust as necessary.</p>
+
+<h3>Sensor Tower</h3>
+
+<ul>
+	<li><strong>Sensor Tower pre-placement selection display will now show a range indicator on the minimap. </strong></li>
+</ul>
+
+<p>This quality of life change, which was suggested by the community, will allow players to more strategically and deliberately place their Sensor Towers.</p>
+
+<h2><strong>Zerg</strong></h2>
+
+<h3><strong>Creep</strong></h3>
+
+<ul>
+	<li><strong>Creep spread delay from Hatcheries, Lairs, and Hives decreased from 0.45 to 0.3.</strong></li>
+</ul>
+
+<p>We received feedback that the previously proposed creep spread rate change for Hatcheries would overly adversely affect Zerg early-game, especially in ZvZ. We agree with this feedback and, as a result, will be changing the Hatchery, Lair, and Hive to retain their old creep spread rate values. Meanwhile the other creep generators (Nydus Worm, Overlords, and Creep Tumors) will remain at 0.45.</p>
+
+<h3>Ultralisk</h3>
+
+<ul>
+	<li><strong>Ultralisk Anabolic Synthesis upgrade research time reduced from 79 seconds to 43 seconds.</strong></li>
+</ul>
+
+<p>As a Hive-level unit, Ultralisks are already locked to the late-game and having both of its upgrades require a 79 second research time could excessively delay the Ultralisk’s full power. A reduction in research time could also create more of a choice for Zerg players depending on the game state as currently, Chitinous Plating is heavily preferred as the first pick.</p>
+
+<h2><strong>Protoss</strong></h2>
+
+<h3>Structures</h3>
+
+<ul>
+	<li><strong>Robotics Facility cost reverted from 150/100 to 200/100.  </strong></li>
+	<li><strong>Robotics Bay cost reduced from 200/200 to 150/150.</strong></li>
+</ul>
+
+<p>We initially proposed reducing the mineral cost of the Robotics Facility for a variety of reasons. Two of these reasons include improving defense against Zerg in the mid-game and improving defense against Terran proxies. Since our initial proposal, however, we’ve made additional adjustments to the balance test mod such that we no longer believe Protoss needs additional help in these regards.</p>
+
+<p>Another goal of the Robotics Facility cost change was to promote more Robotics-based openers, but we now believe a different change could be more targeted to achieve this goal. By reducing the cost of the Robotics Bay instead, we would promote deeper tech options that aren’t as common right now,such as Colossus, Disruptor, or speed-upgraded Warp Prism openers. This contrasts with the originally proposed Robotics Facility change, which we believe would have undesirably further reinforced the strength of Immortals in PvZ.</p>
+
+<p/>
+
+<p>We are planning to push the balance changes to live ladder at the start of the next season on Tuesday, November 20<sup>th</sup>.  However, the SCV single-click priority change will require a patch, so we will be pushing out this change a little earlier with the SC2.4.7 release.</p>
+
+<p>Thank you for all the support and feedback, and as always, let us know what you think!  See you on ladder!</p>
+
+<p/>
+
+<hr/>
+<p>Below is a complete list of the current balance changes:</p>
+
+<p><strong>Changes that will be published to live along with the StarCraft II 4.7 patch.</strong></p>
+
+<ul>
+	<li><strong>SCV</strong>
+
+	<ul>
+		<li>SCV’s single-click selection priority will now be higher than the buildings they are constructing.</li>
+	</ul>
+	</li>
+</ul>
+
+<p/>
+
+<p><strong>Changes that will be published to live on Tuesday, November 20.</strong></p>
+
+<p><img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/4WFXAVVRHR2E1535767526640.png"/></p>
+
+<h2>Terran</h2>
+
+<ul>
+	<li><strong>Widow Mine</strong>
+
+	<ul>
+		<li>The Drilling Claws upgrade now permanently cloaks Widow Mines when they're burrowed.</li>
+		<li>If Drilling Claws is researched, the Widow Mine will have a visual indicator to show that the unit has the upgrade.</li>
+	</ul>
+	</li>
+	<li><strong>Cyclone</strong>
+	<ul>
+		<li>Now requires a Tech Lab to be built at the Factory.</li>
+		<li>Health decreased from 180 to 120.</li>
+		<li>Movement speed increased from 4.13 to 4.73.</li>
+		<li>Tornado Blaster weapon changed to the Typhoon Missile Pod weapon:
+		<ul>
+			<li>Damage changed from 3 (+2 vs Armored) to 18.</li>
+			<li>Can target air and ground units.</li>
+			<li>Attack rate changed from 0.1 to 0.71.</li>
+			<li>Range decreased from 6 to 5.</li>
+			<li>Weapon upgrades changed from +1 to +2 to account for the new damage value.</li>
+		</ul>
+		</li>
+		<li>Lock On ability changed:
+		<ul>
+			<li>Ability can auto-cast.</li>
+			<li>Can now target ground and flying units and structures.</li>
+			<li>Damage changed from 160 to 400 damage over 14 seconds.</li>
+		</ul>
+		</li>
+		<li>Rapid Fire Launchers upgrade removed.</li>
+		<li>Added Mag-Field Accelerator upgrade:
+		<ul>
+			<li>After researching Mag-Field Accelerator upgrade, Lock On will deal 400 (+400 vs Armored) over 14 seconds to ground and flying targets.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Thor</strong>
+	<ul>
+		<li>Armor reduced from 2 to 1.</li>
+		<li>Explosive Payload AoE radius reduced from 0.6 to 0.5.</li>
+		<li>250mm Punisher Cannons damage changed from 35 (+15 vs Armored) to 40 (+15 vs Massive).</li>
+		<li>250mm Punisher Cannons weapon speed reduced from 2.14 to 1.71.</li>
+	</ul>
+	</li>
+	<li><strong>Medivac</strong>
+	<ul>
+		<li>"High Capacity Fuel Tanks" upgrade name changed to "Rapid Reignition System."</li>
+		<li>" Rapid Reignition System" upgrade will no longer increase duration by 50%. Instead it will decrease cooldown duration from 14 seconds to 9 seconds. </li>
+		<li>Medivacs can now heal units Graviton'd by Phoenix.</li>
+	</ul>
+	</li>
+	<li><strong>Banshee</strong>
+	<ul>
+		<li>Hyperflight Rotors upgrade cost decreased from 200/200 to 150/150.</li>
+	</ul>
+	</li>
+	<li><strong>Raven</strong>
+	<ul>
+		<li>Anti-Armor splash damage reduced from 15 to 0.</li>
+		<li>In addition to armor reduction, Anti-Armor Missile will also reduce Protoss shields by 3.</li>
+	</ul>
+	</li>
+	<li><strong>Battlecruiser</strong>
+	<ul>
+		<li>Removed random delay between shots.</li>
+		<li>AA damage reduced from 6 to 5.</li>
+		<li>Can now move while shooting.</li>
+		<li>Yamato Cannon damage reduced from 300 to 240.</li>
+		<li>Unit will no longer switch attack targets while moving unless ordered to do so or the current target leaves its range.</li>
+	</ul>
+	</li>
+	<li><strong>Engineering Bay</strong>
+	<ul>
+		<li>Neosteel Frame and Structure Armor upgrades merged. The new upgrade is called Neosteel Armor and will retain the functionality of both upgrades combined. It will cost 150 Minerals/150 Gas and take 100 seconds to research.</li>
+	</ul>
+	</li>
+	<li><strong>Barracks, Factory, Starport - Tech Lab</strong>
+	<ul>
+		<li>If a player tries to lift a structure when there is an upgrade being researched in an attached Tech Lab, the player will not be able to do so and will receive a red text error message.</li>
+	</ul>
+	</li>
+	<li><strong>Sensor Tower</strong>
+	<ul>
+		<li>The structure's pre-placement selection display will now show a range indicator on the minimap.</li>
+	</ul>
+	</li>
+</ul>
+
+<p><img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/T11OW3UY1WBL1535767526690.png"/></p>
+
+<h2>Zerg</h2>
+
+<ul>
+	<li><strong>Queen</strong>
+
+	<ul>
+		<li>Transfuse restored 75 health and an additional 50 health over 7.14 seconds, down from 125 health instantly.</li>
+	</ul>
+	</li>
+	<li><strong>Creep Tumor, Nydus Network, Nydus Worm</strong>
+	<ul>
+		<li>Time in between creep growth increased from .3 to .45.</li>
+	</ul>
+	</li>
+	<li><strong>Overlord/Transport Overlord:</strong>
+	<ul>
+		<li>Time between Generate Creep growth periods increased from 0.36 to 0.45.</li>
+	</ul>
+	</li>
+	<li><strong>Hatchery, Lair, Hive</strong>
+	<ul>
+		<li>Time in between creep growth remains the same at 0.3.</li>
+	</ul>
+	</li>
+	<li><strong>Zergling</strong>
+	<ul>
+		<li>Unburrow speed reduced from 0.71 to 0.36.</li>
+		<li>Unburrow random delay reduced from 0.36 to 0.08.</li>
+	</ul>
+	</li>
+	<li><strong>Roach</strong>
+	<ul>
+		<li>Tunneling Claws no longer increases the health regeneration rate of Roaches from 7 hp/second to 14 hp/second.</li>
+		<li>Tunneling Claws cost decreased from 150/150 to 100/100.</li>
+	</ul>
+	</li>
+	<li><strong>Hydralisk</strong>
+	<ul>
+		<li>Unburrow speed reduced from 0.71 to 0.36.</li>
+		<li>Unburrow random delay reduced from 0.36 to 0.08.</li>
+		<li>Needle Spines attack speed slowed from 0.54 to 0.59.</li>
+	</ul>
+	</li>
+	<li><strong>Infestor</strong>
+	<ul>
+		<li>Infestor unit radius decreased from 0.75 to 0.625.</li>
+		<li>Model scale decreased from 0.85 to 0.75.</li>
+		<li>Burrowed unit radius now matches the new unborrowed unit radius.</li>
+		<li>Infestors can now move through units while burrowed.</li>
+		<li>Fungal Growth will no longer allow affected units to Blink, Tactical Jump, or load into transports/buildings.</li>
+		<li>Infested Terran cast range increased from 7 to 8.</li>
+	</ul>
+	</li>
+	<li><strong>Ultralisk</strong>
+	<ul>
+		<li>New upgrade added “Evolve Anabolic Synthesis”:
+		<ul>
+			<li>Cost: 150 Minerals/150 Gas/42.85 Seconds</li>
+			<li>Increases Ultralisk speed when off creep from 4.13 to 4.55.  The Ultralisk on creep will remain the same at 5.36.</li>
+			<li>If Anabolic Synthesis is researched, the Ultralisk will have a visual indicator to show that the unit has the upgrade.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Nydus Network/Nydus Worm</strong>
+	<ul>
+		<li>Nydus Network cost decreased from 150/200 to 150/150.</li>
+		<li>Nydus Worm costs decreased from 100/100 to 50/50.</li>
+		<li>Nydus Worm will no longer be invincible when emerging but will have 6 armor.</li>
+	</ul>
+	</li>
+	<li><strong>Burrow/Unburrow</strong>
+	<ul>
+		<li>Burrow and Unburrow have been separated into two separate keys.</li>
+		<li>Burrowed and Unburrowed Zerg unit types will now be on the same tab-select, and both will be selected when double clicking on units.</li>
+	</ul>
+	</li>
+</ul>
+
+<aside class="center-block">
+<div class="image"><img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/NCV1H8DG5GM91535767526641.png"/></div>
+</aside>
+
+<h2>Protoss</h2>
+
+<ul>
+	<li><strong>Nexus</strong>
+
+	<ul>
+		<li>Chrono Boost will now display a visual status on the structure.</li>
+		<li>Mass Recall renamed to Strategic Recall.</li>
+		<li>Strategic Recall radius reduced from 6.5 to 2.5. </li>
+		<li>Strategic Recall cooldown reduced from 130 to 85 seconds.</li>
+	</ul>
+	</li>
+</ul>
+
+<ul>
+	<li><strong>Sentry</strong>
+
+	<ul>
+		<li>Hallucination energy cost decreased from 100 to 75.</li>
+		<li>Guardian Shield radius increased from 4 to 4.5.</li>
+	</ul>
+	</li>
+	<li><strong>High Templar</strong>
+	<ul>
+		<li>Feedback now deals 0.5 damage per point of energy drained, down from 1 damage.</li>
+	</ul>
+	</li>
+	<li><strong>Dark Templar</strong>
+	<ul>
+		<li>Shadow Stride research time reduced from 121 to 100 seconds.</li>
+		<li>Shadow Stride cooldown reduced from 21 to 14 seconds.</li>
+	</ul>
+	</li>
+	<li><strong>Robotics Bay</strong>
+	<ul>
+		<li>Cost reduced from 200/200 to 150/150.</li>
+	</ul>
+	</li>
+	<li><strong>Colossus</strong>
+	<ul>
+		<li>Colossus weapon will now have turret tracking.</li>
+	</ul>
+	</li>
+	<li><strong>Disruptor</strong>
+	<ul>
+		<li>Purification Nova changed back to pre-4.0 state. Purification Nova deploys a ball of energy that will detonate after 2 seconds, dealing 155 damage and an additional 55 shield damage to all ground units in its radius.</li>
+		<li>Purification Nova no longer detonates on contact with enemy units.</li>
+		<li>Purification Nova now sends a threat signal to the opponent on detonation instead of during the launch phase.</li>
+	</ul>
+	</li>
+	<li><strong>Void Ray</strong>
+	<ul>
+		<li>Prismatic Speed reduction from 40% to 25%.</li>
+	</ul>
+	</li>
+	<li><strong>Tempest</strong>
+	<ul>
+		<li>Cost decrease from 300/200 to 250/175.</li>
+		<li>Supply cost decreased from 6 to 5.</li>
+		<li>HP/Shields reduced from 300/150 to 150/125.</li>
+		<li>Move speed increased from 2.63 to 3.5.</li>
+		<li>Acceleration increased from 1.49 to 2.8.</li>
+	</ul>
+	</li>
+	<li><strong>Carrier</strong>
+	<ul>
+		<li>Build time decreased from 86 seconds to 64 seconds.</li>
+		<li>HP/Shields increased from 250/150 to 300/150.</li>
+		<li>Interceptor build time increased from 6 to 11.</li>
+		<li>Graviton Catapult upgrade removed from the Fleet Beacon.</li>
+		<li>Interceptor release periods changed from 0.36 to 0.27.</li>
+	</ul>
+	</li>
+	<li><strong>Mothership</strong>
+	<ul>
+		<li>Strategic Recall name changed to Mass Recall.</li>
+		<li>In addition to slowing unit movement speed by 50%, Time Warp will now also reduce unit and structure attack speed by 50%.</li>
+	</ul>
+	</li>
+	<li><strong>Assimilator</strong>
+	<ul>
+		<li>HP/Shields reduced from 450/450 to 300/300.</li>
+	</ul>
+	</li>
+	<li><strong>Shield Battery</strong>
+	<ul>
+		<li>Health and shields reduced from 200/200 to 150/150.</li>
+		<li>Shield Battery can now regenerate shields of units Graviton'd by Phoenix.</li>
+	</ul>
+	</li>
+	<li><strong>Gateway</strong>
+	<ul>
+		<li>"Transform to Warp Gate" will now be an auto-cast ability.</li>
+	</ul>
+	</li>
+</ul>
+
+<p/>
+</div></content></entry><entry><title type="text">StarCraft II 4.7.0 Patch Notes</title><published>2018-11-13T18:00:00.000Z</published><updated>2018-11-14T07:47:12.772Z</updated><id>22764996</id><link href="http://us.battle.net///en/blog/22764996"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Zeratul is ready for action in our latest content patch. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><h2>Co-op</h2>
+
+<ul>
+	<li>New Co-op Commander and Announcer: Zeratul
+	<ul style="list-style-type:circle;">
+		<li>Collect Xel’Naga artifacts to power up your army.</li>
+		<li>Customize your abilities to deal with any foe.</li>
+		<li>Learn more in our <a href="https://starcraft2.com/en-us/news/22640607">blog</a>.</li>
+	</ul>
+	</li>
+	<li>New weekly Mutations have been added.</li>
+</ul>
+
+<h2>Versus</h2>
+
+<ul>
+	<li>It is now easier to select an SCV that is currently constructing a building using mouse click selection</li>
+	<li>Added a button to the “Language and Region” panel of the Options menu that manually refreshes ping time to all game servers.
+	<ul style="list-style-type:circle;">
+		<li>This function is most useful immediately after a connection change such as a switching to a new ISP or moving your computer to a new location.</li>
+		<li>Although StarCraft II automatically adjusts networks settings to provide the most responsive gameplay, this function will make these adjustments immediately, ensuring the lowest latency available to you.</li>
+	</ul>
+	</li>
+</ul>
+
+<h2>Editor</h2>
+
+<ul>
+	<li>New sub field added: Parent Behavior Link
+	<ul style="list-style-type:circle;">
+		<li>Located under Unit -> Addon On Units.</li>
+		<li>Applies the specified behavior to its parent unit from the addon unit.</li>
+		<li>Allows control over the parent unit based on the Addon’s state.</li>
+	</ul>
+	</li>
+	<li>Added Height Range field to CActorQuad.
+	<ul style="list-style-type:circle;">
+		<li>Allows the quad to change its height based on the position of the player cursor.</li>
+	</ul>
+	</li>
+</ul>
+
+<p/>
+
+<h2>Bug Fixes</h2>
+
+<h4><strong>Co-op</strong></h4>
+
+<ul>
+	<li>Raynor: Fixed an issue that allowed the Hyperion to still attack even when under the effect of the Moment of Silence Mutator.</li>
+	<li>Kerrigan: Fixed a bug a bug that caused the Pneumatized Carapace icon on Overlords and Overseers to appear inactive when it had already been researched.</li>
+	<li>Swann: The Vespene Harvester can no longer be cast on enemy or neutral harvesters.</li>
+	<li>Vorazun: Shadow Fury upgrade icon no longer displays the Protoss Ground Level 3 icon.</li>
+	<li>Karax: Mind controlled Colossi will now properly attack after researching the Fire Beam ability.</li>
+	<li>Alarak: Custom hotkeys are now retained for Protoss Weapon and Armor upgrades.</li>
+	<li>Fenix: Fixed a typo in his level 11 upgrade on the Co-op Commander selection screen.</li>
+	<li>Tychus
+	<ul style="list-style-type:circle;">
+		<li>Fixed an issue with the sound of Nux’s normal attack.</li>
+		<li>The Odin can no longer damage Invulnerable Units and Structures with its splash damage.</li>
+	</ul>
+	</li>
+	<li>Units affected by the Polarity Mutator will no longer display an icon, even when they are inside a Bunker.</li>
+	<li>Temple of the Past: Fixed several areas near ramps that units could become stuck in if they were unloaded by a transport.</li>
+</ul>
+
+<h4><strong>Maps</strong></h4>
+
+<ul>
+	<li>Automaton LE, Port Aleksander LE, Emerald City LE: Fixed an issue that caused several ramps and doodads to not display Creep spread.</li>
+	<li>Port Aleksander LE: Fixed a bug that allowed players to build structures on a particular ramp.</li>
+	<li>Emerald City LE: Unit outlines will now be displayed when units are positioned behind ramps.</li>
+</ul>
+
+<h4><strong>Campaign </strong></h4>
+
+<ul>
+	<li>Fixed an issue that allowed players to build units in the second part of ‘Enemy Intelligence.’</li>
+	<li>Tal’darim Probes and Stalkers are now using the correct Tal’darim portraits in Legacy of the Void campaign.</li>
+	<li>Instigators from the mission ‘Purification’ are no longer missing their 2D portrait.</li>
+</ul>
+
+<h4><strong>Versus</strong></h4>
+
+<ul>
+	<li>Heart of the Swarm: The Mothership Core model is no longer a placeholder model if the Golden Age Protoss Mothership skin is equipped.</li>
+	<li>Fixed an issue that caused Broodlings with the Simulant skin to produce overly large corpses.</li>
+	<li>Roaches using the Simulant skin now have the Tunneling Claws upgrade indicator on Low settings.</li>
+	<li>The Dark Shrine now has a research animation.</li>
+</ul>
+</div></content></entry><entry><title type="text">Relive the 2018 WCS Global Finals</title><published>2018-11-13T16:00:00.000Z</published><updated>2018-11-15T17:53:20.992Z</updated><id>22758506</id><link href="http://us.battle.net///en/blog/22758506"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Eight pro paths twist, collide, and create history. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Expectations were smashed and history written anew at the 2018 World Championship Series Global Finals at BlizzCon. The paths of eight pro StarCraft II players twisted and turned until we were treated to an unexpected finals rematch of GSL vs. The World, resulting in a groundbreaking, emotional finish.</p>
+
+<p style="text-align: center;"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/dLSi6qn0ZvM" width="560"/></p>
+
+<p>Even with 20 years of StarCraft behind us, it feels like the story is only just beginning. Follow us <a href="https://wcs.starcraft2.com/en-us/">here</a> and on <a href="https://twitter.com/esportstarcraft">@esportstarcraft</a> for the latest updates on all things StarCraft II esports.</p>
+</div></content></entry><entry><title type="text">New Versus Maps for Season 4, 2018</title><published>2018-11-06T19:30:00.000Z</published><updated>2018-11-06T19:56:06.363Z</updated><id>22640612</id><link href="http://us.battle.net///en/blog/22640612"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Read on to preview next season’s maps. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Season 3 will end soon, which means we’re getting ready to spin up new maps for Season 4. For the next StarCraft II Versus season, we’re removing <strong>Acid Plant, Dreamcatcher, Lost and Found, and Fracture</strong>. Below you will find the new 1v1 maps we’re adding, as well as the new team maps.</p>
+
+<p/>
+
+<h2>1v1</h2>
+
+<p style="text-align: center;"><strong><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/5F5QP2CF384J1541448578533.jpg"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/WRKLPSPKCM1J1541448578451.png" style="width: 700px; height: 297px;"/></a></strong></p>
+
+<p>On this abandoned wing of the Purifier starship, you find yourself in close quarters with your enemy. Thanks to the watchtowers, gold bases, and a hidden path to the main bases, there is plenty to fight for from start to finish.</p>
+
+<p style="text-align: center;"><strong><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/18IUSURURN9C1541448577777.jpg"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/YD936YXQYNY61541448577724.png" style="width: 700px; height: 297px;"/></a></strong></p>
+
+<p>This map features main bases that are relatively close together by air, but the expansions are less vulnerable to harassment.</p>
+
+<p style="text-align: center;"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/8CFDQEBHJ8C01541448578170.jpg"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/7YEY9SM7EI481541448577877.png" style="width: 700px; height: 297px;"/></a></p>
+
+<p>Be ready when push comes to shove, because the rush distance on this map is very short. There are also alternate paths and no watchtowers to assist in scouting.</p>
+
+<p style="text-align: center;"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/JUK1P1JICJP81541448578358.jpg"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/DQPRCDSG0O161541448578201.png" style="width: 700px; height: 297px;"/></a></p>
+
+<p>This is a large macro map, and it has a long rush distance between the main bases.  The main start locations are vulnerable to air attacks if the enemy sneaks along the edges of the map.</p>
+
+<p/>
+
+<h2>2v2</h2>
+
+<p style="text-align: center;"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/IQP4KL4QM6EV1541448577889.jpg"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/8LRT9OZ8R8ZB1541448577745.png" style="width: 700px; height: 297px;"/></a></p>
+
+<p>Emerald City is a large macro map. Two players should defend the single wide entrance. Natural expansions have two chokepoints, splitting rush paths and expansion patterns. Gold bases can be taken as third expansions for aggressive plays.</p>
+
+<p/>
+
+<h2>3v3</h2>
+
+<p style="text-align: center;"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/6AQIOQ1ZJKGB1541448578680.jpg"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/NQFFZJ8SUFYX1541448578535.png" style="width: 700px; height: 297px;"/></a></p>
+
+<p>Each team has a single main base, followed by a single natural expansion with a ramp to defend it. Pathways and expansions are similar to those in traditional 1v1 maps, and a Xel'naga tower is in each corner.</p>
+
+<p/>
+
+<h2>4v4</h2>
+
+<p style="text-align: center;"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/ECRK91W2JUV51541448578231.jpg"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/CXQGBIHDDLG31541448578104.png" style="width: 700px; height: 297px;"/></a></p>
+
+<div>
+<p>Two pairs of allies spawn together with their main bases connected by a backdoor path they can both use to reinforce each other. Both bases open into a shared defensive area with two chokepoints. Two potential third bases are located nearby, while additional expansions require moving towards the edges of the map.</p>
+
+<hr/></div>
+
+<p>Your final list for Season 4, 2018 will be:</p>
+
+<ul>
+	<li>Blueshift LE</li>
+	<li>Para Site LE</li>
+	<li>Cerulean Fall LE</li>
+	<li>Kairos Junction LE</li>
+	<li>Automaton LE</li>
+	<li>Port Aleksander LE</li>
+	<li>Stasis LE</li>
+</ul>
+
+<p/>
+
+<p>The Season 4 maps are now available for testing under the Custom tab, so jump in and start practicing strategies before the new season begins on November 20. GLHF!</p>
+</div></content></entry><entry><title type="text">StarCraft II Celebrates a New Champion</title><published>2018-11-04T03:58:00.000Z</published><updated>2018-11-06T23:29:55.503Z</updated><id>22636920</id><link href="http://us.battle.net///en/blog/22636920"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">At this year's WCS Global Finals, a tenacious competitor achieved something unprecedented. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>This year, StarCraft celebrated its 20th anniversary. If it were a person, it would be in college, or out working a job, trying to find its feet—it would be a time of life in which big change is nigh inevitable.</p>
+
+<p>Here at BlizzCon 2018, in front of a standing-room only crowd that needed to be capped by venue security, StarCraft went through a transition: for the first time in its history, a non-Korean won a global final event. Joona "Serral" Sotala, the soft-spoken, trilby-wearing Finnish Zerg, won the WCS Global Finals.</p>
+
+<p><img alt="DSC_1815.jpg" data-id="22702516" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/7j/7J2U7FOVK0451541302491946.jpg"/></p>
+
+<p>The most engaging plotlines are those with twists. How sure we all were at the beginning of BlizzCon—how perfect!—how the stars had aligned for the perfect match between Serral and Terran player Cho "Maru" Seong Ju. Both dominated their respective circuits throughout 2018, winning every event they participated in, setting the stage for a symmetrical showdown.<br/>
+Of course, that dream was squashed after Maru went down in a quick 3-0 loss early on BlizzCon 2018's opening day.</p>
+
+<p>Then a new dream emerged: as Saturday shaped up, all of a sudden we were faced with a rematch of this year's GSL vs. The World, which Serral had closed out in a nailbiting 4-3 win over Kim "Stats" Dae Yeob. It was the perfect outcome we never knew we wanted—until we had it.</p>
+
+<p>Serral drew ahead early in the best-of-seven Grand Finals, racking up three wins with insane defense and the patient death-by-a-thousand-cuts style for which he is known, loved, and feared. As the crowd in front of the stage swelled to maximum capacity, expecting a clean 4-0, Stats—who is known as one of the most well-rounded, consistent, best Protoss players in the world—showed the crowd that their hero could bleed, taking two games in a row.</p>
+
+<p><img alt="20181103_Helena-Kristiansson_BlizzconSC2_03880.jpg" data-id="22699720" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/91G6DPB1ZJAD1541302444286.jpg"/></p>
+
+<p>“I was a bit annoyed, I was a bit mad at myself,” Serral said. “I think I did some dumb mistakes. But otherwise, it didn’t faze me too much.”</p>
+
+<p>The next game became an air vs. air battle that had viewers on the edge of their seats. Although Stats’ army appeared dominant, Serral poked and prodded at the South Korean’s economy, slowly suffocating him while showing masterful control of his air forces. As Stats typed out his final “gg," the capacity crowd erupted, shaking the walls of the Anaheim Convention Center.</p>
+
+<p>After the match, Serral was swarmed by press, taking photos of him holding the trophy, firing questions at him. When it was all over, I asked him if it was a lot to deal with after winning something so huge.</p>
+
+<p>“It feels good to win the whole event and make history while doing it,” he said, smiling. “Feels incredible, [but] it hasn’t sunk in yet."</p>
+
+<p>It was a journey years in the making. In 2015, Serral could barely make it into the round of 32 at WCS events. It’s taken years to get to this point, but he never gave up. “I have always loved StarCraft, and that’s why I keep playing it,” Serral said. “In the last year, I ended high school and I’ve been building my skill level. This year, I managed to get very good and consistent.”</p>
+
+<p><img alt="DSC_2010.jpg" data-id="22702515" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/TP5WQM28WAPH1541302451765.jpg"/></p>
+
+<p>As for Serral's future? He’s not going anywhere. “I want to keep playing, go for all the titles I can try to get,” he said. “I don’t think I’m going to stop or slow down at all.”</p>
+
+<p>Everything grows up: games, communities, passions, and people. StarCraft has been, and will be for many years to come, an expression of the best in us. Esports wouldn’t be where it is today without StarCraft—many of our lives would not be where they are today without StarCraft—and the result of the WCS Global Finals showed us that with persistence, a good mentality, and friends who support you, nothing is really impossible.</p>
+
+<p/>
+
+<p/>
+</div></content></entry><entry><title type="text">Recap: StarCraft II What’s Next 2019 Panel</title><published>2018-11-03T21:00:00.000Z</published><updated>2018-11-03T21:11:29.579Z</updated><id>22640608</id><link href="http://us.battle.net///en/blog/22640608"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">StarCraft II’s dev team share their plans for 2019. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Before we look to the future, we’d like to take a quick look back at StarCraft II in 2018:
+<ul>
+	<li>Scarlett became the champion at the <a href="https://www.youtube.com/watch?v=Lf5VfulpbZw">Intel Extreme Masters PyeongChang</a> that led into the 2018 Winter Olympics.</li>
+	<li>We celebrated StarCraft’s <a href="https://www.youtube.com/watch?v=_xl_85klTGk">20th Anniversary</a>.</li>
+	<li>We released our first ever <a href="https://starcraft2.com/en-us/news/21700687">Premium Arcade</a> maps, developed entirely by members of the map-making community.</li>
+	<li>The Co-op Mission <a href="https://news.blizzard.com/en-us/starcraft2/21870975/new-co-op-mission-cradle-of-death">Cradle of Death</a>, inspired by Justin “TheSkunk” Purdy’s Rock the Cabinet submission, was released. </li>
+	<li>The third <a href="https://www.youtube.com/watch?v=XJaIUaHjko4">War Chest</a> was released, featuring the mechanical Simulant Zerg skins.</li>
+	<li>Most recently, the raucous outlaw <a href="https://starcraft2.com/en-us/news/22316743">Tychus Findlay</a> joined StarCraft II as a Co-op Commander, along with his gang of renegades.</li>
+</ul>
+
+<p>Now, let’s take a look forward to 2019!</p>
+
+<p><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/VR4S0BXJSH7Y1540879036627.jpg" style="width: 800px; height: 108px;"/></p>
+
+<h2>War Chest 4</h2>
+
+<p>We’ve been hard at work on the next War Chest, and we’re happy to announce a highly requested reward: Building Skins. Check out a preview of the new skins you’ll be able to earn:</p>
+
+<h3>Special Forces</h3>
+
+<aside class="center-block">
+<div class="image"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/8BQVD3SWQ6VY1540879037465.png"><img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/RKUW81U6XUGH1540879037614.png"/></a></div>
+</aside>
+
+<h3>Forged</h3>
+
+<aside class="center-block">
+<div class="image"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/3O5X81SSXWIT1540879036940.png"><img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/UOUV74NE9BKT1540879036827.png"/></a></div>
+</aside>
+
+<h3>Simulant</h3>
+
+<aside class="center-block">
+<div class="image"><a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/ZKQOWLRG8HTB1540879037276.png"><img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/W5J4QB4GO5NV1540879037326.png"/></a></div>
+</aside>
+
+<p>More changes are coming to the War Chest—be on the lookout for further details soon.</p>
+
+<p><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/B7NJMHRIC18U1540879036706.jpg" style="width: 800px; height: 108px;"/></p>
+
+<h2>New Co-op Commander Zeratul</h2>
+
+<p>The enigmatic Dark Templar Zeratul joins the battle as our latest Co-op Commander. Game Designer Kevin Dong shared some of the design challenges in bringing this iconic character into Co-op Missions—check out our spotlight video if you missed it. You can also dig into our <a href="https://starcraft2.com/en-us/news/22640607">in-depth blog</a> covering Zeratul’s abilities and progression.</p>
+
+<div class="centered" style="margin-bottom: 25px; text-align: center;"><iframe allowfullscreen="" frameborder="0" height="315" scrolling="no" src="https://www.youtube.com/embed/K6nY9mU8ICs?theme=light&amp;color=white&amp;cc_load_policy=1&amp;HD=1&amp;rel=0&amp;showinfo=0" style="border-bottom:1px solid lightgray;" width="560"/></div>
+
+<p><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/WX7N4FBAP75Q1540879036482.jpg" style="width: 800px; height: 108px;"/></p>
+
+<h2>Versus Balance Update</h2>
+
+<p>Game Designer Michael Scipione shared the team’s thoughts on balance in Versus mode, with a focus on the late game for each race. Michael highlighted changes coming to the Battlecruiser, Tempest, and Ultralisk. For more insight into these changes, check out our original <a href="https://starcraft2.com/en-us/news/22372713">Balance Revamp</a> blog.</p>
+
+<p><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/87D6EVAPZ60F1540879036511.jpg" style="width: 800px; height: 108px;"/></p>
+
+<h2>Deepmind</h2>
+
+<p>We also go an update from DeepMind on the progress they’ve made since the StarCraft II API was released. They’ve been excited to see so many members of the AI community taking an interest in their project.</p>
+
+<p>DeepMind has been hard at work training their AI (or agent) to better understand StarCraft II. Once it started to grasp the basic rules of the game, it started exhibiting amusing behavior such as immediately worker rushing its opponent, which actually had a success rate of 50% against the 'Insane' difficulty standard StarCraft II AI!</p>
+
+<p>After feeding the agent replays from real players, it started to execute standard macro-focused strategies, as well as defend against aggressive tactics such as cannon rushes.</p>
+
+<div>
+<p>DeepMind concluded the panel by stating they are still very focused on their research and hope to share more of their findings soon.</p>
+
+<hr/>
+<p/>
+</div>
+
+<p/>
+
+<p>We’d like to take this moment to share our gratitude for this community and your continued passion and support—StarCraft II continues to thrive thanks to all of you!</p>
+</div></content></entry><entry><title type="text">Co-op Commander Preview: Zeratul</title><published>2018-11-02T18:30:00.000Z</published><updated>2018-11-05T19:49:12.300Z</updated><id>22640607</id><link href="http://us.battle.net///en/blog/22640607"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Soon you’ll be able to control the enigmatic and powerful Zeratul on the battlefield. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><div class="centered" style="margin-bottom: 25px; text-align: center;">
+<div class="centered" style="margin-bottom:25px;">
+<div class="centered" style="margin-bottom:25px;"><iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/K6nY9mU8ICs?theme=light&amp;color=white&amp;cc_load_policy=1&amp;HD=1&amp;rel=0&amp;showinfo=0" style="border-bottom:1px solid lightgray;" width="560"/></div>
+</div>
+</div>
+
+<h2>Playstyle</h2>
+
+<p>Zeratul’s gameplay will revolve heavily around the Prophetic Vision ability, which allows the player to discover three Xel’Naga Artifact Fragments on the map. Players are encouraged to seek out these Artifact Fragments as they will improve Zeratul in a variety of ways:</p>
+
+<ul>
+	<li>Zeratul, his units, calldowns, defensive structures, and even Probes will gain weapon, armor, and shield upgrades with each Artifact Fragment.</li>
+	<li>Zeratul has no traditional researchable abilities. Instead, Artifact Fragments he finds will grant his units Artifact Enhancements, which are either new abilities or improvements to existing abilities.</li>
+	<li>Zeratul has a potential of four top-bar abilities, but only one is unlocked at the start of the game. Players unlock new top-bar abilities with each Artifact Fragment they find.</li>
+	<li>The Legendary Legion calldowns improve with each Artifact Fragment found.</li>
+	<li>Zeratul himself gains bonuses.</li>
+</ul>
+
+<p>In addition, uniquely among Commanders, Zeratul’s top-bar will be fully customizable. Both at the start of the game and with each Artifact Fragment recovered, you’ll be able to choose one additional top-bar ability from a selection of two or three. Players should select these abilities carefully based on both their individual playstyles and the needs of the mission.</p>
+
+<h2>Design Philosophy</h2>
+
+<p>We’ve always been huge fans of Zeratul as a character in the StarCraft universe, so we knew we wanted to bring him to Co-op. However, we already had a “Dark Templar” Commander in Vorazun, so we had to take special care to make Zeratul feel different enough from his Nerazim counterpart.</p>
+
+<p>Right off the bat, we knew we wanted to have Zeratul as a controllable hero on the battlefield. And we wanted him to have a small elite fighting force, as he was most often featured in insurgent-style missions in the StarCraft II campaign. But we also knew this wouldn’t be enough, so we played the campaign to really dig into Zeratul’s identity beyond the fact that he’s a Dark Templar.</p>
+
+<p>Throughout the campaign, Zeratul looked to the wisdom of the Xel’Naga for guidance, obsessed with finding their prophecies. We experimented with how we could incorporate this into his Commander design and eventually came up with the Prophetic Vision ability, which allows players to pierce the void to find the locations of procedurally-placed Xel’Naga Artifact Fragments hidden on each map.</p>
+
+<p>In addition, we were committed to creating a Commander that felt and played differently from his Protoss brethren. To that end, Zeratul’s army will receive unique Xel’Naga enhancements, which should hopefully allow players to see traditional Protoss units in a completely new light. Our intention is to make Zeratul feel like a Xel’Naga Commander as much as he does a Protoss Commander.</p>
+
+<p>Finally, during our playthrough of the campaign, we found that Zeratul had a curious habit of finding allies who were more than willing to sacrifice themselves for his sake. Inspired by this, we created the Legendary Legion calldowns, which allow players to call in reinforcements from other Protoss factions (often to send them to their deaths).</p>
+
+<h2>Top Bar Abilities</h2>
+
+<p>A level 15 Zeratul will have 3 choices for each of his top bar abilities. Adapt to the enemy and your mission objections and select your powers accordingly.</p>
+
+<h3>Tier 1</h3>
+
+<p><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/QZ5ZVJ5CB3D91540880155817.png " style="width: 500px; height: 250px;"/></p>
+
+<p><strong>Telbrus Legion </strong></p>
+
+<p>Telbrus and Zealots will make short work of swarms of units, preventing your army from being overwhelmed.</p>
+
+<p><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/YBK0TXZOUTVI1540880155977.png " style="width: 500px; height: 250px;"/></p>
+
+<p><strong>Zoraya Legion </strong></p>
+
+<p>If you’re facing aerial threats, Zoraya and his fleet of Void Rays will keep the skies clear.</p>
+
+<p><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/F5ENIIA6AX0K1540880155823.png " style="width: 500px; height: 250px;"/></p>
+
+<p><strong>Serdath Legion </strong></p>
+
+<p>The Dark Archons lead by Serdath will quickly turn the tide of any battle with their mind control abilities.</p>
+
+<h3>Tier 2</h3>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/4E4ZD9KKHMWV1540877094353.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Stasis Beam:</h4>
+The Stasis Beam can be used to cut the attack army in half, temporarily giving you the upper hand, or it can protect your expansion until reinforcements arrive.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/R7LRCD7ICTR71540877094525.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Tesseract Monolith</h4>
+This defensive structure can be summoned anywhere that you have vision to provide extra firepower and soak up enemy fire.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/Q08V9CPTBZQY1540877094596.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Void Suppression Crystal</h4>
+This powerful ability will drastically reduce the attack and movement speed of your foes.</div>
+</div>
+
+<h3>Tier 3</h3>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/1LH2TRYGZNA71540877094370.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Steadfast Reinforcement</h4>
+Grabbing this passive will increase the duration of Zeratul’s Legion and Avatar calldowns by 50%.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/EPKLS4VC71KU1540877094509.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Tesseract Matrix</h4>
+This will increase the power of the Tesseract Monolith, making it more mobile and durable.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/TK41KIAY37ZR1540877094565.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Void Blink</h4>
+This will reduce the cooldown of Zeratul and his units’ Blink abilities by 50%.</div>
+</div>
+
+<h3>Tier 4</h3>
+
+<aside class="center-block">
+<div class="image"><img src="https://bnetcmsus-a.akamaihd.net/cms/page_media/I4PRKG6OHS491540877169933.gif"/></div>
+</aside>
+
+<ul>
+	<li>Avatar of Form: This Avatar showcases the full potential of psychic power. It can use powerful area-of-effect abilities and summon charged crystals.</li>
+	<li>Avatar of Essence: Your units will be continuously strengthened while near the Avatar of Essence, and enemies near it will devolve into lesser forms.</li>
+</ul>
+
+<div class="media-body">
+<h4 class="media-heading" style="text-align: center;"><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/IZ65Y27PP9YY1540774581323.png" style="width: 200px; height: 200px;"/></h4>
+
+<h4 class="media-heading">Zeratul</h4>
+
+<ul>
+	<li>Can rapidly use Blink to engage instantly or to retreat from danger.</li>
+	<li>Summoning the Void Seeker allows Zeratul to instantly be transported to any part of the map.</li>
+	<li>His Shadow Cleave allows him to dispatch clumps of units in one blow.</li>
+	<li>Zeratul’s most important ability,<a href="https://bnetcmsus-a.akamaihd.net/cms/page_media/R3UEJ3GZ6NYS1540877169947.gif"> Prophetic Vision</a>, allows him to locate a Xel’Naga fragment.</li>
+</ul>
+</div>
+
+<h2>Xel'Naga Remnants</h2>
+
+<div class="media">
+<div class="media-left media-middle"><img alt="Ambusher" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/3GVBL3E7DP0U1540774581288.png" style="width: 200px; height: 200px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Ambusher</h4>
+Ranged anti-armor unit which will leave a Void Apparition after blinking which will attack the nearest enemy for bonus damage.</div>
+</div>
+
+<div class="media">
+<div class="media-left media-middle"><img alt="Shieldguard" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/WCQV000NXJXC1540774581255.png" style="width: 200px; height: 200px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Shieldguard</h4>
+Support unit which can reflect damage back at the enemy and recharge lost shields.</div>
+</div>
+
+<div class="media">
+<div class="media-left media-middle"><img alt="Void Templar" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/H4GH647PAD461540774581053.png" style="width: 200px; height: 200px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Void Templar</h4>
+The Void Templar can damage enemies with it's Blink ability and can also retreat into the Void upon taking fatal damage, returning with full health and shields.</div>
+</div>
+
+<div class="media">
+<div class="media-left media-middle "><img alt="Enforcer" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/3PIKIDD8FO1L1540774581209.png" style="width: 200px; height: 200px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Enforcer</h4>
+Heavy anti-armor unit that can attack ground and air units as well as fully heal any damage taken whenever its shield barrier is activated.</div>
+</div>
+
+<div class="media">
+<div class="media-left media-middle "><img alt="Abrogator" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/TGMDB945V6M51540774581177.png" style="width: 200px; height: 200px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Abrogator</h4>
+The Abrogator is powerful against clumps of ground units. Its Purification Nova will split into smaller blasts, causing even more damage.</div>
+</div>
+
+<div class="media">
+<div class="media-left media-middle "><img alt="Void Array" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/BP3ZV7Z6OZ2I1540774581320.png" style="width: 200px; height: 200px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Void Array</h4>
+Transport vehical that is constructed in pairs and creates a two-way worm hole, allowing instant transportation and unmatched mobility.</div>
+</div>
+
+<div class="media">
+<div class="media-left media-middle "><img alt="Watcher" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/6FS66RRN6NHQ1540774581219.png" style="width: 200px; height: 200px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading">Watcher</h4>
+Zeratul uses the trusted Watcher to reveal invisible enemies and to warn of impending attacks.</div>
+</div>
+
+<h2>Progression</h2>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/YI8A75RLCV9M1540882152609.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Power of the Xel’Naga</strong></h4>
+Zeratul has a 100 starting supply and his units have increased life and damage. Buildings do not require Pylon power and units cannot be warped directly onto the battlefield. Zeratul's Ancient Nexus can automatically construct Ancient Assimilators.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/ANW6AB6V9VY51540882152599.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Prophecy Fulfilled</strong></h4>
+
+<p>Unlocks the ability for Zeratul to find the third and final Artifact Fragment. Once all Artifacts are found, Zeratul unlocks the following abilities:</p>
+
+<ul>
+	<li>Call down the Avatar of Form, the embodiment of psionic potential.</li>
+	<li>Call down the Avatar of Essence, the embodiment of evolutionary potential.</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/N4L59ECRPNKZ1540882152677.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Passageway Enhancement Cache 1</strong></h4>
+
+<p>Unlocks the following Passageway-level Artifact upgrades after the second Artifact Fragment is found:</p>
+
+<ul>
+	<li>Allows the Xel'Naga Ambusher's Blink to leave behind a Void Apparition that attacks once for 200% of its weapon damage.</li>
+	<li>Increases the energy regeneration of the Xel'Naga Shieldguard by 100%.</li>
+	<li>Allows the Void Templar's Blink to deal 50 damage to units caught in its path.</li>
+	<li>Allows Tesseract Cannons and Tesseract Monoliths to absorb up to 100 damage every 60 seconds.</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/K7GVXFW6RCJQ1540882153086.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>New Unit: Xel’Naga Abrogator</strong></h4>
+Robotic Disruption unit. Can use Purification Nova to deal heavy area damage. Built at the Constructs Facility. Can attack ground units.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/2A0N7CS6TDKW1540882153103.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Tesseract Enhancement Cache</strong></h4>
+
+<p>Unlocks the option to select the following Artifact abilities:</p>
+
+<ul>
+	<li>Deploys a Tesseract Monolith at the target location. Tesseract Monoliths can stun enemies, project themselves, and protect themselves from damage.</li>
+	<li>Improves the effectiveness of the Shade Projection and Shade Barrier abilities by 100%.</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/T6I3LYWFLVW31540882153114.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Constructs Enhancement Cache 1</strong></h4>
+
+<p>Unlocks the following Constructs-level Artifact upgrades after the second Artifact Fragment is found:</p>
+
+<ul>
+	<li>Allows the Xel'Naga Enforcer's anti-air weapon to knock back enemy air units, dealing 50% of its damage to units caught in the path of the blast.</li>
+	<li>Reduces the cooldown of the Xel'Naga Abrogator's Purification Nova by 50%.</li>
+	<li>Increases the movement speed of Xel'Naga Watchers by 50%.</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/MQZFXZVNOWD91540882153168.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Path of the Void</strong></h4>
+
+<p>Unlocks the option to select the following Artifact abilities:</p>
+
+<ul>
+	<li>Call down Serdath and his legendary legion of Dark Archons to aid in the battle. Serdath cannot be directly controlled but can be guided via the top-bar.</li>
+	<li>Summons an invulnerable Void Suppression Crystal that slows the movement and attack speeds of enemy units and disables enemy structures in its vicinity.</li>
+	<li>Reduces the cooldown of Zeratul and his units' Blink abilities by 50%.</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/4WRVJG2GWSCT1540882153204.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Empowered Legions</strong></h4>
+
+<p>Legendary Legions gain new abilities once the third Artifact Fragment is found:</p>
+
+<ul>
+	<li>Telbrus gains the Feedback ability, which drains energy from an enemy unit. Telbrus' Zealot Legion gains the Charge ability, which allows them to intercept enemy ground units.</li>
+	<li>Zoraya and her Void Ray legion gain the Prismatic Range ability, which increases the range of their weapons as they continue to attack.</li>
+	<li>Serdath and his Dark Archons gain the Maelstrom ability, which temporarily stuns enemy units in an area.</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/APXEPK0APB1S1540882153229.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>New Unit: Xel’Naga Void Array</strong></h4>
+Flying wormhole generator. Builds two at a time. Can deploy to create a link between all Xel'Naga Void Arrays on the field.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/6B3Z8SW9T20Q1540882153290.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<p><strong>Chronometry</strong></p>
+Reduces the build time of units produced by the Xel'Naga Passageway and the Constructs Facility by 50%.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/CIGBDAR13F471540882153312.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Passageway Enhancement Cache 2</strong></h4>
+
+<p>Unlocks the following Passageway-level Artifact upgrades after the third Artifact Fragment is found:</p>
+
+<ul>
+	<li>Allows the Xel'Naga Ambusher to store up to 3 charges of Predictive Blink and regain a charge every 8 seconds.</li>
+	<li>Allows the Xel'Naga Shieldguard to create a range 4.5 aura that reflects 50% of all projectiles back to the attacker.</li>
+	<li>When a Void Templar takes fatal damage, it retreats to the Void and regenerates its health and shields over 10 seconds.</li>
+	<li>Allows Tesseract Cannons and Tesseract Monoliths to project themselves to a target location for 60 seconds.</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/XWJH2VLTV8VS1540882153323.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Dark Agency</strong></h4>
+Reduces the supply cost of Xel'Naga Shieldguards to 1. Reduces the supply cost of a pair of Xel'Naga Void Arrays to 1. Reduces the supply of Xel'Naga Watchers to 0.</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/4UMPKARTDFIZ1540882153347.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Constructs Enhancement Cache 2</strong></h4>
+
+<p>Unlocks the following Constructs-level Artifact upgrades after the third Artifact Fragment is found:</p>
+
+<ul>
+	<li>Increases the damage absorbed by the Xel'Naga Enforcer's Barrier by 300%. The Xel'Naga Enforcer's Barrier will fully restore its health whenever it activates.</li>
+	<li>When a Xel'Naga Abrogator's Purification Nova explodes, it generates three smaller Novas that deal 50 damage each to enemy units in their paths.</li>
+	<li>Units near a Xel'Naga Void Arrays in Wormhole Mode have an increased shield regeneration rate of 2 per second.</li>
+	<li>Increases the sight radius of Xel'Naga Watchers by 50%</li>
+</ul>
+</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/0FHK1X7JO0UV1540882153403.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Purity of Perfection</strong></h4>
+The Avatar of Form gains the ability to summon Charged Constructs that can individually cast miniature Psionic Storms. The Avatar of Essence gains the ability to transform all enemy units in a large area into a lower evolutionary form</div>
+</div>
+
+<div class="media">
+<div class="media-left"><img alt="" class="media-object" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/OT25TU4D5HKE1540882153479.jpg" style="width: 94px; height: 94px;"/></div>
+
+<div class="media-body">
+<h4 class="media-heading"><strong>Purity of Will</strong></h4>
+Upon finding all three Xel'Naga Artifact Fragments, Zeratul gains additional health, increased damage, increased Shadow Cleave damage, and can store 3 charges of Blink.</div>
+</div>
+
+<hr/>
+<p>Zeratul will be released alongside patch 4.7.0. You can pick him up alone or grab his Master Bundle, which will include his announcer and a Co-op Stimpack.</p>
+
+<p>Let us know your thoughts on our <a href="https://us.battle.net/forums/en/sc2/22295482/">Co-op forums</a>.</p>
+</div></content></entry><entry><title type="text">2018 Pumpkin Contest Winners</title><published>2018-10-31T17:00:00.000Z</published><updated>2018-10-31T18:23:12.030Z</updated><id>22639850</id><link href="http://us.battle.net///en/blog/22639850"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">The winners of this year's pumpkin-carving contest have been chosen -- and they're monstrously spectacular. We'd like to thank everyone who participated this year, and we can't wait to see your mad scientist skills in action again next time around. Check out all of the creepy, incredible, and creative winning pumpkins here. </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>The winners of this year's pumpkin-carving contest have been chosen -- and they're monstrously spectacular. We'd like to thank everyone who participated this year, and we can't wait to see your mad scientist skills in action again next time around. Check out all of the creepy, incredible, and creative winning pumpkins:</p>
+
+<div class="blog_card-group">
+<div class="blog_card-list">
+<div class="blog_card"><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/IDYDZK1BJZAN1540864293643.jpg" target="new_window"><img alt="blog_card image cap" class="blog_card-img-top lightbox" src="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/IMCJCYNIQ5361540864293627.jpg"/> </a>
+
+<div class="blog_card-block">
+<h4 class="blog_card-title">Mummified Raptor Mount - "Tomb Stalker"</h4>
+
+<p class="blog_card-text">Raine Pye - Kemptville, ON. Canada</p>
+</div>
+</div>
+</div>
+
+<div class="blog_card-list">
+<div class="blog_card"><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/SOYMQCL8E3PN1540864293645.jpg" target="new_window"><img alt="blog_card image cap" class="blog_card-img-top lightbox" src="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/1PV0DPLS9GER1540864293854.jpg"/> </a>
+
+<div class="blog_card-block">
+<h4 class="blog_card-title">At his dwelling in Ahn'Qiraj, dread C'Thun awaits in slumber</h4>
+
+<p class="blog_card-text">Doncho Mihovski - Burgas, Bulgaria</p>
+</div>
+</div>
+</div>
+
+<div class="blog_card-list">
+<div class="blog_card"><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/HN598PP7X5AD1540864293873.jpg" target="new_window"><img alt="blog_card image cap" class="blog_card-img-top lightbox" src="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/Q1CER51GCF1B1540864293881.jpg"/> </a>
+
+<div class="blog_card-block">
+<h4 class="blog_card-title">A Turtle Didn't Make it to the Water</h4>
+
+<p class="blog_card-text">Erin Murphy - Rocky River, OH</p>
+</div>
+</div>
+</div>
+
+<div class="blog_card-list">
+<div class="blog_card"><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/V3TB6MD2H6WT1540865087133.jpg" target="new_window"><img alt="blog_card image cap" class="blog_card-img-top lightbox" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/HKVQWDM91WAB1540865087120.jpg"/> </a>
+
+<div class="blog_card-block">
+<h4 class="blog_card-title">Shadow the Fox</h4>
+
+<p class="blog_card-text">Annabelle Johnstone, Redditch, GB</p>
+</div>
+</div>
+</div>
+
+<div class="blog_card-list">
+<div class="blog_card"><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/2KA0NNIZA5LQ1540864293936.jpg" target="new_window"><img alt="blog_card image cap" class="blog_card-img-top lightbox" src="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/XHCPFYKOAGL41540864294148.jpg"/> </a>
+
+<div class="blog_card-block">
+<h4 class="blog_card-title">Roadhog and Pachimari Ride Again</h4>
+
+<p class="blog_card-text">Natasha Shevchenko - Calgary, AL, Canada</p>
+</div>
+</div>
+</div>
+</div>
+
+<h2>Honorable Mentions</h2>
+
+<aside class="gallery">
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/4QN3Y5NBQZ0E1540938838909.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/DODZLUUW7C0W1540938838943.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/BSLVVL17QITV1540938838435.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/HNM9KDQV3CRS1540938838474.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/7G30PDA72YEE1540938838108.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/7MRKOMS3VKV91540938838108.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/F2TYYQKB025Y1540938838115.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/KL05VT07WVNQ1540938838289.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/G78IQHUC0OQ41540938838303.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/UC2K5ROFLS691540938838323.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/YMYCQK9JOZNM1540938838507.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/1RJ1QQDLBHGY1540938838537.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/K2J1TOFQXYTQ1540938838380.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/HBJY1GK3AM5L1540938838383.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/DXN1ROBDUDPK1540938838563.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/Q2Q1VHNS93V51540938838613.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/YX0FM5999LNC1540938838638.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/YRSD8IHLQO8F1540938838698.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/L54HH3LF859K1540938838707.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/ZMT3FBIKP28T1540938838749.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/ZGDCLUFU8SQO1540938838791.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/6D56WV9EEI1W1540938838813.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/ZPLC9V9KKWTT1540938838864.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/S9JHAQZVGVZA1540938838874.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/A2P8673W2W891540938839070.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/D90WBIA4J8Q51540938839095.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/MMFW53IY0RYV1540938839210.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/LIL01J5GYVXO1540938839220.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/6N97JKJMZNX81540938839243.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/5XNN7MG8Z5ET1540938839294.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/HNJIU2Z6KH941540938839320.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/2JPAZ8D5ZFRB1540938839416.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/H286X43QTABR1540938839424.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/06S9N58TSSBP1540938839491.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/BYMQ7RVI5G961540938839552.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/H31XMKW9XBPE1540938839646.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/JGCY6ZEK52UV1540938839655.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/4SAYSF86SIUW1540938839681.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/YM4XYVP8CNSS1540938839715.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/M7G3NE4BVRXG1540938839864.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/GFBFMCIE1XUN1540938839879.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/ZV6RP1E1YG081540938839887.jpg"/></a></figure>
+
+<figure><a class="lightbox" href="https://bnetcmsus-a.akamaihd.net/cms/page_media/DUX3HJ4AMG771540938839537.jpg" target="new_window"><img alt="image" src="https://bnetcmsus-a.akamaihd.net/cms/page_media/7C1W64XFZK2A1540938839540.jpg"/></a></figure>
+</aside>
+</div></content></entry><entry><title type="text">BlizzCon® and Bottle Logic Beer: a StarCraft® Love Story</title><published>2018-10-29T20:38:29.975Z</published><updated>2018-10-29T20:38:29.975Z</updated><id>22563584</id><link href="http://us.battle.net///en/blog/22563584"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">At BlizzCon 2018, we're serving up four commemorative beers brewed with Bottle Logic Brewing to celebrate StarCraft's 20th anniversary! </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>StarCraft</em>® might seem like a whiskey and cigars universe, but terrans have carted cans of Pabsch and Zerg beer with them to the most unpredictable corners of Koprulu. It’s only fitting that we bring their pastime home to Earth.</p>
+
+<p><em>At BlizzCon on November 2-3, 2018, we’ll be serving up four (4) different con-exclusive StarCraft 20<sup>th</sup> anniversary beers with our friends at Bottle Logic: one for each classic StarCraft race, and a special commemorative anniversary ale.</em></p>
+
+<p>To celebrate 20 years of StarCraft, these stellar beverages—<em>Haze of Adun</em> Hazy Pale Ale, <em>Nydus Nectar</em> Tart Ale, and <em>Stimpack</em> <em>Stout</em>—are available to sip at stations around the <a href="https://www.anaheim.net/1117/Anaheim-Convention-Center-Arena">Anaheim Convention Center</a> and at the neighboring <a href="https://www.marriott.com/hotels/travel/laxah-anaheim-marriott/">Anaheim Marriott</a> hotel bar while supplies last (note that alcohol sales in California require identification proving that you are age 21 or older).</p>
+
+<p>In addition to draft pours at the aforementioned locations, you also can take away <em>Power Overwhelming</em> IPA in cool collectible cans from both the Anaheim Marriott and <a href="http://www.guestreservations.com/hilton-anaheim/booking?gclid=EAIaIQobChMI6JiKzfac3gIVT21-Ch0MmwsxEAAYAyAAEgIE__D_BwE">Hilton</a> hotels.</p>
+
+<p/>
+
+<p/>
+
+<p style="text-align: center;"><em><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/gallery/NYVWC3O5QJSR1540507170600.png" style="width: 400px; height: 300px;"/></em></p>
+
+<hr/>
+<p><strong>The Beers</strong></p>
+
+<p><strong>Power Overwhelming Anniversary IPA (5.9% ABV)</strong></p>
+
+<p>StarCraft’s 20<sup>th</sup> anniversary commemorative beer, <em>Power Overwhelming</em>, is a soft, tropical, deliciously easy-to-drink IPA in a limited-edition collectible can. While it won’t help you fuse into a supernal consciousness bent on eradicating the enemies of Aiur, you and a like-minded friend <em>can</em> line up your cans to show off both sides of a wraparound label that’s greater than the sum of its parts.</p>
+
+<p><strong>Haze of Adun Pale Ale (5% ABV)</strong></p>
+
+<p><em>Haze of Adun</em>’s pure and shining golden hue was inspired by the armor elite templar wear into battle. Its downy mouthfeel and juicy citrus bitterness might fill you with the very same psychic relaxation that washes over protoss warriors after victory against the zerg, or that might be a complete stretch. The beer’s still delicious.</p>
+
+<p><strong>Nydus Nectar Tart Ale (5% ABV)</strong></p>
+
+<p><em>Nydus Nectar </em>is a tart berliner weisse brewed with heaps of fresh blueberries and raspberries to produce a distinctive, brilliant purple hue. Its aroma brings to mind the humid primordial funk of Zerus, and it tastes much, much better than disgorging dozens of zerglings from your tunnel-sized maw.</p>
+
+<p><strong>Stimpack Stout (8% ABV)</strong></p>
+
+<p>A unique, subtly smoky coffee beer, <em>Stimpack Stout</em> has considerably more pleasant aftereffects than the more traditional Dominion psych-up. It’s lightly sweet and syrupy, and balances smoke and rich coffee flavors for a terran-friendly vibe that’ll leave you vigorously defending the jukebox.</p>
+
+<p/>
+
+<p style="text-align: center;"><em><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/gallery/08JOIZEK0LQ81540507170594.png" style="width: 400px; height: 300px;"/></em></p>
+
+<hr/>
+<p><strong>Quest for Quality</strong></p>
+
+<p>2018 marks our third beer-brewing adventure with Bottle Logic. Previous years have brought us <em>Inner Geek</em> Blizzard anniversary ale, <em>Warcraft</em>®<em> </em>anniversary <em>Thunderbrew</em>, and <em>Diablo</em>®<em> </em>anniversary <em>Horadric Ale</em> and <em>Dark Wanderer</em> stout. The more we work with Bottle Logic, the more we discover everything we have in common—similar commitments to quality, similar fixation on the craft (of everything from bottle labels to box art), and mutual appreciation for beer and games.</p>
+
+<p>Starcraft Production Director Tim Morten describes the brewing process with Bottle Logic as extremely gratifying—they’ve invited members of the StarCraft team to give input on original concepts, to help tune the flavor profiles of each beer, and even to help decide on specific brewing techniques.</p>
+
+<p>Bottle Logic Co-Founder Brandon Buckner describes beer iteration as similar to game development—a lot of talking, trying different ideas out, and learning as a group while an idea slowly takes form. “It’s kind of wild to think about the overlap there, and then to see the overlap of beer-fans and Blizzard fans connecting over our collaboration at BlizzCon” he says. “It’s really been a blast to have built so many great friendships with folks on the Blizzard teams.”</p>
+
+<p><em>Want to know more? Check out a Virtual Ticket <a href="https://blizzcon.com/en-us/watch?v=5bd6191dead09ac9b69f131d&amp;amp;eventYear=2018">video </a>about our collaboration with Bottle Logic.</em></p>
+
+<ul class="list-inline" style="display:flex; justify-content: space-around; margin-top: 1.75em;">
+	<li>
+	<p><a class="btn btn-primary" href="https://blizzcon.com/en-us/watch?v=5bd6191dead09ac9b69f131d&amp;eventYear=2018" target="_blank">WATCH WITH VIRTUAL TICKET</a></p>
+	</li>
+</ul>
+
+<p style="text-align: center;"><em><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/gallery/GG8GWE49F9WU1540507170396.png" style="width: 400px; height: 300px;"/></em></p>
+
+<hr/>
+<p><strong>Embracing our Inner Beer Geek</strong></p>
+
+<p>Like all our geekery, beer geekery at Blizzard manifests in a variety of ways. Our company beer mailing list hosts discussions of favorite styles and recommendations for must-visit brewpubs throughout the world. We’ve even been known to set up the odd team bottle exchange—the StarCraft team’s running Thursday afternoon beer share is affectionally called “False Start.”</p>
+
+<p>We’ve even gotten our friends at Bottle Logic in on the action—after collaborating on <em>Thunderbrew </em>for BlizzCon 2014, we farmed out the original recipe to Blizzard employees in a homebrew competition, judged by Bottle Logic’s brewmeisters. Buckner remembers one of his favorite employee-brewed variants featuring peppercorns harvested from the Blizzard Irvine campus, and another that pumped up the base beer with chai spice.</p>
+
+<p>The Bottle Logic half of our fun-development archon hasn’t been shy about their gaming proclivities, either. After seeing StarCraft’s cinematics for the first time (which he says “totally blew his mind”), Brandon begged his parents for a year to get his first computer so he could play it. He’s enjoying StarCraft II’s co-op mode as we head into BlizzCon.</p>
+
+<p style="text-align: center;"><em><img alt="" src="https://bnetcmsus-a.akamaihd.net/cms/gallery/5TKNXPX28X7J1540507170406.png" style="width: 400px; height: 300px;"/></em></p>
+
+<hr/>
+<p><strong>See you at BlizzCon!</strong></p>
+
+<p>The Anaheim Convention Center at BlizzCon 2018 will be the only place to get cans of <em>Power Overwhelming</em> and pours of <em>Nydus Nectar</em>, <em>Haze of Adun </em>and <em>Stimpack Stout</em>. Even if you don’t plan on attending the con, you can still stop by the Hilton, Marriot, or one of the convention center's outdoor beer gardens to celebrate with us.</p>
+
+<p>And, if you’re in town for more than just the duration of BlizzCon 2018, stop by Bottle Logic’s <a href="http://bottlelogic.com/tasting-room/">tasting room</a> in Anaheim to try their latest. They don’t have a Blizzard arcade cabinet, but obviously, iteration's key there too.</p>
+
+<p>Cheers to 20 years, Commanders!</p>
+</div></content></entry><entry><title type="text">Twitch Drops Are Back for Heroes and StarCraft II</title><published>2018-10-24T17:04:00.000Z</published><updated>2018-11-02T01:37:02.587Z</updated><id>22549375</id><link href="http://us.battle.net///en/blog/22549375"/><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">Watch the HGC Finals or the WCS Global Finals at BlizzCon Opening Week and BlizzCon to earn in-game loot! </div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Fans of Heroes of the Storm and StarCraft II have the chance to earn in-game loot simply by tuning in to Twitch for championship esports tournaments during BlizzCon Opening Week and BlizzCon.</p>
+
+<h3><strong>Guaranteed Drops</strong></h3>
+
+<p><strong>Guaranteed Drops for four hours of viewing <em>either</em> Heroes of the Storm or StarCraft II:</strong></p>
+
+<ul>
+	<li>Fans who watch Heroes of the Storm or StarCraft II for a total of <em>four hours</em> during BlizzCon Opening Week from Oct. 25–28 and/or BlizzCon on Nov. 2–3 will receive one <strong>Rare Loot Chest</strong> in Heroes of the Storm and the <strong>Alarak Portrait</strong> in StarCraft II.</li>
+</ul>
+
+<p><strong>Guaranteed Drops for eight and 12 hours of viewing Heroes of the Storm:</strong></p>
+
+<ul>
+	<li>Fans who watch <em>eight hours</em> of the HGC Finals at BlizzCon Opening Week and/or BlizzCon also will receive a <strong>Cheery Vikings Portrait</strong> in Heroes of the Storm.</li>
+	<li>Tuning in for <em>12 hours</em> will add a <strong>Cheery Vikings Spray</strong>.</li>
+</ul>
+
+<p><strong>Guaranteed Drops for eight and 12 hours of viewing StarCraft II:</strong></p>
+
+<ul>
+	<li>Fans who watch <em>eight hours</em> of the WCS Global Finals at BlizzCon Opening Week and/or BlizzCon also will receive a <strong>James "Sirius" Sykes Portrait</strong> in StarCraft II.</li>
+	<li>Tuning in for <em>12 hours</em> will add the <strong>2018 WCS Finals Emoji Pack</strong>, as well as the <strong>Heaven’s Devils Spray.</strong></li>
+</ul>
+
+<h3><strong>Random Drops for Heroes of the Storm</strong></h3>
+
+<p><img alt="TwitchDropsHGC_Blog_Rewards_960x480.jpg" data-id="22618327" src="https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/k0/K0V6G3ODAEYK1540254892744.jpg"/></p>
+
+<p>During live broadcasts of the HGC Finals at BlizzCon Opening Week and BlizzCon, 500 Common Loot Chests will be awarded randomly to viewers each hour. On top of that, Heroic Account Unlock codes—which unlock every Hero up to <a href="https://esports.heroesofthestorm.com/en-us/articles/22548101/get-mal'ganis-drain-gains-with-zugrug">Mal’Ganis</a>—will be granted to three lucky viewers each broadcast day. To win a Heroic Account Unlock, tune in for at least <em>one hour</em> during eligible broadcast times.</p>
+
+<h3><strong>Random Drops for StarCraft II</strong></h3>
+
+<p><img alt="Twitch Drops_SC_Blog - Header-NEW_1200x600.jpg" data-id="22627287" src="https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/tb/TBXO3863VSYN1540245906079.jpg"/></p>
+
+<p>During live broadcasts of the WCS Global Finals at BlizzCon Opening Week and BlizzCon, 2000 new race Banners—exclusive for a limited time—will be awarded randomly to viewers each hour. For a chance at a Banner, tune in for at least <em>one hour</em> during eligible broadcast times.</p>
+
+<h4><strong>Eligible Channels for Heroes of the Storm:</strong></h4>
+
+<ul>
+	<li>English - <a href="http://www.twitch.tv/blizzheroes">http://www.twitch.tv/blizzheroes</a></li>
+	<li>French - <a href="http://www.twitch.tv/blizzheroesfr">http://www.twitch.tv/blizzheroesfr</a></li>
+	<li>German - <a href="http://www.twitch.tv/blizzheroesde">http://www.twitch.tv/blizzheroesde</a></li>
+	<li>Russian - <a href="http://www.twitch.tv/blizzheroesru">http://www.twitch.tv/blizzheroesru</a></li>
+	<li>Turkish - <a href="https://www.twitch.tv/akfon">https://www.twitch.tv/akfon</a></li>
+	<li>Polish - <a href="https://www.twitch.tv/thewilq">https://www.twitch.tv/thewilq</a></li>
+	<li>Italian - <a href="https://www.twitch.tv/piudidue">https://www.twitch.tv/piudidue</a></li>
+	<li>EU Spanish - <a href="https://www.twitch.tv/hotseaoficial">https://www.twitch.tv/hotseaoficial</a></li>
+	<li>Korean - <a href="http://www.twitch.tv/blizzheroeskr">http://www.twitch.tv/blizzheroeskr</a></li>
+	<li>Traditional Chinese - <a href="http://www.twitch.tv/blizzardzhtw">www.twitch.tv/blizzardzhtw</a></li>
+	<li>Spanish (LatAm) - <a href="http://www.twitch.tv/zodaklatino">www.twitch.tv/zodaklatino </a></li>
+	<li>Portuguese (LatAm) - <a href="http://www.twitch.tv/playingalot">www.twitch.tv/playingalot</a></li>
+</ul>
+
+<h4><strong>Eligible Broadcast Times for Heroes of the Storm:</strong></h4>
+
+<ul>
+	<li>Oct. 25 from 9:00 a.m. to 6:30 p.m. PDT</li>
+	<li>Oct. 26 from 9:00 a.m. to 6:30 p.m. PDT</li>
+	<li>Oct. 27 from 9:00 a.m. to 6:30 p.m. PDT</li>
+	<li>Oct. 28 from 9:00 a.m. to 5:00 p.m. PDT</li>
+	<li>Nov. 2 from 12:00 p.m. to 8:00 p.m. PDT</li>
+	<li>Nov. 3 from 9:30 a.m. to 7:00 p.m. PDT</li>
+</ul>
+
+<p>For more details, read the official rules <a href="https://bnetcmsus-a.akamaihd.net/cms/gallery/dy/DYYHUB1G51W21541121476486.pdf">here</a>.</p>
+
+<h4><strong>Eligible Channels for StarCraft II:</strong></h4>
+
+<ul>
+	<li>English - <a href="https://www.twitch.tv/starcraft">https://www.twitch.tv/starcraft</a></li>
+	<li>Korean - <a href="https://www.twitch.tv/starcraft_kr">https://www.twitch.tv/starcraft_kr</a></li>
+	<li>Korean - <a href="https://www.twitch.tv/tvcrank">https://www.twitch.tv/tvcrank</a></li>
+	<li>Korean - <a href="https://www.twitch.tv/lucia94">https://www.twitch.tv/lucia94</a></li>
+	<li>German - <a href="https://www.twitch.tv/taketv">https://www.twitch.tv/taketv</a></li>
+	<li>French - <a href="https://www.twitch.tv/ogamingsc2">https://www.twitch.tv/ogamingsc2</a></li>
+	<li>Polish - <a href="https://www.twitch.tv/emstudio" target="_blank">https://www.twitch.tv/emstudio</a></li>
+	<li>Polish -<a href="https://www.twitch.tv/esl_sc2_pl"> https://www.twitch.tv/esl_sc2_pl</a></li>
+	<li>Russian - <a href="https://www.twitch.tv/starladder_sc2_ru">https://www.twitch.tv/starladder_sc2_ru</a></li>
+	<li>Spanish (LatAm) - <a href="https://www.twitch.tv/horusstv">https://www.twitch.tv/horusstv</a></li>
+	<li>Portuguese (LatAm) - <a href="https://www.twitch.tv/deathzone_tv">https://www.twitch.tv/deathzone_tv</a></li>
+	<li>Traditional Chinese - <a href="https://www.twitch.tv/starcraftzhtw">https://www.twitch.tv/starcraftzhtw</a></li>
+	<li>Traditional Chinese - <a href="https://www.twitch.tv/blizzardzhtw">https://www.twitch.tv/blizzardzhtw</a></li>
+</ul>
+
+<h4><strong>Eligible Broadcast Times for StarCraft II:</strong></h4>
+
+<ul>
+	<li>Oct. 26 from 9:00 a.m. to 5:00 p.m. PDT</li>
+	<li>Oct. 27 from 9:00 a.m. to 5:00 p.m. PDT</li>
+	<li>Oct. 28 from 9:00 a.m. to 7:00 p.m. PDT</li>
+	<li>Nov. 2 from 9:00 a.m. to 11:00 p.m. PDT</li>
+	<li>Nov. 3 from 1:30 p.m. to 11:00 p.m. PDT</li>
+</ul>
+
+<p>For more details, read the official rules <a href="https://bnetcmsus-a.akamaihd.net/cms/gallery/v4/V45QB8RZ00K31541121511580.pdf">here</a>.</p>
+
+<h3><strong>How to Link Your Account</strong></h3>
+
+<p>Before you can receive rewards, you must link your Twitch.tv and Blizzard accounts. Here’s how:</p>
+
+<ul>
+	<li>Log in or create an account on Twitch.tv.</li>
+	<li>Navigate to the Settings menu by clicking your account name in the top-right corner of the home screen.</li>
+	<li>Navigate to the Connections tab of the Settings menu.</li>
+	<li>Find the Battle.net section, then follow the instructions after selecting a region and clicking Connect.</li>
+	<li>When connecting accounts, be sure that you’re currently logged into the Blizzard account on which you’d like to receive your rewards.</li>
+</ul>
+
+<p><a href="https://www.twitch.tv/settings/connections">Click here to go straight to the Twitch settings page</a>.</p>
+</div></content></entry></feed>

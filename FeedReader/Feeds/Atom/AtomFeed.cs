@@ -88,7 +88,7 @@
         public AtomFeed(string feedXml, XElement feed)
             : base(feedXml, feed)
         {
-            this.Link = feed.GetElement("link").Attribute("href")?.Value;
+            this.Link = feed.GetElement("link")?.Attribute("href")?.Value;
 
             this.Author = new AtomPerson(feed.GetElement("author"));
 
