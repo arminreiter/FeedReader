@@ -44,6 +44,18 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
+        public void TestAtomParseBattleNet()
+        {
+            var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomBattleNet.xml").SpecificFeed;
+
+            Eq("StarCraft® II", feed.Title);
+            Eq(null, feed.Icon);
+            Eq(null, feed.Link);
+            Eq("2018-11-20T19:59:19.147Z", feed.UpdatedDateString);
+            Eq("3", feed.Id);
+        }
+
+        [TestMethod]
         public void TestAtomYouTubeInvestmentPunk()
         {
             var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomYoutubeInvestmentPunk.xml").SpecificFeed;
