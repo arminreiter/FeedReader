@@ -374,7 +374,7 @@ namespace CodeHollow.FeedReader.Tests
 
         #endregion Synchronous 
 
-         #region Asynchronous 
+        #region Asynchronous 
 
         [TestMethod]
         public async Task TestAtomParseTheVerge_Async()

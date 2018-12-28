@@ -13,14 +13,14 @@
     <PackageLicenseUrl>https://github.com/codehollow/FeedReader/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/codehollow/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/codehollow/FeedReader/</RepositoryUrl>
-    <Version>1.1.5</Version>
-    <PackageReleaseNotes>fixed some deadlocks - thanks @curtiswellborn</PackageReleaseNotes>
+    <Version>1.1.6</Version>
+    <PackageReleaseNotes>fixed NullReference and feeds with leading spaces</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.1.5.0</AssemblyVersion>
-    <FileVersion>1.1.5.0</FileVersion>
+    <AssemblyVersion>1.1.6.0</AssemblyVersion>
+    <FileVersion>1.1.6.0</FileVersion>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
   </PropertyGroup>
 
