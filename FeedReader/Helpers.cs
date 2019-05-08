@@ -5,6 +5,7 @@
     using System.Globalization;
     using System.Net.Http;
     using System.Text;
+    using System.Threading;
     using System.Threading.Tasks;
 
     /// <summary>
@@ -29,19 +30,17 @@
         [Obsolete("Use the DownloadAsync method")]
         public static string Download(string url)
         {
-            var downloadTask = DownloadAsync(url);
-            downloadTask.ConfigureAwait(false);
-
-            return downloadTask.Result;
+            return DownloadAsync(url).GetAwaiter().GetResult();
         }
 
         /// <summary>
         /// Download the content from an url
         /// </summary>
         /// <param name="url">correct url</param>
+        /// <param name="cancellationToken">token to cancel operation</param>
         /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
         /// <returns>Content as byte array</returns>
-        public static async Task<byte[]> DownloadBytesAsync(string url, bool autoRedirect = true)
+        public static async Task<byte[]> DownloadBytesAsync(string url, CancellationToken cancellationToken, bool autoRedirect = true)
         {
             url = System.Net.WebUtility.UrlDecode(url);
             HttpResponseMessage response;
@@ -50,7 +49,7 @@
                 request.Headers.TryAddWithoutValidation(ACCEPT_HEADER_NAME, ACCEPT_HEADER_VALUE);
                 request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, USER_AGENT_VALUE);
 
-                response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead).ConfigureAwait(false);
+                response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
             }
             if (!response.IsSuccessStatusCode)
             {
@@ -63,11 +62,37 @@
 
                 using (var request = new HttpRequestMessage(HttpMethod.Get, url))
                 {
-                    response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead).ConfigureAwait(false);
+                    response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
                 }
             }
             var content = await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
             return content;
+        }
+
+        /// <summary>
+        /// Download the content from an url
+        /// </summary>
+        /// <param name="url">correct url</param>
+        /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
+        /// <returns>Content as byte array</returns>
+        public static Task<byte[]> DownloadBytesAsync(string url, bool autoRedirect = true)
+        {
+            return DownloadBytesAsync(url, CancellationToken.None, autoRedirect);
+        }
+
+        /// <summary>
+        /// Download the content from an url and returns it as utf8 encoded string.
+        /// Preferred way is to use <see cref="DownloadBytesAsync(string, bool)"/> because it works
+        /// better with encoding.
+        /// </summary>
+        /// <param name="url">correct url</param>
+        /// <param name="cancellationToken">token to cancel operation</param>
+        /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
+        /// <returns>Content as string</returns>
+        public static async Task<string> DownloadAsync(string url, CancellationToken cancellationToken, bool autoRedirect = true)
+        {
+            var content = await DownloadBytesAsync(url, cancellationToken, autoRedirect).ConfigureAwait(false);
+            return Encoding.UTF8.GetString(content);
         }
 
         /// <summary>
@@ -78,10 +103,9 @@
         /// <param name="url">correct url</param>
         /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
         /// <returns>Content as string</returns>
-        public static async Task<string> DownloadAsync(string url, bool autoRedirect = true)
+        public static Task<string> DownloadAsync(string url, bool autoRedirect = true)
         {
-            var content = await DownloadBytesAsync(url, autoRedirect).ConfigureAwait(false);
-            return Encoding.UTF8.GetString(content);
+            return DownloadAsync(url, CancellationToken.None, autoRedirect);
         }
 
         /// <summary>

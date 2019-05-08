@@ -13,7 +13,6 @@ namespace CodeHollow.FeedReader.ConsoleSample
                 string url = Console.ReadLine();
 
                 var urlsTask = FeedReader.GetFeedUrlsFromUrlAsync(url);
-                urlsTask.ConfigureAwait(false);
                 var urls = urlsTask.Result;
 
                 string feedUrl;
@@ -43,8 +42,7 @@ namespace CodeHollow.FeedReader.ConsoleSample
                 }
 
                 var readerTask = FeedReader.ReadAsync(feedUrl);
-                readerTask.ConfigureAwait(false);
-                
+
                 foreach (var item in readerTask.Result.Items)
                 {
                     Console.WriteLine(item.Title + " - " + item.Link);
