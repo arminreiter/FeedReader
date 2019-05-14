@@ -63,7 +63,7 @@
         /// <summary>
         /// List of items
         /// </summary>
-        public ICollection<FeedItem> Items { get; set; }
+        public IReadOnlyList<FeedItem> Items { get; set; }
 
         /// <summary>
         /// Gets the whole, original feed as string
