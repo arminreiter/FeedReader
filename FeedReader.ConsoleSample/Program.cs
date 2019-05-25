@@ -7,54 +7,65 @@ namespace CodeHollow.FeedReader.ConsoleSample
     {
         static void Main(string[] args)
         {
-            try
+            string hlp = "Please enter feed url or exit to stop the program:";
+            Console.WriteLine(hlp);
+
+            while (true)
             {
-                Console.WriteLine("Please enter feed url:");
-                string url = Console.ReadLine();
-
-                var urlsTask = FeedReader.GetFeedUrlsFromUrlAsync(url);
-                urlsTask.ConfigureAwait(false);
-                var urls = urlsTask.Result;
-
-                string feedUrl;
-                if (urls == null || urls.Count() < 1)
-                    feedUrl = url;
-                else if (urls.Count() == 1)
-                    feedUrl = urls.First().Url;
-                else if (urls.Count() == 2) // if 2 urls, then its usually a feed and a comments feed, so take the first per default
-                    feedUrl = urls.First().Url;
-                else
+                try
                 {
-                    int i = 1;
-                    Console.WriteLine("Found multiple feed, please choose:");
-                    foreach (var feedurl in urls)
-                    {
-                        Console.WriteLine($"{i++.ToString()} - {feedurl.Title} - {feedurl.Url}");
-                    }
-                    var input = Console.ReadLine();
+                    string url = Console.ReadLine();
+                    if (url.Equals("exit", StringComparison.InvariantCultureIgnoreCase))
+                        break;
 
-                    if (!int.TryParse(input, out int index) || index < 1 || index > urls.Count())
+                    var urlsTask = FeedReader.GetFeedUrlsFromUrlAsync(url);
+                    urlsTask.ConfigureAwait(false);
+                    var urls = urlsTask.Result;
+
+                    string feedUrl;
+                    if (urls == null || urls.Count() < 1)
+                        feedUrl = url;
+                    else if (urls.Count() == 1)
+                        feedUrl = urls.First().Url;
+                    else if (urls.Count() == 2) // if 2 urls, then its usually a feed and a comments feed, so take the first per default
+                        feedUrl = urls.First().Url;
+                    else
                     {
-                        Console.WriteLine("Wrong input. Press key to exit");
-                        Console.ReadKey();
-                        return;
+                        int i = 1;
+                        Console.WriteLine("Found multiple feed, please choose:");
+                        foreach (var feedurl in urls)
+                        {
+                            Console.WriteLine($"{i++.ToString()} - {feedurl.Title} - {feedurl.Url}");
+                        }
+                        var input = Console.ReadLine();
+
+                        if (!int.TryParse(input, out int index) || index < 1 || index > urls.Count())
+                        {
+                            Console.WriteLine("Wrong input. Press key to exit");
+                            Console.ReadKey();
+                            return;
+                        }
+                        feedUrl = urls.ElementAt(index).Url;
                     }
-                    feedUrl = urls.ElementAt(index).Url;
+
+                    var readerTask = FeedReader.ReadAsync(feedUrl);
+                    readerTask.ConfigureAwait(false);
+
+                    foreach (var item in readerTask.Result.Items)
+                    {
+                        Console.WriteLine(item.Title + " - " + item.Link);
+                    }
                 }
-
-                var readerTask = FeedReader.ReadAsync(feedUrl);
-                readerTask.ConfigureAwait(false);
-                
-                foreach (var item in readerTask.Result.Items)
+                catch (Exception ex)
                 {
-                    Console.WriteLine(item.Title + " - " + item.Link);
+                    Console.WriteLine($"An error occurred: {ex.InnerException.Message}{Environment.NewLine}{ex.InnerException.ToString()}");
+                }
+                finally
+                {
+                    Console.WriteLine("================================================");
+                    Console.WriteLine(hlp);
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred: {ex.InnerException.Message}{Environment.NewLine}{ex.InnerException.ToString()}");
-            }
-            Console.ReadKey();
         }
     }
 }

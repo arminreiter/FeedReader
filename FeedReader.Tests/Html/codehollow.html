@@ -1,0 +1,1025 @@
+﻿<!DOCTYPE html>
+<!--[if lte IE 9]><html class="no-js IE9 IE" lang="en-US"><![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <title>codehollow | Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things</title>
+
+    <meta name="google-site-verification" content="zkBDWZk8b4DDRbLaEUiKM_5iy2al-isjSMZaH-oTwqc" />
+    <meta name="msvalidate.01" content="C8207B32FD79906F7D999F7F3465A9D2" />
+    <meta name="p:domain_verify" content="ebed0dc1ef1790a81c8d56383a7309d6" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <script type="text/javascript">
+			/* <![CDATA[ */
+			document.documentElement.className = document.documentElement.className.replace(new RegExp('(^|\\s)no-js(\\s|$)'), '$1js$2');
+			/* ]]> */
+    </script>
+
+    <meta name="description" content="Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things" />
+    <link rel="canonical" href="https://codehollow.com/" />
+    <link rel="next" href="https://codehollow.com/page/2/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="codehollow | Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things" />
+    <meta property="og:description" content="Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things" />
+    <meta property="og:url" content="https://codehollow.com/" />
+    <meta property="og:site_name" content="codehollow" />
+    <script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>
+        {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://codehollow.com/#organization","name":"","url":"https://codehollow.com/","sameAs":["https://at.linkedin.com/in/ArminReiter","https://twitter.com/arminreiter"]},{"@type":"WebSite","@id":"https://codehollow.com/#website","url":"https://codehollow.com/","name":"codehollow","publisher":{"@id":"https://codehollow.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://codehollow.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://codehollow.com/#webpage","url":"https://codehollow.com/","inLanguage":"en-US","name":"codehollow | Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things","isPartOf":{"@id":"https://codehollow.com/#website"},"about":{"@id":"https://codehollow.com/#organization"},"description":"Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things"}]}
+    </script>
+
+    <link rel='dns-prefetch' href='//s0.wp.com' />
+    <link rel='dns-prefetch' href='//secure.gravatar.com' />
+    <link rel='dns-prefetch' href='//www.google.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="codehollow &raquo; Feed" href="https://codehollow.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="codehollow &raquo; Comments Feed" href="https://codehollow.com/comments/feed/" />
+    <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/codehollow.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='https://codehollow.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-image-borders-styles-css' href='https://codehollow.com/wp-content/plugins/wp-image-borders/wp-image-borders.css?ver=5.2.1' type='text/css' media='all' />
+    <style id='wp-image-borders-styles-inline-css' type='text/css'>
+
+        .wp-image-borders .alignright,
+        .wp-image-borders .alignleft,
+        .wp-image-borders .aligncenter,
+        .wp-image-borders .alignnone,
+        .wp-image-borders .size-auto,
+        .wp-image-borders .size-full,
+        .wp-image-borders .size-large,
+        .wp-image-borders .size-medium,
+        .wp-image-borders .size-thumbnail,
+        .wp-image-borders .alignright img,
+        .wp-image-borders .alignleft img,
+        .wp-image-borders .aligncenter img,
+        .wp-image-borders .alignnone img,
+        .wp-image-borders .size-auto img,
+        .wp-image-borders .size-full img,
+        .wp-image-borders .size-large img,
+        .wp-image-borders .size-medium img,
+        .wp-image-borders .size-thumbnail img {
+            border-style: solid !important;
+            border-width: 1px !important;
+            border-radius: 0px !important;
+            border-color: #000000 !important;
+            -moz-box-shadow: 0px 0px 0px 0px !important;
+            -webkit-box-shadow: 0px 0px 0px 0px !important;
+            box-shadow: 0px 0px 0px 0px !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-pagenavi-css' href='https://codehollow.com/wp-content/themes/make/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-lightbox-2.min.css-css' href='https://codehollow.com/wp-content/plugins/wp-lightbox-2/styles/lightbox.min.css?ver=1.3.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='parent-style-css' href='https://codehollow.com/wp-content/themes/make/style.css?ver=5.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='make-google-font-css' href='//fonts.googleapis.com/css?family=Open+Sans%3Aregular%2Citalic%2C700&#038;ver=1.9.25#038;subset=latin' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='https://codehollow.com/wp-content/themes/make/css/libs/font-awesome/css/font-awesome.min.css?ver=5.6.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='make-main-css' href='https://codehollow.com/wp-content/themes/make-codehollow/style.css?ver=1.9.25' type='text/css' media='all' />
+    <link rel='stylesheet' id='make-print-css' href='https://codehollow.com/wp-content/themes/make/css/print.css?ver=1.9.25' type='text/css' media='print' />
+    <link rel='stylesheet' id='jetpack_css-css' href='https://codehollow.com/wp-content/plugins/jetpack/css/jetpack.css?ver=7.3.1' type='text/css' media='all' />
+    <script type='text/javascript' src='https://codehollow.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+    <script type='text/javascript' src='https://codehollow.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <link rel='https://api.w.org/' href='https://codehollow.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://codehollow.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://codehollow.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.2.1" />
+    <link rel='dns-prefetch' href='//v0.wordpress.com' />
+    <style type='text/css'>
+        img#wpstats {
+            display: none
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style type="text/css">
+        body, .font-body {
+            font-size: 15px;
+            font-size: 1.5rem;
+        }
+
+        #comments {
+            font-size: 13px;
+            font-size: 1.3rem;
+        }
+
+        .comment-date {
+            font-size: 12px;
+            font-size: 1.2rem;
+        }
+
+        h1:not(.site-title), .font-header, .entry-title {
+            font-size: 32px;
+            font-size: 3.2rem;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-size: 2.8rem;
+        }
+
+        h3, .builder-text-content .widget-title {
+            font-size: 22px;
+            font-size: 2.2rem;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-size: 2rem;
+        }
+
+        h6 {
+            font-size: 13px;
+            font-size: 1.3rem;
+        }
+
+        .site-navigation .menu li a, .font-nav, .site-navigation .menu-toggle {
+            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 14px;
+            font-size: 1.4rem;
+            font-weight: normal;
+            font-style: normal;
+            text-transform: none;
+            line-height: 1.4;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+
+        .site-navigation .menu li.current_page_item > a, .site-navigation .menu .children li.current_page_item > a, .site-navigation .menu li.current-menu-item > a, .site-navigation .menu .sub-menu li.current-menu-item > a {
+            font-weight: bold;
+        }
+
+        .header-bar, .header-text, .header-bar .search-form input, .header-bar .menu a, .header-navigation .mobile-menu ul.menu li a {
+            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 13px;
+            font-size: 1.3rem;
+            font-weight: normal;
+            font-style: normal;
+            text-transform: none;
+            line-height: 1.6;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+
+        .sidebar .widget-title, .sidebar .widgettitle, .sidebar .widget-title a, .sidebar .widgettitle a, .font-widget-title {
+            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 13px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            font-style: normal;
+            text-transform: none;
+            line-height: 1.6;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+
+        .footer-widget-container .widget-title, .footer-widget-container .widgettitle, .footer-widget-container .widget-title a, .footer-widget-container .widgettitle a {
+            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 13px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            font-style: normal;
+            text-transform: none;
+            line-height: 1.6;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+
+        .color-primary-text, a, .entry-author-byline a.vcard, .entry-footer a:hover, .comment-form .required, ul.ttfmake-list-dot li:before, ol.ttfmake-list-dot li:before, .entry-comment-count a:hover, .comment-count-icon a:hover {
+            color: #ff9933;
+        }
+
+        .color-primary-background, .ttfmake-button.color-primary-background {
+            background-color: #ff9933;
+        }
+
+        .color-primary-border {
+            border-color: #ff9933;
+        }
+
+        .site-header, .site-title, .site-title a, .site-navigation .menu li a {
+            color: #ffffff;
+        }
+
+        .header-bar a, .header-bar .menu li a, .header-bar .social-links a {
+            color: #ffffff;
+        }
+
+        .header-bar, .header-bar .search-form input, .header-social-links li:first-of-type, .header-social-links li a {
+            border-color: rgba(255, 153, 51, 0);
+        }
+
+        .header-bar {
+            background-color: rgba(255, 153, 51, 0);
+        }
+
+        .site-footer, .site-footer .social-links a {
+            color: #ffffff;
+        }
+
+            .site-footer a {
+                color: #ffffff;
+            }
+
+                .site-footer a:hover, .site-footer a:focus {
+                    color: #ffffff;
+                }
+
+        .site-footer {
+            background-color: rgba(255, 153, 51, 1);
+        }
+
+        .site-header-main {
+            background-image: url(https://codehollow.com/wp-content/uploads/2016/09/header.jpg);
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+
+        .site-content {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        @media screen and (min-width: 800px) {
+            .has-left-sidebar.has-right-sidebar .entry-title {
+                font-size: 21px;
+                font-size: 2.1rem;
+            }
+
+            .site-navigation .menu .page_item_has_children a:after, .site-navigation .menu .menu-item-has-children a:after {
+                top: -1px;
+                font-size: 10px;
+                font-size: 1rem;
+            }
+
+            .site-navigation .menu .sub-menu li a, .site-navigation .menu .children li a {
+                font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 13px;
+                font-size: 1.3rem;
+                font-weight: normal;
+                font-style: normal;
+                text-transform: none;
+                line-height: 1.4;
+                letter-spacing: 0px;
+                word-spacing: 0px;
+            }
+
+            .site-navigation .menu .children .page_item_has_children a:after, .site-navigation .menu .sub-menu .menu-item-has-children a:after {
+                font-size: 9px;
+                font-size: 0.9rem;
+            }
+
+            .site-navigation .menu li.current_page_item > a, .site-navigation .menu .children li.current_page_item > a, .site-navigation .menu li.current_page_ancestor > a, .site-navigation .menu li.current-menu-item > a, .site-navigation .menu .sub-menu li.current-menu-item > a, .site-navigation .menu li.current-menu-ancestor > a {
+                font-weight: bold;
+            }
+
+            .site-navigation ul.menu ul a:hover, .site-navigation ul.menu ul a:focus, .site-navigation .menu ul ul a:hover, .site-navigation .menu ul ul a:focus {
+                background-color: #ff9933;
+                color: #000000;
+            }
+
+            .site-navigation ul.menu ul a, .site-navigation .menu ul ul a {
+                color: #000000;
+            }
+        }
+    </style>
+
+    <style type="text/css" id="syntaxhighlighteranchor"></style>
+    <link rel="icon" href="https://codehollow.com/wp-content/uploads/2016/09/cropped-favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://codehollow.com/wp-content/uploads/2016/09/cropped-favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="https://codehollow.com/wp-content/uploads/2016/09/cropped-favicon-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://codehollow.com/wp-content/uploads/2016/09/cropped-favicon-270x270.png" />
+
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56092504-1', 'auto');
+  ga('send', 'pageview');
+    </script>
+
+    <style type="text/css" id="wp-custom-css">
+        .site-info {
+            display: none
+        }
+
+        .site-content {
+            padding-top: 0
+        }
+
+        .syntaxhighlighter .code .container:before {
+            display: block
+        }
+
+        .container, .infinite-footer-container, .page-template-template-builder-php .entry-content > .twitter-share {
+            max-width: 1280px
+        }
+
+        #site-main img {
+            margin-top: .5em;
+            margin-bottom: .5em
+        }
+
+        .header-bar {
+            background-image: url(/wp-content/uploads/2016/09/topbar.jpg);
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom left;
+            border: none
+        }
+
+        .site-header-main {
+            border-bottom: 20px solid
+        }
+
+        .search-field {
+            border: none !important;
+            margin-left: 12px
+        }
+
+        .post {
+            margin-top: 2rem;
+            margin-bottom: 2rem
+        }
+
+        .addtoany_share_save_container {
+            margin: 0
+        }
+
+        .widget {
+            margin-top: 1.3rem
+        }
+    </style>
+</head>
+<body class="home blog view-blog full-width has-right-sidebar">
+    <div id="site-wrapper" class="site-wrapper">
+        <a class="skip-link screen-reader-text" href="#site-content">Skip to content</a>
+        <header id="site-header" class="site-header header-layout-2" role="banner">
+            <div class="header-bar right-content">
+                <div class="container">
+                    <form role="search" method="get" class="search-form" action="https://codehollow.com/">
+                        <input type="search" class="search-field" id="search-field" placeholder="Search&hellip;" title="Press Enter to submit your search" value="" name="s" aria-label="Search for:">
+                        <input type="submit" class="search-submit" value="Search" aria-label="Search" role="button">
+                    </form>
+                    <div class="header-social-links">
+                        <ul class="social-customizer social-links">
+                            <li class="make-social-icon">
+                                <a href="https://twitter.com/ArminReiter">
+                                    <i class="fa fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="screen-reader-text">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="make-social-icon">
+                                <a href="https://at.linkedin.com/in/ArminReiter">
+                                    <i class="fa fab fa-linkedin" aria-hidden="true"></i>
+                                    <span class="screen-reader-text">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li class="make-social-icon">
+                                <a href="https://www.xing.com/profile/Armin_Reiter2">
+                                    <i class="fa fab fa-xing" aria-hidden="true"></i>
+                                    <span class="screen-reader-text">XING</span>
+                                </a>
+                            </li>
+                            <li class="make-social-icon">
+                                <a href="https://github.com/codehollow/">
+                                    <i class="fa fab fa-github" aria-hidden="true"></i>
+                                    <span class="screen-reader-text">GitHub</span>
+                                </a>
+                            </li>
+                            <li class="make-social-icon">
+                                <a href="/cdn-cgi/l/email-protection#cdafa1a2aa8daea2a9a8a5a2a1a1a2bae3aea2a0">
+                                    <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
+                                    <span class="screen-reader-text">Email</span>
+                                </a>
+                            </li>
+                            <li class="make-social-icon">
+                                <a href="https://codehollow.com/feed/">
+                                    <i class="fa fa-fw fa-rss" aria-hidden="true"></i>
+                                    <span class="screen-reader-text">RSS</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="site-header-main">
+                <div class="container">
+                    <div class="site-branding">
+                        <h1 class="site-title">
+                            <a href="https://codehollow.com/" rel="home">codehollow</a>
+                        </h1>
+                        <span class="site-description">
+                            Azure, software engineering/architecture, Scrum, SharePoint, VSTS/TFS, .NET and other funny things
+                        </span>
+                    </div>
+                    <nav id="site-navigation" class="site-navigation" role="navigation">
+                        <span class="menu-toggle">Menu</span>
+                        <div class=" mobile-menu">
+                            <ul id="menu-main" class="menu">
+                                <li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-22"><a href="https://codehollow.com/" aria-current="page">Home</a></li>
+                                <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21">
+                                    <a href="https://codehollow.com/scrum-meeting-templates/">Scrum meeting templates</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="https://codehollow.com/scrum-meeting-templates/estimation-meeting-template/">Estimation meeting template</a></li>
+                                        <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://codehollow.com/scrum-meeting-templates/sprint-planning-1-template/">Sprint planning 1 template</a></li>
+                                        <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://codehollow.com/scrum-meeting-templates/sprint-planning-2-template/">Sprint planning 2 template</a></li>
+                                        <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://codehollow.com/scrum-meeting-templates/daily-scrumstandup-meeting-template/">Daily scrum/standup meeting template</a></li>
+                                        <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="https://codehollow.com/scrum-meeting-templates/sprint-review-template/">Sprint review template</a></li>
+                                        <li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a href="https://codehollow.com/scrum-meeting-templates/sprint-retrospective-template/">Sprint retrospective template</a></li>
+                                    </ul>
+                                </li>
+                                <li id="menu-item-818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-818"><a href="https://codehollow.com/subscribe/">Subscribe</a></li>
+                                <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="https://codehollow.com/about/">About</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="site-content" class="site-content">
+            <div class="container">
+                <main id="site-main" class="site-main" role="main">
+                    <article id="post-1236" class="post-1236 post type-post status-publish format-standard hentry category-azure tag-azure tag-intune wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2019-02-03T10:00:40+01:00"><a href="https://codehollow.com/2019/02/change-device-owner-of-an-azure-ad-joined-device/" rel="bookmark">February 3, 2019</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2019/02/change-device-owner-of-an-azure-ad-joined-device/" rel="bookmark"> Change device owner of an Azure AD joined device	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>
+                                If you join devices to Azure AD, then you can see that each device has an owner. The owner is the user who joined the device to the Azure AD which is sometimes the account of the administrator. That&#8217;s why one probably wants to change the owner which is unfortunately not possible via the Azure portal. But, as usual, you can easily do it via PowerShell.<br />
+                                <a href="https://codehollow.com/wp-content/uploads/2019/02/20190203_AzureADDevices.jpg" rel="lightbox[1236]"><img src="https://codehollow.com/wp-content/uploads/2019/02/20190203_AzureADDevices.jpg" alt="" width="792" height="109" class="aligncenter size-full wp-image-1238" srcset="https://codehollow.com/wp-content/uploads/2019/02/20190203_AzureADDevices.jpg 792w, https://codehollow.com/wp-content/uploads/2019/02/20190203_AzureADDevices-300x41.jpg 300w, https://codehollow.com/wp-content/uploads/2019/02/20190203_AzureADDevices-768x106.jpg 768w" sizes="(max-width: 792px) 100vw, 792px" /></a>
+                            </p>
+                            <p>The main commands you need are:</p>
+<pre class="brush: powershell; title: ; notranslate" title="">Get-AzureADDevice   # returns all device
+Get-AzureADUser     # returns all users
+
+# add new device owner
+Add-AzureADDeviceRegisteredOwner -ObjectId [DeviceObjectId] -RefObjectId [NewOwnerObjectId]
+#remove previous device owner
+Remove-AzureADDeviceRegisteredOwner -ObjectId [DeviceObjectId] -OwnerId [PreviousOwnerObjectId]
+</pre>
+                            <p>I created a simple script which has device name and new owner as input and simply does the job:</p>
+                            <p> <a href="https://codehollow.com/2019/02/change-device-owner-of-an-azure-ad-joined-device/#more-1236" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1222" class="post-1222 post type-post status-publish format-standard hentry category-office365 tag-exchange tag-office365 wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2019-01-31T23:38:58+01:00"><a href="https://codehollow.com/2019/01/office-365-forward-all-mails-sent-to-a-subdomain/" rel="bookmark">January 31, 2019</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2019/01/office-365-forward-all-mails-sent-to-a-subdomain/" rel="bookmark"> Office 365 &#8211; Forward all mails sent to a (sub)domain	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>
+                                There are many reasons why someone wants to forward all incoming mails from a domain to a specific address. One use case is by sure testing. If you test an application, then you probably need a lot of mail addresses. To avoid creating all the mail addresses, you could use tools like postfix for it. But it also requires some setup and configuration.<br />
+                                I am Office 365 user and I love it and by sure, I want to solve this issue with Office 365. I tried it and it took some time, but then I found the right setup.
+                            </p>
+                            <p>
+                                So, what I want to achieve is simple:<br />
+                                All mails sent to @tst.axr.at should be forwarded to a shared mailbox, where all testers have access (or to specific address).
+                            </p>
+                            <p>Sounds simple and you can easily configure it in Office 365, but there are a few pitfalls, that&#8217;s why I created this blog post. So let&#8217;s go through it step by step.</p>
+                            <p> <a href="https://codehollow.com/2019/01/office-365-forward-all-mails-sent-to-a-subdomain/#more-1222" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1184" class="post-1184 post type-post status-publish format-standard hentry category-azure tag-appservice tag-azure tag-web tag-webapp wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2018-08-05T15:30:05+01:00"><a href="https://codehollow.com/2018/08/wordpress-blog-on-azure-full-setup-guide/" rel="bookmark">August 5, 2018</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2018/08/wordpress-blog-on-azure-full-setup-guide/" rel="bookmark"> WordPress Blog on Azure &#8211; full setup guide	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>You probably think about using Microsoft Azure to host your WordPress blog. Azure gives you great scalability features that are important if you want to scale up your website. There are also many other services that could be useful for your blog. I created a new WordPress blog in Azure and want to describe in this blog post, which steps I performed and what it needed to set it up to get a full up and running Azure blog.</p>
+                            <p>Before creating the new WebApp required for the wordpress blog, I suggest to create the resource group at first. If you do this manually, then you can decide the location of the resource group, if you just create the web app and create the resource group during that step, the default location is US.</p>
+                            <p>+ Create a resource &#8211; &#8220;Resource group&#8221; &#8211; set the properties and done</p>
+                            <p> <a href="https://codehollow.com/2018/08/wordpress-blog-on-azure-full-setup-guide/#more-1184" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1135" class="post-1135 post type-post status-publish format-standard hentry category-azure tag-azure tag-keyvault tag-security wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2017-11-30T11:34:26+01:00"><a href="https://codehollow.com/2017/11/get-started-azure-key-vault/" rel="bookmark">November 30, 2017</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2017/11/get-started-azure-key-vault/" rel="bookmark"> Get started with Azure key vault	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>
+                                Azure key vault is a service to store and manage keys, secrects and certificates that you can use for your applications. In this blog post I want to quickly show how to create a key vault and how to use it.<br />
+                                Key vault is a secure key management service that allows to manage keys, application secrets and certificates. The keys are stored in hardware security modules (FIPS 140-2 Level 2) and even Microsoft does not see them. Pretty cool stuff, so why should someone use Azure Key Vault?<br />
+                                A common problem is how to manage keys and secrets for your applications? Where to store them? And how to ensure that they have a defined lifetime? Azure key vault allows to achieve all these things. A few features are:
+                            </p>
+                            <ul>
+                                <li>Save keys in Azure in a safe place</li>
+                                <li>Keep encryption keys in hardware security modules (FIPS140-2 Level 2+)</li>
+                                <li>Control keys from a single place</li>
+                                <li>Control lifetime and renewal of keys</li>
+                                <li>Let other AD users/groups manage access to secrets</li>
+                                <li>Access keys from your applications</li>
+                                <li>Automatically rotate keys</li>
+                            </ul>
+                            <p>It especially helps you to solve the issue of storing keys/secrets for your applications. If you develop an application &#8211; where do you put e.g. storage keys or other secrets? Sometimes developers hardcode them into the code. Other developers store them in the configuration (e.g. app.config) and just a few use something like azure key vault. </p>
+                            <p>Ok, but what is a key vault? A key vault is a container for keys and secrets that are managed together. If you develop an application, then it makes sense to create one key vault per application because the access control and also the billing is per key vault. If you have all keys/secrets stored in one key vault, then each user that has access to that key vault can read all keys/secrets that in the key vault. So you should definitely create one key vault per application. As a key vault itself is for free, this shouldn&#8217;t be a problem and helps you to secure your stuff. The pricing for key vault is pay per usage of keys (see: <a href="https://azure.microsoft.com/en-us/pricing/details/key-vault/">Key Vault Pricing Details</a>).</p>
+                            <p>The key vault allows you store:</p>
+                            <ul>
+                                <li><strong>Key</strong>: A cryptographic key (RSA 2048) that you can use to decrypt/sign with the key</li>
+                                <li><strong>Secret</strong>: A secret is a sequence of bytes unter 25KB &#8211; for example a connection string, PFX file, AES encryption key.</li>
+                            </ul>
+                            <p> <a href="https://codehollow.com/2017/11/get-started-azure-key-vault/#more-1135" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1115" class="post-1115 post type-post status-publish format-standard hentry category-azure tag-appservice tag-azure tag-https tag-webapp wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2017-10-31T11:29:50+01:00"><a href="https://codehollow.com/2017/10/lets-encrypt-azure-webapps/" rel="bookmark">October 31, 2017</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2017/10/lets-encrypt-azure-webapps/" rel="bookmark"> Let&#8217;s encrypt for Azure WebApps	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>This blog post is a quick walk-through and will show how to use let&#8217;s encrypt certificates with Azure WebApps. As <strong>prerequisites</strong> I assume that the following things are done:</p>
+                            <ul>
+                                <li>App Service and WebApp is already up and running</li>
+                                <li>App Service is at least B1 (pricing tier Basic 1)</li>
+                                <li>A custom domain is already configured</li>
+                            </ul>
+                            <p>There are 3 main steps that I will describe in this post:</p>
+                            <ol>
+                                <li>Add service account and application to Active Directory</li>
+                                <li>Add the let&#8217;s encrypt site extension</li>
+                                <li>Force https (optional)</li>
+                            </ol>
+                            <p> <a href="https://codehollow.com/2017/10/lets-encrypt-azure-webapps/#more-1115" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1089" class="post-1089 post type-post status-publish format-standard hentry category-azure category-c tag-azure tag-azurefunctions tag-billingapi tag-c wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2017-09-24T21:05:46+01:00"><a href="https://codehollow.com/2017/09/weekly-azure-billing-report-per-mail-azure-functions/" rel="bookmark">September 24, 2017</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2017/09/weekly-azure-billing-report-per-mail-azure-functions/" rel="bookmark"> Weekly Azure billing report per mail with Azure functions	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>I already blogged about Azure functions, the billing API and a few other things. In this blog post, I&#8217;ll combine some of my previous blog posts to build an Azure function that creates a weekly billing report of an Azure subscription. To build this solution, the following steps are required:</p>
+                            <ol>
+                                <li>Create an Azure function</li>
+                                <li>Configure the CRON schedule for the Azure function</li>
+                                <li>Read data from the Azure Billing API</li>
+                                <li>Create a HTML page with the billing data</li>
+                                <li>Send the report via email</li>
+                            </ol>
+                            <p>To implement it, I&#8217;ll use Visual Studio 2017, C# and the AzureBillingAPI NuGet package that I created.</p>
+                            <p>The final solution can be found on GitHub: <a href="https://github.com/codehollow/AzureBillingFunction">https://github.com/codehollow/AzureBillingFunction</a></p>
+                            <p> <a href="https://codehollow.com/2017/09/weekly-azure-billing-report-per-mail-azure-functions/#more-1089" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1076" class="post-1076 post type-post status-publish format-standard hentry category-azure tag-azure tag-cognitive-services tag-recommendations wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2017-08-29T16:03:09+01:00"><a href="https://codehollow.com/2017/08/create-test-data-microsofts-recommendation-api/" rel="bookmark">August 29, 2017</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2017/08/create-test-data-microsofts-recommendation-api/" rel="bookmark"> Create test data for Microsofts Recommendation API	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>
+                                Last month I wrote a blog post with a short introduction to Microsofts Recommendation API (<a href="https://codehollow.com/2017/07/introduction-to-microsofts-recommendation-api/">Introduction to Microsofts Recommendation API</a>). I wrote about the basics, how to start and how to work with this nice API which is part of the Microsoft Cognitive Services.<br />
+                                When I started to work with the recommendation API, I soon realized that the most important thing is &#8211; Data! Okay &#8211; no surprise &#8211; but how to get the data? Or how to create some test data if you just want to try it?<br />
+                                In my previous blog post, I mentioned that I used a tool to create my (test) recommendation data. The tool was a quick and dirty, self-hacked WCF application, but it worked and I had some data to start.
+                            </p>
+                            <p>
+                                Then I decided to publish this tool, but a WCF application is not so sexy and state-of-the-art, so I decided to polish my rusty javascript knowledge. The result is by sure not a best practice web application nor has it a nice design, but it does the job! And here it is:<br />
+                                RecommendationDataCreator: <a href="http://recommendationdatacreator.azurewebsites.net/">http://recommendationdatacreator.azurewebsites.net/</a>
+                            </p>
+                            <p><a href="https://codehollow.com/wp-content/uploads/2017/08/20170829_01_recommendationDataCreator.png" rel="lightbox[1076]"><img src="https://codehollow.com/wp-content/uploads/2017/08/20170829_01_recommendationDataCreator-1024x762.png" alt="" width="960" height="714" class="aligncenter size-large wp-image-1077" srcset="https://codehollow.com/wp-content/uploads/2017/08/20170829_01_recommendationDataCreator-1024x762.png 1024w, https://codehollow.com/wp-content/uploads/2017/08/20170829_01_recommendationDataCreator-300x223.png 300w, https://codehollow.com/wp-content/uploads/2017/08/20170829_01_recommendationDataCreator-768x571.png 768w, https://codehollow.com/wp-content/uploads/2017/08/20170829_01_recommendationDataCreator.png 1206w" sizes="(max-width: 960px) 100vw, 960px" /></a></p>
+                            <p> <a href="https://codehollow.com/2017/08/create-test-data-microsofts-recommendation-api/#more-1076" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1059" class="post-1059 post type-post status-publish format-standard hentry category-azure category-c tag-azure tag-c tag-cognitive-services tag-recommendations wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2017-07-31T15:49:05+01:00"><a href="https://codehollow.com/2017/07/introduction-to-microsofts-recommendation-api/" rel="bookmark">July 31, 2017</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2017/07/introduction-to-microsofts-recommendation-api/" rel="bookmark"> Introduction to Microsofts Recommendation API	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>Today I spent some time to explore the Microsoft Recommendations API. This API is part of the Microsoft Cognitive Services and it allows to show related articles &#8211; something like &#8220;people who are interested in A are also interested in X,Y and Z&#8221;. This can be useful for web shops or blogs but also to see related items/interests.</p>
+                            <p>In this blog post, I&#8217;ll:</p>
+                            <ul>
+                                <li>Create the cognitive service and the recommendations API</li>
+                                <li>Create and upload some test data</li>
+                                <li>Build a model</li>
+                                <li>Use that model</li>
+                            </ul>
+                            <h2>Create the recommendations service</h2>
+                            <p>The recommendations service is part of the cognitive services and can therefore be found as cognitive service in the Azure portal. Just create it with your preferred pricing tier.</p>
+                            <p><a href="https://codehollow.com/wp-content/uploads/2017/07/20170731_01_create.png" rel="lightbox[1059]"><img src="https://codehollow.com/wp-content/uploads/2017/07/20170731_01_create-300x222.png" alt="" width="300" height="222" class="aligncenter size-medium wp-image-1065" srcset="https://codehollow.com/wp-content/uploads/2017/07/20170731_01_create-300x222.png 300w, https://codehollow.com/wp-content/uploads/2017/07/20170731_01_create-768x568.png 768w, https://codehollow.com/wp-content/uploads/2017/07/20170731_01_create-1024x758.png 1024w, https://codehollow.com/wp-content/uploads/2017/07/20170731_01_create.png 1216w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+                            <p> <a href="https://codehollow.com/2017/07/introduction-to-microsofts-recommendation-api/#more-1059" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1038" class="post-1038 post type-post status-publish format-standard hentry category-powershell tag-powershell tag-ssh wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2017-06-07T16:40:03+01:00"><a href="https://codehollow.com/2017/06/ssh-for-windows-powershell/" rel="bookmark">June 7, 2017</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2017/06/ssh-for-windows-powershell/" rel="bookmark"> SSH for Windows Powershell	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>This post is a short note on how to use SSH with Windows Powershell. I will quickly describe three ways: OpenSSH, Posh-SSH and Putty. I found a few blog posts about how to use SSH with Powershell and most of them are referring Posh-SSH. Posh-SSH is nice, but I think OpenSSH is much easier to use because it works the same way as the ssh command in linux. </p>
+                            <h2>Open SSH for Powershell</h2>
+                            <p>If <strong>chocolatey is not yet installed</strong>, you must at first install it. Run the Powershell as administrator and execute:</p>
+<pre class="brush: powershell; title: ; notranslate" title="">Set-ExecutionPolicy Unrestricted
+iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+</pre>
+                            <p>If <strong>chocolatey is already installed</strong>, run the Powershell as administrator and execute the following command to install OpenSSH, to reload the environment variables and to connect to a client:</p>
+<pre class="brush: powershell; title: ; notranslate" title="">choco install openssh                # installs open ssh
+refreshenv                           # reloads the environment variables
+ssh remoteClient -i &quot;MyKeyPair.pem&quot;  # connects to remoteClient via ssh
+</pre>
+                            <p> <a href="https://codehollow.com/2017/06/ssh-for-windows-powershell/#more-1038" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <article id="post-1024" class="post-1024 post type-post status-publish format-standard hentry category-azure tag-azure tag-virtualnetwork tag-virtualnetworkgateway tag-vpn wp-image-borders">
+                        <header class="entry-header">
+                            <div class="entry-meta">
+                                <time class="entry-date published" datetime="2017-06-02T11:01:11+01:00"><a href="https://codehollow.com/2017/06/connect-windows-10-clients-azure-vpn/" rel="bookmark">June 2, 2017</a></time>
+                            </div>
+                            <h1 class="entry-title">
+                                <a href="https://codehollow.com/2017/06/connect-windows-10-clients-azure-vpn/" rel="bookmark"> Connect Windows 10 Clients to Azure VPN	</a>
+                            </h1>
+                            <div class="entry-meta">
+                            </div>
+                        </header>
+                        <div class="entry-content">
+                            <p>
+                                I this post, I&#8217;ll describe how to create a <strong>point-to-site VPN</strong> connection to Azure. I&#8217;ll create the virtual network, the virtual network gateway and configure the point-to-site connection using the Azure portal. I&#8217;ll also create a self-signed certificate for the VPN gateway and the Windows 10 client.<br />
+                                Connecting your client via VPN to Azure is by sure useful, if you want to access your Azure resources that are not public available (e.g. virtual machines). Another use case that I had several times was to test the connection of an AppService or Azure function to my on-premise resources. When I was able to access my local client, it also meant that the connection from the app service to the virtual network works and that the basic network configuration of the VPN gateway was okay (without the need to create a virtual machine).
+                            </p>
+                            <p>The required <strong>steps to connect your client via VPN to Azure</strong> are:</p>
+                            <ol>
+                                <li>Create Virtual network</li>
+                                <li>Create VPN gateway</li>
+                                <li>Configure Point-to-Site VPN</li>
+                                <li>Create certificate for VPN gateway</li>
+                                <li>Create certificate for Client</li>
+                                <li>Connect &#038; Test</li>
+                            </ol>
+                            <p> <a href="https://codehollow.com/2017/06/connect-windows-10-clients-azure-vpn/#more-1024" class="more-link">Read more</a></p>
+                        </div>
+                        <footer class="entry-footer">
+                            <div class="entry-meta">
+                            </div>
+                        </footer>
+                    </article>
+                    <nav class="navigation paging-navigation" role="navigation">
+                        <span class="screen-reader-text">Posts navigation</span>
+                        <div class='wp-pagenavi' role='navigation'>
+                            <span class='pages'>Page 1 of 5</span><span aria-current='page' class='current'>1</span><a class="page larger" title="Page 2" href="https://codehollow.com/page/2/">2</a><a class="page larger" title="Page 3" href="https://codehollow.com/page/3/">3</a><a class="page larger" title="Page 4" href="https://codehollow.com/page/4/">4</a><a class="page larger" title="Page 5" href="https://codehollow.com/page/5/">5</a><a class="nextpostslink" rel="next" href="https://codehollow.com/page/2/">&raquo;</a>
+                        </div>
+                    </nav>
+                </main>
+                <section id="sidebar-right" class="widget-area sidebar sidebar-right active" role="complementary">
+                    <aside id="custom_html-2" class="widget_text widget widget_custom_html">
+                        <h4 class="widget-title">About</h4><div class="textwidget custom-html-widget">
+                            <style>
+                                .aboutimg {
+                                    border-radius: 50%;
+                                    height: 150px;
+                                }
+
+                                .aboutp {
+                                    border-bottom: 1px solid #eaecee;
+                                    padding: 1.1rem 0;
+                                }
+                            </style>
+                            <div style="text-align:center">
+                                <a href="/about"><img src="/wp-content/uploads/2016/03/profile170601_800x800.png" class="aboutimg"></img></a>
+                                <p>
+                                    <a href="/about"><strong>Armin Reiter</strong></a><br />
+                                    <strong>Software Architect &amp; Consultant</strong><br />
+                                    Vienna, Austria<br />
+                                </p>
+                                <a href="https://www.reiter.bz"><img src="/wp-content/uploads/2017/10/ReiterITS_280x60.png" width="200px"></img></a>
+                            </div>
+                        </div>
+                    </aside><aside id="categories-2" class="widget widget_categories">
+                        <h4 class="widget-title">Categories</h4> <ul>
+                            <li class="cat-item cat-item-10">
+                                <a href="https://codehollow.com/category/azure/">Azure</a>
+                            </li>
+                            <li class="cat-item cat-item-18">
+                                <a href="https://codehollow.com/category/c/">C#</a>
+                            </li>
+                            <li class="cat-item cat-item-58">
+                                <a href="https://codehollow.com/category/office365/">Office365</a>
+                            </li>
+                            <li class="cat-item cat-item-3">
+                                <a href="https://codehollow.com/category/powershell/">Powershell</a>
+                            </li>
+                            <li class="cat-item cat-item-5">
+                                <a href="https://codehollow.com/category/scripts/">Scripts</a>
+                            </li>
+                            <li class="cat-item cat-item-27">
+                                <a href="https://codehollow.com/category/visual-studio/">Visual Studio</a>
+                            </li>
+                        </ul>
+                    </aside><aside id="annual_archive_widget-2" class="widget Annual_Archive_Widget">
+                        <h4 class="widget-title">Archive</h4> <ul>
+                            <li><a href='https://codehollow.com/2019/'>2019</a>&nbsp;(2)</li>
+                            <li><a href='https://codehollow.com/2018/'>2018</a>&nbsp;(1)</li>
+                            <li><a href='https://codehollow.com/2017/'>2017</a>&nbsp;(20)</li>
+                            <li><a href='https://codehollow.com/2016/'>2016</a>&nbsp;(25)</li>
+                        </ul>
+                    </aside><aside id="text-2" class="widget widget_text">
+                        <h4 class="widget-title">Friends</h4> <div class="textwidget">
+                            <ul>
+                                <li><a href="http://www.communicationplayground.net">CommunicationPlayground</a></li>
+                                <li><a href="http://www.modernworkplacesolutions.rocks">Modern Workplace Solutions</a></li>
+                                <li><a href="https://thomastropper.com/">Thomas Tropper</a></li>
+                            </ul>
+                        </div>
+                    </aside><aside id="top-posts-3" class="widget widget_top-posts">
+                        <h4 class="widget-title">Top Posts &amp; Pages</h4><ul>
+                            <li>
+                                <a href="https://codehollow.com/2017/02/azure-functions-time-trigger-cron-cheat-sheet/" class="bump-view" data-bump-view="tp">
+                                    Azure Functions - Time Trigger (CRON) Cheat Sheet
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codehollow.com/2017/05/port-net-framework-net-standard/" class="bump-view" data-bump-view="tp">
+                                    How to port from .net framework to .net standard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codehollow.com/2019/02/change-device-owner-of-an-azure-ad-joined-device/" class="bump-view" data-bump-view="tp">
+                                    Change device owner of an Azure AD joined device
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codehollow.com/2016/12/connect-azure-app-service-to-virtual-network/" class="bump-view" data-bump-view="tp">
+                                    Connect Azure App Service to virtual network
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://codehollow.com/2017/06/connect-windows-10-clients-azure-vpn/" class="bump-view" data-bump-view="tp">
+                                    Connect Windows 10 Clients to Azure VPN
+                                </a>
+                            </li>
+                        </ul>
+                    </aside><aside id="nav_menu-3" class="widget widget_nav_menu">
+                        <h4 class="widget-title">Legal information</h4><div class="menu-footer-container">
+                            <ul id="menu-footer" class="menu">
+                                <li id="menu-item-1162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-1162"><a href="https://codehollow.com/privacy-policy/">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </section>
+            </div>
+        </div>
+        <footer id="site-footer" class="site-footer footer-layout-1" role="contentinfo">
+            <div class="container">
+                <div class="footer-widget-container columns-3">
+                    <section id="footer-1" class="widget-area footer-1 active" role="complementary">
+                        <aside id="eu_cookie_law_widget-2" class="widget widget_eu_cookie_law_widget">
+                            <div class="hide-on-button" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
+                                <form method="post">
+                                    <input type="submit" value="Close and accept" class="accept" />
+                                </form>
+                                Privacy &amp; Cookies: This site uses cookies. By continuing to use this website, you agree to their use. <br />
+                                To find out more, including how to control cookies, see here:
+                                <a href="https://codehollow.com/privacy-policy/">
+                                    Cookie Policy
+                                </a>
+                            </div>
+                        </aside>
+                    </section><section id="footer-2" class="widget-area footer-2 inactive" role="complementary">
+                        &nbsp;
+                    </section><section id="footer-3" class="widget-area footer-3 inactive" role="complementary">
+                        &nbsp;
+                    </section>
+                </div>
+                <div class="site-info">
+                    <div class="footer-text">
+                        (c) 2017 codehollow.com
+                    </div>
+                    <div class="footer-credit">
+                        Built with <a class="theme-name" href="https://thethemefoundry.com/make/" target="_blank">Make</a>. Your friendly WordPress page builder theme.
+                    </div>
+                </div>
+                <div class="footer-social-links">
+                    <ul class="social-customizer social-links">
+                        <li class="make-social-icon">
+                            <a href="https://twitter.com/ArminReiter">
+                                <i class="fa fab fa-twitter" aria-hidden="true"></i>
+                                <span class="screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="make-social-icon">
+                            <a href="https://at.linkedin.com/in/ArminReiter">
+                                <i class="fa fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="screen-reader-text">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="make-social-icon">
+                            <a href="https://www.xing.com/profile/Armin_Reiter2">
+                                <i class="fa fab fa-xing" aria-hidden="true"></i>
+                                <span class="screen-reader-text">XING</span>
+                            </a>
+                        </li>
+                        <li class="make-social-icon">
+                            <a href="https://github.com/codehollow/">
+                                <i class="fa fab fa-github" aria-hidden="true"></i>
+                                <span class="screen-reader-text">GitHub</span>
+                            </a>
+                        </li>
+                        <li class="make-social-icon">
+                            <a href="/cdn-cgi/l/email-protection#c8aaa4a7af88aba7acada0a7a4a4a7bfe6aba7a5">
+                                <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
+                                <span class="screen-reader-text">Email</span>
+                            </a>
+                        </li>
+                        <li class="make-social-icon">
+                            <a href="https://codehollow.com/feed/">
+                                <i class="fa fa-fw fa-rss" aria-hidden="true"></i>
+                                <span class="screen-reader-text">RSS</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div style="display:none">
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type='text/javascript' src='https://codehollow.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script>
+    <script type='text/javascript' src='https://codehollow.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPowerShell.js?ver=3.0.9b'></script>
+    <script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://codehollow.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://codehollow.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+
+	// Infinite scroll support
+	if ( typeof( jQuery ) !== 'undefined' ) {
+		jQuery( function( $ ) {
+			$( document.body ).on( 'post-load', function() {
+				SyntaxHighlighter.highlight();
+			} );
+		} );
+	}
+    </script>
+    <script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201921'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"0","linkTarget":"","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","jqlb_overlay_opacity":"80","jqlb_overlay_color":"#000000","jqlb_overlay_close":"1","jqlb_border_width":"10","jqlb_border_color":"#ffffff","jqlb_border_radius":"0","jqlb_image_info_background_transparency":"100","jqlb_image_info_bg_color":"#ffffff","jqlb_image_info_text_color":"#000000","jqlb_image_info_text_fontsize":"10","jqlb_show_text_for_image":"1","jqlb_next_image_title":"next image","jqlb_previous_image_title":"previous image","jqlb_next_button_image":"https:\/\/codehollow.com\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/next.gif","jqlb_previous_button_image":"https:\/\/codehollow.com\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/prev.gif","jqlb_maximum_width":"","jqlb_maximum_height":"","jqlb_show_close_button":"1","jqlb_close_image_title":"close image gallery","jqlb_close_image_max_heght":"22","jqlb_image_for_close_lightbox":"https:\/\/codehollow.com\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/closelabel.gif","jqlb_keyboard_navigation":"1","jqlb_popup_size_fix":"0"};
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='https://codehollow.com/wp-content/plugins/wp-lightbox-2/wp-lightbox-2.min.js?ver=1.3.4.1'></script>
+    <script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Mayaa'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='https://codehollow.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=5.2.1'></script>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var MakeFrontEnd = {"fitvids":{"selectors":""}};
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='https://codehollow.com/wp-content/themes/make/js/frontend.js?ver=1.9.25'></script>
+    <script type='text/javascript' src='https://codehollow.com/wp-content/themes/make/js/formatting/dynamic-stylesheet/dynamic-stylesheet.js?ver=1.9.25'></script>
+    <script type='text/javascript' src='https://codehollow.com/wp-content/plugins/jetpack/_inc/build/widgets/eu-cookie-law/eu-cookie-law.min.js?ver=20180522'></script>
+    <script type='text/javascript' src='https://codehollow.com/wp-includes/js/wp-embed.min.js?ver=5.2.1'></script>
+    <script type='text/javascript' src='https://stats.wp.com/e-201921.js' async='async' defer='defer'></script>
+    <script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:7.3.1',blog:'114401317',post:'0',tz:'1',srv:'codehollow.com'} ]);
+	_stq.push([ 'clickTrackerInit', '114401317', '0' ]);
+    </script>
+</body>
+</html>
+
+
