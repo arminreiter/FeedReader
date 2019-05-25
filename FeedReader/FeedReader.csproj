@@ -13,14 +13,14 @@
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/codehollow/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/codehollow/FeedReader/</RepositoryUrl>
-    <Version>1.2.0</Version>
-    <PackageReleaseNotes>removed HtmlAgilityPack, added handling of HTTP code 302</PackageReleaseNotes>
+    <Version>1.2.1</Version>
+    <PackageReleaseNotes>improved async api allows to pass CancellationToken, removed HtmlAgilityPack, added handling of HTTP code 302</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <FileVersion>1.2.1.0</FileVersion>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
