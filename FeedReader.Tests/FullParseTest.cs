@@ -360,13 +360,18 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public void TestAllFilesForException()
         {
+            var linkless = new System.Collections.Generic.List<string>() { "AtomBattleNet.xml" };
+
             var files = System.IO.Directory.EnumerateFiles("Feeds");
             foreach(var file in files)
             {
                 var feed = FeedReader.ReadFromFile(file);
                 if (feed != null)
                 {
-                    Assert.IsTrue(!string.IsNullOrEmpty(feed.Link));
+                    string filename = System.IO.Path.GetFileName(file);
+                    if (!linkless.Contains(filename))
+                        Assert.IsTrue(!string.IsNullOrEmpty(feed.Link));
+                    
                     TestItunesParsingForException(feed);
                 }
             }
@@ -707,13 +712,18 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public async Task TestAllFilesForException_Async()
         {
+            var linkless = new System.Collections.Generic.List<string>() { "AtomBattleNet.xml" };
+
             var files = System.IO.Directory.EnumerateFiles("Feeds");
             foreach(var file in files)
             {
                 var feed = await FeedReader.ReadFromFileAsync(file).ConfigureAwait(false);
                 if (feed != null)
                 {
-                    Assert.IsTrue(!string.IsNullOrEmpty(feed.Link));
+                    string filename = System.IO.Path.GetFileName(file);
+                    if (!linkless.Contains(filename))
+                        Assert.IsTrue(!string.IsNullOrEmpty(feed.Link));
+
                     TestItunesParsingForException(feed);
                 }
             }
