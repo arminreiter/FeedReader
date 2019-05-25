@@ -1,6 +1,8 @@
 ﻿namespace CodeHollow.FeedReader.Parser
 {
     using System;
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Text;
     using System.Xml.Linq;
 
@@ -126,7 +128,15 @@
         /// <returns>cleaned up rss feed content</returns>
         private static string RemoveWrongChars(string feedContent)
         {
-            feedContent = feedContent.Replace(((char)0x1C).ToString(), string.Empty); // replaces special char 0x1C, fixes issues with at least one feed
+            // replaces all control characters except CR LF (\r\n) and TAB.
+            for (int charCode = 0; charCode <= 31; charCode++)
+            {
+                if (charCode == 0x0D || charCode == 0x0A || charCode == 0x09) continue;
+
+                feedContent = feedContent.Replace(((char)charCode).ToString(), string.Empty);
+            }
+
+            feedContent = feedContent.Replace(((char)127).ToString(), string.Empty);   // replace DEL
             feedContent = feedContent.Replace(((char)65279).ToString(), string.Empty); // replaces special char, fixes issues with at least one feed
 
             return feedContent.Trim();
