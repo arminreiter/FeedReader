@@ -19,7 +19,6 @@ namespace CodeHollow.FeedReader.ConsoleSample
                         break;
 
                     var urlsTask = FeedReader.GetFeedUrlsFromUrlAsync(url);
-                    urlsTask.ConfigureAwait(false);
                     var urls = urlsTask.Result;
 
                     string feedUrl;
@@ -56,6 +55,14 @@ namespace CodeHollow.FeedReader.ConsoleSample
                         Console.WriteLine(item.Title + " - " + item.Link);
                     }
                 }
+
+                var readerTask = FeedReader.ReadAsync(feedUrl);
+                    
+                foreach (var item in readerTask.Result.Items)
+                {
+                    Console.WriteLine(item.Title + " - " + item.Link);
+                }
+              
                 catch (Exception ex)
                 {
                     Console.WriteLine($"An error occurred: {ex.InnerException.Message}{Environment.NewLine}{ex.InnerException.ToString()}");

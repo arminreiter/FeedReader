@@ -26,7 +26,6 @@ namespace CodeHollow.FeedReader.TestDataCrawler
         static void Do(string url)
         {
             var linksTask = FeedReader.GetFeedUrlsFromUrlAsync(url);
-            linksTask.ConfigureAwait(false);
 
             foreach (var link in linksTask.Result)
             {
@@ -42,7 +41,6 @@ namespace CodeHollow.FeedReader.TestDataCrawler
                     var curl = FeedReader.GetAbsoluteFeedUrl(url, link);
 
                     var contentTask = Helpers.DownloadAsync(curl.Url);
-                    contentTask.ConfigureAwait(false);
 
                     System.IO.File.WriteAllText("d:\\feeds\\" + title + "_" + Guid.NewGuid().ToString() + ".xml", contentTask.Result);
                     Console.Write("+");
