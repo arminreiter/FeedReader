@@ -93,16 +93,16 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public async Task TestReadSimpleFeed()
         {
-            var feed = await FeedReader.ReadAsync("https://codehollow.com/feed").ConfigureAwait(false);
+            var feed = await FeedReader.ReadAsync("https://arminreiter.com/feed").ConfigureAwait(false);
             string title = feed.Title;
-            Assert.AreEqual("codehollow", title);
+            Assert.AreEqual("arminreiter.com", title);
             Assert.AreEqual(10, feed.Items.Count());
         }
 
         [TestMethod]
         public async Task TestReadRss20GermanFeed()
         {
-            var feed = await FeedReader.ReadAsync("http://botential.at/feed").ConfigureAwait(false);
+            var feed = await FeedReader.ReadAsync("http://guidnew.com/feed").ConfigureAwait(false);
             string title = feed.Title;
             Assert.IsTrue(feed.Items.Count > 0);
         }
@@ -200,15 +200,6 @@ namespace CodeHollow.FeedReader.Tests
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
-
-        [TestMethod]
-        public async Task TestReadStrategyEx()
-        {
-            var feed = await FeedReader.ReadAsync("http://blog.strategyex.com/feed/").ConfigureAwait(false);
-            Assert.AreEqual("StrategyEx Blog", feed.Title);
-            Assert.IsTrue(feed.Items.Count > 0);
-        }
-
         [TestMethod]
         public async Task TestReadTechRep()
         {
@@ -253,15 +244,8 @@ namespace CodeHollow.FeedReader.Tests
         public async Task TestPermanentMove()
         {
             var feed = await FeedReader.ReadAsync("http://t3n.de/tag/blockchain/rss.xml").ConfigureAwait(false);
-            Assert.IsTrue(feed.Title.StartsWith("t3n RSS Feed"));
+            Assert.IsTrue(feed.Title.StartsWith("t3n.de - Blockchain"));
             Assert.IsTrue(feed.Items.Count > 0);
-        }
-
-        [TestMethod]
-        public async Task TestMoved()
-        {
-            var feed = await FeedReader.ReadAsync("http://www.medicalnewstoday.com/rss/diabetes.xml");
-            Assert.AreEqual("Diabetes News From Medical News Today", feed.Title);
         }
 
         [TestMethod]

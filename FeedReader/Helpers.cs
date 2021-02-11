@@ -252,7 +252,7 @@
             // <link rel="alternate" type="application/rss+xml" title="Microsoft Bot Framework Blog" href="http://blog.botframework.com/feed.xml">
             // <link rel="alternate" type="application/atom+xml" title="Aktuelle News von heise online" href="https://www.heise.de/newsticker/heise-atom.xml">
 
-            Regex rex = new Regex("<link.*rel=\"alternate\".*>");
+            Regex rex = new Regex("<link[^>]*rel=\"alternate\"[^>]*>", RegexOptions.Singleline);
 
             List<HtmlFeedLink> result = new List<HtmlFeedLink>();
 
