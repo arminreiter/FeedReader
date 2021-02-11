@@ -124,8 +124,9 @@
                 return null;
 
             var dateTimeFormat = cultureInfo?.DateTimeFormat ?? DateTimeFormatInfo.CurrentInfo;
+            bool parseSuccess = DateTimeOffset.TryParse(datetime, dateTimeFormat, DateTimeStyles.None, out var dt);
 
-            if (!DateTimeOffset.TryParse(datetime, dateTimeFormat, DateTimeStyles.None, out var dt))
+            if (!parseSuccess)
             {
                 // Do, 22 Dez 2016 17:36:00 +0000
                 // note - tried ParseExact with diff formats like "ddd, dd MMM yyyy hh:mm:ss K"
@@ -134,11 +135,18 @@
                     int pos = datetime.IndexOf(',') + 1;
                     string newdtstring = datetime.Substring(pos).Trim();
 
-                    DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None, out dt);
+                    parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None, out dt);
+                }
+                if (!parseSuccess)
+                {
+                    string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
+                    
+                    parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.AssumeUniversal,
+                        out dt);
                 }
             }
 
-            if (dt == default(DateTimeOffset))
+            if (!parseSuccess)
                 return null;
 
             return dt.UtcDateTime;
