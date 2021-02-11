@@ -267,22 +267,6 @@
         }
 
         /// <summary>
-        /// read the rss feed type from the type statement of an html link
-        /// </summary>
-        /// <param name="linkType">application/rss+xml or application/atom+xml or ...</param>
-        /// <returns>the feed type</returns>
-        private static FeedType GetFeedTypeFromLinkType(string linkType)
-        {
-            if (linkType.Contains("application/rss"))
-                return FeedType.Rss;
-
-            if (linkType.Contains("application/atom"))
-                return FeedType.Atom;
-
-            throw new InvalidFeedLinkException($"The link type '{linkType}' is not a valid feed link!");
-        }
-
-        /// <summary>
         /// reads an attribute from an html tag
         /// </summary>
         /// <param name="attribute">name of the attribute, e.g. title</param>

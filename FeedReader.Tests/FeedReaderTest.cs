@@ -104,6 +104,7 @@ namespace CodeHollow.FeedReader.Tests
         {
             var feed = await FeedReader.ReadAsync("http://guidnew.com/feed").ConfigureAwait(false);
             string title = feed.Title;
+            Assert.AreEqual("Guid.New", title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
@@ -112,6 +113,7 @@ namespace CodeHollow.FeedReader.Tests
         {
             var feed = await FeedReader.ReadAsync("http://rss.orf.at/news.xml").ConfigureAwait(false);
             string title = feed.Title;
+            Assert.AreEqual("news.ORF.at", title);
             Assert.IsTrue(feed.Items.Count > 10);
         }
 

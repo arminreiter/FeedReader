@@ -8,7 +8,7 @@ FeedReader library is available as NuGet package: https://www.nuget.org/packages
 ## Usage
 The simplest way to read a feed and show the information is:
 ```csharp
-    var feed = FeedReader.Read("https://codehollow.com/feed");
+    var feed = await FeedReader.ReadAsync("https://arminreiter.com/feed");
 
     Console.WriteLine("Feed Title: " + feed.Title);
     Console.WriteLine("Feed Description: " + feed.Description);
@@ -23,7 +23,7 @@ The simplest way to read a feed and show the information is:
 There are some properties that are only available in e.g. RSS 2.0. If you want to get those properties, the property "SpecificFeed" is the right one:
 
 ```csharp
-    var feed = FeedReader.Read("https://codehollow.com/feed");
+    var feed = await FeedReader.ReadAsync("https://arminreiter.com/feed");
 
     Console.WriteLine("Feed Title: " + feed.Title);
             
@@ -37,7 +37,7 @@ There are some properties that are only available in e.g. RSS 2.0. If you want t
 If the url to the feed is not known, then you can use FeedReader.GetFeedUrlsFromUrl(url) to parse the url from the html webpage:
 
 ```csharp
-	string url = "codehollow.com";
+	string url = "arminreiter.com";
     var urls = FeedReader.GetFeedUrlsFromUrl(url);
             
     string feedUrl;

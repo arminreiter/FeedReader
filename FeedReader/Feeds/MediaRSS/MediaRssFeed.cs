@@ -206,7 +206,7 @@
                 return;
 
             // dates are set, but one of them couldn't be parsed - so try again with the culture set to the language
-            CultureInfo culture = null;
+            CultureInfo culture;
             try
             {
                 culture = new CultureInfo(this.Language);

@@ -5,7 +5,7 @@ namespace CodeHollow.FeedReader.ConsoleSample
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string hlp = "Please enter feed url or exit to stop the program:";
             Console.WriteLine(hlp);
@@ -34,7 +34,7 @@ namespace CodeHollow.FeedReader.ConsoleSample
                         Console.WriteLine("Found multiple feed, please choose:");
                         foreach (var feedurl in urls)
                         {
-                            Console.WriteLine($"{i++.ToString()} - {feedurl.Title} - {feedurl.Url}");
+                            Console.WriteLine($"{i++} - {feedurl.Title} - {feedurl.Url}");
                         }
                         var input = Console.ReadLine();
 
@@ -57,7 +57,7 @@ namespace CodeHollow.FeedReader.ConsoleSample
                 }             
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"An error occurred: {ex.InnerException.Message}{Environment.NewLine}{ex.InnerException.ToString()}");
+                    Console.WriteLine($"An error occurred: {ex.InnerException.Message}{Environment.NewLine}{ex.InnerException}");
                 }
                 finally
                 {
