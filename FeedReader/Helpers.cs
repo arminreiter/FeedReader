@@ -43,15 +43,16 @@
         /// <param name="url">correct url</param>
         /// <param name="cancellationToken">token to cancel operation</param>
         /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
+        /// <param name="userAgent">override built-in user-agent header</param>
         /// <returns>Content as byte array</returns>
-        public static async Task<byte[]> DownloadBytesAsync(string url, CancellationToken cancellationToken, bool autoRedirect = true)
+        public static async Task<byte[]> DownloadBytesAsync(string url, CancellationToken cancellationToken, bool autoRedirect = true, string userAgent = USER_AGENT_VALUE)
         {
             url = System.Net.WebUtility.UrlDecode(url);
             HttpResponseMessage response;
             using (var request = new HttpRequestMessage(HttpMethod.Get, url))
             {
                 request.Headers.TryAddWithoutValidation(ACCEPT_HEADER_NAME, ACCEPT_HEADER_VALUE);
-                request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, USER_AGENT_VALUE);
+                request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, userAgent);
 
                 response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
             }
@@ -142,6 +143,14 @@
                     string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
                     
                     parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.AssumeUniversal,
+                        out dt);
+                }
+                
+                if (!parseSuccess)
+                {
+                    string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
+                    
+                    parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None,
                         out dt);
                 }
             }

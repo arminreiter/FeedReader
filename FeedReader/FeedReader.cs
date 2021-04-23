@@ -170,10 +170,11 @@
         /// <param name="url">the url to a feed</param>
         /// <param name="cancellationToken">token to cancel operation</param>
         /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
+        /// <param name="userAgent">override built-in user-agent header</param>
         /// <returns>parsed feed</returns>
-        public static async Task<Feed> ReadAsync(string url, CancellationToken cancellationToken, bool autoRedirect = true)
+        public static async Task<Feed> ReadAsync(string url, CancellationToken cancellationToken, bool autoRedirect = true, string userAgent=null)
         {
-            var feedContent = await Helpers.DownloadBytesAsync(GetAbsoluteUrl(url), cancellationToken, autoRedirect).ConfigureAwait(false);
+            var feedContent = await Helpers.DownloadBytesAsync(GetAbsoluteUrl(url), cancellationToken, autoRedirect, userAgent).ConfigureAwait(false);
             return ReadFromByteArray(feedContent);
         }
 
@@ -183,10 +184,11 @@
         /// </summary>
         /// <param name="url">the url to a feed</param>
         /// <param name="autoRedirect">autoredirect if page is moved permanently</param>
+        /// <param name="userAgent">override built-in user-agent header</param>
         /// <returns>parsed feed</returns>
-        public static Task<Feed> ReadAsync(string url, bool autoRedirect = true)
+        public static Task<Feed> ReadAsync(string url, bool autoRedirect = true, string userAgent=null)
         {
-            return ReadAsync(url, CancellationToken.None, autoRedirect);
+            return ReadAsync(url, CancellationToken.None, autoRedirect, userAgent);
         }
 
         /// <summary>
