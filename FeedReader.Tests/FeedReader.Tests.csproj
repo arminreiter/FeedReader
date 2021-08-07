@@ -60,6 +60,9 @@
     <Compile Include="FullParseTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Feeds\AtomAdobe.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Feeds\AtomBattleNet.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

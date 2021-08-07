@@ -92,7 +92,7 @@
         public AtomFeedItem(XElement item)
             : base(item)
         {
-            this.Link = item.GetElement("link").Attribute("href")?.Value;
+            this.Link = item.GetElement("link")?.Attribute("href")?.Value;
 
             this.Author = new AtomPerson(item.GetElement("author"));
 
@@ -113,6 +113,12 @@
 
             this.UpdatedDateString = item.GetValue("updated");
             this.UpdatedDate = Helpers.TryParseDateTime(this.UpdatedDateString);
+
+            // In some rare cases, the id contains the link href for the item (e.g. https://blog.adobe.com/feed.xml)
+            if (string.IsNullOrEmpty(this.Link) && this.Id.ToLower().StartsWith("http"))
+            {
+                this.Link = this.Id;
+            }
         }
 
         /// <inheritdoc/>
