@@ -1,4 +1,4 @@
-﻿namespace CodeHollow.FeedReader.Feeds
+namespace CodeHollow.FeedReader.Feeds
 {
     using System;
     using System.Collections.Generic;
@@ -92,7 +92,7 @@
         public AtomFeedItem(XElement item)
             : base(item)
         {
-            this.Link = item.GetElement("link").Attribute("href")?.Value;
+            this.Link = item.GetElement("link")?.Attribute("href")?.Value;
 
             this.Author = new AtomPerson(item.GetElement("author"));
 

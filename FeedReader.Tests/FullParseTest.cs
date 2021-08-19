@@ -17,6 +17,21 @@ namespace CodeHollow.FeedReader.Tests
 
         #region Synchronous 
 
+                [TestMethod]
+        public void TestAtomParseAdobe()
+        {
+            var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomAdobe.xml").SpecificFeed;
+
+            Eq("Adobe Blog", feed.Title);
+            Eq(null, feed.Icon);
+            Eq("https://blog.adobe.com/", feed.Link);
+            Eq("2021-07-19T00:00:00.000Z", feed.UpdatedDateString);
+            Eq("https://blog.adobe.com/", feed.Id);
+
+            var item = (AtomFeedItem)feed.Items.First();
+            Eq(null, item.Link); // The post href is store in the id element
+        }
+
         [TestMethod]
         public void TestAtomParseTheVerge()
         {
@@ -380,6 +395,21 @@ namespace CodeHollow.FeedReader.Tests
         #endregion Synchronous 
 
         #region Asynchronous 
+
+        [TestMethod]
+        public async Task TestAtomParseAdobe_Async()
+        {
+            var feed = (AtomFeed)(await FeedReader.ReadFromFileAsync("Feeds/AtomAdobe.xml").ConfigureAwait(false)).SpecificFeed;
+
+            Eq("Adobe Blog", feed.Title);
+            Eq(null, feed.Icon);
+            Eq("https://blog.adobe.com/", feed.Link);
+            Eq("2021-07-19T00:00:00.000Z", feed.UpdatedDateString);
+            Eq("https://blog.adobe.com/", feed.Id);
+
+            var item = (AtomFeedItem)feed.Items.First();
+            Eq(null, item.Link); // The post href is store in the id element
+        }
 
         [TestMethod]
         public async Task TestAtomParseTheVerge_Async()
