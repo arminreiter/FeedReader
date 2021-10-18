@@ -12,6 +12,11 @@ namespace CodeHollow.FeedReader.Feeds.MediaRSS
     /// </summary>
     public class Media
     {
+        
+        /// <summary>
+        /// Gets the underlying XElement in order to allow reading properties that are not available in the class itself
+        /// </summary>
+        public XElement Element { get; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Media"/> class.
@@ -20,6 +25,8 @@ namespace CodeHollow.FeedReader.Feeds.MediaRSS
         /// <param name="element">enclosure element as xml</param>
         public Media(XElement element)
         {
+            this.Element = element;
+            
             this.Url = element.GetAttributeValue("url");
             this.FileSize = Helpers.TryParseInt(element.GetAttributeValue("fileSize"));
             this.Type = element.GetAttributeValue("type");
