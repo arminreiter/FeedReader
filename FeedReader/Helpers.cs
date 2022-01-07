@@ -1,11 +1,10 @@
 ﻿namespace CodeHollow.FeedReader
 {
-    using CodeHollow.FeedReader.Parser;
     using Feeds.MediaRSS;
     using System;
     using System.Collections.Generic;
     using System.Globalization;
-    using System.Linq;
+    using System.Net;
     using System.Net.Http;
     using System.Text;
     using System.Text.RegularExpressions;
@@ -24,7 +23,12 @@
 
         // The HttpClient instance must be a static field
         // https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/
-        private static readonly HttpClient _httpClient = new HttpClient();
+        private static readonly HttpClient _httpClient = new HttpClient(
+            new HttpClientHandler
+            {
+                AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
+            }
+        );
 
         /// <summary>
         /// Download the content from an url
@@ -141,7 +145,7 @@
                 if (!parseSuccess)
                 {
                     string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
-                    
+
                     parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.AssumeUniversal,
                         out dt);
                 }
@@ -225,7 +229,7 @@
 
             return null;
         }
-        
+
         /// <summary>
         /// Returns a HtmlFeedLink object from a linktag (link href="" type="")
         /// only support application/rss and application/atom as type

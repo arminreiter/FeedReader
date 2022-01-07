@@ -91,6 +91,14 @@ namespace CodeHollow.FeedReader.Tests
         #region Read Feed
 
         [TestMethod]
+        public async Task TestReadAdobeFeed()
+        {
+            var feed = await FeedReader.ReadAsync("https://theblog.adobe.com/news/feed").ConfigureAwait(false);
+            string title = feed.Title;
+            Assert.AreEqual("Adobe Blog", title);
+        }
+
+        [TestMethod]
         public async Task TestReadSimpleFeed()
         {
             var feed = await FeedReader.ReadAsync("https://arminreiter.com/feed").ConfigureAwait(false);
