@@ -37,7 +37,7 @@ There are some properties that are only available in e.g. RSS 2.0. If you want t
 If the url to the feed is not known, then you can use FeedReader.GetFeedUrlsFromUrl(url) to parse the url from the html webpage:
 
 ```csharp
-	string url = "arminreiter.com";
+    string url = "arminreiter.com";
     var urls = FeedReader.GetFeedUrlsFromUrl(url);
             
     string feedUrl;
@@ -47,14 +47,20 @@ If the url to the feed is not known, then you can use FeedReader.GetFeedUrlsFrom
         feedUrl = urls.First().Url;
     else if (urls.Count() == 2) // if 2 urls, then its usually a feed and a comments feed, so take the first per default
         feedUrl = urls.First().Url;
-	else
-	{
-		// show all urls and let the user select (or take the first or ...)
-		// ...
-	}
+    else
+    {
+        // show all urls and let the user select (or take the first or ...)
+        // ...
+    }
 
-	var feed = FeedReader.Read(feedUrl);
-	// ...
+    var readerTask = FeedReader.ReadAsync(feedUrl);
+    readerTask.ConfigureAwait(false);
+
+    foreach (var item in readerTask.Result.Items)
+    {
+        Console.WriteLine(item.Title + " - " + item.Link);
+        // ...
+    }
 ```
 
 
