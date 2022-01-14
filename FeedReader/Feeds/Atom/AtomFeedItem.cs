@@ -97,7 +97,7 @@ namespace CodeHollow.FeedReader.Feeds
             this.Author = new AtomPerson(item.GetElement("author"));
 
             var categories = item.GetElements("category");
-            this.Categories = categories.Select(x => x.GetValue()).ToList();
+            this.Categories = categories.Select(x => (string)x.Attribute("term")).ToList();
 
             this.Content = item.GetValue("content").HtmlDecode();
             this.Contributor = new AtomPerson(item.GetElement("contributor"));

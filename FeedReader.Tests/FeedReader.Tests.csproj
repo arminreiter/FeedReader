@@ -75,6 +75,9 @@
     <Content Include="Feeds\AtomVergeAllPosts.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Feeds\AtomWiganwarriors.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Feeds\AtomYoutubeInvestmentPunk.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

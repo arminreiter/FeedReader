@@ -89,6 +89,19 @@ namespace CodeHollow.FeedReader.Tests
             Eq("2017-01-20T16:00:00+00:00", item.PublishedDateString);
         }
 
+
+        [TestMethod]
+        public void TestAtomWiganwarriors()
+        {
+            var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomWiganwarriors.xml").SpecificFeed;
+
+            Eq("Wigan Warriors Blog", feed.Title);
+            Eq("Wigan Warriors Official Website", feed.Subtitle);
+            var item = (AtomFeedItem)feed.Items.First();
+            Eq(4, item.Categories.Count);
+            Eq("Community & Education", item.Categories.First());
+        }
+
         [TestMethod]
         public void TestRss091ParseStadtFWeiz()
         {
