@@ -13,14 +13,14 @@
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/arminreiter/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/arminreiter/FeedReader/</RepositoryUrl>
-    <Version>1.2.3</Version>
-    <PackageReleaseNotes>few fixes and improvements</PackageReleaseNotes>
+    <Version>1.2.4</Version>
+    <PackageReleaseNotes>fix category parsing of atom feeds</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.2.3.0</AssemblyVersion>
-    <FileVersion>1.2.3.0</FileVersion>
+    <AssemblyVersion>1.2.4.0</AssemblyVersion>
+    <FileVersion>1.2.4.0</FileVersion>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
