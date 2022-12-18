@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net452;netcoreapp2.1</TargetFrameworks>
+    <TargetFrameworks>netstandard1.3;netcoreapp2.1</TargetFrameworks>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
 	  <Title>CodeHollow.FeedReader</Title>
