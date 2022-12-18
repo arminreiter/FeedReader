@@ -131,33 +131,62 @@
             var dateTimeFormat = cultureInfo?.DateTimeFormat ?? DateTimeFormatInfo.CurrentInfo;
             bool parseSuccess = DateTimeOffset.TryParse(datetime, dateTimeFormat, DateTimeStyles.None, out var dt);
 
-            if (!parseSuccess)
+            try
             {
-                // Do, 22 Dez 2016 17:36:00 +0000
-                // note - tried ParseExact with diff formats like "ddd, dd MMM yyyy hh:mm:ss K"
-                if (datetime.Contains(","))
-                {
-                    int pos = datetime.IndexOf(',') + 1;
-                    string newdtstring = datetime.Substring(pos).Trim();
-
-                    parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None, out dt);
-                }
                 if (!parseSuccess)
                 {
-                    string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
+                    // Do, 22 Dez 2016 17:36:00 +0000
+                    // note - tried ParseExact with diff formats like "ddd, dd MMM yyyy hh:mm:ss K"
+                    if (datetime.Contains("JST"))
+                    {
+                        var newDtString = datetime.Replace("JST", "T");
+                        parseSuccess = DateTimeOffset.TryParse(newDtString, dateTimeFormat,
+                            DateTimeStyles.AssumeUniversal,
+                            out dt);
+                    }
 
-                    parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.AssumeUniversal,
-                        out dt);
-                }
-                
-                if (!parseSuccess)
-                {
-                    string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
-                    
-                    parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None,
-                        out dt);
+                    if (datetime.EndsWith(":Z"))
+                    {
+                        var newDtString = datetime.Replace(":Z", "+0000");
+                        parseSuccess = DateTimeOffset.TryParse(newDtString, dateTimeFormat,
+                            DateTimeStyles.AssumeUniversal,
+                            out dt);
+                    }
+
+                    if (datetime.Contains(","))
+                    {
+                        int pos = datetime.IndexOf(',') + 1;
+                        string newdtstring = datetime.Substring(pos).Trim();
+
+                        parseSuccess =
+                            DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None, out dt);
+                    }
+
+                    if (!parseSuccess)
+                    {
+                        string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ", StringComparison.Ordinal))
+                            .Trim();
+
+                        parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat,
+                            DateTimeStyles.AssumeUniversal,
+                            out dt);
+                    }
+
+                    if (!parseSuccess)
+                    {
+                        string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ", StringComparison.Ordinal))
+                            .Trim();
+
+                        parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None,
+                            out dt);
+                    }
                 }
             }
+            catch
+            {
+                parseSuccess = false;
+            }
+
 
             if (!parseSuccess)
                 return null;
