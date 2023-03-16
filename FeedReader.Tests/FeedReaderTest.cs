@@ -190,7 +190,7 @@ namespace CodeHollow.FeedReader.Tests
         public async Task TestReadTimeDoctor()
         {
             var feed = await FeedReader.ReadAsync("https://www.timedoctor.com/blog/feed/").ConfigureAwait(false);
-            Assert.AreEqual("Time Doctor", feed.Title);
+            Assert.AreEqual("Time Doctor Blog", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
@@ -214,7 +214,7 @@ namespace CodeHollow.FeedReader.Tests
         public async Task TestReadTechRep()
         {
             var feed = await FeedReader.ReadAsync("http://www.techrepublic.com/rssfeeds/topic/project-management/").ConfigureAwait(false);
-            Assert.AreEqual("Project Management on TechRepublic", feed.Title);
+            Assert.AreEqual("Project Management Articles & Tutorials | TechRepublic", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 

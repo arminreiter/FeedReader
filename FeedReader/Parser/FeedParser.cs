@@ -138,7 +138,6 @@
 
             feedContent = feedContent.Replace(((char)127).ToString(), string.Empty);   // replace DEL
             feedContent = feedContent.Replace(((char)65279).ToString(), string.Empty); // replaces special char, fixes issues with at least one feed
-            feedContent = feedContent.Replace("&", "&amp;"); // replaces & char with HTML encoded version.
 
             return feedContent.Trim();
         }

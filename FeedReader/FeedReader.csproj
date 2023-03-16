@@ -13,14 +13,14 @@
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/arminreiter/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/arminreiter/FeedReader/</RepositoryUrl>
-    <Version>1.2.5</Version>
-    <PackageReleaseNotes>Fix for &amp; char that causes XDocument.parse to fail (thanks @atakane)</PackageReleaseNotes>
+    <Version>1.2.6</Version>
+    <PackageReleaseNotes>fix issue</PackageReleaseNotes>
     <PackageTags>feed rss atom</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.2.5.0</AssemblyVersion>
-    <FileVersion>1.2.5.0</FileVersion>
+    <AssemblyVersion>1.2.6.0</AssemblyVersion>
+    <FileVersion>1.2.6.0</FileVersion>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
