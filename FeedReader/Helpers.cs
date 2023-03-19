@@ -30,7 +30,7 @@
             }
         );
 
-#if NETSTANDARD1_1_OR_GREATER || NETCOREAPP1_0_OR_GREATER
+#if NETSTANDARD1_1_OR_GREATER || NETCOREAPP1_0_OR_GREATER || NET45_OR_GREATER
         internal static void SetTimeout(TimeSpan timeout)
         {
             _httpClient.Timeout = timeout;

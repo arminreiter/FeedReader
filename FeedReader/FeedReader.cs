@@ -22,7 +22,7 @@
     /// </example>
     public static class FeedReader
     {
-#if NETSTANDARD1_1_OR_GREATER || NETCOREAPP1_0_OR_GREATER
+#if NETSTANDARD1_1_OR_GREATER || NETCOREAPP1_0_OR_GREATER || NET45_OR_GREATER
         /// <summary>
         /// Set a timeout for reading feeds
         /// </summary>
