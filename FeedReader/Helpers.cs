@@ -30,6 +30,16 @@
             }
         );
 
+#if NETSTANDARD1_1_OR_GREATER || NETCOREAPP1_0_OR_GREATER
+        /// <summary>
+        /// Set a timeout for http calls
+        /// </summary>
+        public static void SetTimeout(TimeSpan timeout)
+        {
+            _httpClient.Timeout = timeout;
+        }
+#endif
+
         /// <summary>
         /// Download the content from an url
         /// </summary>
