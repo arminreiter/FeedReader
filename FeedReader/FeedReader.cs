@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Net.Http;
     using System.Threading;
     using System.Threading.Tasks;
     using Parser;
@@ -21,6 +22,16 @@
     /// </example>
     public static class FeedReader
     {
+#if NETSTANDARD1_1_OR_GREATER || NETCOREAPP1_0_OR_GREATER || NET45_OR_GREATER
+        /// <summary>
+        /// Set a timeout for reading feeds
+        /// </summary>
+        public static void SetTimeout(TimeSpan timeout)
+        {
+            Helpers.SetTimeout(timeout);
+        }
+#endif
+
         /// <summary>
         /// gets a url (with or without http) and returns the full url
         /// </summary>
