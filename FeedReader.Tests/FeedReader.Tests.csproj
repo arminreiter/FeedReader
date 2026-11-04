@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <!-- net8.0 tests the library's netcoreapp2.1 build; net48 (Windows only) tests the net452 build. -->
+    <!-- net8.0 tests the library's net8.0 build; net48 (Windows only) tests the net462 build. -->
     <TargetFrameworks>net8.0</TargetFrameworks>
     <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">net8.0;net48</TargetFrameworks>
     <IsPackable>false</IsPackable>

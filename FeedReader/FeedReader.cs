@@ -203,7 +203,7 @@
         public static async Task<Feed> ReadFromFileAsync(string filePath, CancellationToken cancellationToken)
         {
             byte[] result;
-#if NETCOREAPP2_1
+#if NETCOREAPP
             {
                 result = await System.IO.File.ReadAllBytesAsync(filePath, cancellationToken).ConfigureAwait(false);
             }

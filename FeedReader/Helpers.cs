@@ -24,7 +24,7 @@
         // The HttpClient instance must be a static field
         // https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/
         private static readonly HttpClient _httpClient = new HttpClient(
-#if NETCOREAPP2_1
+#if NETCOREAPP
             // recycle pooled connections so a static client picks up DNS changes in long running apps
             new SocketsHttpHandler
             {
