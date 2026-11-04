@@ -35,7 +35,45 @@ namespace CodeHollow.FeedReader.Tests
             Eq("https://x/edit", feed.Items.ElementAt(1).Link); // fallback: first link
         }
 
-                [TestMethod]
+        [TestMethod]
+        public void TestAtom03ParseWikenigma()
+        {
+            var feed = FeedReader.ReadFromFile("Feeds/Atom03Wikenigma.xml");
+            var atom = (AtomFeed)feed.SpecificFeed;
+
+            Eq(FeedType.Atom, feed.Type);
+            Eq("https://wikenigma.org.uk/", feed.Link);
+            Eq("https://wikenigma.org.uk/", atom.Id);
+            Eq("2025-01-27T16:58:31+00:00", feed.LastUpdatedDateString);
+            Eq(10, feed.Items.Count);
+
+            var item = (AtomFeedItem)atom.Items.First();
+            Eq("'Penguin' etymology - external edit", item.Title);
+            Eq("https://wikenigma.org.uk/content/language/etymology/penguin_etymology", item.Link);
+            Eq("2024-03-01T13:26:09+00:00", item.PublishedDateString);
+            Eq("2024-03-01T13:26:09+00:00", item.UpdatedDateString);
+            Eq("Anonymous", item.Author.Name);
+            Assert.IsTrue(item.Summary.Contains("The origin of the English word 'Penguin' is obscure."));
+            Eq(new DateTime(2024, 3, 1, 13, 26, 9, DateTimeKind.Utc), feed.Items.First().PublishingDate);
+        }
+
+        [TestMethod]
+        public void TestAtom03DateFallbacks()
+        {
+            var feed = (AtomFeed)FeedReader.ReadFromString(@"<feed version=""0.3"" xmlns=""http://purl.org/atom/ns#"">
+<tagline>tag</tagline><modified>2020-01-03T00:00:00Z</modified>
+<entry><created>2020-01-01T00:00:00Z</created><issued>2020-01-02T00:00:00Z</issued><modified>2020-01-03T00:00:00Z</modified></entry>
+<entry><created>2020-01-01T00:00:00Z</created></entry></feed>").SpecificFeed;
+
+            Eq("tag", feed.Subtitle);
+            Eq("2020-01-03T00:00:00Z", feed.UpdatedDateString);
+            var items = feed.Items.Cast<AtomFeedItem>().ToList();
+            Eq("2020-01-02T00:00:00Z", items[0].PublishedDateString); // issued wins over created
+            Eq("2020-01-03T00:00:00Z", items[0].UpdatedDateString);
+            Eq("2020-01-01T00:00:00Z", items[1].PublishedDateString); // created as last resort
+        }
+
+        [TestMethod]
         public void TestAtomParseAdobe()
         {
             var feed = (AtomFeed)FeedReader.ReadFromFile("Feeds/AtomAdobe.xml").SpecificFeed;
@@ -262,7 +300,22 @@ namespace CodeHollow.FeedReader.Tests
             Eq("Feldsperling erstmals häufigster Vogel", item.Title);
             Eq("http://orf.at/stories/2376365/", item.Link);
             Eq("Chronik", item.DC.Subject);
+            Eq(null, item.Content);
             Eq("2017-01-23T20:51:06+01:00", item.DC.DateString);
+        }
+
+        [TestMethod]
+        public void TestRss10ParseNature()
+        {
+            var feed = FeedReader.ReadFromFile("Feeds/Rss10Nature.xml");
+            Eq("Nature", feed.Title);
+
+            var item = (Rss10FeedItem)feed.SpecificFeed.Items.ElementAt(4);
+            var expected = "<p>Nature, Published online: 20 August 2024; <a href=\"https://www.nature.com/articles/d41586-024-02709-7\">doi:10.1038/d41586-024-02709-7</a></p>Iran’s election is an opportunity for Western nations to revive science diplomacy";
+
+            Eq("Iran’s election is an opportunity for Western nations to revive science diplomacy", item.Title);
+            Eq(expected, item.Content?.Trim());
+            Eq(expected, feed.Items.ElementAt(4).Content?.Trim());
         }
 
         [TestMethod]

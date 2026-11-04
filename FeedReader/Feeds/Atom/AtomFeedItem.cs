@@ -98,21 +98,35 @@ namespace CodeHollow.FeedReader.Feeds
             this.Author = new AtomPerson(item.GetElement("author"));
 
             var categories = item.GetElements("category");
-            this.Categories = categories.Select(x => (string)x.Attribute("term")).ToList();
+            this.Categories = categories.Select(GetCategoryName).ToList();
 
             this.Content = item.GetValue("content").HtmlDecode();
             this.Contributor = new AtomPerson(item.GetElement("contributor"));
             this.Id = item.GetValue("id");
 
-            this.PublishedDateString = item.GetValue("published");
+            // Atom 0.3 fallbacks: issued/created -> published, modified -> updated
+            this.PublishedDateString = item.GetValue("published") ?? item.GetValue("issued") ?? item.GetValue("created");
             this.PublishedDate = Helpers.TryParseDateTime(this.PublishedDateString);
 
             this.Rights = item.GetValue("rights");
             this.Source = item.GetValue("source");
             this.Summary = item.GetValue("summary");
 
-            this.UpdatedDateString = item.GetValue("updated");
+            this.UpdatedDateString = item.GetValue("updated") ?? item.GetValue("modified");
             this.UpdatedDate = Helpers.TryParseDateTime(this.UpdatedDateString);
+        }
+
+        /// <summary>
+        /// Human-readable name of an atom category: the optional "label", else the "term" identifier
+        /// (often already readable), else the element text (non-standard feeds). Issue #56.
+        /// </summary>
+        internal static string GetCategoryName(XElement category)
+        {
+            var label = (string)category.Attribute("label");
+            if (!string.IsNullOrEmpty(label))
+                return label;
+            var term = (string)category.Attribute("term");
+            return !string.IsNullOrEmpty(term) ? term : category.Value;
         }
 
         /// <inheritdoc/>

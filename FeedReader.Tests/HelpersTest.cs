@@ -120,6 +120,39 @@ namespace CodeHollow.FeedReader.Tests
             }
         }
 
+        [TestMethod]
+        public void TestUnquotedAttributes()
+        {
+            string input = "<link href=https://shkspr.mobi/blog/feed rel=alternate title=\"RSS Feed.\" type=application/rss+xml>";
+            TestLinkTagParse(input, new HtmlFeedLink("RSS Feed.", "https://shkspr.mobi/blog/feed", FeedType.Rss));
+        }
+
+        [TestMethod]
+        public void TestLinkTagWithLineBreaks()
+        {
+            string input = "<link\n  rel=\"alternate\"\n  type=\"application/rss+xml\"\n  title=\"My Feed\"\n  href=\"https://example.com/feed/\" />";
+            TestLinkTagParse(input, new HtmlFeedLink("My Feed", "https://example.com/feed/", FeedType.Rss));
+        }
+
+        [TestMethod]
+        public void TestParseFeedUrlsRelAlternatePartialWordNotMatched()
+        {
+            Assert.AreEqual(0, Helpers.ParseFeedUrlsFromHtml("<link rel=alternate2 type=\"application/rss+xml\" href=\"https://example.com/feed/\">").Count());
+            Assert.AreEqual(0, Helpers.ParseFeedUrlsFromHtml("<link data-rel=\"alternate\" type=\"application/rss+xml\" href=\"https://example.com/feed/\">").Count());
+        }
+
+        [TestMethod]
+        [DataRow("2024-03-01T13:26:09+00:00", 2024, 3, 1, 13, 26, 9)]
+        [DataRow("2017-01-07T09:00:01-05:00", 2017, 1, 7, 14, 0, 1)]
+        [DataRow("Sat, 07 Jan 2017 10:19:44 -0500", 2017, 1, 7, 15, 19, 44)]
+        [DataRow("2019-04-27T14:25:30Z", 2019, 4, 27, 14, 25, 30)]
+        // ponytail: offset-less strings ("2020-01-01") parse as machine-local time, so they're left out to keep this TZ-independent
+        public void TestDateTimeParse(string input, int year, int month, int day, int hour, int minute, int second)
+        {
+            var res = Helpers.TryParseDateTime(input);
+            Assert.AreEqual(new DateTime(year, month, day, hour, minute, second), res);
+        }
+
         private static void TestLinkTagParse(string input, HtmlFeedLink expectedResult)
         {
             var res = Helpers.GetFeedLinkFromLinkTag(input);
@@ -205,6 +238,16 @@ namespace CodeHollow.FeedReader.Tests
                 new HtmlFeedLink("Front Page", "https://www.theverge.com/rss/front-page/index.xml", FeedType.Rss)
             });
 
+        }
+
+        [TestMethod]
+        public void ParseFeedsShksprMobi()
+        {
+            TestHtmlLinkParse("Html/shksprmobi.html", new List<HtmlFeedLink>()
+            {
+                new HtmlFeedLink("Atom Feed.", "https://shkspr.mobi/blog/feed/atom", FeedType.Atom),
+                new HtmlFeedLink("RSS Feed.", "https://shkspr.mobi/blog/feed", FeedType.Rss),
+            });
         }
 
         private static void TestHtmlLinkParse(string path, IEnumerable<HtmlFeedLink> expectedLinks)

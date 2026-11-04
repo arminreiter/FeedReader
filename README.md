@@ -1,5 +1,5 @@
 # FeedReader
-FeedReader is a .net library used for reading and parsing RSS and ATOM feeds. Supports **RSS 0.91, 0.92, 1.0, 2.0 and ATOM**.
+FeedReader is a .net library used for reading and parsing RSS and ATOM feeds. Supports **RSS 0.91, 0.92, 1.0, 2.0 and ATOM (1.0 and 0.3)**.
 Developed because tested existing libraries do not work with different languages, encodings or have other issues. 
 Library tested with multiple languages, encodings and feeds.
 
@@ -83,3 +83,10 @@ build/pack.sh
 - RSS 1.0 : http://web.resource.org/rss/1.0/spec
 - RSS 2.0 : https://validator.w3.org/feed/docs/rss2.html
 - ATOM    : https://validator.w3.org/feed/docs/atom.html
+
+## Release
+```bash
+dotnet test FeedReader.Tests   # workflow doesn't run tests
+build/release.sh 2.1.0         # needs clean working tree
+```
+Bumps `<Version>` in the csproj, commits, tags `v2.1.0` and pushes. The tag push runs `.github/workflows/release.yml`: pack → nuget.org (Trusted Publishing, repo secret `NUGET_USER`) → GitHub release with the `.nupkg` attached.

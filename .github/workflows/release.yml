@@ -1,0 +1,43 @@
+# Release: `build/release.sh 2.1.0` (bumps csproj, commits, tags v2.1.0, pushes) -> this workflow
+# packs, pushes to nuget.org and creates the GitHub release.
+# NuGet: Trusted Publishing (OIDC), needs repo secret NUGET_USER = nuget.org profile name.
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+  id-token: write # NuGet trusted publishing
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      V: ${{ github.ref_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Tag must match csproj version
+        run: grep -q "<Version>${V#v}</Version>" FeedReader/FeedReader.csproj
+
+      - name: Pack
+        run: build/pack.sh "-p:PackageReleaseNotes=https://github.com/${{ github.repository }}/releases/tag/$V"
+
+      - name: NuGet login
+        uses: NuGet/login@8d196754b4036150537f80ac539e15c2f1028841 # v1.2.0
+        id: nuget
+        with:
+          user: ${{ secrets.NUGET_USER }}
+
+      - name: Push to NuGet
+        run: dotnet nuget push "artifacts/CodeHollow.FeedReader.${V#v}.nupkg" --api-key "${{ steps.nuget.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
+
+      - name: GitHub release
+        run: gh release create "$V" "artifacts/CodeHollow.FeedReader.${V#v}.nupkg" --title "${V#v}" --generate-notes

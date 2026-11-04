@@ -21,8 +21,6 @@ Includes all fixes from 1.2.7.</PackageReleaseNotes>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://raw.github.com/codehollow/FeedReader/master/FeedReader/icon.png</PackageIconUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
@@ -38,6 +36,11 @@ Includes all fixes from 1.2.7.</PackageReleaseNotes>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net462'">
     <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+  <!-- code pages like windows-1251 (issue #49); built into net8.0, native on .NET Framework -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
   </ItemGroup>
   
   <ItemGroup>

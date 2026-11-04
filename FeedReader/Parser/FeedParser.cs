@@ -11,6 +11,15 @@
     /// </summary>
     internal static class FeedParser
     {
+#if !NETFRAMEWORK
+        // .NET Core / .NET 5+ only know utf-*, ascii and iso-8859-1 out of the box. Without this,
+        // feeds declaring e.g. windows-1251 silently fall back to utf-8 in GetEncoding (issue #49).
+        static FeedParser()
+        {
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+        }
+#endif
+
         /// <summary>
         /// Returns the feed type - rss 1.0, rss 2.0, atom, ...
         /// </summary>

@@ -21,9 +21,9 @@
         private const string USER_AGENT_NAME = "User-Agent";
         private const string USER_AGENT_VALUE = "Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0";
 
-        // The HttpClient instance must be a static field
-        // https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/
-        private static readonly HttpClient _httpClient = new HttpClient(
+        // The default HttpClient is a single shared instance (https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/),
+        // created on first download only, so parse-only usage never creates it.
+        private static readonly Lazy<HttpClient> _defaultHttpClient = new Lazy<HttpClient>(() => new HttpClient(
 #if NETCOREAPP
             // recycle pooled connections so a static client picks up DNS changes in long running apps
             new SocketsHttpHandler
@@ -37,10 +37,30 @@
                 AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
             }
 #endif
-        );
+        ));
 
-        // <link ... rel="alternate" ...> with double or single quotes
-        private static readonly Regex LinkTagRegex = new Regex("<link[^>]*rel\\s*=\\s*[\"']alternate[\"'][^>]*>", RegexOptions.Singleline | RegexOptions.IgnoreCase);
+        private static HttpClient _httpClient;
+
+        /// <summary>
+        /// The HttpClient used for all downloads. Set your own instance once at startup, e.g. to use a proxy,
+        /// log requests or change the timeout (default: 100 seconds). Set it to null to use the built-in client again.
+        /// The Accept and User-Agent headers are still added per request.
+        /// </summary>
+        public static HttpClient HttpClient
+        {
+            get { return _httpClient ?? _defaultHttpClient.Value; }
+            set { _httpClient = value; }
+        }
+
+        // html is untrusted input, so cap regex time. Declared before LinkTagRegex: static fields init in order.
+        private static readonly TimeSpan RegexTimeout = TimeSpan.FromSeconds(1);
+
+        // <link ... rel=alternate ...> with double, single or no quotes
+        private static readonly Regex LinkTagRegex = new Regex(
+            // lookbehind rejects data-rel=, lookahead rejects rel=alternate2
+            @"<link[^>]*(?<![\w-])rel\s*=\s*(?:""alternate""|'alternate'|alternate(?=[\s>/]))[^>]*>",
+            RegexOptions.Singleline | RegexOptions.IgnoreCase,
+            RegexTimeout);
 
         /// <summary>
         /// Download the content from an url
@@ -102,7 +122,7 @@
                     request.Headers.TryAddWithoutValidation(ACCEPT_HEADER_NAME, ACCEPT_HEADER_VALUE);
                     request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, userAgent);
                 }
-                return await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
+                return await HttpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
             }
         }
 
@@ -289,12 +309,16 @@
 
             List<HtmlFeedLink> result = new List<HtmlFeedLink>();
 
-            foreach (Match m in LinkTagRegex.Matches(htmlContent))
+            try
             {
-                var hfl = GetFeedLinkFromLinkTag(m.Value);
-                if (hfl != null)
-                    result.Add(hfl);
+                foreach (Match m in LinkTagRegex.Matches(htmlContent))
+                {
+                    var hfl = GetFeedLinkFromLinkTag(m.Value);
+                    if (hfl != null)
+                        result.Add(hfl);
+                }
             }
+            catch (RegexMatchTimeoutException) { }
 
             return result;
         }
@@ -307,9 +331,16 @@
         /// <returns>the value of the attribute, e.g. my title</returns>
         private static string GetAttributeFromLinkTag(string attribute, string htmlTag)
         {
-            // value in double or single quotes
-            var res = Regex.Match(htmlTag, attribute + "\\s*=\\s*(?:\"(?<val>[^\"]*)\"|'(?<val>[^']*)')", RegexOptions.IgnoreCase);
-            return res.Success ? res.Groups["val"].Value : string.Empty;
+            // value in double quotes, single quotes or unquoted (stops at whitespace / tag end, per the HTML spec)
+            try
+            {
+                var res = Regex.Match(htmlTag, "(?<![\\w-])" + attribute + "\\s*=\\s*(?:\"(?<val>[^\"]*)\"|'(?<val>[^']*)'|(?<val>[^\\s>\"'`=<]+))", RegexOptions.IgnoreCase, RegexTimeout);
+                return res.Success ? res.Groups["val"].Value : string.Empty;
+            }
+            catch (RegexMatchTimeoutException)
+            {
+                return string.Empty;
+            }
         }
     }
 }

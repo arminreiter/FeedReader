@@ -19,6 +19,11 @@
         public string Description { get; set; }
 
         /// <summary>
+        /// The "content:encoded" field
+        /// </summary>
+        public string Content { get; set; }
+
+        /// <summary>
         /// All elements starting with "dc:"
         /// </summary>
         public DublinCore DC { get; set; }
@@ -50,6 +55,7 @@
 
             this.About = item.GetAttribute("rdf:about").GetValue();
             this.Description = item.GetValue("description");
+            this.Content = item.GetValue("content:encoded")?.HtmlDecode();
         }
 
         /// <inheritdoc/>
@@ -64,6 +70,9 @@
                 f.PublishingDate = this.DC.Date;
                 f.PublishingDateString = this.DC.DateString;
             }
+
+            if (!string.IsNullOrEmpty(this.Content))
+                f.Content = this.Content;
 
             f.Description = this.Description;
             if (string.IsNullOrEmpty(f.Content))

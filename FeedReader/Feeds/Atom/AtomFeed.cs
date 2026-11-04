@@ -93,9 +93,8 @@
 
             this.Author = new AtomPerson(feed.GetElement("author"));
 
-            // atom categories are empty elements, the name is in the "term" attribute
             var categories = feed.GetElements("category");
-            this.Categories = categories.Select(x => (string)x.Attribute("term")).ToList();
+            this.Categories = categories.Select(AtomFeedItem.GetCategoryName).ToList();
 
             this.Contributor = new AtomPerson(feed.GetElement("contributor"));
             this.Generator = feed.GetValue("generator");
@@ -103,9 +102,10 @@
             this.Id = feed.GetValue("id");
             this.Logo = feed.GetValue("logo");
             this.Rights = feed.GetValue("rights");
-            this.Subtitle = feed.GetValue("subtitle");
+            // Atom 0.3 fallbacks: tagline -> subtitle, modified -> updated
+            this.Subtitle = feed.GetValue("subtitle") ?? feed.GetValue("tagline");
 
-            this.UpdatedDateString = feed.GetValue("updated");
+            this.UpdatedDateString = feed.GetValue("updated") ?? feed.GetValue("modified");
             this.UpdatedDate = Helpers.TryParseDateTime(this.UpdatedDateString);
 
             var items = feed.GetElements("entry");
