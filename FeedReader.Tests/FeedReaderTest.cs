@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace CodeHollow.FeedReader.Tests
 {
+    // every test here downloads live third-party feeds - excluded from the release gate (see release.yml)
     [TestClass]
+    [TestCategory("Network")]
     public class FeedReaderTest
     {
         #region special cases

@@ -28,9 +28,11 @@ jobs:
         run: grep -q "<Version>${V#v}</Version>" FeedReader/FeedReader.csproj
 
       # Debug config on purpose: the test build compiles the library unsigned (see FeedReader.Tests.csproj),
-      # pack.sh builds the signed Release from scratch
+      # pack.sh builds the signed Release from scratch.
+      # Network tests are skipped: live third-party feeds (e.g. nasa.gov) sometimes block GitHub runner ips,
+      # which must not block a release. CI still runs them.
       - name: Test
-        run: dotnet test FeedReader.Tests
+        run: dotnet test FeedReader.Tests --filter "TestCategory!=Network"
 
       - name: Pack
         run: build/pack.sh "-p:PackageReleaseNotes=https://github.com/${{ github.repository }}/releases/tag/$V"
