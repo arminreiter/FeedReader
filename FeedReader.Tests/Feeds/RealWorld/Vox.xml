@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Vox</title>
+	<subtitle type="text">Our world has too much noise and too little context. Vox helps you understand what matters.</subtitle>
+
+	<updated>2026-11-04T10:06:11+00:00</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.vox.com" />
+	<id>https://www.vox.com/rss/index.xml</id>
+	<link rel="self" type="application/atom+xml" href="https://www.vox.com/rss/index.xml" />
+
+	<icon>https://platform.vox.com/wp-content/uploads/sites/2/2024/08/vox_logo_rss_light_mode.png?w=150&amp;h=100&amp;crop=1</icon>
+		<entry>
+			
+			<author>
+				<name>Eric Levitz</name>
+			</author>
+			
+			<title type="html"><![CDATA[Why did voters (finally) hand Trump a historic defeat?]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508952/2026-midterm-elections-democrats-republicans-trump" />
+			<id>https://www.vox.com/?p=508952</id>
+			<updated>2026-11-04T01:55:28-05:00</updated>
+			<published>2026-11-04T01:55:00-05:00</published>
+			<category scheme="https://www.vox.com" term="Midterm Elections 2026" /><category scheme="https://www.vox.com" term="Politics" />
+							<summary type="html"><![CDATA[On May 3, 2016 — the night Donald Trump effectively clinched the Republican Party’s presidential nomination for the first time — then-Sen. Lindsey Graham tweeted, “If we nominate Trump, we will get destroyed&#8230;&#8230;.and we will deserve it.” Graham was scarcely alone in voicing such sentiments. Texas Sen. Ted Cruz, former Gov. Jeb Bush, and most political [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="James Talarico smiling. " data-caption="Texas Democratic Senate candidate State Rep. James Talarico greets supporters outside Whataburger on October 23, 2026 in Austin, Texas. Talarico won big Tuesday night. | Sergio Flores/Getty Images" data-portal-copyright="Sergio Flores/Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301210318.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	Texas Democratic Senate candidate State Rep. James Talarico greets supporters outside Whataburger on October 23, 2026 in Austin, Texas. Talarico won big Tuesday night. | Sergio Flores/Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph"><br>On May 3, 2016 — the night Donald Trump effectively clinched the Republican Party’s presidential nomination for the first time — then-Sen. Lindsey Graham <a href="https://x.com/LindseyGrahamSC/status/727604522156228608">tweeted</a>, “If we nominate Trump, we will get destroyed&#8230;&#8230;.and we will deserve it.”</p>
+
+<p class="wp-block-paragraph">Graham was scarcely alone in voicing such sentiments. Texas Sen. <a href="https://abcnews.com/Politics/ted-cruz-disaster-republicans-trump-nominee/story?i">Ted Cruz,</a> former Gov. <a href="https://transcripts.cnn.com/show/cnnt/date/2016-04-28/segment/02">Jeb Bush</a>, and most political analysts said much the same thing. After all, how could nominating an unpopular, profane, and authoritarian reality star — with more expertise in <a href="https://www.usatoday.com/story/news/politics/elections/2016/06/09/donald-trump-unpaid-bills-republican-president-laswuits/85297274/">stiffing contractors</a> than formulating policies — lead a major political party to anything but ruin? </p>
+
+<p class="wp-block-paragraph">On Tuesday night, the reckoning that Graham had prophesied finally arrived, just a decade behind schedule.</p>
+
+<p class="wp-block-paragraph">As of this writing, the Democratic Party appears all but certain to <a href="https://www.nytimes.com/interactive/2026/11/03/us/elections/results-needle-senate-house-forecast.html">win nine of the cycle’s top 10 Senate battleground states,</a> including perennial bastions of Republicanism like Kansas, Texas, and South Carolina. And Democrats are favored to prevail in the 10th battleground (Alaska), while winning at least 255 House seats. Then there’s an 11th race almost no one saw coming (Mississippi) that is heading down to the wire. The party’s share of the national congressional vote isn’t entirely clear. But many <a href="https://x.com/SeanTrende/status/2117814894988763256?a=YBwnMLryTZkk8axrCn4&amp;s=20">analysts expect</a> it to be the largest that either party has won since the 1970s.</p>
+
+<p class="wp-block-paragraph">Among the many Republicans felled by this “blue tsunami” was Graham’s own sister, Darline, whom Trump <a href="https://www.foxnews.com/politics/massive-upset-andrews-downs-trump-backed-graham-ruby-red-south-carolina">handpicked</a> as the GOP’s nominee in South Carolina, after Lindsey died earlier this year. </p>
+
+<p class="wp-block-paragraph">From one angle, these results are astonishing. We have not seen a wave this large in half a century. And every previous post-2016 election cast doubt on whether such a Democratic rout was even possible. After all, Democrats won a national landslide in the 2018 midterms, but nevertheless <a href="https://www.nbcnews.com/politics/elections/2018-senate-election-results-n932546">failed to gain Senate control,</a> as red-state electorates still proved largely unwilling to back Democratic candidates.</p>
+
+<p class="wp-block-paragraph">Conventional wisdom held that the nationalization of elections — and polarization of voters — had brought <a href="https://www.vox.com/politics/462912/trump-authoritarianism-democrats-moderation">an end to the era</a> when idiosyncratic Democratic candidates could compete in overwhelmingly Republican states.</p>
+
+<p class="wp-block-paragraph">No longer. Tuesday’s results look like precisely what many expected in early 2016, before Trump proved himself more politically formidable than most of his critics had imagined.</p>
+
+<p class="wp-block-paragraph">All of which raises the question: Why now? Why did Trump manage to provoke an epochal rebuke from American voters in 2026, but not in preceding elections?</p>
+
+
+
+<h2 class="wp-block-heading"><strong>It’s partly “the economy, stupid”</strong></h2>
+
+<p class="wp-block-paragraph">The most plausible answer is, to quote the legendary Democratic consultant James Carville, “the economy, stupid.”</p>
+
+<p class="wp-block-paragraph">As 2016 made clear, the American electorate didn’t consider Trump’s illiberalism or inexperience as disqualifying as mainstream elites did. And some believed that the business executive would be well-suited to manage the economy, or at least, bring about a measure of welcome economic change. </p>
+
+<p class="wp-block-paragraph">For much of his first term, Trump appeared to validate this impression, presiding over low inflation and full employment. In December 2019, a <a href="https://www.cnn.com/2019/12/20/politics/cnn-poll-economy-2020-matchups">CNN poll</a> found voters more satisfied with the US economy than they’d been in nearly two decades. (Of course, 2020 would bring economic upheaval, but many Americans didn’t consider Trump culpable for the pandemic.) </p>
+
+<p class="wp-block-paragraph">Trump’s apparent economic efficacy put a floor beneath his approval and the GOP’s electoral performances during term one. And it made him a somewhat more credible anti-inflation candidate in 2024.&nbsp;</p>
+
+<p class="wp-block-paragraph">Upon reelection, however, Trump <a href="https://www.vox.com/politics/502567/trump-iran-gas-prices-republican-midterm-convention">showed less than zero interest</a> in containing the cost of living. Rather, he actively pushed up prices by<a href="https://www.vox.com/politics/489397/inflation-prices-iran-war-tariffs-trump"> imposing large tariffs</a> on most imported goods and triggering a <a href="https://www.vox.com/politics/502567/trump-iran-gas-prices-republican-midterm-convention">global energy crisis</a> with his war in Iran.&nbsp;</p>
+
+<p class="wp-block-paragraph">The latter proved particularly consequential. Between February (when the war began) and Election Day, Americans’ <a href="https://www.vox.com/politics/502567/trump-iran-gas-prices-republican-midterm-convention">energy costs skyrocketed</a> along with the <a href="https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls">Democrats’ polling advantage.</a></p>
+
+<h2 class="wp-block-heading"><strong>The whole “authoritarian nightmare” thing also mattered</strong></h2>
+
+<p class="wp-block-paragraph">Although the economic context is likely the biggest single driver of the GOP’s belated reckoning, it is not sufficient to explain it. The 2026 economy isn’t great. But it also isn’t a total disaster. America’s inflation rate is a bit under 4 percent; in November 2022, when Joe Biden suffered a <a href="https://www.vox.com/policy-and-politics/23357154/2022-midterm-elections-guide">much smaller</a> midterm rebuke, it was over <a href="https://www.bls.gov/opub/ted/2022/consumer-price-index-up-7-1-percent-over-the-year-ended-november-2022.htm">7 percent.</a> Our nation’s unemployment rate, meanwhile, sits at 4.2 percent; in November 2010, it was nearly 10 percent, yet the GOP won a smaller share of the national vote than Democrats apparently did Tuesday night.</p>
+
+<p class="wp-block-paragraph">To explain the scale of the GOP’s drubbing then, we can’t rely on material factors alone.&nbsp;</p>
+
+<p class="wp-block-paragraph">It is true that Trump has been an illiberal demagogue from the moment he <a href="https://www.nbcnews.com/news/latino/donald-trump-announces-presidential-bid-trashing-mexico-mexicans-n376521">launched his candidacy in 2015</a>. And of course, he incited an insurrectionary riot <a href="https://www.vox.com/policy-and-politics/2021/1/6/22217657/us-capitol-breach-trump-rally-presidential-election">on Capitol Hill in 2021</a> without squandering his political viability.</p>
+
+<p class="wp-block-paragraph">Nevertheless, the cruel and authoritarian character of Trump’s political project was more naked over the past two years than ever before. The first Trump administration did not <a href="https://www.vox.com/politics/475199/ice-shooting-renee-good-trump-white-nationalist-memes-dhs-dol">tweet out white nationalist</a> slogans from federal agency accounts on a regular basis. More critically, it did not ramp up interior immigration enforcement <a href="https://www.vox.com/today-explained-newsletter/495434/tex-july-ice-shootings">to the degree</a> that the second Trump White House has.</p>
+
+<p class="wp-block-paragraph">The indiscriminate nature of ICE enforcement over the past two years <a href="https://www.nbcnews.com/politics/2026-election/poll-latino-voters-reject-trumps-immigration-policies-detail-personal-rcna602061">alienated many Latino voters</a>, who had warmed to Trump in 2024. A recent <a href="https://archive.ph/o/MuhXZ/https://www.documentcloud.org/documents/28718943-nbc-news-telemundo-survey-final/">NBC News/Telemundo poll</a> found that 65 percent of Latino voters disapproved of ICE, while nearly a quarter said they personally knew someone who was detained or deported over the past two years. On Tuesday night, <a href="https://x.com/CarinZissis/status/2117853637632266417?a=wCyo9MtqbY7adXPT8Lw&amp;s=20">Latino counties</a> swung massively against Republicans.</p>
+
+<p class="wp-block-paragraph">Meanwhile, Trump’s willingness to <a href="https://www.vox.com/politics/474637/ice-shooting-minnesota-renee-nicole-good-trump">condone ICE agents</a>’ killing of <a href="https://www.vox.com/politics/476592/alex-pretti-ice-shooting-trump-noem-bovino">two US citizens</a> — combined with his broader assaults on <a href="https://www.vox.com/politics/464649/trump-immigration-ice-raids-chicago-democracy">civil liberties</a> and <a href="https://www.vox.com/politics/506837/corruption-trump-midterms-democrats-agenda">government integrity</a> — may have energized his opposition to an unprecedented extent.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The costs of Trumpism could linger</strong></h2>
+
+<p class="wp-block-paragraph">It is still unclear whether the GOP will pay a lasting price for its Faustian bargain with Trump. In early 2016 — before he himself <a href="https://www.reuters.com/world/us/us-senator-lindsey-graham-passes-away-2026-07-12/">became a Trump toady</a> — Lindsey Graham <a href="https://www.cbsnews.com/news/face-the-nation-transcripts-march-20-2016-kasich-sanders-graham">predicted</a> that a Trump nomination would not only cost the Republicans the 2016 election but “destroy the party for decades to come.”</p>
+
+<p class="wp-block-paragraph">There is little chance that the GOP will be politically irrelevant for a generation. But precisely how it will wriggle out of the corner that Trump has led it into remains to be seen. The party plainly needs to distinguish its brand from the president’s. Yet its remaining elected officials are overwhelmingly from deeply pro-Trump jurisdictions. And unlike <a href="https://www.heraldtribune.com/story/news/2010/08/18/bush-bashing-from-both-sides-in-midterm-election-fight/28962216007/?gnt-cfr=1&amp;gca-cat=p&amp;gca-uir=false&amp;gca-epti=z114425u116325e002810v114425&amp;gca-ft=204&amp;gca-ds=sophi">George W. Bush after 2008</a>, Trump is unlikely to quietly abide his party disowning him.&nbsp;</p>
+
+<p class="wp-block-paragraph">Whatever the future brings, Republicans will not soon forget a loss of this magnitude. Tuesday’s results are unlikely to cure the GOP of its taste for illiberal demagogy. But the next GOP leader may hesitate before launching new trade (or actual) wars, winking at neo-Nazis, or letting federal agents execute American citizens.</p>
+
+<p class="wp-block-paragraph">The political costs of Trumpism were, in fact, exceptionally high. It just took 10 years for the bill to come due.&nbsp;</p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Rachel Cohen</name>
+			</author>
+			
+			<title type="html"><![CDATA[The two issues that finally brought down Susan Collins]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508884/susan-collins-election-senate-midterms-2026-politics" />
+			<id>https://www.vox.com/?p=508884</id>
+			<updated>2026-11-04T05:06:11-05:00</updated>
+			<published>2026-11-04T00:43:00-05:00</published>
+			<category scheme="https://www.vox.com" term="Midterm Elections 2026" /><category scheme="https://www.vox.com" term="Politics" />
+							<summary type="html"><![CDATA[Democrats won a critical US Senate seat on Tuesday, as Maine Republican Sen. Susan Collins conceded her long-held seat to Democratic challenger Troy Jackson just after midnight.&#160; Collins, who has been serving for nearly 30 years, has for years been able to beat back rivals in her increasingly blue state, where residents valued her ability [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="Susan Collins, left, and Troy Jackson, right, stand at podiums on a stage, with a blue backdrop." data-caption="Sen. Susan Collins (R-ME) and Democratic candidate for Senate Troy Jackson are seen during their debate in Bangor, Maine, on October 15, 2026. | Charly Triballeau/AFP via Getty Images" data-portal-copyright="Charly Triballeau/AFP via Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/gettyimages-2299863874.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	Sen. Susan Collins (R-ME) and Democratic candidate for Senate Troy Jackson are seen during their debate in Bangor, Maine, on October 15, 2026. | Charly Triballeau/AFP via Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph">Democrats won a critical US Senate seat on Tuesday<strong>,</strong> as Maine Republican Sen. Susan Collins conceded her long-held seat to Democratic challenger Troy Jackson just after midnight.<strong>&nbsp;</strong></p>
+
+<p class="wp-block-paragraph">Collins, who has been serving for nearly 30 years, has for years been able to beat back rivals in her increasingly blue state, where residents valued her ability to bring home federal funds and buck her Republican Party when it seemed to count. Her ability to win even against unfavorable conditions has earned her the reputation of being something of a “unicorn” in national politics.</p>
+
+<p class="wp-block-paragraph">This year, however, she could not escape the long shadow President Donald Trump cast over her state. Collins was the only Republican senator up for reelection in a state Trump lost in 2024, and a <a href="https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/">late October poll from Marist</a> found just 42 percent of likely Maine voters approved of the president’s performance, while 58 percent disapproved. A Fox News poll from August <a href="https://www.bangordailynews.com/2026/08/12/politics/elections/new-poll-maine-us-senate-race/">found that more than half</a> of Mainers felt Collins voted with Trump too often.</p>
+
+
+
+<p class="wp-block-paragraph">While Collins did have some notable breaks with Trump — including voting to convict him after January 6 and to stop his Canadian tariffs — she lacked good answers on Mainers’ rising costs.</p>
+
+<p class="wp-block-paragraph">In the Marist poll, 46 percent of likely Maine voters said their family finances had gotten worse over the past year. The cost of living was also the <a href="https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-me-poll-crosstabs.html">top issue for Mainers in the final Times/Siena poll</a> before the election, released this week, with 51 percent of voters trusting Jackson on it, compared with 44 percent for Collins.&nbsp;</p>
+
+<p class="wp-block-paragraph">Collins’s slide could also be seen in the polls over the past few months. The Times/Siena survey had her up <a href="https://sri.siena.edu/2026/09/24/nytimes-siena-poll-of-likely-voters/">49 to 46</a> percent in September, with Jackson leading in the latest one, 51 to 45. Collins’s favorability also dropped 3 points in that time.</p>
+
+<p class="wp-block-paragraph">Two other issues shaped the race in Maine.</p>
+
+<p class="wp-block-paragraph">One was abortion. While nationally reproductive rights played a much lower-profile role compared to 2024 and the 2022 midterms, with candidates running far fewer ads on the subject, Maine was a notable exception. As <a href="https://www.vox.com/policy/503317/susan-collins-abortion-maine-midterms-politics-reproductive-rights-roe-v-wade">Vox reported in September</a>, abortion rights was the second biggest focus of campaign ads in the state, after Trump and healthcare. Planned Parenthood made its biggest ad buy of the 2026 cycle there against Collins, and a super PAC aligned with Senate Democrats spent 41 percent of its TV, streaming, and digital money in Maine on abortion-related ads.</p>
+
+<p class="wp-block-paragraph">The logic was that it was the first time Collins would face voters since the overturning of <em>Roe v. Wade, </em>and despite identifying as pro-choice, her Senate vote was pivotal in confirming Brett Kavanaugh to the Supreme Court. A spokesperson for Planned Parenthood Votes told me in September that abortion is “the number one negative in Maine voters’ mind,” even <a href="https://www.nytimes.com/interactive/2026/07/01/polls/times-pph-siena-maine-poll-crosstabs.html">as fewer than half a percent</a> of Mainers would call it their top issue. It didn’t help that Collins doubled down on her vote for Kavanaugh this past summer, saying she <a href="https://www.youtube.com/watch?v=8g_GCsZU5jM">did not regret it</a>.</p>
+
+<p class="wp-block-paragraph">Throughout the campaign, Democrats made a point of emphasizing that Collins continued to confirm anti-abortion judges, as recently as this fall. While historically Maine voters have given Collins a pass on certain votes because she’s been skilled at bringing home federal dollars, advocates bet that they could convince some voters that Collins’s Kavanaugh vote revealed something important about her character and trustworthiness. One of Planned Parenthood’s ads featured a woman who voted for Collins <a href="https://www.facebook.com/PlannedParenthoodAction/videos/1031608903096749/">pledging</a> to “not make the same mistake twice.”&nbsp;</p>
+
+<p class="wp-block-paragraph">The second major issue to shape the race was healthcare costs, <a href="https://www.vox.com/policy/508136/healthcare-republicans-medicaid-gop-midterms-aca-healthinsurance-premiums">one of the biggest issues</a> facing Republicans nationally this cycle. Some Republicans warned last year that their party would face backlash in the midterms for gutting Medicaid, with even Trump warning his party to avoid going “too crazy” on cost-cutting.</p>
+
+
+
+<p class="wp-block-paragraph">Republicans are facing blowback for the party’s vote last year to gut Medicaid <a href="https://www.cbo.gov/publication/61570">by roughly $1 trillion</a> over the next decade, a move that the Congressional Budget Office estimates will leave more than 7 million Americans without health insurance by 2034. Though Collins ultimately voted against the One Big Beautiful Bill Act, she helped the package get to the Senate floor. When defending herself against attacks that she shared responsibility for Medicaid’s gutting, she pointed to her advocacy for including in OBBBA a new $50 billion rural healthcare fund. But critics said that the new fund does not offset the Medicaid cuts, which are estimated to strip $137 billion from rural healthcare systems.&nbsp;</p>
+
+<p class="wp-block-paragraph">“Sen. Collins is like an arsonist who helped set the fire, and then she wants credit for bringing a cup of water to put it out,” Troy Jackson <a href="https://www.yahoo.com/news/politics/articles/troy-jackson-survived-debates-susan-214451762.html">said in their October debate</a>.&nbsp;</p>
+
+<p class="wp-block-paragraph">And it’s not just Mainers on Medicaid who are worried about healthcare costs. Employer healthcare plans are expected to rise next year by more than 8 percent, and <a href="https://www.kff.org/health-costs/2026-employer-health-benefits-survey/">a KFF annual employer survey</a> found the average American worker is paying more than $600 more toward a family plan this year than in 2025. An <a href="https://www.aarp.org/government-elections/maine-election-poll-2026/?cmp=RDRCT-MEPOLL-100126">AARP Maine poll from October</a> found that 80 percent of voters age 50 and older said the cost of healthcare would factor into their vote. Jackson led by 3 percentage points among all voters in that survey, though Collins was ahead by 9 points among those 50 and older.</p>
+
+<p class="wp-block-paragraph"></p>
+
+<p class="wp-block-paragraph"></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Andrew Prokop</name>
+			</author>
+			
+			<author>
+				<name>Benjy Sarlin</name>
+			</author>
+			
+			<title type="html"><![CDATA[A massive blue wave just hit America. Here&#8217;s what it could bring next.]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508927/midterms-blue-wave-democrats-win-texas" />
+			<id>https://www.vox.com/?p=508927</id>
+			<updated>2026-11-04T01:04:50-05:00</updated>
+			<published>2026-11-04T00:35:00-05:00</published>
+			<category scheme="https://www.vox.com" term="Midterm Elections 2026" /><category scheme="https://www.vox.com" term="Politics" />
+							<summary type="html"><![CDATA[Voters just ushered the United States into the post-Trump era. The ballots are still being counted, and key races are still being called, but here’s the short version of the midterm election: It’s a blue tsunami. Democrats looked set to take full control of Congress; they flipped crucial seats and won state-level offices where they’d [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="A crowd of excited people cheering." data-caption="Supporters of Democrat senatorial candidate James Talarico react to early election results during a midterm election night watch party at Long Center for the Performing Arts in Austin, Texas, on November 3, 2026. | Ronaldo Schemidt/AFP via Getty " data-portal-copyright="Ronaldo Schemidt/AFP via Getty " data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/GettyImages-2302969054.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	Supporters of Democrat senatorial candidate James Talarico react to early election results during a midterm election night watch party at Long Center for the Performing Arts in Austin, Texas, on November 3, 2026. | Ronaldo Schemidt/AFP via Getty 	</figcaption>
+</figure>
+<p class="wp-block-paragraph">Voters just ushered the United States into the post-Trump era.</p>
+
+<p class="wp-block-paragraph">The ballots are still being counted, and key races are still being called, but here’s the short version of the midterm election: It’s a blue tsunami.</p>
+
+<p class="wp-block-paragraph">Democrats looked set to take full control of Congress; they flipped crucial seats and won state-level offices where they’d barely been expected to compete. If anything, their performance was significantly stronger than expected — even after weeks of polls showing the party surging, and President Donald Trump’s approval cratering, and mounting outrage over gas prices, the war in Iran, healthcare, and corruption. It’s quite possible this is the biggest midterm wave since Watergate, and it appears likely to send large Democratic majorities to Congress.</p>
+
+<p class="wp-block-paragraph">What happens now? The historic shift that voters signaled Tuesday goes beyond just the raw numbers. Simply put, Americans are waking up in a different country today — one in which voters have decisively repudiated Trump’s party and opened up a new era of American politics.</p>
+
+<p class="wp-block-paragraph">Democrats won back groups they lost in 2024, like Latino voters, and made previously unheard-of incursions into MAGA territory, including rural and working-class white communities.&nbsp;Democrats even won the governorship of Texas — Texas!</p>
+
+<p class="wp-block-paragraph">One potential takeaway is that a new version of a Democratic coalition could be emerging. A more realistic way to see this, though, might be as the latest and loudest affirmation that the politics of the post-Trump era remain highly unsettled, with no voting group or state to be taken for granted by either party.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The incoming class of leaders is a diverse portrait of America in the 21st century, and a picture of the kind of nation that Trump has explicitly been trying to roll back. Georgia elected the nation’s first Black woman governor; New Hampshire will send the first openly gay man to the Senate; and (as of this writing) the would-be first Muslim senator was leading in Michigan. In Kansas, a megachurch pastor won Evangelical voters to the Democratic ticket, sending the state’s first non-Republican to the Senate in nearly a century. In an election where the closing Republican arguments often relied on tribal fears around <a href="https://www.vox.com/politics/507163/midterms-actually-islamophobia-omar-elsayed">religion</a>, <a href="https://www.nbcnews.com/politics/immigration/president-donald-trump-urges-minnesotans-fight-back-somali-immigrants-rcna602431">country of origin,</a> <a href="https://www.vox.com/politics/507005/texas-senate-race-talarico-paxton-masculinity?ueid=23463b99b62a72f26ed677cc556c44e8&amp;utm_source=Sailthru&amp;utm_medium=email&amp;utm_campaign=Caught%20Up%209.11.26">masculinity</a>, and <a href="https://www.vox.com/politics/504097/democrats-trans-attack-ads-talarico-peltola-kaptur">gender identity</a>, the results were a loud rebuke to those impulses.&nbsp;</p>
+
+<p class="wp-block-paragraph">Taken together, the night was also, as election analyst Sean Trende put it, “<a href="https://x.com/SeanTrende/status/2117816515739193591">a complete collapse of the Republican coalition</a>.” Democrats will now have a chance to carry out the mandate they’ve been handed —&nbsp;on affordability, corruption, and foreign policy —&nbsp;and convince voters they can still be trusted with greater power in 2028 and beyond. How Trump responds, and the Republicans who must now balance their loyalty to a vengeful 80-year-old lame duck against a partywide emergency heading into the presidential cycle, will be one of the defining stories of the rest of his term.&nbsp;</p>
+
+<p class="wp-block-paragraph">Here’s the story of the historic shift so far, and what it will mean for the country going forward.</p>
+
+<h2 class="wp-block-heading">The House: Democrats are poised to take control in a major way</h2>
+
+<p class="wp-block-paragraph">Many of the Democrats’ newly won House seats could be hard for the party to defend in future elections, but for now the results could have <a href="https://www.vox.com/politics/508533/democrats-midterms-2026-agenda-plans-congress">major implications for how the chamber governs</a>.</p>
+
+<p class="wp-block-paragraph">Both Democrats and Republicans have struggled with narrow majorities in recent years, in which a small handful of members can threaten to withhold their votes and tank legislation or procedural votes. The new Democratic majority is big enough to avoid that problem in the next session. But it also might diminish the influence of the energetic new progressive wing, since their votes would not necessarily be crucial to pass certain measures.&nbsp;</p>
+
+<p class="wp-block-paragraph">From the very first votes counted in Indiana and Kentucky, in districts that Trump had won by double digits in 2024, it was clear that Republicans’ small House of Representatives majority would likely soon be washed out by a blue wave. But as the night went on, the size of the wave became more and more clear. Democrats were flipping Republican seats across the country, without any particular geographic or regional pattern to speak of.&nbsp;</p>
+
+<p class="wp-block-paragraph">They flipped Republican-held seats in Kentucky, Pennsylvania, New Jersey, and North Carolina. They looked favored to win more in Arizona, Michigan, Iowa, and Virginia.&nbsp;</p>
+
+<p class="wp-block-paragraph">Democratic House challengers with mainstream political experience, like Scranton Mayor Paige Cognetti (PA-08), won. So did Democrats with military experience, like Navy helicopter pilot Rebecca Bennett (NJ-07). And so did Democrats with more against-the-grain backgrounds, like farmer Jamie Ager (NC-11).</p>
+
+<p class="wp-block-paragraph">The exact size of the Democratic majority wasn’t immediately clear as races remain uncalled, but forecasts on Tuesday night suggested it would <a href="https://www.nytimes.com/interactive/2026/11/03/us/elections/results-house.html">likely be enormous</a> — something like a 60-vote edge over the GOP in the chamber.</p>
+
+<p class="wp-block-paragraph">More votes means more leeway for leadership, which could perhaps give the party&#8217;s growing progressive faction, or a soon-to-be considerable moderate wing, less leverage to make demands and more freedom to vote “no” when their conscience or local politics calls for it.&nbsp;</p>
+
+<h2 class="wp-block-heading">The Senate: Some very weak Republican candidates helped Democrats beat all expectations</h2>
+
+<p class="wp-block-paragraph">Control of the Senate will be hugely important in <a href="https://www.vox.com/politics/508533/democrats-midterms-2026-agenda-plans-congress">shaping the final two years</a> of Trump’s presidency — because a Democratic majority would make it much harder for him to confirm controversial nominees to administration positions. It would also likely make it impossible for him to confirm a new Supreme Court justice, should a vacancy arise.</p>
+
+<p class="wp-block-paragraph">Furthermore, if Democrats hope to achieve their ambitions next time they control the presidency (which they hope will be in 2029), they’d have to start building a Senate majority now — only a third of the chamber is up in each cycle.</p>
+
+
+
+<p class="wp-block-paragraph">The problem for Democrats was that political analysts had long believed the Senate map they faced this year would be forbiddingly difficult. They’d have to hold their own seats, including contests in swing states like Georgia and Michigan.&nbsp;</p>
+
+<p class="wp-block-paragraph">To win a majority, though, Democrats then had to pick off at least four Republican seats, and some of those would have to be in deep red territory, which meant breaking into states Trump won big, such as Ohio and Texas.</p>
+
+<p class="wp-block-paragraph">In doing this, they didn’t just benefit from a blue wave. They also got help of a kind from a surprising source: President Donald Trump, whose choices and actions <a href="https://www.semafor.com/article/11/02/2026/how-donald-trumps-iron-grip-on-the-republican-party-put-the-senate-in-play">often seemed designed to</a> put safe GOP-held seats at risk.&nbsp;</p>
+
+<p class="wp-block-paragraph">Trump’s attacks on Sen. Thom Tillis (R-NC) spurred the veteran legislator to retire. Trump backed a primary challenge to Sen. John Cornyn (R-TX) that resulted in a flawed and scandal-plagued candidate, state attorney general Ken Paxton, becoming the GOP nominee. And when Sen. Lindsey Graham (R-SC) died suddenly in July, Trump decided to appoint his sister Darline, a political neophyte, to his seat.</p>
+
+<p class="wp-block-paragraph">On Tuesday, Republicans lost all three of those races. In North Carolina, the state’s popular Democratic governor, Roy Cooper, easily triumphed over former RNC chair Michael Whatley. In Texas, 37-year-old state rep. James Talarico became a nationally viral phenomenon with his faith-inflected message and defeated Paxton soundly. And in South Carolina, a pediatrician named Annie Andrews defeated Darline Graham in one of the night’s most shocking results.&nbsp;</p>
+
+<p class="wp-block-paragraph">But the GOP’s Senate woes were broader. In Ohio, a state Trump won three times, former Sen. Sherrod Brown (D) defeated Sen. Jon Husted (R), who Trump had appointed to fill JD Vance’s Senate seat once Vance became vice president. In Iowa, Republicans had viewed their candidate for the open Senate seat, Rep. Ashley Hinson, as one of the stars of the cycle, believing she did everything right. It wasn’t enough. She, too, went down to defeat, to state Rep. Josh Turek (D). In Maine, Sen. Susan Collins (R), who had long defied political gravity, finally lost to former state sen. Troy Jackson (D).</p>
+
+<p class="wp-block-paragraph">And yet another shocker ensued in Kansas, a state that has not elected a Democrat to the Senate since 1932. Methodist megachurch pastor <a href="https://www.vox.com/politics/507577/kansas-senate-adam-hamilton-religion-democrat-christian-methodist-roger-marshall">Adam Hamilton</a> (D) led Sen. Roger Marshall (R-KS), a one-term incumbent whose campaign was dogged by reports that, back when he was a doctor, he’d <a href="https://www.nytimes.com/2026/09/08/us/politics/roger-marshall-obgyn-doctor-debts.html">sued patients</a> for unpaid bills.</p>
+
+<p class="wp-block-paragraph">All in all, depending on how uncalled races in Mississippi and Alaska turn out, Democrats could end up with somewhere around 55 Senate seats — an impressive majority, particularly in a year when they weren’t expected to come anywhere close to that.</p>
+
+<h2 class="wp-block-heading">Governors: Democrats get their chance to lead</h2>
+
+<p class="wp-block-paragraph">Even with significant majorities, Democrats will be limited in how much they can check Trump and enact their agenda in Congress.&nbsp;</p>
+
+<p class="wp-block-paragraph">But at the state level, Democrats won major gubernatorial victories around the country, giving them an immediate opportunity to pursue policies that could directly affect hundreds of millions of Americans —&nbsp;including in states that they haven’t led in decades.&nbsp;</p>
+
+<p class="wp-block-paragraph">In Georgia, Keisha Lance Bottoms is set to become the first Black governor, and the first Black woman to govern any state in America, after defeating Republican businessman Rick Jackson. In Texas, Gina Hinojosa rode a backlash over data centers to beat Greg Abbott, long considered one of the most politically successful and influential conservative governors in the country.</p>
+
+<p class="wp-block-paragraph">In Iowa, Democratic state auditor Rob Sand, who <a href="https://www.vox.com/podcasts/502169/iowa-2026-midterms-rob-sand-josh-turek">campaigned as a pragmatist</a>, won the governorship. And in Ohio, Democratic public health expert Amy Acton overcame a last-ditch ad from Republican Vivek Ramaswamy that featured her own mother —&nbsp;who lost custody of a then-12-year-old Acton after her husband was indicted for sexual abuse —&nbsp;to handily win her election.&nbsp;</p>
+
+<p class="wp-block-paragraph">A bright spot for Republicans is Florida, where Rep. Byron Donalds overcame a surprisingly tough race against Democrat David Jolly and is set to become the state’s first Black governor.&nbsp;</p>
+
+<h2 class="wp-block-heading">Latino voters gave Democrats a second chance</h2>
+
+<p class="wp-block-paragraph">Underlying some of the night’s most surprising results were powerful demographic currents — for the GOP, not unlike a wave quickly pulling back from the beach. Trump had shocked Democrats over the last 10 years by making steady gains with Latino voters, first with conservative-leaning Cuban Americans in Florida, and then in 2024 with Mexican American and Puerto Rican voters around the country moving right over concerns about inflation and border security.&nbsp;</p>
+
+<p class="wp-block-paragraph">But Trump’s economic mismanagement and aggressive deployment of ICE helped spur a backlash from early on in his second term that culminated in a massive swing back toward Democrats in key races. From <a href="https://x.com/mariadfq/status/2117804489638064564?s=20">South and Central Florida</a> to <a href="https://x.com/tbonier/status/2117806230454563155?s=20">rural Kansas</a> to the Rio Grande Valley, Latino voters again favored Democrats, helping power candidates to big wins.</p>
+
+<p class="wp-block-paragraph">Nowhere was the impact greater than in Texas, where <a href="https://www.nbcnews.com/politics/2026-elections/texas-senate-results#exit-polls">exit polls</a> found Talarico won 64 percent of Latino voters in his race against Paxton, giving Democrats a statewide victory after decades of failure. Trump had won 55 percent of the Latino vote <a href="https://www.cnn.com/election/2024/exit-polls/texas/general/president/0">just two years earlier</a>.&nbsp;</p>
+
+<h2 class="wp-block-heading">The gerrymanders didn’t work. In fact, they sparked a backlash.</h2>
+
+<p class="wp-block-paragraph">Republicans, egged on by Trump, had a last-ditch plan to save the House: Break from the usual once-a-decade redistricting process and gerrymander seats wherever state Republicans had the ability to do so. They got an added boost from the Supreme Court, which <a href="https://www.vox.com/politics/487363/supreme-court-louisiana-callais-gerrymandering-alito-voting-rights-act">overturned decades of Voting Rights Act protections for minority-majority districts</a> in its <em>Callais</em> decision.&nbsp;</p>
+
+<p class="wp-block-paragraph">It didn’t work. While the new maps gave Republicans an advantage on paper, the scale of the blue wave was so big that it quickly overpowered it. In Florida, Democrats herded into Trumpier districts appeared to all survive their contests. And in North Carolina, the situation was even worse for Republicans, with the former state house speaker who masterminded the new maps, Tim Moore, <a href="https://www.newsobserver.com/news/politics-government/election/article317913886.html">trailing</a> in his <em>own</em> Congressional run with nearly all votes counted in what was expected to be a solidly Republican seat.&nbsp;</p>
+
+<p class="wp-block-paragraph">It may have backfired in ways that went beyond the House results. There was a <a href="https://www.pbs.org/newshour/politics/black-voter-turnout-appears-high-on-election-day-according-to-voter-coalition">massive surge in Black turnout</a> across the South, where voting rights have long been a touchstone issue, that spilled into statewide races. Democratic Senate and gubernatorial candidates not only won by wide margins in Georgia and North Carolina, but put up shockingly competitive fights in Mississippi and Louisiana Senate races that only came on the national radar late in the cycle.&nbsp;&nbsp;</p>
+
+<h2 class="wp-block-heading">The most important takeaway: Voters are really, really, really mad&nbsp;</h2>
+
+<p class="wp-block-paragraph">Americans chose to overlook some pretty glaring concerns with Trump when they sent him back to office in 2024, but they did so with a clear mandate: Get prices down, secure the border, and bring a positive resolution to conflicts abroad.&nbsp;</p>
+
+<p class="wp-block-paragraph">It’s clear now he blew it,&nbsp;and they aren’t happy.&nbsp;</p>
+
+<p class="wp-block-paragraph">The scale of voter outrage was the story of the night, just two years after Democrats faced its wrath and arguably far more intense this time. Sixty-two percent of voters in <a href="https://www.nbcnews.com/politics/2026-elections/exit-polls">preliminary exit polls</a> disapproved of his job as president, 53 percent of them strongly; 62 percent said he prioritized his own interests more than the country’s; 65 percent believed he had made the economy worse; and 44 percent said their own financial situation had worsened since his election.</p>
+
+<p class="wp-block-paragraph">It’s a complete loss of confidence, and a sharp contrast to his —&nbsp;in comparison now, modest —&nbsp;rebuke in the 2018 and even 2020 election, when voters still credited his economic stewardship even as they rebelled against his personal behavior and broader agenda.&nbsp;</p>
+
+<p class="wp-block-paragraph">Both parties now know just how poisonous the current Trump brand is. The question is whether Democrats can offer a compelling alternative vision now and —&nbsp;above all, after years of anti-incumbent sentiment —&nbsp;prove they can deliver tangible results. Even on a historic night, a majority of voters told pollsters they held an unfavorable view of the Democratic Party.&nbsp;</p>
+
+<p class="wp-block-paragraph"></p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Christian Paz</name>
+			</author>
+			
+			<title type="html"><![CDATA[The Christian left is here]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508840/james-talarico-adam-hamilton-win-christian-left-religious-democrats" />
+			<id>https://www.vox.com/?p=508840</id>
+			<updated>2026-11-04T01:59:23-05:00</updated>
+			<published>2026-11-03T23:40:00-05:00</published>
+			<category scheme="https://www.vox.com" term="Congress" /><category scheme="https://www.vox.com" term="Life" /><category scheme="https://www.vox.com" term="Midterm Elections 2026" /><category scheme="https://www.vox.com" term="Politics" /><category scheme="https://www.vox.com" term="Religion" />
+							<summary type="html"><![CDATA[The Democratic Senate victories in Texas and Kansas on Tuesday night were about more than just turning two red states blue — which, to be sure, is historic enough. They also signal the rise of a new kind of Democratic politics in the late Trump era —&#160;a more explicitly religious one.&#160; In Texas, James Talarico, [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="Photos of Hamilton and Talarico." data-caption="" data-portal-copyright="Jim Vondruska; Brandon Bell/Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/Talarico_Hamilton_Vox_blue.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+		</figcaption>
+</figure>
+<p class="wp-block-paragraph">The Democratic Senate victories in Texas and Kansas on Tuesday night were about more than just turning two red states blue — which, to be sure, is historic enough.</p>
+
+<p class="wp-block-paragraph">They also signal the rise of a new kind of Democratic politics in the late Trump era —&nbsp;a more explicitly religious one.&nbsp;</p>
+
+<p class="wp-block-paragraph">In Texas, James Talarico, the Presbyterian seminarian, was beating Republican state Attorney General Ken Paxton by 20 points at the time of the call. And in Kansas, which hasn’t elected a Democrat to the Senate in nearly a century, the Rev. Adam Hamilton, <a href="https://www.vox.com/politics/507577/kansas-senate-adam-hamilton-religion-democrat-christian-methodist-roger-marshall">the chief pastor of the state’s largest church</a>, has defeated incumbent Sen. Roger Marshall.</p>
+
+<p class="wp-block-paragraph">They belong to a rising tide in American politics: the emergence of a religious left that marries moderate or liberal strains of Christianity with Democratic policy and political priorities. Their wins are the first major victories of this movement in the 2026 cycle.</p>
+
+
+
+<p class="wp-block-paragraph">Meanwhile, in nearby Iowa, two more Democratic Christians — the Lutheran minister Sarah Trone Garriott and Presbyterian minister Lindsay James — are also leading in their races to flip Republican-held House seats.</p>
+
+<p class="wp-block-paragraph">Back when Talarico won his bid to be the Democratic nominee for US Senate in Texas, I wrote that he and his opponent <a href="https://www.vox.com/politics/481483/james-talarico-stakes-texas-primary-latino-white-black-democratic-party">represented two drastically different visions of American Christianity</a>. Talarico had emerged victorious from a bitter primary battle, betting that the <a href="https://www.vox.com/politics/481483/james-talarico-stakes-texas-primary-latino-white-black-democratic-party">best way to do Democratic politics in a red state</a> was to expand the base by reclaiming religion, forgiving political rivals, and loving neighbors, even if they voted differently. He <a href="https://www.vox.com/politics/480894/james-talarico-jasmine-crockett-faith-love-healing-texas-voters-senate-primary-democratic-religion-left">basically preached on the campaign stump</a> — even saying in a recent interview that Paxton is a “<a href="https://www.youtube.com/watch?v=YbATdCoYZcc">child of God</a>.” And he was doing this as a pastor-in-training, representing a dying breed of mainline Protestant Christians as a Presbyterian.</p>
+
+<p class="wp-block-paragraph">He was facing off against an avatar of the dominant brand of American Christianity today. A hard-line conservative evangelical Christian, Paxton represented the kind of religious politics that has made Christianity synonymous with conservative Republicanism<em> </em>in the modern era.&nbsp;</p>
+
+<p class="wp-block-paragraph">Paxton had been a leading figure in the Texas GOP’s crusade to infuse the public square with a more conservative-tinged vision of Christianity, arguing last year that “in Texas classrooms, we want the Word of God opened, the Ten Commandments displayed, and prayers lifted up. … Our nation was founded on the rock of Biblical Truth, and I will not stand by while the far-left attempts to push our country into the sinking sand.”</p>
+
+<p class="wp-block-paragraph">It’s a more <a href="https://www.vox.com/politics/488587/trump-religious-right-christian-nationalism-biblical-christian-nation-religion-prayer-250">authoritarian-flavored</a> variety of Christianity — some might call it <a href="https://www.vox.com/politics/501931/christian-nationalism-nationalist-white-authoritarian-backslide-robert-jones-prri-christianity">Christian nationalism</a> — and it created a perfect foil with the <a href="https://www.nytimes.com/2026/03/08/opinion/james-talarico-christian-democrat-texas-primary.html">more tolerant, inclusive vision of Christianity</a> that Talarico was preaching.</p>
+
+
+
+<p class="wp-block-paragraph">Hamilton did the same throughout his stronger-than-expected campaign. On the trail, as he’s done for decades as the pastor of the United Methodist Church of the Resurrection in the Kansas City suburbs, he spoke <a href="https://www.vox.com/politics/507577/kansas-senate-adam-hamilton-religion-democrat-christian-methodist-roger-marshall">frequently about his faith journey and belief in Christ</a>, about loving one another, and about repairing relationships ruined by Trump-era politics. Also like Talarico, he doubled down on kitchen-table issues and listed off all the ways the Trump administration had hurt Americans.</p>
+
+<p class="wp-block-paragraph">But he also told me that he viewed himself as part of this national movement of pastors, ministers, and religious people squaring off against “Christian nationalism” and showing Christians and non-Christians alike how biblical values and Jesus’ teachings might lead someone to a Democratic policy worldview.</p>
+
+<p class="wp-block-paragraph">“I want Democrats to be able to talk about faith and to do so in a way that reflects a difference from what you see in Christian nationalism,” Hamilton told me in early October when I visited Kansas for <a href="https://www.vox.com/politics/507577/kansas-senate-adam-hamilton-religion-democrat-christian-methodist-roger-marshall">a profile of him</a>. “Our faith reflects the ideas of justice and fairness. Two thousand verses in the Bible talk about poverty and taking care of the poor. That’s not what you hear from Christian nationalists. But it is what you hear from Christians who are Democrats.”</p>
+
+<p class="wp-block-paragraph">He told me last month that, whether he won or lost, he hoped people of faith who happen to be Democrats continue to play an active role in politics — for the sake of the Democratic Party and for the sake of Christianity. “Thoughtful Christian people have something important to add to the conversation,” he said.</p>
+
+<p class="wp-block-paragraph">Both Hamilton and Talarico faced criticism of their religious message. Detractors, including President Donald Trump and Vice President JD Vance, as well as average evangelical and conservative Christians, took issue with their theological interpretations, the state of their denominations, or the authenticity of their faiths (some attacks were less sophisticated, such as simply calling Talarico or Hamilton “woke”).</p>
+
+<p class="wp-block-paragraph">But their wins suggest at least that enough moderate Christians, and independent-minded Republicans, were persuaded by their articulations of their faith to side with these religious candidates. That should be an encouraging sign for Democrats moving forward to continue to expand the faith lane and think about the faith angle in future elections and coalition building.&nbsp;</p>
+
+<p class="wp-block-paragraph">To remain competitive in future congressional and presidential contests, some analysts argue, Democrats must continue to make inroads with the religious vote. “At some point you’ve got to say to the loud secular left, ‘Hey, we appreciate you and we want your votes, of course, but you’re going to vote for us anyway. We need the votes of Catholics and mainline Protestants and those kinds of people,” the religion and politics scholar Ryan Burge <a href="https://www.vox.com/politics/507577/kansas-senate-adam-hamilton-religion-democrat-christian-methodist-roger-marshall">told me</a>.&nbsp;</p>
+
+<p class="wp-block-paragraph">Historically, though, the establishment class — the donors, activists, and organizers who power campaigns — has not always been comfortable appealing to these religious groups, since they often have priorities at odds with those of the base. But Talarico’s win in deep-red country shows what can be gained if they can get more comfortable with a new kind of Democrat.</p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Caitlin Dewey</name>
+			</author>
+			
+			<title type="html"><![CDATA[What a blue wave could actually do]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/today-explained-newsletter/508653/blue-wave-midterms-election-day-2026" />
+			<id>https://www.vox.com/508653/tex-nl-site-template</id>
+			<updated>2026-11-03T17:00:14-05:00</updated>
+			<published>2026-11-03T17:00:14-05:00</published>
+			<category scheme="https://www.vox.com" term="Midterm Elections 2026" /><category scheme="https://www.vox.com" term="Politics" /><category scheme="https://www.vox.com" term="Today, Explained newsletter" />
+							<summary type="html"><![CDATA[This story appeared in&#160;Today, Explained,&#160;a daily newsletter that helps you understand the most compelling news and stories of the day.&#160;Subscribe here. This was already a record-breaking election, even before the polls opened today.&#160; Campaigns and their allies poured record sums into political advertising. A near-record number of lawmakers are retiring or running for a different [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="A line of people stand with their back to the camera, with a tall “Vote here” sign at the head of the line." data-caption="People line up to cast their ballots at a polling location in Charlotte, North Carolina, on November 3, 2026. | A.M. Stewart/AFP via Getty Images" data-portal-copyright="A.M. Stewart/AFP via Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/gettyimages-2302878345.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	People line up to cast their ballots at a polling location in Charlotte, North Carolina, on November 3, 2026. | A.M. Stewart/AFP via Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph"><em>This story appeared in&nbsp;Today, Explained,&nbsp;a daily newsletter that helps you understand the most compelling news and stories of the day.&nbsp;<a href="https://www.vox.com/today-explained-newsletter" target="_blank" rel="noreferrer noopener">Subscribe here</a></em>.</p>
+
+<p class="wp-block-paragraph">This was already a record-breaking election, even before the polls opened today.&nbsp;</p>
+
+<p class="wp-block-paragraph">Campaigns and their allies <a href="https://www.vox.com/america-actually/506329/republicans-fundraising-midterms-advantage">poured record sums</a> into political advertising. A <a href="https://www.kpbs.org/news/politics/2026/09/16/a-tumultuous-congressional-primary-season-closes-with-record-departures-and-defeats">near-record number</a> of lawmakers are retiring or running for a different office, creating <a href="https://ballotpedia.org/Annual_Congressional_Competitiveness_Report%2C_2026?">an unusually high number</a> of open seats. And President Donald Trump’s approval ratings are approaching record lows, giving Democrats a rare opportunity: the chance to <a href="https://www.vox.com/today-explained-newsletter/503866/2026-midterms-republicans-trump-democratic-senate-map">retake control of both chambers</a> of Congress by cutting through some <a href="https://www.vox.com/politics/507577/kansas-senate-adam-hamilton-religion-democrat-christian-methodist-roger-marshall">traditionally</a> <a href="https://www.vox.com/politics/507005/texas-senate-race-talarico-paxton-masculinity">Republican</a> <a href="https://www.vox.com/politics/504593/trump-beef-prices-ranchers-iowa-kansas-polls">states</a>.&nbsp;</p>
+
+<p class="wp-block-paragraph">Both parties are framing the election in existential terms. Democrats have cast the midterms as <a href="https://www.vox.com/politics/506401/midterms-actually-can-democrats-blue-wave-stop-trump">an emergency brake on Trump</a> and his agenda. And Republicans have characterized the election <a href="https://www.vox.com/politics/508270/republican-beat-midterm-polls-blue-wave">as a sort of firewall</a> against far-left activists.</p>
+
+<p class="wp-block-paragraph">Unsurprisingly, given those stakes, turnout has been historic. More than <a href="https://election.lab.ufl.edu/early-vote/2026-early-voting/">59 million</a> Americans voted early this year, which — you guessed it! — completely blew past the midterm early-vote record set by the 2022 elections.&nbsp;</p>
+
+<p class="wp-block-paragraph">In-person turnout looked similarly brisk in many places Tuesday, including <a href="https://www.wsj.com/livecoverage/midterm-election-results-2026-latest-updates/card/georgia-expects-record-midterm-turnout-iM9qoYbBZrYBqwiT1TIT">Georgia</a>, <a href="https://floridapolitics.com/archives/828962-northeast-florida-counties-near-50-turnout-on-election-day-morning/">Florida</a> and <a href="https://themainemonitor.org/maine-poised-record-midterm-turnout/">Maine</a>. But it could be days or even weeks before we have full results, especially in very close races. And it will take much longer to figure out what those results mean for the rest of us.</p>
+
+<h2 class="wp-block-heading">Go a little deeper</h2>
+<div class="datawrapper-embed"><a href="https://datawrapper.dwcdn.net/ORb73/1/" target="_blank" rel="noopener noreferrer">View Link</a></div>
+<p class="wp-block-paragraph">Democrats are <a href="https://www.wvxu.org/2026-10-27/democrats-maintain-momentum-in-race-for-congress-per-new-npr-pbs-news-marist-poll">really jazzed</a> — almost <a href="https://www.axios.com/2026/10/28/2026-election-democrats-house-midterm-results">queasily so</a> — by the hope that they could retake Congress. Polls <a href="https://www.vox.com/today-explained-newsletter/508327/2026-midterms-polls">have consistently favored</a> their candidates in the House, and they need to pick up four new seats to take control of the Senate.&nbsp;</p>
+
+<p class="wp-block-paragraph">Even if that happens, however, there are limits to what even a very large “blue wave” can achieve. Voters who expect their new lawmakers to ride into DC on white stallions and raze Trump’s agenda might find the next two years…a bit disappointing.&nbsp;</p>
+
+<p class="wp-block-paragraph">How disappointing? Well: My colleague Andrew Prokop recently <a href="https://www.vox.com/politics/508533/democrats-midterms-2026-agenda-plans-congress">asked congressional aides and outside experts what a Democratic majority could do over the rest of Trump’s second term</a>. They “painted a picture of a grim slog akin to trench warfare.” Oof.</p>
+
+<p class="wp-block-paragraph">Much of that prediction is simple mathematics. Most legislation requires 60 Senate votes to overcome a filibuster. And even the most optimistic predictions put Democrats short of that 60-vote threshold, which means that most bills they want to pass will need to attract (via compromise or political strong-arming) some number of Republican senators.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Contrary to my recollections of <em>Schoolhouse Rock!</em>, however, Congress’s powers don’t begin and end with the passing of bills. A majority in either chamber would give Democrats more leverage over congressional investigations and the ability to issue subpoenas. And if Dems win the Senate, they’d gain control over the confirmation process for senior administration officials and federal judges.&nbsp;</p>
+
+<p class="wp-block-paragraph">Subpoena power could allow for more robust investigations into things like <a href="https://www.vox.com/podcasts/493284/trump-witkoff-crypto-bank-world-liberty-financial-uae">the Trump family’s crypto investments</a> and Trump’s <a href="https://www.vox.com/the-logoff-newsletter-trump/492197/trump-east-wing-ballroom-600-million-price-tag-taxpayers">fundraising for the White House ballroom</a>. That Senate majority, meanwhile, would let Democrats block Trump’s nominees for judgeships and administration posts — a tantalizing prospect, since lower courts <a href="https://www.vox.com/politics/504529/supreme-court-missouri-gerrymander-lower-courts-are-crazy">are growing alarmingly partisan</a> and two of the conservatives on the Supreme Court are approaching 80 years old.&nbsp;&nbsp;</p>
+
+<p class="wp-block-paragraph">On Tuesday, Senate Minority Leader Chuck Schumer <a href="https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?entryId=137808649&amp;id=137782085">told reporters</a> that he would not expect a Democratic victory to persuade Trump to “change his ways.” </p>
+
+<p class="wp-block-paragraph">“But we&#8217;re going to fight Trump tooth and nail…no matter what he does,” Schumer said. </p>
+
+<h2 class="wp-block-heading">One link for later</h2>
+
+<p class="wp-block-paragraph"><strong>➨ Take a moment to yourself. </strong>Today seems like as good a day as any to embrace the calming art of meditation! Set three minutes aside, find a quiet room, and focus on your breath. If you need a little more guidance, try a tool like <a href="https://www.calm.com/">Calm</a>, <a href="https://www.tenpercent.com/">Ten Percent Happier</a>, <a href="https://www.headspace.com/">Headspace</a>, or the <a href="https://www.uclahealth.org/programs/marc/free-programming-resources/ucla-mindful-app">UCLA Mindful app</a>.</p>
+
+<h2 class="wp-block-heading">Before you go… </h2>
+
+<ul class="wp-block-list">
+<li><strong>Did you know…</strong>that polar bears in Norway are absolutely thriving, despite the literal disappearance of their habitat? Researchers think <a href="https://www.vox.com/climate/476873/polar-bears-ice-climate-change-svalbard-research-seals-biodiversity">the bears have learned to adapt</a> their diets.</li>
+
+
+
+<li><strong>Today’s trivia:</strong> What dog breed has been beloved by both England’s Queen Victoria and American metal singer Rob Zombie? (You can find this and other brain puzzles <a href="https://link.vox.com/click/6a46cfd46352b082500e86fe/aHR0cHM6Ly93d3cudm94LmNvbS8yMTUyMzIxMi9jcm9zc3dvcmQtcHV6emxlcy1mcmVlLWRhaWx5LXByaW50YWJsZT91ZWlkPWM3Mzg0ZDJhYzRmZDQ0YzcyZDI4OGQ4N2YxZjM5NDlh/664389def568f1a4620aa3aeC7b08b10b">in Vox’s daily crossword</a>. Look for the answer in tomorrow’s edition.)</li>
+
+
+
+<li><strong>Yesterday’s trivia:</strong> Yesterday we asked you which US pharmaceutical giant was founded by a Union army veteran after the Civil War. That would be Eli Lilly, which still bears the name of <a href="https://www.ismanet.org/ISMA/Resources/e-Reports/7-24-25/Colonel_Eli_Lilly.aspx">its 19th-century founder</a>.&nbsp;</li>
+</ul>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Allie Volpe</name>
+			</author>
+			
+			<title type="html"><![CDATA[Your guide to coping with election anxiety]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/even-better/379814/election-anxiety-stress-coping-strategies-control-community" />
+			<id>https://www.vox.com/?p=379814</id>
+			<updated>2026-11-03T15:00:12-05:00</updated>
+			<published>2026-11-03T15:00:00-05:00</published>
+			<category scheme="https://www.vox.com" term="2024 Elections" /><category scheme="https://www.vox.com" term="Advice" /><category scheme="https://www.vox.com" term="Even Better" /><category scheme="https://www.vox.com" term="Health" /><category scheme="https://www.vox.com" term="Life" /><category scheme="https://www.vox.com" term="Mental Health" /><category scheme="https://www.vox.com" term="Midterm Elections 2026" /><category scheme="https://www.vox.com" term="Politics" />
+							<summary type="html"><![CDATA[Editor’s note, November 3, 2026, 3 pm ET: This article was originally published in 2024 and has been updated for the 2026 midterm elections. If you’re heading to the polls today, you may be among the 30 percent of American voters who say the country’s political situation is the biggest source of stress in their [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="An illustration of a woman with a shocked, overwhelmed expression staring at a phone. Information flows from her phone to her eyes, blowing her hair back." data-caption="If you’re dealing with election-related stress, you’re not alone." data-portal-copyright="" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2024/10/GettyImages-1292263121.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	If you’re dealing with election-related stress, you’re not alone.	</figcaption>
+</figure>
+<p class="wp-block-paragraph"><em><strong>Editor’s note, November 3, 2026, 3 pm ET:</strong> This article was originally published in 2024 and has been updated for the 2026 midterm elections.</em></p>
+
+<p class="has-text-align-none wp-block-paragraph">If you’re heading to the polls today, you may be among the 30 percent of American voters who say the country’s political situation is the <a href="https://changeresearch.com/research/2026/2026-04-02-the-political-climate-is-americans-top-stressor">biggest source of stress</a> in their lives right now, according to one poll. This unease makes sense, given how high the stakes are: Americans are voting for representatives who will make decisions about <a href="https://www.vox.com/politics/508364/gen-z-midterms-elections-culture-war-economic-issues">affordability</a>, <a href="https://www.vox.com/policy/508136/healthcare-republicans-medicaid-gop-midterms-aca-healthinsurance-premiums">healthcare</a>, and <a href="https://www.nytimes.com/2026/10/27/opinion/editorials/inflation-war-corruption-trump-editorial.html">holding President Donald Trump to account</a>.</p>
+
+<p class="has-text-align-none wp-block-paragraph">Elections are common wellsprings of anxiety because they’re rife with uncertainty, says <a href="https://dhrosmarin.com/">David H. Rosmarin</a>, the founder of the <a href="https://www.centerforanxiety.org/">Center for Anxiety</a>. You’re unsure of the outcome, and unsure of what life may look like for you under a new administration, especially when the difference between the two choices is undeniably vast. Some of the proposed policies may threaten people’s safety and freedoms, resulting in even more anxiety. Research shows  <a href="https://www.cambridge.org/core/journals/politics-and-the-life-sciences/article/is-political-anxiety-different-than-general-anxiety/3C6E2D98040CADBA778EFFF20E5B140E">political anxiety can impact</a> people who aren’t generally anxious otherwise.</p>
+
+<p class="has-text-align-none wp-block-paragraph">There are key differences between <a href="https://www.vox.com/even-better/24140293/anxiety-catchall-unpleasant-emotion-emotional-intelligence-mental-health">everyday anxiety</a> and election-related anxiety. Sometimes, generalized anxiety is rooted in <a href="https://dictionary.apa.org/cognitive-distortion">cognitive distortions</a>, or inaccurate beliefs or fears about the world. But election-based distress isn’t necessarily based on hypotheticals or overreactions, says licensed clinical social worker <a href="https://www.evercurioustherapy.com/">Jneé Hill</a>. “A lot of the concerns,” she says, “are very real and very valid based on people&#8217;s real lives and lived experiences.”</p>
+
+
+
+<p class="has-text-align-none wp-block-paragraph">While election anxiety may feel large and existential, mental health experts agree it can be managed. As you wait for results to roll in, here are some strategies that can help quiet your mind.</p>
+
+<h2 class="wp-block-heading">Get to the root of your anxiety</h2>
+
+<p class="has-text-align-none wp-block-paragraph">To properly address your fears, you first need to specify what triggers your feelings of anxiety beyond not wanting the other side to win, Rosmarin says. What specific policies or issues impact you the most? It might be reproductive rights, the economy, immigration, or war abroad. Identify your top three issues, Rosmarin says, and try to share these worries with family, a friend, a supportive online community, or mental health professional.&nbsp;</p>
+
+<p class="has-text-align-none wp-block-paragraph">Knowing the causes of your fears can help you anticipate and gird against them. Research shows when <a href="https://pubmed.ncbi.nlm.nih.gov/35501144/">people were asked</a> whether they expected to be stressed about the election the following day, they reported worse moods and were more likely to rate their physical health as poor, regardless of political affiliation, age, or gender.&nbsp;</p>
+
+<figure class="wp-block-pullquote"><blockquote><p>Knowing the causes of your fears can help you anticipate and gird against them.</p></blockquote></figure>
+
+<p class="has-text-align-none wp-block-paragraph">You might also ask yourself why these issues concern you, Hill says. If reproductive rights are your top priority, maybe your deeper fears center on being unable to receive lifesaving medical treatments. “A lot of this,” Hill says, “comes down to safety.”&nbsp;</p>
+
+<p class="has-text-align-none wp-block-paragraph">However, you can anticipate your stress and get in front of it. There’s a thought exercise you can do ahead of encountering something upsetting to slow your thoughts and talk yourself through your anxiety, says <a href="https://chass.ncsu.edu/people/sdneuper/">Shevaun Neupert</a>, a psychology professor at North Carolina State University and author of a study on <a href="https://www.sciencedaily.com/releases/2023/03/230322104504.htm">how to combat anticipatory election stress</a>. Take a few minutes and think about why you’re stressed, how it’s related to the election, and why this contentious issue exists in the first place. “It really is focused on mental engagement, perspective-taking,” Neupert says, “trying to understand where did this thing come from? Why is it here? And to fully understand it rather than trying to solve it.”</p>
+
+<p class="has-text-align-none wp-block-paragraph">This exercise is effective, Neupert believes, because it helps reduce uncertainty. For instance, you may come to realize a source of your anxiety is a decades-long ongoing foreign policy issue. While this realization doesn’t minimize the problem or provide a solution, sometimes it’s helpful to put the issue into its proper context and perspective. “If we feel like we have a better understanding of a problem or of a stressor or we have a clearer sense of it,” Neupert says, “it&#8217;s not as scary.”</p>
+
+<h2 class="wp-block-heading">Take control where you can</h2>
+
+<p class="has-text-align-none wp-block-paragraph"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4276319/">Uncertainty about the future</a> is a major source of general anxiety and can lead to a sense of powerlessness. With so much out of an individual’s control, it’s important to focus on areas where you do have authority. You can, of course, vote, volunteer as a poll worker, and get involved with get out the vote or activist organizations in your community.&nbsp;</p>
+
+<p class="has-text-align-none wp-block-paragraph">You can also try setting goals in your work or social life that have nothing to do with politics but still might help you feel like you’re making progress in some small way, Neupert says. Maybe that goal is to finish a book over the next two weeks or to make dinner every night with your family. “That goes a long way to boosting perceptions of control,” she says.</p>
+
+<p class="has-text-align-none wp-block-paragraph">Then, consider how you’ll assert autonomy over your life after the election, especially if your candidate doesn&#8217;t win. You can plan on leaning heavily on your friends or distracting yourself with hobbies. “There might be situations that are beyond my control,” Rosmarin says, “but that doesn&#8217;t take away my power of choice in my life, in my limited way.”</p>
+
+<h2 class="wp-block-heading">Lean into community</h2>
+
+<p class="has-text-align-none wp-block-paragraph">Feeling supported by friends and family <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4274570/">helps combat anxiety</a>, so try to avoid spending the next few weeks in isolation. Instead, reach out to friends and family (preferably discussing anything but politics) or attend a safe and affirming community event. Find people who fill you with calm instead of dread and with whom you can talk things through and problem-solve. “What can be helpful,” clinical psychologist <a href="https://drkrystallewis.com/">Krystal Lewis</a> says, “is feeling all emotions, feeling all the feels, with people who are going through it as well.”&nbsp;</p>
+
+
+
+<p class="has-text-align-none wp-block-paragraph">These communities will be especially crucial post-election, too, Lewis says. Find people or groups where you can process strong emotions, whether that’s a dance class or a volunteer organization.</p>
+
+<h2 class="wp-block-heading">Care for your mind and body</h2>
+
+<p class="has-text-align-none wp-block-paragraph">In the days leading up to the election and immediately following, especially if a clear winner is not apparent, stressed-out Americans should pay extra care to their minds and bodies. This might mean curbing your consumption of news and social media. While experts say everyone’s tolerance will be different, it’s important to pay attention to how they feel while watching or reading the news and social media. Engage enough to stay informed, but step away if you feel overwhelmed, Lewis says. “Unless that&#8217;s your job,” she says, “there&#8217;s no need to be that consumed with it.”</p>
+
+<p class="has-text-align-none wp-block-paragraph">Rosmarin suggests turning off your phone and avoiding all news at least 30 minutes before you go to sleep, including on election night. “You&#8217;ll wake up in the morning, you&#8217;ll find out what the story is. You watching it isn&#8217;t going to change anything,” he says. “The only thing it&#8217;ll change is make you more tired and grumpy the next day.”</p>
+
+<figure class="wp-block-pullquote"><blockquote><p>Engage enough to stay informed, but step away if you feel overwhelmed.</p></blockquote></figure>
+
+<p class="has-text-align-none wp-block-paragraph"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6955623/#S0005">Proper sleep, a healthy diet, and physical activity</a> can ward off anxiety, so experts recommend getting enough to eat, moving a bit, and prioritizing rest. Try going for a walk or hike as <a href="https://www.nature.com/articles/s41598-024-56968-5">exposure to nature can lower stress and anxiety levels</a>. Grounding exercises can also help you calm down. Hill suggests deep breathing from your diaphragm or picking a color and describing objects of that color in your surroundings.</p>
+
+<p class="has-text-align-none wp-block-paragraph">Difficult as it may be, try to incorporate joy however you can, Lewis says. Spend a few minutes each day on pleasurable activities that reduce stress, like listening to music, getting together with friends, or meditation.&nbsp;</p>
+
+<p class="has-text-align-none wp-block-paragraph">Regardless of what happens over the coming days and weeks, remind yourself that your concerns are real, Hill says. What matters is finding coping strategies that work for you — and will continue to be effective no matter the outcome.</p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Eric Levitz</name>
+			</author>
+			
+			<title type="html"><![CDATA[Trump just said he was ending aid to Israel. He might actually mean it.]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508758/trump-israel-aid-midterms-netanyahu" />
+			<id>https://www.vox.com/?p=508758</id>
+			<updated>2026-11-03T15:25:58-05:00</updated>
+			<published>2026-11-03T14:45:00-05:00</published>
+			<category scheme="https://www.vox.com" term="Donald Trump" /><category scheme="https://www.vox.com" term="Israel" /><category scheme="https://www.vox.com" term="Politics" /><category scheme="https://www.vox.com" term="World Politics" />
+							<summary type="html"><![CDATA[President Donald Trump announced Tuesday that the US would soon cut off military aid to Israel. During an Election Day interview with Fox &#38; Friends, Trump said of Israel, “We were giving them $4 billion but it’s cut off at the end of the year.” When asked to explain this position, Trump said that Israel [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="Campaign billboard in Israel depicts Netanyahu and Trump" data-caption="An aerial view shows a campaign billboard depicting Prime Minister Benjamin Netanyahu and President Donald Trump in Tel Aviv, Israel, on October 26, 2026, on the eve of the Israel&#039;s legislative elections. | Jack Guez/AFP via Getty Images" data-portal-copyright="Jack Guez/AFP via Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301637005.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	An aerial view shows a campaign billboard depicting Prime Minister Benjamin Netanyahu and President Donald Trump in Tel Aviv, Israel, on October 26, 2026, on the eve of the Israel's legislative elections. | Jack Guez/AFP via Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph">President Donald Trump announced Tuesday that the <a href="https://x.com/atrupar/status/2117612579161825757?s=46">US would soon cut off military aid to Israel</a>.</p>
+
+<p class="wp-block-paragraph">During an Election Day interview with<em> Fox &amp; Friends</em>, Trump said of Israel, “We were giving them $4 billion but it’s cut off at the end of the year.”</p>
+
+<p class="wp-block-paragraph">When asked to explain this position, Trump said that Israel was a “very successful country” that didn’t need Americans’ money — <em>and</em> that the aid had become an “easy target” for “lunatics like [Democratic Michigan Senate candidate Abdul] El-Sayed” in the midterm elections. Trump also suggested that Israeli Prime Minister Benjamin Netanyahu agreed with this reasoning and supported a cessation of US aid to his country.</p>
+
+<p class="wp-block-paragraph">Of course, Trump says a lot of things. If all of his policy declarations could be taken at face value, then US soldiers would now be patrolling <a href="https://abcnews.com/Politics/trump-palestinians-leave-gaza-us-rebuild/story?id=118463249">the streets of Gaza</a>,<a href="https://abcnews.com/Politics/trump-palestinians-leave-gaza-us-rebuild/story?id=118463249"> </a>while American hoteliers <a href="https://www.vox.com/world-politics/398894/trump-gaza-clean-out-riviera-egypt-jordan-palestinians-netanyahu">redeveloped its coastline</a>.</p>
+
+<p class="wp-block-paragraph">Further, Trump’s remarks Tuesday morning seem to have been ad-libbed. The Israeli Treasury Department reportedly had <a href="https://x.com/SadeYuval/status/2117614995789824154">no knowledge of a supposed joint agreement</a> to end US aid. And existing US law provides Israel with <a href="https://www.nbcnews.com/politics/2026-election/trump-says-us-will-stop-4b-military-aid-israel-end-2026-rcna607210">$3.8 billion in annual funding</a> through 2028.</p>
+
+<p class="wp-block-paragraph">All this said, Trump didn’t pluck his Election Day rant out of thin air. Rather, his remarks actually reflect a prominent strain of thinking among <em>Israeli</em> leaders and security experts. In their view, America’s cash may no longer be worth the political blowback that it invites.</p>
+
+<p class="wp-block-paragraph">Given this Israeli sentiment — and the souring of <a href="https://globalaffairs.org/research/public-opinion-survey/american-favorability-israel-drops-record-low">American public opinion toward Israel</a> — the United States might very well draw down aid in the near future (although, <em>probably</em> not as soon as “the end of the year”).</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The Israeli case against US aid to Israel</strong></h2>
+
+<p class="wp-block-paragraph">During a May interview with <a href="https://www.cbsnews.com/news/netanyahu-us-israel-iran-60-minutes-transcript/"><em>60 Minutes</em></a>, Netanyahu said he would like to “draw down to zero the American financial support, the financial component of the military cooperation that we have.”</p>
+
+<p class="wp-block-paragraph">Amit Halevi, a lawmaker in Israel’s parliament and member of Netanyahu’s party, spelled <a href="https://jewishinsider.com/2025/03/amit-halevi-likud-u-s-aid-israel-heritage-foundation/">out the logic</a> of his position last year. In a pamphlet outlining his vision for the US-Israel relationship, Halevi said US military aid “creates a false narrative of dependency, weakens Israel’s global standing and subjects it to political pressure.” Halevi met with the leadership of the Heritage Foundation — arguably, the GOP’s most influential think tank — in 2025, shortly after Heritage had released its own controversial call for the (<em>very</em> gradual) phasing out of US aid to Israel.</p>
+
+<p class="wp-block-paragraph">Many on the Israeli right believe that such aid compromises Israeli sovereignty. As the retired Israel Defense Forces general Amir Avivi <a href="https://www.breitbart.com/politics/2024/09/05/exclusive-general-amir-avivi-israel-needs-to-be-independent-from-u-s-aid/amp/">told Breitbart in 2024,</a> aid “puts on Israel lots of restrictions,” which prevent it from pursuing its security interests with a free hand. Similar concerns have been voiced by former Israeli Prime Minster <a href="https://en.globes.co.il/en/article-1000813043">Naftali Bennet</a> and ex-Israeli ambassador to Israel Michael Oren.</p>
+
+<p class="wp-block-paragraph">Their argument boils down to two observations:</p>
+
+<ul class="wp-block-list">
+<li>There are many forms of US support that Israel would struggle to do without — but financial aid is not one of them.</li>
+
+
+
+<li>Direct financial aid provokes political blowback in a way that other, more essential forms of US assistance do not.</li>
+</ul>
+
+<p class="wp-block-paragraph">There is evidence for both these points. In 2025, <a href="https://www.vox.com/politics/498295/israel-aid-el-sayed-block-the-bombs-democrats">Israel spent about 7.9 percent of its GDP</a> on the IDF. To sustain its 2025 level of military funding — without American cash — Israel would need to dedicate 8.5 percent of GDP to its military. This might irritate Israel’s taxpayers. But it would scarcely threaten Israel’s ability to pursue whatever foreign policy it sees fit.</p>
+
+<p class="wp-block-paragraph">By contrast, Israel <em>does</em> <a href="https://www.vox.com/politics/498295/israel-aid-el-sayed-block-the-bombs-democrats">need access to American military hardware</a>. It has the money to fund its own military. But to adequately provision it, Israel must be allowed to purchase American-made fighter jets, among myriad other forms of martial technology. And the Israelis would also have a tough time doing without its broad military, diplomatic, and intelligence alliance with the United States.</p>
+
+<p class="wp-block-paragraph">That alliance has attracted some criticism on the <a href="https://www.nytimes.com/2026/11/02/us/politics/democrats-split-israel-michigan.html">American left</a> and <a href="https://www.hudson.org/foreign-policy/tucker-carlson-claims-israel-burden-us-it-reveals-profound-strategic-ignorance-michael-doran">right</a> this year — particularly, after the US partnered with Israel to launch a war against Iran.</p>
+
+<p class="wp-block-paragraph">But Israel’s American critics seem to have found the aid issue uniquely politically potent. Which makes sense: A voter doesn’t need to have any strong opinion about the Israel-Palestine conflict to oppose sending billions of dollars to a wealthy foreign country. Unlike proposals for <a href="https://www.vox.com/politics/498295/israel-aid-el-sayed-block-the-bombs-democrats">an arms embargo or sanctions</a>, cutting off aid speaks directly to Americans’ material interests; that money could be going to US citizens but is flowing to the Israeli military instead.</p>
+
+<p class="wp-block-paragraph">In his Senate race, Michigan Democrat Abdul El-Sayed has tried to tap into this isolationist sentiment, describing his <a href="https://abdulforsenate.com/2026/04/icymi-abdul-el-sayed-appeals-to-republicans-and-america-first-voters-on-fox-news/">plans for slashing aid to Israel</a> — and increasing benefits for US citizens — as an “<a href="https://www.vox.com/america-actually/496953/america-actually-midterms-actually-left-rising-center-falling">America First</a>” agenda.</p>
+
+<p class="wp-block-paragraph">Meanwhile, in a controversial ad, an outside group supporting El-Sayed’s candidacy made this argument in blunter terms, portraying a couple forced to pare back their grocery list, in order to save enough money for “killing Palestinians.”</p>
+
+<figure class="wp-block-embed is-type-rich is-provider-x wp-block-embed-x"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">New <a href="https://x.com/RebellionPac?ref_src=twsrc%5Etfw">@RebellionPac</a> ad dropping in Michigan. We have to suffer here at home, so Israel can get all its wars. That’s why they buy politicians like Mike Rogers. He promised to serve Israel “unconditionally,” but never made that promise to you. <a href="https://t.co/mtgVOyNczg">pic.twitter.com/mtgVOyNczg</a></p>&mdash; Cenk Uygur (@cenkuygur) <a href="https://x.com/cenkuygur/status/2113799606299758984?ref_src=twsrc%5Etfw">October 24, 2026</a></blockquote>
+</div></figure>
+
+<p class="wp-block-paragraph">US aid to Israel is not actually responsible for Americans’ rising grocery bills (although, <a href="https://www.vox.com/politics/504593/trump-beef-prices-ranchers-iowa-kansas-polls">the war in Iran</a> plausibly is). But the broader isolationist argument has wide resonance. In a recent survey from the Chicago Council on Global Affairs, a majority of Americans <a href="https://globalaffairs.org/research/public-opinion-survey/american-favorability-israel-drops-record-low">favored either reducing or ending aid to Israel</a>. And whether or not Trump’s aid comments referred to a solid plan, his political aides swiftly used them to reclaim the “America First” banner from Democrats like El-Sayed.</p>
+
+<figure class="wp-block-embed is-type-rich is-provider-x wp-block-embed-x"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">America First. <a href="https://t.co/RyLif7XuB6">pic.twitter.com/RyLif7XuB6</a></p>&mdash; Trump War Room (@TrumpWarRoom) <a href="https://x.com/TrumpWarRoom/status/2117640602301157511?ref_src=twsrc%5Etfw">November 3, 2026</a></blockquote>
+</div></figure>
+
+<p class="wp-block-paragraph">Faced with these dynamics, it isn’t hard to see how an Israeli leader might think it best to beat a strategic retreat on financial aid.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading"><strong>A phase-out of US aid may be coming, whether Israel likes it or not</strong></h2>
+
+<p class="wp-block-paragraph">To be clear, Israel’s leadership is by no means united in favor of Trump’s impromptu proposal. Indeed, even those who support winding down US aid have insisted that this withdrawal of financial backing must be gradual. And Gadi Eisenkot, the man most likely to become Israel’s next prime minister, is a <a href="https://www.timesofisrael.com/liveblog_entry/eisenkot-assails-netanyahu-demands-answers-after-trumps-military-aid-halt-announcement/">staunch advocate for indefinite US aid</a>. On Tuesday, <a href="https://www.dailysabah.com/world/mid-east/israeli-opposition-slams-netanyahu-over-trumps-decision-to-end-us-aid">Eisenkot assailed Netanyahu</a> for his purported agreement with Trump about winding down such assistance. Both Israeli leaders are currently trying to cobble together a parliamentary majority through alliances with small political parties, after each failed to win such a majority outright in Israel’s recent elections.</p>
+
+
+
+<p class="wp-block-paragraph">Still, it is quite plausible that Netanyahu genuinely told Trump that he was open to phasing out US aid, given the Israeli prime minister’s public remarks on that subject.</p>
+
+<p class="wp-block-paragraph">In any case, authority over US spending ultimately lies with the American people’s elected representatives, not Israeli officials. On the US left, <a href="https://www.c-span.org/clip/us-house-of-representatives/rep-massie-r-ky-introduces-amendment-cutting-33-billion-funding-for-israel/5202920">right,</a> and <a href="https://www.slowboring.com/p/america-should-stop-giving-israel">center</a>, political winds are blowing against aid to Israel. With some of that country’s own leaders and admirers bowing to such gusts, the draw down of American aid to Israel might now be a matter of when, not if.</p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Ian Millhiser</name>
+			</author>
+			
+			<title type="html"><![CDATA[The Supreme Court sounds eager to make you pay for anti-LGBTQ schools]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508784/supreme-court-st-mary-roy-religion-lgbtq" />
+			<id>https://www.vox.com/?p=508784</id>
+			<updated>2026-11-03T14:37:25-05:00</updated>
+			<published>2026-11-03T14:40:00-05:00</published>
+			<category scheme="https://www.vox.com" term="LGBTQ" /><category scheme="https://www.vox.com" term="Life" /><category scheme="https://www.vox.com" term="Politics" /><category scheme="https://www.vox.com" term="Religion" /><category scheme="https://www.vox.com" term="Supreme Court" />
+							<summary type="html"><![CDATA[There was one significant surprise during the Supreme Court’s Tuesday argument in St. Mary Catholic Parish v. Roy, a case asking whether Colorado may require schools that accept state funding to treat LGBTQ families and students the same way they treat anyone else. For a brief moment, Chief Justice John Roberts seemed like he might [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="A crowd of people outside the Supreme Court, one with a large rainbow umbrella in the foreground." data-caption="Protesters for and against transgender athletes competing in women&#039;s sports gather outside the Supreme Court on January 13, 2026, in Washington, DC. | Heather Diehl/Getty Images" data-portal-copyright="Heather Diehl/Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/gettyimages-2256107853.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	Protesters for and against transgender athletes competing in women's sports gather outside the Supreme Court on January 13, 2026, in Washington, DC. | Heather Diehl/Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph">There was one significant surprise during the Supreme Court’s Tuesday argument in <a href="https://www.scotusblog.com/cases/st-mary-catholic-parish-v-roy/"><em>St. Mary Catholic Parish v. Roy</em></a>, a case asking whether Colorado may require schools that accept state funding to treat LGBTQ families and students the same way they treat anyone else. For a brief moment, Chief Justice John Roberts seemed like he might break with his Republican colleagues and uphold Colorado’s policy.</p>
+
+<p class="wp-block-paragraph"><em>St. Mary</em> arises out of a program that provides state-funded preschool to all Colorado children. Families are allowed to choose which school they wish their young child to attend, and <a href="https://www.vox.com/politics/507466/supreme-court-st-mary-roy-religion-lgbtq-discrimination">private religious schools are eligible to participate in this program</a>. But state law also prohibits any school that receives this funding from discriminating on the basis of sexual orientation or gender identity.</p>
+
+<p class="wp-block-paragraph">The plaintiffs include Catholic-identified schools that wish to exclude the children of same-sex couples, but that claim they should nonetheless be funded by Colorado’s taxpayers.</p>
+
+<p class="wp-block-paragraph">In recent years, the Court has followed a consistent pattern in cases that pit religious conservatives against LGBTQ Americans — <a href="https://www.vox.com/politics/499586/supreme-court-religion-republicans-win">religious conservatives always win</a>. As several justices noted during Tuesday’s arguments, the Court’s legal doctrines governing these cases are <a href="https://www.vox.com/politics/507466/supreme-court-st-mary-roy-religion-lgbtq-discrimination">incoherent and often seem to call for illogical results</a>. But the pattern still holds. When a religious conservative seeks an exemption from a state or federal law that prohibits anti-LGBTQ discrimination, this Court gives them the exemption.</p>
+
+
+
+
+
+<p class="wp-block-paragraph">As Roberts pointed out early in the <em>St. Mary </em>argument, these plaintiffs are asking the Court to reach beyond its previous precedents. In <a href="https://www.supremecourt.gov/opinions/21pdf/20-1088_dbfi.pdf"><em>Carson v. Makin</em></a><em> </em>(2022), the Court required Maine to include religious schools in a tuition voucher program that, under Maine law, only funded secular private schools. But Colorado’s program <em>includes</em> religious schools.&nbsp;</p>
+
+<p class="wp-block-paragraph">Colorado is perfectly willing to subsidize Catholic schools. It merely insists that those schools, like all other preschools in Colorado, must treat gay and trans people the same way they treat anyone else if they receive taxpayers’ money. If a Catholic school (or any other religious school, for that matter) does not wish to comply with this condition, it may still operate. It just won’t receive money from the state.</p>
+
+<p class="wp-block-paragraph">Yet, while Roberts’s first questions during Tuesday’s argument suggested that he might consider voting in favor of Colorado, none of his five Republican colleagues appeared open to that position (although Justice Amy Coney Barrett did ask some questions suggesting that she may hand Colorado a narrower loss than the Court’s right flank would prefer). And, by the end of the argument, even Roberts seemed sympathetic to the orthodox Republican position that, when LGBTQ rights conflict with religious conservatism, the religious party wins.&nbsp;</p>
+
+<p class="wp-block-paragraph">This suggests that soon, taxpayers will be required to fund discriminatory institutions, even in states where such discrimination is forbidden by law.</p>
+
+<h2 class="wp-block-heading">The two partisan factions on the Supreme Court live in completely different universes in religion cases</h2>
+
+<p class="wp-block-paragraph">Roberts’s early question aside, one thing that was absolutely clear from Tuesday’s argument is that the Court’s Democratic minority and its Republican majority bring completely different values to the table in cases like <em>St. Mary</em>.</p>
+
+<p class="wp-block-paragraph">All three of the Court’s Democrats expressed concern that, if their Court doesn’t someday draw a line in the sand and say that religious conservatives do not receive literally any accommodation that they ask for in federal litigation, then that will lead to immoral results and prevent important American institutions from functioning.</p>
+
+<p class="wp-block-paragraph">Justice Sonia Sotomayor, for example, asked why, if religious schools are permitted to discriminate against gay people, aren’t they also allowed to discriminate against Black people? What if, for example, someone who sincerely believes that racial segregation is mandated by God opens up a school that excludes Black children?</p>
+
+<p class="wp-block-paragraph">Similarly, Justice Ketanji Brown Jackson asked about a hypothetical school which teaches that only boys, and not girls, should be taught mathematics. Under the plaintiffs’ legal theory in <em>St. Mary</em>, why wouldn’t this school be entitled to an exemption from state laws requiring all schools to teach certain subjects, including math, to all students?</p>
+
+<p class="wp-block-paragraph">Meanwhile, Justice Elena Kagan asked deputy US solicitor general Sarah Harris (the Trump administration, naturally, supports the anti-LGBTQ side in <em>St. Mary</em>) whether ordinary public schools would be subject to a rule requiring states to accommodate the religious beliefs of anti-LGBTQ parents. When Harris indicated that they would, Kagan then asked why the parent of a public school student couldn’t demand that their child be educated in a different classroom than the children of same-sex parents — or demand some other accommodation that public schools would find it very difficult to provide?</p>
+
+<p class="wp-block-paragraph">But the Republican justices dismissed these concerns, with many of them suggesting that religious objectors may demand an exemption from nearly any law. The dominant view among the Court’s Republicans appeared to be that any law that imposes obligations on a religious conservative must survive a rigid legal rule known as “<a href="https://www.vox.com/scotus/391248/porn-supreme-court-free-speech-coalition-paxton-first-amendment">strict scrutiny</a>,” the most skeptical level of review that courts apply in constitutional cases.</p>
+
+<p class="wp-block-paragraph">Nearly all government policies that are subjected to strict scrutiny fail, so, if strict scrutiny applies in cases like <em>St. Mary</em>, that would mean that religious conservatives nearly always prevail. Though, in fairness, Eric Rassbach, the plaintiffs’ lawyer in <em>St. Mary</em>, did suggest that a ban on race discrimination might be the rare law that can be enforced against religious schools. So, under the Republican justices’ approach, religious schools may not be allowed to exclude Black students. But they’d have free rein to violate many other laws.</p>
+
+<p class="wp-block-paragraph">With the exception of Roberts, the only Republican on the Court who seemed open to a more nuanced rule than simply applying strict scrutiny in every case was Barrett. And it’s not like Barrett was particularly sympathetic to the state. </p>
+
+<p class="wp-block-paragraph">Still, Barrett did float a way to decide this case that may be slightly narrower than many of her Republican colleagues’ views. Briefly, Barrett drew a distinction between a school that outright forbids the children of same-sex parents from attending, and a school that allows these children to attend, but only if the parents sign a statement denouncing homosexuality and agreeing to restrictions on their personal conduct — such as never appearing together at the school at the same time, so that no one can see that one of the school’s students has two parents of the same sex.</p>
+
+<p class="wp-block-paragraph">Barrett seemed to suggest that perhaps the Court could uphold Colorado’s ban on absolute exclusion, while simultaneously permitting religious schools to impose these humiliating obligations on same-sex families. As a practical matter, however, it is unclear how this rule would differ from one endorsing total exclusion of gay parents, because what parent would agree to these restrictions?</p>
+
+<p class="wp-block-paragraph">In any event, after Tuesday’s argument, it is hard to imagine the Court handing Colorado, or same-sex parents, anything that resembles a real win. Whether the Court endorses allowing schools to exclude same-sex parents entirely, or embraces something like Barrett’s rule, the practical result is likely to be the same. Religious conservatives get what they want; LGBTQ Americans must yield to the interests of those conservatives.</p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Rachel Cohen</name>
+			</author>
+			
+			<title type="html"><![CDATA[Israel’s Arab parties could end Netanyahu’s rule — if his opposition lets them]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508662/israel-election-netanyahu-palestinian-arab-democracy-gaza" />
+			<id>https://www.vox.com/?p=508662</id>
+			<updated>2026-11-03T12:51:49-05:00</updated>
+			<published>2026-11-03T11:25:00-05:00</published>
+			<category scheme="https://www.vox.com" term="Explainers" /><category scheme="https://www.vox.com" term="Israel" /><category scheme="https://www.vox.com" term="Politics" /><category scheme="https://www.vox.com" term="World Politics" />
+							<summary type="html"><![CDATA[The dust is beginning to settle a week after Israel’s first national election since Hamas’s attack on October 7, 2023, and the war Israel waged on Gaza in response. Neither Prime Minister Benjamin Netanyahu nor his opponents won the 61 parliamentary seats needed to govern. Now the fate of the next government hinges on a [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="People holding placards and chanting slogans " data-caption="Israeli left-wing activists hold placards and chant slogans during a demonstration calling for a formation of a government together with Arab parties in Tel Aviv on October 28, 2026, a day after Israel&#039;s legislative elections. | Ilia Yefimovich/AFP via Getty Images" data-portal-copyright="Ilia Yefimovich/AFP via Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301908743.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	Israeli left-wing activists hold placards and chant slogans during a demonstration calling for a formation of a government together with Arab parties in Tel Aviv on October 28, 2026, a day after Israel's legislative elections. | Ilia Yefimovich/AFP via Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph">The dust is beginning to settle a week after Israel’s first national election since Hamas’s attack <a href="https://www.vox.com/2023/10/7/23907683/israel-hamas-war-news-updates-october-2023">on October 7, 2023</a>, and <a href="https://www.vox.com/24055522/israel-hamas-gaza-war-strategy-netanyahu-strategy-morality">the war Israel waged on Gaza</a> in response. Neither Prime Minister Benjamin Netanyahu nor his opponents won the 61 parliamentary seats needed to govern.</p>
+
+<p class="wp-block-paragraph">Now the fate of the next government hinges on a less-discussed part of the Israeli electorate: <a href="https://www.cfr.org/backgrounders/what-know-about-arab-citizens-israel">Arab citizens</a>, who voted in record numbers and whose parties have emerged with more leverage than ever before. They are not to be confused with the roughly <a href="https://english.wafa.ps/Pages/Details/165780">5.5 million</a> Palestinians in the West Bank and Gaza, who live under Israeli control but are not citizens and cannot vote in national elections.</p>
+
+<p class="wp-block-paragraph">Although Israel has become a fault line in both American parties, with Democrats split <a href="https://www.vox.com/politics/486053/israel-democratic-party-criticism-arms-sales">over arms sales</a> and whether <a href="https://www.vox.com/politics/378913/israel-gaza-genocide-icj" data-type="link" data-id="https://www.vox.com/politics/378913/israel-gaza-genocide-icj">to call the war in Gaza a genocide</a>, and Republicans over whether Israel <a href="https://www.vox.com/politics/491264/trump-netanyahu-iran-war">pulled the United States into war</a> with Iran, these were not the central issues in the recent election.</p>
+
+<p class="wp-block-paragraph">Voters and candidates alike treated the election as <a href="https://www.vox.com/politics/486340/netanyahu-reelection-2026-trump-orban-magyar">a referendum on Netanyahu</a> himself, who has governed Israel for most of the past 17 years and is currently on trial for corruption. And Netanyahu did lose support in this election: His right-wing and religious coalition fell from 64 of the Knesset’s 120 seats in 2022 to 53, while 67 seats went to parties that ran against him.&nbsp;</p>
+
+<p class="wp-block-paragraph">Nineteen of those 67 opposition seats were won by two Arab parties, Ra’am and the Joint List, on a historic surge in turnout among Arab citizens of Israel. Arab parties had held just 10 seats after the last election.</p>
+
+<div class="wp-block-vox-media-highlight vox-media-highlight">
+<h2 class="wp-block-heading">Key takeaways</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Israel’s election ended in deadlock, and record Arab turnout nearly doubled Arab parties’ seats to 19, the most ever.</li>
+
+
+
+<li>A crime wave in Arab towns while Netanyahu’s far-right minister Itamar Ben-Gvir ran the police drove Arab voters to the polls.</li>
+
+
+
+<li>Depending on the details, a Jewish-Arab coalition could reshape Israeli politics, but it won&#8217;t end the occupation or reverse course in Gaza.</li>
+</ul>
+</div>
+
+<p class="wp-block-paragraph">But most of Israel’s Jewish parties have long treated a governing coalition that depends on Arab votes as taboo. Netanyahu spent the campaign portraying Ra’am and Joint List politicians as <a href="https://www.mako.co.il/news-israel-elections/2026/Article-a9fccce93610e91026.htm">supporters of terrorism</a>, and several of his Jewish opponents promised to never govern with them. Whether the four Jewish-led opposition parties that call themselves the “change bloc” will break that promise is now the central political question hanging over Israel —&nbsp;with major implications for Arab and Jewish citizens alike, and for what kind of country they share.</p>
+
+<p class="wp-block-paragraph">“There’s been a fair amount of commentary from American Jewish groups that over a million Arab citizens can vote, and that’s true, but the big asterisk is it matters only if those votes are taken seriously and if Arabs are treated as potential partners in a coalition,” Ilan Goldenberg, the chief policy officer for J Street, a liberal pro-Israel group founded as a counterweight to AIPAC, told me. “Otherwise it’s a pretty empty symbol, and it says something else about Israeli society and Israeli politics.”</p>
+
+<p class="wp-block-paragraph">Polling <a href="https://www.jpost.com/israel-election-2026/article-913294">suggests most change bloc voters</a> would accept a government that relied on Ra’am, if not the Joint List, whether inside the coalition or backing it from outside in exchange for policy commitments. Their leaders have been more cautious, though, partly because <a href="https://en.idi.org.il/articles/66620">most Jewish Israelis still oppose</a> an Arab-Jewish coalition and the politicians worry about losing those voters in the next election. Critics see that caution as the problem: Rather than try to bring the Israeli public along, the Jewish opposition leaders campaigned on rejecting an alliance they might need to form any kind of government at all.</p>
+
+<p class="wp-block-paragraph">It’s a pivotal moment for supporters of a liberal, democratic Israel, for <a href="https://www.vox.com/world-politics/23935054/boycott-movement-palestine-against-israel-bds">those pushing sanctions and boycotts</a> — some of whom want an end to Israel as a Jewish state — and for the roughly <a href="https://thecradle.co/articles-id/40833">900,000 Arab citizens</a> who turned out to vote for urgent improvements in their daily lives. The next few months will decide who governs the country, whether Arab voters get real influence over policy or become further marginalized, whether pressure on Israel from abroad grows or fades, and whether anything changes for the Palestinians it rules.</p>
+
+<h2 class="wp-block-heading">Why Arab voters showed up</h2>
+
+<p class="wp-block-paragraph">For Arab voters, this election was different in two ways. The Arab parties were more united than ever on a single priority — getting rid of Netanyahu — even if it meant working with Zionist parties whose vision of a Jewish state they’ve long opposed. And calls to boycott the vote, which Islamist and Palestinian nationalist groups within Israel’s Arab community have pushed in past elections on the grounds that voting legitimizes the state, <a href="https://podcasts.apple.com/ch/podcast/record-arab-israeli-voter-turnout-brings-significant/id1459509732?i=1000798545849">were far more muted</a> this time around.&nbsp;</p>
+
+<p class="wp-block-paragraph">The prime motivating factor for Arab voters was Netanyahu’s coalition itself, the most right-wing government in Israel’s history. Its national security minister, Itamar Ben-Gvir, who was <a href="https://www.ynetnews.com/articles/0%2C7340%2CL-3417226%2C00.html">once convicted of inciting racism</a> after displaying a sign reading “Expel the Arab enemy,” has overseen the police while organized crime has killed record numbers of Arab citizens. <a href="https://www.timesofisrael.com/liveblog_entry/police-chief-says-theres-been-a-drastic-drop-in-arab-community-homicides/">Homicides in Arab communities more than doubled</a> between 2022 and 2025, and <a href="https://www.timesofisrael.com/police-have-solved-just-12-of-homicides-in-arab-communities-this-year-watchdog-finds/">police solved just 12 percent</a> of them in the first half of this year. Netanyahu’s finance minister, Bezalel Smotrich, who <a href="https://www.jpost.com/israel-news/article-734835">has said</a> there is “no such thing as a Palestinian people,” also <a href="https://en.globes.co.il/en/article-arab-local-authorities-in-deficit-as-smotrich-withholds-budgets-1001454602">froze hundreds of millions</a> of shekels promised to Arab towns, arguing the money would reach criminals. In 2025, Britain and four other countries <a href="https://www.gov.uk/government/news/foreign-ministers-joint-statement-on-measures-targeting-itamar-ben-gvir-and-bezalel-smotrich">sanctioned both men for inciting violence</a> against Palestinians.</p>
+
+<p class="wp-block-paragraph">“The feeling is the state has completely failed to address criminal violence,” Yousef Munayyer, a Palestinian citizen of Israel and the head of the Palestine/Israel program at the <a href="https://arabcenterdc.org/">Arab Center Washington DC</a>, told me. “Brutal murders go uninvestigated and unsolved, and in many corners there’s a belief that the Israeli intelligence services are intentionally turning a blind eye.”&nbsp;</p>
+
+<p class="wp-block-paragraph">Hassan Jabareen, the executive director of <a href="https://www.adalah.org/en">Adalah</a>, a legal advocacy group for Palestinian citizens of Israel, told me the Arab parties have been deliberately keeping their demands to things an anti-Netanyahu government could practically deliver, like fighting crime, ending the demolition of Bedouin homes in southern Israel, and <a href="https://www.vox.com/politics/503360/settler-terrorism-west-bank-mike-huckabee">stopping settler violence in the West Bank</a>.&nbsp;</p>
+
+<p class="wp-block-paragraph">“We are not going to say to end the occupation, we are not going to ask for withdrawal from Syria,” Jabareen said. “Those issues, we know that they won’t agree with us, and the right-wing will use it against them, and they themselves won’t agree.”</p>
+
+<p class="wp-block-paragraph">Though Ra’am and the Joint List did not make Gaza central to their campaigns, Jabareen said the national election was a rare opportunity for Arab voters to express their anger at the war, something they’ve been <a href="https://freedomhouse.org/country/israel/freedom-world/2025">heavily barred from</a> <a href="https://www.adalah.org/uploads/uploads/Discriminatory%20Laws%20Report%2024.11.25%20Final.pdf">protesting over</a> the last three years. He added that Palestinians in Gaza and the West Bank have been “happy and proud” of the record turnout of Arab citizens.</p>
+
+
+
+<h2 class="wp-block-heading">The choice facing Gadi Eisenkot</h2>
+
+<p class="wp-block-paragraph">The “change bloc” is an alliance of four Zionist parties with little in common beyond wanting Netanyahu gone. Its leader is <a href="https://time.com/article/2026/10/25/gadi-eisenkot-exclusive-interview/">Gadi Eisenkot</a>, a former army chief who sat in Netanyahu’s war cabinet after October 7, lost a son in Gaza, and quit the government over its handling of the war. His new centrist party won the most seats of the four. The others are a party led by two former prime ministers, the settler-right hawk Naftali Bennett and the centrist Yair Lapid, and Yair Golan’s party, the last of Israel’s Zionist left. The fourth is Avigdor Lieberman’s, hawkish on security and built on secular Russian-speaking immigrants who want the ultra-Orthodox out of government.</p>
+
+<p class="wp-block-paragraph">The four were split on Arab parties during the campaign. <a href="https://www.jpost.com/israel-election-2026/article-912335">Golan was the only leader</a> explicitly open to governing with them. <a href="https://www.jpost.com/israel-election-2026/article-913413">Eisenkot set four conditions</a> for any coalition partner, including recognizing Israel as a Jewish and democratic state and Hamas as a terrorist group, and <a href="https://www.timesofisrael.com/eisenkot-raam-wont-be-in-my-government-pms-approval-of-qatari-funds-between-breach-of-trust-and-treason/">said in September</a> that no Arab party met them. (Arab leaders and many critics saw these conditions as a way to shut Arabs out without saying so.) Bennett, who in 2021 led the first governing coalition ever to include an independent Arab party, said this time he wanted only Zionist parties in government, and Lieberman, who sat in that same 2021 coalition, also ruled out relying on Arab parties again.</p>
+
+<p class="wp-block-paragraph">Ori Kol, a progressive campaigner who worked for Golan’s left-wing party, told me most Jewish opposition voters “were shocked” on election night, expecting the change bloc to win more seats.</p>
+
+<p class="wp-block-paragraph">“What people really expected is that Netanyahu voters would not turn out as they did, because the logic was after three years of war, two failed wars against Iran, attacking Qatar, the sanctions, and the incredible physical, emotional and economic toll on the country every Israeli living here has experienced, that Netanyahu would pay some sort of cost,” he said. And while Netanyahu’s coalition did lose about a dozen seats compared to 2022, his party still did better than expected, beating <a href="https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm">the final polls</a> <a href="https://themadad.com/english/madad-poll-october-23-2026">from three</a> <a href="https://skarim.kan.org.il/doc">major Israeli</a> broadcasters.</p>
+
+<p class="wp-block-paragraph">So what is the resistance to forming a Jewish-Arab government? Part of it is plain prejudice, a refusal to accept Arab parties as legitimate partners in governing a Jewish state. Arab parties have supported or joined an Israeli government only twice, briefly, in the 1990s and in 2021, and both times the Jewish parties involved treated it as a one-off they’d rather not repeat. Both times, too, the Arab parties were just a handful of votes at the margin, while this time they would represent nearly a third of the coalition.&nbsp;</p>
+
+<p class="wp-block-paragraph">A vocal liberal minority of Israelis say that’s exactly the change the country is overdue for. In the week since the election, thousands have <a href="https://www.timesofisrael.com/some-2000-rally-in-tel-aviv-to-demand-jewish-arab-government-counterprotest-held-against-stolen-election/">rallied to demand their leaders form</a> a Jewish-Arab government. Some activists organized a pressure campaign outside Eisenkot’s home, while others have signed petitions, including <a href="https://atzuma.co.il/sign/15BHUR-1">one led by writers and artists</a>, and another <a href="https://www.israelhayom.co.il/health/article/21751812">by Israeli healthcare professionals</a>.</p>
+
+<p class="wp-block-paragraph">The other main hurdle, which can be hard to disentangle from bigotry, is electoral fear. Jewish opposition leaders worry that a Jewish-Arab coalition would be fragile from the start, and that if it collapsed in the near future, they would pay the price in the next election. <a href="https://en.idi.org.il/articles/66620">Israelis vote on security</a> above all, and Netanyahu leverages those concerns shamelessly. Two days before this past election, for example, he posted on X an <a href="https://www.timesofisrael.com/pm-posts-ai-image-of-nuke-hitting-tel-aviv-warns-of-2nd-holocaust-if-hes-not-elected/">AI-generated image of a mushroom cloud over Tel Aviv</a>, warning of a second Holocaust if he lost. On election night he warned that <a href="https://www.aljazeera.com/news/2026/10/29/israels-election-what-the-candidates-said-and-how-they-did">it was “forbidden”</a> to form a government that relies on anti-Zionist Arab parties. (This didn’t stop Netanyahu himself <a href="https://www.timesofisrael.com/netanyahu-hosted-raam-head-at-balfour-residence-several-times-in-bid-to-woo-him/">from negotiating with Ra’am in 2021</a>, when he needed its votes.)</p>
+
+<p class="wp-block-paragraph">Ra’am, for its part, has spent the last few months trying to make itself an easier partner for Zionist parties to accept. In August its leader, Mansour Abbas, <a href="https://www.ynetnews.com/article/bydawe7ugx">put a Jewish former deputy security minister</a> in the No. 2 slot on the party’s electoral slate, and a few months earlier Ra’am <a href="https://www.ynetnews.com/article/s1xafktsfg">cut its formal ties to the religious council</a> that had guided its decisions, to show it answers to no one but its voters. Abbas has also repeatedly <a href="https://www.ynetnews.com/article/by3c19ur6">condemned</a> the October 7 attack.</p>
+
+<p class="wp-block-paragraph">The Joint List is more nationalist, and one of its party leaders was forced out of the race in October over an article he published the day after October 7, calling the attack an “important historical event.” That leader has since <a href="https://www.timesofisrael.com/liveblog_entry/judges-press-abu-shehadeh-on-failure-to-condemn-oct-7-hamas-in-election-ban-hearing/">said his language was badly worded</a> and he did not mean support for it. The Joint List may not want to be formally in the coalition anyway. Its leaders have said <a href="https://www.timesofisrael.com/tibi-says-joint-list-ready-to-back-anti-netanyahu-government-from-the-outside/">they’d rather support</a> an Eisenkot government from the outside, which would let them push for concessions on crime and budgets without having to share responsibility for the coalition’s decisions on Gaza and elsewhere.</p>
+
+<p class="wp-block-paragraph">For now, the Arab parties are signaling they don’t want to drive a hard bargain with Jewish leaders given the risk of Netanyahu staying in power. Over the weekend, one of the Joint List’s leaders said his party would back Eisenkot’s choice for Knesset speaker when the new parliament convenes on November 10. “We want to be part of the correction, part of the hope,” he said, adding that his party <a href="https://www.mako.co.il/news-israel-elections/2026/Article-0ae3daac91391a1027.htm">would “swallow frogs”</a> to get things done. The Joint List’s chair also said the party was “truly ready” to help build a majority in the coming weeks. Opposition leaders have reportedly been in contact with both Joint List officials and Abbas.&nbsp;</p>
+
+<p class="wp-block-paragraph">Eisenkot, for his part, <a href="https://x.com/gadi_eisenkot/status/2116586741289148433">posted a statement over the weekend</a> that read as tailored to exactly that arrangement, Ra’am inside and the Joint List outside. He repeated the four conditions he set during the campaign and wrote that “the door to the government we establish will be open to any elected official who accepts these principles.” But he also described the state he wants as “Jewish, democratic, liberal and egalitarian,” a word choice seemingly aimed at Arab citizens. And he said partners could satisfy his national-service condition through “civilian service,” not just the army, a voluntary version of which most Arab citizens <a href="https://english.tau.ac.il/research/new-trend-arab-israeli-citizens">tell pollsters</a> they’d support.</p>
+
+<p class="wp-block-paragraph">The sticking point is Eisenkot’s demand that all partners declare Hamas a terrorist organization, something Abbas has repeatedly said he considers <a href="https://www.mako.co.il/news-politics/2025_q4/Article-7d828403d17ba91026.htm">a risk to his life</a> and <a href="https://www.mako.co.il/news-politics/2025_q1/Article-dde0c60d689d591026.htm">his family’s.</a> Hamas has <a href="https://www.amnesty.org/en/documents/mde21/1643/2015/en/">a record of killing Palestinians</a> accused of collaborating with Israel, and Abbas <a href="https://www.israelhayom.com/2021/12/15/raam-leader-mansour-abbas-assigned-security-detail/">has faced death threats</a> before.</p>
+
+<p class="wp-block-paragraph">But over the weekend Abbas signaled, <a href="https://www.mako.co.il/special-mako-news/Article-006cda255ed81a1027.htm">according to Channel 12</a>, that Eisenkot’s conditions need not keep Ra’am out of a government, which suggests the two sides may be able to negotiate a compromise.&nbsp;</p>
+
+<h2 class="wp-block-heading">What a Jewish-Arab coalition means for Israel’s friends and critics</h2>
+
+<p class="wp-block-paragraph">For supporters of a liberal, democratic Israel, bringing Arab parties into government would signal that Arab citizens have a say in who governs the country, and undercut the claim that they are shut out of power. Whether that proves true depends on what those parties actually get, in cabinet posts and in policy commitments.</p>
+
+<p class="wp-block-paragraph">Still, Israel’s democracy stops at the Green Line, the boundary that separated Israel from the West Bank before the 1967 war. More than 3 million Palestinians on the other side of it live under Israeli control with no vote in the government that rules them, and the same is true of the 2 million in Gaza. No election inside Israel changes that.</p>
+
+<p class="wp-block-paragraph">After last Tuesday’s election, most major American Jewish organizations released statements praising Israel’s democracy, citing its high turnout as proof. For example, AIPAC, which did not return requests for comment, <a href="https://www.politicalemails.org/messages/2485524?">praised turnout as</a> reflecting Israel’s “vibrant democracy and rich diversity.” The Jewish Federations of North America <a href="https://www.jewishfederations.org/blog/all/jewish-federations-of-north-americas-statement-on-the-israeli-elections-529675">cheered Israel</a> for its “deep commitment to democratic principles and civic participation.”</p>
+
+<p class="wp-block-paragraph">J Street and New Jewish Narrative were exceptions, with <a href="https://jstreet.org/press/j-street-statement-israeli-election-results-moment-truth-israeli-democracy">J Street’s statement</a> calling on the Jewish opposition to form a government with the Arab parties. <a href="https://www.newjewishnarrative.org/statements/israeli-election-results">New Jewish Narrative said</a> Arab citizens “must be allowed a full voice in what comes next.”</p>
+
+<p class="wp-block-paragraph">Munayyer, of the Arab Center Washington DC, has little patience for the democracy talk at this moment. “People who are using this opportunity to talk about Israeli democracy, they’re not serious people,” he told me. Palestinian citizens did win historic numbers, but if the millions who live under Israeli control could actually vote, “they’d probably have 60 seats, not 19.” That, he said, is what makes it apartheid, noting South Africa held regular elections, too.</p>
+
+<p class="wp-block-paragraph">J Street’s Goldenberg was clear that a coalition with Arab parties would not by itself be a reason to ease pressure on Israel. The United States, he said, should decide what’s in its own national interest and respond when an Israeli government acts against it, whether on settler violence or on Gaza. But he argued that most Democrats have not given up on Israel. “I think the overwhelming majority of Democrats are not in a position of viewing Israel as irredeemable,” he told me. “What they want is a change in behavior.”&nbsp;</p>
+
+<p class="wp-block-paragraph">A government that depended on 19 Arab seats, he added, would be the clearest possible signal that there’s potential for change. “I can’t think of any single action the Israeli opposition could take that would buy Israel more goodwill,” Goldenberg said. “And I can’t think of anything that would further confirm for Democrats that this is not an Israel we can work with than a failure to try.”</p>
+
+<p class="wp-block-paragraph">Hadar Susskind, the president of New Jewish Narrative and a dual citizen who flew back to vote, doubted American Jews would have much influence over the forthcoming coalition talks. But if a new government forms, he told me, liberal Zionist groups like his see “a lot of positive opportunity” to work in both directions, pushing the new government to deliver real change and Congress to engage with it and hold it to account.</p>
+
+<p class="wp-block-paragraph">That possibility, a repaired relationship between Israel and the United States, is exactly what many of Israel’s staunchest critics are worried about. The <a href="https://www.bdsmovement.net/news/Israels-Elections-A-Vote-For-Ongoing-Genocide-And-Apartheid-Against-Palestinians">Boycott, Divestment, and Sanctions (BDS) movement’s official statement</a> on the election called Western attention to it a “desperate attempt” to rehabilitate Israel as a democracy and pin Gaza war crimes on Netanyahu alone. For BDS supporters and many other anti-Zionists, engaging with any Israeli government, however it’s composed, normalizes a state they deem illegitimate.</p>
+
+<p class="wp-block-paragraph">The journalist Mehdi Hasan, who runs the outlet Zeteo, <a href="https://bsky.app/profile/zeteo.com/post/3myvnvs23q22s">made a narrower version</a> of the same argument, saying his worry throughout the election has been that “political and media elites” will use it to push for a “reset” that could improve Israel’s standing in global public opinion. The push to condition military aid and sanction settlements gained ground around the world largely because of Netanyahu and his far-right ministers, and a new government could make those efforts harder to sustain even if Israel’s policies on the ground barely shift.</p>
+
+<h2 class="wp-block-heading">The paths from here</h2>
+
+<p class="wp-block-paragraph">What would a Jewish-Arab government actually change? Natan Sachs, a senior fellow at the Middle East Institute in Washington, flatly rejected the idea that an Eisenkot government would be no different from Netanyahu’s. It’s true that both want Hamas gone and Iran boxed in, and that neither is going to offer the Palestinians a state anytime soon. But Eisenkot, Sachs told me, would be slower to use force, would treat Arab citizens as part of the country rather than a threat, and would reverse the damage Netanyahu has done to the courts and the civil service.&nbsp;</p>
+
+<figure class="wp-block-pullquote"><blockquote><p>There is enormous pressure to reach a deal rather than go back to the polls.</p></blockquote></figure>
+
+<p class="wp-block-paragraph">Palestinian citizens turned out in huge numbers to make a former IDF chief prime minister, he said, “because they see the difference, so I would defer to them.” A coalition with Arab parties wouldn’t end the occupation or freeze settlements, but it would take the West Bank away from Smotrich and Ben-Gvir, the two ministers who’ve pushed hardest for annexation.</p>
+
+<p class="wp-block-paragraph">Even a short-lived Jewish-Arab coalition would matter, Jabareen of Adalah told me. “Even if it’s just for one or one and a half years, they can do a lot of things,” he said, pointing to forming a state commission of inquiry into the security failures before October 7, repealing Netanyahu’s judicial overhaul, and appointing Supreme Court justices. Beyond that, Arab leaders want to be inside the government to make sure its budgets reach their communities, with more money to fight violence and invest in construction and jobs.</p>
+
+<p class="wp-block-paragraph">Even before a governing coalition forms, the Jewish opposition parties can work with Ra’am and the Joint List in parliament, which convenes on November 10. Together they hold 67 of 120 seats, enough to pass laws and make appointments even without controlling the government. The first test will be replacing Netanyahu’s handpicked speaker, who controls what comes to a vote, which everyone in the opposition wants.</p>
+
+<p class="wp-block-paragraph">Almost any governing coalition will require some of the Jewish opposition leaders to break a campaign promise or two. The experts I interviewed were divided on how much that practically matters at this stage, and several noted it would hardly be the first time an Israeli politician had reneged. Eisenkot could also turn to the ultra-Orthodox parties, though that would likely mean compromising on the military draft exemptions his whole alliance campaigned against. President Donald Trump and Israeli President Isaac Herzog may also push for a so-called unity government with Eisenkot and Netanyahu. Whatever Eisenkot chooses, there is enormous pressure to reach a deal rather than go back to the polls, because few expect Arab citizens or the Israelis who flew in from abroad to turn out the same way in a repeat election, and a lower turnout would likely favor Netanyahu.</p>
+
+<p class="wp-block-paragraph">Kol, the campaigner who worked for Golan’s party, said what the moment requires is courage.&nbsp;</p>
+
+<p class="wp-block-paragraph">“Centrist leaders have shown an alarming amount of passivity,” he told me. “There’s been a lack of willingness to carry people and lead.”</p>
+						]]>
+									</content>
+			
+					</entry>
+			<entry>
+			
+			<author>
+				<name>Andrew Prokop</name>
+			</author>
+			
+			<title type="html"><![CDATA[What Democrats could actually do if they win Congress]]></title>
+			<link rel="alternate" type="text/html" href="https://www.vox.com/politics/508533/democrats-midterms-2026-agenda-plans-congress" />
+			<id>https://www.vox.com/?p=508533</id>
+			<updated>2026-11-02T12:50:34-05:00</updated>
+			<published>2026-11-03T06:00:00-05:00</published>
+			<category scheme="https://www.vox.com" term="Congress" /><category scheme="https://www.vox.com" term="Donald Trump" /><category scheme="https://www.vox.com" term="Midterm Elections 2026" /><category scheme="https://www.vox.com" term="Politics" />
+							<summary type="html"><![CDATA[The outcome of the midterm elections is perhaps the single most important factor in determining how the final two years of Donald Trump’s presidency will play out — and what impact it will have on people’s lives in the United States and around the world. If Republicans defy the polls and hold both chambers, Trump [&#8230;]]]></summary>
+			
+							<content type="html">
+											<![CDATA[
+
+						
+<figure>
+
+<img alt="Chuck Schumer, left, in a blue suit, and Hakeem Jeffries, right, in a black suit, walk together as they talk, with Jeffries gesturing with one hand." data-caption="House Minority Leader Hakeem Jeffries (D-NY) walks with Senate Minority Leader Chuck Schumer (D-NY) in May 2026 in Washington, DC. |  Win McNamee/Getty Images" data-portal-copyright=" Win McNamee/Getty Images" data-has-syndication-rights="1" src="https://platform.vox.com/wp-content/uploads/sites/2/2026/10/GettyImages-2277504364.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100" />
+	<figcaption>
+	House Minority Leader Hakeem Jeffries (D-NY) walks with Senate Minority Leader Chuck Schumer (D-NY) in May 2026 in Washington, DC. |  Win McNamee/Getty Images	</figcaption>
+</figure>
+<p class="wp-block-paragraph">The outcome of the midterm elections is perhaps the single most important factor in determining how the final two years of Donald Trump’s presidency will play out — and what impact it will have on people’s lives in the United States and around the world.</p>
+
+<p class="wp-block-paragraph">If Republicans defy the polls and hold both chambers, Trump would have the chance to pass more <a href="https://www.vox.com/politics/418325/trump-big-beautiful-bill-gop-medicaid-tax-cuts-explained">sweeping legislation</a> on party-line votes, confirm more loyalist nominees to important positions, and continue remaking the judiciary, all while keeping oversight to a minimum. Democrats would have limited tools to object, Republicans would keep a free hand to run Washington, and Trump would be able to cite the results to maintain party loyalty. Practically and politically, the next two years would look a lot like the last two.</p>
+
+<p class="wp-block-paragraph">Conversely, the better Democrats do, the more power they will have to block Trump’s agenda, check his power, investigate his administration, and advance priorities of their own on issues like the economy, healthcare, the war in Iran, immigration enforcement, corruption, and more. But they’d also face significant limits on their power, from the Senate filibuster and Trump’s veto pen to White House tactics that could delay or derail oversight.&nbsp;</p>
+
+<div class="wp-block-vox-media-highlight vox-media-highlight">
+<h2 class="wp-block-heading">Key takeaways</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Even if Democrats romp in the congressional midterms this week, they won’t be able to do whatever they want; however, if they use their powers creatively, they could achieve real and meaningful accomplishments.</li>
+
+
+
+<li>Legislative accomplishments would likely happen in one of three ways: through confrontations on “must-pass” bills, through bipartisanship, or by laying the groundwork for bills a future Democratic president could sign.</li>
+
+
+
+<li>House or Senate majorities would give Democrats subpoena powers, but the Trump administration will likely refuse to comply; Democrats would have to think outside the box in how to make their investigations succeed.</li>
+
+
+
+<li>A Senate majority would make it far more challenging for Trump to confirm nominees and would slow his judicial confirmations to a trickle, if that.</li>
+</ul>
+</div>
+
+<p class="wp-block-paragraph">So what are the real midterm stakes? Which moves from a Democratic Congress would be symbolic and which could have an immediate impact on real-world outcomes? And what might prevent them from achieving their goals?&nbsp;&nbsp;</p>
+
+<p class="wp-block-paragraph">To get a better sense of what Democrats could actually do if they won power in Congress, I spoke to current and former congressional aides as well as plugged-in outside experts. They generally painted a picture of a grim slog akin to trench warfare. Some believed the expectations of the Democratic base would far outpace what could realistically be achieved, and that frustration and disappointment were inevitable.</p>
+
+<p class="wp-block-paragraph">But some also expressed surprising optimism that, if Democrats played their cards right, they could score real and meaningful accomplishments — in driving policy change, in bringing wrongdoing to light, and in laying the groundwork for far more ambitious goals in the near future.</p>
+
+<p class="wp-block-paragraph">Whether they can do this will depend in part on politics and messaging, but also on how they use the formal tools that would be newly available to them with a congressional takeover: legislation, investigations, and — in the case of a Senate win — the confirmation process.</p>
+
+<h2 class="wp-block-heading">Legislation: How new Democratic majorities could legislate in a way that actually matters</h2>
+<img src="https://platform.vox.com/wp-content/uploads/sites/2/2026/10/GettyImages-2300894585.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" alt="The US Capitol is seen from above at a distance." title="The US Capitol is seen from above at a distance." data-has-syndication-rights="1" data-caption="The Capitol. | Saul Loeb/AFP via Getty Images" data-portal-copyright="Saul Loeb/AFP via Getty Images" />
+<p class="wp-block-paragraph">House Democratic leaders are <a href="https://www.nytimes.com/2026/10/23/us/politics/democrats-congress-majority-agenda.html">proudly talking</a> about the bills they plan to quickly pass if they win the majority on topics such as healthcare, tariffs, and the war in Iran.</p>
+
+<p class="wp-block-paragraph">But the reality is that, so long as the Senate’s 60-vote requirement for ordinary legislation to advance remains in place, such bills aren’t going to make it to Trump’s desk without winning significant Republican support. (And even if they do make it to Trump’s desk — say, via the special <a href="https://www.vox.com/policy-and-politics/2016/11/23/13709518/budget-reconciliation-explained">budget reconciliation</a> process — he could veto them.)</p>
+
+<p class="wp-block-paragraph">Instead, for Democratic majorities to do meaningful things with legislation under Trump, they’d likely have to pursue one of the following three approaches.</p>
+
+<h3 class="wp-block-heading"><strong>1. Confrontations on the must-pass bills</strong></h3>
+
+<p class="wp-block-paragraph">Lots of bills go nowhere in Congress, but some are viewed as “must-pass.” Some have practical consequences for failure after a certain deadline: If the debt ceiling isn’t raised, the country will default on its debt with <a href="https://www.vox.com/policy/2023/5/6/23707949/debt-ceiling-crisis-budget-deal-questions">potentially catastrophic consequences</a>; if government funding bills aren’t passed, the government will shut down, as it did for <a href="https://www.vox.com/politics/468220/shutdown-democrats-deal-base-government-congress-trump-anger-bill-health-care-schumer">43 days last year</a>.</p>
+
+<p class="wp-block-paragraph">Often, if one or both chambers flip in the midterms, a bold new majority tries to use one of these bills to make policy demands on the president, believing the bill’s “must-pass” status gives them leverage. Then, a showdown unfolds, as both sides play chicken before a looming deadline.</p>
+
+<p class="wp-block-paragraph">So if Democrats win the majority, they will have to decide: Which much-pass bills do they want to make demands over, what do they want to demand, and just how hard do they want to demand it?</p>
+
+<p class="wp-block-paragraph">Experts I spoke to were skeptical Democrats would push too hard on the debt ceiling. “The Democratic position in the past has been, ‘We don’t threaten the full faith and credit of the US government,’” Bobby Kogan, the senior director of federal budget policy at the Center for American Progress, a Democratic-aligned think tank, told me. The consequences of default seem, to them, too devastating to risk, and they’re historically reluctant to legitimize Republicans’ use of the debt ceiling as a weapon under Democratic presidents.</p>
+
+<p class="wp-block-paragraph">Some sort of fight seems likelier on government funding — after all, even while in the Senate minority, Democrats used the filibuster to shut down the government <a href="https://www.vox.com/politics/464986/government-shutdown-democrats-strategy-still">late last year</a>, demanding that Republicans extend subsidies for the Affordable Care Act. They could run that playbook again, saying they won’t fund the government unless Trump agrees to their demands on healthcare (such as rolling back <a href="https://www.vox.com/policy/508136/healthcare-republicans-medicaid-gop-midterms-aca-healthinsurance-premiums">Trump’s Medicaid cuts</a>), ICE (where they’ve demanded <a href="https://www.vox.com/today-explained-newsletter/477200/ice-congress-reform-restrain">new accountability measures and restrictions</a>), or other issues.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Many are skeptical that Democrats will successfully strong-arm Trump into making concessions in this way. When last year’s shutdown stretched for over a month and its consequences — for unpaid government workers and recipients of government benefits — grew more acute, enough Democrats eventually gave in even as they <a href="https://www.cnn.com/2025/11/02/politics/democrats-shutdown-politics">seemed to have the upper hand in polling</a>. But it’s likely that the party’s base will urge them to try again — and if they do, their theory that they have more leverage over Trump this time will be tested.</p>
+
+<h3 class="wp-block-heading"><strong>2. Bipartisanship</strong></h3>
+
+<p class="wp-block-paragraph">The alternative to trying to shake the president down is to actually try and get Republican votes — passing measures with bipartisan support.&nbsp;</p>
+
+<p class="wp-block-paragraph">And don’t scoff — though partisan battles will get all the headlines, there’s still a surprising amount of bipartisan action on substantive issues in Congress. During the final two years of Trump’s first term, bipartisan bills on <a href="https://www.crfb.org/blogs/whats-final-covid-relief-deal-2020">Covid relief</a>, <a href="https://www.epa.gov/greeningepa/energy-act-2020">energy</a>, and <a href="https://www.nytimes.com/2019/12/19/us/politics/usmca-deal.html">trade</a> passed. Under President Joe Biden, bills on <a href="https://www.npr.org/2021/08/10/1026081880/senate-passes-bipartisan-infrastructure-bill">infrastructure</a>, <a href="https://www.cfr.org/articles/chips-act-how-us-microchip-factories-could-reshape-economy">semiconductors</a>, <a href="https://www.vox.com/policy-and-politics/2022/12/8/23500180/house-respect-for-marriage-act">same-sex marriage</a>, and <a href="https://protectdemocracy.org/work/understanding-the-electoral-count-reform-act-of-2022/">presidential election reform</a> won bipartisan support. And this year, a <a href="https://www.npr.org/2026/07/10/nx-s1-5885027/housing-bill-without-trump-signature">bipartisan housing bill</a> became law, and Congress hopes to pass an <a href="https://www.vox.com/politics/508196/permitting-reform-baaja-democrats-climate">electricity permitting reform deal</a> before the end of the year, too.</p>
+
+
+
+<p class="wp-block-paragraph">Some of these bills were standalone; others became law because they were attached to must-pass bills,&nbsp;such as government funding, or the <a href="https://www.everycrsreport.com/files/2025-05-08_R48527_480ff509f371664e294a44b1f3028b7c59e98dfe.html">National Defense Authorization Act</a>. That’s a potential way to get something Trump doesn’t like into law — get enough Republicans on board, and hope that either Trump will conclude it’s too much of a headache to veto it, or that support in Congress is so strong his veto will fail (two-thirds of both the House and Senate can vote to override a veto). There’s precedent from this year’s bipartisan housing bill, which Trump <a href="https://www.npr.org/2026/07/10/nx-s1-5885027/housing-bill-without-trump-signature">allowed to become law</a> without his signature.</p>
+
+<p class="wp-block-paragraph">Matthew Fiedler, a senior fellow at the Brookings Institution, told me that Democrats could try to add riders on appropriations bills that block certain controversial Trump administration regulatory actions. “That feels potentially achievable to me,” he said. But, to get those bills to Trump’s desk, they’d have to get the consent of Republican negotiators in Congress.&nbsp;</p>
+
+<p class="wp-block-paragraph">Bipartisanship can be achieved through working with the other party and compromising with them. But another route is through political pressure — say, if a proposal is so popular and politically potent that the other party feels they have no choice but to go along. &#8220;Bipartisanship is not always the signal of a kumbaya environment,&#8221; Charlie Ellsworth, a former aide to Democratic Senate leader Chuck Schumer who currently advises the advocacy group Public Citizen, told me.&nbsp;</p>
+
+<p class="wp-block-paragraph">That’s what happened with Rep. Ro Khanna’s (D-CA) <a href="https://www.theguardian.com/us-news/2025/dec/28/ro-khanna-epstein-files-act-bipartisan">bill to release the Epstein files</a> last year; GOP leaders tried to hold it back, but the dam broke and it eventually passed with overwhelming majorities in both chambers. If Democrats win the majority, they could similarly put pressure on the GOP by forcing votes on issues where the party might be divided —&nbsp;like <a href="https://www.politico.com/live-updates/2026/02/10/congress/gop-revolt-sinks-effort-to-block-votes-on-trumps-tariffs-00775107">tariffs</a>, or the <a href="https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote">Iran war</a>.</p>
+
+<h3 class="wp-block-heading"><strong>3. Groundwork for the future</strong>&nbsp;</h3>
+
+<p class="wp-block-paragraph">The other route for legislating to really matter in the next session is more forward-looking — Democrats could be crafting bills that they truly intend to pass in 2029, if a new Democratic president is sworn in and the party holds Congress.</p>
+
+<p class="wp-block-paragraph">The idea here is that the next president may have a limited window to pass major legislation, so he or she will be looking for ideas to take off the shelf. And the more serious legislative work that gets done in this Congress, and the more Democratic consensus is built ahead of time, the better-prepared certain bills could be for that opportunity.</p>
+
+<p class="wp-block-paragraph">Trump’s <a href="https://www.vox.com/politics/418325/trump-big-beautiful-bill-gop-medicaid-tax-cuts-explained">One Big Beautiful Bill Act</a> last year, for instance, included several provisions that House Republicans had crafted during the Biden administration. Similarly, Biden’s Inflation Reduction Act included prescription drug provisions that House Democrats <a href="https://www.congress.gov/crs_external_products/R/PDF/R47872/R47872.3.pdf">had crafted</a> during Trump&#8217;s first term.</p>
+
+<p class="wp-block-paragraph">“There&#8217;s a lot of consequential prep work that can happen during these time periods, even when there&#8217;s not a real prospect of the legislation becoming law in this term,” Fiedler said.&nbsp;</p>
+
+<p class="wp-block-paragraph">The flipside is that if Democrats flock to unworkable ideas in this Congress in order to appease an interest group or win a messaging fight, they may feel pressure to follow through in the next Congress — and problems may result. Take the first year of Trump’s first term, when he and the GOP felt compelled to deliver on their longtime vow to repeal Obamacare — but since they hadn’t come up with a specific proposal to do it that was <a href="https://www.vox.com/policy-and-politics/2017/3/31/15139822/obamacare-poll">politically viable</a> and hadn’t seriously grappled with the <a href="https://www.nbcnews.com/politics/congress/inside-health-care-bill-trump-wanted-heart-he-didn-t-n775611">many potential downsides</a> for patients, the effort <a href="https://www.vox.com/policy-and-politics/2018/8/25/17782664/john-mccain-legacy-obamacare-repeal-thumbs-down">ended in failure</a>.</p>
+
+<p class="wp-block-paragraph">&#8220;Democrats need to be cognizant that if you&#8217;re going to do a test run and draw a contrast between what Democrats are for and what the president opposes, you should expect the American people will ask you to deliver when you have the power,” Ellsworth said.</p>
+
+<h2 class="wp-block-heading">Investigations: How Democrats could think creatively to get around Trump’s stonewalling</h2>
+<img src="https://platform.vox.com/wp-content/uploads/sites/2/2026/10/GettyImages-1245731977.jpg?quality=90&amp;strip=all&amp;crop=0,0,100,100" alt="A hearing room at the US Capitol is filled with political attendees as a panel of committee members sits on a high dais in the front of the room, backed by a huge projection screen." title="A hearing room at the US Capitol is filled with political attendees as a panel of committee members sits on a high dais in the front of the room, backed by a huge projection screen." data-has-syndication-rights="1" data-caption="The House Select Committee to Investigate the January 6 Attack on the US Capitol holds a hearing on Monday, in December 2022. | Jim Lo Scalzo/EPA/Bloomberg via Getty Images" data-portal-copyright="Jim Lo Scalzo/EPA/Bloomberg via Getty Images" />
+<p class="wp-block-paragraph">Democrats say it’s urgently necessary to investigate a plethora of Trump administration scandals, from the Trump family’s <a href="https://www.banking.senate.gov/newsroom/minority/senate-democratic-leaders-call-for-hearings-into-extent-of-donald-trump-trump-family-and-senior-trump-administration-officials-cashing-in-on-foreign-crypto-deals">crypto investments</a> to <a href="https://www.cbsnews.com/news/democrats-pledge-investigation-trump-pardon-brokers/">Trump’s granting of pardons</a> to his fundraising for the White House <a href="https://www.politico.com/news/2026/10/29/oversight-lobbying-k-street-01139772">ballroom construction</a> to <a href="https://news.bgov.com/bloomberg-government-news/top-oversight-democrat-plots-ice-investigation-if-house-flips">aggressive actions by ICE</a>, and much more.&nbsp;&nbsp;</p>
+
+<p class="wp-block-paragraph">Winning control of either the House or Senate is crucial to these efforts because it would give them a hugely important investigative tool: congressional subpoena power. Democratic majorities would be newly able to issue legally binding requests for documents and testimony. (Currently, stuck in the minority in both chambers, all they can do is ask nicely.)</p>
+
+<p class="wp-block-paragraph">Why do investigations matter? One goal can simply be to unearth new facts about what’s been going on inside the executive branch, which can help determine their next steps. A second can be to spur criminal investigations, though this seems unlikely while Trump is in power, given his co-option of the Justice Department.&nbsp;</p>
+
+<p class="wp-block-paragraph">A third can be to pave the way to impeachment if significant wrongdoing is exposed. That said, in contrast to Trump’s first term, Democrats sound <a href="https://thehill.com/homenews/administration/6178028-harris-urges-democrats-against-impeachment/">far less eager</a> to impeach him this time around, though some have floated potentially impeaching <a href="https://www.theatlantic.com/politics/2026/10/democrats-impeachment-plans-hegseth-pentagon/689195/">Cabinet officials</a>.&nbsp;</p>
+
+<p class="wp-block-paragraph">Finally, a fourth goal can be to use hearings and other activity to focus the press and public’s attention on certain topics and potentially build momentum for action in response. Many Democrats feel that their 2021-2022 <a href="https://www.vox.com/2022/6/10/23161708/first-january-6-committee-hearing">House January 6 committee</a>, which featured dramatic public testimony and audiovisual presentations, was an innovator here.</p>
+
+<p class="wp-block-paragraph">The catch is that the Trump administration could — and likely will — just refuse to comply with subpoenas aimed at officials or agencies. In Trump’s first term, he <a href="https://www.nytimes.com/2019/04/24/us/politics/donald-trump-subpoenas.html">vowed</a> to fight “all the subpoenas” from House Democrats, and for the most part the administration followed through, declining to cooperate or asserting executive privilege.&nbsp;</p>
+
+<p class="wp-block-paragraph">If faced with this stonewalling, the usual next step is for Democrats to sue, and hope courts will compel compliance from the administration. The perennial problem, though, is that such lawsuits often take a long time to resolve — and could well stretch on into the next president’s term.</p>
+
+<p class="wp-block-paragraph">“It is unfortunately possible for the recipients of congressional subpoenas to resist and drag out these proceedings,” Tim Heaphy, the former chief investigative counsel for the House January 6 committee, told me. “And lawyers knew that, so they could run out the clock.”</p>
+
+<p class="wp-block-paragraph">Anticipating this resistance, Democrats <a href="https://www.axios.com/2026/03/12/democrats-congressional-oversight-midterms-senate-judiciary">have floated</a> that they may focus their subpoenas on people or companies outside the government who they think might have information about executive branch malfeasance.&nbsp;</p>
+
+<p class="wp-block-paragraph">These potential subpoena targets include <a href="https://democrats-intelligence.house.gov/news/documentsingle.aspx?DocumentID=1508">donors</a> to the White House ballroom construction effort, <a href="https://www.aol.com/articles/democrats-probe-lucrative-trump-family-100323000.html">investors</a> doing business with the Trump family, <a href="https://www.bloomberg.com/news/articles/2026-10-12/businesses-risk-wave-of-democratic-probes-on-costs-corruption">private companies</a> that have gotten federal contracts, <a href="https://www.cbsnews.com/news/democrats-pledge-investigation-trump-pardon-brokers/">lobbyists</a> that have helped secure presidential pardons for their clients, and <a href="https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-sens-schiff-and-blumenthal-probe-involvement-of-notorious-trump-fixer-s-role-in-brokering-deals-between-kirkland-ellis-and-trump-administration">law firms</a> that <a href="https://www.nytimes.com/2026/03/03/opinion/law-firms-resistance-trump.html">made deals</a> with the Trump administration.</p>
+
+
+
+<p class="wp-block-paragraph">The administration may still at least attempt to cite executive privilege to try to quash these subpoenas. “I’ve heard that there’s already some discussion about whether the executive branch would have standing to object to a subpoena handed to a government contractor,” Heaphy said. Democrats also hope to get cooperation from whistleblowers and government officials who actually want to share what they know.</p>
+
+<p class="wp-block-paragraph">But some have called on congressional Democrats to do more to try and ensure there will be consequences for defying subpoenas. For instance, Congress could theoretically assert a power known as “<a href="https://www.everycrsreport.com/reports/R45653.html">inherent contempt</a>,” ordering noncompliant officials to be detained (or, potentially, <a href="https://www.axios.com/2019/05/10/adam-schiff-inherent-contempt-fines-trump-officials">fined</a>); this power has not been invoked <a href="https://www.everycrsreport.com/files/20200116_RL30240_b5353507d165a21f7f77e735877806ecbcef45e7.html">since 1934</a>. If they tried to use this power against administration officials, a major constitutional battle would ensue. Others have suggested the less dramatic approach of making government funding contingent on agencies’ or officials’ cooperation with investigations.</p>
+
+<p class="wp-block-paragraph">Josh Chafetz, a Georgetown law professor and an expert on congressional power, told me that, to succeed with investigations, Democrats would have to think creatively. Simply litigating the Trump administration’s defiance, he said, was “a fool’s errand.” He added: “If they follow that playbook, they’re going to get the same results — which is, nothing will happen in those investigations over the next two years.”</p>
+
+<h2 class="wp-block-heading">Confirmations: A Senate takeover would have big stakes for how the Trump administration functions</h2>
+
+<p class="wp-block-paragraph">If Democrats manage to win the Senate, there will be another major consequence — Trump will need their approval to confirm judges and many administration officials.&nbsp;</p>
+
+<p class="wp-block-paragraph">Trump has nominated several extreme or controversial figures to his administration; and, because the GOP Senate majority was inclined to defer to their party’s president, the vast majority of them were confirmed. (Sorry, <a href="https://www.npr.org/2024/11/21/g-s1-35211/gaetz-out-attorney-general-trump">Matt Gaetz</a>.) These nominations can have very real consequences: if Trump had selected someone other than <a href="https://www.aol.com/news/trump-says-hegseth-first-one-180246333.html">Pete Hegseth</a>, who was only one vote away from <a href="https://www.nytimes.com/live/2025/01/24/us/pete-hegseth-defense-secretary-vote">not being confirmed</a>, as defense secretary, perhaps he would have heard more warnings about the risks of war with Iran.</p>
+
+<p class="wp-block-paragraph">A Democratic Senate would be far more skeptical of confirming particularly controversial nominees for administration positions. But more broadly than that, all Trump nominees would face tougher scrutiny. “The administration’s going to find it very hard to get pretty much anyone confirmed,” Chafetz said.</p>
+
+<p class="wp-block-paragraph">The official line from Democratic leadership is that they will be happy to confirm qualified Trump nominees — but that Trump is simply nominating unqualified people. “If the nominees are as crappy as his present ones, very few of them are going to get through,” Sen. Chuck Schumer (D-NY) — the likely majority leader, if Democrats win the Senate — <a href="https://www.semafor.com/article/10/05/2026/democratic-controlled-senate-would-confirm-very-few-trump-nominees">told Semafor</a> last month.</p>
+
+<p class="wp-block-paragraph">A confirmation blockade wouldn’t lead to an urgent crisis, since Trump’s administration is full of confirmed appointees already. But as various officials leave the government — voluntarily or involuntarily — Trump will want replacements. Democrats will have to weigh just how far they want to go in slow-walking or delaying Trump nominees. Some Democrats will also want to use nominees as bargaining chips in their dealings with the administration, while others may think obstructing noncontroversial nominees is antithetical to how government should function.</p>
+
+<p class="wp-block-paragraph">Trump would likely respond by trying to rely more on “acting” appointees for key roles, as he did <a href="https://www.washingtonpost.com/politics/2020/02/21/trump-has-had-an-acting-official-cabinet-level-job-1-out-every-9-days/">in his first term</a> —&nbsp; but there are <a href="https://www.gao.gov/legal/federal-vacancies-reform-act/faqs-on-the-vacancies-act">legal limits</a> on who can be appointed to an acting role, and how long they can serve there.&nbsp;</p>
+
+<p class="wp-block-paragraph">Judicial nominees, meanwhile, serve for life if they’re confirmed. So a Democratic Senate majority would be most skeptical about confirming Trump’s judge picks, particularly at the circuit court level and certainly at the Supreme Court should any vacancy arise.&nbsp;</p>
+
+<p class="wp-block-paragraph">For the Supreme Court, this is most consequential; conservatives currently have a 6-3 majority. But there are four Supreme Court justices in their 70s, with the oldest being 78-year-old Clarence Thomas and 76-year-old Samuel Alito.&nbsp;</p>
+
+<p class="wp-block-paragraph">If Republicans hold the Senate, either could retire confident a right-wing successor would be confirmed. But if Democrats take over the chamber, they’d likely follow the precedent set by the GOP when they refused to even consider President Barack Obama’s nominee for the late Justice Antonin Scalia’s seat in 2016 — holding it open for the next president to fill.</p>
+
+<p class="wp-block-paragraph">That said, there may be a brief window for Republicans to try to <a href="https://www.politico.com/news/2026/10/07/senate-supreme-court-lame-duck-01109203">confirm a justice in the final session</a> before the new Senate majority is sworn in, if one or more do decide to step down.</p>
+
+<h2 class="wp-block-heading">The political stakes: In Trump’s last two years in power, will he be hemmed in — or emboldened?</h2>
+
+<p class="wp-block-paragraph">Finally, looming above and affecting all these issues, is the political reality that the midterms will deliver what’s taken as a verdict on Trump’s second term so far.&nbsp;</p>
+
+<p class="wp-block-paragraph">If Democrats’ win is huge, Republicans will engage in a frenzy of finger-pointing and blame-casting as the party grapples with what comes next for them after the Trump era, especially with a presidential contest starting up in which he won’t be on the ballot. Practically, Trump will be more hemmed in, and though he will surely stoke further controversies and crises, he will be a weakened figure facing constant challenges from Congress.</p>
+
+
+
+<p class="wp-block-paragraph">Conversely, if Trump’s GOP defies the polls and holds both chambers, he’ll likely treat it as a complete vindication of his second-term approach — and feel emboldened to plunge ahead on his most controversial agenda items, from ICE crackdowns to the Iran war, confident Congress will do little to stop him and the next Republican nominee (whether Vice President JD Vance or someone else) will take his side.</p>
+						]]>
+									</content>
+			
+					</entry>
+	</feed>

@@ -1,0 +1,52 @@
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hacker News: Front Page</title><link>https://news.ycombinator.com/</link><description>Hacker News RSS</description><docs>https://hnrss.org/</docs><generator>hnrss v2.1.1</generator><lastBuildDate>Wed, 04 Nov 2026 11:23:02 +0000</lastBuildDate><atom:link href="https://hnrss.org/frontpage" rel="self" type="application/rss+xml"></atom:link><item><title><![CDATA[RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb]]></title><description><![CDATA[
+<p>Article URL: <a href="https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb">https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50363861">https://news.ycombinator.com/item?id=50363861</a></p>
+<p>Points: 12</p>
+<p># Comments: 9</p>
+]]></description><pubDate>Wed, 04 Nov 2026 11:02:23 +0000</pubDate><link>https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb</link><dc:creator>teleforce</dc:creator><comments>https://news.ycombinator.com/item?id=50363861</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50363861</guid></item><item><title><![CDATA[Told to reboot a server, it destroyed systemd, destroyed containers, ran random]]></title><description><![CDATA[
+<p>Article URL: <a href="https://github.com/openai/codex/issues/59060">https://github.com/openai/codex/issues/59060</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50363717">https://news.ycombinator.com/item?id=50363717</a></p>
+<p>Points: 24</p>
+<p># Comments: 10</p>
+]]></description><pubDate>Wed, 04 Nov 2026 10:43:51 +0000</pubDate><link>https://github.com/openai/codex/issues/59060</link><dc:creator>jstanley</dc:creator><comments>https://news.ycombinator.com/item?id=50363717</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50363717</guid></item><item><title><![CDATA[Geoffrey Hinton: it might turn out we were better off without AI]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai">https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50363554">https://news.ycombinator.com/item?id=50363554</a></p>
+<p>Points: 25</p>
+<p># Comments: 13</p>
+]]></description><pubDate>Wed, 04 Nov 2026 10:23:34 +0000</pubDate><link>https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai</link><dc:creator>alkyon</dc:creator><comments>https://news.ycombinator.com/item?id=50363554</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50363554</guid></item><item><title><![CDATA[Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)]]></title><description><![CDATA[
+<p>If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn <i>not to enter confidential information</i>.<p>https://support.google.com/gemini/answer/16836988<p><i>“[Gemini app activity] is used to improve Google services for everyone, including by training generative AI models, if your Keep Activity setting is on.“</i><p>https://support.google.com/gemini/answer/13594961?hl=en#human_review<p><i>“A subset of chats are reviewed by human reviewers”</i><p>https://support.google.com/gemini/answer/13594961?hl=en#pn_retain_data<p><i>“Chats reviewed by human reviewers [...] are not deleted when you delete your activity. Instead, they are retained for up to three years.”</i><p>https://support.google.com/gemini/answer/13594961?hl=en#pn_data_usage<p><i>“Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine-learning technologies.”</i><p>To disable their training on your chat sessions, you need to turn off “Keep Activity” in Gemini’s settings. Turning that off means you’ll lose any chat sessions after 72 hours.<p>I learned this too late, thinking that having a paid subscription = not being turned into the product. Apparently paying is not enough.<p>Thank you to this user on HN for mentioning in another thread: https://news.ycombinator.com/item?id=50355424</p>
+<hr>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50363461">https://news.ycombinator.com/item?id=50363461</a></p>
+<p>Points: 33</p>
+<p># Comments: 8</p>
+]]></description><pubDate>Wed, 04 Nov 2026 10:10:27 +0000</pubDate><link>https://news.ycombinator.com/item?id=50363461</link><dc:creator>jameslk</dc:creator><comments>https://news.ycombinator.com/item?id=50363461</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50363461</guid></item><item><title><![CDATA[Incident with Pull Requests, Git Operations and Issues]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www.githubstatus.com/incidents/smtdswd1h2w4">https://www.githubstatus.com/incidents/smtdswd1h2w4</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50363378">https://news.ycombinator.com/item?id=50363378</a></p>
+<p>Points: 70</p>
+<p># Comments: 42</p>
+]]></description><pubDate>Wed, 04 Nov 2026 10:00:06 +0000</pubDate><link>https://www.githubstatus.com/incidents/smtdswd1h2w4</link><dc:creator>kevcampb</dc:creator><comments>https://news.ycombinator.com/item?id=50363378</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50363378</guid></item><item><title><![CDATA[Verification Is Not Knowledge: Science needs more than answers]]></title><description><![CDATA[
+<p>Article URL: <a href="https://blog.cosmos-institute.org/p/verification-is-not-knowledge">https://blog.cosmos-institute.org/p/verification-is-not-knowledge</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50363019">https://news.ycombinator.com/item?id=50363019</a></p>
+<p>Points: 53</p>
+<p># Comments: 27</p>
+]]></description><pubDate>Wed, 04 Nov 2026 09:01:58 +0000</pubDate><link>https://blog.cosmos-institute.org/p/verification-is-not-knowledge</link><dc:creator>ersinesen</dc:creator><comments>https://news.ycombinator.com/item?id=50363019</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50363019</guid></item><item><title><![CDATA[Milkman – The Better Alternative to Postman]]></title><description><![CDATA[
+<p>Article URL: <a href="https://milkman.dev/">https://milkman.dev/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50362993">https://news.ycombinator.com/item?id=50362993</a></p>
+<p>Points: 33</p>
+<p># Comments: 35</p>
+]]></description><pubDate>Wed, 04 Nov 2026 08:58:03 +0000</pubDate><link>https://milkman.dev/</link><dc:creator>jplunien</dc:creator><comments>https://news.ycombinator.com/item?id=50362993</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50362993</guid></item><item><title><![CDATA[Kitty 0.50]]></title><description><![CDATA[
+<p>Article URL: <a href="https://sw.kovidgoyal.net/kitty/changelog/#">https://sw.kovidgoyal.net/kitty/changelog/#</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50362980">https://news.ycombinator.com/item?id=50362980</a></p>
+<p>Points: 152</p>
+<p># Comments: 76</p>
+]]></description><pubDate>Wed, 04 Nov 2026 08:57:10 +0000</pubDate><link>https://sw.kovidgoyal.net/kitty/changelog/#</link><dc:creator>porridgeraisin</dc:creator><comments>https://news.ycombinator.com/item?id=50362980</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50362980</guid></item><item><title><![CDATA[Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux]]></title><description><![CDATA[
+<p>Article URL: <a href="https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop">https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50362905">https://news.ycombinator.com/item?id=50362905</a></p>
+<p>Points: 94</p>
+<p># Comments: 50</p>
+]]></description><pubDate>Wed, 04 Nov 2026 08:46:29 +0000</pubDate><link>https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop</link><dc:creator>novaRom</dc:creator><comments>https://news.ycombinator.com/item?id=50362905</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50362905</guid></item><item><title><![CDATA[The lost malloc()]]></title><description><![CDATA[
+<p>Article URL: <a href="https://napcakes.nekoweb.org/posts/malloc/">https://napcakes.nekoweb.org/posts/malloc/</a></p>
+<p>Comments URL: <a href="https://news.ycombinator.com/item?id=50362466">https://news.ycombinator.com/item?id=50362466</a></p>
+<p>Points: 57</p>
+<p># Comments: 15</p>
+]]></description><pubDate>Wed, 04 Nov 2026 07:37:30 +0000</pubDate><link>https://napcakes.nekoweb.org/posts/malloc/</link><dc:creator>matt_d</dc:creator><comments>https://news.ycombinator.com/item?id=50362466</comments><guid isPermaLink="false">https://news.ycombinator.com/item?id=50362466</guid></item></channel></rss>

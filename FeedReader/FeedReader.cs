@@ -49,19 +49,11 @@
                 || tmpUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
                 return feedLink;
 
-            if (tmpUrl.StartsWith("//", StringComparison.OrdinalIgnoreCase)) // special case
-                tmpUrl = "http:" + tmpUrl;
+            // standard uri resolution: "/feed" -> site root, "feed" -> relative to the page, "//host/feed" -> scheme of the page
+            if (Uri.TryCreate(pageUrl, UriKind.Absolute, out Uri baseUri)
+                && Uri.TryCreate(baseUri, tmpUrl, out Uri finalUri))
+                return new HtmlFeedLink(feedLink.Title.HtmlDecode(), finalUri.ToString(), feedLink.FeedType);
 
-            if (Uri.TryCreate(tmpUrl, UriKind.RelativeOrAbsolute, out Uri finalUri))
-            {
-                if (finalUri.IsAbsoluteUri)
-                {
-                    return new HtmlFeedLink(feedLink.Title.HtmlDecode(), finalUri.ToString(), feedLink.FeedType);
-                }
-                else if (Uri.TryCreate(pageUrl + '/' + tmpUrl.TrimStart('/'), UriKind.Absolute, out finalUri))
-                    return new HtmlFeedLink(feedLink.Title.HtmlDecode(), finalUri.ToString(), feedLink.FeedType);
-            }
-            
             throw new UrlNotFoundException($"Could not get the absolute url out of {pageUrl} and {feedLink.Url}");
         }
 
@@ -217,10 +209,14 @@
             }
 #else
             {
-                using (var stream = System.IO.File.Open(filePath, System.IO.FileMode.Open))
+                using (var stream = System.IO.File.OpenRead(filePath))
                 {
                     result = new byte[stream.Length];
-                    await stream.ReadAsync(result, 0, (int)stream.Length, cancellationToken).ConfigureAwait(false);
+                    int offset = 0, read;
+                    // ReadAsync may return fewer bytes than requested
+                    while (offset < result.Length
+                        && (read = await stream.ReadAsync(result, offset, result.Length - offset, cancellationToken).ConfigureAwait(false)) > 0)
+                        offset += read;
                 }
             }
             #endif

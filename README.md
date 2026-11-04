@@ -66,6 +66,16 @@ If the url to the feed is not known, then you can use FeedReader.GetFeedUrlsFrom
 
 The code contains a sample console application: https://github.com/codehollow/FeedReader/tree/master/FeedReader.ConsoleSample
 
+## Build & Test
+```bash
+dotnet test FeedReader.Tests
+```
+
+The library is strong-name signed with `key.snk` (SHA1). Distros that block SHA1 signatures (e.g. Fedora/RHEL) fail the signed build with `invalid digest`. To build the signed NuGet package on Linux (output: `artifacts/`):
+```bash
+build/pack.sh
+```
+
 
 ## Specifications
 - RSS 0.91: http://www.rssboard.org/rss-0-9-1-netscape

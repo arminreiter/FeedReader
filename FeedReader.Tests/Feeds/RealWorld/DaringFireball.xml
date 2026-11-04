@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Daring Fireball</title>
+<subtitle>By John Gruber</subtitle>
+<link rel="alternate" type="text/html" href="https://daringfireball.net/" />
+<link rel="self" type="application/atom+xml" href="https://daringfireball.net/feeds/main" />
+<id>https://daringfireball.net/feeds/main</id>
+
+
+<updated>2026-11-04T00:12:31Z</updated><rights>Copyright © 2026, John Gruber</rights><entry>
+	<title>Apple Begins Opening Siri AI to Developers</title>
+	<link rel="alternate" type="text/html" href="https://developer.apple.com/news/?id=gdk2umrf" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xpf" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/apple-begins-opening-siri-ai-to-developers" />
+	<id>tag:daringfireball.net,2026:/linked//6.43683</id>
+	<published>2026-11-03T23:58:49Z</published>
+	<updated>2026-11-03T23:58:50Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Apple Developer:</p>
+
+<blockquote>
+  <p>Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and
+visionOS 27.3 betas, a new Developer Preview enables any developer
+to integrate their app with Siri AI, giving businesses and
+developers new ways to reach and serve their customers. [...]</p>
+
+<p>This developer beta offers a sneak peek at Siri AI app intents for
+developers. With this early Developer Preview, your app can work
+directly with Siri AI, giving you a first look at new ways to
+reach and serve your customers. This preview provides early access
+before first shipping to customers in a few months; and with
+submission to the App Store opening up in the spring, developers
+have time to explore, build, and help shape their experiences
+before launch. Try it out and share your feedback.</p>
+
+<p>As you explore early, we will follow up with more details about
+the terms and usage policies for experiences enabled through Siri
+AI. More to share soon.</p>
+</blockquote>
+
+<p><a href="https://mastodon.social/@agiletortoise/117554110669725591">Greg Pierce</a> (developer of <a href="https://getdrafts.com/">Drafts</a> and <a href="https://agiletortoise.com/">other fine apps</a>):</p>
+
+<blockquote>
+  <p>This sounds amazing, and I didn’t think we’d see App Intents
+integration into Siri AI until next WWDC.</p>
+</blockquote>
+
+<p>Siri AI is getting to the point of underpromising and overdelivering, which is where you want products to be. In 2025 things were <a href="https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino">so bad</a>, Apple had overpromised and not just underdelivered, but delivered nothing.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Begins Opening Siri AI to Developers’"  href="https://daringfireball.net/linked/2026/11/03/apple-begins-opening-siri-ai-to-developers">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>iPad Mini (A20 Pro) Review Roundup</title>
+	<link rel="alternate" type="text/html" href="https://www.techmeme.com/261103/p15#a261103p15" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xpe" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/ipad-mini-review-roundup" />
+	<id>tag:daringfireball.net,2026:/linked//6.43682</id>
+	<published>2026-11-03T23:45:18Z</published>
+	<updated>2026-11-03T23:46:57Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p><a href="https://www.theverge.com/tech/1025015/2026-ipad-mini-oled-review">David Pierce at The Verge</a>, on the Acoustic Display:</p>
+
+<blockquote>
+  <p>It means the sound fires out of the front panel rather than from
+speaker holes. (Some TVs currently work the same way.) It doesn’t
+sound any better than before, maybe a tiny bit bassier, but it
+also doesn’t sound worse, and if anything it’s slightly better to
+have the sound actually pointed at you instead of out the sides of
+the tablet. Mostly it’s a wash in service of the ruggedization,
+which is good enough for me.</p>
+</blockquote>
+
+<p><a href="https://www.youtube.com/watch?v=PBBjiZYylD4">Stephen Robles, on YouTube</a>, thinks it sounds muffled at high volumes and doesn’t seem to like how you can feel the whole tablet vibrate at high volumes.</p>
+
+<p><a href="https://www.tomsguide.com/computing/ipads/apple-ipad-mini-8-review">Tony Polanco at Tom’s Guide</a> liked the Acoustic Display sound quality and praised the battery life (but only had time to run the battery test once):</p>
+
+<blockquote>
+  <p>In the Tom’s Guide battery test, which involves continuous
+web-surfing over Wi-Fi with the display set to 150 nits of
+brightness, the iPad mini 8 lasted for an astonishing 14 hours and
+24 minutes! That’s nearly four hours longer than the previous
+model and Apple’s claims.</p>
+</blockquote>
+
+<p><a href="https://www.macstories.net/reviews/ipad-mini-2026-review-pushing-the-boundaries-with-apples-smallest-ipad/">John Voorhees at MacStories</a> was impressed by the Mini’s local AI performance:</p>
+
+<blockquote>
+  <p>The mini’s local AI capabilities extend beyond software optimized
+for the Neural Engine. To explore those, I ran Qwen 3.5 4B (4-bit)
+locally using a benchmark built into <a href="https://apps.apple.com/us/app/russet-openrouter-local-ai/id6754737926">Russet</a>, a local AI and
+developer tool. The 512GB iPad mini averaged a pace of 40 tokens
+per second across four sessions on both tests that output 128 or
+256 tokens with a time to first token of 0.32 seconds for the 128
+output token tests and 0.36 for the 256 output token tests.</p>
+
+<p>I couldn’t compare the new mini’s local AI performance to my 6th
+generation iPad mini because it only has 4GB of memory, which is
+too little for the models Russet offers for download. Instead, I
+downloaded the same model on my 11-inch M4 iPad Pro and ran the
+same Russet benchmark. The A20 Pro came out on top in my tests.
+The Russet tests I ran use <a href="https://github.com/ml-explore/mlx">MLX</a>, which runs on the CPU and GPU,
+so they don’t measure the benefit of the Dual 16-core Neural
+Engine. However, they do demonstrate the A20 Pro’s serious local
+AI capabilities.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘iPad Mini (A20 Pro) Review Roundup’"  href="https://daringfireball.net/linked/2026/11/03/ipad-mini-review-roundup">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>MKBHD on the New A20 Pro iPad Mini</title>
+	<link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=g6Die8gVFn0" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xpd" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/mkbhd-on-the-new-ipad-mini" />
+	<id>tag:daringfireball.net,2026:/linked//6.43681</id>
+	<published>2026-11-03T23:25:25Z</published>
+	<updated>2026-11-03T23:31:39Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Marques Brownlee describes the two color choices as “annoyingly, slightly not black and slightly not white,” which is apt. He digs the acoustic display enough that he can imagine Apple bringing it to a future high-end iPhone (like if they do a big redesign next year for the 20th anniversary), but he says you can feel the whole iPad shake if you turn the volume up high enough.</p>
+
+<p>And, of course, he dings it for not having a 120 Hz display, and wonders where Apple even sourced a high quality OLED that doesn’t support 120 Hz. I think that’s the wrong question to ask. It’s not about the display panel. It’s the display <em>driver</em>, and ProMotion requires a display driver that’s enough more expensive that adding it to the iPad Mini would either raise the price even further or cut into Apple’s profit margins. It’s the driver, though, not the panel, in my understanding.</p>
+
+<div>
+<a  title="Permanent link to ‘MKBHD on the New A20 Pro iPad Mini’"  href="https://daringfireball.net/linked/2026/11/03/mkbhd-on-the-new-ipad-mini">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Safari 27.3 Beta Adds Vertical Tabs and Adaptive Dark Mode</title>
+	<link rel="alternate" type="text/html" href="https://www.macrumors.com/2026/11/03/ios-27-3-safari/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xpc" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/safari-27-3-vertical-tabs" />
+	<id>tag:daringfireball.net,2026:/linked//6.43680</id>
+	<published>2026-11-03T19:26:41Z</published>
+	<updated>2026-11-04T00:12:31Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Juli Clover, MacRumors:</p>
+
+<blockquote>
+  <p>With iOS 27.3, iPadOS 27.3, and macOS Golden Gate 27.3, Apple is
+making major updates to Safari. The browser is getting a Vertical
+Tabs layout, which can be used instead of the standard horizontal
+tab bar. It’s a change that pairs well with the iPhone Duo’s
+larger display, but it is available across iPhone, iPad, and Mac.</p>
+
+<p>Vertical Tabs are located on the left side of the display and use
+icons by default to save space, but there is an option to make the
+tab bar wider to show website titles as well. Vertical Tabs work
+with both Topics and Tab Groups to keep things organized. Topics
+are created when automatic Apple Intelligence tab sorting is
+turned on in iOS 27. Pinning tabs by dragging, quickly swapping
+between Tab Groups, and other features also continue to work.</p>
+</blockquote>
+
+<p>I got an advance demo of this last week and I’m really looking forward to trying it. I’ve gotten very used to horizontal tabs over the years, but <a href="https://daringfireball.net/2004/08/omniweb_5">a long time ago</a> I was a devoted user of the Omni Group’s OmniWeb browser, of which one of my favorite features was its vertical tabs. That was so long ago, <a href="https://daringfireball.net/2004/02/omniweb_5_public_beta">the tabs went in a drawer</a>.</p>
+
+<blockquote>
+  <p>Apple is adding Adaptive Dark Mode for websites that don’t have a
+dark mode design option by default. If you use Dark Mode and then
+browse to a website with a bright background color, Safari will
+offer an option to “Try” Adaptive Dark Mode.</p>
+</blockquote>
+
+<p>There are some popular Safari extensions that offer this (e.g. <a href="https://getnoir.app/">Noir</a>), but Safari 27.3 has the feature built-in, and the demo I saw looked great. It kicks in for light-background websites that don’t offer a dark mode alternative presentation, and it allows for web developers to explicitly opt out.</p>
+
+<div>
+<a  title="Permanent link to ‘Safari 27.3 Beta Adds Vertical Tabs and Adaptive Dark Mode’"  href="https://daringfireball.net/linked/2026/11/03/safari-27-3-vertical-tabs">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The New York Times (et al.) Sues Brave for Copyright Infringement, Selling Scraped Content to AI Companies for Model Training</title>
+	<link rel="alternate" type="text/html" href="https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xpb" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/new-york-times-sues-brave" />
+	<id>tag:daringfireball.net,2026:/linked//6.43679</id>
+	<published>2026-11-03T15:46:25Z</published>
+	<updated>2026-11-03T16:09:27Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jay Peters, The Verge:</p>
+
+<blockquote>
+  <p>The New York Times and a group of other publications have <a href="https://nytco-assets.nytimes.com/2026/11/new-york-times-brave-complaint-11-2-26.pdf">filed
+lawsuits</a> against the company that makes the Brave
+web browser over alleged unlawful scraping to train AI and also
+letting users bypass their paywalls, <a href="https://www.reuters.com/legal/litigation/new-york-times-sues-maker-brave-web-browser-over-copyrights-2026-11-02/?link_source=ta_bluesky_link&amp;taid=6ae8b70f401f6f00010d16d6">as reported by Reuters</a>.</p>
+
+<p>According to <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.676310/gov.uscourts.nysd.676310.1.0.pdf">a complaint</a> filed by the New York
+Daily News, the Chicago Tribune, and the Orlando Sentinel, Brave
+Software has monetized its index of scraped websites by, in part,
+providing AI companies with paid access to “real-time online
+content from the Brave Index.” The AI companies then use that
+index to train their models, access content to “respond to
+specific user queries,” or both. Brave has allegedly provided
+“stolen copyrighted content” to “many” AI companies including
+Anthropic, Perplexity, Mistral, xAI, and Cohere.</p>
+
+<p>Brave also promotes “hundreds of top publishers” as being
+accessible through its “Paywall blocker” feature in its browser.</p>
+</blockquote>
+
+<p>Brave’s monetization strategies have <a href="https://tech.yahoo.com/vpn/articles/brave-browser-quietly-slips-vpn-011639007.html">long</a> been <a href="https://www.coindesk.com/business/2020/06/08/brave-browsers-affiliate-link-controversy-explained">shifty AF</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘The New York Times (et al.) Sues Brave for Copyright Infringement, Selling Scraped Content to AI Companies for Model Training’"  href="https://daringfireball.net/linked/2026/11/03/new-york-times-sues-brave">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Steve Jobs on His Final Quarterly Analyst Call: ‘We Think the Open Versus Closed Argument Is Just a Smokescreen’</title>
+	<link rel="alternate" type="text/html" href="https://www.macworld.com/article/208438/jobs_transcript.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xpa" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/jobs-open-closed" />
+	<id>tag:daringfireball.net,2026:/linked//6.43678</id>
+	<published>2026-11-03T15:40:34Z</published>
+	<updated>2026-11-03T15:40:35Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>After linking to it earlier today, I re-read Steve Jobs’s remarks from his last appearance on a quarterly analyst call. It’s a banger of a good read:</p>
+
+<blockquote>
+  <p>You know, even if Google were right, and the real issue is
+“closed” versus “open,” it is worthwhile to remember that open
+systems don’t always win. Take Microsoft’s “Plays For Sure” music
+strategy, which used the PC model — which Android uses as well — of separating the software components from the hardware
+components. Even Microsoft finally abandoned this “open” strategy
+in favor of copying Apple’s integrated approach with their Zune
+player, unfortunately leaving their OEMs empty-handed in the
+process. Google flirted with this integrated approach with their
+Nexus One phone.</p>
+
+<p>In reality, we think the open versus closed argument is just a
+smokescreen to try and hide the real issue, which is, “What’s best
+for the customer — fragmented versus integrated?” We think
+Android is very, very fragmented, and becoming more fragmented by
+the day. And as you know, Apple strives for the integrated model
+so that the user isn’t forced to be the systems integrator. We see
+tremendous value at having Apple, rather than our users, be the
+systems integrator. We think this a huge strength of our approach
+compared to Google’s: when selling the users who want their
+devices to just work, we believe that integrated will trump
+fragmented every time.</p>
+</blockquote>
+
+<p>Prescient.</p>
+
+<div>
+<a  title="Permanent link to ‘Steve Jobs on His Final Quarterly Analyst Call: ‘We Think the Open Versus Closed Argument Is Just a Smokescreen’’"  href="https://daringfireball.net/linked/2026/11/03/jobs-open-closed">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Chance Miller Reviews the New A20 Pro iPad Mini</title>
+	<link rel="alternate" type="text/html" href="https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xp9" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/miller-ipad-mini" />
+	<id>tag:daringfireball.net,2026:/linked//6.43677</id>
+	<published>2026-11-03T14:51:14Z</published>
+	<updated>2026-11-03T15:19:32Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Chance Miller, writing at 9to5Mac:</p>
+
+<blockquote>
+  <p>Unfortunately, the new iPad mini’s screen has one limitation: it
+doesn’t support ProMotion, or a 120Hz refresh rate of any kind.
+Instead, it’s still locked to 60Hz. This is an incredibly
+frustrating decision that I can’t quite wrap my head around.</p>
+
+<p>Apple <a href="https://9to5mac.com/2026/10/29/apple-vp-talks-new-ipad-mini-oled-without-promotion-acoustic-display-more/">touts</a> the iPad mini’s OLED screen as offering
+significantly faster pixel response time than the previous
+generation’s LCD panel, leading to improvements like smoother
+scrolling and reduced motion blur.</p>
+
+<p>I’ve noticed that things like swiping between Home Screen pages,
+scrolling social media, and system animations are noticeably
+smoother. They aren’t, however, as smooth as an Apple device with
+a ProMotion display, and they’re not a substitute for a higher
+refresh-rate display.</p>
+</blockquote>
+
+<p>Apple is very stingy with ProMotion. Until last year it was exclusively available in iPhones, iPads, and MacBooks that had “Pro” in their name. Last year they added ProMotion to two products without “Pro” in their names: the iPhone 17 and iPhone Air. This year’s $2,000 iPhone Duo of course offers it now too. Apple refreshed the $1,600 Studio Display last year but <a href="https://www.apple.com/displays/">it still only supports 60 Hz</a>; only the $3,300 Studio Display XDR supports 120 Hz. (Apple does not call this “ProMotion”.)</p>
+
+<p>What makes this frustrating with the iPad Mini is that Apple doesn’t sell an iPad Pro smaller than 11 inches. With MacBooks and larger iPads, if you really care about ProMotion, you can spend money to get it. With a small iPad, however, you can’t.</p>
+
+<p>My big question re: the new iPad Mini is the new “acoustic display”. Miller gives it a thumbs-up:</p>
+
+<blockquote>
+  <p>Essentially, Apple has designed special woofers that vibrate the
+display to produce low and midrange frequencies. For higher
+frequencies, custom tweeters are hidden between the glass and
+aluminum enclosure. Apple says this new system delivers louder
+audio, “punchier” bass, and clearer highs, despite the iPad mini’s
+significantly thinner design.</p>
+
+<p>In practice, I think the new iPad mini sounds great. I’d choose
+headphones or an external speaker for serious music or video
+consumption, but day-to-day the iPad mini’s built-in speakers are
+perfectly adequate. (I’d bet that this Acoustic Display technology
+shows up in future iPhones too, and the iPad mini is serving as a
+test bed of sorts.)</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Chance Miller Reviews the New A20 Pro iPad Mini’"  href="https://daringfireball.net/linked/2026/11/03/miller-ipad-mini">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple’s Analyst Calls Have Been Scripted for Decades</title>
+	<link rel="alternate" type="text/html" href="https://9to5mac.com/2026/11/03/apple-ceo-john-ternus-criticized-for-scripted-approach-to-first-earnings-call/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xp8" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/apples-analyst-calls-have-been-scripted-for-decades" />
+	<id>tag:daringfireball.net,2026:/linked//6.43676</id>
+	<published>2026-11-03T14:39:03Z</published>
+	<updated>2026-11-03T15:15:57Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p><a href="https://www.bloomberg.com/opinion/articles/2026-11-03/apple-earnings-tight-lipped-ceo-john-ternus-fails-to-inspire">Bloomberg opinion columnist Dave Lee</a>:</p>
+
+<blockquote>
+  <p>Apple investors and fans hoping to get an insight into the
+philosophy of new Chief Executive Officer John Ternus on Monday
+were left sorely disappointed. The 51-year-old’s first earnings
+call was a timid affair, with Ternus taking cover behind a
+carefully written script as analysts peppered him with questions.</p>
+</blockquote>
+
+<p>This is stupid. I mean, it would have been fun if Ternus’s style on the analyst conference call had been loose and freewheeling. Just like it would have been fun if the questions from analysts hadn’t been mostly insipid and pointless. But nothing has changed here other than who the CEO is. Tim Cook’s quarter calls were snoozefests. Save those recordings and use them to help you sleep. And that’s exactly how Cook wanted them.</p>
+
+<p>What Ternus should do is follow Steve Jobs’s lead, and skip these calls except when there’s something exceptional to address. Let CFO Kevan Parekh and COO Sabih Khan handle them, the way Jobs used to let Tim Cook and Apple’s then CFOs handle them. <a href="https://daringfireball.net/linked/2008/07/22/jobs-health">At one point in 2008</a>, Jobs had only appeared on three of the calls in 11 years. He then appeared on the call <a href="https://www.macworld.com/article/193059/jobs_analyst_phone.html">in October 2008</a> to address the global financial crisis, and <a href="https://www.macworld.com/article/208438/jobs_transcript.html">again in October 2010</a> (one year before he died) to celebrate Apple’s first $20 billion quarter and to throw shade at Android, BlackBerry, and competing tablets. In the 14 years of Jobs’s 2.0 stint as CEO, he only appeared on five quarterly calls. That’s the way to do it. Show up only when you have something worth saying. Otherwise the message remains clear: steady as she goes.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple’s Analyst Calls Have Been Scripted for Decades’"  href="https://daringfireball.net/linked/2026/11/03/apples-analyst-calls-have-been-scripted-for-decades">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple’s New iPhone Release Schedule Seems to Pay Off</title>
+	<link rel="alternate" type="text/html" href="https://x.com/asymco/status/2117379158087278697" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xp7" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/03/apple-new-iphone-18-release-schedule" />
+	<id>tag:daringfireball.net,2026:/linked//6.43675</id>
+	<published>2026-11-03T14:30:40Z</published>
+	<updated>2026-11-03T15:12:01Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Horace Dediu, tweeting yesterday on Apple’s results:</p>
+
+<blockquote>
+  <p>iPhone grew at 17% sales which is amazing considering they did not
+launch the 18 or the Duo or the new Air in the quarter.</p>
+</blockquote>
+
+<p>The Duo didn’t launch until October, which is Q1 (in Apple’s financial calendar). And the Air, last year, was not a big seller (<a href="https://daringfireball.net/linked/2026/09/11/last-years-iphone-share-amongst-users-of-widgetsmith">putting it lightly</a>). The big bet Apple made this year was postponing the regular iPhone 18 until the end of winter early next year. The pro models — Pro and Pro Max — combined sell more than the regular non-pro no-adjective iPhone each year, but the regular non-pro iPhone <a href="https://9to5mac.com/2026/08/26/counterpoint-iphone-17-topped-worldwide-smartphone-sales-during-q2/">is Apple’s single best-selling iPhone model</a>. The bet that Apple made is that those mainstream buyers don’t care if the regular iPhone 18 ships five or six months after the 18 Pros — and won’t care next year, or the year after that, or the year after that about this same schedule being followed by the iPhones 19, 20, 21, etc.</p>
+
+<p>The other factor at play is that the just-reported quarter started in July, just after <a href="https://daringfireball.net/2026/06/spensive_thoughts">Apple raised prices</a> on just about every major product it sells <em>other than the iPhone</em>. So it’s theoretically possible that this quarter’s sales were boosted by people buying year-old iPhone 17-generation models in anticipation of Apple raising prices with the new models in September (which is exactly what happened). But I don’t see how that can explain 17 percent growth in sales year-over-year. <em>Some</em> savvy enthusiasts definitely did this. I have heard from a few people who bought iPhone 17 Pros in August, concluding that they’d be better off saving money than spending more for an only incrementally better 18 Pro (which would no longer come in the all-time-great cosmic orange colorway). But general consumers don’t follow Apple that closely. There are <a href="https://asymco.com/2026/02/20/estimating-2035-iphone-users/">around 1.6 billion iPhone users worldwide</a>, and I bet <em>at least</em> an entire billion of them have no idea that Apple <em>always</em> holds an iPhone introduction event in early September.</p>
+
+<p>We can’t call this new launch schedule a win until we see what happens in late February or early March when Apple launches the iPhone 18, 18e, and Air 2, but so far it sure looks like a win.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple’s New iPhone Release Schedule Seems to Pay Off’"  href="https://daringfireball.net/linked/2026/11/03/apple-new-iphone-18-release-schedule">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Announces Record $114.5B Fourth-Quarter Results</title>
+	<link rel="alternate" type="text/html" href="https://sixcolors.com/post/2026/11/apple-announces-record-114-5b-fourth-quarter-results/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/xp6" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2026/11/02/aapl-q4-2026-results" />
+	<id>tag:daringfireball.net,2026:/linked//6.43674</id>
+	<published>2026-11-03T00:10:53Z</published>
+	<updated>2026-11-03T00:11:38Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jason Snell, Six Colors:</p>
+
+<blockquote>
+  <p>On Monday, Apple announced <a href="https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/">record fourth-quarter earnings</a>,
+with total revenue of $114.5B, up 12 percent from the year-ago
+quarter. iPhone revenue was up 17.5%, Mac revenue was up 23.7%,
+and Services revenue was up 9.8%. Wearables revenue was down 7.9%
+and iPad revenue was down 10.4%. [...]</p>
+
+<p>And now, to help you visualize what Apple just announced, here is
+our traditional barrage of charts and graphs.</p>
+</blockquote>
+
+<p>As usual, <a href="https://sixcolors.com/post/2026/11/hello-everyone-its-john-apples-q4-2026-earnings-call-transcript/">Snell also has a transcript</a> of <a href="https://www.apple.com/investor/earnings-call/">the analyst call</a> — Ternus’s first as CEO. My favorite tidbit was his line at the end of this answer:</p>
+
+<blockquote>
+  <p><strong>Richard Kramer, Arete Research:</strong> Your latest MacBook Pros
+included more iOS features like Touch and Dynamic Island as well
+as, obviously, Siri AI. Should we anticipate further close linking
+of macOS and iOS features, maybe even pointing at some point to a
+single unified OS, either for simplicity or to reduce costs?</p>
+
+<p><strong>John Ternus:</strong> Look, we are very proud of both the Mac and the
+iPad, and I think what you’ve seen over the years is we’ve really
+enjoyed the ability to bring features and capabilities across the
+ecosystem and create really compelling features that span things
+between handoff between iPhone and Mac and iPad, and so when we
+design the product, we’re looking at how can we make the best
+version of each and every product, and if you look at what we just
+did last week with the MacBook Pro, we took a huge leap forward.
+These MacBook Pros are better in every way than the ones that came
+before them, and we’re really proud of that, and so we don’t have
+any fundamentally different changes that we’re planning right now,
+nor would we talk about it anyway.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Apple Announces Record $114.5B Fourth-Quarter Results’"  href="https://daringfireball.net/linked/2026/11/02/aapl-q4-2026-results">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry></feed><!-- THE END -->

@@ -1,5 +1,7 @@
 ﻿namespace CodeHollow.FeedReader.Feeds
 {
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Xml.Linq;
 
     /// <summary>
@@ -58,6 +60,19 @@
             this.HrefLanguage = element.GetAttributeValue("hreflang");
             this.Title = element.GetAttributeValue("title");
             this.Length = Helpers.TryParseInt(element.GetAttributeValue("length"));
+        }
+
+        /// <summary>
+        /// Returns the href of the main link: rel="alternate" (or no rel, which defaults to alternate per spec),
+        /// preferring type text/html. Falls back to the first link.
+        /// </summary>
+        internal static string GetMainHref(ICollection<AtomLink> links)
+        {
+            var alternates = links.Where(x => string.IsNullOrEmpty(x.Relation) || x.Relation.EqualsIgnoreCase("alternate")).ToList();
+            var main = alternates.FirstOrDefault(x => x.LinkType.EqualsIgnoreCase("text/html"))
+                ?? alternates.FirstOrDefault()
+                ?? links.FirstOrDefault();
+            return main?.Href;
         }
 
         /// <summary>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-11-03T12:01:01Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AIs Hacking the Law]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html" />
+
+		<id>https://www.schneier.com/?p=72886</id>
+		<updated>2026-11-03T12:01:01Z</updated>
+		<published>2026-11-03T12:01:00Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="laws" />
+		<summary type="html"><![CDATA[<p>In both a 2021 <a href="https://www.belfercenter.org/publication/coming-ai-hackers">essay</a> and my 2022 book, <i><a href="https://www.schneier.com/books/a-hackers-mind/">A Hacker&#8217;s Mind</a></i>, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system.</p>
+<p><a href="https://www.felixringe.com/legal-exploits/">Here&#8217;s</a> some demonstrations of this from Germany:</p>
+<blockquote><p>Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html"><![CDATA[<p>In both a 2021 <a href="https://www.belfercenter.org/publication/coming-ai-hackers">essay</a> and my 2022 book, <i><a href="https://www.schneier.com/books/a-hackers-mind/">A Hacker&#8217;s Mind</a></i>, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system.</p>
+<p><a href="https://www.felixringe.com/legal-exploits/">Here&#8217;s</a> some demonstrations of this from Germany:</p>
+<blockquote><p>Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change.</p>
+<p>In testing this hypothesis, we have identified a substantial number of vulnerabilities in the German legal system using LLMs. To our knowledge, none of these have been previously recorded. We share a selection of vulnerabilities below, and present potential exploits for each. We share only those vulnerabilities whose exploitation we believe would not cause serious harm.</p>
+<p>We believe that with cheap legal reasoning proliferating, AI systems could jeopardize the functioning of today&#8217;s legal systems. In such a world, lawmakers would need to significantly harden the process of legislation, for example by leveraging advanced AI themselves.</p></blockquote>
+<p>Still in its early stages, but definitely something that&#8217;s coming.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Vulnerability Finding]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html" />
+
+		<id>https://www.schneier.com/?p=72877</id>
+		<updated>2026-11-02T12:02:47Z</updated>
+		<published>2026-11-02T12:02:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>A <a href="https://x.com/NickADobos/status/2113430301183823901">comment</a>:</p>
+<blockquote><p>3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?</p></blockquote>
+<p>Yes. It is a new world out there.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html"><![CDATA[<p>A <a href="https://x.com/NickADobos/status/2113430301183823901">comment</a>:</p>
+<blockquote><p>3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?</p></blockquote>
+<p>Yes. It is a new world out there.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Bigfin Squid Off California Coast]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html" />
+
+		<id>https://www.schneier.com/?p=72713</id>
+		<updated>2026-10-30T21:04:37Z</updated>
+		<published>2026-10-30T21:04:36Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>Neat <a href="https://www.smithsonianmag.com/smart-news/watch-an-elusive-and-ethereal-bigfin-squid-float-above-the-seafloor-off-central-california-180989491/">video</a>:</p>
+<blockquote><p>The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the <i>Magnapinna</i> genus, in the northeastern Pacific Ocean.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html"><![CDATA[<p>Neat <a href="https://www.smithsonianmag.com/smart-news/watch-an-elusive-and-ethereal-bigfin-squid-float-above-the-seafloor-off-central-california-180989491/">video</a>:</p>
+<blockquote><p>The sighting, announced September 2, marks the first time anyone has spotted a live bigfin squid, which belongs to the <i>Magnapinna</i> genus, in the northeastern Pacific Ocean.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Bloatware in Aftermarket Auto Parts]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html" />
+
+		<id>https://www.schneier.com/?p=72874</id>
+		<updated>2026-10-30T15:20:02Z</updated>
+		<published>2026-10-30T15:20:02Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="Internet of Things" /><category scheme="https://www.schneier.com/" term="spyware" />
+		<summary type="html"><![CDATA[<p>This <a href="https://www.thedrive.com/news/cheap-aftermarket-head-units-are-loaded-with-spyware-by-the-way">story</a> is interesting:</p>
+<blockquote><p>One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about.</p>
+<p>Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html"><![CDATA[<p>This <a href="https://www.thedrive.com/news/cheap-aftermarket-head-units-are-loaded-with-spyware-by-the-way">story</a> is interesting:</p>
+<blockquote><p>One Civic owner purchased a cheap aftermarket head unit off Amazon, and decided to have Claude work its magic on it, like it would a smart TV. What was reportedly discovered isn’t surprising, but is worth knowing about.</p>
+<p>Among the pre-installed bloatware&#8212;­or spyware, if you’re being less charitable­&#8212;was a voice assistant equipped with WebView, an Android system component that lets apps display content off the web. This apparently always used about a third of processing power, even while idle, which isn’t great. There were also Baidu location services, a call recorder (!), a DAB radio client that is pretty much useless in the U.S., and Adobe Acrobat, presumably so your passenger can entertain themselves with PDFs on the go.</p></blockquote>
+<p>It&#8217;s interesting because it exposes all the insecurities in this piece of IoT software. But I think the real story is that a random person was able to do this reverse-engineering with the help of AI. Expect a lot more stories like this in the future.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Studying Fraudulent North Korean IT Workers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html" />
+
+		<id>https://www.schneier.com/?p=72866</id>
+		<updated>2026-10-28T11:05:31Z</updated>
+		<published>2026-10-28T11:05:00Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="employment" /><category scheme="https://www.schneier.com/" term="fraud" /><category scheme="https://www.schneier.com/" term="North Korea" />
+		<summary type="html"><![CDATA[<p>Researchers set up a fake start-up company to <a href="https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html ">study</a> fraudulent North Korean IT workers.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html"><![CDATA[<p>Researchers set up a fake start-up company to <a href="https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html ">study</a> fraudulent North Korean IT workers.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hiding Capabilities in AI Models]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html" />
+
+		<id>https://www.schneier.com/?p=72849</id>
+		<updated>2026-10-27T11:01:32Z</updated>
+		<published>2026-10-27T11:01:26Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="encryption" />
+		<summary type="html"><![CDATA[<p>Interesting research: &#8220;<a href="https://arxiv.org/abs/2610.13928">AI Models Can Provably Hide Arbitrary Capabilities</a>&#8221;</p>
+<blockquote><p><b>Abstract:</b> Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"><![CDATA[<p>Interesting research: &#8220;<a href="https://arxiv.org/abs/2610.13928">AI Models Can Provably Hide Arbitrary Capabilities</a>&#8221;</p>
+<blockquote><p><b>Abstract:</b> Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under cryptographic assumptions, even given full access to model weights, extending prior work from hiding fixed strings to arbitrary computations. We implement our proof of concept constructions in PyTorch and evaluate elicitation through fine-tuning, weight noising, gradient-based trigger search, and latent adversarial training, using a small chemical reaction prediction task as a proxy for CBRN-relevant capabilities. Our results demonstrate resistance to these methods and, together with our cryptographic guarantees, reveal a limit of elicitation-based capability audits. We release our models to support the improvement of defenses.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Bias in Qwen3-Coder Model]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html" />
+
+		<id>https://www.schneier.com/?p=72840</id>
+		<updated>2026-10-26T11:04:03Z</updated>
+		<published>2026-10-26T11:03:31Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="bias" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="hacking" />
+		<summary type="html"><![CDATA[<p>Interesting <a href="https://www.hirundo.io/blog/qwen3-coder-vulnerabilities">research</a>:</p>
+<blockquote><p>TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it.</p>
+<ul>
+<li>One word tilts the code against Americans. Ask for the app &#8220;for a US defense contractor&#8221; instead of &#8220;for a Chinese defense contractor&#8221;, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked.
+...</li></ul></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"><![CDATA[<p>Interesting <a href="https://www.hirundo.io/blog/qwen3-coder-vulnerabilities">research</a>:</p>
+<blockquote><p>TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes. For the first time, we showed that this vulnerability lives in the model&#8217;s weights, and that removing the model&#8217;s CCP alignment removes it.</p>
+<ul>
+<li>One word tilts the code against Americans. Ask for the app &#8220;for a US defense contractor&#8221; instead of &#8220;for a Chinese defense contractor&#8221;, and Qwen3-Coder is 19% more likely to hand back an app that can be hacked.
+<li>Hong Kong&#8217;s democracy movement gets apps that leak. Apps built for a Hong Kong democracy group were 28% more likely to let any user read everyone else&#8217;s secrets.
+<li>Asking for secure code didn&#8217;t help. With a security instruction in the prompt, the US contractor&#8217;s apps were 27% more likely to be hackable than a neutral customer&#8217;s.
+<li>Westernized Qwen3-Coder closed all three gaps. After Hirundo removed the model&#8217;s CCP alignment, none of the three gaps remained, and on ten other coding tasks it built working apps as often as the original. It is available on <a href="https://huggingface.co/hirundo-io/Qwen3-Coder-30B-A3B-Instruct-Westernized">Hugging Face</a>.</ul>
+</blockquote>
+<p>I would like more details on how the bias was removed.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Increasing Squid Populations]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html" />
+
+		<id>https://www.schneier.com/?p=72718</id>
+		<updated>2026-10-23T21:00:55Z</updated>
+		<published>2026-10-23T21:00:09Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>This <a href="https://www.sciencealert.com/squid-are-taking-over-the-ocean-and-not-for-the-reason-you-might-think">article</a> in <i>Nature</i> argues that it&#8217;s due to an overfishing of predators and warming sea temperatures.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html"><![CDATA[<p>This <a href="https://www.sciencealert.com/squid-are-taking-over-the-ocean-and-not-for-the-reason-you-might-think">article</a> in <i>Nature</i> argues that it&#8217;s due to an overfishing of predators and warming sea temperatures.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html#comments" thr:count="36" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html/feed/atom/" thr:count="36" />
+			<thr:total>36</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Compromised TLS Certificates]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html" />
+
+		<id>https://www.schneier.com/?p=72835</id>
+		<updated>2026-10-23T11:05:16Z</updated>
+		<published>2026-10-23T11:04:22Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="India" /><category scheme="https://www.schneier.com/" term="keys" /><category scheme="https://www.schneier.com/" term="TLS" />
+		<summary type="html"><![CDATA[<p>The Indian CA eMudhra Limited has eight TLS certificates with <a href="https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/">laughably weak private keys</a>:</p>
+<blockquote><p>The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2<sup>384</sup>, or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html"><![CDATA[<p>The Indian CA eMudhra Limited has eight TLS certificates with <a href="https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/">laughably weak private keys</a>:</p>
+<blockquote><p>The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the engineers studying the incident. A normal size for a NIST P-384 elliptic curve cryptography private key contains roughly 384 bits of entropy, a size allowing almost 2<sup>384</sup>, or a number with 116 digits, different possibilities. The private key sizes of the compromised keys ranged from 3 to 8 bits. Astonishingly, the private keys were 4, 56, 66, 115, 155, 156, 230, 237.</p>
+<p>&#8220;That is extremely in the &#8216;this should not be possible&#8217; category,&#8221; Valdorda said. &#8220;Maybe some horribly dangerous key generation interface has a ‘size’ parameter and they set it to 1 by mistake???&#8221;</p>
+<p>Ben Cartwright-Cox, director of BGP.tools, said: &#8220;My guess is that it’s example code that accidentally leaked to production, but hard to know. But it’s bonkers that no one noticed.&#8221;</p>
+<p>At this early stage, the most immediate threat appears to be for those using VPNs, especially in countries with governments likely to maliciously intercept traffic. There are likely many other cases for concern. End users largely have no recourse other than to hold off using many non-browser forms of TLS communication until they receive assurances updates are in place.</p></blockquote>
+<p>The whole certificate regime has long been a mess:</p>
+<blockquote><p>The incident is the latest to expose a fatal flaw in the TLS regimen. It’s only as strong as its weakest link, which in this case was eMudhra. Fortunately, transparency logs account for much of that failure, but this measure requires parties to actively monitor massive feeds and works only after unauthorized certificates have been issued. eMudhra representatives weren’t immediately available to answer questions.</p>
+<p>One caveat: exploiting compromised certificates requires an active adversary-in-the-middle attack, meaning the attacker must act as a proxy between two TLS parties and receive encrypted traffic, decrypt it, reencrypt it, and send it to the other party. Such capabilities, in some cases, are usually limited to only the most well-resourced attackers. People with control of a local network­at a coffee shop, university, or other organization­face much less of a challenge.</p></blockquote>
+<p>Cleanup of this is going to be another mess&#8212;and it&#8217;s right on top of the PHP vulnerabilities.</p>
+<p><a href="https://blog.talosintelligence.com/compromised-intermediate-certificates/">Some</a> <a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-tls-certificate-risk">more</a> <a href="https://blog.cloudflare.com/emudhra-certificate-compromise/">information</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html#comments" thr:count="32" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html/feed/atom/" thr:count="32" />
+			<thr:total>32</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[New Serious PHP Vulnerabilities Released and Patched]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html" />
+
+		<id>https://www.schneier.com/?p=72830</id>
+		<updated>2026-10-22T14:36:29Z</updated>
+		<published>2026-10-22T13:26:51Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>PHP maintainers have <a href="https://www.php.net/archive/2026.php#2026-10-20-1">released</a> fixes for two critical vulnerabilities:</p>
+<blockquote><p>PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. </p>
+<p>Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html"><![CDATA[<p>PHP maintainers have <a href="https://www.php.net/archive/2026.php#2026-10-20-1">released</a> fixes for two critical vulnerabilities:</p>
+<blockquote><p>PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical vulnerabilities that can allow unauthenticated remote code execution. All PHP users are strongly encouraged to update immediately. </p>
+<p>Who is at risk: all PHP installations serving web requests, including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We consider the risk highest for mod_php, with a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs.</p>
+<p>The vulnerabilities:</p>
+<ul>
+<li>RCE via OOM corruption, CVE-2026-109618 (<a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w">GHSA-w8hw-w9fx-j79w</a>): out-of-memory handling can interrupt PHP while internal request data is only partially initialized. Request cleanup may then treat the invalid data as valid.
+<li>RCE via stale global state, CVE-2026-109619 (<a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp">GHSA-6wmf-4rv5-p3rp</a>): request-owned internal state can survive after its backing memory has been freed. A later request handled by the same worker may use that stale state before normal initialization resets it.</ul>
+</blockquote>
+<p>Updating PHP is the only way to regain security. Do it now.</p>
+<p>More <a href="https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html">news</a>.</p>
+<p><a href="https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/">Good</a> <a href="https://www.recordedfuture.com/blog/php2shell-vulnerability-exploitation">explanations</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+	</feed>

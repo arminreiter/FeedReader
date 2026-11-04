@@ -92,7 +92,8 @@ namespace CodeHollow.FeedReader.Feeds
         public AtomFeedItem(XElement item)
             : base(item)
         {
-            this.Link = item.GetElement("link")?.Attribute("href")?.Value;
+            this.Links = item.GetElements("link").Select(x => new AtomLink(x)).ToList();
+            this.Link = AtomLink.GetMainHref(this.Links);
 
             this.Author = new AtomPerson(item.GetElement("author"));
 
@@ -105,7 +106,6 @@ namespace CodeHollow.FeedReader.Feeds
 
             this.PublishedDateString = item.GetValue("published");
             this.PublishedDate = Helpers.TryParseDateTime(this.PublishedDateString);
-            this.Links = item.GetElements("link").Select(x => new AtomLink(x)).ToList();
 
             this.Rights = item.GetValue("rights");
             this.Source = item.GetValue("source");

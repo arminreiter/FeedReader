@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Top Stories</title>
+    <link>https://www.nytimes.com</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2026 The New York Times Company</copyright>
+    <lastBuildDate>Wed, 04 Nov 2026 11:28:51 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 11:22:35 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Top Stories</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com</link>
+    </image>
+    <item>
+      <title>Angry Voters Usher in Beginning of the End to the Trump Era</title>
+      <link>https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/04/us/politics/midterm-election-trump-voters.html" rel="standout"></atom:link>
+      <description>The electoral backlash extended even into deep red states and indicated that President Trump has lost his hold over the coalition that lifted him to the White House twice.</description>
+      <dc:creator>Peter Baker</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 09:26:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal-State Relations (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Budget (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Oil (Petroleum) and Gasoline</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2026/11/04/multimedia/04dc-trump-assess-kgzh/04dc-trump-assess-kgzh-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <media:description>“I wasn’t on the ticket, and because I wasn’t on the ticket, we couldn’t get enough people out to vote,” Mr. Trump told The Times in an interview Tuesday night.</media:description>
+    </item>
+    <item>
+      <title>Democrats Take Congress in a Landslide, and Trump Says He’s ‘Willing to Accept Those Results’</title>
+      <link>https://www.nytimes.com/2026/11/04/podcasts/the-headlines/midterm-election-results.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/04/podcasts/the-headlines/midterm-election-results.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/04/podcasts/the-headlines/midterm-election-results.html" rel="standout"></atom:link>
+      <description>Plus, how to vote from space.</description>
+      <dc:creator>Tracy Mumford, Will Jarvis, Margaret Kadifa, Jake Lucas, J. David Goodman and Reid J. Epstein</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:00:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voting and Voters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Aeronautics and Space Administration</category>
+      <media:content height="1711" medium="image" url="https://static01.nyt.com/images/2026/11/04/multimedia/04theheadlines-dems-hlzq/04theheadlines-dems-hlzq-mediumSquareAt3X.jpg" width="1710"></media:content>
+      <media:credit>Nicole Craine for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>How the Stock Market Is Reacting to the Midterm Elections</title>
+      <link>https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/04/business/midterm-elections-stock-market.html" rel="standout"></atom:link>
+      <description>Global markets fell as the first results came in, but later traded higher as investors assessed the outlook for policy as the balance of power shifted sharply in Washington.</description>
+      <dc:creator>Sui-Lee Wee, Aruni Soni and Eshe Nelson</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:04:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/11/03/multimedia/03biz-midterms-stocks-mjvc/03biz-midterms-stocks-mjvc-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Karsten Moran for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Israel’s President Could Play Key Role in Breaking Post-Election Deadlock</title>
+      <link>https://www.nytimes.com/2026/11/04/world/middleeast/israel-president-herzog-election-government.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/04/world/middleeast/israel-president-herzog-election-government.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/04/world/middleeast/israel-president-herzog-election-government.html" rel="standout"></atom:link>
+      <description>President Isaac Herzog has tried to avoid controversy and heal rifts in his largely ceremonial role. But his skills as a savvy mediator could be instrumental after an inconclusive election.</description>
+      <dc:creator>Isabel Kershner</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 09:43:34 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Jewish Agency for Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labour Party (Israel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Herzog, Isaac</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Eisenkot, Gadi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/11/04/multimedia/04int-israel-herzog-gbcw/04int-israel-herzog-gbcw-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Bernadett Szabo/Reuters</media:credit>
+      <media:description>President Isaac Herzog may push for a broad, unity government after the fractious election, analysts say.</media:description>
+    </item>
+    <item>
+      <title>More Iranians Call for Nuclear Weapons After War With U.S.</title>
+      <link>https://www.nytimes.com/2026/11/03/world/europe/iran-nuclear-weapons-war.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/03/world/europe/iran-nuclear-weapons-war.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/03/world/europe/iran-nuclear-weapons-war.html" rel="standout"></atom:link>
+      <description>Some Iranian clerics and officials argue the country must rebuild deterrence by dropping its longstanding pledge not to build a nuclear bomb.</description>
+      <dc:creator>Erika Solomon</dc:creator>
+      <pubDate>Tue, 03 Nov 2026 23:04:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">US and Israeli Attack on Iran (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arms Control and Limitation and Disarmament</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Iran-Israel War (2025- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Islamic Revolutionary Guards Corps</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khamenei, Ali</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Khamenei, Mojtaba (1969- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/11/03/multimedia/00int-iran-nuclear-01-kgpq/00int-iran-nuclear-01-kgpq-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Atta Kenare/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Portraits of former Iranian supreme leaders and the current supreme leader, Ayatollah Mojtaba Khamenei, in Tehran this month.</media:description>
+    </item>
+    <item>
+      <title>For ‘Dune: Part Three,’ Timothée Chalamet, Zendaya and Friends Weigh in on the Trilogy</title>
+      <link>https://www.nytimes.com/2026/11/04/movies/dune-part-three-timothee-chalamet-zendaya-robert-pattinson.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/04/movies/dune-part-three-timothee-chalamet-zendaya-robert-pattinson.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/04/movies/dune-part-three-timothee-chalamet-zendaya-robert-pattinson.html" rel="standout"></atom:link>
+      <description>As Denis Villeneuve’s blockbuster series concludes, the cast recalls dealing with desert shoots and wrestling with the story’s moral implications.</description>
+      <dc:creator>Eleanor Stanford</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 10:00:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chalamet, Timothee (1995- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Coleman, Zendaya</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Momoa, Jason</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pattinson, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pugh, Florence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Taylor-Joy, Anya</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dune (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Villeneuve, Denis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2026/11/08/multimedia/08cul-dune-roundtable-promo-hlgz/08cul-dune-roundtable-promo-hlgz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Charlie Gates for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Key Part of Jet in Deadly Florida Crash Found Far From Impact Site</title>
+      <link>https://www.nytimes.com/2026/11/03/us/florida-plane-crash-wreckage-recovered.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/03/us/florida-plane-crash-wreckage-recovered.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/03/us/florida-plane-crash-wreckage-recovered.html" rel="standout"></atom:link>
+      <description>The mechanism that controls the vertical angle of the plane was found in three pieces, including one nearly four miles away. All nine people aboard were killed.</description>
+      <dc:creator>Karoun Demirjian and Nicholas Bogel-Burroughs</dc:creator>
+      <pubDate>Tue, 03 Nov 2026 23:46:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Airlines and Airplanes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Aviation Accidents, Safety and Disasters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Air Traffic Control</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Aviation Administration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Transportation Safety Board</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Palm Beach County (Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Florida</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/11/03/multimedia/03nat-crash-1-vbfz/03nat-crash-1-vbfz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Greg Lovett/USA Today, via Reuters</media:credit>
+      <media:description>Investigators examined the site where a Learjet crashed to the ground, killing all nine people aboard, in Greenacres, Fla.</media:description>
+    </item>
+    <item>
+      <title>‘The Beginning of the End of Trumpism’</title>
+      <link>https://www.nytimes.com/video/opinion/100000011257707/the-beginning-of-the-end-of-trumpism.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/opinion/100000011257707/the-beginning-of-the-end-of-trumpism.html</guid>
+      <atom:link href="https://www.nytimes.com/video/opinion/100000011257707/the-beginning-of-the-end-of-trumpism.html" rel="standout"></atom:link>
+      <description>“People hate the way that Trump is running this country,” the columnist Michelle Goldberg argues. Her fellow columnists and the American electorate agree. Democrats had a great night, but what now? Eight Opinion columnists offer their views on what Democrats need to do next, and what Trump’s final two years in office might hold.</description>
+      <pubDate>Wed, 04 Nov 2026 10:02:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Right-Wing Extremism and Alt-Right</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Iran-Israel War (2025- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cost of Living and Affordability</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>‘Decency Won’: 9 Writers on the Best and Worst Moments From Trump’s Midterm Rout</title>
+      <link>https://www.nytimes.com/2026/11/04/opinion/midterms-democrats-senate-house-results.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/04/opinion/midterms-democrats-senate-house-results.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/04/opinion/midterms-democrats-senate-house-results.html" rel="standout"></atom:link>
+      <description>What mattered most in these midterms?</description>
+      <dc:creator>New York Times Opinion</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 10:12:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Talarico, James</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">El-Sayed, Abdul</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ossoff, Jon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Collins, Susan M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Paxton, Ken</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Liberalism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conservatism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hispanic-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Acton, Amy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Andrews, Annie (1980- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nordone, Darline Graham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Texas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Georgia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Carolina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Carolina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2026/11/04/multimedia/04midterms-scorecard-top-ghzp/04midterms-scorecard-top-ghzp-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Kenny Holston/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Jimmy Kimmel Rides Election Day’s ‘Blue Tsunami’</title>
+      <link>https://www.nytimes.com/2026/11/04/arts/television/jimmy-kimmel-midterm-election-blue-wave.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/04/arts/television/jimmy-kimmel-midterm-election-blue-wave.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/04/arts/television/jimmy-kimmel-midterm-election-blue-wave.html" rel="standout"></atom:link>
+      <description>“Man, oh man, would I hate to be the DoorDash driver who delivers Trump his Papa Johns tonight,” Kimmel said.</description>
+      <dc:creator>Trish Bendix</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 06:38:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kimmel, Jimmy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Jimmy Kimmel Live (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Daily Show with Jon Stewart (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chieng, Ronny (Comedian)</category>
+    </item>
+    
+  </channel>
+</rss>

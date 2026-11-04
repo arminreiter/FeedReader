@@ -88,12 +88,14 @@
         public AtomFeed(string feedXml, XElement feed)
             : base(feedXml, feed)
         {
-            this.Link = feed.GetElement("link")?.Attribute("href")?.Value;
+            this.Links = feed.GetElements("link").Select(x => new AtomLink(x)).ToList();
+            this.Link = AtomLink.GetMainHref(this.Links);
 
             this.Author = new AtomPerson(feed.GetElement("author"));
 
+            // atom categories are empty elements, the name is in the "term" attribute
             var categories = feed.GetElements("category");
-            this.Categories = categories.Select(x => x.GetValue()).ToList();
+            this.Categories = categories.Select(x => (string)x.Attribute("term")).ToList();
 
             this.Contributor = new AtomPerson(feed.GetElement("contributor"));
             this.Generator = feed.GetValue("generator");
@@ -102,8 +104,6 @@
             this.Logo = feed.GetValue("logo");
             this.Rights = feed.GetValue("rights");
             this.Subtitle = feed.GetValue("subtitle");
-
-            this.Links = feed.GetElements("link").Select(x => new AtomLink(x)).ToList();
 
             this.UpdatedDateString = feed.GetValue("updated");
             this.UpdatedDate = Helpers.TryParseDateTime(this.UpdatedDateString);

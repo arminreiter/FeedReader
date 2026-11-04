@@ -1,0 +1,2163 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>WordPress.com Blog</title>
+	<atom:link href="https://wordpress.com/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wordpress.com/blog</link>
+	<description>News, Tips &#38; Website Tutorials</description>
+	<lastBuildDate>Tue, 03 Nov 2026 22:05:55 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+
+<image>
+	<url>https://en-blog.files.wordpress.com/2026/01/wp_favicon_512x512px.png?w=32</url>
+	<title>WordPress.com Blog</title>
+	<link>https://wordpress.com/blog</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">3584907</site><cloud domain='wordpress.com' port='80' path='/blog/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<source:cloud xmlns:source='https://source.scripting.com/'>https://wordpress.com/blog/?rsscloud=notify</source:cloud>
+<atom:link rel="search" type="application/opensearchdescription+xml" href="https://wordpress.com/blog/osd.xml" title="WordPress.com Blog" />
+	<atom:link rel='hub' href='https://wordpress.com/blog/?pushpress=hub'/>
+	<item>
+		<title>Connect ChatGPT or Claude to Your WordPress.com Sites, Free Through November</title>
+		<link>https://wordpress.com/blog/2026/11/03/free-chatgpt-claude/</link>
+					<comments>https://wordpress.com/blog/2026/11/03/free-chatgpt-claude/#respond</comments>
+		
+		<dc:creator><![CDATA[Alexa Peduzzi]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 20:45:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[MCP]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=94679</guid>
+
+					<description><![CDATA[Connect ChatGPT or Claude to your WordPress.com sites free through November. Draft posts, clear comments, and check stats on every site from one chat.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Connecting your WordPress.com site to an AI has been possible for a while, but full access came with a paid plan. Now it&#8217;s open to free sites too for a limited time, through November.</p>
+
+
+
+<p class="wp-block-paragraph">That means you can connect ChatGPT or Claude once, then let your AI upload a post, clear out comments, or tell you what needs attention across all your sites.</p>
+
+
+
+<p class="wp-block-paragraph">The end of the year is when sites get busiest: holiday posts, seasonal promotions, year-end updates, and a long list of things you meant to finish before January. An AI can take a real chunk of that work off your plate right when you have the least time for it.</p>
+
+
+
+<p class="wp-block-paragraph">Connecting takes a couple of clicks, and once you&#8217;re connected, you can manage your site through a conversation.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/chatgpt" target="_blank" rel="noopener">Connect to ChatGPT</a></div>
+
+
+
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/claude" target="_blank" rel="noopener">Connect to Claude</a></div>
+</div>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+		<figure class="wp-block-jetpack-videopress jetpack-videopress-player" style="" >
+			<div class="jetpack-videopress-player__wrapper"> <div class="jetpack-video-wrapper"><iframe title='VideoPress Video Player' aria-label='VideoPress Video Player' width='500' height='281' src='https://video.wordpress.com/embed/urQWy45v?cover=1&amp;autoPlay=0&amp;controls=1&amp;loop=0&amp;muted=1&amp;persistVolume=0&amp;playsinline=1&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=1' frameborder='0' allowfullscreen data-resize-to-parent="true"  allow='clipboard-write; presentation' ></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1790791280'></script></div></div>
+			
+			
+		</figure>
+		
+
+
+<h2 class="wp-block-heading">The problem: your site needs you everywhere</h2>
+
+
+
+<p class="wp-block-paragraph">Running a site means a lot of small jobs. Log in, find the draft, fix the typo, approve the comments, check how last week&#8217;s post did. If you manage more than one site, you do all of that again somewhere else.</p>
+
+
+
+<p class="wp-block-paragraph">Most of this work isn&#8217;t hard. It just means opening a dashboard, hunting for the right screen, and clicking through it.</p>
+
+
+
+<p class="wp-block-paragraph">You already have an AI open for everything else, and now it can work on your sites.</p>
+
+
+
+<h2 class="wp-block-heading">How to connect</h2>
+
+
+
+<ol class="wp-block-list">
+<li>Pick your AI (the easiest setup is with <a href="https://wp.me/chatgpt">ChatGPT</a> or <a href="https://wp.me/claude">Claude</a>, but you can <a href="https://wordpress.com/support/mcp/">connect any agent</a>).</li>
+
+
+
+<li>Approve the connection when prompted.</li>
+
+
+
+<li>Ask it something about your site.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s it. As soon as you connect, you can build and manage your site through a conversation with the AI you&#8217;re already using.</p>
+
+
+
+<h2 class="wp-block-heading">What it looks like in practice</h2>
+
+
+
+<p class="wp-block-paragraph">Connect once, then ask in plain language. Each example below has a link that opens ChatGPT or Claude with the request already typed.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Start small:</strong> Not sure where to begin? Ask your AI to look at your site and tell you three things worth fixing this week. You can then review the list and work with your AI to address them together. <a href="https://chatgpt.com/?q=Use%20WordPress%2C%20look%20at%20my%20site%20and%20tell%20me%20three%20things%20worth%20fixing%20this%20week.%20Don%27t%20change%20anything%20yet.%20If%20I%20don%27t%20have%20the%20WordPress%20plugin%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fchatgpt.com%2Fplugins%2Fwordpress-com%20and%20then%20try%20again.">Try in ChatGPT</a> or <a href="https://claude.ai/new?q=Use%20WordPress%2C%20look%20at%20my%20site%20and%20tell%20me%20three%20things%20worth%20fixing%20this%20week.%20Don%27t%20change%20anything%20yet.%20If%20I%20don%27t%20have%20the%20WordPress%20connector%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fclaude.ai%2Fdirectory%2Fwordpress-com%20and%20then%20try%20again.">try in Claude</a></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Find your next post idea</strong>: Ask your AI to read your recent posts and suggest a few new ones that would resonate with your readers. You pick one and write it yourself. When it&#8217;s ready, ask your AI to save it to your site as a draft, so you can give it a final look and publish. <a href="https://chatgpt.com/?q=Use%20WordPress%2C%20read%20my%20recent%20posts%20and%20suggest%20three%20new%20post%20ideas%20my%20readers%20would%20like.%20Don%27t%20write%20them%20and%20don%27t%20change%20anything.%20If%20I%20don%27t%20have%20the%20WordPress%20plugin%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fchatgpt.com%2Fplugins%2Fwordpress-com%20and%20then%20try%20again.">Try in ChatGPT</a> or <a href="https://claude.ai/new?q=Use%20WordPress%2C%20read%20my%20recent%20posts%20and%20suggest%20three%20new%20post%20ideas%20my%20readers%20would%20like.%20Don%27t%20write%20them%20and%20don%27t%20change%20anything.%20If%20I%20don%27t%20have%20the%20WordPress%20connector%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fclaude.ai%2Fdirectory%2Fwordpress-com%20and%20then%20try%20again.">try in Claude</a></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Put your AI on a schedule</strong>: Set up a scheduled task, and your AI does the weekly chore you never get around to. For example, ask it to compare last week’s traffic to the week before, every Monday. You’ll get a report each week, so all you need to do is read it. <a href="https://chatgpt.com/?q=Use%20WordPress%2C%20every%20Monday%20morning%2C%20compare%20last%20week%27s%20traffic%20to%20the%20week%20before%20for%20each%20of%20my%20sites.%20Give%20me%20a%20table%20with%20views%2C%20visitors%2C%20and%20the%20change%20in%20views%2C%20and%20tell%20me%20when%20a%20change%20is%20too%20small%20to%20mean%20anything.%20If%20I%20don%27t%20have%20the%20WordPress%20plugin%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fchatgpt.com%2Fplugins%2Fwordpress-com%20and%20then%20try%20again.">Try in ChatGPT</a> or <a href="https://claude.ai/new?q=Use%20WordPress%2C%20every%20Monday%20morning%2C%20compare%20last%20week%27s%20traffic%20to%20the%20week%20before%20for%20each%20of%20my%20sites.%20Give%20me%20a%20table%20with%20views%2C%20visitors%2C%20and%20the%20change%20in%20views%2C%20and%20tell%20me%20when%20a%20change%20is%20too%20small%20to%20mean%20anything.%20If%20I%20don%27t%20have%20the%20WordPress%20connector%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fclaude.ai%2Fdirectory%2Fwordpress-com%20and%20then%20try%20again.">try in Claude</a></p>
+
+
+
+<figure class="wp-block-image size-full"><img width="1746" height="1574" src="https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png" alt="A scheduled task in ChatGPT for the WordPress plugin" class="wp-image-94710" srcset="https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png 1746w, https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png?w=150&amp;h=135 150w, https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png?w=300&amp;h=270 300w, https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png?w=768&amp;h=692 768w, https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png?w=1024&amp;h=923 1024w, https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png?w=1440&amp;h=1298 1440w" sizes="(max-width: 1746px) 100vw, 1746px" /></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Know what needs doing</strong>: Drafts to finish, comments waiting, pages to update. These are the jobs that never feel urgent, so they quietly pile up. Ask your AI for a to-do list and see it all in one place. <a href="https://chatgpt.com/?q=Use%20WordPress%2C%20give%20me%20a%20to-do%20list%3A%20drafts%20to%20finish%2C%20comments%20waiting%2C%20pages%20to%20update.%20If%20I%20don%27t%20have%20the%20WordPress%20plugin%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fchatgpt.com%2Fplugins%2Fwordpress-com%20and%20then%20try%20again.">Try in ChatGPT</a> or <a href="https://claude.ai/new?q=Use%20WordPress%2C%20give%20me%20a%20to-do%20list%3A%20drafts%20to%20finish%2C%20comments%20waiting%2C%20pages%20to%20update.%20If%20I%20don%27t%20have%20the%20WordPress%20connector%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fclaude.ai%2Fdirectory%2Fwordpress-com%20and%20then%20try%20again.">try in Claude</a></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Manage every site from one chat</strong>: Have more than one site? You don&#8217;t need a separate login for each. Ask once and work across all of them. <a href="https://chatgpt.com/?q=Use%20WordPress%2C%20check%20all%20my%20sites%20and%20tell%20me%20which%20ones%20need%20attention%20first.%20If%20I%20don%27t%20have%20the%20WordPress%20plugin%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fchatgpt.com%2Fplugins%2Fwordpress-com%20and%20then%20try%20again.">Try in ChatGPT</a> or <a href="https://claude.ai/new?q=Use%20WordPress%2C%20check%20all%20my%20sites%20and%20tell%20me%20which%20ones%20need%20attention%20first.%20If%20I%20don%27t%20have%20the%20WordPress%20connector%20installed%20already%2C%20tell%20me%20to%20install%20it%20from%20https%3A%2F%2Fclaude.ai%2Fdirectory%2Fwordpress-com%20and%20then%20try%20again.">try in Claude</a></p>
+
+
+
+<h2 class="wp-block-heading">You stay in control</h2>
+
+
+
+<p class="wp-block-paragraph">Handing a task to an AI should never feel risky. Here you stay in control by choosing what it can do on each site and whether it asks before every change or goes ahead on its own.</p>
+
+
+
+<h2 class="wp-block-heading">Free through November</h2>
+
+
+
+<p class="wp-block-paragraph">Through November, AI access is free for everyone, and it&#8217;s available on paid plans year-round. If you&#8217;ve been curious about running your site with AI, this is a great time to try as we enter the highest traffic weeks of the year.</p>
+
+
+
+<p class="wp-block-paragraph">Try it for a few weeks and see which jobs you stop doing by hand.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/chatgpt" target="_blank" rel="noopener">Connect to ChatGPT</a></div>
+
+
+
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/claude" target="_blank" rel="noopener">Connect to Claude</a></div>
+</div>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/11/03/free-chatgpt-claude/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">94679</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/11/free-chatgpt-claude-connection-to-wordpress.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/11/free-chatgpt-claude-connection-to-wordpress.png" medium="image">
+			<media:title type="html">free-chatgpt-claude-connection-to-wordpress</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/20562e8d36b8d2fab1757ff4b6ec7fbb434f4f17c52184101c2055ff2ee274a4?s=96&#38;d=retro" medium="image">
+			<media:title type="html">alexanpeduzzi</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/11/chatgpt-scheduled-task.png" medium="image">
+			<media:title type="html">A scheduled task in ChatGPT for the WordPress plugin</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Do More From Your Inbox With Professional Email Plus and Ultra</title>
+		<link>https://wordpress.com/blog/2026/11/03/professional-email-plus-ultra/</link>
+					<comments>https://wordpress.com/blog/2026/11/03/professional-email-plus-ultra/#respond</comments>
+		
+		<dc:creator><![CDATA[Semiha Kocer]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 16:17:43 +0000</pubDate>
+				<category><![CDATA[Admin Bar]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Product Features]]></category>
+		<category><![CDATA[Business Sites]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[Professional Email]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=94633</guid>
+
+					<description><![CDATA[More room for your messages, less time on email admin. Meet Plus and Ultra, the new Professional Email plans, and see which fits your business.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">As your business grows, you need your email to do more.</p>
+
+
+
+<p class="wp-block-paragraph">That’s why we’ve added two new plans to Professional Email on WordPress.com, powered by Titan: Plus and Ultra. They sit alongside Essential, the Professional Email you already know.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Professional Email Plus</strong> gives you more storage, stronger security, and time-saving tools that help you keep up with clients.<br><br><strong>Professional Email Ultra</strong> goes further, helping you run more of your business from your inbox: clients can book time with you, you can send invoices and email campaigns, and AI helps you write replies faster.<br><br>Stay on <strong>Professional Email Essential</strong> for as long as it suits you, and when you&#8217;re ready for more, upgrading takes a click.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/professional-email/">Get Professional Email</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading"><strong>Essential: Put your business name on every email</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Essential is the foundation: the same reliable Professional Email experience you already know, now with room to grow into Plus or Ultra when you need it.<br><br>It includes 30 GB of storage per mailbox, rich webmail, iOS and Android apps, and a built-in calendar and contacts. Two-factor authentication adds a layer of protection to every account.</p>
+
+
+
+<p class="wp-block-paragraph">You also get the everyday tools that make Professional Email worth using in the first place: multi-account support, undo send, block sender and allowlists, advanced anti-virus, grammar and spell check, and Turbo Search to find any message fast.<br><br>If you&#8217;re just getting your business email off the ground, Essential covers the basics without the extra cost.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f7142d&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f7142d" class="wp-block-image size-large is-resized wp-lightbox-container"><img width="1024" height="596" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/11/image-d417c902.png?w=1024" alt="" class="wp-image-94634" style="aspect-ratio:1.7167449139280124;width:1097px;height:auto" srcset="https://en-blog.files.wordpress.com/2026/11/image-d417c902.png?w=1024 1024w, https://en-blog.files.wordpress.com/2026/11/image-d417c902.png 2048w, https://en-blog.files.wordpress.com/2026/11/image-d417c902.png?w=150 150w, https://en-blog.files.wordpress.com/2026/11/image-d417c902.png?w=300 300w, https://en-blog.files.wordpress.com/2026/11/image-d417c902.png?w=768 768w, https://en-blog.files.wordpress.com/2026/11/image-d417c902.png?w=1440 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Plus: Keep up with clients, with less email admin</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Plus unlocks the features that growing teams ask for most. It’s built for businesses that have outgrown the basics and need their inbox to work harder.</p>
+
+
+
+<p class="wp-block-paragraph">Plus gives you 50 GB of storage per mailbox and tools for keeping up with client messages. Send as Alias lets you reply from a shared address without giving up your own identity.<br><br>Priority Inbox surfaces your most important messages automatically, and Business Auto-Reply keeps clients in the loop when you&#8217;re out.<br><br>It also adds small conveniences that save real time: Send Later for scheduling messages, Follow-up Reminders so nothing important slips through, and Auto Clean to keep your inbox tidy.<br><br>You also get unlimited email templates and contact groups, up from Essential. Team Chat and 1 GB of Titan Drive storage round it out for teams collaborating day to day.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Ultra: The full email toolkit for running your business</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Ultra is for businesses that live in their email and want it to do more than send and receive. Storage jumps to 100 GB per mailbox, plus 50 GB of dedicated email backup and 50 GB of Titan Drive.<br><br>This is also where Professional Email goes beyond email and enhances your productivity. Appointment Bookings lets clients schedule appointments directly, Email Campaigns and Invoice Builder support sales and billing without a separate tool, and AI Write helps you compose and refine messages faster.<br><br>Signature Designer and Email Designer give your outgoing mail a more polished, on-brand look, and attachment and link tracking show you when a message actually lands.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Try Professional Email free</strong></h2>
+
+
+
+<p class="wp-block-paragraph">An inbox is more than a place to exchange emails. It&#8217;s where customer questions, new opportunities, and follow-ups happen.<br><br>Get <strong>three months of Professional Email free</strong> with a new domain or paid WordPress.com plan. Buy a new annual Business or Commerce plan and get <strong>a full year free</strong> on any Professional Email tier, including Ultra.</p>
+
+
+
+<p class="wp-block-paragraph">Already using Professional Email? Keep your current plan and price, and upgrade anytime from your Email Plan settings.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/professional-email/">Get Professional Email</a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/11/03/professional-email-plus-ultra/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">94633</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/11/do-more-from-your-inbox-with-professional-email-plus-and-ultra.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/11/do-more-from-your-inbox-with-professional-email-plus-and-ultra.png" medium="image">
+			<media:title type="html">Do More From Your Inbox With Professional Email Plus and Ultra</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/88d3d566fcd8c262b6d5a8051cac04fd6a7fef9e5ca69b389202fead30933353?s=96&#38;d=retro" medium="image">
+			<media:title type="html">semihakocer</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/11/image-d417c902.png?w=1024" medium="image" />
+	</item>
+		<item>
+		<title>WordPress.com Changelog: Manage Your Site and Build a Store with AI</title>
+		<link>https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/</link>
+					<comments>https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/#respond</comments>
+		
+		<dc:creator><![CDATA[WordPress.com Staff]]></dc:creator>
+		<pubDate>Sat, 31 Oct 2026 02:00:00 +0000</pubDate>
+				<category><![CDATA[Changelog]]></category>
+		<category><![CDATA[AI Tools]]></category>
+		<category><![CDATA[AI website builder]]></category>
+		<category><![CDATA[Editor]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[MCP]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=94555</guid>
+
+					<description><![CDATA[Build a store by telling the WordPress Agent what you want to sell. Plus: manage your site from your AI assistant, new Professional Email plans, and clearer staging syncs.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><em>October 16 – October 29, 2026</em></p>
+
+
+
+<p class="wp-block-paragraph">Welcome back to the WordPress.com changelog! We shipped a lot of updates over these past two weeks. Here’s what&#8217;s new for you and your site:</p>
+
+
+
+<h2 class="wp-block-heading">Manage your site from your AI agent, free through November</h2>
+
+
+
+<p class="wp-block-paragraph">On all paid plans, you&#8217;ve been able to <a href="https://wordpress.com/support/mcp/">connect an AI agent</a> like ChatGPT or Claude to your WordPress.com account and manage your sites through conversation. Sites on our free plan can now also use this feature through November.</p>
+
+
+
+<p class="wp-block-paragraph">The easiest way to get started is to use our <a href="https://wp.me/chatgpt">ChatGPT plugin</a> or <a href="https://wp.me/claude">Claude connector</a> and then ask it for help with building a site, making changes, or <a href="https://wordpress.com/blog/2026/10/23/wordpress-mcp-chores/">taking care of website chores</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img width="1600" height="1946" src="https://en-blog.files.wordpress.com/2026/10/image-743afc92.png" alt="AI agent conversation about finding WordPress Media Library images that need alt text." class="wp-image-89338" srcset="https://en-blog.files.wordpress.com/2026/10/image-743afc92.png 1600w, https://en-blog.files.wordpress.com/2026/10/image-743afc92.png?w=123&amp;h=150 123w, https://en-blog.files.wordpress.com/2026/10/image-743afc92.png?w=247&amp;h=300 247w, https://en-blog.files.wordpress.com/2026/10/image-743afc92.png?w=768&amp;h=934 768w, https://en-blog.files.wordpress.com/2026/10/image-743afc92.png?w=842&amp;h=1024 842w, https://en-blog.files.wordpress.com/2026/10/image-743afc92.png?w=1440&amp;h=1751 1440w" sizes="(max-width: 1600px) 100vw, 1600px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Learn more in our support doc, <a href="https://wordpress.com/support/mcp/">Enable MCP tool access for AI agents</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Build stores with the WordPress Agent</h2>
+
+
+
+<p class="wp-block-paragraph">Tell the WordPress Agent you want to sell something, and it’ll set up the store for you. It installs the WooCommerce plugin, designs a store layout, and adds example products to start from. Store building with AI works on all paid plans (and the Commerce plan includes valuable store add-ons like gift cards, product bundles, and shipment tracking).</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="1400" height="541" src="https://en-blog.files.wordpress.com/2026/10/ai-website-builder-wordpress-agent402x.png" alt="The AI website builder prompt box on wordpress.com" class="wp-image-94561" srcset="https://en-blog.files.wordpress.com/2026/10/ai-website-builder-wordpress-agent402x.png 1400w, https://en-blog.files.wordpress.com/2026/10/ai-website-builder-wordpress-agent402x.png?w=150&amp;h=58 150w, https://en-blog.files.wordpress.com/2026/10/ai-website-builder-wordpress-agent402x.png?w=300&amp;h=116 300w, https://en-blog.files.wordpress.com/2026/10/ai-website-builder-wordpress-agent402x.png?w=768&amp;h=297 768w, https://en-blog.files.wordpress.com/2026/10/ai-website-builder-wordpress-agent402x.png?w=1024&amp;h=396 1024w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Build with the WordPress Agent <a href="https://wordpress.com/ai-website-builder/?ref=blog">via our AI website builder</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Staging syncs tell you what&#8217;s happening</h2>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;ve started a staging sync and wondered whether it was working, this update is for you. While a sync runs, the site overview <a href="https://wordpress.com/sites">on your hosting dashboard</a> shows a banner with its status. It says so when a sync is taking longer than usual, and when one looks stuck, it re-enables the Sync button so you can try again. If a sync fails, you get an email and a banner the next time you open your site, so you aren&#8217;t left waiting on a sync that won&#8217;t finish.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="1400" height="695" src="https://en-blog.files.wordpress.com/2026/10/sync-messaging.png" alt="An arrow pointing to a notification on the Staging Site overview page on the hosting dashboard on wordpress.com" class="wp-image-94564" srcset="https://en-blog.files.wordpress.com/2026/10/sync-messaging.png 1400w, https://en-blog.files.wordpress.com/2026/10/sync-messaging.png?w=150&amp;h=74 150w, https://en-blog.files.wordpress.com/2026/10/sync-messaging.png?w=300&amp;h=149 300w, https://en-blog.files.wordpress.com/2026/10/sync-messaging.png?w=768&amp;h=381 768w, https://en-blog.files.wordpress.com/2026/10/sync-messaging.png?w=1024&amp;h=508 1024w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Staging sites also now tell search engines to stay away, so your test copy doesn&#8217;t show up in Google next to your real site. Staging is available on Business and Commerce plans.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="1400" height="747" src="https://en-blog.files.wordpress.com/2026/10/site-visibility-staging.png" alt="An arrow pointing to a staging site visibility notice on wordpress.com" class="wp-image-94566" srcset="https://en-blog.files.wordpress.com/2026/10/site-visibility-staging.png 1400w, https://en-blog.files.wordpress.com/2026/10/site-visibility-staging.png?w=150&amp;h=80 150w, https://en-blog.files.wordpress.com/2026/10/site-visibility-staging.png?w=300&amp;h=160 300w, https://en-blog.files.wordpress.com/2026/10/site-visibility-staging.png?w=768&amp;h=410 768w, https://en-blog.files.wordpress.com/2026/10/site-visibility-staging.png?w=1024&amp;h=546 1024w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p class="wp-block-paragraph">Learn more in our support doc, <a href="https://wordpress.com/support/how-to-create-a-staging-site/">Create a staging site</a>.</p>
+
+
+
+<h2 class="wp-block-heading">More design control in the editor</h2>
+
+
+
+<p class="wp-block-paragraph">You now have more ways to customize your pages, no custom code needed. For example, you can now set a minimum width or height in Button, Column, Gallery, and Heading blocks and add shadows to Button, Gallery, Media &amp; Text, and Paragraph blocks. </p>
+
+
+
+<p class="wp-block-paragraph">Learn more about the updates to the editor in <a href="https://make.wordpress.org/core/2026/10/14/whats-new-in-gutenberg-24-2-14-october/">What’s new in Gutenberg 24.2</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="1400" height="1238" src="https://en-blog.files.wordpress.com/2026/10/shadow-gallery.png" alt="An arrow pointing to the shadow styles for a gallery block" class="wp-image-94568" srcset="https://en-blog.files.wordpress.com/2026/10/shadow-gallery.png 1400w, https://en-blog.files.wordpress.com/2026/10/shadow-gallery.png?w=150&amp;h=133 150w, https://en-blog.files.wordpress.com/2026/10/shadow-gallery.png?w=300&amp;h=265 300w, https://en-blog.files.wordpress.com/2026/10/shadow-gallery.png?w=768&amp;h=679 768w, https://en-blog.files.wordpress.com/2026/10/shadow-gallery.png?w=1024&amp;h=906 1024w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<h2 class="wp-block-heading">WordPress 7.1.4 security release</h2>
+
+
+
+<p class="wp-block-paragraph"><a href="https://wordpress.org/news/2026/10/wordpress-7-1-4/">WordPress 7.1.4</a> shipped October 28 with 13 security updates, tightening security for all WordPress users. <a href="https://wordpress.com/support/check-your-wordpress-version/">Your WordPress.com site is already updated</a>, so there&#8217;s nothing more you need to do to use the latest version.</p>
+
+
+
+<h2 class="wp-block-heading">Professional Email now comes with more powerful plans</h2>
+
+
+
+<p class="wp-block-paragraph">A custom email address like <code>hello@mygreatnewblog.com</code> gives customers a name they recognize and trust. Now there are three Professional Email plans on WordPress.com, so your inbox can grow with you:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Essential</strong>: 30 GB per mailbox with calendar, contacts, and spam protection. If you already had Professional Email, this is your plan with a new name.</li>
+
+
+
+<li><strong>Plus</strong>: 50 GB per mailbox, plus scheduled sending and follow-up reminders.</li>
+
+
+
+<li><strong>Ultra</strong>: 100 GB per mailbox, plus an AI email writer, appointment booking, email campaigns, and invoices.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">You can <a href="https://wordpress.com/professional-email/#pick-the-plan-that-fits">find all the new email features here</a>.</p>
+
+
+
+<h2 class="wp-block-heading">Fixes and improvements</h2>
+
+
+
+<p class="wp-block-paragraph">We also shipped additional reliability and polish updates across WordPress.com, including:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Making sure your first newsletter goes out when you add subscribers just before you publish.</li>
+
+
+
+<li>Showing the auto-renew switch only to the person who owns the purchase, so other admins no longer see a switch they can&#8217;t use.</li>
+
+
+
+<li>Fixing an issue where some posts failed to share to Threads.</li>
+
+
+
+<li>Fixing photos from phones and cameras that appeared rotated after upload.</li>
+
+
+
+<li>Fixing domain setup when you buy a domain first and a plan later. Your domain now becomes your site’s primary address automatically.</li>
+
+
+
+<li>Adding the option to use the www version of your domain, such as <code>www.yourgroovydomain.com</code>, as your site&#8217;s primary address, with a one-click switch back. (<a href="https://github.com/Automattic/wp-calypso/pull/114714">GitHub PR</a>)</li>
+
+
+
+<li>Replacing the faded look of posts you&#8217;ve read in Reader with a small blue dot on unread posts, and adding a &#8220;Show read status&#8221; switch to your Reader settings. (<a href="https://github.com/Automattic/wp-calypso/pull/115262">GitHub PR</a>)</li>
+
+
+
+<li>Fixing the new comment form: comments from signed-in readers no longer land in spam, undo no longer wipes what you’ve written, and the comment box stays readable on themes with dark color palettes. (<a href="https://github.com/Automattic/jetpack/pull/53717">GitHub PR</a>)</li>
+
+
+
+<li>Explaining that only administrators can buy on the checkout &#8220;no access&#8221; page. (<a href="https://github.com/Automattic/wp-calypso/pull/114955">GitHub PR</a>)</li>
+
+
+
+<li>Making checkout clearer: the card form now specifies which field is missing, and Apple Pay and Google Pay now show a more detailed price breakdown. (<a href="https://github.com/Automattic/wp-calypso/pull/113396">GitHub PR</a>)</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/31/changelog-site-store-ai/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">94555</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/build-sites-stores-ai.jpg" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/build-sites-stores-ai.jpg" medium="image">
+			<media:title type="html">build-sites-stores-ai</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4339429cceca846189b3459ec5a09c3e3e1d04bc754afb9176a9e00102f839f7?s=96&#38;d=retro" medium="image">
+			<media:title type="html">wpcom</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-743afc92.png" medium="image">
+			<media:title type="html">AI agent conversation about finding WordPress Media Library images that need alt text.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/ai-website-builder-wordpress-agent402x.png" medium="image">
+			<media:title type="html">The AI website builder prompt box on wordpress.com</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/sync-messaging.png" medium="image">
+			<media:title type="html">An arrow pointing to a notification on the Staging Site overview page on the hosting dashboard on wordpress.com</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/site-visibility-staging.png" medium="image">
+			<media:title type="html">An arrow pointing to a staging site visibility notice on wordpress.com</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/shadow-gallery.png" medium="image">
+			<media:title type="html">An arrow pointing to the shadow styles for a gallery block</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>When Technology Outruns Its Institutions: Neal Stephenson on AI, Truth, and Control</title>
+		<link>https://wordpress.com/blog/2026/10/29/neal-stephenson/</link>
+					<comments>https://wordpress.com/blog/2026/10/29/neal-stephenson/#respond</comments>
+		
+		<dc:creator><![CDATA[Zander]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2026 23:19:05 +0000</pubDate>
+				<category><![CDATA[Admin Bar]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Wide Margins]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=91651</guid>
+
+					<description><![CDATA[Technology, truth, and the freedom to shape the tools we use. Neal Stephenson joins Zander Rose for the first Wide Margins conversation.]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-center has-white-color has-primary-dark-background-color has-text-color has-background wp-block-paragraph" style="border-top-left-radius:300px;border-top-right-radius:300px;border-bottom-left-radius:300px;border-bottom-right-radius:300px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);font-size:20px"><strong>Wide Margins:</strong> Unhurried conversations with thinkers, writers, and creators about what’s next. A series by WordPress.com.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Neal Stephenson has spent decades writing about what happens when engineering outpaces the people and institutions meant to steer it.</strong></p>
+
+
+
+<p class="wp-block-paragraph">He joined us for the first public <a href="https://wordpress.com/wide-margins/">Wide Margins</a> conversation on October 13, publication day for <a href="https://www.nealstephenson.com/d-heavy-water.html"><em>D: Heavy Water</em></a>, the second book in his Bomb Light series.<br><br>We discussed the book, but also his fascination with ages of heroic engineering and the parallels between those times and today.</p>
+
+
+
+<p class="wp-block-paragraph">The thread running through the conversation was about how we control technology: who gets to shape it as it moves ahead, and how much understanding and choice do the rest of us retain?</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" class="youtube-player" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/kdw0QmlFTtA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">The command line is back — but who’s in control?</h2>
+
+
+
+<p class="wp-block-paragraph">We discussed his early essay, <a href="https://www.nealstephenson.com/in-the-beginning-was-the-command-line.html"><em>In the Beginning Was the Command Line</em></a>. The command line, he observed, “is back.” It is how you work with tools like Claude Code. The difference is that “we’re spectators to it in a way.”</p>
+
+
+
+<p class="wp-block-paragraph">The essay was partly about open source and how much control we have over our computers. I asked how that idea holds up in a world of increasingly siloed ecosystems. Stephenson&#8217;s answer was unexpected: AI tools have brought the command line back, but can assemble commands so quickly that people can scarcely follow them.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>It&#8217;s an unexpected role reversal</strong>: we have gained an extraordinarily capable tool, but the steps it takes can be harder to see.</p>
+
+
+
+<p class="wp-block-paragraph">The same question of control runs through Stephenson’s account of a far earlier technological race.</p>
+
+
+
+<h2 class="wp-block-heading">From tabletop to national secret, then and now</h2>
+
+
+
+<p class="wp-block-paragraph">This past begins to rhyme with the present. Stephenson described the neutron experiments of the 1930s as “gentleman science” done on tabletops. In late 1938, Lise Meitner and her nephew Otto Frisch explained how the uranium nucleus had split.<br><br>Within months, the physics world understood what that meant. During World War II, nuclear research became a secret national priority.</p>
+
+
+
+<figure class="wp-block-pullquote" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>“Fermi had to hire fast graduate students because some of the isotopes they were creating were so short-lived that they would decay in the time it took to carry them down the hallway to the lab.”</p><cite>— <strong>Neal Stephenson</strong></cite></blockquote></figure>
+
+
+
+<p class="wp-block-paragraph">When Neal started the <em>Bomb Light</em> series in 2012, the AI we have now was barely on the horizon.<br><br>He noted that the argument that we have to build it before our adversaries do is “sort of exactly where we are.” He hears the same logic in today’s AI race.</p>
+
+
+
+<p class="wp-block-paragraph">We discussed whether the outbreak of World War II, which turned nuclear physics into a focused, secret national priority, may have made it more containable. But much of today’s AI is already in public hands. As Stephenson put it, “nobody’s going to build a nuclear bomb in their garage.” The models, on the other hand, are already in the garage.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f7a0a8&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f7a0a8" class="wp-block-image aligncenter size-large is-resized wp-lightbox-container"><img loading="lazy" width="675" height="1024" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-a2abb909.jpeg?w=675" alt="D: Heavy Water book cover" class="wp-image-91652" style="aspect-ratio:0.6615720524017468;width:407px;height:auto" srcset="https://en-blog.files.wordpress.com/2026/10/image-a2abb909.jpeg?w=675 675w, https://en-blog.files.wordpress.com/2026/10/image-a2abb909.jpeg 1349w, https://en-blog.files.wordpress.com/2026/10/image-a2abb909.jpeg?w=99 99w, https://en-blog.files.wordpress.com/2026/10/image-a2abb909.jpeg?w=198 198w, https://en-blog.files.wordpress.com/2026/10/image-a2abb909.jpeg?w=768 768w" sizes="auto, (max-width: 675px) 100vw, 675px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">D: Heavy Water, Neal Stephenson’s latest novel and the second book in his Bomb Light series</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">The problem of reality</h2>
+
+
+
+<p class="wp-block-paragraph">Stephenson traces his attraction to stories of heroic engineering to growing up in Ames, Iowa, where scientists produced uranium metal for the Manhattan Project.</p>
+
+
+
+<p class="wp-block-paragraph">He also finds near-future science fiction harder to write, because things change too fast to project even a decade or two ahead.</p>
+
+
+
+<p class="wp-block-paragraph">Dystopia, he said, has become the default pose for writers, even though, in his view, life keeps improving generation after generation.</p>
+
+
+
+<figure class="wp-block-pullquote" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>“I think that a great many science fiction writers are closet history geeks and use characters and incidents from history as the kernel of ideas.”</p><cite>— <strong>Neal Stephenson</strong></cite></blockquote></figure>
+
+
+
+<p class="wp-block-paragraph">His two big worries remain carbon emissions, which he believes has technological fixes, and people&#8217;s failure to agree on what reality is, which has no obvious answer. He worries that bot farms deliberately drown out truth online to serve other agendas, making it harder to find.</p>
+
+
+
+<h2 class="wp-block-heading">The thinking he chooses not to outsource</h2>
+
+
+
+<p class="wp-block-paragraph">He is using AI to write code but not to summarize his research. Reading sources, taking notes, and comparing them with old notes creates connections a summary never would.</p>
+
+
+
+<p class="wp-block-paragraph">Asked about brain-computer interfaces, he said they don’t interest him: translating thoughts into words is the point.</p>
+
+
+
+<figure class="wp-block-pullquote" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><blockquote><p>“Speech and storytelling are intrinsic parts of what makes us human.”</p><cite>— <strong>Neal Stephenson</strong></cite></blockquote></figure>
+
+
+
+<p class="wp-block-paragraph">Stephenson is hardly rejecting new technology. He is making a choice about where it helps, and where he wants to do the thinking himself.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://www.youtube.com/live/kdw0QmlFTtA">My full conversation with Neal Stephenson</a> includes a reading from <em>D: Heavy Water</em> and more on science fiction, engineering, and the stories we tell about our future.</p>
+
+
+
+<p class="wp-block-paragraph">He&#8217;s now working on the third and likely final <em>Bomb Light</em> book. Expect it in two to three years.</p>
+
+
+
+<h2 class="wp-block-heading">Next on Wide Margins</h2>
+
+
+
+		<figure class="wp-block-jetpack-videopress jetpack-videopress-player wp-block-jetpack-videopress--has-max-width" style="max-width: 525px;" >
+			<div class="jetpack-videopress-player__wrapper"> <div class="jetpack-video-wrapper"><iframe title='VideoPress Video Player' aria-label='VideoPress Video Player' width='500' height='281' src='https://video.wordpress.com/embed/5xbbVmEj?cover=1&amp;autoPlay=1&amp;controls=0&amp;loop=1&amp;muted=1&amp;persistVolume=0&amp;playsinline=0&amp;preloadContent=metadata&amp;useAverageColor=1&amp;hd=1' frameborder='0' allowfullscreen data-resize-to-parent="true"  allow='clipboard-write; presentation' ></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1790791280'></script></div></div>
+			
+			
+		</figure>
+		
+
+
+<p class="wp-block-paragraph">Wide Margins is a WordPress.com series of live, unhurried conversations hosted by <a href="https://rosefutures.com/">Alexander Rose</a>, featuring writers, thinkers, and creators exploring what&#8217;s next.</p>
+
+
+
+<p class="wp-block-paragraph">Each conversation streams on <a href="https://www.youtube.com/WordPressdotcom">YouTube</a>, with recordings available afterward.<br><a href="https://www.youtube.com/live/33nDD1aLvLY?si=vg4oCLIP6gbAbQi3"><strong><br></strong></a><strong>November 17, 2026:</strong> <a href="https://www.youtube.com/live/33nDD1aLvLY?si=vg4oCLIP6gbAbQi3">Worldbuilding in fiction</a><br>Hugh Howey, author of the Silo series, on experimenting with worlds in the alternate present and possible futures.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>January 12, 2027</strong><br>Eric Ries, author of The Lean Startup and Incorruptible.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/wide-margins/?ref=blog">Explore the Wide Margins series</a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/29/neal-stephenson/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+<enclosure url="http://videos.files.wordpress.com/5xbbVmEj/wide-margins-room-to-think.mov" length="3483369" type="video/quicktime" />
+
+		<post-id xmlns="com-wordpress:feed-additions:1">91651</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/when-technology-outruns-its-institutions-neal-stephenson-on-ai-truth-and-control.jpg" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/when-technology-outruns-its-institutions-neal-stephenson-on-ai-truth-and-control.jpg" medium="image">
+			<media:title type="html">When Technology Outruns Its Institutions- Neal Stephenson on AI, Truth, and Control</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/28fb5941388d89b8b507cdc52195fc114d6dfa49cf20fcfbe3e15ffb3ec21570?s=96&#38;d=retro" medium="image">
+			<media:title type="html">zanderros3</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-a2abb909.jpeg?w=675" medium="image">
+			<media:title type="html">D: Heavy Water book cover</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>10 Black Friday Ideas for Small Businesses That Go Beyond Discounts</title>
+		<link>https://wordpress.com/blog/2026/10/28/black-friday-ideas/</link>
+					<comments>https://wordpress.com/blog/2026/10/28/black-friday-ideas/#respond</comments>
+		
+		<dc:creator><![CDATA[Philip Adams]]></dc:creator>
+		<pubDate>Wed, 28 Oct 2026 22:43:29 +0000</pubDate>
+				<category><![CDATA[Tips and Tutorials]]></category>
+		<category><![CDATA[Black Friday]]></category>
+		<category><![CDATA[Cyber Monday]]></category>
+		<category><![CDATA[Small Business]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=89884</guid>
+
+					<description><![CDATA[A useful bundle, a thoughtful bonus, or a few well-timed appointments can give customers a reason to buy. Explore ten Black Friday offers that fit a small business — without putting everything on sale.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">You don’t need to mark down your whole business for Black Friday. A well-chosen bundle, a useful extra, or a handful of appointments can give customers a reason to buy without putting everything on sale.</p>
+
+
+
+<p class="wp-block-paragraph">That’s good news when you’re the person making the products, answering the emails, and delivering the work. Your calendar doesn’t get bigger just because your prices get smaller.</p>
+
+
+
+<p class="wp-block-paragraph">These ten Black Friday ideas for small businesses start with what you already do well. The goal is one offer your customers understand, your business can afford, and you’ll still feel good about delivering in January.</p>
+
+
+
+<h2 class="wp-block-heading">Choose an offer that fits your business</h2>
+
+
+
+<p class="wp-block-paragraph">The most useful starting point is often a question a customer has already asked. Can these products be bought together? Can I give this as a present? Will you help me get started?<br><br>Your reviews, inbox, and <a href="https://wordpress.com/blog/2026/09/30/ecommerce-expo-2026/">on-site searches</a> can help you spot the opportunity.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>What you sell</strong></td><td><strong>A good place to start</strong></td></tr><tr><td>Products or digital downloads</td><td>A useful bundle, limited edition, or spending bonus</td></tr><tr><td>Services and appointments</td><td>A defined package, extra help, or quieter-season dates</td></tr><tr><td>Newsletters, courses, or memberships</td><td>A joining benefit or early access</td></tr><tr><td>Classes and local experiences</td><td>A giftable booking or credit toward a return visit</td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">Now it’s time to check the numbers. Imagine a product priced at $100 that costs $60 to make and deliver.<br><br><strong>Here’s how three offers would compare:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>No promotion:</strong> $40 profit</li>
+
+
+
+<li><strong>20% off:</strong> $20 profit</li>
+
+
+
+<li><strong>Add a $5 gift instead:</strong> $35 profit</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The gift example leaves $15 more per sale than the discount, but it only works if customers value it. When you calculate the real cost, include your time, payment fees, packaging, and delivery.</p>
+
+
+
+<p class="wp-block-paragraph">A targeted discount can still be the right choice. The test is whether the customer gets something worthwhile and you have the money, stock, and time to fulfill it.</p>
+
+
+
+<h2 class="wp-block-heading">Black Friday offer ideas for each business</h2>
+
+
+
+<p class="wp-block-paragraph">Some of these ideas suit a shop; others work for a one-person business selling expertise or experiences. Borrow the part that fits yours, rather than trying to run all ten.</p>
+
+
+
+<h3 class="wp-block-heading">1. Bundle what customers need</h3>
+
+
+
+<p class="wp-block-paragraph">A good bundle saves the customer some thinking. Instead of choosing several separate products, they can buy the gift, starter kit, or finished solution they came for.</p>
+
+
+
+<p class="wp-block-paragraph">Take last year, for example: <a href="https://woocommerce.com/posts/black-friday-stats-and-trends/?utm_source=wpcom_blog&amp;utm_medium=referral&amp;utm_campaign=black_friday_ideas">27% of surveyed merchants</a> planned to lead with Black Friday product bundles or buy-more-save-more offers.</p>
+
+
+
+<p class="wp-block-paragraph">Skincare brand grüum’s Black Friday Edit brings skincare, home fragrance, and accessories into one seasonal collection. The offer is more concrete than “browse our sale”: here’s a collection already put together for you.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f7e01e&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f7e01e" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1024" height="696" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png?w=1024" alt="Screenshot of grüum’s Black Friday Edit page showing a 10-product skincare bundle, an orange promotional graphic, and the product list." class="wp-image-89886" style="aspect-ratio:1.472972972972973" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png?w=1024 1024w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png 2048w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png?w=150 150w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png?w=300 300w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png?w=1440 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">grüum presents The Black Friday Edit as a ready-made seasonal collection.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">For a digital creator, the equivalent might be a project planner, budget tracker, and walkthrough for someone taking on their first freelance client. Each item should help with the same job. A bundle isn’t improved by padding it with things nobody needs.</p>
+
+
+
+<p class="wp-block-paragraph">Once the contents work together, tools such as <a href="https://woocommerce.com/products/product-bundles/">Product Bundles</a> can turn them into a single purchase.</p>
+
+
+
+<h3 class="wp-block-heading">2. Add help that makes the purchase more useful</h3>
+
+
+
+<p class="wp-block-paragraph">Sometimes the thing stopping a customer is not the price. It’s wondering whether they’ll know what to do after buying.</p>
+
+
+
+<p class="wp-block-paragraph">That makes a useful extra a good Black Friday offer. Rather than adding more content to a course or another file to a template bundle, help customers use what they already bought.<br><br><strong>You could include:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>A group feedback session for learners working through the same course.</li>
+
+
+
+<li>A guided setup workshop for people buying your templates.</li>
+
+
+
+<li>One follow-up review after a client puts your recommendations into practice.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Keep the promise specific. A 45-minute session on a published date gives buyers something they can plan around. It also lets you account for preparation and follow-up, instead of turning a modest sale into open-ended support.</p>
+
+
+
+<h3 class="wp-block-heading">3. Make a service or experience easy to give</h3>
+
+
+
+<p class="wp-block-paragraph">A pottery class, portrait session, or cooking lesson can make a thoughtful gift. The key is making it easy to give now and enjoy later.</p>
+
+
+
+<p class="wp-block-paragraph">Trentham’s Black Friday promotion offered £100 gift vouchers for £80, redeemable against garden visits, memberships, gift-shop purchases, and selected events. Buyers could give someone a choice of experiences without having to pick a date or activity for them.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f7ebe6&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f7ebe6" class="wp-block-image aligncenter size-large wp-lightbox-container"><img loading="lazy" width="972" height="1023" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-bc70a40c.png?w=972" alt="Trentham’s Black Friday webpage promoting a £100 gift voucher for £80, with a gift-card graphic and redemption details." class="wp-image-89888" style="aspect-ratio:0.9496402877697842" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-bc70a40c.png?w=972 972w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-bc70a40c.png?w=142 142w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-bc70a40c.png?w=285 285w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-bc70a40c.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-bc70a40c.png 1432w" sizes="auto, (max-width: 972px) 100vw, 972px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Trentham’s Black Friday gift-voucher offer explains where recipients can spend their credit.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The idea to borrow isn’t the discount; it’s making an experience easy to give. A smaller business could offer a voucher for a two-hour pottery session, with materials and firing included.<br><br>Make it clear what the buyer receives, how the recipient books, and whether there are any extra charges.</p>
+
+
+
+<h3 class="wp-block-heading">4. Fill a few quieter-season appointments</h3>
+
+
+
+<p class="wp-block-paragraph">Black Friday can be a way to plan next month’s workload, not squeeze more into this one.</p>
+
+
+
+<p class="wp-block-paragraph">Dolly DeLong’s Black Friday plan for 2026 sets aside four branding-photography sessions to deliver in December and early January. The offer matches the dates she can work with clients who need fresh marketing images. As she puts it: “My scarcity is arithmetic.”</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f7f75a&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f7f75a" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1024" height="445" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png?w=1024" alt="Dolly DeLong website banner reading “Black Friday Plan for Photographers: Fund Your Slow Season,” beside a floral guide cover." class="wp-image-89885" style="aspect-ratio:2.3095238095238093" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png?w=1024 1024w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png 2048w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png?w=150 150w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png?w=300 300w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png?w=1440 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">DeLong’s Black Friday campaign plan limits branding sessions to four.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">That’s a useful model for tutors, consultants, and other appointment-based businesses. Offer specific dates or a clearly bounded redemption window, and count the preparation and follow-up too. Money collected now still comes with work you owe later.</p>
+
+
+
+<h3 class="wp-block-heading">5. Give annual subscribers something to start with</h3>
+
+
+
+<p class="wp-block-paragraph">An annual subscription asks customers to commit to a year. A joining benefit can give them something worthwhile in the first week.</p>
+
+
+
+<p class="wp-block-paragraph">Craft educator Lia Griffith’s Black Friday membership offer paired discounted annual plans with bonuses including masterclasses and a five-day Crafty Wonderland event featuring ten projects. New members had something specific to make, rather than just a library to browse.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f801dd&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f801dd" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1024" height="890" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png?w=1024" alt="Lia Griffith’s Black Friday membership offer showing annual-plan pricing and images for a paper plant masterclass and Crafty Wonderland event." class="wp-image-89891" style="aspect-ratio:1.150753768844221" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png?w=1024 1024w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png?w=150 150w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png?w=300 300w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png?w=1440 1440w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png 2036w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Lia Griffith’s membership promotion pairs annual plans with specific joining bonuses.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">A <a href="https://wordpress.com/support/paid-newsletters/">paid newsletter</a> might offer a curated starter collection; an educational membership could run a welcome workshop. Choose something you can deliver without adding another permanent weekly obligation, and consider including existing members. They shouldn’t feel overlooked for having joined earlier.</p>
+
+
+
+<p class="wp-block-paragraph">Whatever the format, make the first charge, renewal price, and ongoing access clear. A good joining benefit helps people enjoy the membership, rather than distracting them from what they’re signing up for.</p>
+
+
+
+<h3 class="wp-block-heading">6. Give your subscribers first choice</h3>
+
+
+
+<p class="wp-block-paragraph">Early access means more when there&#8217;s something worth choosing first: a popular workshop date, a limited-edition product, or the last few places in a small group.</p>
+
+
+
+<p class="wp-block-paragraph">Public speaking training company Ultraspeaking gave its VIP subscribers a 24-hour head start on its Black Friday membership offer. Only 30 discount codes were available, and early buyers could also unlock a bonus live workshop. Subscribers had a genuine reason to act before the sale opened to everyone else.</p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t feel you have to wait until Black Friday itself to launch. Giving subscribers an early opportunity to buy can help you reach customers before their holiday shopping budgets are committed elsewhere. You can then open the offer to everyone and keep it available for longer, provided you can sustain it.</p>
+
+
+
+<p class="wp-block-paragraph">A small business could do something similar with limited workshop places, new products, or appointment slots. You don&#8217;t need an elaborate loyalty program—an email and a clear early-access window can be enough, as long as customers actually get the advantage you promised.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f80c1c&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f80c1c" class="wp-block-image aligncenter size-large is-resized wp-lightbox-container"><img loading="lazy" width="663" height="1023" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-c5b8cc72.png?w=663" alt="Ultraspeaking campaign page headed “Black Friday VIP Early Access,” with an explanation of the limited membership offer." class="wp-image-89889" style="aspect-ratio:0.6474258970358814;width:437px;height:auto" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-c5b8cc72.png?w=663 663w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-c5b8cc72.png?w=97 97w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-c5b8cc72.png?w=194 194w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-c5b8cc72.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-c5b8cc72.png 1136w" sizes="auto, (max-width: 663px) 100vw, 663px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Ultraspeaking’s Black Friday campaign offered subscribers early access to a limited membership deal.</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">7. Release a Black Friday edition</h3>
+
+
+
+<p class="wp-block-paragraph">A special edition gives customers something different to buy, rather than the usual thing for less. That could be a new version of something you make or an exclusive release you stock.</p>
+
+
+
+<p class="wp-block-paragraph">Independent record shop Record Surplus invited shoppers to explore exclusive and limited-edition Record Store Day releases. Shoppers could browse the release list beforehand, and purchases were limited to one copy of each title per customer to give more people a chance to buy.<a href="https://www.recordsurplusla.com/event/rsd-black-friday-2025-at-record-surplus-los-angeles/"></a></p>
+
+
+
+<p class="wp-block-paragraph">The idea to borrow is giving customers something worth seeking out. A ceramicist could release a favorite mug in a seasonal glaze; an illustrator could offer a small run of signed prints. Start with something you already make well, then give this edition a clear point of difference.</p>
+
+
+
+<p class="wp-block-paragraph">Keep the limits honest, too. A batch of 25 really can sell out. A digital download won’t, so explain any time limit rather than inventing a shortage.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f815cc&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f815cc" class="wp-block-image aligncenter size-large is-resized wp-lightbox-container"><img loading="lazy" width="1024" height="1024" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png?w=1024" alt="Record Store Day Black Friday promotional collage showing vinyl record artwork around the bold “RSD Black Friday” logo." class="wp-image-89892" style="width:420px;height:auto" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png?w=1024 1024w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png?w=150 150w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png?w=300 300w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png?w=1440 1440w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png 2000w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Record Surplus promoted exclusive and limited-edition vinyl releases for Black Friday.</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading">8. Add a useful bonus above a spending threshold</h3>
+
+
+
+<p class="wp-block-paragraph">A spending bonus lets customers choose their own products and receive an extra when the order qualifies. A ceramics seller could include a matching spoon rest with orders over a set amount, rather than marking down the whole collection.</p>
+
+
+
+<p class="wp-block-paragraph">Gifts and add-ons were the main promotion planned by <a href="https://woocommerce.com/posts/black-friday-stats-and-trends/?utm_source=wpcom_blog&amp;utm_medium=referral&amp;utm_campaign=black_friday_ideas">15% of merchants surveyed</a> ahead of Black Friday last year. For a small shop, the appeal is being able to add something useful while keeping the main product at its usual price.</p>
+
+
+
+<p class="wp-block-paragraph">The threshold still needs to cover the gift’s cost, extra packaging, and delivery — not its advertised retail value. Keep the rule simple enough to explain in one line, and choose a bonus that belongs with the purchase. An unrelated freebie is just another thing the customer has to find a use for.</p>
+
+
+
+<h3 class="wp-block-heading">9. Team up to reach more customers</h3>
+
+
+
+<p class="wp-block-paragraph">You don’t always need to create a joint product to work with another business. Sometimes the opportunity is helping customers discover things that belong together.</p>
+
+
+
+<p class="wp-block-paragraph">Folksy’s Black Friday campaign, The Real Deal, brought independent makers together in a shared handmade-product showcase. Sellers could nominate products for the collection, while Folksy supplied social media templates, newsletter materials, and printable signs. The campaign put craftsmanship and the people behind the products ahead of price cuts.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f81ee7&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f81ee7" class="wp-block-image aligncenter size-large is-resized wp-lightbox-container"><img loading="lazy" width="1024" height="1024" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-2ef77786.png?w=1024" alt="Folksy Black Friday graphic on an orange background featuring handmade mugs, clothing, a parasol, a tote bag, and a maker." class="wp-image-89887" style="width:417px;height:auto" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-2ef77786.png?w=1024 1024w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-2ef77786.png?w=150 150w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-2ef77786.png?w=300 300w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-2ef77786.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-2ef77786.png 1080w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Folksy’s The Real Deal campaign brought independent makers together for Black Friday.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">A few local businesses could borrow that approach with a shared gift guide or shopping event. For example, a potter, coffee roaster, and baker could build a collection around gifts for someone who loves a slow Sunday morning.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Keep the collaboration manageable:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Choose one theme that connects the products.</li>
+
+
+
+<li>Give each business a clear place in the guide.</li>
+
+
+
+<li>Agree on how everyone will promote it.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Each business can handle its own sales. The shared effort goes into making the collection worth exploring – not creating another complicated promotion to manage.</p>
+
+
+
+<h3 class="wp-block-heading">10. Give customers a reason to come back</h3>
+
+
+
+<p class="wp-block-paragraph">A return incentive works best when the next visit feels like a natural continuation of the first.</p>
+
+
+
+<p class="wp-block-paragraph">Range + Rye offered a $10 bonus card with a $50 gift-card purchase, or $20 with a $100 purchase. The Pennsylvania restaurant ran the promotion in person: a customer could buy someone else a gift and leave with another reason to visit.</p>
+
+
+
+<p class="wp-block-paragraph">For a class-based business, the equivalent could be credit from a beginners’ workshop toward an intermediate session. Give people time to use their first purchase before deciding what comes next. Price the promotion assuming customers redeem the credit, and explain restrictions upfront. It should work when they remember to return, not only when they forget.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f82935&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f82935" class="wp-block-image aligncenter size-large is-resized wp-lightbox-container"><img loading="lazy" width="1024" height="664" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png?w=1024" alt="Range + Rye holiday gift-card banner on a dark wooden background, with wrapped gift cards at the right." class="wp-image-89890" style="aspect-ratio:1.5452054794520549;width:634px;height:auto" srcset="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png?w=1024 1024w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png?w=150 150w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png?w=300 300w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png?w=768 768w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png?w=1440 1440w, https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png 1500w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Range + Rye paired its Black Friday gift-card offer with bonus credit.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<h2 class="wp-block-heading">Put your offer to work on your website</h2>
+
+
+
+<p class="wp-block-paragraph">The offer comes first; the setup should follow. A one-off consultation doesn’t need the same machinery as a store with dozens of products.</p>
+
+
+
+<p class="wp-block-paragraph">For a single service or download, a clear offer page and a <a href="https://wordpress.com/support/wordpress-editor/blocks/payments/">payment button</a> may be enough, with scheduling or delivery handled separately.<br><br>A full catalog needs product pages, a cart, and order management; WooCommerce is one option, and WordPress.com’s <a href="https://wordpress.com/ecommerce/">Commerce plan</a> packages it with hosting and additional store tools.</p>
+
+
+
+<p class="wp-block-paragraph">Keep the customer’s next step obvious: reserve a date, choose a package, or subscribe. Specialized bookings and memberships may need extra extensions, so check the full process rather than assuming that collecting payment completes the job.<br><br>Make the offer the first thing visitors notice. If you&#8217;re running a discount, lead with the percentage saved and a clear call to action, rather than crowding the page with product features. The same principle applies to bundles, gifts, or exclusive experiences: <strong>show customers what they&#8217;re getting and make the next step easy.</strong></p>
+
+
+
+<h2 class="wp-block-heading">Choose your offer, then give it a test run</h2>
+
+
+
+<p class="wp-block-paragraph">You don&#8217;t need to become a completely different business for a weekend.<br><br>Remember, one useful offer is enough to start. Give yourself time to promote it, make its value immediately clear, and test the path from landing on your website to completing a purchase. </p>
+
+
+
+<p class="wp-block-paragraph">Once you’ve chosen your offer, <a href="https://wordpress.com/blog/2026/10/07/black-friday-checklist/?ref=blog">make sure your site is ready for Black Friday</a> so customers can follow through to purchase.<br><br>Whether they’re buying a product, booking a session, or joining a membership, the promise on your page needs to work – all the way to checkout.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/blog/2026/10/07/black-friday-checklist/?ref=blog">Black Friday website checklist</a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/28/black-friday-ideas/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">89884</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/10-black-friday-ideas-for-small-businesses-that-go-beyond-discounts.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/10-black-friday-ideas-for-small-businesses-that-go-beyond-discounts.png" medium="image">
+			<media:title type="html">10 Black Friday Ideas for Small Businesses That Go Beyond Discounts</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/c5d54fe203ce5b3bfaf22ab170a2854bc23fe3a5a7b2bdd8ec1d8a62fcf6b840?s=96&#38;d=retro" medium="image">
+			<media:title type="html">philipctadams</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-474746bb.png?w=1024" medium="image">
+			<media:title type="html">Screenshot of grüum’s Black Friday Edit page showing a 10-product skincare bundle, an orange promotional graphic, and the product list.</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-bc70a40c.png?w=972" medium="image">
+			<media:title type="html">Trentham’s Black Friday webpage promoting a £100 gift voucher for £80, with a gift-card graphic and redemption details.</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-80585b10.png?w=1024" medium="image">
+			<media:title type="html">Dolly DeLong website banner reading “Black Friday Plan for Photographers: Fund Your Slow Season,” beside a floral guide cover.</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-e57d3182.png?w=1024" medium="image">
+			<media:title type="html">Lia Griffith’s Black Friday membership offer showing annual-plan pricing and images for a paper plant masterclass and Crafty Wonderland event.</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-c5b8cc72.png?w=663" medium="image">
+			<media:title type="html">Ultraspeaking campaign page headed “Black Friday VIP Early Access,” with an explanation of the limited membership offer.</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-4f30c95c.png?w=1024" medium="image">
+			<media:title type="html">Record Store Day Black Friday promotional collage showing vinyl record artwork around the bold “RSD Black Friday” logo.</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-2ef77786.png?w=1024" medium="image">
+			<media:title type="html">Folksy Black Friday graphic on an orange background featuring handmade mugs, clothing, a parasol, a tote bag, and a maker.</media:title>
+		</media:content>
+
+		<media:content url="https://en.blog.wordpress.com/wp-content/uploads/2026/10/image-712767c2.png?w=1024" medium="image">
+			<media:title type="html">Range + Rye holiday gift-card banner on a dark wooden background, with wrapped gift cards at the right.</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>How Nonprofit Revive &#038; Restore Found a Better Home on WordPress.com</title>
+		<link>https://wordpress.com/blog/2026/10/26/revive-and-restore/</link>
+					<comments>https://wordpress.com/blog/2026/10/26/revive-and-restore/#comments</comments>
+		
+		<dc:creator><![CDATA[Nick Schäferhoff]]></dc:creator>
+		<pubDate>Mon, 26 Oct 2026 21:46:37 +0000</pubDate>
+				<category><![CDATA[Admin Bar]]></category>
+		<category><![CDATA[Customer Stories]]></category>
+		<category><![CDATA[Migration]]></category>
+		<category><![CDATA[non-profit]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=89415</guid>
+
+					<description><![CDATA[Slow pages and difficult updates had Revive &#38; Restore considering a move away from WordPress. A second opinion helped the nonprofit find a different way forward.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><strong>Updating</strong> <a href="https://reviverestore.org/"><strong>Revive &amp; Restore</strong></a><strong>’s website had become a bottleneck. </strong><br><br>Routine changes caused formatting problems, pages were slow, and important project updates piled up.<br><br>Then, a new developer gave the nonprofit a fresh perspective and helped them identify what was holding its website back.<br><br>Revive &amp; Restore moved its existing WordPress site to <a href="https://wordpress.com/hosting/?ref=blog">WordPress.com managed hosting</a> and began improving its publishing workflow, with the goal of making project updates easier to publish.</p>
+
+
+
+<h2 class="wp-block-heading">Wildlife conservation through biotechnology</h2>
+
+
+
+<p class="wp-block-paragraph">A diverse gene pool is crucial for wildlife’s ability to adapt to environmental changes or disease outbreaks.</p>
+
+
+
+<p class="wp-block-paragraph">Historically, to increase genetic diversity, conservationists would migrate healthy individuals from one unrelated population to another. Today, biotechnology opens up additional paths, from genome sequencing and biobanking to cloning and gene editing.</p>
+
+
+
+<figure class="wp-block-pullquote" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;font-size:1em"><blockquote><p>“Our website provides information on our program areas and projects, highlighting our unique role in bringing biotechnology solutions to wildlife conservation. While we partner with and fund researchers around the world to develop innovative solutions, our website is the one true source of information about what we do at Revive &amp; Restore.”</p><cite><strong>Marmee Manack, Director of Operations, Revive &amp; Restore</strong><br></cite></blockquote></figure>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f86e7c&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f86e7c" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1024" height="684" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png?w=1024" alt="A black-footed ferret peeks out of a circular opening above shredded paper bedding." class="wp-image-89418" style="aspect-ratio:1.498891352549889" srcset="https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png?w=1024 1024w, https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png 2048w, https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png?w=150 150w, https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png?w=300 300w, https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png?w=768 768w, https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png?w=1440 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Black-footed ferret conservation has been a major focus of Revive &amp; Restore’s work for many years.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">When even a simple website update took too long</h2>
+
+
+
+<p class="wp-block-paragraph">As with many nonprofits, Revive &amp; Restore mainly communicates through its website, making it central to its mission.</p>
+
+
+
+<p class="wp-block-paragraph">The site highlights the organization’s mission, programs it&#8217;s involved in, latest news, upcoming workshops, and allows them to accept donations.</p>
+
+
+
+<p class="wp-block-paragraph">Yet, the team kept running into issues that made it increasingly difficult for the website to do its job.</p>
+
+
+
+<figure class="wp-block-pullquote" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;font-size:1em"><blockquote><p>“What should have taken minimal time to create a simple page update took too long and resulted in serious formatting issues that were difficult to fix. This resulted in a huge backlog of timely website updates that would have provided important updates on our projects. In addition, we experienced slow page load times.”</p><cite><strong>Marmee Manack, Director of Operations, Revive &amp; Restore</strong><br></cite></blockquote></figure>
+
+
+
+<p class="wp-block-paragraph">Ryan Phelan, Revive &amp; Restore’s co-founder and executive director, said the team was “on the verge of moving our Revive &amp; Restore website away from WordPress entirely” after its developer claimed, “the platform couldn&#8217;t scale to meet our needs.”</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f87851&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f87851" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="887" height="1024" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-baa5d168.jpeg?w=887" alt="Screenshot of Revive &amp; Restore’s programs page showing coral conservation, bird conservation, and black-footed ferret recovery projects." class="wp-image-89416" style="aspect-ratio:0.8655352480417755" srcset="https://en-blog.files.wordpress.com/2026/10/image-baa5d168.jpeg?w=887 887w, https://en-blog.files.wordpress.com/2026/10/image-baa5d168.jpeg?w=130 130w, https://en-blog.files.wordpress.com/2026/10/image-baa5d168.jpeg?w=260 260w, https://en-blog.files.wordpress.com/2026/10/image-baa5d168.jpeg?w=768 768w, https://en-blog.files.wordpress.com/2026/10/image-baa5d168.jpeg 1400w" sizes="auto, (max-width: 887px) 100vw, 887px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Revive &amp; Restore’s website presents research programs covering coral conservation, bird conservation, and black-footed ferret recovery.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Getting a second opinion</h2>
+
+
+
+<p class="wp-block-paragraph">That advice could have changed the direction of the entire project. Instead, Ryan got a second opinion, and their findings told a different story.<br><br>The developer began with an audit, uncovering a theme that made page creation difficult and conflicting plugins that contributed to slow load times.</p>
+
+
+
+<p class="wp-block-paragraph">“WordPress wasn&#8217;t the problem,” said Marmee Manack, the nonprofit’s director of operations. The developer removed the conflicting plugins, and Revive &amp; Restore moved its hosting to WordPress.com with migration assistance and discounted hosting.</p>
+
+
+
+<p class="wp-block-paragraph">WordPress.com handles the hosting infrastructure, security, and software updates, while the developer focuses on improving the site&#8217;s publishing workflow with the WordPress block editor and <a href="https://wordpress.com/support/templates/">reusable page templates</a>.</p>
+
+
+
+<p class="wp-block-paragraph">Ryan said: “We are currently migrating all existing content to the streamlined, core WordPress Gutenberg editor. This shift will simplify our operations and ensure a lighter, faster, and easier-to-manage website for the long term.”</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f88499&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f88499" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="920" height="1023" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-3754b203.jpeg?w=920" alt="Screenshot of Revive &amp; Restore’s homepage with wildlife artwork and featured projects on black-footed ferrets, coral conservation, and Przewalski’s horses." class="wp-image-89417" style="aspect-ratio:0.8993103448275862" srcset="https://en-blog.files.wordpress.com/2026/10/image-3754b203.jpeg?w=920 920w, https://en-blog.files.wordpress.com/2026/10/image-3754b203.jpeg?w=135 135w, https://en-blog.files.wordpress.com/2026/10/image-3754b203.jpeg?w=270 270w, https://en-blog.files.wordpress.com/2026/10/image-3754b203.jpeg?w=768 768w, https://en-blog.files.wordpress.com/2026/10/image-3754b203.jpeg 1400w" sizes="auto, (max-width: 920px) 100vw, 920px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Revive &amp; Restore’s homepage introduces its conservation mission and highlights featured research projects.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">Making the website easier to update</h2>
+
+
+
+<p class="wp-block-paragraph">Moving its hosting to WordPress.com was one part of the project. Revive &amp; Restore still needed to tackle the problem its team faced every day: <strong>creating and updating pages.</strong></p>
+
+
+
+<p class="wp-block-paragraph">For Marmee, this is a familiar challenge in the nonprofit world. Many organizations have “a single comms professional tasked with planning, building, implementing, and maintaining active communications channels, including the website.”</p>
+
+
+
+<p class="wp-block-paragraph">When that person struggles to publish a simple update, it can affect the organization&#8217;s entire communications operation.</p>
+
+
+
+<p class="wp-block-paragraph">Working with its developer, the nonprofit began rebuilding its site with a lighter theme, the WordPress block editor, and reusable page templates. The goal was to make routine updates less time-consuming and avoid the formatting problems that had caused its backlog.</p>
+
+
+
+<p class="wp-block-paragraph">With its new page templates ready, Ryan says the team is “well on our way” as they move existing content into the updated layouts. The team hopes to relaunch the updated website this fall.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f89299&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f89299" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1010" height="1024" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-c41326d3.jpeg?w=1010" alt="Screenshot of Revive &amp; Restore’s News &amp; Media page featuring a climate resilience announcement and a grid of conservation research stories." class="wp-image-89422" style="aspect-ratio:0.9858267716535433" srcset="https://en-blog.files.wordpress.com/2026/10/image-c41326d3.jpeg?w=1010 1010w, https://en-blog.files.wordpress.com/2026/10/image-c41326d3.jpeg?w=148 148w, https://en-blog.files.wordpress.com/2026/10/image-c41326d3.jpeg?w=296 296w, https://en-blog.files.wordpress.com/2026/10/image-c41326d3.jpeg?w=768 768w, https://en-blog.files.wordpress.com/2026/10/image-c41326d3.jpeg 1357w" sizes="auto, (max-width: 1010px) 100vw, 1010px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Revive &amp; Restore’s News &amp; Media page carries project updates — the timely content its team needed to publish.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading">A better home for their WordPress site</h2>
+
+
+
+<p class="wp-block-paragraph">Before making costly changes to a website, it pays to understand what&#8217;s actually wrong.<br><br>For Revive &amp; Restore, getting expert help meant identifying the underlying issues and finding a clear path forward without starting from the ground up.</p>
+
+
+
+<p class="wp-block-paragraph">WordPress.com provided the other piece of the puzzle: <a href="https://wordpress.com/hosting/?ref=blog">managed hosting</a> that takes care of the technical infrastructure, security, updates, and backups, while retaining the flexibility of WordPress. </p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/hosting/?ref=blog">Explore WordPress.com Hosting</a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/26/revive-and-restore/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">89415</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/how-nonprofit-revive-restore-found-a-better-home-on-wordpress.com_.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/how-nonprofit-revive-restore-found-a-better-home-on-wordpress.com_.png" medium="image">
+			<media:title type="html">Revive &#38; Restore — WordPress.com customer story</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/f86cf3fe095787d59771ecaf48381fb8dee85925ea73f28501683883b9a3ff4e?s=96&#38;d=retro" medium="image">
+			<media:title type="html">nschaeferhoff</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-ff784e3b.png?w=1024" medium="image">
+			<media:title type="html">A black-footed ferret peeks out of a circular opening above shredded paper bedding.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-baa5d168.jpeg?w=887" medium="image">
+			<media:title type="html">Screenshot of Revive &#038; Restore’s programs page showing coral conservation, bird conservation, and black-footed ferret recovery projects.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-3754b203.jpeg?w=920" medium="image">
+			<media:title type="html">Screenshot of Revive &#038; Restore’s homepage with wildlife artwork and featured projects on black-footed ferrets, coral conservation, and Przewalski’s horses.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-c41326d3.jpeg?w=1010" medium="image">
+			<media:title type="html">Screenshot of Revive &#038; Restore’s News &#038; Media page featuring a climate resilience announcement and a grid of conservation research stories.</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Four Website Chores Your AI Agent Can Help With</title>
+		<link>https://wordpress.com/blog/2026/10/23/wordpress-mcp-chores/</link>
+					<comments>https://wordpress.com/blog/2026/10/23/wordpress-mcp-chores/#comments</comments>
+		
+		<dc:creator><![CDATA[Alexa Peduzzi]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2026 16:15:00 +0000</pubDate>
+				<category><![CDATA[Admin Bar]]></category>
+		<category><![CDATA[Product Features]]></category>
+		<category><![CDATA[Tips and Tutorials]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[MCP]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=89335</guid>
+
+					<description><![CDATA[Explore four ways to tackle website busywork with an AI assistant, from preparing posts and updating site details to reviewing alt text and comments.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Every website has a list of small jobs that are easy to put off: changing a name on every page, checking images for alt text, digging through comments for the one question that needs a reply. None of it is hard, but it all takes time away from creating content and running your business.</p>
+
+
+
+<p class="wp-block-paragraph">Connect your site to an agent through WordPress.com’s MCP, and it can take those jobs off your plate.<br><br>You still do the writing, make the decisions, and talk to your customers, while the agent handles the busywork, checking with you as often as you choose before it changes anything on your site.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-space-between is-layout-flex wp-container-core-buttons-is-layout-5723d6ea wp-block-buttons-is-layout-flex">
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/chatgpt">Set up ChatGPT</a></div>
+
+
+
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/claude">Set up Claude</a></div>
+
+
+
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wordpress.com/support/mcp/#other-mcp-clients">Set up another AI agent</a></div>
+</div>
+
+
+
+<h2 class="wp-block-heading">How the WordPress.com MCP works</h2>
+
+
+
+<p class="wp-block-paragraph"><br><a href="https://wordpress.com/support/mcp/">The WordPress.com MCP</a> creates a secure connection between your site and an AI agent you already use, such as ChatGPT or Claude. Describe the task in plain language, and your agent can help from the chat.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Paid plans always get access, but from now until the end of November 2026, sites on our free plan can use it, too.</strong></p>
+
+
+
+<h2 class="wp-block-heading">Get your finished draft ready to publish</h2>
+
+
+
+<p class="wp-block-paragraph">Writing a post isn&#8217;t the end of the job. After the last sentence, you still need to sort out formatting, pick a category, and write a search title and description.</p>
+
+
+
+<p class="wp-block-paragraph">Paste your finished draft and ask your agent to handle those steps. It saves the post as a draft with your wording untouched. If the category you want doesn&#8217;t exist yet, it can create it.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f8c762&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f8c762" class="wp-block-image size-full wp-lightbox-container"><img data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-24658f8d.png" alt="AI agent conversation about saving a blog post on calico cats as a WordPress draft." class="wp-image-89336" style="aspect-ratio:0.9963235294117647" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<p class="wp-block-paragraph">Need a proofread, too? Ask your agent to check grammar, punctuation, and more. You decide whether your agent publishes on its own or waits for your OK.</p>
+
+
+
+<h2 class="wp-block-heading">Find and update outdated business details</h2>
+
+
+
+<p class="wp-block-paragraph">A name, a price, an address, or your hours can live in more places on your site than you remember. They&#8217;re in posts, pages, the footer, the site settings, and even the search titles on drafts. Miss one, and a visitor finds the old detail on a page you forgot.</p>
+
+
+
+<p class="wp-block-paragraph">Ask your agent to find the outdated details before changing anything. It searches your published and draft posts, every page, the header and footer, and the site settings, then shows you where each detail appears.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f8d172&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f8d172" class="wp-block-image size-full wp-lightbox-container"><img data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-dcb39ce7.png" alt="AI agent conversation about updating a business name across a WordPress website." class="wp-image-89337" style="aspect-ratio:1.0196078431372548" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<p class="wp-block-paragraph">You look it over and say what to change and what to skip. Once you approve, your agent can make the changes and check each one.</p>
+
+
+
+<h2 class="wp-block-heading">Find and fix images missing alt text</h2>
+
+
+
+<p class="wp-block-paragraph"><a href="https://wordpress.com/blog/2024/12/23/what-is-alt-text/">Alt text</a> is the short description of an image that a screen reader reads aloud, so people who can&#8217;t see the picture still know what it shows. Finding missing alt text usually means digging through your media library and checking images one by one.</p>
+
+
+
+<p class="wp-block-paragraph">Ask your agent to find images with missing titles or alt text. It can scan the media library for you, and it suggests descriptions based on what it can work with, like each image’s title, caption, and the page it was uploaded to.<br><br>You can check the descriptions against the real pictures before approving any additions.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f8d8db&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f8d8db" class="wp-block-image size-full wp-lightbox-container"><img data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-743afc92.png" alt="AI agent conversation about finding WordPress Media Library images that need alt text." class="wp-image-89338" style="aspect-ratio:0.8221343873517787" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<h2 class="wp-block-heading">Find comments that need a real answer</h2>
+
+
+
+<p class="wp-block-paragraph"><a href="https://wordpress.com/support/discussion-settings/#before-a-comment-appears">Comments from first-time commenters need your approval by default</a>, so you usually need to manually review each one before it appears on your site. If you get a lot of comments on your site, you know how time-consuming it can be.</p>
+
+
+
+<p class="wp-block-paragraph">When comments pile up, the questions that need your attention can get buried. Ask your agent to sort new comments into praise, questions, feedback, and likely spam. Review the list and decide what happens next. Your agent can also help draft replies to comments that need an answer.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f8e13b&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f8e13b" class="wp-block-image size-full is-resized wp-lightbox-container"><img data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/reviewing-website-comments-with-ai-agent.png" alt="AI agent conversation about reviewing and approving comments on a WordPress website." class="wp-image-89352" style="aspect-ratio:0.7572815533980582;width:808px;height:auto" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button></figure>
+
+
+
+<h2 class="wp-block-heading">You choose where AI helps</h2>
+
+
+
+<p class="wp-block-paragraph">Your agent can handle the repetitive parts, while you remain in charge of the decisions. AI doesn&#8217;t replace your judgment. Some jobs just don&#8217;t need your time, and handing them off leaves more room for the work that <em>does</em> need you.</p>
+
+
+
+<p class="wp-block-paragraph">Once you connect an AI agent to your WordPress.com site, it only acts when you ask. You choose what needs your OK, from every change to nothing at all, and <a href="https://wordpress.com/support/back-up-your-site/">backups</a> and your site&#8217;s <a href="https://wordpress.com/support/activity/">Activity Log</a> have your back.<br><br>Your activity log also <a href="https://wordpress.com/support/activity/#use-the-activity-log">marks the changes made by your agent</a> so you can always keep an eye on things.</p>
+
+
+
+<h2 class="wp-block-heading">Connect your AI agent</h2>
+
+
+
+<p class="wp-block-paragraph">Pick the one website chore you’ve been putting off for too long and start there. Once you&#8217;ve set up your AI agent, describe the chore you want help with.</p>
+
+
+
+<p class="wp-block-paragraph">Ask to see a plan first, review what it proposes, and decide what to do next.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-space-between is-layout-flex wp-container-core-buttons-is-layout-5723d6ea wp-block-buttons-is-layout-flex">
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/chatgpt">Set up ChatGPT</a></div>
+
+
+
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wp.me/claude">Set up Claude</a></div>
+
+
+
+<div class="wp-block-button btn-primary text-color-white"><a class="wp-block-button__link wp-element-button" href="https://wordpress.com/support/mcp/#other-mcp-clients">Set up another AI agent</a></div>
+</div>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/23/wordpress-mcp-chores/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">89335</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/wordpress-mcp-chores.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/wordpress-mcp-chores.png" medium="image">
+			<media:title type="html">Four Website Chores Your AI Agent Can Help With</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/20562e8d36b8d2fab1757ff4b6ec7fbb434f4f17c52184101c2055ff2ee274a4?s=96&#38;d=retro" medium="image">
+			<media:title type="html">alexanpeduzzi</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-24658f8d.png" medium="image">
+			<media:title type="html">AI agent conversation about saving a blog post on calico cats as a WordPress draft.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-dcb39ce7.png" medium="image">
+			<media:title type="html">AI agent conversation about updating a business name across a WordPress website.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-743afc92.png" medium="image">
+			<media:title type="html">AI agent conversation about finding WordPress Media Library images that need alt text.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/reviewing-website-comments-with-ai-agent.png" medium="image">
+			<media:title type="html">AI agent conversation about reviewing and approving comments on a WordPress website.</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Stop Paying Extra to Keep Your Site Safe</title>
+		<link>https://wordpress.com/blog/2026/10/22/secure-wordpress-hosting/</link>
+					<comments>https://wordpress.com/blog/2026/10/22/secure-wordpress-hosting/#comments</comments>
+		
+		<dc:creator><![CDATA[Ian Stewart]]></dc:creator>
+		<pubDate>Thu, 22 Oct 2026 17:51:47 +0000</pubDate>
+				<category><![CDATA[Admin Bar]]></category>
+		<category><![CDATA[Product Features]]></category>
+		<category><![CDATA[Managed Hosting]]></category>
+		<category><![CDATA[Migration]]></category>
+		<category><![CDATA[security]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=89307</guid>
+
+					<description><![CDATA[Getting hacked is bad enough. You shouldn't have to pay another bill to clean up your site. Security should be part of what you're already paying your host to do.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Your site gets hacked. Then you find out cleanup costs extra. Some hosts work exactly like that.</p>
+
+
+
+<p class="wp-block-paragraph">Some hosts sell malware help separately. Finding that out when your site’s been hacked is a really awful experience.</p>
+
+
+
+<h2 class="wp-block-heading">What your hosting should already cover</h2>
+
+
+
+<p class="wp-block-paragraph">Meanwhile, WordPress.com scans sites daily for malware and cleans up what it finds on all paid plans. That’s Personal, Premium, Business, and Commerce.</p>
+
+
+
+<p class="wp-block-paragraph">Even better, our migration services act like a filtration system. Bring us an infected site. After your migration, we scan it, and our team cleans it up at no extra cost.</p>
+
+
+
+<p class="wp-block-paragraph">It’s like other hosting companies are saying the following:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Other hosts:</strong> “You’ve been hacked. Pay up or go fix it yourself.”</p>
+
+
+
+<p class="wp-block-paragraph">Meanwhile, here at WordPress.com:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>WordPress.com:</strong> “If you&#8217;re on WordPress.com, we&#8217;re always watching – we’ll watch for malware and clean it up when we find it. If you&#8217;re not on WordPress.com, c’mon over. We’ll clean up the infection after migration and keep watching for trouble. ”</p>
+
+
+
+<p class="wp-block-paragraph">“Volume” hosts sell security or emergency cleanup separately. “Emergency malware” can cost upwards of US$160 as a one-time purchase, including a year of scanning. You’ll see hosts selling separate security plans, with cleanup limits on their lower tiers.</p>
+
+
+
+<p class="wp-block-paragraph">Cleaning up a hacked site shouldn’t cost extra. Malware scanning and cleanup are included in your paid WordPress.com plan.</p>
+
+
+
+<p class="wp-block-paragraph">Meanwhile, premium managed hosts include cleanup, but it’s worth looking at what else costs extra. You&#8217;ll see offers for “advanced DDoS protection” and a “managed web application firewall” as optional add-ons. A web application firewall and DDoS protection are <em>already included</em> in our paid plans. Together, they help filter malicious requests and traffic designed to overwhelm your site.</p>
+
+
+
+<p class="wp-block-paragraph">That disparity seems totally off to me. Security and cleanup should be part of what you’re paying your host to do.</p>
+
+
+
+<p class="wp-block-paragraph">Not just migrations, not just security. Yes to those, but also how both work together. How everything works together on WordPress.com: Jetpack, WooCommerce, hosting, security, and support.</p>
+
+
+
+<h2 class="wp-block-heading">Your next host should have your back</h2>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;re getting your site ready for Black Friday, now&#8217;s a good time to look at what your hosting includes. Security shouldn&#8217;t be another thing you have to worry about when customers start arriving.</p>
+
+
+
+<p class="wp-block-paragraph">If you want your site to be protected without paying more, come on over. We’ll be happy to do the migration for you and get you set up in your new web home.<br><br>Our team at WordPress.com keeps your site safe every day, so you can keep building what matters to you.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/move/?ref=blog">Move your site to WordPress.com</a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/22/secure-wordpress-hosting/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">89307</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/stop-paying-extra-to-keep-your-site-safe.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/stop-paying-extra-to-keep-your-site-safe.png" medium="image">
+			<media:title type="html">Stop Paying Extra to Keep Your Site Safe</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/287b89754d639241cd3b3d062be6b8cba43e18e67c80ec15b2ce550023fdbac7?s=96&#38;d=retro" medium="image">
+			<media:title type="html">Ian</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Your WordPress.com Site is Protected Against the Recent Critical PHP Vulnerabilities</title>
+		<link>https://wordpress.com/blog/2026/10/21/php2shell-vulnerabilities/</link>
+					<comments>https://wordpress.com/blog/2026/10/21/php2shell-vulnerabilities/#comments</comments>
+		
+		<dc:creator><![CDATA[Ian Stewart]]></dc:creator>
+		<pubDate>Wed, 21 Oct 2026 19:57:59 +0000</pubDate>
+				<category><![CDATA[Admin Bar]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[security]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=89327</guid>
+
+					<description><![CDATA[Two critical PHP vulnerabilities were disclosed on October 21, 2026. WordPress.com sites are already protected, with no action required from site owners.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Today, the PHP project released <a href="https://www.php.net/ChangeLog-8.php">fixes</a> for two critical vulnerabilities that could allow unauthenticated remote code execution. PHP is the programming language WordPress runs on, which is why it matters to every WordPress site.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>If your site is hosted on WordPress.com, there’s nothing you need to do to keep your site safe from these vulnerabilities</strong>. <br><br>Your sites are already protected against the recently disclosed PHP security issues. Automattic worked closely with the PHP Security team to ensure that all sites hosted on our platform were protected as soon as possible, <a href="https://automattic.com/2026/10/21/your-sites-are-protected-against-the-php2shell-vulnerabilities/">ensuring all sites hosted with Automattic</a>, including those on WordPress.com, WordPress VIP, WP Cloud, Pressable, and Tumblr, are safe. <strong>If you run your own servers, update now.</strong></p>
+
+
+
+<h2 class="wp-block-heading">Why you didn’t have to lift a finger</h2>
+
+
+
+<p class="wp-block-paragraph">On WordPress.com, PHP is installed, maintained, and patched by us at the infrastructure level, not by you. Our security team prepared for this release ahead of time, so every site on the platform is covered.</p>
+
+
+
+<p class="wp-block-paragraph">That’s the difference between doing it yourself and managed hosting (like what you get on WordPress.com). At many hosts, the site owner is responsible for security: updating software, installing a security plugin, watching for threats. On WordPress.com, we handle it for you.</p>
+
+
+
+<h3 class="wp-block-heading">How WordPress.com protects your site every day</h3>
+
+
+
+<p class="wp-block-paragraph">This week’s news isn’t one-off work for our team; we ensure that <a href="http://wordpress.com/support/security/">these protections</a> are on all the time for WordPress.com sites:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Automatic updates:</strong> We keep your WordPress version up to date automatically.</li>
+
+
+
+<li><strong>Encryption by default:</strong> Every WordPress.com site, including custom domains, is served over SSL, and insecure requests are redirected to HTTPS.</li>
+
+
+
+<li><strong>Daily malware scans:</strong> Jetpack Scan checks every WordPress.com site daily for dangerous plugins, themes, and malware. Our security team resolves what it finds, and we email you if we have to remove something.</li>
+
+
+
+<li><strong>A firewall in front of your site:</strong> Our web application firewall examines incoming traffic and blocks suspicious IP addresses, malicious bots, and unusual activity.</li>
+
+
+
+<li><strong>Monitoring:</strong> We watch for suspicious activity, including brute-force login attempts and DDoS attacks, and alert you if your site goes down.</li>
+
+
+
+<li><strong>Backups:</strong> We back up site data regularly, and sites on higher-level plans can access daily backups from the dashboard.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Your part</h2>
+
+
+
+<p class="wp-block-paragraph">Of course, security works both ways, and there are still some things that you can do to ensure your site stays secure: use a strong password, <a href="https://en.support.wordpress.com/security/two-step-authentication/">turn on two-step authentication</a>, keep your account email current, and review plugins and user roles regularly.</p>
+
+
+
+<p class="wp-block-paragraph">You don’t need to install a separate security plugin, and some can interfere with the protections you already get by using WordPress.com.</p>
+
+
+
+<p class="wp-block-paragraph">No service can promise perfect security, and we won’t pretend otherwise. <strong>On WordPress.com, security is our job to solve, not yours.</strong></p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/support/security/">Keep your site safe and secure</a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/21/php2shell-vulnerabilities/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">89327</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/your-wordpress.com-site-is-protected-against-the-recent-critical-php-vulnerabilities.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/your-wordpress.com-site-is-protected-against-the-recent-critical-php-vulnerabilities.png" medium="image">
+			<media:title type="html">Your WordPress.com Site is Protected Against the Recent Critical PHP Vulnerabilities</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/287b89754d639241cd3b3d062be6b8cba43e18e67c80ec15b2ce550023fdbac7?s=96&#38;d=retro" medium="image">
+			<media:title type="html">Ian</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>How to Build a Portfolio Website That Gets You Hired</title>
+		<link>https://wordpress.com/blog/2026/10/21/build-portfolio-website/</link>
+					<comments>https://wordpress.com/blog/2026/10/21/build-portfolio-website/#respond</comments>
+		
+		<dc:creator><![CDATA[Wes Theron]]></dc:creator>
+		<pubDate>Tue, 20 Oct 2026 23:52:49 +0000</pubDate>
+				<category><![CDATA[Admin Bar]]></category>
+		<category><![CDATA[Tips and Tutorials]]></category>
+		<category><![CDATA[portfolio]]></category>
+		<category><![CDATA[WordPress Agent]]></category>
+		<guid isPermaLink="false">http://en.blog.wordpress.com/?p=89313</guid>
+
+					<description><![CDATA[Build along with our portrait photography tutorial, from choosing a domain name to showcasing your strongest work and helping clients get in touch.]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Picture someone with twelve tabs open, a deadline closing in, and one question on their mind: <em>Who should I hire?</em> They land on your portfolio website. You have a few moments to answer.</p>
+
+
+
+<p class="wp-block-paragraph">In the video below, we build a portrait photography portfolio from scratch, showing how to present your work, customize your pages, and make it easier for potential clients to get in touch.</p>
+
+
+
+<p class="wp-block-paragraph">The same principles apply whether you’re a photographer, designer, writer, or another creative professional.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" class="youtube-player" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/0_sFgzqqI_8?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation allow-popups-to-escape-sandbox"></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">Put your best work first</h2>
+
+
+
+<p class="wp-block-paragraph">You’ve built up a collection of work you’re proud of. That doesn’t mean every project belongs on your site.</p>
+
+
+
+<p class="wp-block-paragraph">Think of your portfolio as a greatest-hits album. Pick the projects that stand out and show the work you want more of. </p>
+
+
+
+<p class="wp-block-paragraph">Fewer pieces, chosen with care, say more than a large collection of everything you’ve ever created. Put your newest selected projects first so visitors see the work you’re doing now.</p>
+
+
+
+<p class="wp-block-paragraph">Your work is the star. Your portfolio website is the stage, and a good stage knows when to get out of the way. </p>
+
+
+
+<p class="wp-block-paragraph">Give your work plenty of breathing room, with a clean layout and minimal distractions. Then bring your best visuals: sharp, high-resolution, and consistent from project to project.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f94da0&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f94da0" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1024" height="647" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png?w=1024" alt="Photography portfolio homepage featuring family and wedding photographs above a “Something worth remembering” message and booking button." class="wp-image-89316" style="aspect-ratio:1.5823665893271461" srcset="https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png?w=1024 1024w, https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png 2048w, https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png?w=150 150w, https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png?w=300 300w, https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png?w=768 768w, https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png?w=1440 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">Lead with a curated selection of your strongest work so visitors can quickly see your style.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Group the work on your gallery or projects page by type, style, or industry so visitors can find what interests them. </p>
+
+
+
+<p class="wp-block-paragraph">If you publish projects as posts, <a href="https://wordpress.com/support/posts/categories-vs-tags/">categories and tags</a> can help visitors explore related work.</p>
+
+
+
+<p class="wp-block-paragraph">Share a new project, a lesson you learned the hard way, or the messy middle of how something came together. </p>
+
+
+
+<p class="wp-block-paragraph">Showing your process helps visitors understand how you work. A blog is one way to do that; updating your project pages works, too.</p>
+
+
+
+<h2 class="wp-block-heading">Let your personality come through</h2>
+
+
+
+<p class="wp-block-paragraph">People don’t hire portfolios. They hire people.</p>
+
+
+
+<p class="wp-block-paragraph">Your About page is your chance to introduce yourself. Share how you got started, what keeps you curious, and what you’re like to work with. </p>
+
+
+
+<p class="wp-block-paragraph">Add a photo. Write the way you’d talk over coffee — warm, honest, with a little personality showing. </p>
+
+
+
+<p class="wp-block-paragraph">Visitors should feel like they’ve met you before they ever send a message.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f95839&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f95839" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1024" height="663" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png?w=1024" alt="Roger Lister Photography website displaying the studio name in large serif lettering and an introduction to its wedding and portrait photography." class="wp-image-89315" style="aspect-ratio:1.5429864253393666" srcset="https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png?w=1024 1024w, https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png 2048w, https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png?w=150 150w, https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png?w=300 300w, https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png?w=768 768w, https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png?w=1440 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">A personal introduction helps potential clients understand the photographer behind the portfolio.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Your name is a pretty great domain name. It’s personal, memorable, and easy to pass along when someone says, “You should check out their work.” Keep it short, easy to spell, and easy to say out loud. </p>
+
+
+
+<p class="wp-block-paragraph">Working under a studio name instead? Same rules apply. If you’re still deciding, our <a href="https://wordpress.com/blog/2026/10/08/domain-names-course/">domain names course</a> walks through the options.</p>
+
+
+
+<p class="wp-block-paragraph">It’s one thing to say you’re great. It’s another to have someone else say it.</p>
+
+
+
+<p class="wp-block-paragraph">Add testimonials from clients, collaborators, and colleagues. Even better, show what your work did: a shop that grew its sales after your redesign, or a venue that filled its calendar after your photos went up. </p>
+
+
+
+<p class="wp-block-paragraph">Real results, in real words, help people trust your work.</p>
+
+
+
+<h2 class="wp-block-heading">Make “let’s talk” the easiest click on the page</h2>
+
+
+
+<p class="wp-block-paragraph">Someone loves your work. They’re ready to reach out.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://wordpress.com/support/forms/create-a-form/?utm_source=chatgpt.com'">Add a contact form</a> on a dedicated page, link to it from your menu, and include a clear contact button alongside your work. If you take appointments, let people book a time instead of filling in a form. </p>
+
+
+
+<p class="wp-block-paragraph">The shorter the path from “browsing” to “hello,” the better. And add social media icons so visitors can follow along.</p>
+
+
+
+<p class="wp-block-paragraph">If your work is location-based, name the cities or areas you serve so potential clients know whether you’re available to them.</p>
+
+
+
+<figure data-wp-context="{&quot;imageId&quot;:&quot;6aeb173f963f4&quot;}" data-wp-interactive="core/image" data-wp-key="6aeb173f963f4" class="wp-block-image size-large wp-lightbox-container"><img loading="lazy" width="1024" height="637" data-wp-class--hide="state.isContentHidden" data-wp-class--show="state.isContentVisible" data-wp-init="callbacks.setButtonStyles" data-wp-on--click="actions.showLightbox" data-wp-on--load="callbacks.setButtonStyles" data-wp-on--pointerdown="actions.preloadImage" data-wp-on--pointerenter="actions.preloadImageWithDelay" data-wp-on--pointerleave="actions.cancelPreload" data-wp-on-window--resize="callbacks.setButtonStyles" src="https://en-blog.files.wordpress.com/2026/10/image-cd720879.png?w=1024" alt="Photography website contact form with fields for name, shoot type, and preferred date." class="wp-image-89314" style="aspect-ratio:1.6047058823529412" srcset="https://en-blog.files.wordpress.com/2026/10/image-cd720879.png?w=1024 1024w, https://en-blog.files.wordpress.com/2026/10/image-cd720879.png 2048w, https://en-blog.files.wordpress.com/2026/10/image-cd720879.png?w=150 150w, https://en-blog.files.wordpress.com/2026/10/image-cd720879.png?w=300 300w, https://en-blog.files.wordpress.com/2026/10/image-cd720879.png?w=768 768w, https://en-blog.files.wordpress.com/2026/10/image-cd720879.png?w=1440 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><button
+			class="lightbox-trigger"
+			type="button"
+			aria-haspopup="dialog"
+			data-wp-bind--aria-label="state.thisImage.triggerButtonAriaLabel"
+			data-wp-init="callbacks.initTriggerButton"
+			data-wp-on--click="actions.showLightbox"
+			data-wp-style--right="state.thisImage.buttonRight"
+			data-wp-style--top="state.thisImage.buttonTop"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 12 12">
+				<path fill="#fff" d="M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z" />
+			</svg>
+		</button><figcaption class="wp-element-caption">A clear contact form gives interested clients an obvious next step after viewing your work.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">Preview your portfolio on a phone before publishing. Check that images crop well, text is readable, and visitors can use your contact form without pinching or zooming.</p>
+
+
+
+<h2 class="wp-block-heading">Put it together on WordPress.com</h2>
+
+
+
+<p class="wp-block-paragraph">Ready to give your work a home? In this <a href="https://www.youtube.com/watch?v=0_sFgzqqI_8">video tutorial</a>, we use the <a href="https://wordpress.com/ai/">WordPress Agent</a> to build a portrait photography portfolio from a short description, then add the details that make it ours: projects, testimonials, and a clear way to get in touch.</p>
+
+
+
+<p class="wp-block-paragraph">Your first version doesn’t have to be perfect. A portfolio website is never finished — it grows as you do.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color wp-element-button" href="https://wordpress.com/ai-website-builder/?ref=blog"><strong>Build your portfolio on WordPress.com</strong></a></div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wordpress.com/blog/2026/10/21/build-portfolio-website/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">89313</post-id>
+		<media:thumbnail url="https://en-blog.files.wordpress.com/2026/10/how-to-build-a-portfolio-website-that-gets-you-noticed-1.png" />
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/how-to-build-a-portfolio-website-that-gets-you-noticed-1.png" medium="image">
+			<media:title type="html">how-to-build-a-portfolio-website-that-gets-you-noticed</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/103244d69358ca20db2213bcb0b3dd7bf1c5e798aa83c7efd784b3e597a8d228?s=96&#38;d=retro" medium="image">
+			<media:title type="html">westnz</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-47f4c734.png?w=1024" medium="image">
+			<media:title type="html">Photography portfolio homepage featuring family and wedding photographs above a “Something worth remembering” message and booking button.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-13b2199a.png?w=1024" medium="image">
+			<media:title type="html">Roger Lister Photography website displaying the studio name in large serif lettering and an introduction to its wedding and portrait photography.</media:title>
+		</media:content>
+
+		<media:content url="https://en-blog.files.wordpress.com/2026/10/image-cd720879.png?w=1024" medium="image">
+			<media:title type="html">Photography website contact form with fields for name, shoot type, and preferred date.</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

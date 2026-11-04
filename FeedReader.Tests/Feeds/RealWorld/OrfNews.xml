@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:orfon="http://rss.orf.at/1.0/"
+  xmlns="http://purl.org/rss/1.0/"
+>
+<channel rdf:about="https://orf.at/">
+   <title>news.ORF.at</title>
+   <link>https://orf.at/</link>
+   <dc:date>2026-11-04T12:27:35+01:00</dc:date>
+      <description>Die aktuellsten Nachrichten auf einen Blick - aus Österreich und der ganzen Welt. In Text, Bild und Video.</description>
+   <dc:publisher>ORF Österreichischer Rundfunk, Wien</dc:publisher>
+   <dc:creator>ORF Online und Teletext GmbH &amp; Co KG</dc:creator>
+   <dc:language>de</dc:language>
+   <dc:rights>Copyright &#169; 2026 ORF Online und Teletext GmbH &amp; Co KG</dc:rights>
+   <sy:updatePeriod>hourly</sy:updatePeriod>
+   <sy:updateFrequency>2</sy:updateFrequency>
+   <sy:updateBase>2000-01-01T00:00:00Z</sy:updateBase>
+   <orfon:site>news.ORF.at</orfon:site>
+
+
+
+   <items>
+      <rdf:Seq>
+         <rdf:li rdf:resource="https://orf.at/stories/3447180/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447178/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447177/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447138/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447171/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447136/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447164/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447151/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447148/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447140/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447139/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447134/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447125/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447123/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447107/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447104/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447102/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447100/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447098/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447097/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447096/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447093/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447092/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447087/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3446856/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447069/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447071/" />
+
+   <rdf:li rdf:resource="https://orf.at/stories/3447044/" />
+
+
+      </rdf:Seq>
+   </items>
+</channel>
+<item rdf:about="https://orf.at/stories/3447180/">
+   <title>Greenpeace kritisiert Klimastudie der Wirtschaftskammer scharf</title>
+   
+   <link>https://orf.at/stories/3447180/</link>
+   <dc:subject>Umwelt</dc:subject>
+   <dc:date>2026-11-04T12:27:35+01:00</dc:date>
+
+   <orfon:usid>news:3447180</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447178/">
+   <title>Demokratin Acton wird neue Gouverneurin in Ohio</title>
+   
+   <link>https://orf.at/stories/3447178/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-11-04T12:22:45+01:00</dc:date>
+
+   <orfon:usid>news:3447178</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447177/">
+   <title>VfGH hob Regel für Politiker-Accounts auf</title>
+   
+   <link>https://orf.at/stories/3447177/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2026-11-04T12:21:21+01:00</dc:date>
+
+   <orfon:usid>news:3447177</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447138/">
+   <title>Die ungewöhnlichsten Siege der Midterms</title>
+   <description>Die US-Parlamentswahlen sind geschlagen und haben zahlreiche Überraschungen und Premieren mit sich gebracht. Nicht nur gibt es mit Abdul El-Sayed erstmals einen Muslim im US-Senat. Auch führen künftig Demokraten etliche Bundesstaaten, die seit Jahrzehnten fest in republikanischer Hand waren. Zudem werden einige Gouverneursposten künftig erstmals von Vertreterinnen und Vertretern von Minderheiten besetzt.</description>
+   <link>https://orf.at/stories/3447138/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-11-04T12:12:26+01:00</dc:date>
+
+   <orfon:usid>news:3447138</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447171/">
+   <title>D: Kind steckte Holzspieß in Halloween-Schokolade</title>
+   
+   <link>https://orf.at/stories/3447171/</link>
+   <dc:subject>Chronik</dc:subject>
+   <dc:date>2026-11-04T12:00:10+01:00</dc:date>
+
+   <orfon:usid>news:3447171</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/Chronik" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447136/">
+   <title>Trump bei Midterms abgestraft</title>
+   <description>In einer deutlichen Abrechnung mit der Politik von Präsident Donald Trump haben die Wählerinnen und Wähler in den USA den Demokraten die volle Kontrolle über den Kongress übertragen. Trumps Republikaner verloren sowohl im Abgeordnetenhaus als auch im Senat ihre bisherige Mehrheit. Für Trump wurden die mit Spannung erwarteten Midterms am Dienstag zur von der „Washington Post“ als „historisch“ bezeichneten Denkzettelwahl.</description>
+   <link>https://orf.at/stories/3447136/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-11-04T11:34:53+01:00</dc:date>
+
+   <orfon:usid>news:3447136</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447164/">
+   <title>Impfen zukünftig in Apotheken möglich</title>
+   
+   <link>https://orf.at/stories/3447164/</link>
+   <dc:subject>Inland</dc:subject>
+   <dc:date>2026-11-04T11:26:13+01:00</dc:date>
+
+   <orfon:usid>news:3447164</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikInland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447151/">
+   <title>Janosch ist tot</title>
+   <description>Der Schriftsteller und Illustrator Horst Eckert, weltweit unter seinem Künstlernamen Janosch bekannt, ist tot. Er starb am Dienstag im Alter von 95 Jahren auf Teneriffa, wie sein Tübinger Verleger Bernhard Feil der dpa am Mittwoch mitteilte. Der Künstler schuf Kindergeschichten wie „Oh, wie schön ist Panama“ und „Post für den Tiger“ sowie unter anderem auch die bekannte Figur der Tigerente.</description>
+   <link>https://orf.at/stories/3447151/</link>
+   <dc:subject>Leute</dc:subject>
+   <dc:date>2026-11-04T11:22:42+01:00</dc:date>
+
+   <orfon:usid>news:3447151</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Nachrichten/GesellschaftUndLeute" />
+   <orfon:storyType rdf:resource="urn:orfon:type:story" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447148/">
+   <title>Schriftsteller und Künstler Janosch ist tot</title>
+   
+   <link>https://orf.at/stories/3447148/</link>
+   <dc:subject>Ausland</dc:subject>
+   <dc:date>2026-11-04T10:27:33+01:00</dc:date>
+
+   <orfon:usid>news:3447148</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Politik/PolitikAusland" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+<item rdf:about="https://orf.at/stories/3447140/">
+   <title>Neu-Delhi: Luftverschmutzung übersteigt WHO-Grenzwert</title>
+   
+   <link>https://orf.at/stories/3447140/</link>
+   <dc:subject>Umwelt</dc:subject>
+   <dc:date>2026-11-04T09:49:05+01:00</dc:date>
+
+   <orfon:usid>news:3447140</orfon:usid>
+   <orfon:oewaCategory rdf:resource="urn:oewa:RedCont:Wissenschaft/WissenschaftUeberblick" />
+   <orfon:storyType rdf:resource="urn:orfon:type:ticker" />
+</item>
+
+
+
+
+</rdf:RDF>
+
+

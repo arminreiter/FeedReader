@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+	<title type="text">news – ZDNET</title>
+	<subtitle type="text">News and Advice on the World&#039;s Latest Innovations</subtitle>
+
+	<updated>2026-11-03T23:15:17Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.zdnet.com" />
+	<id>https://www.zdnet.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.zdnet.com/rss/news/" />
+
+	<generator uri="https://wordpress.org/" version="6.9.11">WordPress</generator>
+<icon>https://www.zdnet.com/wp-content/uploads/sites/3/cropped-ZDNET-512Yellow.png?w=32</icon>
+	<entry>
+		<author>
+			<name>Kayla Solino</name>
+					</author>
+
+		<title type="html"><![CDATA[Want an iPhone Duo for the holidays? Apple’s latest stock update isn’t reassuring]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/tech/apple-foldable-iphone-duo-stock-shortage/" />
+
+		<id>1422730</id>
+		<updated>2026-11-03T19:28:33Z</updated>
+		<published>2026-11-03T19:28:32Z</published>
+		<category scheme="https://www.zdnet.com" term="iPhone" />
+		<summary type="html"><![CDATA[The iPhone Duo likely won’t make it into Santa’s sleigh this year. Here’s what Apple had to say about it.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/DSC01150.jpeg" medium="image" width="6192" height="3480" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/DSC01150.jpeg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Nina Raemont</name>
+					</author>
+
+		<title type="html"><![CDATA[Your Apple Watch has 2 new controversial listening features – but you have to opt in]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/tech/apple-watch-siri-recap-live-rewind-available-beta-how-to-try/" />
+
+		<id>1421561</id>
+		<updated>2026-11-03T19:01:01Z</updated>
+		<published>2026-11-03T19:01:00Z</published>
+		<category scheme="https://www.zdnet.com" term="Smart Watches" />
+		<summary type="html"><![CDATA[Siri Recap and Live Rewind are finally here, two months after Apple unveiled the always-listening Apple Watch features. Here’s how they work.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/DSC03720.jpg" medium="image" width="5850" height="3114" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/DSC03720.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Radhika Rajkumar</name>
+					</author>
+
+		<title type="html"><![CDATA[SUSE lays off 1 in 10 workers – citing AI and automation]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/business/suse-lay-offs-workforce-ai-cited/" />
+
+		<id>1422711</id>
+		<updated>2026-11-03T18:12:05Z</updated>
+		<published>2026-11-03T18:12:05Z</published>
+		<category scheme="https://www.zdnet.com" term="Tech Industry" />
+		<summary type="html"><![CDATA[Squarespace also announced layoffs this week, but explicit ties to AI remain inconsistent.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/officebuilding3GettyImages-2297036189.jpg" medium="image" width="7008" height="4672" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/officebuilding3GettyImages-2297036189.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Maria Diaz</name>
+					</author>
+
+		<title type="html"><![CDATA[HomeView with an arm? Apple reportedly plans $1,000 swiveling smart panel]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/home-and-office/homeview-ultra-apple-robotic-smart-display/" />
+
+		<id>1422750</id>
+		<updated>2026-11-03T17:33:46Z</updated>
+		<published>2026-11-03T17:33:45Z</published>
+		<category scheme="https://www.zdnet.com" term="Smart Home" />
+		<summary type="html"><![CDATA[The HomeView Ultra is expected to feature a robotic arm and 9-inch display. Shades of Amazon’s discontinued Echo Show 10?]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/0B7F1C4A-9EC9-4A98-B338-76A186CAB5FF_1_105_c.jpeg" medium="image" width="1182" height="665" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/0B7F1C4A-9EC9-4A98-B338-76A186CAB5FF_1_105_c.jpeg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Taylor Clemons</name>
+					</author>
+
+		<title type="html"><![CDATA[Nvidia RTX 50 GPUs hit with more price hikes – up to $500]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/tech/nvidia-rtx-50-cards-gpus-more-price-increases/" />
+
+		<id>1422753</id>
+		<updated>2026-11-03T17:30:50Z</updated>
+		<published>2026-11-03T17:30:50Z</published>
+		<category scheme="https://www.zdnet.com" term="Hardware" />
+		<summary type="html"><![CDATA[Some GPUs will see bigger increases than others, while Intel and AMD remain mum on their pricing plans]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/727c351e-7609-441d-8ee9-669c970864c8.jpg" medium="image" width="770" height="400" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/727c351e-7609-441d-8ee9-669c970864c8.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Jada Jones</name>
+					</author>
+
+		<title type="html"><![CDATA[I tried Sonos’ latest app features – these 2 small upgrades fix big annoyances]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/home-and-office/sonos-app-update-hands-on-11-3-2026/" />
+
+		<id>1422978</id>
+		<updated>2026-11-03T17:26:01Z</updated>
+		<published>2026-11-03T17:26:01Z</published>
+		<category scheme="https://www.zdnet.com" term="Speakers" />
+		<summary type="html"><![CDATA[New Sonos software and firmware updates are rolling out. Here’s what you can expect.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/play-1.jpg" medium="image" width="1600" height="900" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/play-1.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Lance Whitney</name>
+					</author>
+
+		<title type="html"><![CDATA[Windows 11 can run better on PCs with 8GB now, Microsoft says – here’s why]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/tech/windows-11-pc-8gb-ram-update-now/" />
+
+		<id>1422720</id>
+		<updated>2026-11-03T17:00:12Z</updated>
+		<published>2026-11-03T17:00:00Z</published>
+		<category scheme="https://www.zdnet.com" term="Windows 11" />
+		<summary type="html"><![CDATA[The latest updates to Windows 11 offer improvements in speed, performance, and memory management.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Windows-11-multitasking.jpg" medium="image" width="3000" height="1688" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/Windows-11-multitasking.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Artie Beaty</name>
+					</author>
+
+		<title type="html"><![CDATA[Roku is taking away a fan-favorite screensaver – but you have alternatives]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/home-and-office/roku-aquatic-life-aquarium-screensaver-alternatives/" />
+
+		<id>1422739</id>
+		<updated>2026-11-03T16:40:23Z</updated>
+		<published>2026-11-03T16:40:14Z</published>
+		<category scheme="https://www.zdnet.com" term="TVs" />
+		<summary type="html"><![CDATA[One of Roku’s most popular screensavers is about to make its last splash. Here’s how to switch before Dec. 1.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/bc022556-f79e-46f6-baa2-3cc01a5135dc.jpg" medium="image" width="1920" height="1080" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/bc022556-f79e-46f6-baa2-3cc01a5135dc.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>Charlie Osborne</name>
+					</author>
+
+		<title type="html"><![CDATA[This clever banking scam keeps phishing by faking its own demise – how it works]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/tech/bank-phishing-scam-kela/" />
+
+		<id>1421173</id>
+		<updated>2026-11-03T14:15:36Z</updated>
+		<published>2026-11-03T14:15:36Z</published>
+		<category scheme="https://www.zdnet.com" term="Security" />
+		<summary type="html"><![CDATA[You won’t see the ‘suspended’ sign because it’s not meant for you.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2210544722.jpg" medium="image" width="2122" height="1412" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2210544722.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		<entry>
+		<author>
+			<name>David Gewirtz</name>
+					</author>
+
+		<title type="html"><![CDATA[Is Claude Code truly faster with message threads? I did the math on my logs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.zdnet.com/innovation/claude-code-message-threads-speed-test/" />
+
+		<id>1422252</id>
+		<updated>2026-11-03T13:11:36Z</updated>
+		<published>2026-11-03T07:28:00Z</published>
+		<category scheme="https://www.zdnet.com" term="Artificial Intelligence" />
+		<summary type="html"><![CDATA[Claude Code’s update could save you time during demanding, hours-long coding sessions at no extra cost. But by how much? Here’s my real-world result.]]></summary>
+
+		
+		<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/anthropic_004de4.jpg" medium="image" width="3840" height="2160" />
+<media:content url="https://www.zdnet.com/wp-content/uploads/sites/3/anthropic_004de4.jpg?w=300&#038;h=300&#038;crop=1" medium="image" width="300" height="300" />
+	</entry>
+		
+	</feed>

@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>.NET Blog</title>
+	<atom:link href="https://devblogs.microsoft.com/dotnet/feed/" rel="self" type="application/rss+xml" />
+	<link>https://devblogs.microsoft.com/dotnet/</link>
+	<description>Free. Cross-platform. Open source. A developer platform for building all your apps.</description>
+	<lastBuildDate>Tue, 03 Nov 2026 21:05:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2024/10/Microsoft-favicon-48x48.jpg</url>
+	<title>.NET Blog</title>
+	<link>https://devblogs.microsoft.com/dotnet/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Delivering Skills in NuGet packages</title>
+		<link>https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/#comments</comments>
+		
+		<dc:creator><![CDATA[Richard Lander]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 19:00:14 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[NuGet]]></category>
+		<category><![CDATA[agent skills]]></category>
+		<category><![CDATA[nuget]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61169</guid>
+
+					<description><![CDATA[<p>Agent skills can be delivered in NuGet packages as a way to deliver up-to-date library documentation to models.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/">Delivering Skills in NuGet packages</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Agent skills were <a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">introduced by Anthropic</a> in 2025 and have quickly become commonplace for AI-driven development. <a href="https://github.com/dotnet/skills">dotnet/skills</a> and <a href="https://impeccable.style/">Impeccable skills</a> are good examples. Agent skills are typically distributed via git repos. We&#8217;ve been working on skill delivery via NuGet packages and found that the approach can be effective. The common thread is that repos and packages are units of development that can be used as distribution vehicles for skills.</p>
+<p>Skills solve two main problems: fill in gaps in model knowledge and can prescribe &#8220;our way&#8221; of approaching a task. New NuGet packages will always be ahead of model training and can benefit from just-in-time skill delivery.</p>
+<p>Here&#8217;s a quick demo using the <a href="https://www.nuget.org/packages/Markout">markout</a> package, whch contains a set of skills:</p>
+<pre><code class="language-bash">$ dotnet-inspect package markout -S Skills
+path    size
+skills/markout-built-in-shapes/SKILL.md 9457
+skills/markout-composite-cells-cards/SKILL.md   6764
+skills/markout-conditional-composition/SKILL.md 4978
+skills/markout-output-formats/SKILL.md  7744
+skills/markout/SKILL.md 8551</code></pre>
+<h2>Baseline</h2>
+<p>We&#8217;ve done a lot of experimentation. We&#8217;ve found that agents (as a baseline behavior) are capable of finding content in the NuGet cache to learn about a package. This includes reading <code>README.md</code> files and even writing throwaway programs that reflect over assembly metadata. Agents using frontier models are <a href="https://avelarder.blog/2026/02/25/i-am-a-sad-lobster-now-the-day-an-ai-built-its-own-curl/">impressively creative</a> and can derive surpising insight, although not necessarily cheaply.</p>
+<p>The fundamental question is whether they apply that creativity and capability to reverse-engineering documentation from metadata or working on your actual business problem. We sometimes say &#8220;why not both?&#8221;. It&#8217;s tough when you&#8217;re usage has to fit within a monthly token budget.</p>
+<p>This is the problem we set out to solve.</p>
+<h2>SKILL.md</h2>
+<p>Skills are markdown files with a YAML header, named <code>SKILL.md</code>. <a href="https://agentskills.io/">agentskills.io</a> is the official spec site for the format. NuGet-delivered skills use the same format.</p>
+<p>The following example skill can be used to direct agents to run vulnerability checks on project dependencies.</p>
+<pre><code class="language-markdown">---
+name: vulnerable-nuget-package-check
+description: Check a .NET project for vulnerable NuGet packages dependencies.
+---
+
+The .NET SDK includes a `dotnet package` command, which can list vulnerable direct or indirect package dependencies for a given .NET project.
+
+Run the following command for a project:
+
+```bash
+dotnet package list --vulnerable --include-transitive</code></pre>
+<p>Update vulnerable package references to patched versions.</p>
+<pre><code>
+## Conventional delivery
+
+Skills are distributed via git repos, in one of two ways.
+
+The most common approach is to include skills in a typical "code" repo. This approach is a great starting point since everyone working on the repo gets the same experience. Skill composition changes with a PR workflow that the team can review or even revert. The [dotnet/runtime repo](https://github.com/dotnet/runtime/tree/main/.github/skills) uses this approach. It is a great experience working on that repo and seeing a variety of skills automatically used by Copilot depending on prompts.
+
+The other primary approach is skill [marketplace repos](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/plugins-marketplace), such as [dotnet/skills](https://github.com/dotnet/skills). These repos advertise their skills via [marketplace.json](https://github.com/dotnet/skills/blob/main/.agents/plugins/marketplace.json). Users install the marketplace via `/plugin marketplace add dotnet/skills` (or similar). `add` is just a wrapper on `git clone`. That means a skill marketplace repo should be small.
+
+The advantage of putting skills directly in your repo is that the skills are always there. A good example is using the [Copilot Web Agent](https://github.com/copilot). Locally installed marketplace skills don't exist off of your machine unless you take the extra step of committing them to your repo. Neither is better or worse, just different options.
+
+## NuGet-package delivery
+
+NuGet packages present a challenge and opportunity for agents. The challenge is that a new package version with new APIs published five minutes ago isn't part of the model. The opportunity is that updated skills can be co-located with updated binaries. That means that every version of a NuGet package can have perfectly-tailored skills for their use. It's very similar to package-resident `README.md` files, which are intended for a different purpose and consumer.
+
+The challenge isn't limited to packages published in the last five minutes. Package registries also have a very long tail. It's quite likely models know nothing substantive about most packages.
+
+`dotnet restore` already pulls packages to your machine to acquire libraries. That means that package-resident `SKILL.md` files will be on your machine as well.
+
+You can see [markout](https://www.nuget.org/packages/Markout) package skills on my machine.
+
+```bash
+$ pwd
+/Users/rich/git/dotnet-inspect/src/DotnetInspect.Cli
+$ dotnet build
+$ cat ../../artifacts/obj/dotnet-inspect/project.assets.json | grep SKILL.md
+        "skills/markout-built-in-shapes/SKILL.md",
+        "skills/markout-composite-cells-cards/SKILL.md",
+        "skills/markout-conditional-composition/SKILL.md",
+        "skills/markout-output-formats/SKILL.md",
+        "skills/markout/SKILL.md",
+$ find ~/.nuget/packages/markout/0.40.0/ | grep SKILL.md
+/Users/rich/.nuget/packages/markout/0.40.0/skills/markout-conditional-composition/SKILL.md
+/Users/rich/.nuget/packages/markout/0.40.0/skills/markout/SKILL.md
+/Users/rich/.nuget/packages/markout/0.40.0/skills/markout-composite-cells-cards/SKILL.md
+/Users/rich/.nuget/packages/markout/0.40.0/skills/markout-built-in-shapes/SKILL.md
+/Users/rich/.nuget/packages/markout/0.40.0/skills/markout-output-formats/SKILL.md
+$ head -6 /Users/rich/.nuget/packages/markout/0.40.0/skills/markout/SKILL.md
+---
+name: markout
+version: 0.40.0
+description: &gt;-
+  Use when generating Markdown or other structured output (plain text, ANSI, pretty tables,
+  TSV/JSONL) from C# objects, or when diagnosing Markout source-generator errors such as</code></pre>
+<p>That&#8217;s a pretty good start and quite workable for agents. Package skills are listed in <code>project.assets.json</code> making it easy to determine if there are any skills available in a given package graph. However, we wanted to offer better UX than that.</p>
+<p>We&#8217;ve been working on a few tools for discovering <code>SKILL.md</code> files.</p>
+<h3>dotnet-inspect</h3>
+<p>The following are example workflows with <a href="https://www.nuget.org/packages/dotnet-inspect"><code>dotnet-inspect</code></a>:</p>
+<p>Requesting skills in a package graph:</p>
+<pre><code class="language-bash">$ dotnet-inspect package markout -S Skills
+path    size
+skills/markout-built-in-shapes/SKILL.md 9457
+skills/markout-composite-cells-cards/SKILL.md   6764
+skills/markout-conditional-composition/SKILL.md 4978
+skills/markout-output-formats/SKILL.md  7744
+skills/markout/SKILL.md 8551
+$ dotnet-inspect package markout -S Skills --row 4 --print -12
+---
+name: markout-output-formats
+version: 0.40.1
+description: &gt;-
+  Use when you need output other than default Markdown — plain text / Unicode, ANSI terminal
+  (Spectre), pretty aligned tables, or TSV/JSONL exports — or when one model must serve several
+  formats from a single render path (a CLI `--format` switch). Also covers semantic inline code
+  that renders as Markdown code spans but decodes to plain text in TSV/JSONL. Pick the format with
+  a formatter + MarkoutWriterOptions; never hand-build TSV/JSONL.
+  Don't decompile the assembly or web-search the API — the multi-format idioms are all here.
+---</code></pre>
+<p>It can also accept a project file as input:</p>
+<pre><code class="language-bash">$ dotnet new console
+$ dotnet package add Mockly
+$ ls *.csproj
+scratch.csproj
+$ dotnet-inspect project scratch.csproj -S Skills
+## Skills
+
+Valid Agent Skills documents from direct package dependencies.
+
+| Package | Version | Path | Size | Name | Description |
+| ------- | ------- | ---- | ---- | ---- | ----------- |
+| Mockly | 1.13.0 | skills/mockly/SKILL.md | 7409 | mockly | Helps write tests using Mockly — a fluent HTTP mocking library for .NET that intercepts HttpClient calls. Use this skill when writing unit or integration tests that need to mock HTTP requests, configure responses (status codes, JSON, OData, raw content), match headers, capture and inspect requests, limit mock invocations, or assert HTTP interactions with FluentAssertions. |</code></pre>
+<p>The intended UX with <code>dotnet-inspect</code> is that an agent can determine the set of skills available via a project file or directly from the registry. The agent can print those directly to its context or to a file. The file can then be searched or even stored in the repo.</p>
+<h3>dotnet-package-skills</h3>
+<p><a href="https://www.nuget.org/packages/dotnet-package-skills">dotnet-package-skills</a> is another tool that is focused on storing skills in a repo.</p>
+<pre><code class="language-bash">$ dotnet-package-skills install
+Source:      /Users/rich/git/dotnet-inspect/dotnet-inspect.slnx
+NuGet global-packages directory: /Users/rich/.nuget/packages/
+Destination: /Users/rich/git/dotnet-inspect/.agents/skills
+Scanned 23 packages (direct).
+
+Copied 5 skills:
+  markout (Markout 0.40.1)
+  markout-built-in-shapes (Markout 0.40.1)
+  markout-composite-cells-cards (Markout 0.40.1)
+  markout-conditional-composition (Markout 0.40.1)
+  markout-output-formats (Markout 0.40.1)
+
+Ignored 22 packages without valid bundled skills
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add &lt;file&gt;..." to include in what will be committed)
+        .agents/
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git add .
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged &lt;file&gt;..." to unstage)
+        new file:   .agents/skills/.dotnet-package-skills.json
+        new file:   .agents/skills/markout-built-in-shapes/SKILL.md
+        new file:   .agents/skills/markout-composite-cells-cards/SKILL.md
+        new file:   .agents/skills/markout-conditional-composition/SKILL.md
+        new file:   .agents/skills/markout-output-formats/SKILL.md
+        new file:   .agents/skills/markout/SKILL.md</code></pre>
+<p>This is an easy way to add skills into your repo and to ensure that they are always available. It is up to you to ensure that the skills stay up to date as matching <code>PackageRef</code> entries are udpated. It might be useful to write a skill to do both at the same time.</p>
+<h3>NuGet MCP</h3>
+<p><a href="https://learn.microsoft.com/nuget/concepts/nuget-mcp-server">NuGet MCP</a> is a useful tool for giving agents a deep and broad undertanding of NuGet, both for your local project and of your registry. It hasn&#8217;t yet been updated for skills. That&#8217;s a project we intend to take on soon.</p>
+<h2>Learnings</h2>
+<p>Package-delivered skills are not a special kind of skill. As already stated, skills can already be delivered in multiple ways. Packages are a variation on a theme using the same format. That means that conventional skill eval applies.</p>
+<p>Agent skills can be boiled down to delivering two benefits: efficacy (ability to deliver right answers) and efficiency (deliver answers cheaply). That doesn&#8217;t mean that agent skills <em>always</em> deliver efficacy and efficiency benefits. They <em>can</em> deliver those benefits. They can also deliver the opposite if they are badly written or tested.</p>
+<p>The challenge with models is that cost is a major factor. If I include a <code>SKILL.md</code> in my package and your agent costs increase, that&#8217;s bad. That means that maintainers need to perform skill eval. Maintainers should improve or remove skills that their users report as ineffective or costly.</p>
+<p>With frontier models, we didn&#8217;t find much room to improve efficacy, due to creative capability. With weaker models, we observed significant efficacy underperformance and variability due to lower skill compliance.</p>
+<p>We used <a href="https://en.wikipedia.org/wiki/Pareto_efficiency">Pareto efficiency</a> as a corrective tool for our efforts. Basic idea: &#8220;Do no harm&#8221;. Our early thinking was using skills to bring &#8220;mini&#8221;-level models up to frontier. That&#8217;s a nice idea, but not generally practical in our experience. The challenge is that one set of skills is delivered to all models. Improving efficiency for Anthropic Haiku by 50% but reducing it for Opus by 10% is a bad trade. You&#8217;ve made agent work more expensive for your Opus users and Opus tokens cost a lot more. Your Opus users would be right to complain.</p>
+<p>Our primary focus has been testing with frontier models as a result. Testing only with cheap models (as attractive as that might be) is considered (by our findings) an anti-pattern and is not advised.</p>
+<h2>Next Steps</h2>
+<p>We&#8217;re working on guidance for maintainers. Maintainers already familiar with skill eval will be a step ahead. Skills delivered via NuGet packages don&#8217;t change much. Our focus is figuring out how to deliver high-quality skills on a budget. This includes determining if skills deliver value.</p>
+<p>Maintainers have been delivering markdown with packages for a long time. It&#8217;s always been an inert asset. Agents change that. We need to update safety guidance for consumers. The same guidance applies as before: &#8220;only use packages from maintainers you trust&#8221;. Agent consumption of markdown adds a new <a href="https://the-agent-report.com/2026/05/protestware-coding-agents-jqwik-supply-chain/">threat vector</a> that needs to be considered.</p>
+<p>Skill-delivery is an important new option for NuGet packages. We believe it offers the opportunity to make packages self-documenting and efficient to integrate into an app.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/">Delivering Skills in NuGet packages</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/Azure_Dark_Full-bleed_Azure-Pink-purple-DJNJf96V.webp" type="image/png" />
+	</item>
+		<item>
+		<title>Get Ready for .NET Conf 2026!</title>
+		<link>https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/#respond</comments>
+		
+		<dc:creator><![CDATA[.NET Team]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 17:30:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ASP.NET Core]]></category>
+		<category><![CDATA[Aspire]]></category>
+		<category><![CDATA[Blazor]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+		<category><![CDATA[.NET 11]]></category>
+		<category><![CDATA[.NET Conf]]></category>
+		<category><![CDATA[community]]></category>
+		<category><![CDATA[conference]]></category>
+		<category><![CDATA[virtual event]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61166</guid>
+
+					<description><![CDATA[<p>.NET Conf is one week away! Join us November 10-13 for the launch of .NET 11, two days of Microsoft sessions, and two days of Community Days.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/">Get Ready for .NET Conf 2026!</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><a href="https://dot.net/conf">.NET Conf 2026</a> is just one week away! Join us November 10-13 for this free, four-day virtual conference and the official launch of .NET 11. We&#8217;ll kick things off with two days of sessions from Microsoft product teams, followed by two days of community-led talks from developers around the world.</p>
+<p><a href="https://dot.net/conf"><img decoding="async" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/dotnetconf26-get-ready.jpg" alt="The .NET bots take off on a rocket for .NET Conf 2026." /></a></p>
+<p>Start at <a href="https://dot.net/conf">dot.net/conf</a> for Microsoft&#8217;s sessions and conference information. You&#8217;ll find Community Days information on the community-run <a href="https://dotnetconf.net">.NET Conf site</a>.</p>
+<p><div  class="d-flex justify-content-center"><a class="cta_button_link btn-primary mb-24" href="https://dot.net/conf" target="_blank">Get ready for .NET Conf 2026</a></div></p>
+<h2>Four days of .NET</h2>
+<p>Here&#8217;s how the conference breaks down. All times below are Pacific Standard Time (PST, UTC-8).</p>
+<table>
+<thead>
+<tr>
+<th>Dates</th>
+<th>What&#8217;s happening</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>November 10-11</td>
+<td>Microsoft product team days, including the .NET 11 launch</td>
+<td>8 AM-5 PM PST each day</td>
+</tr>
+<tr>
+<td>November 12-13</td>
+<td>.NET Conf Community Days</td>
+<td>8 AM-5 PM PST each day</td>
+</tr>
+</tbody>
+</table>
+<p>You can browse the <a href="https://dotnet.microsoft.com/conf/2026/agenda">Microsoft session agenda</a> and add sessions to your calendar. The agenda also lets you choose your time zone, so you can plan your viewing wherever you are.</p>
+<h2>Day one: .NET 11 launch</h2>
+<p>The conference starts on <strong>Tuesday, November 10, at 8 AM PST</strong> with Scott Hanselman and the .NET team. The opening keynote will explore what&#8217;s new in .NET 11 and how Copilot and agents fit into .NET development, including the applications you already have.</p>
+<p>After the keynote, you&#8217;ll hear directly from the people building .NET. A few sessions to put on your calendar:</p>
+<ul>
+<li><strong>What&#8217;s new in C#</strong> with Mads Torgersen and Dustin Campbell, a look at what&#8217;s coming to the language.</li>
+<li><strong>Modern web development with ASP.NET Core &amp; Blazor in .NET 11</strong> with Daniel Roth, a demo-packed tour of the web stack.</li>
+<li><strong>What&#8217;s New in .NET MAUI in .NET 11</strong> with Gerald Versluis, a practical tour of the latest improvements for mobile and desktop apps, testing, and the developer workflow.</li>
+<li><strong>The .NET AI Stack: What&#8217;s New, What&#8217;s Next, and How It Fits Together</strong> with Luis Quintanilla, practical guidance on choosing and combining .NET&#8217;s AI building blocks.</li>
+<li><strong>What&#8217;s New in Aspire for .NET Developers</strong> with Maddy Montaquila and Damian Edwards, a look at the Aspire and .NET developer workflow.</li>
+<li><strong>Beyond Autocomplete: Getting the Most from GitHub Copilot for .NET</strong> with Wendy Breiding, practical workflows for using Copilot throughout development.</li>
+</ul>
+<p>The day also includes sessions on .NET MAUI, WinForms, the <code>dotnet</code> CLI, C# Dev Kit, security, and the .NET runtime. Check the <a href="https://dotnet.microsoft.com/conf/2026/agenda">full agenda</a> for session descriptions and times.</p>
+<h2>Day two: Visual Studio and developer deep dives</h2>
+<p><strong>Wednesday, November 11, starts at 8 AM PST</strong> with a Visual Studio keynote from Mads Kristensen. Join us for a look at the latest developer experiences and what&#8217;s coming next.</p>
+<p>The day&#8217;s sessions include:</p>
+<ul>
+<li><strong>The State of AI in Visual Studio</strong> with Rachel Kang, followed by <strong>What&#8217;s new in Visual Studio</strong> with Jason Chlus.</li>
+<li><strong>What&#8217;s New in Visual Studio Debugging and Diagnostics</strong> with Harshada Hole.</li>
+<li><strong>What&#8217;s new in the MCP C# SDK</strong> with Stephen Halter.</li>
+<li><strong>Building the future of agentic UI with Blazor</strong> with Daniel Roth.</li>
+<li><strong>GitHub Copilot modernization</strong> with Mika Dumont, a walkthrough of a .NET upgrade.</li>
+<li><strong>Beyond Code Generation: Give AI Eyes and Hands for .NET MAUI</strong> with Gerald Versluis, demos of using GitHub Copilot with a running .NET MAUI app to inspect the UI, investigate problems, and verify changes.</li>
+</ul>
+<p>There&#8217;s plenty more, including Windows app development and AI-assisted .NET MAUI workflows. Pick the sessions that match what you&#8217;re building, or try a topic you haven&#8217;t worked with yet.</p>
+<h2>November 12-13: Community Days</h2>
+<p>The conference continues with two full days of community-led sessions on <strong>Thursday and Friday, November 12-13</strong>. This year, a community team led by Javier Lozano, working with members of the .NET Foundation board and other volunteers, is running Community Days, including session selection, hosting, and production.</p>
+<p>Community Days are a chance to hear how other developers use .NET in their own projects and learn from their experiences. Visit <a href="https://dotnetconf.net">dotnetconf.net</a> for Community Days sessions, speakers, and viewing information.</p>
+<h2>Join your local community</h2>
+<p>Want to watch and talk about .NET with developers near you? The community site also lists local .NET Conf events, and you can <a href="https://aka.ms/dotnetconf/2026/localevent">organize your own .NET Conf event</a> through January 15, 2027.</p>
+<p>For now, save <strong>November 10 at 8 AM PST</strong> and head to <a href="https://dot.net/conf">dot.net/conf</a> to plan your Microsoft sessions. We&#8217;ll see you at .NET Conf!</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/">Get Ready for .NET Conf 2026!</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/get-ready-for-dotnet-conf-2026/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/dotnetconf26-get-ready.webp" type="image/jpeg" />
+	</item>
+		<item>
+		<title>Blazor Welcomes Open-Source Contributions from Syncfusion</title>
+		<link>https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion/</link>
+		
+		<dc:creator><![CDATA[Daniel Roth]]></dc:creator>
+		<pubDate>Thu, 29 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[ASP.NET Core]]></category>
+		<category><![CDATA[Blazor]]></category>
+		<category><![CDATA[.NET 11]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[Syncfusion]]></category>
+		<category><![CDATA[Syncfusion Toolkit for Blazor]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61123</guid>
+
+					<description><![CDATA[<p>Microsoft and Syncfusion are collaborating on Blazor through a free, open-source component toolkit, framework contributions, and developer tooling.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion/">Blazor Welcomes Open-Source Contributions from Syncfusion</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>We&#8217;re pleased to announce our <a href="https://www.globenewswire.com/news-release/2026/10/29/3391385/0/en/syncfusion-collaborates-with-microsoft-on-blazor-and-windows-forms-commits-to-ongoing-net-investment.html">collaboration with Syncfusion</a> to advance Blazor! Syncfusion has released a free, open-source toolkit of Blazor components, and its engineers have contributed fixes and tests to ASP.NET Core and the .NET scaffolding tools. Their investment helps developers building with the toolkit and strengthens the platform for the entire Blazor community.</p>
+<p>This collaboration builds on <a href="https://devblogs.microsoft.com/dotnet/dotnet-maui-welcomes-syncfusion-open-source-contributions/">Syncfusion&#8217;s contributions to .NET MAUI</a>, where Syncfusion released an open-source toolkit and committed engineering resources to the framework itself. We&#8217;re excited to see that commitment extend to Blazor.</p>
+<h2>Introducing the Syncfusion Toolkit for Blazor</h2>
+<p>The <a href="https://www.syncfusion.com/blazor-toolkit">Syncfusion Toolkit for Blazor</a> provides reusable UI components for Blazor apps under the MIT license. The toolkit includes charts, buttons, calendars, date and time pickers, text and numeric inputs, dialogs, tooltips, and loading indicators.</p>
+<p><img decoding="async" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/syncfusion-toolkit-stock-dashboard.png" alt="Syncfusion toolkit stock dashboard with charts, filtering controls, and a date picker in desktop and mobile layouts." /></p>
+<p><em>Syncfusion Toolkit for Blazor showcase featuring charts and input controls in desktop and mobile layouts.</em></p>
+<p>The toolkit is free for everyone, including commercial use. It doesn&#8217;t require a license key or eligibility for Syncfusion&#8217;s Community License. The open-source toolkit is separate from the broader commercial Syncfusion Blazor suite, which includes additional components and features.</p>
+<p>You can explore the code, samples, and contribution guidance in the <a href="https://github.com/syncfusion/blazor-toolkit">Syncfusion Blazor Toolkit repository</a>.</p>
+<p>To add the toolkit to an existing Blazor project, install the <a href="https://www.nuget.org/packages/Syncfusion.Blazor.Toolkit">Syncfusion.Blazor.Toolkit NuGet package</a>:</p>
+<pre><code class="language-console">dotnet add package Syncfusion.Blazor.Toolkit</code></pre>
+<p>Then follow the <a href="https://github.com/syncfusion/blazor-toolkit#manual-integration">toolkit&#8217;s setup instructions</a> for service registration, namespace imports, and theming. The repository also provides <a href="https://github.com/syncfusion/blazor-toolkit#using-templates-recommended">project templates</a> if you&#8217;d prefer to start with a preconfigured Blazor app.</p>
+<p>We&#8217;ve worked closely with Syncfusion on the toolkit to help meet a high quality bar for performance, accessibility, security, and trimmability. Component quality is an important part of the overall Blazor experience, and this collaboration includes reviewing how the components work in real applications as well as how developers get started with them.</p>
+<h2>Contributing to Blazor and its tooling</h2>
+<p>Syncfusion&#8217;s investment extends beyond its component library. Its engineers have delivered merged improvements across ASP.NET Core and the .NET scaffolding tools, helping make Blazor apps and the tools used to build them more reliable.</p>
+<p>Merged changes include fixes for <a href="https://github.com/dotnet/aspnetcore/pull/68032">preserving prerendered state on interactive Not Found pages</a> and <a href="https://github.com/dotnet/aspnetcore/pull/67075">form validation with inherited models</a>, along with <a href="https://github.com/dotnet/aspnetcore/pull/67413">clearer QuickGrid diagnostics</a>. These improvements help developers build and troubleshoot Blazor apps, whether or not they use Syncfusion&#8217;s components.</p>
+<p>Their merged scaffolding fixes also <a href="https://github.com/dotnet/Scaffolding/pull/3830">preserve data in generated edit pages when interactivity starts</a> and <a href="https://github.com/dotnet/Scaffolding/pull/3825">add the application configuration needed for scaffolded Blazor Identity pages</a>.</p>
+<p>The team has also repaired flaky regression tests across Blazor and ASP.NET Core. Beyond those fixes, they&#8217;ve developed and run more than 60 end-to-end validation scenarios for new .NET 11 Blazor features, helping identify issues ahead of release. As maintainers, we value this investment in both the platform and the testing that keeps it reliable.</p>
+<h2>Streamlining setup with scaffolders and AI skills</h2>
+<p>Syncfusion is <a href="https://github.com/dotnet/Scaffolding/pull/3863">contributing a toolkit setup scaffolder</a> to the .NET scaffolding tools. The contribution is under review and focuses on adding the toolkit package, registering services, and configuring namespace imports in an existing Blazor app. It sets up the toolkit rather than generating application pages.</p>
+<p>Syncfusion is also <a href="https://github.com/dotnet/skills/pull/1088">contributing an installation and configuration skill</a> to the .NET skills repository for AI coding assistants. That contribution is under review as well. It provides guidance on the open-source package, service registration, theming, and render modes, including apps with separate server and client projects.</p>
+<p>Both efforts aim to reduce setup work and help developers and their coding assistants configure the toolkit correctly.</p>
+<h2>Join the Blazor Community Standup</h2>
+<p>Join us and Syncfusion on <strong>October 29, 2026, at 10 a.m. Pacific Time</strong> for a Blazor Community Standup about our collaboration and the free Syncfusion Toolkit for Blazor. Watch below, or <a href="https://www.youtube.com/live/1jj1_gZOZYE">join us on YouTube</a> to ask questions in the live chat.</p>
+<p><iframe width="800" height="450" src="https://www.youtube.com/embed/1jj1_gZOZYE" allowfullscreen></iframe></p>
+<h2>Try the toolkit and get involved</h2>
+<p>Explore the <a href="https://www.syncfusion.com/blazor-toolkit">Syncfusion Toolkit for Blazor</a>, try the <a href="https://github.com/syncfusion/blazor-toolkit#quick-contributor-start">samples</a>, and share feedback in the <a href="https://github.com/syncfusion/blazor-toolkit">toolkit repository</a>.</p>
+<p>We&#8217;re grateful to Syncfusion for contributing its component expertise and engineering time to Blazor. As with its work on .NET MAUI, this collaboration brings more people into the work of improving .NET. We welcome the wider community to participate through bug reports, testing, design discussions, and code contributions.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/blazor-welcomes-syncfusion/">Blazor Welcomes Open-Source Contributions from Syncfusion</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/blazor-welcomes-syncfusion.webp" type="image/png" />
+	</item>
+		<item>
+		<title>Blazor Welcomes Open-Source Contributions from Infragistics</title>
+		<link>https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/#respond</comments>
+		
+		<dc:creator><![CDATA[Daniel Roth]]></dc:creator>
+		<pubDate>Tue, 27 Oct 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[ASP.NET Core]]></category>
+		<category><![CDATA[Blazor]]></category>
+		<category><![CDATA[.NET 11]]></category>
+		<category><![CDATA[Blazor analyzers]]></category>
+		<category><![CDATA[Ignite UI]]></category>
+		<category><![CDATA[Infragistics]]></category>
+		<category><![CDATA[open source]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61112</guid>
+
+					<description><![CDATA[<p>Microsoft and Infragistics are collaborating on Blazor through free, open-source components, new .NET 11 analyzers, and developer tooling.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/">Blazor Welcomes Open-Source Contributions from Infragistics</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>We&#8217;re pleased to welcome Infragistics as an active contributor to Blazor! As part of our collaboration, Infragistics has made more than 50 of its Blazor controls free and open source, and its engineers are contributing directly to the framework. Their work includes new Blazor analyzers for .NET 11 and tooling to help you get started with their components.</p>
+<p><a href="https://www.infragistics.com/microsoft-partnership">Infragistics recently announced this collaboration</a>, building on its experience developing UI components for .NET. By investing in both open-source components and Blazor itself, Infragistics is helping improve the experience for every Blazor developer, whether or not you use its controls.</p>
+<h2>Free, open-source Blazor components</h2>
+<p>The <a href="https://www.infragistics.com/products/ignite-ui-blazor/open-source">Ignite UI for Blazor open-source components</a> include inputs, navigation, and layout controls such as Combo Box, Date Picker, Tree, Stepper, and Tile Manager. Grid Lite provides a lightweight option for displaying tabular data.</p>
+<p><img decoding="async" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/infragistics-grid-lite-team-directory.webp" alt="Grid Lite team directory with column filters, department badges, star ratings, and employee status." /></p>
+<p><em>A team directory built with <a href="https://www.infragistics.com/products/ignite-ui-blazor/blazor/components/grid-lite/overview">Ignite UI for Blazor Grid Lite</a>, showing column filters and custom cell content.</em></p>
+<p>These components are available under the MIT license for use in personal and commercial applications. You can inspect the source, report issues, and contribute improvements in the <a href="https://github.com/IgniteUI/igniteui-blazor">Ignite UI for Blazor repository</a>. This is a free, open-source subset of the broader Ignite UI for Blazor offering, not a trial of the commercial suite.</p>
+<p>To add the core open-source controls to an existing Blazor project, install the <a href="https://www.nuget.org/packages/IgniteUI.Blazor.Lite">IgniteUI.Blazor.Lite NuGet package</a>:</p>
+<pre><code class="language-console">dotnet add package IgniteUI.Blazor.Lite</code></pre>
+<p>If you need Grid Lite, it is available as a separate <a href="https://www.nuget.org/packages/IgniteUI.Blazor.GridLite">IgniteUI.Blazor.GridLite package</a>:</p>
+<pre><code class="language-console">dotnet add package IgniteUI.Blazor.GridLite</code></pre>
+<p>Follow the <a href="https://github.com/IgniteUI/igniteui-blazor#usage">repository&#8217;s setup instructions</a> to configure the services, namespace imports, and theme for the components you use. Ignite UI components require an interactive render mode in Blazor Web Apps, and the instructions cover the supported hosting models.</p>
+<h2>Improving Blazor in .NET 11</h2>
+<p>Infragistics engineers are bringing their experience as component builders directly into Blazor. They&#8217;ve contributed a range of new analyzers for .NET 11 that help developers catch common mistakes while writing code.</p>
+<p>For example, their analyzers flag <a href="https://github.com/dotnet/aspnetcore/pull/67176">unnecessary <code>StateHasChanged()</code> calls</a> and <a href="https://github.com/dotnet/aspnetcore/pull/67383">authentication-state usage that can leave an app with stale user information</a>.</p>
+<p>These contributions are merged into ASP.NET Core for .NET 11. The improvements become part of the framework&#8217;s developer tooling and benefit every Blazor developer, regardless of which component library they choose.</p>
+<h2>Quality and easier setup</h2>
+<p>We&#8217;ve worked closely with Infragistics on its Blazor components to help meet a high quality bar for performance, accessibility, security, and trimmability. Those concerns matter when you&#8217;re choosing components for production apps, from keyboard and assistive technology support to publishing a trimmed Blazor WebAssembly application.</p>
+<p>Infragistics is also <a href="https://github.com/dotnet/Scaffolding/pull/3823">contributing an Ignite UI setup scaffolder</a> to the .NET scaffolding tools. The contribution is under review and is designed to automate package installation and application configuration.</p>
+<p>For developers working with AI coding assistants, Infragistics has contributed the <a href="https://github.com/dotnet/skills/tree/main/plugins/dotnet-blazor/skills/use-igniteui-blazor">Ignite UI for Blazor skill</a> to the .NET skills repository. The skill guides agents through package selection, service registration, theming, and render-mode requirements, including setup for apps with separate server and client projects.</p>
+<h2>Join the Blazor Community Standup</h2>
+<p>Join us and Infragistics on <strong>October 27, 2026, at 10 a.m. Pacific Time</strong> for a Blazor Community Standup about our collaboration and the free Ignite UI for Blazor components. Watch below, or <a href="https://www.youtube.com/live/7kRuRCRbpoo">join us on YouTube</a> to ask questions in the live chat.</p>
+<p><iframe width="800" height="450" src="https://www.youtube.com/embed/7kRuRCRbpoo" allowfullscreen></iframe></p>
+<h2>Build with Ignite UI and share your feedback</h2>
+<p>Explore the <a href="https://www.infragistics.com/products/ignite-ui-blazor/open-source">free Ignite UI for Blazor components</a> and try the controls that fit your app. You can share feedback and contribute fixes in the <a href="https://github.com/IgniteUI/igniteui-blazor">Ignite UI repository</a>.</p>
+<p>We&#8217;re grateful to Infragistics for investing engineering resources in Blazor and sharing its components with the community. We welcome contributions from across the .NET ecosystem, and we look forward to continuing this work together.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/">Blazor Welcomes Open-Source Contributions from Infragistics</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/blazor-welcomes-infragistics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/blazor-welcomes-infragistics.webp" type="image/png" />
+	</item>
+		<item>
+		<title>.NET October 2026 Out-of-Band Security Updates</title>
+		<link>https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/#respond</comments>
+		
+		<dc:creator><![CDATA[Rahul Bhandari (MSFT)]]></dc:creator>
+		<pubDate>Sun, 25 Oct 2026 18:45:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Maintenance & Updates]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[.NET 10]]></category>
+		<category><![CDATA[.NET 11]]></category>
+		<category><![CDATA[.NET 8]]></category>
+		<category><![CDATA[.NET 9]]></category>
+		<category><![CDATA[CVE-2026-111497]]></category>
+		<category><![CDATA[CVE-2026-114148]]></category>
+		<category><![CDATA[OOB]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61101</guid>
+
+					<description><![CDATA[<p>Out-of-band security updates for .NET address the Brotli decoder vulnerability and tarball ownership vulnerability.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/">.NET October 2026 Out-of-Band Security Updates</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Today, we are releasing out-of-band (OOB) security updates for .NET 8, .NET 9, and .NET 10, along with .NET 11 Release Candidate 3. We recommend updating as soon as possible.</p>
+<h2>Security updates</h2>
+<p>This out-of-band release addresses <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497">CVE-2026-111497</a>, a vulnerability in the <a href="https://www.rfc-editor.org/rfc/rfc7932">Brotli decompression algorithm</a>. It also includes a fix for <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114148">CVE-2026-114148 (Linux .NET tarball ownership)</a> in .NET 8, 9, 10, and 11.</p>
+<table>
+<thead>
+<tr>
+<th>CVE</th>
+<th>Description</th>
+<th>Affected platforms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497">CVE-2026-111497</a></td>
+<td>A buffer overflow vulnerability exists in .NET&#8217;s use of the Brotli decompression algorithm. This vulnerability may allow an unauthenticated attacker to read or corrupt process memory. This could lead to information disclosure, denial of service, or elevation of privilege.</td>
+<td>All Platforms</td>
+</tr>
+<tr>
+<td><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114148">CVE-2026-114148</a></td>
+<td>Unsafe ownership metadata in affected .NET tarballs could allow a local attacker to modify files and gain elevated privileges.</td>
+<td>Linux</td>
+</tr>
+</tbody>
+</table>
+<p>Applications may be affected if they process Brotli-compressed data through <a href="https://learn.microsoft.com/aspnet/core/fundamentals/middleware/request-decompression">ASP.NET Core request decompression</a>, <a href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclienthandler.automaticdecompression">HttpClient automatic response decompression</a>, or the <code>System.IO.Compression</code> Brotli APIs. Request decompression and automatic response decompression are not enabled by default. .NET Framework is not affected.</p>
+<p>For .NET 10 and .NET 11, CVE-2026-114148 affects source-build tarballs only. For .NET 8 and .NET 9, it also affects ASP.NET Core distributions obtained through ASP.NET Core tarballs, including users who do not build .NET from source.</p>
+<p>For vulnerability details and affected products, see the linked security advisories.</p>
+<p>Additionally, we are re-releasing the advisories for <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197">CVE-2026-70197 (SocketAsyncEventArgs memory corruption)</a> in .NET 8, 9, 10, and 11, and <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102870">CVE-2026-102870 (Blazor WebAssembly debugger)</a> in .NET 10 and 11 because the October 13, 2026 release did not fully address these issues. Today&#8217;s updates provide those fixes.</p>
+<h2>Download the updates</h2>
+<table>
+<thead>
+<tr>
+<th>.NET version</th>
+<th>Update</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.NET 8</td>
+<td><strong>8.0.33</strong></td>
+<td><a href="https://dotnet.microsoft.com/download/dotnet/8.0">.NET 8 SDK and Runtime</a></td>
+</tr>
+<tr>
+<td>.NET 9</td>
+<td><strong>9.0.22</strong></td>
+<td><a href="https://dotnet.microsoft.com/download/dotnet/9.0">.NET 9 SDK and Runtime</a></td>
+</tr>
+<tr>
+<td>.NET 10</td>
+<td><strong>10.0.14</strong></td>
+<td><a href="https://dotnet.microsoft.com/download/dotnet/10.0">.NET 10 SDK and Runtime</a></td>
+</tr>
+<tr>
+<td>.NET 11</td>
+<td><strong>Release Candidate 3</strong></td>
+<td><a href="https://dotnet.microsoft.com/download/dotnet/11.0">.NET 11 SDK and Runtime</a></td>
+</tr>
+</tbody>
+</table>
+<p>.NET 11 RC2 users should update to RC3 to receive these fixes.</p>
+<h2>Update your applications and build environments</h2>
+<ul>
+<li><strong>Framework-dependent applications:</strong> Install the updated runtime for the .NET version your application targets, then restart the application.</li>
+<li><strong>Self-contained applications:</strong> Rebuild and republish with the updated runtime. Installing a newer runtime on the host does not update the runtime bundled with your application.</li>
+<li><strong>Containers:</strong> Rebuild and redeploy using updated <a href="https://mcr.microsoft.com/catalog?search=dotnet/">.NET container images</a>.</li>
+<li><strong>Source-build consumers:</strong> Obtain the updated source-build artifacts for your .NET version and rebuild your packages to incorporate the tarball ownership fix.</li>
+<li><strong>ASP.NET Core tarball users on .NET 8 and .NET 9:</strong> Update your installation using the refreshed ASP.NET Core Runtime tarball for your .NET version. This applies even if you do not build .NET from source.</li>
+</ul>
+<p>You can check the runtimes installed on a machine with:</p>
+<pre><code class="language-powershell">dotnet --list-runtimes</code></pre>
+<p>For framework-dependent deployments, confirm that the appropriate updated runtime listed above is installed. Self-contained applications and container deployments must be checked separately because they carry their own runtime.</p>
+<p>See the <a href="https://learn.microsoft.com/dotnet/core/deploying/">.NET deployment documentation</a> for more information about framework-dependent and self-contained applications.</p>
+<h2>Feedback</h2>
+<p>If you encounter a problem after updating, report it in the <a href="https://github.com/dotnet/core/issues">.NET release feedback issues</a>.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/">.NET October 2026 Out-of-Band Security Updates</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/net-october-2026.webp" type="image/jpeg" />
+	</item>
+		<item>
+		<title>Get Your .NET MAUI App Ready for Xcode 27</title>
+		<link>https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/#comments</comments>
+		
+		<dc:creator><![CDATA[Gerald Versluis]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 16:05:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[.NET for iOS]]></category>
+		<category><![CDATA[.NET MAUI]]></category>
+		<category><![CDATA[Lifecycle]]></category>
+		<category><![CDATA[.net maui]]></category>
+		<category><![CDATA[.NET MAUI CLI]]></category>
+		<category><![CDATA[agent skills]]></category>
+		<category><![CDATA[ios]]></category>
+		<category><![CDATA[Mac Catalyst]]></category>
+		<category><![CDATA[scene lifecycle]]></category>
+		<category><![CDATA[UIKit]]></category>
+		<category><![CDATA[Xcode 27]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61063</guid>
+
+					<description><![CDATA[<p>Use an agent skill to prepare your existing .NET MAUI app for Xcode 27, with the scene lifecycle changes and manual migration steps explained.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/">Get Your .NET MAUI App Ready for Xcode 27</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Your existing .NET MAUI app builds with Xcode 27, installs on an iPhone running iOS 27, shows its splash screen, and then disappears. Not exactly the grand entrance you were hoping for.</p>
+<p>That symptom can have many causes. But if the only thing that changed is that you&#8217;re now building with Xcode 27 and running the app on iOS 27, and you see the device log message below, your .NET MAUI app needs a few changes:</p>
+<pre><code class="language-text">UIScene life cycle is required for apps built with this SDK.</code></pre>
+<p>UIKit&#8217;s scene lifecycle manages each instance of an app&#8217;s user interface, including its windows and transitions between foreground and background states. It works alongside the application lifecycle, which manages the app process as a whole. Apple introduced this model with iOS 13, and .NET MAUI already supports it.</p>
+<p>This is an Xcode 27 compatibility requirement, not a broken .NET MAUI lifecycle. Existing .NET MAUI projects might still use only the older application lifecycle because updating .NET MAUI or its workloads doesn&#8217;t rewrite their platform files. It&#8217;s not specific to the iPhone Duo. Every iOS app built with Xcode 27, on any form factor, needs to adopt this pattern. An existing binary built with an older SDK doesn&#8217;t suddenly need this migration just because someone updates their phone.</p>
+<p>For a straightforward app, the change is small: a scene delegate and an <code>Info.plist</code> entry. The part that deserves your attention is everything you&#8217;ve added over the years, such as authentication callbacks, deep links, and App Actions.</p>
+<p>That&#8217;s where the <code>maui-xcode27-migration</code> agent skill comes in. It guides your coding agent through the project checks, the migration, and the verification. You still review the changes, and the manual steps below explain what it&#8217;s doing.</p>
+<h2>Let an AI agent handle the migration</h2>
+<p>The <a href="https://github.com/dotnet/maui-labs">.NET MAUI CLI</a> can install agent skills into your development environment. A skill is a set of instructions and supporting resources for the agent. It&#8217;s not another runtime dependency in your app.</p>
+<p>The Xcode 27 migration skill requires <strong>Microsoft.Maui.Cli 0.1.0-preview.13.26512.5 or later</strong>. Install that preview release:</p>
+<pre><code class="language-console">dotnet tool install --global Microsoft.Maui.Cli --version 0.1.0-preview.13.26512.5</code></pre>
+<p>If you already have it installed, update it instead:</p>
+<pre><code class="language-console">dotnet tool update --global Microsoft.Maui.Cli --version 0.1.0-preview.13.26512.5</code></pre>
+<p><div class="alert alert-info"><p class="alert-divider"><i class="fabric-icon fabric-icon--Info"></i><strong>Preview tooling</strong></p>The .NET MAUI CLI and this skill are experimental and are not covered by the Microsoft Support Policy. The CLI downloads the skill from the public <code>dotnet/maui-labs</code> catalog, so catalog discovery and installation require network access.</div></p>
+<p>From your app&#8217;s repository, check that the CLI can find the skill and install it for GitHub Copilot CLI:</p>
+<pre><code class="language-console">maui ai list skill
+maui ai add skill maui-xcode27-migration --env CopilotCli --yes</code></pre>
+<p>If you use another AI provider, check <code>maui ai add skill --help</code> and change the <code>--env</code> option accordingly. Run the command from the app repository you want to change, because the skill is installed for that project.</p>
+<p>Restart or reload your agent session so it picks up the new skill, then ask:</p>
+<pre><code class="language-text">Prepare this .NET MAUI app for Xcode 27. Inspect the project
+and toolchain first, preserve custom lifecycle behavior, and validate
+the migration. Ask before changing the SDK or dropping support for
+older OS versions.</code></pre>
+<p>You don&#8217;t need to name the skill in your request. A compatible agent should pick <code>maui-xcode27-migration</code> from the installed skills based on the task. If you want to remove any doubt, feel free to name it explicitly.</p>
+<p>The CLI installs the skill, and your coding agent does the migration. There&#8217;s no <code>maui migrate</code> command in this workflow, and installing the skill on its own doesn&#8217;t touch your app.</p>
+<p>Prefer to manage the skill directly with GitHub Copilot CLI? Follow the official <a href="https://docs.github.com/copilot/how-tos/copilot-cli/customize-copilot/plugins-finding-installing">GitHub Copilot plugin installation documentation</a>, then add the <code>maui-labs</code> marketplace and install the <code>dotnet-maui</code> plugin:</p>
+<pre><code class="language-console">copilot plugin marketplace add dotnet/maui-labs
+copilot plugin install dotnet-maui@dotnet-maui-labs</code></pre>
+<p>You can also find the <a href="https://github.com/dotnet/maui-labs/tree/main/plugins/dotnet-maui/skills/maui-xcode27-migration">migration skill directly in the <code>dotnet/maui-labs</code> repository</a>. Pick one installation method so you don&#8217;t end up with duplicate copies.</p>
+<h2>What the skill checks</h2>
+<p>Before editing anything, the skill should work out which project, .NET SDK, .NET MAUI packages, Apple workloads, and Xcode version you&#8217;re actually using. A <code>global.json</code>, shared package versions, or an existing custom scene delegate can all change the right approach.</p>
+<p>The migration covers:</p>
+<ul>
+<li><strong>Compatible versions.</strong> Match the Apple workload to Xcode, update the required .NET MAUI packages, and check deployment targets without silently dropping older OS support.</li>
+<li><strong>Scene configuration.</strong> Add or reconcile the delegate and manifest for the iOS and Mac Catalyst targets, including configuration-specific plist files. Preserve existing scene customizations, launch-screen settings, and multi-window behavior.</li>
+<li><strong>Custom behavior.</strong> Review app-delegate overrides as well as lifecycle registrations, authentication, warm and cold links, notification taps, startup work that needs a window, and App Actions.</li>
+<li><strong>Verification.</strong> Run a read-only lifecycle audit, review the diff, build the affected targets, and test launch and the behaviors the migration can change. Report anything that could not be exercised.</li>
+</ul>
+<p>Commit or otherwise save your current work before starting, and go through the resulting diff before accepting it. A successful build doesn&#8217;t prove that an authentication redirect or a Home screen shortcut still works.</p>
+<p>If you&#8217;d rather do things by hand, the instructions are below.</p>
+<h2>Before you start: check your app and toolchain</h2>
+<p>Scene lifecycle support was available before Xcode 27, so your app might already use it. If you already have a <code>MauiUISceneDelegate</code> and matching scene manifest, good news: you can skip the migration steps below. You should still check the toolchain versions and test your app on iOS 27.</p>
+<p>At the time of writing, the released .NET 10 iOS and Mac Catalyst workloads <strong>27.0.10722 require Xcode 27.0</strong>. Installing a newer Xcode doesn&#8217;t automatically make it compatible with that workload. Check the <a href="https://github.com/dotnet/macios/releases/tag/dotnet-10.0.1xx-xcode27.0-10722">.NET for iOS and Mac Catalyst release notes</a> and use the matching versions rather than disabling the SDK&#8217;s Xcode check.</p>
+<p><div class="alert alert-info"><p class="alert-divider"><i class="fabric-icon fabric-icon--Info"></i><strong>Check your setup</strong></p>Run <code>maui doctor</code> for a quick check of your active .NET SDK, .NET MAUI workload, selected Xcode, and Apple SDK compatibility. It also checks supporting components such as the Xcode license, command-line tools, and installed iOS runtimes.</div></p>
+<p>For a .NET 10 app, update your .NET MAUI packages to <strong>10.0.110 or higher</strong> before enabling scenes. The two-file launch fix can work with an older .NET MAUI version because <code>MauiUISceneDelegate</code> already exists there. However, 10.0.110 also includes the scene-side App Actions dispatch and relevant <code>WebAuthenticator</code> forwarding. Treat the package update as part of the migration, otherwise you might fix the launch and silently break those integrations.</p>
+<p>Template projects often get <code>$(MauiVersion)</code> from the installed workload. To pin the minimum version explicitly, add this to your <code>.csproj</code>:</p>
+<pre><code class="language-xml">&lt;PropertyGroup&gt;
+  &lt;MauiVersion&gt;10.0.110&lt;/MauiVersion&gt;
+&lt;/PropertyGroup&gt;</code></pre>
+<p>If you already manage this version elsewhere, update that value instead. Don&#8217;t downgrade a newer compatible version.</p>
+<p>Apps created with the .NET MAUI 10.0.110 templates already have the scene configuration. Existing projects aren&#8217;t retrofitted by a package or workload update, so you&#8217;ll need to do that part yourself.</p>
+<h2>Add the scene delegate</h2>
+<p>In your existing app, create <code>Platforms/iOS/SceneDelegate.cs</code> and paste in this code. If the file already exists, check its base class and registration instead of adding a second delegate:</p>
+<pre><code class="language-csharp">using Foundation;
+using Microsoft.Maui;
+
+namespace MyMauiApp;
+
+[Register("SceneDelegate")]
+public class SceneDelegate : MauiUISceneDelegate
+{
+}</code></pre>
+<p>Replace <code>MyMauiApp</code> with your app&#8217;s namespace. For this default setup, keep the class public and the registration name as <code>SceneDelegate</code>. If your app already has a custom registered scene delegate, preserve its behavior and use its registered name consistently in the manifest instead of adding a competing delegate.</p>
+<p>Yes, that&#8217;s the whole class. .NET MAUI does the actual window setup for you. Leave your existing <code>AppDelegate : MauiUIApplicationDelegate</code> exactly where it is too. The scene delegate works alongside it, not instead of it.</p>
+<h2>Add the scene manifest</h2>
+<p>Open <code>Platforms/iOS/Info.plist</code> as XML and add the following inside the root <code>&lt;dict&gt;</code>. If you already have a <code>UIApplicationSceneManifest</code>, update its existing scene configuration instead of adding a duplicate key:</p>
+<pre><code class="language-xml">&lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
+&lt;dict&gt;
+  &lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
+  &lt;false/&gt;
+  &lt;key&gt;UISceneConfigurations&lt;/key&gt;
+  &lt;dict&gt;
+    &lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
+    &lt;array&gt;
+      &lt;dict&gt;
+        &lt;key&gt;UISceneConfigurationName&lt;/key&gt;
+        &lt;string&gt;__MAUI_DEFAULT_SCENE_CONFIGURATION__&lt;/string&gt;
+        &lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
+        &lt;string&gt;SceneDelegate&lt;/string&gt;
+      &lt;/dict&gt;
+    &lt;/array&gt;
+  &lt;/dict&gt;
+&lt;/dict&gt;</code></pre>
+<p>Three details matter here:</p>
+<ul>
+<li>Keep <code>__MAUI_DEFAULT_SCENE_CONFIGURATION__</code> exactly as shown. That&#8217;s the name .NET MAUI expects.</li>
+<li>Match the delegate name in the plist with the C# registration: <code>SceneDelegate</code> and <code>[Register("SceneDelegate")]</code> in this example.</li>
+<li>Leave <code>UIApplicationSupportsMultipleScenes</code> set to <code>false</code> unless your app really supports multiple windows.</li>
+</ul>
+<p>You don&#8217;t need a <code>UISceneStoryboardFile</code>. .NET MAUI creates the window in code, and your existing splash screen configuration stays as it is.</p>
+<p>If you have custom scene configuration names or override <code>GetConfiguration</code> or <code>WillConnect</code>, review them together rather than replacing the manifest wholesale. The default <code>MauiUISceneDelegate</code> window-creation path expects <code>__MAUI_DEFAULT_SCENE_CONFIGURATION__</code>; a different name needs an existing custom implementation that handles window creation.</p>
+<p>Some apps select a different plist for Debug, Release, customer, or environment builds. Add or reconcile the manifest in every plist that can produce a shipping app. If you only update the default file, one configuration can still crash right after the splash screen. Preserve the existing <code>MauiSplashScreen</code> or <code>UILaunchStoryboardName</code> setup while editing these files.</p>
+<p>That&#8217;s the iOS scene configuration done. If you don&#8217;t target Mac Catalyst, skip ahead to the minimum OS versions.</p>
+<h2>Do the same for Mac Catalyst</h2>
+<p>If your project also targets Mac Catalyst, make the same two changes there:</p>
+<ol>
+<li>Add <code>Platforms/MacCatalyst/SceneDelegate.cs</code>.</li>
+<li>Add the same <code>UIApplicationSceneManifest</code> section to <code>Platforms/MacCatalyst/Info.plist</code>.</li>
+</ol>
+<h2>Check your minimum OS versions</h2>
+<p>The .NET for iOS and .NET for Mac Catalyst 27 SDKs also raise the minimum supported versions: iOS needs at least <code>15.0</code>, and Mac Catalyst needs at least <code>17.0</code> (macOS 14 Sonoma). In your app&#8217;s <code>.csproj</code>, update the existing <code>SupportedOSPlatformVersion</code> entries if yours are lower:</p>
+<pre><code class="language-xml">&lt;SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'"&gt;15.0&lt;/SupportedOSPlatformVersion&gt;
+&lt;SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'"&gt;17.0&lt;/SupportedOSPlatformVersion&gt;</code></pre>
+<p>These entries belong inside a <code>&lt;PropertyGroup&gt;</code>. Replace the existing values instead of adding duplicates, because a later definition can override your change. Keep each version directly between its XML tags, without leading or trailing whitespace.</p>
+<p>Keep a higher deployment target if your app already requires one. If you must retain support for iOS versions below 15 or macOS 12 and 13, moving to these SDKs requires a support-policy decision. Stay on a compatible 26.x SDK while you decide, rather than silently dropping those users. This SDK minimum is separate from scene adoption; see the <a href="https://github.com/dotnet/maui/blob/main/src/Templates/README.md#mac-catalyst-deployment-target">.NET MAUI template deployment-target guidance</a>.</p>
+<h2>Check any custom app behavior</h2>
+<p>With scenes enabled, UIKit no longer calls the <code>AppDelegate</code> activation, backgrounding, URL, and user-activity callbacks. That goes for both <code>ConfigureLifecycleEvents</code> registrations and methods you override in <code>AppDelegate</code>, such as <code>OpenUrl</code> or <code>ContinueUserActivity</code>. Move that logic to the corresponding scene events:</p>
+<table>
+<thead>
+<tr>
+<th>Existing event</th>
+<th>Scene event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OnActivated</code></td>
+<td><code>SceneOnActivated</code></td>
+</tr>
+<tr>
+<td><code>OnResignActivation</code></td>
+<td><code>SceneOnResignActivation</code></td>
+</tr>
+<tr>
+<td><code>DidEnterBackground</code></td>
+<td><code>SceneDidEnterBackground</code></td>
+</tr>
+<tr>
+<td><code>WillEnterForeground</code></td>
+<td><code>SceneWillEnterForeground</code></td>
+</tr>
+<tr>
+<td><code>OpenUrl</code></td>
+<td><code>SceneOpenUrl</code></td>
+</tr>
+<tr>
+<td><code>ContinueUserActivity</code></td>
+<td><code>SceneContinueUserActivity</code></td>
+</tr>
+</tbody>
+</table>
+<p>The callback arguments differ, so move the logic instead of just renaming the registration. If you instead override methods in your <code>SceneDelegate</code>, call the corresponding <code>base</code> implementation. The framework&#8217;s window setup, lifecycle events, and authentication forwarding depend on that behavior.</p>
+<p>For custom deep links, also handle <code>SceneWillConnect</code>: URLs and user activities that launch the app arrive in its <code>UISceneConnectionOptions</code>. That callback runs before .NET MAUI creates the window, so defer navigation until the window is ready.</p>
+<p>If your app opens content from a notification tap, inspect <code>connectionOptions.NotificationResponse</code> as another cold-start input. Preserve that route separately from ordinary push registration and <code>DidReceiveRemoteNotification</code>, which remain application-level callbacks.</p>
+<p>A regular launch may have no URL or user-activity payload. Guard against absent <code>UrlContexts</code> and <code>UserActivities</code> before enumerating them, even when the binding&#8217;s nullability annotation suggests a value will be there.</p>
+<p><code>FinishedLaunching</code> still runs, but the standard .NET MAUI scene path creates the window later through the scene delegate. <code>AppDelegate.Window</code> stays <code>null</code>. Code that accesses it after <code>base.FinishedLaunching</code> needs to use the appropriate scene window when it is ready instead. The cross-platform <code>Window</code> lifecycle events keep working; do not duplicate that forwarding.</p>
+<p>.NET MAUI 10.0.110 handles scene-based App Actions and forwards the relevant URL and user-activity callbacks to <code>WebAuthenticator</code>. That authentication handling is not general app deep-link navigation and does not replay cold-start links for you. Test authentication and your own links with the app both running and fully closed.</p>
+<p>If you use App Actions, make sure every custom <code>PerformActionForShortcutItem</code> handler calls its completion callback <strong>exactly once</strong>. Pass <code>true</code> when the action was handled and <code>false</code> when it was not. A handler can respond asynchronously after returning, but returning alone does not acknowledge the action.</p>
+<p>Even a handler that only writes a log message needs to respond. As an example, add <code>using Microsoft.Maui.LifecycleEvents;</code> to <code>MauiProgram.cs</code>, then register this observer inside <code>CreateMauiApp</code>, before <code>return builder.Build();</code>:</p>
+<pre><code class="language-csharp">builder.ConfigureLifecycleEvents(events =&gt;
+{
+#if IOS || MACCATALYST
+    events.AddiOS(ios =&gt; ios
+        .PerformActionForShortcutItem((application, shortcutItem, completion) =&gt;
+        {
+            Console.WriteLine($"App Action received: {shortcutItem.Type}");
+            completion(false);
+        }));
+#endif
+});</code></pre>
+<p>The default .NET MAUI builder already forwards App Actions to Essentials. You don&#8217;t need this logging observer unless you want it, and you shouldn&#8217;t add another <code>Platform.PerformActionForShortcutItem</code> registration. If your <code>AppDelegate</code> overrides <code>PerformActionForShortcutItem</code>, that override is no longer called with scenes enabled. Move its custom logic into a registration like the one above, completion callback included.</p>
+<h2>Rebuild and try it</h2>
+<p>Restore and build the iOS target:</p>
+<pre><code class="language-console">dotnet restore -p:TargetFramework=net10.0-ios
+dotnet build -f net10.0-ios --no-restore</code></pre>
+<p>If the simulator still seems to have an old version of your app, uninstall it, delete the app project&#8217;s <code>bin</code> and <code>obj</code> folders, and run those two commands again.</p>
+<p>Launch both Debug and Release builds on a regular iPhone or iPad simulator running iOS 27 with the matching workload and Xcode. A successful build or launch on iOS 26 doesn&#8217;t prove that the app will launch on iOS 27 when built with Xcode 27. Check a cold launch, background and foreground transitions, your authentication flow, links and notification taps with the app both running and closed, and App Actions. If you target Mac Catalyst, build and exercise that target too.</p>
+<p>You don&#8217;t need an iPhone Duo simulator to verify this migration. Device-specific layouts and the Xcode 27.1 tooling are a separate topic that we&#8217;ll cover in a follow-up post soon.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/">Get Your .NET MAUI App Ready for Xcode 27</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/migrate-dotnet-maui-apps-uikit-scene-lifecycle/feed/</wfw:commentRss>
+			<slash:comments>17</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/xcode27-maui-compatibility.webp" type="image/png" />
+	</item>
+		<item>
+		<title>Bring Your Own Model to the GitHub Copilot SDK with C#</title>
+		<link>https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp/#comments</comments>
+		
+		<dc:creator><![CDATA[Bruno Capuano]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 16:00:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[C#]]></category>
+		<category><![CDATA[azure openai]]></category>
+		<category><![CDATA[byok]]></category>
+		<category><![CDATA[Csharp]]></category>
+		<category><![CDATA[dotnet]]></category>
+		<category><![CDATA[github-copilot-sdk]]></category>
+		<category><![CDATA[Microsoft Foundry]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61061</guid>
+
+					<description><![CDATA[<p>The GitHub Copilot SDK gives your application an agent runtime. BYOK lets you keep that runtime while sending model requests to your own Microsoft Foundry or Azure OpenAI deployment. Here is the complete C# setup.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp/">Bring Your Own Model to the GitHub Copilot SDK with C#</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Hi,</p>
+<p>I know, I keep coming back to the same theme on this blog: <strong>agent harnesses</strong>. In <a href="https://devblogs.microsoft.com/dotnet/build-your-own-ai-agent-harness-in-csharp-the-maf-claw-live-series/">Build Your Own AI Agent Harness in C#</a> we built one from scratch. In <a href="https://devblogs.microsoft.com/dotnet/from-dotnet-run-to-foundry-hosted-agent-in-3-lines-of-csharp/">From dotnet run to Foundry Hosted Agent in 3 lines of C#</a> we took an agent and hosted it. Today we use a harness we do not have to build at all: the one GitHub already ships, through the <strong>GitHub Copilot SDK</strong>.</p>
+<p>One of the most popular questions we received during the <strong>Let&#8217;s Learn GitHub Copilot SDK</strong> sessions was:</p>
+<blockquote>
+<p>&#8220;Can I use the Copilot SDK with my own model deployment?&#8221;</p>
+</blockquote>
+<p>The short answer is <strong>yes</strong>.</p>
+<p>The longer answer is, the GitHub Copilot SDK gives your application the Copilot agent runtime, while <code>ProviderConfig</code> lets you route model inference to a provider you control. That provider can be any of the <a href="https://docs.github.com/en/copilot/how-tos/copilot-sdk/auth/byok">providers officially supported by the Copilot SDK</a>: OpenAI, Anthropic, Ollama, Microsoft Foundry Local, or any OpenAI-compatible endpoint such as vLLM or LiteLLM. Today&#8217;s sample uses <strong>Microsoft Foundry</strong>, authenticated with Microsoft Entra ID or, when needed, an API key.</p>
+<p>The complete sample is now part of <a href="https://github.com/microsoft/Generative-AI-for-beginners-dotnet/tree/main/samples/CoreSamples/GitHubCopilotSDK-01-BYOK">Generative AI for Beginners .NET</a>. It is a small .NET 10 console application: read configuration, create a BYOK provider, start the Copilot runtime, create one session, and ask one question.</p>
+<p><div  class="d-flex justify-content-center"><a class="cta_button_link btn-primary mb-24" href="https://github.com/microsoft/Generative-AI-for-beginners-dotnet/tree/main/samples/CoreSamples/GitHubCopilotSDK-01-BYOK" target="_blank">Get the complete BYOK C# sample</a></div></p>
+<h2>What BYOK means in this sample</h2>
+<p>BYOK means <strong>Bring Your Own Key</strong>, but in this context the important idea is broader than the key itself: you bring your own model provider.</p>
+<p>The Copilot SDK still supplies the runtime that manages the client, session, system message, and agent configuration. <code>ProviderConfig</code> changes the destination and authentication for model inference.</p>
+<p><div class="alert alert-success"><p class="alert-divider"><i class="fabric-icon fabric-icon--Lightbulb"></i><strong>BYOK is not customer-managed encryption keys</strong></p>In this article, BYOK means using your own model endpoint and credentials for inference. It does not refer to customer-managed encryption keys or a storage-encryption configuration.</div></p>
+<p>The sample intentionally keeps the session minimal. It disables tools, skills, configuration discovery, and host Git operations so that the first run demonstrates one thing clearly: a Copilot SDK session can send a model request to your own Foundry-compatible deployment.</p>
+<p><img decoding="async" src="github-copilot-sdk-byok-diagram.svg" alt="Diagram of a .NET app routing Copilot SDK requests to Microsoft Foundry" /></p>
+<p><em>The runtime and the model provider are separate parts of the application.</em></p>
+<h2>The project</h2>
+<p>The sample is a regular .NET 10 console application. These are the packages it uses:</p>
+<pre><code class="language-xml">&lt;Project Sdk="Microsoft.NET.Sdk"&gt;
+  &lt;PropertyGroup&gt;
+    &lt;OutputType&gt;Exe&lt;/OutputType&gt;
+    &lt;TargetFramework&gt;net10.0&lt;/TargetFramework&gt;
+    &lt;ImplicitUsings&gt;enable&lt;/ImplicitUsings&gt;
+    &lt;Nullable&gt;enable&lt;/Nullable&gt;
+    &lt;UserSecretsId&gt;genai-beginners-dotnet&lt;/UserSecretsId&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;ItemGroup&gt;
+    &lt;PackageReference Include="Azure.Identity" Version="1.21.0" /&gt;
+    &lt;PackageReference Include="GitHub.Copilot.SDK" Version="1.0.11" /&gt;
+    &lt;PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.3" /&gt;
+    &lt;PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.3" /&gt;
+  &lt;/ItemGroup&gt;
+&lt;/Project&gt;</code></pre>
+<p><code>GitHub.Copilot.SDK</code> provides the .NET client for the Copilot runtime. <code>Azure.Identity</code> provides <code>AzureCliCredential</code>, which lets the sample reuse the identity from <code>az login</code>. The configuration packages load development-only secrets without putting endpoints or credentials in source control.</p>
+<h2>Step 1: read the model configuration</h2>
+<p>The sample uses the shared User Secrets values already used by the repository:</p>
+<pre><code class="language-csharp">// User Secrets keeps the endpoint and credentials outside the repository.
+var configuration = new ConfigurationBuilder()
+    .AddUserSecrets&lt;Program&gt;(optional: true)
+    .Build();
+
+// This sample uses the repo's shared AzureOpenAI secrets.
+var modelName = GetRequiredValue(configuration, "AzureOpenAI:Deployment");
+var endpoint = GetRequiredValue(configuration, "AzureOpenAI:Endpoint");
+var apiKey = configuration["AzureOpenAI:ApiKey"]?.Trim();</code></pre>
+<p>There are two required values:</p>
+<ul>
+<li><code>AzureOpenAI:Deployment</code> is the name of your model deployment in Microsoft Foundry or Azure OpenAI. Choose a deployment that supports the Responses API, because this sample uses <code>WireApi = "responses"</code>.</li>
+<li><code>AzureOpenAI:Endpoint</code> is the Foundry or Azure OpenAI resource endpoint.</li>
+</ul>
+<p><code>AzureOpenAI:ApiKey</code> is optional. If it is not present, the sample uses Microsoft Entra ID through <code>AzureCliCredential</code>. If it is present, the sample sends it in the <code>api-key</code> header.</p>
+<h2>Step 2: configure the provider</h2>
+<p>This is the core of the sample:</p>
+<pre><code class="language-csharp">// Microsoft Foundry exposes an API compatible with OpenAI Responses.
+var provider = new ProviderConfig
+{
+    Type = "openai",
+    BaseUrl = NormalizeEndpoint(endpoint),
+    WireApi = "responses",
+    ModelId = modelName,
+    WireModel = modelName,
+    MaxPromptTokens = 8000,
+    MaxOutputTokens = 512
+};</code></pre>
+<p>The configuration tells the Copilot runtime how to communicate with the provider:</p>
+<ul>
+<li><code>Type = "openai"</code> selects the OpenAI-compatible provider shape.</li>
+<li><code>BaseUrl</code> points to the OpenAI-compatible API surface.</li>
+<li><code>WireApi = "responses"</code> selects the Responses API.</li>
+<li><code>ModelId</code> identifies the model to the Copilot runtime.</li>
+<li><code>WireModel</code> is the model name sent to the provider.</li>
+<li>The token limits keep this small example bounded.</li>
+</ul>
+<p>For a reasoning model, <code>MaxOutputTokens</code> includes reasoning tokens as well as the visible answer. The 512-token limit can be reached before the model produces any answer. Increase or omit the <code>MaxOutputTokens</code> override when using a reasoning deployment, then tune the limit for your workload.</p>
+<p>In this sample, <code>ModelId</code> and <code>WireModel</code> have the same value. They are separate properties because the runtime-facing model identifier and the provider-facing model name do not have to be identical in every integration.</p>
+<p>The endpoint helper accepts either the resource URL or a URL that already includes <code>/openai/v1/</code>:</p>
+<pre><code class="language-csharp">static string NormalizeEndpoint(string endpoint)
+{
+    var candidate = endpoint.Trim();
+    if (!Uri.TryCreate(candidate, UriKind.Absolute, out var uri) ||
+        uri.Scheme != Uri.UriSchemeHttps ||
+        string.IsNullOrWhiteSpace(uri.Host))
+    {
+        throw new ArgumentException("The configured AzureOpenAI:Endpoint must be an HTTPS URL.");
+    }
+
+    // Accept the resource URL or a URL that already ends in /openai/v1.
+    // Trimming first means a trailing slash does not need a separate check.
+    var trimmed = candidate.TrimEnd('/');
+    if (trimmed.EndsWith("/openai/v1", StringComparison.OrdinalIgnoreCase))
+    {
+        return trimmed + "/";
+    }
+
+    return $"{uri.GetLeftPart(UriPartial.Authority).TrimEnd('/')}/openai/v1/";
+}</code></pre>
+<p>The helper also requires HTTPS. It is better to reject a malformed endpoint before creating a session than to discover it after the first model request.</p>
+<h2>Step 3: use Entra ID by default</h2>
+<p>The default authentication path uses the Azure CLI login:</p>
+<pre><code class="language-csharp">if (string.IsNullOrWhiteSpace(apiKey))
+{
+    // AzureCliCredential reuses the session created with `az login`.
+    var credential = new AzureCliCredential();
+    var scope = "https://cognitiveservices.azure.com/.default";
+#pragma warning disable GHCP001 // BYOK auth callbacks are experimental in the Copilot SDK.
+    provider.BearerTokenProvider = async _ =&gt;
+    {
+        var token = await credential.GetTokenAsync(
+            new TokenRequestContext([scope]),
+            cancellation.Token);
+        return token.Token;
+    };
+#pragma warning restore GHCP001
+}</code></pre>
+<p>Before signing in, make sure your identity has the <strong>Cognitive Services OpenAI User</strong> role on the resource. Then run:</p>
+<pre><code class="language-powershell">az login</code></pre>
+<p><code>BearerTokenProvider</code> is a callback. The SDK can call it when it needs a token instead of receiving one token value that the application has to manage itself.</p>
+<h2>Step 4: use an API key when one is configured</h2>
+<p>Some deployments or environments still require an API key. The sample supports that path without changing the rest of the provider configuration:</p>
+<pre><code class="language-csharp">else
+{
+    provider.Headers = new Dictionary&lt;string, string&gt;
+    {
+        ["api-key"] = apiKey
+    };
+}</code></pre>
+<p>Set the optional secret:</p>
+<pre><code class="language-powershell">dotnet user-secrets set "AzureOpenAI:ApiKey" "&lt;your-api-key&gt;"</code></pre>
+<p>When the value exists, the sample uses the <code>api-key</code> header and does not require <code>az login</code>. The console output reports only the authentication mode; it never prints the endpoint or the credential.</p>
+<p><div class="alert alert-info"><p class="alert-divider"><i class="fabric-icon fabric-icon--Info"></i><strong>Keep credentials out of source control</strong></p>Use User Secrets for local development, environment-managed configuration for deployed applications, and never paste an API key into the source file or a README.</div></p>
+<h2>Step 5: start the Copilot runtime</h2>
+<p>The provider controls model inference, but the Copilot runtime is still required:</p>
+<pre><code class="language-csharp">await using var client = new CopilotClient(new CopilotClientOptions
+{
+    Connection = RuntimeConnection.ForStdio("copilot"),
+    WorkingDirectory = AppContext.BaseDirectory
+});
+await client.StartAsync(cancellation.Token);</code></pre>
+<p>This is an important distinction. BYOK does not mean “the Copilot SDK without Copilot.” The local Copilot CLI runtime still provides the orchestration process. BYOK changes where the model request goes.</p>
+<p><div class="alert alert-primary"><p class="alert-divider"><i class="fabric-icon fabric-icon--Info"></i><strong>Prerequisites</strong></p>Install the .NET 10 SDK and the GitHub Copilot CLI, and make sure <code>dotnet --version</code> reports a .NET 10 SDK and <code>copilot --version</code> works. For the default Microsoft Entra ID authentication path, also install the Azure CLI and make sure <code>az --version</code> works. The API-key path does not require the Azure CLI. The sample starts the local Copilot runtime through <code>RuntimeConnection.ForStdio("copilot")</code>.</div></p>
+<h2>Step 6: create a deliberately small session</h2>
+<p>The session configuration connects the model name and provider, then disables capabilities that are outside the scope of this first example:</p>
+<pre><code class="language-csharp">// Disable tools, skills, and Git operations to isolate the model request.
+await using var session = await client.CreateSessionAsync(new SessionConfig
+{
+    ClientName = "github-copilot-sdk-byok",
+    Model = modelName,
+    Provider = provider,
+    SystemMessage = new SystemMessageConfig
+    {
+        Mode = SystemMessageMode.Replace,
+        Content = "Answer every user question in English. Be concise and factual."
+    },
+    AvailableTools = [],
+    Tools = [],
+    EnableConfigDiscovery = false,
+    EnableSkills = false,
+    EnableHostGitOperations = false
+}, cancellation.Token);</code></pre>
+<p>The empty tool collections and disabled features are intentional. They make the sample easier to reason about and safer to run while learning the provider configuration.</p>
+<p>The system message also makes the output predictable for a multilingual live-learning sample. <code>SystemMessageMode.Replace</code> replaces the default system message instead of appending another instruction to it.</p>
+<h2>Step 7: send one question</h2>
+<p>Finally, the application sends one prompt and waits for the final response:</p>
+<pre><code class="language-csharp">var response = await session.SendAndWaitAsync(
+    new MessageOptions { Prompt = question },
+    TimeSpan.FromMinutes(3),
+    cancellation.Token);
+
+var content = response?.Data.Content;
+if (string.IsNullOrWhiteSpace(content))
+{
+    throw new InvalidOperationException("The model returned an empty response.");
+}
+
+Console.WriteLine();
+Console.WriteLine("Answer:");
+Console.WriteLine(content);</code></pre>
+<p>The default question is:</p>
+<pre><code class="language-text">What is Microsoft Foundry, and how does it relate to the GitHub Copilot SDK?</code></pre>
+<p>You can provide another question as command-line arguments:</p>
+<pre><code class="language-powershell">dotnet run -- "Explain BYOK in one sentence."</code></pre>
+<h2>Run the sample</h2>
+<p>From the sample directory, configure the required values:</p>
+<pre><code class="language-powershell">dotnet user-secrets set "AzureOpenAI:Endpoint" "https://&lt;resource&gt;.services.ai.azure.com"
+dotnet user-secrets set "AzureOpenAI:Deployment" "&lt;your-deployment-name&gt;"</code></pre>
+<p>Then use the default Entra ID path:</p>
+<pre><code class="language-powershell">az login
+dotnet run</code></pre>
+<p>The output looks like this:</p>
+<pre><code class="language-text">Model: &lt;your-deployment-name&gt;
+Authentication: AzureCliCredential
+Question: What is Microsoft Foundry, and how does it relate to the GitHub Copilot SDK?
+
+Answer:
+&lt;model response&gt;</code></pre>
+<p>The sample prints the selected model and authentication mode, but not the endpoint or credentials.</p>
+<h2>So, what did we actually learn here?</h2>
+<p>Honestly, the part I like most is how little code this takes. <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>The Copilot SDK runtime and the model provider are two different things, and once that clicks, the rest is easy. You keep the runtime that GitHub gives you: the client, the session, the system message, and the agent plumbing. Then you just point inference somewhere else. That &#8220;somewhere else&#8221; is your Foundry deployment, your OpenAI key, your local Ollama, whatever you need.</p>
+<p>Entra ID is the default path here, and I think it should be. No key to rotate, no key to leak, no key to accidentally commit. <code>az login</code> and you are done. The API key branch is there for the cases where you really need it, and it stays out of the way until you configure it.</p>
+<p>And the session is deliberately boring. No tools, no skills, no MCP, no Git access. That is on purpose: the first run has exactly one job, which is proving that your model is answering. Once you see that answer in the console, you have a working baseline.</p>
+<p>That is the fun part. From here you can start adding things one at a time: tools, MCP servers, skills, approvals, and streaming. When something breaks, you will know exactly which piece broke it.</p>
+<p>Go try it with your own deployment. <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<h2>Learn more</h2>
+<ul>
+<li><a href="https://github.com/microsoft/Generative-AI-for-beginners-dotnet/tree/main/samples/CoreSamples/GitHubCopilotSDK-01-BYOK">GitHubCopilotSDK-01-BYOK sample</a></li>
+<li><a href="https://github.com/microsoft/Generative-AI-for-beginners-dotnet">Generative AI for Beginners .NET</a></li>
+<li><a href="https://github.com/github/copilot-sdk">GitHub Copilot SDK</a></li>
+<li><a href="https://aka.ms/letslearndotnet">Let&#8217;s Learn .NET</a></li>
+<li><a href="https://dotnet.microsoft.com/live/lets-learn-dotnet">Let&#8217;s Learn .NET event page</a></li>
+<li><a href="https://gh.io/coursera">Building Agentic AI Apps with GitHub Copilot SDK (Coursera Professional Certificate)</a></li>
+<li><a href="https://ai.azure.com">Microsoft Foundry</a></li>
+</ul>
+<p><div  class="d-flex justify-content-center"><a class="cta_button_link btn-primary mb-24" href="https://github.com/microsoft/Generative-AI-for-beginners-dotnet/tree/main/samples/CoreSamples/GitHubCopilotSDK-01-BYOK" target="_blank">Explore the complete GitHub Copilot SDK sample</a></div></p>
+<p>Happy coding!</p>
+<p>Bruno</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp/">Bring Your Own Model to the GitHub Copilot SDK with C#</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/bring-your-own-model-to-the-github-copilot-sdk-with-csharp/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/github-copilot-sdk-byok.webp" type="image/jpeg" />
+	</item>
+		<item>
+		<title>Introducing dotnetup: A toolchain manager for .NET</title>
+		<link>https://devblogs.microsoft.com/dotnet/introducing-dotnetup/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/introducing-dotnetup/#comments</comments>
+		
+		<dc:creator><![CDATA[Chet Husk]]></dc:creator>
+		<pubDate>Thu, 15 Oct 2026 16:50:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Maintenance & Updates]]></category>
+		<category><![CDATA[daily builds]]></category>
+		<category><![CDATA[Developer Tools]]></category>
+		<category><![CDATA[dotnet cli]]></category>
+		<category><![CDATA[dotnetup]]></category>
+		<category><![CDATA[runtimes]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61046</guid>
+
+					<description><![CDATA[<p>Learn how the new dotnetup tool helps macOS and Linux developers install, manage, and update user-local .NET SDKs and runtimes.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/introducing-dotnetup/">Introducing dotnetup: A toolchain manager for .NET</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Getting started with .NET on macOS and Linux has historically meant navigating a plethora of options: system package managers like <code>apt</code> or <code>brew</code>, platform-specific tarballs, or standalone shell scripts like <code>dotnet-install.sh</code>. While those methods have served us well, they often collide with administrative permissions, leave files scattered across root directories, or make keeping multiple runtime versions side-by-side more awkward than it should be.</p>
+<p>That&#8217;s why we&#8217;re introducing the public preview of <code>dotnetup</code>, a new .NET toolchain manager built to install, manage, and update .NET SDKs and runtimes directly in your user account.</p>
+<h2>Why dotnetup?</h2>
+<p>If you&#8217;ve spent time in ecosystems like Rust (<code>rustup</code>) or Node (<code>nvm</code>), you&#8217;re already familiar with the power of a dedicated toolchain manager. The core goal of <code>dotnetup</code> is to drastically reduce concept count and friction when getting a .NET environment running:</p>
+<ul>
+<li><strong>Consistent ux</strong>: The same commands and tools across every platform, regardless of the details of the installation</li>
+<li><strong>Non-admin by default</strong>: Everything lives comfortably in user-owned folders, not system-owned &#8211; meaning zero need for elevated permissions.</li>
+<li><strong>Side-by-side runtime management</strong>: Keep multiple servicing versions, preview channels, and daily builds installed at once without them stepping on each other&#8217;s toes.</li>
+<li><strong>Track intent</strong>: Instead of managing versions, track majors or feature bands and let the tools keep you updated each month</li>
+<li><strong>Respect for project pinning</strong>: Works seamlessly with your existing <code>global.json</code> files so team builds remain predictable and deterministic.</li>
+</ul>
+<p>Let&#8217;s walk through how to get started and how to use <code>dotnetup</code> for common day-to-day tasks.</p>
+<h2>Installing dotnetup and getting started</h2>
+<p>To get <code>dotnetup</code> on macOS or Linux, run the bootstrap script in your terminal:</p>
+<p><strong>macOS (Zsh):</strong></p>
+<pre><code class="language-bash">curl -fsSL https://aka.ms/dotnetup/get-dotnetup.sh | zsh</code></pre>
+<p><strong>Linux (Bash):</strong></p>
+<pre><code class="language-bash">curl -fsSL https://aka.ms/dotnetup/get-dotnetup.sh | bash</code></pre>
+<p><strong>PowerShell (<code>pwsh</code>):</strong></p>
+<pre><code class="language-powershell">irm https://aka.ms/dotnetup/get-dotnetup.ps1 | iex</code></pre>
+<p>Once the script pulls down the binary, initialize your environment:</p>
+<pre><code class="language-bash">dotnetup init</code></pre>
+<p>The <code>init</code> command sets up your shell profile so that <code>dotnet</code> is immediately available in your terminal sessions and fetches the latest stable .NET SDK.</p>
+<p><div style="width: 640px;" class="wp-video"><video class="wp-video-shortcode" id="video-61046-1" width="640" height="360" preload="metadata" controls="controls"><source type="video/mp4" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-get-started.mp4?_=1" /><a href="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-get-started.mp4">https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-get-started.mp4</a></video></div></p>
+<p>Let&#8217;s check what&#8217;s installed in our local environment:</p>
+<pre><code class="language-bash">dotnetup list</code></pre>
+<p>You&#8217;ll see a clean inventory of the SDKs and runtimes currently managed by <code>dotnetup</code> right in your home folder.</p>
+<h2>Keeping runtimes fresh month-over-month</h2>
+<p>Every month the .NET team ships servicing updates with security fixes and quality improvements. Keeping your local dev machine up to date helps you build and test against those fixes. For self-contained applications, you also need to republish and redeploy with the updated runtime. Updating your machine does not patch applications you have already shipped.</p>
+<p>When using system installs, you may not be in control of your ability to update. With <code>dotnetup</code>, staying current is a one-liner:</p>
+<pre><code class="language-bash">dotnetup update</code></pre>
+<p>This command resolves your tracked SDK and runtime channels again and installs the latest matching versions. For example, <code>10.0</code> tracks updates within .NET 10, while <code>latest</code> follows the latest stable SDK, including new major releases. Exact-version requirements stay pinned, so an installation requested as <code>10.0.3</code> will not advance during an update.</p>
+<p>If you only want to install or refresh a specific runtime flavor, like the ASP.NET Core runtime on .NET 10, you can target it cleanly:</p>
+<pre><code class="language-bash">dotnetup runtime install aspnetcore@10.0</code></pre>
+<p><div style="width: 640px;" class="wp-video"><video class="wp-video-shortcode" id="video-61046-2" width="640" height="360" preload="metadata" controls="controls"><source type="video/mp4" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-update-runtimes.mp4?_=2" /><a href="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-update-runtimes.mp4">https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-update-runtimes.mp4</a></video></div></p>
+<p>After a successful update, <code>dotnetup</code> automatically removes installed components that no remaining requirement needs. Versions that another channel or exact-version requirement still needs stay installed.</p>
+<p>When you no longer need a tracked channel or exact version, remove that requirement with the corresponding <code>sdk uninstall</code> or <code>runtime uninstall</code> command. <code>dotnetup</code> then cleans up the installations that are no longer needed. See <a href="https://learn.microsoft.com/dotnet/core/tools/dotnetup/usecases/update-installations">updating tracked installations</a> for more details.</p>
+<h2>Testing daily and preview builds</h2>
+<p>Beyond routine monthly servicing, many developers want to test bug fixes or check out new runtime capabilities before they hit stable release channels. Previously, testing a daily runtime build meant hunting down raw installer tarballs from GitHub, manually unpacking them into custom directories, and tweaking environment variables by hand.</p>
+<p><code>dotnetup</code> treats preview and daily builds as first-class citizens. You can install preview SDKs side-by-side with your stable setup:</p>
+<pre><code class="language-bash">dotnetup sdk install preview</code></pre>
+<p><div style="width: 640px;" class="wp-video"><video class="wp-video-shortcode" id="video-61046-3" width="640" height="360" preload="metadata" controls="controls"><source type="video/mp4" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-nightly-install.mp4?_=3" /><a href="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-nightly-install.mp4">https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-nightly-install.mp4</a></video></div></p>
+<p>Or pull down the latest daily runtime build to verify an issue fix:</p>
+<pre><code class="language-bash">dotnetup runtime install daily</code></pre>
+<p>Or grab an entire SDK to check out the entire toolchain:</p>
+<pre><code class="language-bash">dotnetup sdk install daily</code></pre>
+<p>You get the flexibility to test daily builds across your user account and clean them up easily!</p>
+<h2>Updating <code>dotnetup</code> itself</h2>
+<p>We&#8217;ll be pushing features and fixes to <code>dotnetup</code> over time, and you can get them easily:</p>
+<pre><code class="language-bash">dotnetup self update</code></pre>
+<h2>Common questions</h2>
+<p>Here are quick answers to a few questions you might have:</p>
+<h3>I could do all of this with <code>dotnet-install.[sh|ps1]</code></h3>
+<p>That&#8217;s not a question.</p>
+<p>But yeah, you could do <em>most</em> of this with the install scripts.
+What you miss out on is</p>
+<ul>
+<li><em>management</em> of the installed SDKs and Runtimes</li>
+<li>signature and checksum validation of the installed SDKs and Runtimes</li>
+<li>faster installation of multiple SDKs and Runtimes</li>
+<li>a unified CLI surface for doing this on every platform</li>
+</ul>
+<h3>Does dotnetup need sudo or root rights?</h3>
+<p>Nope. <code>dotnetup</code> is currently built for non-admin, user-local operation. All SDKs, runtimes, and metadata live entirely within your user directory.</p>
+<p>In a future release we&#8217;ll be adding support for managing the system-level installs on Windows because of how prevalent those
+are on that operating system.</p>
+<h3>Can I use dotnetup in CI pipelines?</h3>
+<p>Absolutely. Because <code>dotnetup</code> doesn&#8217;t require root privileges and runs smoothly non-interactively, it&#8217;s a great fit for containerized or ephemeral CI workers where you need to spin up specific SDK or daily runtime versions on the fly.</p>
+<h3>What&#8217;s on the roadmap for <code>dotnetup</code>?</h3>
+<p>As mentioned, we&#8217;ll be looking into support for Windows admin
+installers, but we also want to integrate <code>dotnetup</code> into CI/CD systems
+like GitHub Actions and Azure DevOps &#8211; ideally through replacing parts of the implementations of those tools today that rely on the dotnet-install scripts.</p>
+<p>We also want to iterate on the user experience to better fit how
+you all use the tool, and flesh out agent skills so that automated
+assistants use the tooling more naturally and reach for it by default.</p>
+<h3>Where should I go for more details?</h3>
+<p>For the full CLI reference, advanced configuration options, and deep dives, head over to the <a href="https://learn.microsoft.com/dotnet/core/tools/dotnetup">dotnetup documentation on Microsoft Learn</a>.</p>
+<p>If you have feedback, run into bugs, or want to share your thoughts on the experience, please drop by the <a href="https://github.com/dotnet/sdk/discussions/categories/dotnetup">dotnet/sdk discussions on GitHub</a>. We&#8217;d love to hear how it works for you, or how we can make it better!</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/introducing-dotnetup/">Introducing dotnetup: A toolchain manager for .NET</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/introducing-dotnetup/feed/</wfw:commentRss>
+			<slash:comments>21</slash:comments>
+		
+		<enclosure url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-get-started.mp4" length="1066071" type="video/mp4" />
+<enclosure url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-update-runtimes.mp4" length="186660" type="video/mp4" />
+<enclosure url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnetup-nightly-install.mp4" length="214360" type="video/mp4" />
+
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/introducing-dotnetup.svg" type="image/svg" />
+	</item>
+		<item>
+		<title>Announcing .NET 11 Release Candidate 2</title>
+		<link>https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/#comments</comments>
+		
+		<dc:creator><![CDATA[.NET Team]]></dc:creator>
+		<pubDate>Tue, 13 Oct 2026 19:40:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[.NET MAUI]]></category>
+		<category><![CDATA[ASP.NET Core]]></category>
+		<category><![CDATA[F#]]></category>
+		<category><![CDATA[NuGet]]></category>
+		<category><![CDATA[WinForms]]></category>
+		<category><![CDATA[.NET 11]]></category>
+		<category><![CDATA[Featured]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61028</guid>
+
+					<description><![CDATA[<p>.NET 11 Release Candidate 2 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, F#, ASP.NET Core, .NET MAUI, and Windows Forms.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/">Announcing .NET 11 Release Candidate 2</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>.NET 11 Release Candidate 2 is now available. This is our second release
+candidate, which comes with a
+<a href="https://dotnet.microsoft.com/platform/support/policy/dotnet-core#previews">go-live support license</a>
+so you can confidently use this release for your production applications. This
+release of .NET 11 is supported in the new
+<a href="https://aka.ms/VS2026Insiders">Visual Studio 2026 Insiders</a> release alongside
+Visual Studio Code with the C# Dev Kit. Check out the full release notes below
+and get started today.</p>
+<p><div  class="d-flex justify-content-center"><a class="cta_button_link btn-primary mb-24" href="https://get.dot.net/11" target="_blank">Download .NET 11 RC2</a></div></p>
+<p>This release contains the following highlights and improvements.</p>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4da.png" alt="📚" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Libraries</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/libraries.md#read-cbor-incrementally">Read CBOR incrementally</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/libraries.md#experimental-composite-ml-kem-and-hpke-apis">Experimental composite ML-KEM and HPKE APIs</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/libraries.md#format-dataannotations-messages-with-attribute-specific-arguments">Format DataAnnotations messages with attribute-specific arguments</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/libraries.md#configure-initial-http2-concurrency">Configure initial HTTP/2 concurrency</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/libraries.md">Full Release Notes</a></li>
+</ul>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/23f1.png" alt="⏱" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Runtime</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/runtime.md#changes-since-the-previous-preview">File locking on iOS and tvOS is disabled by default</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/runtime.md">Full Release Notes</a></li>
+</ul>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e0.png" alt="🛠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> SDK</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/sdk.md#quoted-file-level-directive-values">Quoted file-level directive values</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/sdk.md#msbuild-properties-in-launch-profile-arguments">MSBuild properties in launch-profile arguments</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/sdk.md">Full Release Notes</a></li>
+</ul>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9f1.png" alt="🧱" class="wp-smiley" style="height: 1em; max-height: 1em;" /> MSBuild</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/msbuild.md#faster-wildcard-matching-during-project-evaluation">Faster wildcard matching during project evaluation</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/msbuild.md">Full Release Notes</a></li>
+</ul>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4e6.png" alt="📦" class="wp-smiley" style="height: 1em; max-height: 1em;" /> NuGet</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/nuget.md#configure-minimum-package-publication-age-from-the-cli">Configure minimum package publication age from the CLI</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/nuget.md">Full Release Notes</a></li>
+</ul>
+<h2><strong>F#</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md#runtime-async-support">Runtime async support</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md#reraise-in-computation-expressions">reraise in computation expressions</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md#require-named-arguments-for-selected-apis">Require named arguments for selected APIs</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md#lower-allocations-in-fsharpcore-collections">Lower allocations in FSharp.Core collections</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md#compiler-memory-usage-improvements">Compiler memory usage improvements</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md#bound-concurrent-asynchronous-work">Bound concurrent asynchronous work</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md#trimming-and-native-aot-improvements">Trimming and Native AOT improvements</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/fsharp.md">Full Release Notes</a></li>
+</ul>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f310.png" alt="🌐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ASP.NET Core</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/aspnetcore.md#quickgrid-virtualization-apis-are-no-longer-experimental"><code>QuickGrid</code> virtualization APIs are no longer experimental</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/aspnetcore.md">Full Release Notes</a></li>
+</ul>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4f1.png" alt="📱" class="wp-smiley" style="height: 1em; max-height: 1em;" /> .NET MAUI</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/dotnetmaui.md#create-an-app-with-c-ui">Create an app with C# UI</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/dotnetmaui.md#use-apple-icon-composer-assets">Use Apple Icon Composer assets</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/dotnetmaui.md#evaluate-the-apple-shell-handler">Evaluate the Apple Shell handler</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/dotnetmaui.md#xaml-authoring-and-hot-reload">XAML authoring and Hot Reload</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/dotnetmaui.md#net-for-android">.NET for Android</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/dotnetmaui.md#apple-platforms-net-for-ios-mac-catalyst-macos-tvos">Apple platforms (.NET for iOS, Mac Catalyst, macOS, tvOS)</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/dotnetmaui.md">Full Release Notes</a></li>
+</ul>
+<h2><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f5a5.png" alt="🖥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Windows Forms</strong></h2>
+<ul>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md#visual-styles-and-appearance">Visual styles and appearance</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md#react-to-windows-visual-and-accessibility-settings">React to Windows visual and accessibility settings</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md#deferred-form-reveal">Deferred form reveal</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md#visual-basic-application-framework">Visual Basic Application Framework</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md#suspend-painting-and-layout-during-bulk-updates">Suspend painting and layout during bulk updates</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md#new-kioskmodemanager-component">New KioskModeManager component</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md#new-designer-guiding-analyzers">New Designer-guiding analyzers</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/rc2/winforms.md">Full Release Notes</a></li>
+</ul>
+<h2><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Get started</h2>
+<p>To get started with .NET 11,
+<a href="https://get.dot.net/11">install the .NET 11 SDK</a>.</p>
+<p>If you&#8217;re on Windows, we recommend installing the latest version of
+<a href="https://aka.ms/vs/insiders">Visual Studio 2026 Insiders</a>.</p>
+<p>You can also use Visual Studio Code and the
+<a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit">C# Dev Kit</a>
+extension with .NET 11.</p>
+<h2><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4e6.png" alt="📦" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Join a .NET community standup</h2>
+<p>Join us each week and engage with the developers and product managers behind
+.NET for
+<a href="https://dotnet.microsoft.com/live/community-standup">community standups</a>.</p>
+<h2><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4e2.png" alt="📢" class="wp-smiley" style="height: 1em; max-height: 1em;" /> .NET 11 Discussions</h2>
+<p>The team has been making release announcements alongside full
+<a href="https://github.com/dotnet/core/tree/main/release-notes/11.0">release notes</a>
+on the
+<a href="https://github.com/dotnet/core/discussions/categories/news">dotnet/core GitHub Discussions</a>.</p>
+<h2><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f514.png" alt="🔔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Stay up-to-date with .NET 11</h2>
+<p>You can stay up-to-date with all the features of .NET 11 with:</p>
+<ul>
+<li><a href="https://learn.microsoft.com/dotnet/core/whats-new/dotnet-11/overview">What&#8217;s new in .NET 11</a></li>
+<li><a href="https://learn.microsoft.com/dotnet/csharp/whats-new/csharp-15">What&#8217;s new in C# 15</a></li>
+<li><a href="https://learn.microsoft.com/aspnet/core/release-notes/aspnetcore-11">What&#8217;s new in ASP.NET Core</a></li>
+<li><a href="https://learn.microsoft.com/ef/core/what-is-new/ef-core-11.0/whatsnew">What&#8217;s new in Entity Framework Core</a></li>
+<li><a href="https://learn.microsoft.com/dotnet/core/compatibility/11">Breaking Changes in .NET 11</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/11.0/README.md">.NET 11 Releases</a></li>
+</ul>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/">Announcing .NET 11 Release Candidate 2</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/dotnet-11-rc-2.webp" type="image/jpeg" />
+	</item>
+		<item>
+		<title>.NET and .NET Framework October 2026 servicing releases updates</title>
+		<link>https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates/</link>
+					<comments>https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates/#respond</comments>
+		
+		<dc:creator><![CDATA[Rahul Bhandari (MSFT), Tara Overfield]]></dc:creator>
+		<pubDate>Mon, 12 Oct 2026 20:00:00 +0000</pubDate>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[.NET Framework]]></category>
+		<category><![CDATA[Maintenance & Updates]]></category>
+		<category><![CDATA[.net framework]]></category>
+		<guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=61032</guid>
+
+					<description><![CDATA[<p>A recap of the latest servicing updates for .NET and .NET Framework for October 2026.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates/">.NET and .NET Framework October 2026 servicing releases updates</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Welcome to our combined .NET servicing updates for October 2026. Let&#8217;s get into the latest release of .NET and .NET Framework. Here&#8217;s a quick overview of what&#8217;s new in our servicing releases:</p>
+<h2>Security improvements</h2>
+<p>.NET has been refreshed with the latest update as of October 13, 2026. This update contains security and non-security fixes.</p>
+<p>For the full list of CVEs, see the CVE list for each supported version:</p>
+<table>
+<thead>
+<tr>
+<th>.NET version</th>
+<th>CVE list</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.NET 10.0</td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/10.0/cve.md">CVE list</a></td>
+</tr>
+<tr>
+<td>.NET 9.0</td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/9.0/cve.md">CVE list</a></td>
+</tr>
+<tr>
+<td>.NET 8.0</td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/8.0/cve.md">CVE list</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>.NET 10.0</th>
+<th>.NET 9.0</th>
+<th>.NET 8.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Release Notes</td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.13/10.0.13.md">10.0.13</a></td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/9.0/9.0.21/9.0.21.md">9.0.21</a></td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.32/8.0.32.md">8.0.32</a></td>
+</tr>
+<tr>
+<td>Installers and binaries</td>
+<td><a href="https://dotnet.microsoft.com/download/dotnet/10.0">10.0.13</a></td>
+<td><a href="https://dotnet.microsoft.com/download/dotnet/9.0">9.0.21</a></td>
+<td><a href="https://dotnet.microsoft.com/download/dotnet/8.0">8.0.32</a></td>
+</tr>
+<tr>
+<td>Container Images</td>
+<td><a href="https://mcr.microsoft.com/catalog?search=dotnet/">images</a></td>
+<td><a href="https://mcr.microsoft.com/catalog?search=dotnet/">images</a></td>
+<td><a href="https://mcr.microsoft.com/catalog?search=dotnet/">images</a></td>
+</tr>
+<tr>
+<td>Linux packages</td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/10.0/install-linux.md">10.0</a></td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/9.0/install-linux.md">9.0</a></td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/8.0/install-linux.md">8.0</a></td>
+</tr>
+<tr>
+<td>Known Issues</td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/10.0/known-issues.md">10.0</a></td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/9.0/known-issues.md">9.0</a></td>
+<td><a href="https://github.com/dotnet/core/blob/main/release-notes/8.0/known-issues.md">8.0</a></td>
+</tr>
+</tbody>
+</table>
+<h3>Release changelogs</h3>
+<ul>
+<li>ASP.NET Core: <a href="https://github.com/dotnet/aspnetcore/issues?q=milestone%3A10.0.13%20is%3Aclosed%20label%3Aservicing-approved">10.0.13</a></li>
+<li>Runtime: <a href="https://github.com/dotnet/runtime/issues?q=milestone%3A10.0.13%20is%3Aclosed%20label%3Aservicing-approved">10.0.13</a> | <a href="https://github.com/dotnet/runtime/issues?q=milestone%3A9.0.21%20is%3Aclosed%20label%3Aservicing-approved">9.0.21</a></li>
+</ul>
+<h2>.NET Framework October 2026 Updates</h2>
+<p>This month, there are new security and non-security updates available. For recent .NET Framework servicing updates, be sure to browse our <a href="https://learn.microsoft.com/dotnet/framework/release-notes/release-notes">release notes for .NET Framework</a> for more details.</p>
+<h2>See you next month</h2>
+<p>That&#8217;s it for this month, make sure you update to the latest service release today.</p>
+<p>The post <a href="https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates/">.NET and .NET Framework October 2026 servicing releases updates</a> appeared first on <a href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-october-2026-servicing-updates/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<image url="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/10/october2026.webp" type="image/jpeg" />
+	</item>
+	</channel>
+</rss>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Latest Science News -- ScienceDaily</title>
+		<link>https://www.sciencedaily.com/news/</link>
+		<description></description>
+		<language>en-us</language>
+		<pubDate>Tue, 03 Nov 2026 23:31:09 EST</pubDate>
+		<lastBuildDate>Tue, 03 Nov 2026 23:31:09 EST</lastBuildDate>
+		<ttl>60</ttl>
+		<image>
+			<title>Latest Science News -- ScienceDaily</title>
+			<url>https://www.sciencedaily.com/images/scidaily-logo-rss.png</url>
+			<link>https://www.sciencedaily.com/news/</link>
+			<description>For more science news, visit ScienceDaily.</description>
+		</image>
+		<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="https://www.sciencedaily.com/rss/all.xml" type="application/rss+xml" />
+		<item>
+			<title>NASA smashed into an asteroid. Now Hera is closing in to see what happened</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261103003154.htm</link>
+			<description>Europe’s Hera spacecraft has captured its first clear view of two asteroids involved in NASA’s historic 2022 experiment to redirect a potentially dangerous space rock. Now approaching the pair, Hera will investigate the mysterious aftermath of the collision and uncover why the asteroid shifted far more than scientists predicted.</description>
+			<pubDate>Tue, 03 Nov 2026 04:46:21 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261103003154.htm</guid>
+		</item>
+		<item>
+			<title>NASA’s Voyager 1 is about to reach a historic one-light-day milestone</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261103003152.htm</link>
+			<description>NASA’s Voyager 1 is approaching an extraordinary milestone nearly 50 years after its launch, even as engineers battle dwindling power and mysterious technical problems. A clever energy-saving maneuver has extended the spacecraft’s scientific mission, while an unexplained 48-hour communications blackout recently gave NASA a scare. On November 18, Voyager 1 will reach a distance of one light-day from Earth, making even the simplest round-trip communication take 48 hours.</description>
+			<pubDate>Tue, 03 Nov 2026 03:11:10 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261103003152.htm</guid>
+		</item>
+		<item>
+			<title>A hidden star is plowing through Betelgeuse’s atmosphere, new evidence suggests</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261103003149.htm</link>
+			<description>Something mysterious is disturbing Betelgeuse, and astronomers believe they have identified the culprit: a hidden companion star called Siwarha. New radio observations reveal that the smaller star may be plowing through Betelgeuse’s enormous atmosphere, creating disturbances that subtly stretch and distort the red supergiant’s shape.</description>
+			<pubDate>Tue, 03 Nov 2026 21:52:16 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261103003149.htm</guid>
+		</item>
+		<item>
+			<title>Scientists identify two overlooked skills that predict reading success</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261102202845.htm</link>
+			<description>A massive new study reveals that intelligence plays a surprisingly limited role in children&#039;s reading success, while visual processing showed no meaningful connection at all. Instead, the strongest predictors are sound recognition, vocabulary, and background knowledge, offering new clues about how to help struggling readers.</description>
+			<pubDate>Tue, 03 Nov 2026 07:15:18 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261102202845.htm</guid>
+		</item>
+		<item>
+			<title>A 50-year-old mystery of vanishing frogs reveals a hidden killer</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261102202838.htm</link>
+			<description>A nearly 50-year-old mystery involving disappearing frogs in Brazil may finally be solved, with scientists uncovering evidence that a deadly fungus swept through the region and devastated vulnerable species. Remarkably, many frog populations have since rebounded, suggesting they developed greater tolerance to the disease that once threatened their survival.</description>
+			<pubDate>Tue, 03 Nov 2026 07:51:53 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261102202838.htm</guid>
+		</item>
+		<item>
+			<title>The brain’s hidden fear mechanism may explain anxiety and PTSD</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261102202833.htm</link>
+			<description>A surprising new discovery suggests that fear may cause the brain to blur the line between danger and safety rather than distinguish them more clearly. By observing brain activity in mice using augmented reality, scientists found that memories of threatening and harmless environments began to overlap, potentially allowing faster responses to danger. This &quot;better safe than sorry&quot; survival mechanism could help explain why people with anxiety or PTSD sometimes experience intense fear in completely safe situations.</description>
+			<pubDate>Tue, 03 Nov 2026 08:03:02 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261102202833.htm</guid>
+		</item>
+		<item>
+			<title>Gene editing could replace a lifetime of medication, but there&#039;s a catch</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261102202829.htm</link>
+			<description>A single gene-editing treatment could someday protect against heart disease, high cholesterol, and other common conditions for decades, potentially replacing lifelong medications. But scientists warn that permanently altering genes introduces risks that could take years to emerge, making long-term safety a critical challenge.</description>
+			<pubDate>Tue, 03 Nov 2026 23:30:57 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261102202829.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discover a surprising clue to autism&#039;s origins hidden in the placenta</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261102202824.htm</link>
+			<description>Scientists have uncovered an unexpected connection between inflammation during pregnancy, placental damage, and autism-like traits in male mice, while females appeared naturally protected. The discovery could help explain why autism is diagnosed more frequently in boys and reveal new opportunities for early intervention.</description>
+			<pubDate>Tue, 03 Nov 2026 07:41:49 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261102202824.htm</guid>
+		</item>
+		<item>
+			<title>All 5 genetic “letters” of DNA and RNA discovered in a 4.5-billion-year-old asteroid</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261102075903.htm</link>
+			<description>Scientists have discovered all five essential nucleobases used in DNA and RNA in pristine samples from asteroid Ryugu, revealing that key ingredients for life existed in space billions of years ago. The remarkable finding adds to growing evidence from other asteroids and meteorites that these molecules were widespread throughout the early Solar System.</description>
+			<pubDate>Tue, 03 Nov 2026 05:58:24 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261102075903.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discover new Alzheimer’s drug that repairs DNA damage and reduces brain inflammation</title>
+			<link>https://www.sciencedaily.com/releases/2026/11/261102075806.htm</link>
+			<description>Scientists have discovered that a drug originally developed for spinal cord injuries can tackle several key features of Alzheimer’s disease, including DNA damage and inflammation. Already tested for initial safety in humans, the experimental treatment could offer a faster path toward therapies that target the disease at its roots.</description>
+			<pubDate>Mon, 02 Nov 2026 23:11:58 EST</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/11/261102075806.htm</guid>
+		</item>
+		
+	</channel>
+</rss>
+<!-- cached Tue, 03 Nov 2026 23:31:06 EST -->

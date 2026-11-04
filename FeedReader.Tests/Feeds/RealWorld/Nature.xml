@@ -1,0 +1,332 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/">
+    <channel rdf:about="http://feeds.nature.com/nature/rss/current">
+        <title>Nature</title>
+        <description>Nature is the foremost international weekly scientific journal in the world and is the flagship journal for Nature Portfolio. It publishes the finest peer-reviewed research in all fields of science and technology on the basis of its originality, importance, interdisciplinary interest, timeliness, accessibility, elegance and surprising conclusions. Nature publishes landmark papers, award winning news, leading comment and expert opinion on important, topical scientific news and events that enable readers to share the latest discoveries in science and evolve the discussion amongst the global scientific community.</description>
+        <link>http://feeds.nature.com/nature/rss/current</link>
+        <admin:generatorAgent rdf:resource="https://www.nature.com/"/>
+        <admin:errorReportsTo rdf:resource="mailto:feedback@nature.com"/>
+        <dc:publisher>Nature Publishing Group</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:rights>© 2026 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</dc:rights>
+        <prism:publicationName>Nature</prism:publicationName>
+        
+        
+        <prism:copyright>© 2026 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</prism:copyright>
+        <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+        <image rdf:resource="https://www.nature.com/uploads/product/nature/rss.png"/>
+        <items>
+            <rdf:Seq>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03544-8"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03505-1"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03277-8"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03562-6"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03560-8"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03559-1"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03561-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03538-6"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03340-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03503-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03508-y"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03510-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03480-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03504-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03554-6"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03397-1"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03540-y"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03545-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11350-5"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03387-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03571-5"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03506-0"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03485-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03346-y"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03509-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03511-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-02465-w"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03507-z"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03564-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03553-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11337-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03543-9"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03556-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03368-6"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03502-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03455-8"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03512-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03386-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03548-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03479-0"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11348-z"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11335-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03486-1"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03484-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03260-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03444-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03531-z"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03263-0"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-02202-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03402-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03261-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03294-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03445-w"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03325-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03476-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03488-z"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03391-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03415-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03288-5"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03262-1"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03248-z"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03067-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03298-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-03107-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-026-02670-7"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11180-5"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11211-1"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-10438-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11223-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11190-3"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11195-y"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11202-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-10966-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11214-y"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-026-11181-4"/>
+                
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://www.nature.com/uploads/product/nature/rss.png">
+        <title>Nature</title>
+        <url>https://www.nature.com/uploads/product/nature/rss.png</url>
+        <link>http://feeds.nature.com/nature/rss/current</link>
+    </image>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03544-8">
+            <title><![CDATA[Ecosystems depend on people: don’t abandon them]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03544-8</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 04 November 2026; <a href="https://www.nature.com/articles/d41586-026-03544-8">doi:10.1038/d41586-026-03544-8</a></p>It might seem counterproductive to put more people in nature, but sometimes human activity nurtures biodiversity.]]></content:encoded>
+            <dc:title><![CDATA[Ecosystems depend on people: don’t abandon them]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-026-03544-8</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-04; | doi:10.1038/d41586-026-03544-8</dc:source>
+            <dc:date>2026-11-04</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03544-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03544-8</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03505-1">
+            <title><![CDATA[When humans disappear, biodiversity takes a surprising turn]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03505-1</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 04 November 2026; <a href="https://www.nature.com/articles/d41586-026-03505-1">doi:10.1038/d41586-026-03505-1</a></p>For decades, conservation has worried about the risks of too many people. In some places, depopulation is the real threat.]]></content:encoded>
+            <dc:title><![CDATA[When humans disappear, biodiversity takes a surprising turn]]></dc:title>
+            <dc:creator>Emma Marris</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-026-03505-1</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-04; | doi:10.1038/d41586-026-03505-1</dc:source>
+            <dc:date>2026-11-04</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03505-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03505-1</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03277-8">
+            <title><![CDATA[Whence dragons?]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03277-8</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03277-8">doi:10.1038/d41586-026-03277-8</a></p>The ecology and evolution of winged legendary beasts, and monkeys that show their behinds to their buddies, in this week’s pick from the Nature archive.]]></content:encoded>
+            <dc:title><![CDATA[Whence dragons?]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-026-03277-8</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03277-8</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03277-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03277-8</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03562-6">
+            <title><![CDATA[Research bonuses need clear and fair rules]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03562-6</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03562-6">doi:10.1038/d41586-026-03562-6</a></p>Research bonuses need clear and fair rules]]></content:encoded>
+            <dc:title><![CDATA[Research bonuses need clear and fair rules]]></dc:title>
+            <dc:creator>Xianjun Xiao</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-026-03562-6</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03562-6</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03562-6</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03562-6</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03560-8">
+            <title><![CDATA[Safety alerts must reach visiting PhD students]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03560-8</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03560-8">doi:10.1038/d41586-026-03560-8</a></p>Safety alerts must reach visiting PhD students]]></content:encoded>
+            <dc:title><![CDATA[Safety alerts must reach visiting PhD students]]></dc:title>
+            <dc:creator>Lixiang Wang</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-026-03560-8</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03560-8</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03560-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03560-8</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03559-1">
+            <title><![CDATA[Universities must measure learning, both with and without AI assistance]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03559-1</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03559-1">doi:10.1038/d41586-026-03559-1</a></p>Universities must measure learning, both with and without AI assistance]]></content:encoded>
+            <dc:title><![CDATA[Universities must measure learning, both with and without AI assistance]]></dc:title>
+            <dc:creator>Christoph Trattner</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-026-03559-1</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03559-1</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03559-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03559-1</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03561-7">
+            <title><![CDATA[China should share the evidence behind animal-testing alternatives openly]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03561-7</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03561-7">doi:10.1038/d41586-026-03561-7</a></p>China should share the evidence behind animal-testing alternatives openly]]></content:encoded>
+            <dc:title><![CDATA[China should share the evidence behind animal-testing alternatives openly]]></dc:title>
+            <dc:creator>Guo Zhao</dc:creator><dc:creator>Shuhang Wang</dc:creator><dc:creator>Ning Li</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-026-03561-7</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03561-7</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03561-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03561-7</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03538-6">
+            <title><![CDATA[Historic Marburg outbreak hints at long-term viral hideout]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03538-6</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03538-6">doi:10.1038/d41586-026-03538-6</a></p>Sequencing of Marburg virus collected during Ethiopia’s first outbreak suggests that the pathogen is lurking in East and Central Africa.]]></content:encoded>
+            <dc:title><![CDATA[Historic Marburg outbreak hints at long-term viral hideout]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-026-03538-6</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03538-6</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03538-6</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03538-6</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03340-4">
+            <title><![CDATA[Will AI grant reviews make science more conservative?]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03340-4</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03340-4">doi:10.1038/d41586-026-03340-4</a></p>Researchers are questioning whether outsourcing decisions about research funding to artificial intelligence will reduce scientific novelty.]]></content:encoded>
+            <dc:title><![CDATA[Will AI grant reviews make science more conservative?]]></dc:title>
+            <dc:creator>Elliot Yates</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-026-03340-4</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03340-4</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03340-4</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03340-4</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-026-03503-3">
+            <title><![CDATA[Trump’s executive order on women’s health feels like déjà vu]]></title>
+            <link>https://www.nature.com/articles/d41586-026-03503-3</link>
+            <content:encoded>
+                <![CDATA[<p>Nature, Published online: 03 November 2026; <a href="https://www.nature.com/articles/d41586-026-03503-3">doi:10.1038/d41586-026-03503-3</a></p>Previous US administrations fell short on promised improvements to women’s-health research — here’s what real change will take.]]></content:encoded>
+            <dc:title><![CDATA[Trump’s executive order on women’s health feels like déjà vu]]></dc:title>
+            <dc:creator>Alina Salganicoff</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-026-03503-3</dc:identifier>
+            <dc:source>Nature, Published online: 2026-11-03; | doi:10.1038/d41586-026-03503-3</dc:source>
+            <dc:date>2026-11-03</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-026-03503-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-026-03503-3</prism:url>
+        </item>
+    
+        
+    
+</rdf:RDF>

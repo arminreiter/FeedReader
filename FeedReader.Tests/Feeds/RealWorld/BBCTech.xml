@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News]]></title>
+        <description><![CDATA[BBC News - Technology]]></description>
+        <link>https://www.bbc.co.uk/news/technology</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News</title>
+            <link>https://www.bbc.co.uk/news/technology</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 04 Nov 2026 11:30:59 GMT</lastBuildDate>
+        <atom:link href="https://feeds.bbci.co.uk/news/technology/rss.xml" rel="self" type="application/rss+xml"/>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Graduates are managing AI - but are they learning much else?]]></title>
+            <description><![CDATA[Graduates are spending more time managing AI, but are they missing out on other work experience?]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c820vz6wyp65o#0</guid>
+            <pubDate>Wed, 04 Nov 2026 00:04:35 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82d9/live/cc0124d0-cd54-11f1-a64c-550be9e3c66b.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Binance says fake job interviews used as part of $6.3bn crypto hack]]></title>
+            <description><![CDATA[An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o#0</guid>
+            <pubDate>Tue, 03 Nov 2026 16:19:29 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b517/live/8d68c970-d7a0-11f1-84dd-e55f4bec0ecd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[UK meat industry hit by cyber-attack which targeted European supermarket freezers ]]></title>
+            <description><![CDATA[Supermarkets in countries including Ireland, Sweden  and Belgium reported fridges being hiked in temperature on Monday.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o#0</guid>
+            <pubDate>Tue, 03 Nov 2026 13:07:00 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Apple unsure when it will get more foldable iPhones ahead of Christmas]]></title>
+            <description><![CDATA[The tech giant reports strong sales but admits "constraints" are affecting supplies of the iPhone Duo.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6n8dn457ypko#0</guid>
+            <pubDate>Tue, 03 Nov 2026 11:10:37 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f701/live/34eec070-d79f-11f1-84dd-e55f4bec0ecd.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[North Korea denies being behind record $6.3bn Binance hack]]></title>
+            <description><![CDATA[US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6rey4v53exgo#0</guid>
+            <pubDate>Tue, 03 Nov 2026 08:33:20 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a90/live/75145840-d727-11f1-b237-93d5595d4291.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[If hackers can take control of a supermarket freezer, how vulnerable is other tech?]]></title>
+            <description><![CDATA[Dozens of shops across European countries have been hit by a cyber-attack affecting their fridges.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/ckpqg8lve73go#0</guid>
+            <pubDate>Mon, 02 Nov 2026 18:25:01 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/db6d/live/6afb9b70-d6cd-11f1-ac20-7783925c811f.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Binance users withdraw $3.6bn after largest-ever crypto hack]]></title>
+            <description><![CDATA[The exchange froze transactions following the incident which has been linked to a North Korean group.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cwj34gdmnly4o#0</guid>
+            <pubDate>Mon, 02 Nov 2026 07:42:33 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7f/live/ad865b20-d64f-11f1-a701-fddedf244c16.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[These firms you've never heard of are feeding fears the AI bubble could burst]]></title>
+            <description><![CDATA[The amount of debt held by data centres is measured in the tens of billions of pounds.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cje36degrgv5o#0</guid>
+            <pubDate>Sun, 01 Nov 2026 01:37:26 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16f5/live/d2c08770-d493-11f1-93e1-3b657b665bcf.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Why North Korea's 'elite' hackers are the prime suspect in major Binance hack]]></title>
+            <description><![CDATA[If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o#0</guid>
+            <pubDate>Sat, 31 Oct 2026 02:12:19 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[US tech stocks see sharp falls as AI spending nears $1tn]]></title>
+            <description><![CDATA[Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cvwy72e0n72yo#0</guid>
+            <pubDate>Fri, 30 Oct 2026 20:34:46 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg"/>
+        </item>
+        
+    </channel>
+</rss>

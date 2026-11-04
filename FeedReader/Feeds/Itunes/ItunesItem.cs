@@ -38,6 +38,11 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
 
             Subtitle = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "subtitle");
             Summary = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "summary");
+
+            Episode = Helpers.TryParseInt(itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "episode"));
+            Season = Helpers.TryParseInt(itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "season"));
+            EpisodeType = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "episodeType");
+            Keywords = ItunesChannel.ParseKeywords(itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "keywords"));
         }
 
         private static TimeSpan? ParseDuration(string duration)
@@ -112,5 +117,25 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
         /// The itunes:summary element
         /// </summary>
         public string Summary { get; }
+
+        /// <summary>
+        /// The itunes:episode element
+        /// </summary>
+        public int? Episode { get; }
+
+        /// <summary>
+        /// The itunes:season element
+        /// </summary>
+        public int? Season { get; }
+
+        /// <summary>
+        /// The itunes:episodeType element (full, trailer or bonus)
+        /// </summary>
+        public string EpisodeType { get; }
+
+        /// <summary>
+        /// The itunes:keywords element, split by comma
+        /// </summary>
+        public string[] Keywords { get; }
     }
 }

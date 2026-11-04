@@ -24,11 +24,23 @@
         // The HttpClient instance must be a static field
         // https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/
         private static readonly HttpClient _httpClient = new HttpClient(
+#if NETCOREAPP2_1
+            // recycle pooled connections so a static client picks up DNS changes in long running apps
+            new SocketsHttpHandler
+            {
+                AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate,
+                PooledConnectionLifetime = TimeSpan.FromMinutes(5)
+            }
+#else
             new HttpClientHandler
             {
                 AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
             }
+#endif
         );
+
+        // <link ... rel="alternate" ...> with double or single quotes
+        private static readonly Regex LinkTagRegex = new Regex("<link[^>]*rel\\s*=\\s*[\"']alternate[\"'][^>]*>", RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
         /// <summary>
         /// Download the content from an url
@@ -51,31 +63,47 @@
         /// <returns>Content as byte array</returns>
         public static async Task<byte[]> DownloadBytesAsync(string url, CancellationToken cancellationToken, bool autoRedirect = true, string userAgent = USER_AGENT_VALUE)
         {
-            url = System.Net.WebUtility.UrlDecode(url);
-            HttpResponseMessage response;
+            // decoding a well-formed url breaks escaped chars (e.g. ?u=https%3A%2F%2F...), so only
+            // decode input that isn't a valid url yet - keeps old behavior for fully encoded urls.
+            if (!Uri.IsWellFormedUriString(url, UriKind.Absolute))
+                url = System.Net.WebUtility.UrlDecode(url);
+            userAgent = userAgent ?? USER_AGENT_VALUE;
+
+            using (var response = await SendAsync(url, userAgent, cancellationToken).ConfigureAwait(false))
+            {
+                if (!response.IsSuccessStatusCode)
+                {
+                    var statusCode = (int)response.StatusCode;
+                    // HttpClientHandler follows most redirects itself; this covers the rest (e.g. https -> http on .net core)
+                    // 301 - Moved Permanently, 302 - Moved temporarily, 307 - Temporary redirect, 308 - Permanent redirect
+                    var location = response.Headers.Location;
+                    if (autoRedirect && location != null && (statusCode == 301 || statusCode == 302 || statusCode == 307 || statusCode == 308))
+                        url = (location.IsAbsoluteUri ? location : new Uri(new Uri(url), location)).AbsoluteUri;
+
+                    // some pages return forbidden if a user-agent is set (see commit 351e3ff) - retry once without headers.
+                    // redirect targets are requested the same way, like before.
+                    using (var retry = await SendAsync(url, userAgent, cancellationToken, withHeaders: false).ConfigureAwait(false))
+                    {
+                        // ponytail: error responses still return their body (no exception) to stay backward compatible
+                        return await retry.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
+                    }
+                }
+
+                return await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
+            }
+        }
+
+        private static async Task<HttpResponseMessage> SendAsync(string url, string userAgent, CancellationToken cancellationToken, bool withHeaders = true)
+        {
             using (var request = new HttpRequestMessage(HttpMethod.Get, url))
             {
-                request.Headers.TryAddWithoutValidation(ACCEPT_HEADER_NAME, ACCEPT_HEADER_VALUE);
-                request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, userAgent);
-
-                response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
-            }
-            if (!response.IsSuccessStatusCode)
-            {
-                var statusCode = (int)response.StatusCode;
-                // redirect if statuscode = 301 - Moved Permanently, 302 - Moved temporarly 308 - Permanent redirect
-                if (autoRedirect && (statusCode == 301 || statusCode == 302 || statusCode == 308))
+                if (withHeaders)
                 {
-                    url = response.Headers?.Location?.AbsoluteUri ?? url;
+                    request.Headers.TryAddWithoutValidation(ACCEPT_HEADER_NAME, ACCEPT_HEADER_VALUE);
+                    request.Headers.TryAddWithoutValidation(USER_AGENT_NAME, userAgent);
                 }
-
-                using (var request = new HttpRequestMessage(HttpMethod.Get, url))
-                {
-                    response = await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
-                }
+                return await _httpClient.SendAsync(request, HttpCompletionOption.ResponseContentRead, cancellationToken).ConfigureAwait(false);
             }
-            var content = await response.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
-            return content;
         }
 
         /// <summary>
@@ -142,19 +170,13 @@
 
                     parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None, out dt);
                 }
-                if (!parseSuccess)
+                // strip the last part (usually an unknown timezone like "CEST") and assume utc
+                int lastSpace = datetime.LastIndexOf(' ');
+                if (!parseSuccess && lastSpace > 0)
                 {
-                    string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
+                    string newdtstring = datetime.Substring(0, lastSpace).Trim();
 
                     parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.AssumeUniversal,
-                        out dt);
-                }
-                
-                if (!parseSuccess)
-                {
-                    string newdtstring = datetime.Substring(0, datetime.LastIndexOf(" ")).Trim();
-                    
-                    parseSuccess = DateTimeOffset.TryParse(newdtstring, dateTimeFormat, DateTimeStyles.None,
                         out dt);
                 }
             }
@@ -265,11 +287,9 @@
             // <link rel="alternate" type="application/rss+xml" title="Microsoft Bot Framework Blog" href="http://blog.botframework.com/feed.xml">
             // <link rel="alternate" type="application/atom+xml" title="Aktuelle News von heise online" href="https://www.heise.de/newsticker/heise-atom.xml">
 
-            Regex rex = new Regex("<link[^>]*rel=\"alternate\"[^>]*>", RegexOptions.Singleline);
-
             List<HtmlFeedLink> result = new List<HtmlFeedLink>();
 
-            foreach (Match m in rex.Matches(htmlContent))
+            foreach (Match m in LinkTagRegex.Matches(htmlContent))
             {
                 var hfl = GetFeedLinkFromLinkTag(m.Value);
                 if (hfl != null)
@@ -287,11 +307,9 @@
         /// <returns>the value of the attribute, e.g. my title</returns>
         private static string GetAttributeFromLinkTag(string attribute, string htmlTag)
         {
-            var res = Regex.Match(htmlTag, attribute + "\\s*=\\s*\"(?<val>[^\"]*)\"", RegexOptions.IgnoreCase & RegexOptions.IgnorePatternWhitespace);
-
-            if (res.Groups.Count > 1)
-                return res.Groups[1].Value;
-            return string.Empty;
+            // value in double or single quotes
+            var res = Regex.Match(htmlTag, attribute + "\\s*=\\s*(?:\"(?<val>[^\"]*)\"|'(?<val>[^']*)')", RegexOptions.IgnoreCase);
+            return res.Success ? res.Groups["val"].Value : string.Empty;
         }
     }
 }

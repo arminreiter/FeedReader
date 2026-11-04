@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright Slashdot Media. All Rights Reserved.</dc:rights>
+<dc:date>2026-11-04T11:18:47+00:00</dc:date>
+<dc:publisher>Slashdot Media</dc:publisher>
+<dc:creator>feedback@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://science.slashdot.org/story/26/11/04/066209/dinosaur-blood-found-in-fossils-for-the-first-time?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://politics.slashdot.org/story/26/11/04/0629214/democrats-take-control-of-us-congress-as-voters-reject-trumps-republicans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/26/11/03/2354228/ukraines-drone-strikes-spur-hasty-russian-plans-for-underground-data-centers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/26/11/03/2347212/ios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/26/11/03/2144244/eu-court-advisor-warns-google-ai-chatbot-may-breach-copyright-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://games.slashdot.org/story/26/11/03/2113209/bethesda-confirms-the-elder-scrolls-6-is-called-sentinel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/26/11/03/214205/firefoxs-new-mini-window-is-every-multitaskers-dream?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://it.slashdot.org/story/26/11/03/1939254/binance-says-hackers-used-fake-job-interviews-ai-tool-to-steal-63-billion-in-crypto?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/26/11/03/190206/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://linux.slashdot.org/story/26/11/03/0620205/suse-to-cut-one-in-ten-employees-because-of-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/26/11/03/0537252/mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-scores?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://it.slashdot.org/story/26/11/03/0558219/cops-bust-botnet-of-13-million-android-tv-boxes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/26/11/03/0550259/china-publicly-discloses-plan-for-a-lunar-landing-within-three-years?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/26/11/03/0243238/byd-sold-more-evs-last-month-than-the-us-did-all-quarter?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="https://slashdot.org/search.pl" />
+</channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://science.slashdot.org/story/26/11/04/066209/dinosaur-blood-found-in-fossils-for-the-first-time?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Dinosaur Blood Found In Fossils For the First Time</title>
+<link>https://science.slashdot.org/story/26/11/04/066209/dinosaur-blood-found-in-fossils-for-the-first-time?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Researchers have confirmed the presence of intact biomolecules and mineralized red blood cells inside the 115-million-year-old fossilized bones of a juvenile Aratasaurus museunacionali from Brazil. The discovery challenges assumptions about how long blood-related biomolecules can survive and could help scientists study dinosaur metabolism, blood evolution and even how traces of ancient life might be preserved on other worlds. Popular Science reports: The evidence exists inside the fossilized limb bones of a juvenile Aratasaurus museunacionali. Discovered in 2008, A. museunacionali was an Early Cretaceous theropod that lived in present-day northeastern Brazil. The fossils suggest a dinosaur measuring over 10 feet long and weighing about 75 pounds, but given its young age, A. museunacionali likely grew even larger. After carefully examining thin slices of the fossils, paleontologists located the mineralized red blood cell molecular components, along with a complex manganese oxide called hausmannite. This material helped maintain the cellular structures of heme, a ring-shaped molecule that contains iron and binds many proteins, especially hemoglobin. The hausmannite also helped preserve additional biomolecules found in the blood, such as the amino acids in collagen. The study's authors theorize this level of preservation could only occur following a rapid burial in an environment that was rich in microbes, but low in oxygen at the same time. The findings have been published in the journal Proceedings of the National Academy of Sciences (PNAS).&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Dinosaur+Blood+Found+In+Fossils+For+the+First+Time%3A+https%3A%2F%2Fscience.slashdot.org%2Fstory%2F26%2F11%2F04%2F066209%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F26%2F11%2F04%2F066209%2Fdinosaur-blood-found-in-fossils-for-the-first-time%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/26/11/04/066209/dinosaur-blood-found-in-fossils-for-the-first-time?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24142258&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-04T10:00:00+00:00</dc:date>
+<dc:subject>biotech</dc:subject>
+<slash:department>landmark-discoveries</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>3</slash:comments>
+<slash:hit_parade>3,3,3,2,0,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://politics.slashdot.org/story/26/11/04/0629214/democrats-take-control-of-us-congress-as-voters-reject-trumps-republicans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Democrats Take Control of US Congress As Voters Reject Trump's Republicans</title>
+<link>https://politics.slashdot.org/story/26/11/04/0629214/democrats-take-control-of-us-congress-as-voters-reject-trumps-republicans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Tuesday, November 3, was Election Day in the United States, and the results are (mostly) in: Democrats are projected to win control of both the House and Senate in the 2026 midterms. The blue wave turned out to be more of a blue tsunami, ending Republican control of Congress for the final two years of President Donald Trump's second term.
+ 
+Democrats flipped seven Republican-held Senate seats in the 2026 midterms, including surprise victories in traditionally Republican strongholds such as Texas, Kansas, and South Carolina. Kansas elected its first Democratic U.S. senator in nearly 100 years (94 years to be exact), while Texas and South Carolina sent Democrats to the Senate for the first time in decades. Democrats also picked up seats in Ohio, Iowa, Maine, and North Carolina.
+ 
+Developing...&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Democrats+Take+Control+of+US+Congress+As+Voters+Reject+Trump's+Republicans%3A+https%3A%2F%2Fpolitics.slashdot.org%2Fstory%2F26%2F11%2F04%2F0629214%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fpolitics.slashdot.org%2Fstory%2F26%2F11%2F04%2F0629214%2Fdemocrats-take-control-of-us-congress-as-voters-reject-trumps-republicans%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://politics.slashdot.org/story/26/11/04/0629214/democrats-take-control-of-us-congress-as-voters-reject-trumps-republicans?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24142282&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-04T06:30:00+00:00</dc:date>
+<dc:subject>democrats</dc:subject>
+<slash:department>beginning-of-Trump's-end</slash:department>
+<slash:section>politics</slash:section>
+<slash:comments>107</slash:comments>
+<slash:hit_parade>107,97,86,76,32,15,10</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/26/11/03/2354228/ukraines-drone-strikes-spur-hasty-russian-plans-for-underground-data-centers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Ukraine's Drone Strikes Spur Hasty Russian Plans For Underground Data Centers</title>
+<link>https://tech.slashdot.org/story/26/11/03/2354228/ukraines-drone-strikes-spur-hasty-russian-plans-for-underground-data-centers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from Ars Technica: [S]tate-owned telecommunications company Rostelcom has raised the possibility of moving some Russian data centers underground in talks with the nickel and palladium mining company Norilsk, according to Russian newspaper Vedomosti. The industry publication Data Center Dynamics also pointed to a recent proposal by a Russian regional governor to build data centers within open-pit coal mines while planting green public parks above as camouflage.
+ 
+On November 2, Putin also signed a decree ordering Russian data center operators to set aside 10 percent of available space and capacity in case the Russian government requires it, according to independent Russian news publication Meduza. That may indicate growing Kremlin concerns about the vulnerability of Russian cloud computing infrastructure during its war with Ukraine. Putin's decree also allows a special Russian government commission to authorize use of foreign data centers in consultation with Russia's Federal Security Service. That marks a notable policy change because Putin and the Russian parliament previously enacted Russia's "Sovereign Internet Law," which has blocked Russian companies from using cloud computing infrastructure outside Russia's borders.
+ 
+Russia's push for a sovereign and increasingly closed Internet has resulted in a highly centralized system under a few Russian tech companies like Yandex. That hyper-centralized system has now proven vulnerable during wartime, as Ukrainian drone strikes on key Russian data centers created widespread disruptions for popular payment and digital banking apps, e-commerce platforms, video streaming services, and ride-hailing and food delivery apps, among others. Yandex has also been forced to relocate all three of its main supercomputers after Ukrainian drone strikes targeted the AI data centers where they were originally housed, Meduza reported.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Ukraine's+Drone+Strikes+Spur+Hasty+Russian+Plans+For+Underground+Data+Centers%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F11%2F03%2F2354228%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F11%2F03%2F2354228%2Fukraines-drone-strikes-spur-hasty-russian-plans-for-underground-data-centers%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/26/11/03/2354228/ukraines-drone-strikes-spur-hasty-russian-plans-for-underground-data-centers?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24142024&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-04T03:30:00+00:00</dc:date>
+<dc:subject>military</dc:subject>
+<slash:department>data-center-war</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>22</slash:comments>
+<slash:hit_parade>22,22,16,15,1,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/26/11/03/2347212/ios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>iOS 27.3 Adds Vertical Tabs, Adaptive Dark Mode to Safari</title>
+<link>https://tech.slashdot.org/story/26/11/03/2347212/ios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Apple is adding vertical tabs and an Adaptive Dark Mode to Safari with iOS 27.3, iPadOS 27.3 and macOS Golden Gate 27.3. The December updates will also expand Siri's browser controls, including organizing tabs and clearing site-specific history, with a later feature allowing Siri to understand and answer questions about content across multiple open webpages. MacRumors reports: Vertical Tabs are located on the left side of the display and use icons by default to save space, but there is an option to make the tab bar wider to show website titles as well. Vertical Tabs work with both Topics and Tab Groups to keep things organized. Topics are created when automatic Apple Intelligence tab sorting is turned on in iOS 27. Pinning tabs by dragging, quickly swapping between Tab Groups, and other features also continue to work.
+ 
+[...] Apple is adding Adaptive Dark Mode for websites that don't have a dark mode design option by default. If you use Dark Mode and then browse to a website with a bright background color, Safari will offer an option to "Try" Adaptive Dark Mode. After tapping Try, Safari renders a Dark Mode version of the page that makes the background darker, changes text contrast, inverts logos and graphics, recolors vector artwork, lifts raised surfaces, and rebalances layered shadows.
+ 
+Each website will be adapted based on what's needed to make it readable, so not every tweak is applied to every site. You can opt to turn Adaptive Dark Mode on for all sites or on a site-by-site basis after using it. If a site has a native dark mode or has a dark design already, Adaptive Dark Mode won't activate. Developers can also add a tag that causes Safari to ignore Adaptive Dark Mode and show the website as the developer intended.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=iOS+27.3+Adds+Vertical+Tabs%2C+Adaptive+Dark+Mode+to+Safari%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F11%2F03%2F2347212%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F11%2F03%2F2347212%2Fios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/26/11/03/2347212/ios-273-adds-vertical-tabs-adaptive-dark-mode-to-safari?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24142008&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-04T00:00:00+00:00</dc:date>
+<dc:subject>safari</dc:subject>
+<slash:department>new-and-improved</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>6</slash:comments>
+<slash:hit_parade>6,6,6,4,3,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/26/11/03/2144244/eu-court-advisor-warns-google-ai-chatbot-may-breach-copyright-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>EU Court Advisor Warns Google AI Chatbot May Breach Copyright Rules</title>
+<link>https://yro.slashdot.org/story/26/11/03/2144244/eu-court-advisor-warns-google-ai-chatbot-may-breach-copyright-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An adviser to the EU's highest court says Google's Gemini may violate publishers' copyright when it reproduces recognizable portions of their articles or circumvents paywalls and other technical protections to generate answers. Reuters reports: The case before the Luxembourg-based Court of Justice of the European Union pitted Hungarian website operator Like Company against US-based Google's artificial intelligence chatbot Gemini. A ruling against Google, which could force the tech giant to pay fees for the use of such content, could throw a lifeline to online media such as Like Company. They have seen traffic dwindle as news summaries written by AI chatbots like Gemini increasingly replace traditional search engines' results, which include hyperlinks to the media websites.
+ 
+"When an LLM (large language model)-driven chatbot retrieves a publication from a press publisher's website, reuses that publication to generate an answer, and provides that answer to the user, the press publisher's right may be infringed in certain circumstances," Advocate General Maciej Szpunar said. Gemini's answers fall under the publishers' right of reproduction when chatbots access publications by unlawfully "circumventing paywalls or other technical barriers, or when they reuse "the form of expression of that publication in a recognizable manner," he said.
+ 
+Copyright rules do not protect the "mere facts" reported by press publications, but "only the specific form of expression," he added. On the other hand, he said, the use of material protected by copyright to train LLMs -- AI systems that use vast amounts of text to generate human-like responses and summarize information -- is "freely permitted under the text and data mining exception." Szpunar said there was no evidence that Google had used the Hungarian publisher's articles to train Gemini. The court, which follows the majority of its advisers' non-binding opinions, will rule in the coming months. "Google's powerful gatekeeping role in search makes this particularly important. Publishers depend on Google to reach readers, while Google increasingly delivers AI-generated answers directly to users," said Angela Mills Wade, the council's executive director.
+ 
+"Publishers should not have to choose between search visibility and protecting their rights. Nor should Google's control over access to audiences become leverage to secure publishers' content for AI services," she said.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=EU+Court+Advisor+Warns+Google+AI+Chatbot+May+Breach+Copyright+Rules%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F26%2F11%2F03%2F2144244%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F26%2F11%2F03%2F2144244%2Feu-court-advisor-warns-google-ai-chatbot-may-breach-copyright-rules%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/26/11/03/2144244/eu-court-advisor-warns-google-ai-chatbot-may-breach-copyright-rules?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24141918&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-03T23:00:00+00:00</dc:date>
+<dc:subject>court</dc:subject>
+<slash:department>recognizably-copyrighted</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>19</slash:comments>
+<slash:hit_parade>19,19,16,14,3,1,1</slash:hit_parade>
+</item>
+<item rdf:about="https://games.slashdot.org/story/26/11/03/2113209/bethesda-confirms-the-elder-scrolls-6-is-called-sentinel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Bethesda Confirms The Elder Scrolls 6 Is Called 'Sentinel'</title>
+<link>https://games.slashdot.org/story/26/11/03/2113209/bethesda-confirms-the-elder-scrolls-6-is-called-sentinel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>During a video celebrating Bethesda's 40th anniversary, the studio officially confirmed that The Elder Scrolls VI will be titled The Elder Scrolls VI: Sentinel. "Thank you for 40 years of shared memories," wrote Bethesda in a separate tweet. "We can't wait to make even more together with The Elder Scrolls VI: Sentinel. Development continues, and while it'll be some time before we're ready to share more, it feels great to finally reveal the name and location with you." Video Games Chronicle reports: "You know, as we're here in the 40th anniversary, we think about all of the games we've made," Bethesda's executive producer Todd Howard said in the video, walking past a display case. "And you know, every day when I walk by this case, obviously I look at the games and think about them, but more so I think about the teams that made them, and the time and the passion that everybody put into the games. And then what they meant to all of you, and hearing from you, and the time that you spent in them, how meaningful that was to you, and to let you know when we hear that, how meaningful that is to us.
+ 
+And so even though yes, we're looking back, we're also looking forward to all we're doing, particularly with the Fallout franchise and obviously The Elder Scrolls. You know, everybody's always asking about Elder Scrolls 6. And we thought, hey, given the the moment, what a perfect time to tell you what The Elder Scrolls 6 is actually called." The video then showed the logo for the game.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Bethesda+Confirms+The+Elder+Scrolls+6+Is+Called+'Sentinel'%3A+https%3A%2F%2Fgames.slashdot.org%2Fstory%2F26%2F11%2F03%2F2113209%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fgames.slashdot.org%2Fstory%2F26%2F11%2F03%2F2113209%2Fbethesda-confirms-the-elder-scrolls-6-is-called-sentinel%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://games.slashdot.org/story/26/11/03/2113209/bethesda-confirms-the-elder-scrolls-6-is-called-sentinel?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24141892&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-03T22:00:00+00:00</dc:date>
+<dc:subject>games</dc:subject>
+<slash:department>wait-is-on</slash:department>
+<slash:section>games</slash:section>
+<slash:comments>16</slash:comments>
+<slash:hit_parade>16,16,15,13,1,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/26/11/03/214205/firefoxs-new-mini-window-is-every-multitaskers-dream?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Firefox's New Mini Window Is Every Multitasker's Dream</title>
+<link>https://news.slashdot.org/story/26/11/03/214205/firefoxs-new-mini-window-is-every-multitaskers-dream?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Mozilla is testing a new Firefox Nightly feature called Mini Window that lets users pop an entire webpage into a small, always-on-top window stripped of most browser controls. "The idea behind the Firefox Mini Window feature is simple: allow users to move a currently open tab (or a section of a tab) into a separate mini window," writes ZDNet's Jack Wallen. "Think of it as moving a tab from one window to what appears like a web app." From the report: At first blush, there's no address bar, controls, scroll bar, or anything else that would normally be associated with Firefox. The Mini Window appears to be a web app, without having to actually create it. However, when I hover my cursor inside the Mini Window, I do see the address bar, the back/forward/reload buttons, and the window close button -- and that's it. The browser gets out of your way, so the only thing I see is the content.
+ 
+On top of that (pun intended), the Mini Window stays on top of other Firefox windows, so I can have that popped-out content always in focus while I work on other things. This feature comes in handy when I'm working with limited display space (say, on a laptop) and need to reference a page while working on another. For multitasking, it comes in very handy. [...] Let's say I'm writing a paper on Linux and need to read a particular article for background information. I could have my document open in the main window, and then open the article in question in a Mini Window. I could then reference the article without having to click back and forth between them -- even when working on a smaller display.
+ 
+Here's another use case I've found: When using MacOS's Stage Manager feature, I only have one window available at a time. The Mini Window bypasses that limitation, so I can have my main browser window focused as well as the page open in the Mini Window. Another handy way I like to use Mini Window is to open a favorite search engine, move it to a Mini Window, and then I have an always-ready search tool at my fingertips. I could also open my favorite AI service and use it in the same way.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Firefox's+New+Mini+Window+Is+Every+Multitasker's+Dream%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F11%2F03%2F214205%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F11%2F03%2F214205%2Ffirefoxs-new-mini-window-is-every-multitaskers-dream%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/26/11/03/214205/firefoxs-new-mini-window-is-every-multitaskers-dream?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24141878&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-03T21:05:00+00:00</dc:date>
+<dc:subject>firefox</dc:subject>
+<slash:department>browser-window-within-a-window</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>39</slash:comments>
+<slash:hit_parade>39,39,34,31,6,3,2</slash:hit_parade>
+</item>
+<item rdf:about="https://it.slashdot.org/story/26/11/03/1939254/binance-says-hackers-used-fake-job-interviews-ai-tool-to-steal-63-billion-in-crypto?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Binance Says Hackers Used Fake Job Interviews, AI Tool to Steal $6.3 Billion In Crypto</title>
+<link>https://it.slashdot.org/story/26/11/03/1939254/binance-says-hackers-used-fake-job-interviews-ai-tool-to-steal-63-billion-in-crypto?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Binance says hackers spent months infiltrating its systems through fake job interviews, a tampered developer tool and compromised internal AI tools before stealing $6.34 billion in crypto in the Oct. 29 attack. Co-CEO Richard Teng said Binance has replenished 98% of the affected assets, and that it is still in the process of purchasing outstanding, more illiquid assets. CNBC reports: Preparations for the attack began in June, when a Binance Wallet DevOps engineer downloaded a tampered Homebrew installation "to install a popular AI coding tool after searching for it on a search engine," according to a security report published by Binance Tuesday. It said it detected the suspicious activity, replaced the engineer's device and rotated credentials as a precaution, but that by then the employee's "role and his related colleagues on our wallet infrastructure team was exposed to the hacker."
+ 
+[...] As of Tuesday Binance has rebuilt the affected wallet system and internal AI tool, replaced compromised devices, decommissioned credentials and tokens associated with the affected engineers and expanded security scans across employee devices, Teng told "Squawk on the Street."
+ 
+"We're also getting an independent expert to review everything that we have done, and we'll keep strengthening our defenses as the investigation continues," Teng said. "We're working around the clock with law enforcement agencies and with industry partners to trace and freeze the stolen funds for that front."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Binance+Says+Hackers+Used+Fake+Job+Interviews%2C+AI+Tool+to+Steal+%246.3+Billion+In+Crypto%3A+https%3A%2F%2Fit.slashdot.org%2Fstory%2F26%2F11%2F03%2F1939254%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F26%2F11%2F03%2F1939254%2Fbinance-says-hackers-used-fake-job-interviews-ai-tool-to-steal-63-billion-in-crypto%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://it.slashdot.org/story/26/11/03/1939254/binance-says-hackers-used-fake-job-interviews-ai-tool-to-steal-63-billion-in-crypto?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24141812&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-03T20:00:00+00:00</dc:date>
+<dc:subject>bitcoin</dc:subject>
+<slash:department>behind-the-scenes</slash:department>
+<slash:section>it</slash:section>
+<slash:comments>44</slash:comments>
+<slash:hit_parade>44,41,33,27,4,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://hardware.slashdot.org/story/26/11/03/190206/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Fujifilm To Boost Tape Production 5x As AI Fuels Archiving Demand</title>
+<link>https://hardware.slashdot.org/story/26/11/03/190206/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>An anonymous reader quotes a report from Ars Technica: In an announcement released Thursday, Fujifilm said it will invest roughly 10 billion yen (about $63 million) to increase its production capacity fivefold for an unlikely beneficiary of the AI era: magnetic tape. Fujifilm attributes the surge in archiving demand to the spread of generative AI, which the company remarked is producing "exponential growth" in data needs worldwide. The 5x increase in production capacity will be measured against fiscal year 2025 production levels.
+ 
+The investment in Fujifilm's Kanagawa Factory, Odawara site will make it "the largest investment Fujifilm has made to date in dedicated LTO tape facilities." The project will run from fiscal years 2026 through 2028 to fund manufacturing expansion and additional personnel, primarily to produce the latest-generation "FUJIFILM LTO Ultrium10" tape. [...]
+ 
+According to Fujifilm, "major cloud service and data center operators" have been expanding their use of magnetic tape because it can store large data volumes at relatively low cost. Tape backups can be easily disconnected and stored in a drawer, a vault, or a separate facility. Fujifilm highlights the ability to air-gap tape cartridges as a last defense for user data: "Given the sophistication of cyberattacks, magnetic tape is attracting increasing attention as a means of protecting data from threats such as ransomware."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Fujifilm+To+Boost+Tape+Production+5x+As+AI+Fuels+Archiving+Demand%3A+https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F26%2F11%2F03%2F190206%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F26%2F11%2F03%2F190206%2Ffujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/26/11/03/190206/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24141778&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-03T19:01:00+00:00</dc:date>
+<dc:subject>storage</dc:subject>
+<slash:department>unlikely-AI-beneficiary</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>38</slash:comments>
+<slash:hit_parade>38,38,34,33,5,1,1</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Google Will Turn Off Search For Schools That Reject AI</title>
+<link>https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Google will disable AI tools by default for K-12 students early next year unless school administrators explicitly enable them, but schools that choose to block AI entirely will also lose student access to Google Search. The New York Times reports: Executives at the tech giant said they wanted to be responsive to educators and parents who have asked for more control in how children interact with A.I. But there is a catch: Schools that choose to restrict A.I. entirely will also lose access to Google search. A.I. features are now a standard part of Google's commercially available search engine.
+ 
+"Search and A.I. are deeply integrated," said Chris Phillips, vice president for education at Google. If a school has banned A.I., he added, students "will not have access to search, and they'll see a message from their school that indicates it's not available." [...] The company's new strategy underscores Google's powerful role in American education. If school leaders want continued student access to search within the company's ecosystem, they will be forced to embrace Google's A.I.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Google+Will+Turn+Off+Search+For+Schools+That+Reject+AI%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F11%2F03%2F1711242%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F11%2F03%2F1711242%2Fgoogle-will-turn-off-search-for-schools-that-reject-ai%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/26/11/03/1711242/google-will-turn-off-search-for-schools-that-reject-ai?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24141658&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-11-03T18:00:00+00:00</dc:date>
+<dc:subject>education</dc:subject>
+<slash:department>deeply-integrated</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>59</slash:comments>
+<slash:hit_parade>59,59,55,51,20,12,8</slash:hit_parade>
+</item>
+
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>

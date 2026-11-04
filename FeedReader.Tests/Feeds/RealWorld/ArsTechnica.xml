@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+    <channel>
+        <title>Ars Technica - All content</title>
+        <atom:link href="https://arstechnica.com/feed/" rel="self" type="application/rss+xml"/>
+        <link>https://arstechnica.com</link>
+        <description>All Ars Technica stories</description>
+        <lastBuildDate>Tue, 03 Nov 2026 23:35:38 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>California fights "preposterous" Trump admin demand to scrap state broadband laws</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 22:39:37 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[BEAD program]]></category>
+		<category><![CDATA[Broadband Equity Access and Deployment program]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[trump administration]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/</guid>
+
+                                    <description>
+                        <![CDATA[State tries to obtain broadband funds despite rejecting Trump admin condition.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>California is accepting $1.42 billion in broadband grant funding from the Trump administration, but the state is not accepting the Trump administration's demand that it stop enforcing a net neutrality law and other telecom regulations.</p>
+<p>California's stand against the Trump administration could result in multiple legal battles involving the state, federal government, and Internet providers seeking government funds. Although California told the federal government it would accept the money, it is reserving the right to challenge the condition imposed by the US. The state could delay or cancel plans to distribute broadband grants depending on how the process unfolds.</p>
+<p>The National Telecommunications and Information Administration (NTIA) <a href="https://arstechnica.com/tech-policy/2025/10/trump-admin-demands-states-exempt-isps-from-net-neutrality-and-price-laws/">decided last year</a> that states must agree not to enforce any rate regulation or net neutrality rule on ISPs that receive money from the $42 billion Broadband Equity, Access, and Deployment (BEAD) program. <a href="https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand/">California had to decide</a> whether to accept its share of the fund despite that restriction. <span class="md-plain md-expand">California is slated to </span><span class="md-meta-i-c  md-link"><a href="https://broadbandusa.ntia.gov/sites/default/files/2026-07/BEAD_FP_Overview_CA.pdf"><span class="md-plain">spend $1.42 billion</span></a></span><span class="md-plain md-expand"> to deploy broadband to 270,571 locations, and may ultimately receive up to $1.86 billion from BEAD for a mix of deployment and non-deployment projects.</span></p><p><a href="https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>21</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-fiber-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2023/06/getty-fiber-500x500.jpg" width="500"/>
+<media:credit>Getty Images | Yuichiro Chino</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Ukraine’s drone strikes spur hasty Russian plans for underground data centers</title>
+                <link>https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/</link>
+                                    <comments>https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 20:39:55 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[ai data centers]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Drone strikes]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[Russia invasion of Ukraine]]></category>
+		<category><![CDATA[Russia war on Ukraine]]></category>
+		<category><![CDATA[Russian invasion of Ukraine]]></category>
+		<category><![CDATA[Russian war on Ukraine]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[Ukraine war]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/</guid>
+
+                                    <description>
+                        <![CDATA[Russia tries to fix exposed digital infrastructure as data center war backfires.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Russian tech companies are scrambling to harden and hide their data centers underground after Ukrainian drone strikes damaged facilities housing AI supercomputers and disrupted cloud services for millions of Russian users. Meanwhile, the Kremlin is requiring data center owners to reserve computing capacity for emergency state needs and has even authorized possible use of foreign data centers.</p>
+<p>These consequences of Russia's war against Ukraine come as the Russian military has <a href="https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-2-2026/">bombarded Ukrainian cities with drones and missiles</a> nearly night and day in recent months, along with <a href="https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/">specifically targeting Ukrainian data centers</a> since late September. But Ukraine has retaliated with its own drone strikes on military and infrastructure targets across Russia, degrading or knocking out data centers <a href="https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/">operated by Russian tech giant Yandex</a>, the state-owned bank Sberbank, social media site VKontakte, and the Russian Ministry of Finance.</p>
+<p>Now, state-owned telecommunications company Rostelcom has raised the possibility of moving some Russian data centers underground in talks with the nickel and palladium mining company Norilsk, according to <a href="https://www.vedomosti.ru/technology/articles/2026/11/02/1241876-rostelekom-zaimetsya-stroitelstvom">Russian newspaper Vedomosti</a>. The industry publication <a href="https://www.datacenterdynamics.com/en/news/rostelecom-in-talks-with-norilsk-nickel-for-underground-data-centers-amid-drone-attacks/">Data Center Dynamics</a> also pointed to a recent proposal by a Russian regional governor to build data centers <a href="https://www.datacenterdynamics.com/en/news/russian-official-proposes-data-centers-in-disused-coal-mines-to-protect-from-drone-strikes/">within open-pit coal mines</a> while planting green public parks above as camouflage.</p><p><a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-500x500.jpg" width="500"/>
+<media:credit>Alexander Manzyuk/Anadolu Agency via Getty Images</media:credit><media:text>The Borodinsky coal mine operated by SUEK next to the village of Borodino in the Rybinsk district of the Krasnoyarsk region of Russia on April 19, 2022. Because of Ukrainian drone strikes, Russian leaders and companies have explored putting data centers in former open-pit coal mines.</media:text></media:content>
+            </item>
+                    <item>
+                <title>NYT demands Brave shut down its paywall blocker and end deals with AI firms</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 18:30:27 +0000</pubDate>
+                		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[brave]]></category>
+		<category><![CDATA[new york times]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/</guid>
+
+                                    <description>
+                        <![CDATA[Lawsuit calls Brave "supplier, dealer, and distributor" of stolen news content.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The New York Times and other newspaper companies sued Brave Software yesterday, alleging that the browser maker illegally bypasses paywalls and sells stolen news content to AI companies.</p>
+<p>"Brave is the supplier, dealer, and distributor of stolen copyrighted content for its own users and many of the most prominent GenAI companies, including Anthropic, Perplexity, Mistral, xAI, and Cohere," the NYT alleged in a <a href="https://storage.courtlistener.com/recap/gov.uscourts.nysd.676306/gov.uscourts.nysd.676306.1.0.pdf">lawsuit</a> filed in US District Court for the Southern District of New York. Citing third-party revenue estimates, the suit claimed that "Brave has made more than $100 million by copying and reselling publishers’ work without consent or permission," while "publishers have received nothing."</p>
+<p>The lawsuit said, "AI companies pay Brave to provide them with real-time online content from the Brave search index," and use content from the Brave index "to train their own AI models" and "to respond to specific user queries." The NYT lawsuit points to <a href="https://brave.com/about/">Brave's website</a>, which says the Brave Search API is "used by some of the biggest names in AI, including Cohere, Mistral, Perplexity, and You.com."</p><p><a href="https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>133</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/brave-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/brave-500x500.jpg" width="500"/>
+<media:credit>Getty Images | SOPA Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Buttons are back and storage is king when it comes to car interiors</title>
+                <link>https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/</link>
+                                    <comments>https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jonathan M. Gitlin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 18:19:31 +0000</pubDate>
+                		<category><![CDATA[Cars]]></category>
+		<category><![CDATA[car design]]></category>
+		<category><![CDATA[Nissan Rogue Hybrid]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/</guid>
+
+                                    <description>
+                        <![CDATA[We talk with Nissan designer Hiren Patel about how vehicle interior designs are changing. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As with interior design for houses, interior design for vehicles is also subject to fashion trends. And like any fashion trend, even the best ideas can become stale and played out with overuse. Some ideas weren’t the best, either, like <a href="https://arstechnica.com/cars/2022/08/yes-touchscreens-really-are-worse-than-buttons-in-cars-study-finds/">demonstrably worse human-machine interfaces</a> that add to driver distraction; yet, they <a href="https://arstechnica.com/cars/2019/11/should-gestures-and-speech-take-over-from-touchscreens-in-our-cars/">still proliferated</a> throughout the industry and across the cars offered for sale. But the good news is that the pushback seems to be working.</p>
+<p>“When the trend of the Piano Black and the switchless interior was happening, it was during a time when designers and companies and engineers and everybody were thinking that, 'Hey, we can just get rid of all these switches on the interior. We can put it all in the software. It'll save money. It'll save us tooling up all these extra parts for unique cars and all this stuff and make the interior more like a software experience.' And it was done with those intentions,” said Hiren Patel, senior design manager at Nissan.</p>
+<p>That resulted in cars with minimalist interiors that looked good in the dealership. But people drive their cars on roads; they don’t just sit inside them, parked inside a dealership. “So lots of people were complaining about it and saying, 'Hey, it takes my eyes off the road to change the temperature or to adjust my seat or do whatever.' It's not as easy as doing something on your phone where it's just right at your fingertips and intuitive,” Patel said.</p><p><a href="https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/">Read full article</a></p>
+<p><a href="https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>92</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/2027-Nissan-Rogue-Hybrid-05-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/2027-Nissan-Rogue-Hybrid-05-500x500.jpg" width="500"/>
+<media:credit>Nissan</media:credit><media:text>The new Rogue Hybrid interior. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Google will let schools skip AI tools, but they have to give up search, too</title>
+                <link>https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/</link>
+                                    <comments>https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 17:54:43 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI education]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[search]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/</guid>
+
+                                    <description>
+                        <![CDATA[Google will offer schools AI tools that purportedly don't give away the answers. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>While Google is trying to <a href="https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/">move beyond Chromebooks</a>, the ubiquity of these devices has made the company's education products huge in schools. Now, <a href="https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/">Google says</a> it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision.</p>
+<p>Google's new overarching approach to AI in K-12 classrooms sounds good on the surface. After consulting educators, researchers, and lawmakers, Google has decided that schools using its education products will be opted out of AI tools by default. It will be up to administrators to manually enable them when these changes roll out in the coming months.</p>
+<p>When you look at what Google considers to be an AI tool, the nature of the Faustian bargain becomes clear. The affected products are Gemini, Gemini Notebook, Gemini in Classroom, and <em>Google Search</em>. There's no picking and choosing—you either allow all the AI or none of it.</p><p><a href="https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>84</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-500x500.jpg" width="500"/>
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Another child dies of measles as CDC reportedly holds up health alert</title>
+                <link>https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/</link>
+                                    <comments>https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Beth Mole]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 17:21:29 +0000</pubDate>
+                		<category><![CDATA[Health]]></category>
+		<category><![CDATA[child]]></category>
+		<category><![CDATA[death]]></category>
+		<category><![CDATA[measles]]></category>
+		<category><![CDATA[new york]]></category>
+		<category><![CDATA[Pennsylvania]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/</guid>
+
+                                    <description>
+                        <![CDATA[NY governor pointed to Kennedy's long-standing anti-vaccine work as spurring outbreaks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A child in New York has died of measles, <a href="https://www.health.ny.gov/press/releases/2026/2026-11-02_measles.htm">health officials in the state announced late Monday</a>. It marks the first reported measles-associated death in New York in more than 30 years. It is the seventh measles-linked death reported in the US this year; all six of the other deaths were reported in Pennsylvania, which is experiencing a dramatic measles outbreak that has stricken <a href="https://www.pa.gov/agencies/health/diseases-conditions/infectious-disease/measles">over 1,430 people this year</a>. Prior to the deaths, Pennsylvania hadn't seen a measles-related death in 35 years.</p>
+<p>The boom in vaccine-preventable outbreaks, cases,  and tragic deaths is being fueled by slipping vaccination rates nationwide as health misinformation and anti-vaccine sentiments have taken hold. One of the most prominent anti-vaccine activists in the US currently serves as the US health secretary; Robert F. Kennedy Jr. spent decades prior to taking office attacking vaccines and spreading misinformation. He and his anti-vaccine organization, Children's Health Defense, have been one of <a href="https://arstechnica.com/science/2019/11/robert-f-kennedy-jr-is-the-single-leading-source-of-anti-vax-ads-on-facebook/">the most prolific sources of anti-vaccine content</a>.</p>
+<p>Since taking office, Kennedy has waged a multi-front war on vaccines that has included <a href="https://arstechnica.com/health/2026/01/under-anti-vaccine-rfk-jr-cdc-slashes-childhood-vaccine-schedule/">dismantling </a>and <a href="https://arstechnica.com/health/2025/06/cdcs-once-revered-vaccine-panel-now-a-farce-calls-grow-to-scrap-meeting/">obstructing</a> federal vaccine recommendations; launching <a href="https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/">dubious studies</a> to look for <a href="https://arstechnica.com/health/2025/06/anti-vaccine-quack-hired-by-rfk-jr-has-started-work-at-the-health-department/">alleged</a>, unspecified harms of vaccines; promoting <a href="https://arstechnica.com/health/2026/10/rfk-jr-s-vaccine-injury-clinic-could-damage-nih-hospital-board-warns/">alleged vaccine injuries</a>; and continuing to <a href="https://arstechnica.com/health/2025/11/rfk-jr-s-loathesome-edits-cdc-website-now-falsely-links-vaccines-and-autism/">spread misinformation about vaccines</a> and <a href="https://arstechnica.com/health/2025/03/cod-liver-oil-embraced-amid-texas-measles-outbreak-doctors-fight-misinfo/">vaccine-preventable illnesses</a>.</p><p><a href="https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/">Read full article</a></p>
+<p><a href="https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2025/02/GettyImages-2053751760-500x500.jpg" width="500"/>
+<media:credit>Getty | Povorozniuk Liudmyla</media:credit><media:text>Measles rash on the body of a child.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Google dismantles botnet secretly running on 1.3 million Android TV boxes</title>
+                <link>https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/</link>
+                                    <comments>https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 17:08:21 +0000</pubDate>
+                		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android tv]]></category>
+		<category><![CDATA[botnets]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/</guid>
+
+                                    <description>
+                        <![CDATA[Google has cut ties with the company behind the botnet campaign. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google's Threat Intelligence Group says it has shut down a massive botnet called x.cpe. At its height, x.cpe ran on more than 1.3 million Android TV devices, and unusually, these were Google-certified boxes. Google says its screening process missed the malware due to "obfuscation techniques" employed by Shenzhen-based Videostrong Technology.</p>
+<p>In a detailed <a href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/">blog post</a>, the Threat Intelligence Group explains how the x.cpe botnet evolved quickly from a single-stage dropper into a modular three-stage malware platform that sold access to third parties. Manufacturers must have their devices certified if they want access to Google apps and branding, a process that is supposed to catch threats like this. However, Videostrong's compromised boxes, mostly sold under the MECOOL brand, evaded detection by using a backdoor to remotely install the malware after the devices were set up and online.</p>
+<p>After devices appeared online, a stub application called x.cpe or com.oemservice would phone home. This package did not have any malicious capabilities of its own, but it had the system-level permissions necessary to install malware modules at the operator's behest. It also disabled Play Protect, which would have otherwise flagged the silently installed packages as malicious.</p><p><a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>41</slash:comments>
+                
+                
+                <media:content medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/mecool-malware.jpg">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/mecool-malware-500x500.jpg" width="500"/>
+<media:credit>Google</media:credit><media:text>The Mecool KT1 is just one of the many devices in the x.cpe botnet. </media:text></media:content>
+            </item>
+                    <item>
+                <title>This space company is betting its future on a propellant available everywhere</title>
+                <link>https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/</link>
+                                    <comments>https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Eric Berger]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 16:50:32 +0000</pubDate>
+                		<category><![CDATA[Space]]></category>
+		<category><![CDATA[argo space]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[water propulsion]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/</guid>
+
+                                    <description>
+                        <![CDATA[Is that water in your spacecraft, or are you just happy to see the delta-V?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Robert, Ryan, and Kirby Carlisle are three engineers who worked at SpaceX during the Falcon 9 era, seeing the revolution in the global launch industry from the inside.</p>
+<p>The brothers launched rockets, refurbished rockets, and sold rockets. But when it came time for them to leave SpaceX and start their own space company—a lifetime dream for the Carlisle brothers—they chose not to build rockets. Rather, they focused on spacecraft.</p>
+<p>In late 2022, the three Carlisles founded Argo Space to build infrastructure in space. Their vision was not just in-space transportation but also removing the need to use propellants from Earth to move around the heavens. They chose water, which is potentially harvestable on the Moon and found all over the Solar System, as a means of propulsion.</p><p><a href="https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/">Read full article</a></p>
+<p><a href="https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Argonaut-Transit-to-Moon-16x9-1-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/11/Argonaut-Transit-to-Moon-16x9-1-500x500.jpg" width="500"/>
+<media:credit>Argo Space</media:credit><media:text>Rendering of an Argonaut spacecraft transiting to the Moon.</media:text></media:content>
+            </item>
+                    <item>
+                <title>UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?</title>
+                <link>https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/</link>
+                                    <comments>https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 16:03:13 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[secure boot]]></category>
+		<category><![CDATA[uefi]]></category>
+		<category><![CDATA[Windows]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/</guid>
+
+                                    <description>
+                        <![CDATA[UEFI bootkit BlackX exploits Microsoft's lack of clarity around Secure Boot protections.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In 2023, malware tracked as BlackLotus became the first publicly documented in-the-wild UEFI bootkit capable of bypassing Secure Boot on fully updated Windows 11 systems. With the industry-wide chain-of-trust mechanism subverted, the malware was able to run malicious code before Windows was fully loaded and many security defenses were operational.</p>
+<p>Microsoft had already patched the vulnerability that BlackLotus exploited in 2022. In 2023 and 2024, Microsoft issued additional updates. The first added a new certificate that no longer trusted the vulnerable boot managers. The second provided the means to revoke trust in the digital certificate used to sign older vulnerable Windows boot managers. The organizations infected by the new bootkit, which is tracked under the name BlackX, had installed all of these patches. So how did they fall victim?</p>
+<h2>UEFI bootkit refresher</h2>
+<p>Before discussing the incident further, a brief review of BlackLotus and UEFI malware is in order. Short for <a href="https://uefi.org/specs/UEFI/2.10/01_Introduction.html">Unified Extensible Firmware Interface</a>, UEFI is firmware that runs immediately after a computer is turned on. One of its main jobs is to load system configuration settings, identify and initialize hardware components, and prepare the computer to start its OS.</p><p><a href="https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-1000x648.jpg" width="1000">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" width="500"/>
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Trump wanted to give No Kings no air. Then, Meta suspended its Instagram.</title>
+                <link>https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Nov 2026 15:39:30 +0000</pubDate>
+                		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[election content]]></category>
+		<category><![CDATA[election misinformation]]></category>
+		<category><![CDATA[Mark Zuckerberg]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[no kings]]></category>
+		<category><![CDATA[trump administration]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/</guid>
+
+                                    <description>
+                        <![CDATA[Meta faces pressure to protect No Kings Instagram on election day.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the weekend, the No Kings Coalition said Meta declined to commit to taking steps to prevent automated systems from suspending one of Instagram's most prominent pro-democracy accounts if activity surged around the page during the midterm elections.</p>
+<p>A demand for action came after Meta apologized for temporarily suspending the No Kings Instagram account and disabling access for four hours at the peak of an early voting push from the group. In a post on X, Meta’s Andy Stone said the account had been using a Claude AI tool in a way that made it appear to be a bot. But even though automated review detected the error within an hour, Stone acknowledged that additional hurdles kept admins locked out. State and federal lawmakers—as well as a <a href="https://oag.ca.gov/news/press-releases/attorney-general-bonta-questions-meta-no-kings-coalition-instagram-suspension">coalition of 14 attorneys general</a>—have asked Meta to further explain its actions.</p>
+<p>In a <a href="https://static1.squarespace.com/static/6810f35a92c2904fa082829a/t/6adbd29e36c7da42855801dd/1792791198088/Letter+from+Meta+to+Interested+Parties+of+No+Kings+Coalition+%2810.21.2026%29.pdf">letter</a> to No Kings, Meta offered to arrange a meeting with a technical expert who could better explain the mistake. But No Kings <a href="https://static1.squarespace.com/static/6810f35a92c2904fa082829a/t/6adbd1671b898e06625e1865/1792790887079/Meta+Response+Letter.pdf">rejected</a> the response, saying it failed to address any of the group's ongoing concerns and requesting a meeting with Meta senior leadership instead. The group stressed that the issue goes beyond its Instagram account, saying that Americans who rely on Meta's platforms need assurance that voting content won’t be suppressed ahead of or on election day. Among eight questions, the coalition asked Meta to publicly disclose any communications with the Trump administration about the No Kings account or the <a href="https://www.nytimes.com/2026/11/02/us/politics/early-vote-turnout-senate-battlegrounds.html">historic early voting day</a> event.</p><p><a href="https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/11/trump-wanted-to-give-no-kings-no-air-then-meta-suspended-its-instagram/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>140</slash:comments>
+                
+                
+                <media:content height="648" medium="image" type="image/jpeg" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/zuck-trump-no-kings-1152x648.jpg" width="1152">
+<media:thumbnail height="500" url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/zuck-trump-no-kings-500x500-1793646871.jpg" width="500"/>
+<media:credit>Aurich Lawson | Getty Images | Minh Connors | Alex Wong</media:credit><media:text>Mark Zuckerberg in Menlo Park, California on Wednesday, Sept. 23, 2026. Donald Trump in Fort Myers, Florida on October 23, 2026.</media:text></media:content>
+            </item>
+                    
+            </channel>
+</rss>

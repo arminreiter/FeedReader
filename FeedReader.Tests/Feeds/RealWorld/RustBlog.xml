@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://blog.rust-lang.org/" version="0.1.0">Rust Blog</generator>
+    <link href="https://blog.rust-lang.org/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://blog.rust-lang.org/" rel="alternate" type="text/html" />
+    <id>https://blog.rust-lang.org/</id>
+    <title>Rust Blog</title>
+    <subtitle>Empowering everyone to build reliable and efficient software.</subtitle>
+    <author>
+        <name>Maintained by the Rust Teams.</name>
+        <uri>https://github.com/rust-lang/blog.rust-lang.org/</uri>
+    </author>
+    <updated>2026-11-03T14:19:58+00:00</updated>
+
+    
+    <entry>
+        <title>Announcing rustup 1.29.3</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/" type="text/html" title="Announcing rustup 1.29.3" />
+        <published>2026-11-03T00:00:00+00:00</published>
+        <updated>2026-11-03T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/">&lt;p&gt;The rustup team has published a new point release of rustup, 1.29.3.&lt;/p&gt;
+&lt;p&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustup.rs&quot;&gt;Rustup&lt;/a&gt; is the recommended tool to install &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://www.rust-lang.org&quot;&gt;Rust&lt;/a&gt;, a
+programming language that empowers everyone to build reliable and efficient
+software.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;what-s-new-in-rustup-1-29-3&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#what-s-new-in-rustup-1-29-3&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+What&#x27;s new in rustup 1.29.3&lt;/h2&gt;
+&lt;p&gt;This new patch release has fixed some minor regressions over the previous one:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed &quot;Illegal instruction&quot; error on certain x86_64 CPUs without SSE4.1.
+&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rustup/pull/5162&quot;&gt;pr#5162&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed &quot;&lt;code&gt;lock()&lt;/code&gt; not supported&quot; error on Solaris. &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rustup/pull/5167&quot;&gt;pr#5167&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further details are available in the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rustup/blob/stable/CHANGELOG.md&quot;&gt;changelog&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;how-to-update&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#how-to-update&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+How to update&lt;/h2&gt;
+&lt;p&gt;If you have a previous version of rustup installed, getting the new one is as easy as stopping
+any programs which may be using rustup (e.g. closing your IDE) and running:&lt;/p&gt;
+&lt;pre class&#x3D;&quot;giallo z-l-code z-d-code&quot; &gt;&lt;code data-lang&#x3D;&quot;plain&quot;&gt;&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;$ rustup self update&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Rustup will also automatically update itself at the end of a normal toolchain update:&lt;/p&gt;
+&lt;pre class&#x3D;&quot;giallo z-l-code z-d-code&quot; &gt;&lt;code data-lang&#x3D;&quot;plain&quot;&gt;&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;$ rustup update&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For this particular release, if you have encountered any issues during
+self-update, you may try to update rustup manually by following the steps below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rust-lang.github.io/rustup/installation/other.html#manual-installation&quot;&gt;Download&lt;/a&gt; the corresponding &lt;code&gt;rustup-init&lt;/code&gt; binary for
+your platform.&lt;/li&gt;
+&lt;li&gt;Make double sure that no other &lt;code&gt;rustup&lt;/code&gt; processes are running.&lt;/li&gt;
+&lt;li&gt;Replace your existing &lt;code&gt;rustup&lt;/code&gt; binary with the downloaded &lt;code&gt;rustup-init&lt;/code&gt;
+renamed to &lt;code&gt;rustup&lt;/code&gt;.
+&lt;ul&gt;
+&lt;li&gt;As a reminder, this binary is often located at &lt;code&gt;$HOME/.cargo/bin/rustup&lt;/code&gt;, or
+&lt;code&gt;$CARGO_HOME/bin/rustup&lt;/code&gt; if you have overridden the &lt;code&gt;$CARGO_HOME&lt;/code&gt; environment
+variable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you don&#x27;t have it already, you can &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustup.rs&quot;&gt;get rustup&lt;/a&gt; from the appropriate page on our website.&lt;/p&gt;
+&lt;p&gt;Rustup&#x27;s documentation is also available in &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rust-lang.github.io/rustup/&quot;&gt;the rustup book&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;caveats&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#caveats&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Caveats&lt;/h2&gt;
+&lt;p&gt;Rustup releases can come with problems not caused by rustup itself but just due to having a new release.&lt;/p&gt;
+&lt;p&gt;In particular, anti-malware scanners might block rustup or stop it from creating or copying
+files, especially when installing &lt;code&gt;rust-docs&lt;/code&gt; which contains many small files.&lt;/p&gt;
+&lt;p&gt;Issues like this should be automatically resolved in a few weeks when the anti-malware scanners are updated
+to be aware of the new rustup release.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;thanks&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#thanks&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Thanks&lt;/h2&gt;
+&lt;p&gt;Thanks again to all the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rustup/blob/stable/CHANGELOG.md#detailed-changes&quot;&gt;contributors&lt;/a&gt; who made this rustup release possible!&lt;/p&gt;
+</content>
+
+        <author>
+            <name>The Rustup Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title>How to fund Rust contributors</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/" type="text/html" title="How to fund Rust contributors" />
+        <published>2026-10-26T00:00:00+00:00</published>
+        <updated>2026-10-26T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/">&lt;blockquote&gt;
+&lt;p&gt;TLDR:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To fund general maintenance, donate to the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/sponsors/rustfoundation&quot;&gt;Rust Foundation Maintainers Fund&lt;/a&gt; or sponsor the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustnl.org/maintainers/&quot;&gt;RustNL Maintainers Team&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;To fund specific features and improvements, sponsor &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://goals.rust-lang.org/2026/funding.html&quot;&gt;fundable Rust Project Goals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;To fund individual contributors, donate to their &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rust-lang.org/funding/#people&quot;&gt;GitHub Sponsors&lt;/a&gt; accounts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adoption.&lt;/p&gt;
+&lt;p&gt;As is unfortunately common in open source projects, a large fraction of that work is currently done by volunteers. That causes various issues, such as people burning out or complex features taking many years to ship.&lt;/p&gt;
+&lt;p&gt;Unsurprisingly, one of the best ways to help improve that is to get more people who work on Rust funded! This year, several funding initiatives started ramping up, and we already experience many positive effects. They helped us improve the maintenance status of critical Rust projects and make significant progress on several long-awaited features, such as allocators, the never type, the next trait solver or the Polonius borrow checker. However, only a fraction of people working on Rust are currently funded for their work.&lt;/p&gt;
+&lt;p&gt;We know that there are Rust users, both individuals and companies, who would like to help improve Rust by funding it, but it might not always be obvious &lt;em&gt;how exactly&lt;/em&gt; to do that. This post thus provides suggestions on how you can support the development of Rust in three ways.&lt;/p&gt;
+&lt;p&gt;If you&#x27;re unsure which option fits, or would like to discuss funding on behalf of your company, please contact the &lt;a href&#x3D;&quot;mailto:funding@rust-lang.org&quot;&gt;Funding team&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;fund-general-maintenance&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#fund-general-maintenance&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Fund general maintenance&lt;/h2&gt;
+&lt;p&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/inside-rust/2026/01/12/what-is-maintenance-anyway/&quot;&gt;Maintenance&lt;/a&gt; is a continuous process required to keep Rust (or any software project for that matter) working. It consists of two main activities. The first is general housekeeping, such as ensuring that Continuous Integration works, dependencies are kept up-to-date and issues, bugs and security incidents are promptly triaged and resolved. The second is performing refactorings and code reviews, which ensures that the codebase will be able to evolve and continuously ship new features, without accruing extensive technical debt.&lt;/p&gt;
+&lt;p&gt;Having quality maintenance is crucial for the long-term health of Rust, yet it is typically very difficult to find funding for it; funders often want to sponsor specific new features, rather than just &quot;keeping the lights on&quot;. However, without sufficient maintenance, it becomes much more difficult, and much slower, to ship new features. Improving the maintenance of Rust thus also helps us ship features and improvements faster, though the effects are sometimes only observable over longer periods of time.&lt;/p&gt;
+&lt;p&gt;Funding maintenance is a great choice if you want to let us decide how best to improve Rust. The Rust &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://www.rust-lang.org/governance/teams/launching-pad#team-funding&quot;&gt;Funding team&lt;/a&gt; continuously looks for Rust teams and projects that require help with their maintenance efforts, and allocates available funds to Rust maintainers who could help improve the situation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To fund Rust maintainers, consider donating to the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/sponsors/rustfoundation&quot;&gt;Rust Foundation Maintainers Fund&lt;/a&gt; or sponsoring the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustnl.org/maintainers/&quot;&gt;RustNL Maintainers Team&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;fund-specific-features-and-improvements&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#fund-specific-features-and-improvements&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Fund specific features and improvements&lt;/h2&gt;
+&lt;p&gt;There are always many Rust improvements and new features that are in progress. We track some of those initiatives through &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://goals.rust-lang.org/2026/goals.html&quot;&gt;Rust Project Goals&lt;/a&gt;. Each Goal describes a specific improvement to Rust: what it is, who is going to develop and drive it forward and which Rust teams are willing to help reviewing and maintaining it.&lt;/p&gt;
+&lt;p&gt;Some of those Goals are looking for funding. Either to help their owner dedicate time and focus to push the given feature forward, or to fund maintainers who will perform refactorings necessary to unblock that feature and review its implementation. Often funding is required for both. When a Goal is properly funded, the probability that it will achieve its milestones is much higher, which then translates in the given improvement being shipped sooner to Rust users.&lt;/p&gt;
+&lt;p&gt;Funding Project Goals is a great choice if you want to help push forward specific Rust features or Rust toolchain improvements that will benefit you or your company.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To fund contributors working on Project Goals, consider taking a look at &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://goals.rust-lang.org/2026/funding.html&quot;&gt;Goals that need funding&lt;/a&gt; and reaching out to their funding contact.&lt;/strong&gt; If in doubt how to proceed, reach out to the Rust &lt;a href&#x3D;&quot;mailto:funding@rust-lang.org&quot;&gt;Funding team&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;fund-individual-contributors&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#fund-individual-contributors&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Fund individual contributors&lt;/h2&gt;
+&lt;p&gt;There are &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rust-lang.org/governance/people/&quot;&gt;hundreds&lt;/a&gt; of people in the Rust Project who continuously work on improving Rust. Some of them have personal fundraising profiles (e.g. on GitHub Sponsors), which allows you to support them directly.&lt;/p&gt;
+&lt;p&gt;There might be various reasons for supporting a specific person. Maybe they are maintaining a crate that you love to use, maybe you like reading their blog posts, or maybe you are simply a fan of the work that they do. Whatever the reason, we are sure that they would appreciate your support!&lt;/p&gt;
+&lt;p&gt;Funding individual contributors is a great choice if you want to directly support Rust contributors whose work you appreciate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To fund individual Rust contributors, check out their GitHub profile or personal website to see what options there are for supporting them.&lt;/strong&gt; You can also examine our &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rust-lang.org/funding/#people&quot;&gt;list&lt;/a&gt; of Rust Project members who can be supported through GitHub Sponsors&lt;sup class&#x3D;&quot;footnote-reference&quot; id&#x3D;&quot;fr-non-exhaustive-1&quot;&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/#fn-non-exhaustive&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;conclusion&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#conclusion&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Conclusion&lt;/h2&gt;
+&lt;p&gt;We hope that this post is useful to anyone who would potentially like to invest funds into making Rust better. You can also find a shortened version of the &quot;how to fund Rust guide&quot; at the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;http://rust-lang.org/funding&quot;&gt;Funding page&lt;/a&gt; of the Rust website, or check out a RustConf 2026 talk by &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://www.youtube.com/watch?v&#x3D;-VLo5g-AfJ8&quot;&gt;Niko Matsakis&lt;/a&gt; about how Project Goals and their funding works.&lt;/p&gt;
+&lt;p&gt;If you are a company looking to fund the development of Rust, consider joining the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustfoundation.org/rust-commercial-network/&quot;&gt;Rust Commercial Network&lt;/a&gt;. Joining the network is free, and Rust Foundation membership is not required. It can help you find opportunities for funding improvements in specific areas related to Rust usage (e.g. user interfaces, language interop, supply chain security, etc.) and collaborate on funding Rust development with other companies.&lt;/p&gt;
+&lt;p&gt;There are of course other ways of helping Rust other than donating funds. For example, you can check out Project Goals that are &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://goals.rust-lang.org/2026/contributors.html&quot;&gt;looking for contributors&lt;/a&gt; or more generally check our &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://forge.rust-lang.org/how-to-start-contributing.html&quot;&gt;contributor onboarding guide&lt;/a&gt;. Companies can also help by giving employees paid time to contribute upstream, or by hiring Rust contributors to do that work. One possible model is the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustfoundation.org/media/welcoming-jess-izen-as-engineer-in-residence-at-the-rust-foundation/&quot;&gt;Engineer in Residence&lt;/a&gt; role, that was recently established in the Rust Foundation.&lt;/p&gt;
+&lt;section class&#x3D;&quot;footnotes&quot;&gt;
+&lt;ol class&#x3D;&quot;footnotes-list&quot;&gt;
+&lt;li id&#x3D;&quot;fn-non-exhaustive&quot;&gt;
+&lt;p&gt;Note that this list is not exhaustive; there are some Project members who accept donations through GitHub Sponsors (or another fundraising platform), but did not opt into being listed on this page. &lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/#fr-non-exhaustive-1&quot;&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+
+        <author>
+            <name>Jakub Beránek</name>
+        </author>
+    </entry>
+    <entry>
+        <title>Announcing rustup 1.29.2</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/" type="text/html" title="Announcing rustup 1.29.2" />
+        <published>2026-10-20T00:00:00+00:00</published>
+        <updated>2026-10-20T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/">&lt;p&gt;The rustup team is happy to announce the release of rustup version 1.29.2.&lt;/p&gt;
+&lt;p&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustup.rs&quot;&gt;Rustup&lt;/a&gt; is the recommended tool to install &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://www.rust-lang.org&quot;&gt;Rust&lt;/a&gt;, a
+programming language that empowers everyone to build reliable and efficient
+software.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;what-s-new-in-rustup-1-29-2&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#what-s-new-in-rustup-1-29-2&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+What&#x27;s new in rustup 1.29.2&lt;/h2&gt;
+&lt;p&gt;This is a small release which only updates the rustls-webpki and
+webpki-root-certs dependencies to address the problematic eMudhra
+intermediate certificates issue described in &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://www.cve.org/CVERecord?id&#x3D;CVE-2026-111943&quot;&gt;CVE-2026-111943&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See also &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustsec.org/advisories/RUSTSEC-2026-0382.html&quot;&gt;RUSTSEC-2026-0382&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Further details are available in the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rustup/blob/stable/CHANGELOG.md&quot;&gt;changelog&lt;/a&gt;!&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;how-to-update&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#how-to-update&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+How to update&lt;/h2&gt;
+&lt;p&gt;If you have a previous version of rustup installed, getting the new one is as easy as stopping
+any programs which may be using rustup (e.g. closing your IDE) and running:&lt;/p&gt;
+&lt;pre class&#x3D;&quot;giallo z-l-code z-d-code&quot; &gt;&lt;code data-lang&#x3D;&quot;plain&quot;&gt;&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;$ rustup self update&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Rustup will also automatically update itself at the end of a normal toolchain update:&lt;/p&gt;
+&lt;pre class&#x3D;&quot;giallo z-l-code z-d-code&quot; &gt;&lt;code data-lang&#x3D;&quot;plain&quot;&gt;&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;$ rustup update&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you don&#x27;t have it already, you can &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rustup.rs&quot;&gt;get rustup&lt;/a&gt; from the appropriate page on our website.&lt;/p&gt;
+&lt;p&gt;Rustup&#x27;s documentation is also available in &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rust-lang.github.io/rustup/&quot;&gt;the rustup book&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;caveats&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#caveats&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Caveats&lt;/h2&gt;
+&lt;p&gt;Rustup releases can come with problems not caused by rustup itself but just due to having a new release.&lt;/p&gt;
+&lt;p&gt;In particular, anti-malware scanners might block rustup or stop it from creating or copying
+files, especially when installing &lt;code&gt;rust-docs&lt;/code&gt; which contains many small files.&lt;/p&gt;
+&lt;p&gt;Issues like this should be automatically resolved in a few weeks when the anti-malware scanners are updated
+to be aware of the new rustup release.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;thanks&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#thanks&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Thanks&lt;/h2&gt;
+&lt;p&gt;Thanks again to all the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rustup/blob/stable/CHANGELOG.md#detailed-changes&quot;&gt;contributors&lt;/a&gt; who made this rustup release possible!&lt;/p&gt;
+</content>
+
+        <author>
+            <name>The Rustup Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title>Announcing Rust 1.99.1</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/" type="text/html" title="Announcing Rust 1.99.1" />
+        <published>2026-10-15T00:00:00+00:00</published>
+        <updated>2026-10-15T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/">&lt;p&gt;The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software.&lt;/p&gt;
+&lt;p&gt;If you have a previous version of Rust installed via rustup, getting Rust 1.99.1 is as easy as:&lt;/p&gt;
+&lt;pre class&#x3D;&quot;giallo z-l-code z-d-code&quot; &gt;&lt;code data-lang&#x3D;&quot;plain&quot;&gt;&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;rustup update stable&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you don&#x27;t have it already, you can &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://www.rust-lang.org/install.html&quot;&gt;get &lt;code&gt;rustup&lt;/code&gt;&lt;/a&gt; from the appropriate page on our website.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;what-s-in-1-99-1&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#what-s-in-1-99-1&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+What&#x27;s in 1.99.1&lt;/h2&gt;
+&lt;p&gt;Rust 1.99.1 fixes the following regressions from prior releases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rust/issues/163614&quot;&gt;Missing symbol &lt;code&gt;wcslen&lt;/code&gt;&lt;/a&gt;: Some Rust targets were getting link errors for missing &lt;code&gt;wcslen&lt;/code&gt;, and that function is now present in Rust&#x27;s compiler-builtins library as a fallback.&lt;/p&gt;
+&lt;p&gt;The LLVM &lt;code&gt;loop-idiom-wcslen&lt;/code&gt; pass may introduce calls to &lt;code&gt;wcslen&lt;/code&gt; as an optimization, and some Rust targets did not have that function readily available in &lt;code&gt;libc&lt;/code&gt; or elsewhere. The UEFI targets in particular were broken for any project using &lt;code&gt;std&lt;/code&gt;, as some of these calls were introduced in the precompiled standard library, but the issue was also reproducible for similar user code patterns.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rust/issues/163911&quot;&gt;Miscompilation of FFI &lt;code&gt;bool&lt;/code&gt; return values on x86_64&lt;/a&gt;: Rust functions returning &lt;code&gt;bool&lt;/code&gt; through FFI could leave bits 1-7 of the return register unspecified, causing callers to observe raw values other than &lt;code&gt;0&lt;/code&gt; or &lt;code&gt;1&lt;/code&gt;. This return type is now marked for zero-extension again, as required by the ABI.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rust/issues/163947&quot;&gt;&lt;code&gt;rust-lld&lt;/code&gt; failed to load &lt;code&gt;libLLVM&lt;/code&gt; on macOS&lt;/a&gt;: This linker could fail to run if the compiler was invoked without the &lt;code&gt;rustup&lt;/code&gt; proxy, as there was no direct setting for the appropriate library search path. Now &lt;code&gt;rust-lld&lt;/code&gt; is built with an &lt;code&gt;rpath&lt;/code&gt; entry for the directory containing &lt;code&gt;libLLVM.dylib&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&#x27;d like to help us out by testing future releases, you might consider using the beta (&lt;code&gt;rustup default beta&lt;/code&gt;) and nightly (&lt;code&gt;rustup default nightly&lt;/code&gt;) channels locally and in your CI. Please &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rust/issues/new/choose&quot;&gt;report&lt;/a&gt; any bugs you might come across!&lt;/p&gt;
+&lt;h3 id&#x3D;&quot;contributors-to-1-99-1&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#contributors-to-1-99-1&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Contributors to 1.99.1&lt;/h3&gt;
+&lt;p&gt;Many people came together to create Rust 1.99.1. We couldn&#x27;t have done it without all of you. &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://thanks.rust-lang.org/rust/1.99.1/&quot;&gt;Thanks!&lt;/a&gt;&lt;/p&gt;
+</content>
+
+        <author>
+            <name>The Rust Release Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title>Demoting i686 Windows targets to std-only</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/" type="text/html" title="Demoting i686 Windows targets to std-only" />
+        <published>2026-10-02T00:00:00+00:00</published>
+        <updated>2026-10-02T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/">&lt;p&gt;With Rust 1.100.0, the following changes to 32-bit Windows targets will happen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;i686-pc-windows-msvc&lt;/code&gt; Tier 1 &lt;em&gt;with&lt;/em&gt; host tools target will be demoted to Tier 1 &lt;em&gt;without&lt;/em&gt; host tools.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;i686-pc-windows-gnu&lt;/code&gt; Tier 2 &lt;em&gt;with&lt;/em&gt; host tools target will be demoted to Tier 2 &lt;em&gt;without&lt;/em&gt; host tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Builds of the standard library will continue to be distributed, but host tools such as the compiler will be no longer available. &lt;code&gt;i686-pc-windows-msvc&lt;/code&gt; as a Tier 1 target still undergoes CI testing.&lt;/p&gt;
+&lt;p&gt;To build 32-bit Windows binaries, cross-compiling from a still-supported host toolchain (such as a 64-bit Windows ones) will be required from now on.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;background&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#background&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Background&lt;/h2&gt;
+&lt;p&gt;Desktop and Server 32-bit only x86 CPUs are no longer sold for over 15 years, and general 32-bit Windows support has ended in October 2025. This means that the development platforms these targets are meant for hardly exist these days, and even if they do exist they typically aren&#x27;t capable enough for development.&lt;/p&gt;
+&lt;p&gt;Even on the modern x86_64 hardware, building i686 Windows toolchains has proven to be problematic. We have encountered compiler binaries crashing when built with the i686 MSVC target, and the GNU C++ toolchain failing with OOMs during LLVM build.&lt;/p&gt;
+&lt;p&gt;Considering all these things, cross-compiling these targets from a better supported one is what we have found to be the best solution forward. As part of that, we stopped producing host tools for these targets. For the time being, the prebuilt standard library is still available, and in case of &lt;code&gt;i686-pc-windows-msvc&lt;/code&gt; still tested on CI.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;what-changes&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#what-changes&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+What Changes?&lt;/h2&gt;
+&lt;p&gt;After Rust 1.100, it will no longer be possible to install toolchains on 32-bit Windows hosts. We recommend cross-compiling from a still-supported host (such as a 64-bit Windows toolchain) instead. Other 32-bit platforms are not impacted by this change.&lt;/p&gt;
+&lt;p&gt;For more details about these demotions, see &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rfcs/blob/51783df9a76c355de7ceebeae101cba47f8ca463/text/3999-std-only-i686-msvc.md&quot;&gt;RFC 3999&lt;/a&gt; for &lt;code&gt;i686-pc-windows-msvc&lt;/code&gt; demotion, and &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/compiler-team/issues/1020&quot;&gt;MCP 1020&lt;/a&gt; for &lt;code&gt;i686-pc-windows-gnu&lt;/code&gt; demotion.&lt;/p&gt;
+</content>
+
+        <author>
+            <name>Mateusz Mikuła, Ralf Jung</name>
+        </author>
+    </entry>
+    <entry>
+        <title>Announcing Rust 1.99.0</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/" type="text/html" title="Announcing Rust 1.99.0" />
+        <published>2026-10-01T00:00:00+00:00</published>
+        <updated>2026-10-01T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/">&lt;p&gt;The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software.&lt;/p&gt;
+&lt;p&gt;If you have a previous version of Rust installed via &lt;code&gt;rustup&lt;/code&gt;, you can get 1.99.0 with:&lt;/p&gt;
+&lt;pre class&#x3D;&quot;giallo z-l-code z-d-code&quot; &gt;&lt;code data-lang&#x3D;&quot;shellsession&quot;&gt;&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt; rustup update stable&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you don&#x27;t have it already, you can get &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://www.rust-lang.org/install.html&quot;&gt;&lt;code&gt;rustup&lt;/code&gt;&lt;/a&gt; from the appropriate page on our website, and check out the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/releases.html#version-1990-2026-10-01&quot;&gt;detailed release notes for 1.99.0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#x27;d like to help us out by testing future releases, you might consider updating locally to use the beta channel (&lt;code&gt;rustup default beta&lt;/code&gt;) or the nightly channel (&lt;code&gt;rustup default nightly&lt;/code&gt;). Please &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rust/issues/new/choose&quot;&gt;report&lt;/a&gt; any bugs you might come across!&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;what-s-in-1-99-0-stable&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#what-s-in-1-99-0-stable&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+What&#x27;s in 1.99.0 stable&lt;/h2&gt;
+&lt;h3 id&#x3D;&quot;extern-c-variadics&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#extern-c-variadics&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+extern &quot;C&quot; variadics&lt;/h3&gt;
+&lt;p&gt;Rust 1.99.0 stabilizes defining C-ABI variadic functions with &quot;C&quot; and
+&quot;C-unwind&quot; ABIs. Variadic functions defined this way use a variable argument
+list (&lt;code&gt;...&lt;/code&gt;) and accept an arbitrary number of arguments. Rust could already
+call externally-defined variadic functions (e.g., &lt;code&gt;libc::printf&lt;/code&gt;). With Rust
+1.99, these functions can now be written in Rust itself:&lt;/p&gt;
+&lt;pre class&#x3D;&quot;giallo z-l-code z-d-code&quot; &gt;&lt;code data-lang&#x3D;&quot;rust&quot;&gt;&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-13 z-d-7&quot;&gt;///&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-13 z-d-7&quot;&gt; SAFETY: must be called with (at least) 2 i32 arguments.&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt;unsafe&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt; extern&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-2 z-d-13&quot;&gt; &amp;quot;&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-19 z-d-13&quot;&gt;C&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-2 z-d-13&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt; fn&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-16&quot;&gt; sum&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt;mut&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-9&quot;&gt; args&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt;:&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt; ...&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt; -&amp;gt;&lt;/span&gt;&lt;span class&#x3D;&quot;z-d-2&quot;&gt; i32&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-13 z-d-7&quot;&gt;    //&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-12 z-d-7&quot;&gt; SAFETY: guaranteed by the caller.&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt;    let&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-9&quot;&gt; a&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-14&quot;&gt; &#x3D;&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt; unsafe&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-9&quot;&gt; args&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt;.&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-16&quot;&gt;next_arg&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt;::&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span class&#x3D;&quot;z-d-2&quot;&gt;i32&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt; }&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt;    let&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-9&quot;&gt; b&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-14&quot;&gt; &#x3D;&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt; unsafe&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-9&quot;&gt; args&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt;.&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-16&quot;&gt;next_arg&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt;::&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span class&#x3D;&quot;z-d-2&quot;&gt;i32&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt; }&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-9&quot;&gt;    a&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt; +&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-9&quot;&gt; b&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt;fn&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-16&quot;&gt; foo&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-1&quot;&gt; -&amp;gt;&lt;/span&gt;&lt;span class&#x3D;&quot;z-d-2&quot;&gt; i32&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span class&#x3D;&quot;z-l-14 z-d-4&quot;&gt;    unsafe&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-4 z-d-16&quot;&gt; sum&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-16 z-d-10&quot;&gt;0&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-16 z-d-2&quot;&gt;i32&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-16 z-d-10&quot;&gt; 2&lt;/span&gt;&lt;span class&#x3D;&quot;z-l-16 z-d-2&quot;&gt;i32&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt; }&lt;/span&gt;&lt;/span&gt;
+&lt;span class&#x3D;&quot;giallo-l&quot;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The type of &lt;code&gt;...&lt;/code&gt; is &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/std/ffi/struct.VaList.html&quot;&gt;&lt;code&gt;VaList&lt;/code&gt;&lt;/a&gt;,
+which is ABI-compatible with the C &lt;code&gt;va_list&lt;/code&gt; type across targets. What types can be read from a &lt;code&gt;VaList&lt;/code&gt; is guarded by the
+&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/std/ffi/trait.VaArgSafe.html&quot;&gt;&lt;code&gt;VaArgSafe&lt;/code&gt;&lt;/a&gt; trait.&lt;/p&gt;
+&lt;p&gt;For more details on c-variadic functions, see the
+&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/reference/items/functions.html#c-variadic-functions&quot;&gt;Reference&lt;/a&gt;.
+This release also stabilizes support for defining naked variadic functions with
+non-&quot;C&quot; ABIs, which must be written via inline assembly.&lt;/p&gt;
+&lt;h3 id&#x3D;&quot;layout-information-from-raw-pointers&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#layout-information-from-raw-pointers&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Layout information from raw pointers&lt;/h3&gt;
+&lt;p&gt;This release settles the safety requirements for retrieving the size and
+alignment on raw pointers to both &lt;code&gt;Sized&lt;/code&gt; (trivially safe, already possible on
+stable) and non-&lt;code&gt;Sized&lt;/code&gt; types.&lt;/p&gt;
+&lt;p&gt;This is done by stabilizing three functions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/core/alloc/struct.Layout.html#method.for_value_raw&quot;&gt;&lt;code&gt;Layout::for_value_raw&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/core/mem/fn.size_of_val_raw.html&quot;&gt;&lt;code&gt;mem::size_of_val_raw&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/core/mem/fn.align_of_val_raw.html&quot;&gt;&lt;code&gt;mem::align_of_val_raw&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id&#x3D;&quot;recommend-against-round-trip-unleaking-after-box-leak&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#recommend-against-round-trip-unleaking-after-box-leak&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Recommend against round-trip unleaking after &lt;code&gt;Box::leak&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;While there are no changes to the language semantics in Rust 1.99, we have
+updated the documentation on &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/std/boxed/struct.Box.html#method.leak&quot;&gt;&lt;code&gt;Box::leak&lt;/code&gt;&lt;/a&gt; to recommend against patterns that
+later deallocate that memory. This was done because such code was found to have
+problematic interactions with current and future potential compiler optimizations,
+and is especially problematic with the upcoming stabilization of custom allocators.
+Instead, &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/std/boxed/struct.Box.html#method.into_non_null&quot;&gt;&lt;code&gt;Box::into_non_null&lt;/code&gt;&lt;/a&gt; or &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/std/boxed/struct.Box.html#method.into_raw&quot;&gt;&lt;code&gt;Box::into_raw&lt;/code&gt;&lt;/a&gt; should be preferred.&lt;/p&gt;
+&lt;p&gt;This guidance also applies to other &lt;code&gt;leak&lt;/code&gt; functions in the standard library.&lt;/p&gt;
+&lt;h3 id&#x3D;&quot;stabilized-apis&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#stabilized-apis&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Stabilized APIs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/iter/trait.IntoIterator.html#impl-IntoIterator-for-Box%3C%5BT;+N%5D,+A%3E&quot;&gt;&lt;code&gt;IntoIterator&lt;/code&gt; for &lt;code&gt;Box&amp;lt;[T; N]&amp;gt;&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/iter/trait.IntoIterator.html#impl-IntoIterator-for-%26Box%3C%5BT;+N%5D,+A%3E&quot;&gt;&lt;code&gt;IntoIterator&lt;/code&gt; for &lt;code&gt;&amp;amp;Box&amp;lt;[T; N]&amp;gt;&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/iter/trait.IntoIterator.html#impl-IntoIterator-for-%26mut+Box%3C%5BT;+N%5D,+A%3E&quot;&gt;&lt;code&gt;IntoIterator&lt;/code&gt; for &lt;code&gt;&amp;amp;mut Box&amp;lt;[T; N]&amp;gt;&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/collections/struct.VecDeque.html#method.retain_back&quot;&gt;&lt;code&gt;VecDeque::retain_back&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/core/ffi/struct.VaList.html&quot;&gt;&lt;code&gt;core::ffi::VaList&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#method.into_non_null&quot;&gt;&lt;code&gt;Box::into_non_null&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#method.from_non_null&quot;&gt;&lt;code&gt;Box::from_non_null&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.into_parts&quot;&gt;&lt;code&gt;Vec::into_parts&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/vec/struct.Vec.html#method.from_parts&quot;&gt;&lt;code&gt;Vec::from_parts&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/core/mem/fn.size_of_val_raw.html&quot;&gt;&lt;code&gt;core::mem::size_of_val_raw&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/core/mem/fn.align_of_val_raw.html&quot;&gt;&lt;code&gt;core::mem::align_of_val_raw&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/core/alloc/struct.Layout.html#method.for_value_raw&quot;&gt;&lt;code&gt;core::alloc::Layout::for_value_raw&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/string/struct.String.html#method.from_utf8_lossy_owned&quot;&gt;&lt;code&gt;String::from_utf8_lossy_owned&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/string/struct.FromUtf8Error.html#method.into_utf8_lossy&quot;&gt;&lt;code&gt;string::FromUtf8Error::into_utf8_lossy&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/iter/struct.StepBy.html#impl-FusedIterator-for-StepBy%3CI%3E&quot;&gt;&lt;code&gt;FusedIterator for StepBy&amp;lt;I&amp;gt;&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/fs/fn.set_times.html&quot;&gt;&lt;code&gt;std::fs::set_times&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/stable/std/fs/fn.set_times_nofollow.html&quot;&gt;&lt;code&gt;std::fs::set_times_nofollow&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id&#x3D;&quot;other-changes&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#other-changes&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Other changes&lt;/h3&gt;
+&lt;p&gt;Check out everything that changed in &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rust/releases/tag/1.99.0&quot;&gt;Rust&lt;/a&gt;, &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/nightly/cargo/CHANGELOG.html#cargo-199-2026-10-01&quot;&gt;Cargo&lt;/a&gt;, and &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/rust-clippy/blob/master/CHANGELOG.md#rust-199&quot;&gt;Clippy&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;contributors-to-1-99-0&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#contributors-to-1-99-0&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Contributors to 1.99.0&lt;/h2&gt;
+&lt;p&gt;Many people came together to create Rust 1.99.0. We couldn&#x27;t have done it without all of you. &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://thanks.rust-lang.org/rust/1.99.0/&quot;&gt;Thanks!&lt;/a&gt;&lt;/p&gt;
+</content>
+
+        <author>
+            <name>The Rust Release Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title>Announcing a Maintainer in Residence: Scott Schafer for the Cargo team</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/" type="text/html" title="Announcing a Maintainer in Residence: Scott Schafer for the Cargo team" />
+        <published>2026-09-22T00:00:00+00:00</published>
+        <updated>2026-09-22T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/">&lt;p&gt;At the end of August, we &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/&quot;&gt;announced&lt;/a&gt; our first Maintainers in Residence, Rust Project contributors who are funded for their upstream contributions and &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/inside-rust/2026/01/12/what-is-maintenance-anyway/&quot;&gt;maintenance work&lt;/a&gt; from the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/sponsors/rustfoundation&quot;&gt;Rust Foundation Maintainers Fund&lt;/a&gt; (RFMF). Since then, the Rust Leadership Council has dedicated more funds from its Project Priorities budget to RFMF, and together with AWS also providing additional funds, this allowed us to open a new full-time Maintainer in Residence (MiR) position to support the Cargo team. We would like to thank the Rust Leadership Council, AWS, and also the Rust Foundation for providing us with this opportunity! If you would like to help us hire more maintainers to improve Rust, consider &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/sponsors/rustfoundation&quot;&gt;donating&lt;/a&gt; to RFMF.&lt;/p&gt;
+&lt;p&gt;This post explains why we chose to support the Cargo team specifically, and introduces &lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/#introducing-scott-schafer&quot;&gt;Scott Schafer&lt;/a&gt;, the new Cargo Maintainer in Residence.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;why-cargo&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#why-cargo&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Why Cargo?&lt;/h2&gt;
+&lt;p&gt;The new MiR full-time position is dedicated to helping with the maintenance of &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/cargo&quot;&gt;Cargo&lt;/a&gt;, our build system and package manager. The Cargo project is deeply involved in many new Rust features, improvements, and &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://goals.rust-lang.org/2026/goals.html#cargo-team&quot;&gt;Project Goals&lt;/a&gt;. Combined with its cross-cutting nature, where it has to support many different use-cases and integrate with several other tools, it takes a lot of work just to keep up with its maintenance needs, let alone support so many feature requests and proposed changes.&lt;/p&gt;
+&lt;p&gt;Because of that, the Cargo team has sometimes struggled with meeting its maintenance demands. You might remember that for several years, it actually held a &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/inside-rust/2022/03/31/cargo-team-changes/&quot;&gt;feature freeze&lt;/a&gt;, to reduce Cargo&#x27;s internal tech debt, perform necessary refactorings, go through the issue and pull request backlog, and come up with scalable internal development and design processes, so that they could eventually go back to even thinking about adding new features.&lt;/p&gt;
+&lt;p&gt;Recently, some changes occurred within the team, which made it more difficult for them to meet their maintenance baseline. Some members of the team left, while others lost their dedicated funding for working on Cargo maintenance and had to scale down their involvement. The Funding team thus considered it very important to support this team, given that we had an opportunity to do so. And thus we decided to hire a full-time maintainer to work on Cargo for (at least) the next 12 months.&lt;/p&gt;
+&lt;p&gt;Even though we know that a single full-time maintainer will not completely solve the maintenance struggles of the Cargo team, we hope that it will improve the situation, and provide a bit of a relief for the team.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;introducing-scott-schafer&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#introducing-scott-schafer&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Introducing Scott Schafer&lt;/h2&gt;
+&lt;aside style&#x3D;&quot;float: right; clear: both; margin-left: 10px;&quot;&gt;
+  &lt;img alt&#x3D;&quot;A photo of Scott Schafer&quot; src&#x3D;&quot;scott.jpg&quot; width&#x3D;&quot;460&quot; style&#x3D;&quot;width: 12em; border: 1px solid white;&quot; /&gt;
+&lt;/aside&gt;
+&lt;p&gt;We are very happy to welcome Scott Schafer (&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/Muscraft&quot;&gt;@muscraft&lt;/a&gt;) into the Maintainer in Residence role! Scott has joined the Cargo team &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members/&quot;&gt;three years ago&lt;/a&gt;, and apart from working on Cargo, he is also the lead of the Rust &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://rust-lang.org/governance/teams/#team-docker&quot;&gt;Docker team&lt;/a&gt;, which prepares official Docker images for every Rust version.&lt;/p&gt;
+&lt;p&gt;Apart from working on general maintenance of Cargo, Scott has implemented Cargo&#x27;s &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/cargo/reference/workspaces.html#the-package-table&quot;&gt;Workspace inheritance&lt;/a&gt; feature, and has also spearheaded a complex multi-year effort to switch the rendering of diagnostics in the Rust compiler to use the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/annotate-snippets-rs&quot;&gt;annotate-snippets&lt;/a&gt; crate. This effort has been completed in the Rust 1.93.0 release. Thanks to it, the same diagnostics interface can now be shared between the compiler and Cargo (and also other tools), which amongst other things unblocked further development of the Cargo linting system, which has now been stabilized and will ship in the Rust 1.100.0 release.&lt;/p&gt;
+&lt;p&gt;Everyone we talked about was very excited about Scott becoming a Cargo Maintainer in Residence, and we share that feeling. We wish Scott all the best in his new role, and we are very happy that we can support his maintenance work.&lt;/p&gt;
+&lt;p&gt;Here is what Scott thinks about it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I am incredibly excited to work on Cargo full-time! There have been so many things that I wish I could&#x27;ve worked on over the years, that I will now be able to get to. I hope that my efforts will bring Cargo into a more maintainable state.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id&#x3D;&quot;conclusion&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#conclusion&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Conclusion&lt;/h2&gt;
+&lt;p&gt;We are incredibly happy that we keep getting more funds for the Rust Foundation Maintainers Fund, which allows us to support Rust Project contributors. The funding team will be working with the supported maintainers, and also the funders, to ensure that they are all happy with the arrangement, so that we can secure stable funding for Rust maintenance for years to come.&lt;/p&gt;
+&lt;p&gt;If you would like to help us support more Rust maintainers, consider &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/sponsors/rustfoundation&quot;&gt;donating&lt;/a&gt; to RFMF!&lt;/p&gt;
+</content>
+
+        <author>
+            <name>Jakub Beránek</name>
+        </author>
+    </entry>
+    <entry>
+        <title>GitHub Actions leaking secrets when Miri output is cached</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/" type="text/html" title="GitHub Actions leaking secrets when Miri output is cached" />
+        <published>2026-09-21T00:00:00+00:00</published>
+        <updated>2026-09-21T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/">&lt;p&gt;The Rust Security Response Team was notified that Miri stores all environment variables to &lt;code&gt;target/&lt;/code&gt;, allowing secrets to persist in caches.&lt;/p&gt;
+&lt;p&gt;While not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;overview&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#overview&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Overview&lt;/h2&gt;
+&lt;p&gt;GitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on &lt;code&gt;main&lt;/code&gt; (and other branches) to &lt;em&gt;write&lt;/em&gt; to cache, and PRs can only &lt;em&gt;read&lt;/em&gt; from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by &lt;code&gt;cargo install&lt;/code&gt; and sometimes the contents of &lt;code&gt;target/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;PR CI can be triggered by anyone who can open PRs on your repository. GitHub requires maintainer approval for the &lt;em&gt;first&lt;/em&gt; PR, but future PRs will rerun CI on every push. Anyone who has previously landed a change can trigger a CI run extracting information from cached &lt;code&gt;target/&lt;/code&gt; and then cover their tracks by pushing a second commit to the PR.&lt;/p&gt;
+&lt;p&gt;GitHub sometimes hides overwritten commits in its UI, making this kind of attack harder to detect. CI run logs and overwritten commits are also deleted after a few months.&lt;/p&gt;
+&lt;p&gt;When &lt;code&gt;cargo miri&lt;/code&gt; is invoked, Miri needs to retain build-relevant environment variables between runs&lt;sup class&#x3D;&quot;footnote-reference&quot; id&#x3D;&quot;fr-1-1&quot;&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/#fn-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. The current code to do so achieves this by storing &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/miri/blob/165a9c3c96f0f4e6232278e62cb64648215bbc37/cargo-miri/src/util.rs#L40-L42&quot;&gt;all environment variables to &lt;code&gt;target/&lt;/code&gt;&lt;/a&gt;. This, of course, persists when &lt;code&gt;target/&lt;/code&gt; is cached.&lt;/p&gt;
+&lt;p&gt;If your environment contained secrets, these can now be accessed by PRs via the cache.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;our-fix&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#our-fix&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Our fix&lt;/h2&gt;
+&lt;p&gt;Our &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/rust-lang/miri/pull/5337&quot;&gt;short term fix&lt;/a&gt; for this is to make Miri only preserve &lt;code&gt;CARGO_*&lt;/code&gt; environment variables (excepting &lt;code&gt;CARGO_*_TOKEN&lt;/code&gt;) and &lt;code&gt;OUT_DIR&lt;/code&gt;. In the longer term, Miri and cargo may figure out better ways to inform Miri of the relevant list of environment variables. Note that this patch may not be available on nightly yet.&lt;/p&gt;
+&lt;p&gt;We also performed an ecosystem scan of GitHub repositories and identified 1 repository with this issue and 7 repositories that do not appear to be vulnerable but should be cautious anyway. We have reached out to those maintainers.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;am-i-affected&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#am-i-affected&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Am I affected?&lt;/h2&gt;
+&lt;p&gt;It is likely that our scan was imperfect, so we recommend you check your own GitHub Actions setups if you run Miri.&lt;/p&gt;
+&lt;p&gt;You are vulnerable if:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You run &lt;code&gt;cargo miri&lt;/code&gt; in CI&lt;/li&gt;
+&lt;li&gt;The step that runs &lt;code&gt;cargo miri&lt;/code&gt; &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#using-secrets-in-a-workflow&quot;&gt;has access to secrets&lt;/a&gt; as an environment variable:
+&lt;ul&gt;
+&lt;li&gt;By being passed in to the step itself as an environment variable&lt;/li&gt;
+&lt;li&gt;By being set in &lt;code&gt;env&lt;/code&gt; for the workflow&lt;/li&gt;
+&lt;li&gt;By being passed in to a previous step that persists it in the environment somehow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The workflow being used caches the &lt;code&gt;target&lt;/code&gt; directory, usually done via &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/actions/cache&quot;&gt;&lt;code&gt;actions/cache&lt;/code&gt;&lt;/a&gt; or &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/swatinem/rust-cache&quot;&gt;&lt;code&gt;swatinem/rust-cache&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The cache is accessible to PRs (common and often the intended use case)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Possible quick fixes include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disabling cache for that job.&lt;/li&gt;
+&lt;li&gt;Scoping secrets to steps in that job that do not call Miri.&lt;/li&gt;
+&lt;li&gt;Temporarily disabling Miri.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once done, &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manage-caches#deleting-cache-entries&quot;&gt;please clear the cache&lt;/a&gt;. Consider rotating any secrets that might have leaked.&lt;/p&gt;
+&lt;p&gt;The Miri release in the upcoming nightly (2026-09-22) will no longer have this problem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Even if you do not run Miri,&lt;/strong&gt; ensure jobs that can write to public caches do not have access to secrets. Many tools do not have special handling for secrets, and assume the entire environment can be written to the filesystem.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;threat-model&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#threat-model&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Threat model&lt;/h2&gt;
+&lt;p&gt;We consider it bad practice to have a cache that can easily be tainted by secrets.&lt;/p&gt;
+&lt;p&gt;If caching &lt;code&gt;target/&lt;/code&gt;, it is worth making sure that the inputs to processes that create &lt;code&gt;target/&lt;/code&gt; (anything invoking &lt;code&gt;cargo&lt;/code&gt;) do not have secrets available. It is generally rare for standard &lt;code&gt;cargo&lt;/code&gt; build/test subcommands to need any secrets or tokens&lt;sup class&#x3D;&quot;footnote-reference&quot; id&#x3D;&quot;fr-2-1&quot;&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/#fn-2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;, so this is mostly a matter of being careful about having secrets exposed as environment variables to the entire job.&lt;/p&gt;
+&lt;p&gt;Cargo/Miri/Rust does not guarantee that environment variables will be safe from being copied into &lt;code&gt;target/&lt;/code&gt;. While we are treating this as a security issue and patching it out of an abundance of caution, this is not something you should rely on in general. Beyond official Rust tooling, it is possible for build scripts to be doing things that lead to the environment being stored in compilation artifacts.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;acknowledgements&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#acknowledgements&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Acknowledgements&lt;/h2&gt;
+&lt;p&gt;Thanks to &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/obi1kenobi&quot;&gt;Predrag Gruevski&lt;/a&gt; of OpenAI for reporting this issue to us. Furthermore, the ecosystem scan was performed using Codex access and credits donated by OpenAI, which we also thank them for.&lt;/p&gt;
+&lt;p&gt;Issue triage and remediation was performed by Manish Goregaokar, Ralf Jung, Ben Kimock, Weihang Lo, Jacob Finkelman, Walter Pearce, Josh Stone, and Mark Rousskov.&lt;/p&gt;
+&lt;section class&#x3D;&quot;footnotes&quot;&gt;
+&lt;ol class&#x3D;&quot;footnotes-list&quot;&gt;
+&lt;li id&#x3D;&quot;fn-1&quot;&gt;
+&lt;p&gt;Miri is invoked multiple times by &lt;code&gt;cargo miri&lt;/code&gt; for complicated reasons &lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/#fr-1-1&quot;&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id&#x3D;&quot;fn-2&quot;&gt;
+&lt;p&gt;In theory it could come up with build scripts reading from the network &lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/#fr-2-1&quot;&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+
+        <author>
+            <name>Manish Goregaokar</name>
+        </author>
+    </entry>
+    <entry>
+        <title>Be alert: targeted attacks on prominent Rustaceans</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/09/17/targeted-attacks/" type="text/html" title="Be alert: targeted attacks on prominent Rustaceans" />
+        <published>2026-09-17T00:00:00+00:00</published>
+        <updated>2026-09-17T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/09/17/targeted-attacks/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/09/17/targeted-attacks/">&lt;p&gt;We believe that there is an ongoing campaign targeting rust-lang members and
+owners of popular crates that is attempting to compromise devices and accounts
+in order to use them to publish malware.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;what-we-ve-seen&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#what-we-ve-seen&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+What we&#x27;ve seen&lt;/h2&gt;
+&lt;p&gt;A video call is set up for something positive — maybe for a job, maybe for a
+project, maybe for a contract opportunity — and then that&#x27;s used as a vector to
+either get the target to install something on their computer (such as a
+purportedly missing audio codec) or execute another command (for example, via
+putting a command on the clipboard).&lt;/p&gt;
+&lt;p&gt;These attackers are setting up new but legitimate seeming company profiles,
+including plausible LinkedIn presences, in order to pass cursory inspection.&lt;/p&gt;
+&lt;p&gt;A &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/&quot;&gt;previous attack of this form&lt;/a&gt; targeted many prominent Rust developers in
+June, and, last month, the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/&quot;&gt;&lt;code&gt;arrayref&lt;/code&gt; crate was briefly compromised through similar
+attacks&lt;/a&gt;. At this moment we do not know if these are all a part of the same
+campaign.&lt;/p&gt;
+&lt;p&gt;This attack style is &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://kudelskisecurity.com/research/how-dprks-contagious-interview-campaign-targets-developers&quot;&gt;known to be used by the DPRK&lt;/a&gt;, and has been &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://ashishb.net/security/contagious-interview/&quot;&gt;seen outside of the Rust community as well&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;what-you-can-do&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#what-you-can-do&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+What you can do&lt;/h2&gt;
+&lt;p&gt;Please take extra care in the near term. Be appropriately suspicious of cold
+outreaches, and ensure that any calls you have with new people are on platforms
+you trust — ideally, try to be the one who sets up the call on a platform you
+already use.&lt;/p&gt;
+&lt;p&gt;Please also re-check that your accounts look normal: MFA enabled,
+no unexpected logins on platforms that can track that, and so on.&lt;/p&gt;
+&lt;p&gt;If you have any concerns about your accounts, please reach out to
+&lt;a href&#x3D;&quot;mailto:help@crates.io&quot;&gt;help@crates.io&lt;/a&gt; (for crates.io account concerns) and/or
+&lt;a href&#x3D;&quot;mailto:security@rust-lang.org&quot;&gt;security@rust-lang.org&lt;/a&gt; (for any other
+concerns). We&#x27;re very happy to help.&lt;/p&gt;
+</content>
+
+        <author>
+            <name>Adam Harvey</name>
+        </author>
+    </entry>
+    <entry>
+        <title>Rust debugging survey 2026 results</title>
+        <link rel="alternate" href="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/" type="text/html" title="Rust debugging survey 2026 results" />
+        <published>2026-09-07T00:00:00+00:00</published>
+        <updated>2026-09-07T00:00:00+00:00</updated>
+        <id>https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/</id>
+        <content type="html" xml:base="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/">&lt;p&gt;One of the biggest challenges Rust developers report in our
+&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/2026/03/02/2025-State-Of-Rust-Survey-results/#challenges-and-wishes-about-rust&quot;&gt;annual surveys&lt;/a&gt; is a subpar debugging experience. So, back
+in February, we ran our first &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://blog.rust-lang.org/2026/02/23/rust-debugging-survey-2026/&quot;&gt;Rust Debugging Survey&lt;/a&gt;,
+in the hopes of identifying how Rust developers are using debuggers and what
+problems they are facing when doing so. We received over 2,300 responses, and
+we&#x27;d like to thank everyone who took the time to participate in the survey!&lt;/p&gt;
+&lt;p&gt;In this report, we&#x27;ll go over some of the results of the survey. If you&#x27;d like,
+you can also check out &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://raw.githubusercontent.com/rust-lang/surveys/main/surveys/2026/debugging/report/debugging-survey-2026-report.pdf&quot;&gt;the complete results of the survey&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you&#x27;d like to skip ahead to any particular section, you can do so with this
+index:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/#who-uses-debuggers&quot;&gt;Who Uses Debuggers?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/#how-are-debuggers-used&quot;&gt;How Are Debuggers Used?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/#challenges&quot;&gt;Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/#debugger-visualizers&quot;&gt;Debugger Visualizers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href&#x3D;&quot;https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/#closing-remarks&quot;&gt;Closing Remarks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id&#x3D;&quot;who-uses-debuggers&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#who-uses-debuggers&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Who Uses Debuggers?&lt;/h2&gt;
+&lt;p&gt;The first step to making sense of the survey results is understanding who took
+the survey. We asked respondents to rate their Rust expertise, from &quot;Never used
+it&quot; to &quot;Advanced&quot;. Over 80% reported themselves as &quot;Advanced&quot; or &quot;Intermediate&quot;,
+split roughly evenly between the two:&lt;/p&gt;
+&lt;!-- Chart how-would-you-rate-your-rust-expertise start --&gt;
+&lt;div&gt;
+    &lt;div class id&#x3D;&quot;how-would-you-rate-your-rust-expertise&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;how-would-you-rate-your-rust-expertise&quot; src&#x3D;&quot;how-would-you-rate-your-rust-expertise.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;how-would-you-rate-your-rust-expertise.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;how-would-you-rate-your-rust-expertise.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart how-would-you-rate-your-rust-expertise end --&gt;
+&lt;p&gt;We also asked respondents if they currently use or have used debuggers in Rust.
+Over 46% said they currently do, with the remaining responses split between
+&quot;have in the past&quot; and &quot;never have&quot;. That means that over half of respondents do
+not currently use a debugger for Rust!&lt;/p&gt;
+&lt;!-- Chart do-you-use-debuggers-in-rust start --&gt;
+&lt;div&gt;
+    &lt;div class id&#x3D;&quot;do-you-use-debuggers-in-rust&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;do-you-use-debuggers-in-rust&quot; src&#x3D;&quot;do-you-use-debuggers-in-rust.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;do-you-use-debuggers-in-rust.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;do-you-use-debuggers-in-rust.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart do-you-use-debuggers-in-rust end --&gt;
+&lt;p&gt;Categorized by expertise, the responses reveal that roughly half of &quot;beginners&quot;
+have never used debuggers in Rust! On the other hand, nearly half of &quot;advanced
+users&quot; currently do use debuggers in Rust:&lt;/p&gt;
+&lt;!-- Chart do-you-use-debuggers-in-rust-per-expertise start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;pie-chart&quot; id&#x3D;&quot;do-you-use-debuggers-in-rust-per-expertise&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;do-you-use-debuggers-in-rust-per-expertise&quot; src&#x3D;&quot;do-you-use-debuggers-in-rust-per-expertise.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;do-you-use-debuggers-in-rust-per-expertise.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;do-you-use-debuggers-in-rust-per-expertise.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart do-you-use-debuggers-in-rust-per-expertise end --&gt;
+&lt;p&gt;For respondents who indicated they had previously used Rust but no longer did,
+we asked if challenges with debugging support were why they stopped. For nearly
+3%, the answer was &quot;yes&quot;, with an additional 24% reporting debugging issues as
+being partially responsible (though mind the small response count; most
+respondents were active users of Rust):&lt;/p&gt;
+&lt;!-- Chart were-issues-with-debugging-support-the-primary-reason-why-you-stopped-using-rust start --&gt;
+&lt;div&gt;
+    &lt;div class id&#x3D;&quot;were-issues-with-debugging-support-the-primary-reason-why-you-stopped-using-rust&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;were-issues-with-debugging-support-the-primary-reason-why-you-stopped-using-rust&quot; src&#x3D;&quot;were-issues-with-debugging-support-the-primary-reason-why-you-stopped-using-rust.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;were-issues-with-debugging-support-the-primary-reason-why-you-stopped-using-rust.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;were-issues-with-debugging-support-the-primary-reason-why-you-stopped-using-rust.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart were-issues-with-debugging-support-the-primary-reason-why-you-stopped-using-rust end --&gt;
+&lt;h2 id&#x3D;&quot;how-are-debuggers-used&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#how-are-debuggers-used&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+How Are Debuggers Used?&lt;/h2&gt;
+&lt;p&gt;Knowing what debuggers developers are using and how is another important part of
+understanding the challenges they face. To this end, we asked respondents how
+they were debugging their programs. Unsurprisingly, most developers make use of
+print debugging and the &lt;code&gt;dbg!&lt;/code&gt; macro. Excluding those, using &lt;code&gt;lldb&lt;/code&gt; inside an
+IDE was the most popular choice, followed by &lt;code&gt;gdb&lt;/code&gt; on the command line:&lt;/p&gt;
+&lt;!-- Chart what-tools-and-workflows-do-you-use-to-debug-rust-programs start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;bar-chart&quot; id&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs&quot; src&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart what-tools-and-workflows-do-you-use-to-debug-rust-programs end --&gt;
+&lt;p&gt;We can get a more detailed breakdown of these results if we include the
+operating system on which the respondents use a given debugging approach. We
+examine this from two different angles. The first angle being, &quot;On operating
+system X, what percent of responses are using debugger Y?&quot;. Print debugging and
+the &lt;code&gt;dbg!&lt;/code&gt; macro are consistently the top two yet again, but looking beyond
+that, things get more interesting. On Linux, using &lt;code&gt;gdb&lt;/code&gt; on the command line was
+the most popular choice by a thin margin, beating &lt;code&gt;lldb&lt;/code&gt; in an IDE by only 0.4%.
+On Windows, Windows Subsystem for Linux (WSL), and macOS, &lt;code&gt;lldb&lt;/code&gt; in an IDE was
+the top pick by at least 6%, making it a very popular choice in general. On
+Windows, the three least popular choices were the command line debuggers (&lt;code&gt;gdb&lt;/code&gt;
+CLI, &lt;code&gt;lldb&lt;/code&gt; CLI, and BugStalker), and on both Windows and macOS the third most
+popular pick was, &quot;I don&#x27;t know&quot;. Those who were debugging on operating systems
+not listed (Other) most frequently used some kind of special embedded debugger
+or &lt;code&gt;gdb&lt;/code&gt;:&lt;/p&gt;
+&lt;!-- Chart what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-1 start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;pie-chart&quot; id&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-1&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-1&quot; src&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-1.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-1.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-1.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-1 end --&gt;
+&lt;p&gt;The other angle we can look at these responses from is, &quot;For users of debugger
+X, what percent of responses are using it on operating system Y?&quot;. For most
+debuggers, Linux makes up the largest portion of uses, ranging from about 45% to
+about 77%, followed by Windows, then macOS. The most notable exceptions are
+WinDbg and the Visual Studio debugger, which are primarily used on Windows, and
+&lt;code&gt;lldb&lt;/code&gt;, which is used more on macOS than Windows in an IDE and on the command
+line:&lt;/p&gt;
+&lt;!-- Chart what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-2 start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;pie-chart&quot; id&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-2&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-2&quot; src&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-2.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-2.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-2.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart what-tools-and-workflows-do-you-use-to-debug-rust-programs-per-os-2 end --&gt;
+&lt;p&gt;To the 6 respondents who use WinDbg on Linux: we wish you luck!&lt;/p&gt;
+&lt;p&gt;As for how people actually use their debugger of choice, the aggregate results
+are not particularly surprising. Roughly 87% of users are using debuggers for
+stepping line-by-line through programs and a little over half of users are using
+debuggers to obtain stack traces from hung/crashed processes. Only a quarter of
+the respondents use a debugger to debug async code. That might be partially
+caused by the async Rust debugging experience being clumsy and incomplete, or it
+could just be that users aren&#x27;t writing much async code:&lt;/p&gt;
+&lt;!-- Chart what-are-you-using-debuggers-for start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;bar-chart&quot; id&#x3D;&quot;what-are-you-using-debuggers-for&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;what-are-you-using-debuggers-for&quot; src&#x3D;&quot;what-are-you-using-debuggers-for.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;what-are-you-using-debuggers-for.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;what-are-you-using-debuggers-for.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;what-are-you-using-debuggers-for-wordcloud.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download open answers as wordcloud PNG&quot;&gt;Wordcloud of open answers&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart what-are-you-using-debuggers-for end --&gt;
+&lt;p&gt;If we break these results down by expertise, we can learn a bit more about usage
+patterns. As users become more experienced with Rust, their use of debuggers for
+learning purposes decreases, and they get more stack traces from crashed
+processes:&lt;/p&gt;
+&lt;!-- Chart what-are-you-using-debuggers-for-per-expertise start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;pie-chart&quot; id&#x3D;&quot;what-are-you-using-debuggers-for-per-expertise&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;what-are-you-using-debuggers-for-per-expertise&quot; src&#x3D;&quot;what-are-you-using-debuggers-for-per-expertise.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;what-are-you-using-debuggers-for-per-expertise.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;what-are-you-using-debuggers-for-per-expertise.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart what-are-you-using-debuggers-for-per-expertise end --&gt;
+&lt;p&gt;The final bit of insight into how Rustaceans use debuggers is if they are
+debugging programs that use Rust alongside other programming languages. For 44%
+of respondents, the answer is &quot;yes&quot;, which is a pretty high number!&lt;/p&gt;
+&lt;p&gt;As for which languages those are, C dominates the scene at a little over 70%,
+followed by C++ at about 43% and Python at about 20%:&lt;/p&gt;
+&lt;!-- Chart do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;bar-chart&quot; id&#x3D;&quot;do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages&quot; src&#x3D;&quot;do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages-wordcloud.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download open answers as wordcloud PNG&quot;&gt;Wordcloud of open answers&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart do-you-debug-programs-that-combine-rust-with-any-of-the-following-languages end --&gt;
+&lt;h2 id&#x3D;&quot;challenges&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#challenges&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Challenges&lt;/h2&gt;
+&lt;p&gt;Instead of diving right into asking, &quot;what problems do you face when using
+debuggers?&quot;, or something to that effect, we first asked respondents why they
+decide against using debuggers whenever they do, including for reasons that
+aren&#x27;t necessarily &quot;problems with debuggers&quot;.&lt;/p&gt;
+&lt;p&gt;The most commonly reported reason was that it was easier or faster to use logs
+or print debugging to solve problems, reported by a little over 81% of
+respondents. This could partially be explained by the open responses, which
+featured complaints that debuggers were too difficult to set up and/or use
+(especially on Windows, when dealing with Web Assembly, or in embedded
+contexts) and sentiment suggesting that small and/or simple problems just don&#x27;t
+really need a debugger. It does leave one wondering if the user experience could
+be made convenient enough to dethrone print debugging, but it seems hard to beat
+something so intuitive. This is followed by roughly 37% of respondents who write
+code that Just Works. Fair enough. After that, about 26% of respondents
+indicated that they&#x27;ve decided not to use debuggers in situations where the
+language features they were working with had poor support. This is slightly more
+than issues with standard library types, at about 22%, which is slightly more
+than issues with external library types, at about 20%:&lt;/p&gt;
+&lt;!-- Chart when-you-dont-use-a-debugger-why-dont-you start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;bar-chart&quot; id&#x3D;&quot;when-you-dont-use-a-debugger-why-dont-you&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;when-you-dont-use-a-debugger-why-dont-you&quot; src&#x3D;&quot;when-you-dont-use-a-debugger-why-dont-you.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;when-you-dont-use-a-debugger-why-dont-you.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;when-you-dont-use-a-debugger-why-dont-you.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;when-you-dont-use-a-debugger-why-dont-you-wordcloud.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download open answers as wordcloud PNG&quot;&gt;Wordcloud of open answers&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart when-you-dont-use-a-debugger-why-dont-you end --&gt;
+&lt;p&gt;As stepping through code was anticipated to be one of the most common uses for
+debuggers, we directly asked respondents if they faced any issues when doing so.
+A little over 51% of respondents said they did! Of those who reported that they
+experienced issues stepping through code, we asked when they were experiencing
+issues. Async code was the most common case reported at slightly over 28%,
+followed by code involving macros at about 23%. The least common case reported
+was code involving function pointers, at almost 6%:&lt;/p&gt;
+&lt;!-- Chart when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;bar-chart&quot; id&#x3D;&quot;when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger&quot; src&#x3D;&quot;when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger-wordcloud.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download open answers as wordcloud PNG&quot;&gt;Wordcloud of open answers&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart when-do-you-experience-issues-with-trying-to-step-through-code-with-your-debugger end --&gt;
+&lt;p&gt;We also directly asked respondents which types in the standard library were hard
+to work with, if any. This was an open-response question, and reading through
+the responses, some particularly common complaints were with &lt;code&gt;enum&lt;/code&gt;s and
+collections, particularly &lt;code&gt;std::collections::HashMap&lt;/code&gt; and &lt;code&gt;std::vec::Vec&lt;/code&gt;. This
+is also visible in the word cloud in the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://raw.githubusercontent.com/rust-lang/surveys/main/surveys/2026/debugging/report/debugging-survey-2026-report.pdf&quot;&gt;full report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We asked respondents to indicate which pain points, if any, they have
+encountered when using debuggers with Rust. At slightly over 74%, poor
+representation of values was the most common pain point by a decent margin,
+followed by being unable to print variables at just over 55%:&lt;/p&gt;
+&lt;!-- Chart which-of-these-pain-points-have-you-experienced-using-a-debugger-with-rust start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;bar-chart&quot; id&#x3D;&quot;which-of-these-pain-points-have-you-experienced-using-a-debugger-with-rust&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;which-of-these-pain-points-have-you-experienced-using-a-debugger-with-rust&quot; src&#x3D;&quot;which-of-these-pain-points-have-you-experienced-using-a-debugger-with-rust.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;which-of-these-pain-points-have-you-experienced-using-a-debugger-with-rust.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;which-of-these-pain-points-have-you-experienced-using-a-debugger-with-rust.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart which-of-these-pain-points-have-you-experienced-using-a-debugger-with-rust end --&gt;
+&lt;h2 id&#x3D;&quot;debugger-visualizers&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#debugger-visualizers&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Debugger Visualizers&lt;/h2&gt;
+&lt;p&gt;We asked respondents to indicate if they were library authors, and if so, if
+they were aware of and using the &lt;code&gt;debugger_visualizer&lt;/code&gt; attribute. Nearly 62% of
+respondents indicated that they were library authors who were not aware of this
+attribute:&lt;/p&gt;
+&lt;!-- Chart if-you-are-a-library-author-are-you-aware-of-and-using-the-debugger-visualizer-attribute start --&gt;
+&lt;div&gt;
+    &lt;div class id&#x3D;&quot;if-you-are-a-library-author-are-you-aware-of-and-using-the-debugger-visualizer-attribute&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;if-you-are-a-library-author-are-you-aware-of-and-using-the-debugger-visualizer-attribute&quot; src&#x3D;&quot;if-you-are-a-library-author-are-you-aware-of-and-using-the-debugger-visualizer-attribute.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;if-you-are-a-library-author-are-you-aware-of-and-using-the-debugger-visualizer-attribute.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;if-you-are-a-library-author-are-you-aware-of-and-using-the-debugger-visualizer-attribute.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart if-you-are-a-library-author-are-you-aware-of-and-using-the-debugger-visualizer-attribute end --&gt;
+&lt;p&gt;For those who indicated that they were library authors who knew about the
+attribute but did not use it, we also asked why. This represented a much smaller
+fraction of respondents, so keep that in mind! That said, half of these library
+authors indicated that they didn&#x27;t have the time to maintain visualizer
+attributes, and just under half indicated they didn&#x27;t know how to write
+visualizer scripts:&lt;/p&gt;
+&lt;!-- Chart why-dont-you-use-the-debugger-visualizer-attribute start --&gt;
+&lt;div&gt;
+    &lt;div class&#x3D;&quot;bar-chart&quot; id&#x3D;&quot;why-dont-you-use-the-debugger-visualizer-attribute&quot;&gt;&lt;noscript&gt;
+&lt;img alt&#x3D;&quot;why-dont-you-use-the-debugger-visualizer-attribute&quot; src&#x3D;&quot;why-dont-you-use-the-debugger-visualizer-attribute.png&quot;/&gt;
+&lt;/noscript&gt;&lt;/div&gt;
+    &lt;div style&#x3D;&quot;display: flex; margin-bottom: 10px;&quot;&gt;
+        &lt;span&gt;[&lt;a href&#x3D;&quot;why-dont-you-use-the-debugger-visualizer-attribute.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as PNG&quot;&gt;PNG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;why-dont-you-use-the-debugger-visualizer-attribute.svg&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download chart as SVG&quot;&gt;SVG&lt;/a&gt;]&lt;/span&gt;&amp;nbsp;&lt;span&gt;[&lt;a href&#x3D;&quot;why-dont-you-use-the-debugger-visualizer-attribute-wordcloud.png&quot; target&#x3D;&quot;_href_&quot; title&#x3D;&quot;Download open answers as wordcloud PNG&quot;&gt;Wordcloud of open answers&lt;/a&gt;]&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Chart why-dont-you-use-the-debugger-visualizer-attribute end --&gt;
+&lt;p&gt;For those of you who have been reading this section asking yourself what the
+&lt;code&gt;debugger_visualizer&lt;/code&gt; attribute is, you can read up on it in
+&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://doc.rust-lang.org/reference/attributes/debugger.html&quot;&gt;The Rust Reference: Debugger Attributes&lt;/a&gt;. The quick
+explanation is that the &lt;code&gt;debugger_visualizer&lt;/code&gt; attribute can be applied to
+modules or the crate root to embed files in the debug information which improve
+the display of values with certain debuggers. The two currently supported file
+types are Natvis files, used by Microsoft debuggers such as WinDbg, and GDB
+&quot;pretty printers&quot;, which are structured Python scripts used by GDB.&lt;/p&gt;
+&lt;h2 id&#x3D;&quot;closing-remarks&quot;&gt;&lt;a class&#x3D;&quot;anchor&quot; href&#x3D;&quot;#closing-remarks&quot; aria-hidden&#x3D;&quot;true&quot;&gt;&lt;/a&gt;
+Closing Remarks&lt;/h2&gt;
+&lt;p&gt;Thanks to your participation in this survey, we&#x27;ve gained some great insights
+about how Rustaceans are using debuggers and what issues they are facing. For
+example, knowing that such a high number of users are dealing with poor
+representation of values pairs well with knowing which standard library types
+are causing issues, knowing that many library authors haven&#x27;t heard of the
+&lt;code&gt;debugger_visualizer&lt;/code&gt; attribute, and knowing that many of those who have but
+don&#x27;t use it either don&#x27;t know how or don&#x27;t have time to maintain visualizer
+scripts.&lt;/p&gt;
+&lt;p&gt;Looking to the future, the survey results have suggested that there are a few
+notable ways we could most significantly improve the debugging experience in
+Rust, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixing the way &lt;code&gt;enum&lt;/code&gt;s are represented by debuggers so they show actual
+variants&lt;/li&gt;
+&lt;li&gt;Fixing the way collections (such as &lt;code&gt;HashMap&lt;/code&gt;) are represented by debuggers so
+they show their contents, rather than their implementation details&lt;/li&gt;
+&lt;li&gt;Fixing the way string types (such as &lt;code&gt;String&lt;/code&gt; and &lt;code&gt;CString&lt;/code&gt;) are represented
+by debuggers so they render as text, rather than their implementation details&lt;/li&gt;
+&lt;li&gt;Improving the &lt;code&gt;async&lt;/code&gt; debugging experience, particularly with stack traces&lt;/li&gt;
+&lt;li&gt;Improving stepping through certain state machines (such as iterators and
+&lt;code&gt;Future&lt;/code&gt;s)&lt;/li&gt;
+&lt;li&gt;Providing documentation on basic set up and use of some common debuggers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A common suggestion that could resolve those first three points is to use the
+&lt;code&gt;Debug&lt;/code&gt; implementation of types to display them in debuggers. There are
+challenges to that approach, such as the fact that the &lt;code&gt;Debug&lt;/code&gt; implementation is
+not present in the final binary unless it is actually used somewhere in the
+program, but it isn&#x27;t impossible. Notably, this is already supported by the
+&lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://github.com/godzie44/BugStalker&quot;&gt;&lt;code&gt;BugStalker&lt;/code&gt;&lt;/a&gt; debugger (given the same condition that the &lt;code&gt;Debug&lt;/code&gt;
+implementation must actually be used), which some of you first heard about from
+the survey! It also appears to have some support for &lt;code&gt;async&lt;/code&gt;, with plans to
+expand.&lt;/p&gt;
+&lt;p&gt;One notable way the debugger experience is currently being improved is through
+the &lt;a rel&#x3D;&quot;external&quot; href&#x3D;&quot;https://summerofcode.withgoogle.com/programs/2026/projects/gzkF5BG0&quot;&gt;ongoing Google Summer of Code project&lt;/a&gt; improving how we test debug info and
+visualizer scripts, making it easier to maintain and improve our own visualizer
+scripts and general compatibility with visualizer scripts without silent
+breakage or regressions.&lt;/p&gt;
+&lt;p&gt;Once again, we&#x27;d like to thank everyone who took the time to participate in the
+survey!&lt;/p&gt;
+&lt;!-- Chart scripts --&gt;
+&lt;script charset&#x3D;&quot;utf-8&quot; src&#x3D;&quot;/scripts/plotly-basic-2.29.0.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src&#x3D;&quot;charts.js&quot;&gt;&lt;/script&gt;
+</content>
+
+        <author>
+            <name>Sam Kellam</name>
+        </author>
+    </entry>
+</feed>

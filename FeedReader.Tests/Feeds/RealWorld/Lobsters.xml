@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lobsters</title>
+    <link>https://lobste.rs/</link>
+    <atom:link href="https://lobste.rs/rss" rel="self"/>
+    <description></description>
+    <pubDate>Tue, 03 Nov 2026 09:19:50 -0600</pubDate>
+    <ttl>120</ttl>
+    <item>
+      <title>Death comes for XSLT</title>
+      <link>https://dbushell.com/2026/11/03/xslt-rip/</link>
+      <guid>https://lobste.rs/s/chypzr</guid>
+      <author>dbushell.com via nytpu</author>
+      <pubDate>Tue, 03 Nov 2026 09:19:50 -0600</pubDate>
+      <comments>https://lobste.rs/s/chypzr/death_comes_for_xslt</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/chypzr/death_comes_for_xslt"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>browsers</category>
+      <category>web</category>
+    </item>
+    <item>
+      <title>The Ubuntu 26.04 Rust sudo is not compatible with standard sudo</title>
+      <link>https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible</link>
+      <guid>https://lobste.rs/s/e201eb</guid>
+      <author>utcc.utoronto.ca via twp</author>
+      <pubDate>Tue, 03 Nov 2026 09:23:21 -0600</pubDate>
+      <comments>https://lobste.rs/s/e201eb/ubuntu_26_04_rust_sudo_is_not_compatible</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/e201eb/ubuntu_26_04_rust_sudo_is_not_compatible"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>linux</category>
+      <category>rust</category>
+    </item>
+    <item>
+      <title>Observations from Running stealmybitcoin.com</title>
+      <link>https://pavursec.com/blog/stealmybitcoin/</link>
+      <guid>https://lobste.rs/s/fgucra</guid>
+      <author>pavursec.com via wezm</author>
+      <pubDate>Tue, 03 Nov 2026 17:45:21 -0600</pubDate>
+      <comments>https://lobste.rs/s/fgucra/observations_from_running</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/fgucra/observations_from_running"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>php</category>
+      <category>security</category>
+    </item>
+    <item>
+      <title>Could a modern chess engine on a Pentium have defeated Kasparov in 1996?</title>
+      <link>https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html</link>
+      <guid>https://lobste.rs/s/1gndxr</guid>
+      <author>nicholas.carlini.com via fanf</author>
+      <pubDate>Tue, 03 Nov 2026 09:44:27 -0600</pubDate>
+      <comments>https://lobste.rs/s/1gndxr/could_modern_chess_engine_on_pentium_have</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/1gndxr/could_modern_chess_engine_on_pentium_have"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>games</category>
+      <category>retrocomputing</category>
+    </item>
+    <item>
+      <title>C++26 Disapproved</title>
+      <link>https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/</link>
+      <guid>https://lobste.rs/s/xvtufg</guid>
+      <author>andreasfertig.com via BenjaminRi</author>
+      <pubDate>Wed, 04 Nov 2026 02:56:24 -0600</pubDate>
+      <comments>https://lobste.rs/s/xvtufg/c_26_disapproved</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/xvtufg/c_26_disapproved"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>c++</category>
+    </item>
+    <item>
+      <title>Announcing NetBSD 11.1</title>
+      <link>https://www.netbsd.org/releases/formal-11/NetBSD-11.1.html</link>
+      <guid>https://lobste.rs/s/siqsg7</guid>
+      <author>netbsd.org via FedericoSchonborn</author>
+      <pubDate>Tue, 03 Nov 2026 16:00:17 -0600</pubDate>
+      <comments>https://lobste.rs/s/siqsg7/announcing_netbsd_11_1</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/siqsg7/announcing_netbsd_11_1"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>release</category>
+      <category>netbsd</category>
+    </item>
+    <item>
+      <title>Would you believe it's jank?</title>
+      <link>https://www.youtube.com/watch?v=tHgApFhevrQ</link>
+      <guid>https://lobste.rs/s/xbmjlj</guid>
+      <author>youtube.com via quantumish</author>
+      <pubDate>Tue, 03 Nov 2026 14:03:16 -0600</pubDate>
+      <comments>https://lobste.rs/s/xbmjlj/would_you_believe_it_s_jank</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/xbmjlj/would_you_believe_it_s_jank"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>video</category>
+      <category>c++</category>
+      <category>clojure</category>
+    </item>
+    <item>
+      <title>kitty 0.50.0</title>
+      <link>https://sw.kovidgoyal.net/kitty/changelog/#id1</link>
+      <guid>https://lobste.rs/s/gwyv50</guid>
+      <author>sw.kovidgoyal.net via fuzzypixelz</author>
+      <pubDate>Tue, 03 Nov 2026 11:43:09 -0600</pubDate>
+      <comments>https://lobste.rs/s/gwyv50/kitty_0_50_0</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/gwyv50/kitty_0_50_0"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>unix</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>A Decade of Kill Bugs</title>
+      <link>https://alangrow.com/blog/a-decade-of-kill-bugs</link>
+      <guid>https://lobste.rs/s/wgoato</guid>
+      <author>alangrow.com by acg</author>
+      <pubDate>Mon, 02 Nov 2026 15:23:24 -0600</pubDate>
+      <comments>https://lobste.rs/s/wgoato/decade_kill_bugs</comments>
+      <description>&lt;p&gt;&lt;a href="https://lobste.rs/s/wgoato/decade_kill_bugs"&gt;Comments&lt;/a&gt;&lt;/p&gt;</description>
+      <category>linux</category>
+      <category>unix</category>
+      <category>historical</category>
+    </item>
+    <item>
+      <title>Your terminal manipulation/navigation setups</title>
+      <link>https://lobste.rs/s/r3gton/your_terminal_manipulation_navigation</link>
+      <guid>https://lobste.rs/s/r3gton</guid>
+      <author> by nocoffei</author>
+      <pubDate>Tue, 03 Nov 2026 12:54:55 -0600</pubDate>
+      <comments>https://lobste.rs/s/r3gton/your_terminal_manipulation_navigation</comments>
+      <description>&lt;p&gt;Dear Lobste.rs, over a year after &lt;a href="https://lobste.rs/s/o0x7rb/your_mouse_free_setups" rel="ugc"&gt;my previous post on mouse free setups&lt;/a&gt;, your advice was instrumental to building the tech stack I use today as a disabled person, composed of the Svalboard, Talon Voice, and a fair few extensions for Talon (including ones I've written myself.)&lt;/p&gt;
+&lt;p&gt;One aspect of my work and personal life that has remained stubbornly able-bodied has been, surprisingly, my terminal use. Reading, manipulating, and editing the terminal has required keyboard and mouse use at every step:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When reading the terminal, scrolling is a must, which demands the use of a physical scrolling device, one of my most consistently difficult actions.&lt;/li&gt;
+&lt;li&gt;When writing a terminal command, things can range from easy to brutal. Talon has a lot of built in terminal commands available, but composing complex commands still requires a great deal of typing. The most irritating aspect to me is editing a previous command, which consists of either holding (Ctrl+) an arrow key and waiting until I hit the right character, often overshooting, and then having to go back the opposite direction with the arrow keys again, OR moving with my mouse and clicking on the correct position.&lt;/li&gt;
+&lt;li&gt;When manipulating the terminal, this usually winds up boiling down to copy and pasting text from the output. This is universally a fine grained mouse movement to highlight and copy the correct text, often to paste it into the same terminal.&lt;/li&gt;
+&lt;li&gt;Too often I find myself combining the second and third actions, which means a lot of arrow key or mouse movement to get to the position in my command, mouse movement to copy and paste text, and then rinsing and repeating a handful of times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am fairly convinced there is no true voice first terminal experience-- this is something I am hoping to change. In order to accomplish this and maybe make my life easier, I want to know the landscape of how various people interact with their terminals in 2026. I feel like my approach is deeply inefficient and must be missing something obvious...? We've had terminals since before mice existed, surely there are better ways.&lt;/p&gt;
+</description>
+      <category>ask</category>
+      <category>a11y</category>
+      <category>editors</category>
+    </item>
+    
+  </channel>
+</rss>

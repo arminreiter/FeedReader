@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TechCrunch</title>
+	<atom:link href="https://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://techcrunch.com/</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Wed, 04 Nov 2026 04:58:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.11</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>TechCrunch</title>
+	<link>https://techcrunch.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>India&#8217;s EloElo nabs $80M from NBCUniversal to bet on the country&#8217;s rising microdrama market</title>
+		<link>https://techcrunch.com/2026/11/03/indias-eloelo-nabs-80m-from-nbc-universal-to-bet-on-the-countrys-rising-microdrama-market/</link>
+		
+		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2026 04:45:00 +0000</pubDate>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[India]]></category>
+		<category><![CDATA[microdramas]]></category>
+		<category><![CDATA[NBCUniversal]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184575</guid>
+
+					<description><![CDATA[StoryTV has more than 33 million monthly active users according to Sensor Tower figures]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Anthropic is working on a system to prove AI models&#8217; identity</title>
+		<link>https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/</link>
+		
+		<dc:creator><![CDATA[Russell Brandom]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 22:41:03 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[inference]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184891</guid>
+
+					<description><![CDATA[Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Data centers are turning to old jet engines as the wait for power grows</title>
+		<link>https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/</link>
+		
+		<dc:creator><![CDATA[Aditya Mehta]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 22:19:53 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[data centers]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184896</guid>
+
+					<description><![CDATA[The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Ted Schlein&#8217;s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom</title>
+		<link>https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/</link>
+		
+		<dc:creator><![CDATA[Jagmeet Singh]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 21:43:08 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[Ballistic Ventures]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184842</guid>
+
+					<description><![CDATA[Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hiding inside Palantir&#8217;s skyrocketing quarter is a foreboding signal</title>
+		<link>https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 21:05:55 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Palantir]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184699</guid>
+
+					<description><![CDATA[Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Orbital Matter 3D-printed the first rigid beam in the vacuum of space</title>
+		<link>https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/</link>
+		
+		<dc:creator><![CDATA[Tim Fernholz]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 20:57:17 +0000</pubDate>
+				<category><![CDATA[Space]]></category>
+		<category><![CDATA[3d printers]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[satellite]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184737</guid>
+
+					<description><![CDATA[An in-space construction first could be an enabler for the space data centers of the future. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist</title>
+		<link>https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/</link>
+		
+		<dc:creator><![CDATA[Zack Whittaker]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 19:45:48 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[North Korea]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[cyberattack]]></category>
+		<category><![CDATA[Binance]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184762</guid>
+
+					<description><![CDATA[Cybersecurity experts have long warned of the persistent and patient threat from North Korea's long-running hacks. The world's largest crypto exchange was still caught off-guard.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI inference startup Fal doubles its valuation to $16B as demand surges</title>
+		<link>https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/</link>
+		
+		<dc:creator><![CDATA[Marina Temkin]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 19:34:43 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Bessemer Venture Partners]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[inference]]></category>
+		<category><![CDATA[infrastructure]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184774</guid>
+
+					<description><![CDATA[The five-year-old startup raised a $1.3  billion round led by Bessemer.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Reddit tests ads in search results as traffic declines and growth concerns mount</title>
+		<link>https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 19:24:37 +0000</pubDate>
+				<category><![CDATA[Social]]></category>
+		<category><![CDATA[Adtech]]></category>
+		<category><![CDATA[Reddit]]></category>
+		<category><![CDATA[AI]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184712</guid>
+
+					<description><![CDATA[The new ad placements could help Reddit squeeze more revenue from existing users as Google's AI search changes how people discover its content.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Ten years later, &#8216;Pokémon Go to the polls&#8217; still haunts the internet</title>
+		<link>https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet/</link>
+		
+		<dc:creator><![CDATA[Amanda Silberling]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 19:04:52 +0000</pubDate>
+				<category><![CDATA[Government & Policy]]></category>
+		<category><![CDATA[elections]]></category>
+		<category><![CDATA[Hillary Clinton]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184607</guid>
+
+					<description><![CDATA[Hillary Clinton's 2016 political gaffe has become an irony-shrouded rallying cry for jaded young voters who still dare to hope for change.]]></description>
+		
+		
+		
+			</item>
+		
+	</channel>
+</rss>

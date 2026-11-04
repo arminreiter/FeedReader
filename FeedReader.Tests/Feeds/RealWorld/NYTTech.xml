@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Technology</title>
+    <link>https://www.nytimes.com/section/technology</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2026 The New York Times Company</copyright>
+    <lastBuildDate>Wed, 04 Nov 2026 11:28:38 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 04:20:06 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Technology</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/technology</link>
+    </image>
+    <item>
+      <title>Binance Says Hackers Plotted $6.3 Billion Crypto Heist for Months</title>
+      <link>https://www.nytimes.com/2026/11/03/technology/binance-hack-report.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/03/technology/binance-hack-report.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/03/technology/binance-hack-report.html" rel="standout"></atom:link>
+      <description>A report from the cryptocurrency exchange described a monthslong campaign involving fake job interviews that exploited an engineer’s work computer and an internal A.I. tool.</description>
+      <dc:creator>Emmy Martin</dc:creator>
+      <pubDate>Tue, 03 Nov 2026 18:09:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Robberies and Thefts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Virtual Currency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberattacks and Hackers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impostors (Criminal)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/11/03/business/03biz-binance-sub/03biz-binance-sub-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Gabby Jones/Bloomberg</media:credit>
+      <media:description>The hackers used a computer and an internal A.I. tool to take control of the machines of two engineers on Binance’s wallet team.</media:description>
+    </item>
+    <item>
+      <title>Google Will Turn Off Search for Schools That Reject A.I.</title>
+      <link>https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html" rel="standout"></atom:link>
+      <description>Google is making it easier to restrict its A.I. tools for students. But schools that block A.I. entirely will lose student access to Google’s search engine.</description>
+      <dc:creator>Dana Goldstein and Natasha Singer</dc:creator>
+      <pubDate>Tue, 03 Nov 2026 20:53:40 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Search Engines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education (K-12)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Common Sense Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2026/11/04/multimedia/04-nat-google-schools-print/03nat-google-schools-cfkb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Carlos Barria/Reuters</media:credit>
+      <media:description>Google products are ubiquitous in American schools.</media:description>
+    </item>
+    <item>
+      <title>Apple’s Profit Grows 12% Despite Component Price Worries</title>
+      <link>https://www.nytimes.com/2026/11/02/technology/apple-earnings.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/02/technology/apple-earnings.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/02/technology/apple-earnings.html" rel="standout"></atom:link>
+      <description>The company said iPhone sales remained strong, but warned that the cost of memory chips for its devices was going up.</description>
+      <dc:creator>Kalley Huang</dc:creator>
+      <pubDate>Mon, 02 Nov 2026 23:41:51 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Company Reports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shortages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">iPhone</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Apple Inc</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/11/02/multimedia/APPLE-EARNINGS-1-fjml/APPLE-EARNINGS-1-fjml-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>David Fouts for The New York Times</media:credit>
+      <media:description>Apple’s new touch-screen MacBook Pro at a product launch in Los Angeles last week.</media:description>
+    </item>
+    <item>
+      <title>Inside Anthropic’s Hunt for A.I. Computing Power</title>
+      <link>https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html" rel="standout"></atom:link>
+      <description>The company went on a deal spree with tech giants, former crypto miners and others to gain computing power to further its artificial intelligence ambitions.</description>
+      <dc:creator>Sri Muppidi and Kalley Huang</dc:creator>
+      <pubDate>Mon, 02 Nov 2026 18:01:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Anthropic AI LLC</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Data Centers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Initial Public Offerings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cloud Computing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric Light and Power</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Amodei, Dario</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/10/29/business/00anthropic-compute/00anthropic-compute-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Illustration by Mark Harris; Photographs by Thea Traff for The New York Times, AJ Mast for The New York Times, Manuel Orbegozo for The New York Times, Getty Images</media:credit>
+    </item>
+    <item>
+      <title>Voting Problems Cause a Surge in Misleading Fraud Claims Online</title>
+      <link>https://www.nytimes.com/2026/11/03/technology/midterm-elections-voter-fraud-claims.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/03/technology/midterm-elections-voter-fraud-claims.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/03/technology/midterm-elections-voter-fraud-claims.html" rel="standout"></atom:link>
+      <description>Mentions of “cheat,” “steal,” “rig” and similar terms spiked on X this morning as voting began.</description>
+      <dc:creator>Stuart A. Thompson</dc:creator>
+      <pubDate>Tue, 03 Nov 2026 19:54:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voter Fraud (Election Fraud)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voting Machines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voting and Voters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Broward County (Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Westchester County (NY)</category>
+    </item>
+    <item>
+      <title>OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections</title>
+      <link>https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html" rel="standout"></atom:link>
+      <description>OpenAI, Anthropic and other tech companies have vowed to protect Tuesday’s elections from efforts to undermine democracy.</description>
+      <dc:creator>Steven Lee Myers</dc:creator>
+      <pubDate>Tue, 03 Nov 2026 23:39:55 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Anthropic AI LLC</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">OpenAI Labs</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2026/11/03/multimedia/OPENAI-WARROOM-1-03-qhlg/OPENAI-WARROOM-1-03-qhlg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Heather Diehl for The New York Times</media:credit>
+      <media:description>OpenAI employees work inside the company’s Election Operations Center in San Francisco.</media:description>
+    </item>
+    <item>
+      <title>Are Freezers Being Hacked? Europe and the U.S. Military Investigate.</title>
+      <link>https://www.nytimes.com/2026/11/02/business/cyberattack-freezers-europe-us-army.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/02/business/cyberattack-freezers-europe-us-army.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/02/business/cyberattack-freezers-europe-us-army.html" rel="standout"></atom:link>
+      <description>A wave of disruptions at grocery stores, which some officials blame on cyberattacks, highlights the vulnerability of supply chains. Shops across Europe were affected again on Monday.</description>
+      <dc:creator>Ali Watkins</dc:creator>
+      <pubDate>Tue, 03 Nov 2026 08:45:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refrigerators</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberattacks and Hackers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supermarkets and Grocery Stores</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Supply Chain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Military Bases and Installations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/11/02/multimedia/02xp-freezers/02xp-freezers-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Fred Tanneau/Agence France-Presse — Getty Images</media:credit>
+      <media:description>Shelves were empty at a grocery store in Névez, France, last month after hundreds of supermarket refrigeration systems in the country were targeted.</media:description>
+    </item>
+    <item>
+      <title>Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger</title>
+      <link>https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html" rel="standout"></atom:link>
+      <description>Marvell and Lumentum said they were combining, in a major bet on a technology, known as optical networking, that is increasingly being used in A.I. data centers.</description>
+      <dc:creator>Don Clark</dc:creator>
+      <pubDate>Mon, 02 Nov 2026 18:48:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Data Centers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mergers, Acquisitions and Divestitures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stocks and Bonds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Antitrust Laws and Competition Issues</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Laser (Light Amplification by Stimulated Emission of Radiation)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Marvell Technology Group Ltd</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Murphy, Matthew J (1972- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Lumentum Holdings Inc.</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2026/11/02/multimedia/02biz-marvell-zmhv/02biz-marvell-zmhv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Eduardo Munoz/Reuters</media:credit>
+      <media:description>Matt Murphy, chairman and chief executive of Marvell Technology, at the company’s investor day in New York last month.</media:description>
+    </item>
+    <item>
+      <title>Deportees Turn to TikTok to Document Life Starting Over</title>
+      <link>https://www.nytimes.com/2026/11/02/world/deportees-social-media-immigration.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/02/world/deportees-social-media-immigration.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/02/world/deportees-social-media-immigration.html" rel="standout"></atom:link>
+      <description>On TikTok, men and women sent back after living in the United States are documenting the reality of starting over — and finding an audience.</description>
+      <dc:creator>Isabella Kwai</dc:creator>
+      <pubDate>Mon, 02 Nov 2026 14:53:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deportation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Crime and Criminals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Video Recordings, Downloads and Streaming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">TikTok (ByteDance)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Laos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">El Salvador</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cuba</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Latin America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Africa</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="1028" medium="image" url="https://static01.nyt.com/images/2026/10/29/multimedia/00xp-deportees-Catherine-promo/00xp-deportees-Catherine-mediumSquareAt3X.jpg" width="1027"></media:content>
+      <media:credit>Heather Michelle Photography</media:credit>
+      <media:description>Catherine Coe with her family in Tuscaloosa, Ala., before Mr. Benitez was deported in September of 2025.</media:description>
+    </item>
+    <item>
+      <title>Cyril Hilsum, Who Helped Invent Flat-Panel Displays in TVs and iPhones, Has Died at 101</title>
+      <link>https://www.nytimes.com/2026/11/01/technology/cyril-hilsum-dead.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2026/11/01/technology/cyril-hilsum-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2026/11/01/technology/cyril-hilsum-dead.html" rel="standout"></atom:link>
+      <description>The man who helped develop the technology for liquid crystal displays — the screens in flat-panel televisions and laptops — has died at 101.</description>
+      <dc:creator>Michael S. Rosenwald</dc:creator>
+      <pubDate>Sun, 01 Nov 2026 10:00:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hilsum, Cyril (1925-2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Engineering and Engineers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Physics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television Sets and Media Devices</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Digital and High-Definition Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inventions and Patents</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Laptop Computers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2026/10/31/obituaries/31obit-hilsum-family-03/31obit-hilsum-family-03-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>via Hilsum Family</media:credit>
+      <media:description>Cyril Hilsum with a fellow scientist in England in 1966. Known as “the father of liquid crystals,” he helped develop the technology that allowed electronic screens to go from bulky to svelte.</media:description>
+    </item>
+    
+  </channel>
+</rss>

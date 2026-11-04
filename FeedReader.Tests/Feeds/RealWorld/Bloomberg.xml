@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[Bloomberg Markets]]></title>
+        <description><![CDATA[Bloomberg Markets]]></description>
+        <link>http://bloomberg.com/markets/</link>
+        <image>
+            <url>http://www.bloomberg.com/feeds/static/images/bloomberg_logo_blue.png</url>
+            <title>Bloomberg Markets</title>
+            <link>http://bloomberg.com/markets/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 04 Nov 2026 11:29:00 GMT</lastBuildDate>
+        <atom:link href="https://www.bloomberg.com/feeds/markets/news.rss" rel="self" type="application/rss+xml"/>
+        <copyright><![CDATA[Copyright 2026 BLOOMBERG L.P. ALL RIGHTS RESERVED]]></copyright>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Stocks, Bonds Rally After US Vote as Dollar Falls: Markets Wrap]]></title>
+            <description><![CDATA[A Democratic sweep of Congress rippled across global markets, with stocks rallying after President Donald Trump accepted the result while bond yields and the dollar fell on expectations of greater limits on his agenda.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-03/stock-market-today-dow-s-p-live-updates</link>
+            <guid isPermaLink="false">TNY1I0R24U8B00</guid>
+            <dc:creator><![CDATA[Andre Janse van Vuuren and Rose Henderson]]></dc:creator>
+            <pubDate>Tue, 03 Nov 2026 22:20:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stock Bulls Are Glad This Election Is Finally Over]]></title>
+            <description><![CDATA[Equities, bonds rally now that the political countours are clear.]]></description>
+            <link>https://www.bloomberg.com/news/newsletters/2026-11-04/stock-bulls-are-glad-this-election-is-finally-over</link>
+            <guid isPermaLink="false">TNZ66KKGIFPP00</guid>
+            <dc:creator><![CDATA[Phil Serafino]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 11:20:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Copper Follows Stock Markets Higher as Democrats Sweep Congress]]></title>
+            <description><![CDATA[Copper climbed as stock markets turned higher and the dollar dropped after US midterm elections that saw the Democrats sweep Congress.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/copper-holds-losses-below-14-000-on-us-midterm-risks-to-stocks</link>
+            <guid isPermaLink="false">TNYEU5KJH6V400</guid>
+            <dc:creator><![CDATA[Bloomberg News]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 02:47:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[India Coffee Output to Miss Forecast After Below-Normal Rains]]></title>
+            <description><![CDATA[India’s coffee output is likely to fall short of an earlier forecast as below-normal rains during the four-month monsoon season took a toll on crops, according to the Coffee Board.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/india-coffee-output-to-miss-forecast-after-below-normal-rains</link>
+            <guid isPermaLink="false">TNYX0LR24U9100</guid>
+            <dc:creator><![CDATA[Abhishek Shanker and Pratik Parija]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 11:06:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Swiss Pharmaceutical Industry Loses Ground in Global Innovation Race]]></title>
+            <description><![CDATA[Innovation in Switzerland’s pharmaceutical industry has fallen for the second year in a row, a new study shows, underscoring how it is trailing foreign competitors in digital research and clinical trials.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/swiss-pharmaceutical-industry-loses-ground-in-global-innovation-race</link>
+            <guid isPermaLink="false">TNXKXLKK3NYC00</guid>
+            <dc:creator><![CDATA[Fabienne Kinzelmann]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Asia Stocks Erase Early Losses as AI Worries Subside]]></title>
+            <description><![CDATA[Asian stocks recovered almost all early losses Wednesday as concerns surrounding the global artificial intelligence trade eased.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/asian-stocks-fall-as-democratic-gains-in-us-add-to-ai-worries</link>
+            <guid isPermaLink="false">TNYGVTKIUPSD00</guid>
+            <dc:creator><![CDATA[Faseeh Mangi and Winnie Hsu]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 03:52:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[US Stock Futures Rebound as Election Uncertainty Evaporates]]></title>
+            <description><![CDATA[US equity index futures rallied, reversing earlier losses, after the Democrats swept to power in Congress and President Donald Trump said he would accept the results, easing uncertainty and prompting investors to buy the recent dip in stocks.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/us-equity-futures-inch-higher-as-investors-await-midterm-results</link>
+            <guid isPermaLink="false">TNY7I9R24U8Y00</guid>
+            <dc:creator><![CDATA[Geoffrey Morgan, Natalia Kniazhevich and Olivia Levieux]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 00:01:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[European Stocks Rise After Midterms as Renewables and Banks Jump]]></title>
+            <description><![CDATA[European stocks extended gains after Democrats won control of both chambers of Congress in the US midterms, with renewables and banks outperforming.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/european-stocks-set-to-dip-as-democrat-sweep-stokes-ai-worries</link>
+            <guid isPermaLink="false">TNYNXTKGZAJF00</guid>
+            <dc:creator><![CDATA[Farah Elbahrawy and Levin Stamm]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 05:51:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Musk’s Tesla, SpaceX Slide as Democrats Sweep Congress]]></title>
+            <description><![CDATA[Shares of Elon Musk’s Tesla Inc. and Space Exploration Technologies Corp. fell ahead of Wednesday’s US stock-market opening as Democrats swept to control of Congress, sharpening investor concern over the future of the Republican megadonor’s key holdings.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/tesla-spacex-shares-take-early-hit-as-midterm-blue-wave-unfolds</link>
+            <guid isPermaLink="false">TNVN3DKJH6V400</guid>
+            <dc:creator><![CDATA[Jordan Fitzgerald and Subrat Patnaik]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 04:28:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[India’s Consumer Spending Boom Comes With Growing Debt Bill]]></title>
+            <description><![CDATA[When 25-year-old restaurant worker Navjot Singh wanted an iPhone he couldn’t afford on his monthly salary of 50,000 Indian rupees ($521), taking out a small loan made the purchase possible. A PlayStation and television set followed, along with loans for a wine and spirits course and a trip home.]]></description>
+            <link>https://www.bloomberg.com/news/articles/2026-11-04/india-s-middle-class-spending-boom-comes-with-growing-debt-bill</link>
+            <guid isPermaLink="false">TLI4GKKGZAJ000</guid>
+            <dc:creator><![CDATA[Ruchi Bhatia and Anup Roy]]></dc:creator>
+            <pubDate>Wed, 04 Nov 2026 01:00:00 GMT</pubDate>
+        </item>
+        
+    </channel>
+</rss>

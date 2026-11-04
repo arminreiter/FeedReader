@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Mastodon</title>
+    <description>Public posts from @Mastodon@mastodon.social</description>
+    <link>https://mastodon.social/@Mastodon</link>
+    <image>
+      <url>https://files.mastodon.social/accounts/avatars/000/013/179/original/b4ceb19c9c54ec7e.png</url>
+      <title>Mastodon</title>
+      <link>https://mastodon.social/@Mastodon</link>
+    </image>
+    <lastBuildDate>Mon, 19 Oct 2026 09:59:05 +0000</lastBuildDate>
+    <webfeeds:icon>https://files.mastodon.social/accounts/avatars/000/013/179/original/b4ceb19c9c54ec7e.png</webfeeds:icon>
+    <generator>Mastodon v5.0.0-nightly.2026-11-04</generator>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117466985005297414</guid>
+      <link>https://mastodon.social/@Mastodon/117466985005297414</link>
+      <pubDate>Mon, 19 Oct 2026 09:59:05 +0000</pubDate>
+      <description>&lt;p&gt;We didn’t want to require you to have a GitHub profile to report issues or suggest ideas, so starting now you can do it on our new community forum. &lt;/p&gt;&lt;p&gt;You can also vote for other people’s ideas to keep things manageable. It’s the main place we’ll be looking for feedback!&lt;/p&gt;&lt;p&gt;&lt;a href="https://community.joinmastodon.org/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;community.joinmastodon.org/&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117466983307949301</guid>
+      <link>https://mastodon.social/@Mastodon/117466983307949301</link>
+      <pubDate>Mon, 19 Oct 2026 09:58:40 +0000</pubDate>
+      <description>&lt;p&gt;&lt;a href="https://mastodon.social/tags/Mastodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Mastodon&lt;/span&gt;&lt;/a&gt; is getting a new look in our upcoming 5.0 release.&lt;/p&gt;&lt;p&gt;We wrote a bit more about our design process and how we approach community input. If you’re on mastodon.social you will see the new design tomorrow, on Tuesday. We rely on your feedback!&lt;/p&gt;&lt;p&gt;&lt;a href="https://blog.joinmastodon.org/2026/10/5.0-a-closer-look/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;blog.joinmastodon.org/2026/10/&lt;/span&gt;&lt;span class="invisible"&gt;5.0-a-closer-look/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>mastodon</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117411420916699261</guid>
+      <link>https://mastodon.social/@Mastodon/117411420916699261</link>
+      <pubDate>Fri, 09 Oct 2026 14:28:25 +0000</pubDate>
+      <description>&lt;p&gt;New &lt;a href="https://mastodon.social/tags/Plushtodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Plushtodon&lt;/span&gt;&lt;/a&gt; colours now available for pre-orders on our shop! This is a way to support our work and get a squishy friend at the same time.&lt;/p&gt;&lt;p&gt;&lt;a href="https://blog.joinmastodon.org/2026/10/plushtodon-pre-orders-now-open/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;blog.joinmastodon.org/2026/10/&lt;/span&gt;&lt;span class="invisible"&gt;plushtodon-pre-orders-now-open/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/Merchtodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Merchtodon&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>Plushtodon</category>
+      <category>Merchtodon</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117156549508722805</guid>
+      <link>https://mastodon.social/@Mastodon/117156549508722805</link>
+      <pubDate>Tue, 25 Aug 2026 14:11:16 +0000</pubDate>
+      <description>&lt;p&gt;Hannah Aubry is leaving Mastodon after her time with us as community director and board member. We’re very grateful for her contributions, ideas, and commitment to Mastodon and the fediverse. Thank you, Hannah! We wish you all the very best for what comes next.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117117221397911074</guid>
+      <link>https://mastodon.social/@Mastodon/117117221397911074</link>
+      <pubDate>Tue, 18 Aug 2026 15:29:36 +0000</pubDate>
+      <description>&lt;p&gt;After publishing the results of Discovery Week, we can now give you a first sneak peak at Mastodon 5.0, our next big version. It will bring a new visual look to your screens, a refreshed and calmer layout, as well as a new composer.&lt;/p&gt;&lt;p&gt;&lt;a href="https://blog.joinmastodon.org/2026/08/5.0-laying-the-foundation/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;blog.joinmastodon.org/2026/08/&lt;/span&gt;&lt;span class="invisible"&gt;5.0-laying-the-foundation/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/mastodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;mastodon&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/mastodon5" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;mastodon5&lt;/span&gt;&lt;/a&gt;.0&lt;/p&gt;</description>
+      <category>mastodon</category>
+      <category>Mastodon5</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117093587981367953</guid>
+      <link>https://mastodon.social/@Mastodon/117093587981367953</link>
+      <pubDate>Fri, 14 Aug 2026 11:19:19 +0000</pubDate>
+      <description>&lt;p&gt;Here is a &lt;a href="https://mastodon.social/tags/FeaturedServer" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FeaturedServer&lt;/span&gt;&lt;/a&gt; for 🌎 Earth, 🦎 Earthlings, and their ⚖️ Advocates...&lt;/p&gt;&lt;p&gt;&lt;a href="https://earth.law/about" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class=""&gt;earth.law/about&lt;/span&gt;&lt;span class="invisible"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Earth.Law is for:&lt;br /&gt;📜 Environmental lawyers &amp;amp; policy-makers&lt;br /&gt;🦋 Conservationists &amp;amp; ecologists&lt;br /&gt;🔬 Scientists in related fields&lt;br /&gt;📚 Educators and students of environmental studies&lt;br /&gt;🎤 Activists &amp;amp; advocates&lt;/p&gt;&lt;p&gt;♻️ Hosted on a dedicated server in 🇫🇮 Helsinki and recognised by the Green Web Foundation for using renewable energy.&lt;/p&gt;&lt;p&gt; &lt;a href="https://mastodon.social/tags/CommunitySpotlight" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;CommunitySpotlight&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Fediverse" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Fediverse&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Mastodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Mastodon&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/SocialWeb" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;SocialWeb&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>featuredserver</category>
+      <category>communityspotlight</category>
+      <category>fediverse</category>
+      <category>mastodon</category>
+      <category>socialweb</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117083694767249113</guid>
+      <link>https://mastodon.social/@Mastodon/117083694767249113</link>
+      <pubDate>Wed, 12 Aug 2026 17:23:21 +0000</pubDate>
+      <description>&lt;p&gt;Our Community Director &lt;span class="h-card" translate="no"&gt;&lt;a href="https://hachyderm.io/@haubles" class="u-url mention"&gt;@&lt;span&gt;haubles&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; provided a &amp;quot;plain English&amp;quot; version too: &lt;/p&gt;&lt;p&gt;&lt;a href="https://hachyderm.io/@haubles/117083650941891878" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;hachyderm.io/@haubles/11708365&lt;/span&gt;&lt;span class="invisible"&gt;0941891878&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117083691112770390</guid>
+      <link>https://mastodon.social/@Mastodon/117083691112770390</link>
+      <pubDate>Wed, 12 Aug 2026 17:22:25 +0000</pubDate>
+      <description>&lt;p&gt;Today we&amp;#39;re sharing additional guidelines about our Trade Mark Policy based on community feedback that we received.&lt;/p&gt;&lt;p&gt;The new guidelines, and more background about these changes, are available on our blog: &lt;br /&gt;&lt;a href="https://blog.joinmastodon.org/2026/08/sharing-guidelines-about-mastodons-trade-mark-policy/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;blog.joinmastodon.org/2026/08/&lt;/span&gt;&lt;span class="invisible"&gt;sharing-guidelines-about-mastodons-trade-mark-policy/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/Mastodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Mastodon&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Fediverse" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Fediverse&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/SocialWeb" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;SocialWeb&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/FediDev" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FediDev&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/MastoDev" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;MastoDev&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/FediAdmin" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;FediAdmin&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/MastoAdmin" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;MastoAdmin&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>mastodon</category>
+      <category>fediverse</category>
+      <category>socialweb</category>
+      <category>fedidev</category>
+      <category>mastodev</category>
+      <category>fediadmin</category>
+      <category>mastoadmin</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117043346514398510</guid>
+      <link>https://mastodon.social/@Mastodon/117043346514398510</link>
+      <pubDate>Wed, 05 Aug 2026 14:22:15 +0000</pubDate>
+      <description>&lt;p&gt;We&amp;#39;re excited to share the results from Mastodon&amp;#39;s first &lt;a href="https://mastodon.social/tags/DiscoveryWeek" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;DiscoveryWeek&lt;/span&gt;&lt;/a&gt;!&lt;/p&gt;&lt;p&gt;In case you missed it, earlier this year our Head of Design &lt;span class="h-card" translate="no"&gt;&lt;a href="https://mastodon.social/@imanijoy" class="u-url mention"&gt;@&lt;span&gt;imanijoy&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; arranged a week of workshops and surveys to get to know you, learn about your needs and wants, and discover how you&amp;#39;re using (and want to use) Mastodon.&lt;/p&gt;&lt;p&gt;This week was tremendously helpful for us, and we&amp;#39;re grateful to everyone who participated.&lt;/p&gt;&lt;p&gt;Here&amp;#39;s what we learned: &lt;br /&gt;&lt;a href="https://blog.joinmastodon.org/2026/08/discovery-week-2026-what-we-learned-and-what-were-doing-next/" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;blog.joinmastodon.org/2026/08/&lt;/span&gt;&lt;span class="invisible"&gt;discovery-week-2026-what-we-learned-and-what-were-doing-next/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/Mastodon" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Mastodon&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/Fediverse" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Fediverse&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/SocialWeb" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;SocialWeb&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/OpenSocial" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;OpenSocial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>discoveryweek</category>
+      <category>mastodon</category>
+      <category>fediverse</category>
+      <category>socialweb</category>
+      <category>opensocial</category>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://mastodon.social/@Mastodon/117004738413167978</guid>
+      <link>https://mastodon.social/@Mastodon/117004738413167978</link>
+      <pubDate>Wed, 29 Jul 2026 18:43:42 +0000</pubDate>
+      <description>&lt;p class="quote-inline"&gt;RE: &lt;a href="https://mastodon.iftas.org/@iftas/116999079831534200" target="_blank" rel="nofollow noopener" translate="no"&gt;&lt;span class="invisible"&gt;https://&lt;/span&gt;&lt;span class="ellipsis"&gt;mastodon.iftas.org/@iftas/1169&lt;/span&gt;&lt;span class="invisible"&gt;99079831534200&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Have you taken the &lt;span class="h-card" translate="no"&gt;&lt;a href="https://mastodon.iftas.org/@iftas" class="u-url mention"&gt;@&lt;span&gt;iftas&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; Social Web Operations Survey yet? 🧐 There&amp;#39;s only one day left! &lt;/p&gt;&lt;p&gt;&lt;a href="https://mastodon.social/tags/Fediverse" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;Fediverse&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/socialWeb" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;socialWeb&lt;/span&gt;&lt;/a&gt; &lt;a href="https://mastodon.social/tags/MastoAdmin" class="mention hashtag" rel="tag"&gt;#&lt;span&gt;MastoAdmin&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <category>fediverse</category>
+      <category>socialweb</category>
+      <category>mastoadmin</category>
+    </item>
+    
+  </channel>
+</rss>

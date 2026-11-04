@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/torvalds/linux/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/torvalds/linux/commits/master.atom"/>
+  <title>Recent Commits to linux:master</title>
+  <updated>2026-11-03T16:36:32Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/05441d697f7f9a927264f4058cbbc6a03dfcac9d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/05441d697f7f9a927264f4058cbbc6a03dfcac9d"/>
+    <title>
+        Merge tag &#39;cocci-7.4-rc1&#39; of git://git.kernel.org/pub/scm/linux/kerne…
+    </title>
+    <updated>2026-11-03T16:36:32Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1024025?s=30&amp;v=4"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge tag &amp;#39;cocci-7.4-rc1&amp;#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
+
+Pull Coccinelle updates from Julia Lawall:
+ &amp;quot;This contains three new semantic patches
+
+   - use the typed devm_kmalloc_obj-family of allocations (Joe Perches)
+
+   - detect invalid use of __cleanup (Ella Ma)
+
+   - add uses of ARRAY_END (Alejandro Colomar)&amp;quot;
+
+* tag &amp;#39;cocci-7.4-rc1&amp;#39; of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux:
+  coccinelle: free: add a checker for `__cleanup(kfree)` usage
+  coccinelle: Add devm_kmalloc_objs conversion script
+  scripts/coccinelle: improve efficiency of array_end.cocci
+  scripts/coccinelle: Add script for using ARRAY_END()&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7d1471e50943196f909674d2d22eb4196c7df48e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/7d1471e50943196f909674d2d22eb4196c7df48e"/>
+    <title>
+        Merge tag &#39;9p-for-7.4-rc2&#39; of https://github.com/martinetd/linux
+    </title>
+    <updated>2026-11-03T16:32:35Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1024025?s=30&amp;v=4"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge tag &amp;#39;9p-for-7.4-rc2&amp;#39; of https://github.com/martinetd/linux
+
+Pull late 9p updates from Dominique Martinet:
+ &amp;quot;This is mostly a huge wave of LLM-driven fixes. At least the LLM fixes
+  sort of slowed down recently? Or maybe it&amp;#39;s just the time of the cycle
+  and/or I got used to it, time will tell...
+
+  A few exceptions:
+
+   - a new vsock transport was added, since it&amp;#39;s a variant of the
+     existing fd/tcp transport there is little harm in taking it in
+
+   - there&amp;#39;s an incomplete fix for when file actual size doesn&amp;#39;t match
+     the size attribute (e.g. exports of sysfs).
+
+     The fix addresses when st_size &amp;gt; actual size with cache=none but
+     just about everything else is still broken (st_size=0 with actual
+     data regardless of cache, or with data cache st_size &amp;gt; actual is
+     still wrong and so are symlinks with 0 size)...
+
+     Maybe at some point I&amp;#39;ll find time to understand how netfs works
+     and address these :|
+
+   - some fixes for the usbg transport by its author, thank you!&amp;quot;
+
+* tag &amp;#39;9p-for-7.4-rc2&amp;#39; of https://github.com/martinetd/linux: (39 commits)
+  9p: optimize p9_fcall struct
+  9p: reject RERROR/RLERROR with zero errcode
+  9p: do not store the create fid on special files
+  9p: fall back to the normal open path for non-regular files
+  9p: don&amp;#39;t decrement a server-owned zero nlink
+  9p: fix kernel-doc warning for enum p9_session_flags
+  9p: treat read return values of 0 as EOF
+  9p/xen: validate the response size from the backend
+  9p: fix typo in file header comments
+  9p: remove duplicated assignment in v9fs_fill_super()
+  9p: fix typos and wrong parameter docs in vfs_inode.c
+  9p: fix header guard comment in acl.h
+  net/9p/usbg: clear stale client pointer on close
+  net/9p/usbg: remove bogus context initialization in alloc_requests
+  net/9p/usbg: fix out_req buffer leak in disable_usb9pfs
+  net/9p/usbg: call disable_usb9pfs() from usb9pfs_disable()
+  net/9p/usbg: always reset completion when disconnecting
+  net/9p/usbg: set client to Disconnected on usb9pfs_disable
+  net/9p/usbg: also disable endpoints on p9_usbg_close
+  net/9p/usbg: Fix use-after-free in disable_usb9pfs()
+  ...&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/51628610f9187c1c1cfe499d92e066bc22ad9693</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/51628610f9187c1c1cfe499d92e066bc22ad9693"/>
+    <title>
+        vfs: fix take_dentry_name_snapshot() semantics
+    </title>
+    <updated>2026-11-03T16:28:20Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1024025?s=30&amp;v=4"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;vfs: fix take_dentry_name_snapshot() semantics
+
+The take_dentry_name_snapshot() function would keep trying to take a
+reference on a dentry name forever, even if that dentry had been
+released and the dentry name would never become valid.
+
+All normal users held a reference to the dentry, but this &amp;quot;dentry name
+is dead&amp;quot; could hit the overlayfs RCU walk case, and Amir fixed it by
+adding a new try_take_dentry_name_snapshot() that returns on failure.
+See commit 15c6bd5cf109 (&amp;quot;vfs: add try_take_dentry_name_snapshot()&amp;quot;).
+
+However, that fix was uncomfortably ugly, and the new &amp;quot;try&amp;quot; version was
+subtly buggy in that it would also fail spuriously during a rename. The
+only current user of that doesn&amp;#39;t really care: a spurious failure would
+result in the lookup just exiting RCU mode and being retried with the
+dentry ref held (using the non-try version), but this all just rubbed me
+the wrong way.
+
+Instead of introducing a new and differently buggy helper, this just
+makes take_dentry_name_snapshot() deal with all these situations
+correctly.
+
+It does that by instead of retrying when the external name reference
+cannot be taken, it now retries purely based on the dentry sequence
+counter. That means that if the external name reference failed due to a
+rename, we will correctly retry it, but if it fails because the dentry
+is dead and the name really is gone, it will now return that failure
+rather than looping forever.
+
+In this model, take_dentry_name_snapshot() will never return a failure
+when a dentry ref is held, so the existing non-overlayfs users don&amp;#39;t
+need to care and they can safely ignore the return value.
+
+And users that don&amp;#39;t hold a reference (ie currently only that overlayfs
+case) can use the improved take_dentry_name_snapshot() function safely
+and it won&amp;#39;t loop forever when racing with the dentry being free&amp;#39;d.
+
+To make this all really robust and easy to use for any possible new use
+cases, the failure case will not just return false, but also make sure
+that the returned name will be empty, and that you can still call
+release_dentry_name_snapshot() on the name.
+
+But since there won&amp;#39;t actually be anything to release on failure, you
+can also do what overlayfs does: return an error and *not* call the
+release function.
+
+IOW, instead of two different functions that each had their own problem
+cases, we&amp;#39;re now back to just one single function that is robust and
+easy to use in all situations. Knock wood.
+
+Link: https://lore.kernel.org/all/CAHk-=wiPhTLn1p0ZHx-7SMdk4_zazqDK1k7MMEn9scRfqeDgtw@mail.gmail.com/
+Fixes: 15c6bd5cf109 (&amp;quot;vfs: add try_take_dentry_name_snapshot()&amp;quot;)
+Cc: Amir Goldstein &amp;lt;amir73il@gmail.com&amp;gt;
+Cc: Miklos Szeredi &amp;lt;miklos@szeredi.hu&amp;gt;
+Cc: Christian Brauner &amp;lt;brauner@kernel.org&amp;gt;
+Cc: Al Viro &amp;lt;viro@zeniv.linux.org.uk&amp;gt;
+Signed-off-by: Linus Torvalds &amp;lt;torvalds@linux-foundation.org&amp;gt;&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a4da531b171c664a6cf42c5b82d1610cbdf14fe4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/a4da531b171c664a6cf42c5b82d1610cbdf14fe4"/>
+    <title>
+        Merge tag &#39;bpf-fixes&#39; of git://git.kernel.org/pub/scm/linux/kernel/gi…
+    </title>
+    <updated>2026-11-03T00:16:26Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1024025?s=30&amp;v=4"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge tag &amp;#39;bpf-fixes&amp;#39; of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+
+Pull bpf fixes from Alexei Starovoitov:
+ &amp;quot;Fix various bugs in bpf core and bpf-lwt. Looks like the speed of us
+  fixing bugs is higher than the number of new bugs found. Not out of
+  the woods yet. sockmap fixes will come later.
+
+   - Various fixes (Alexei Starovoitov):
+       - Use one may_goto time slice per prog invocation instead of one
+         per stack frame to fix a soft lockup in loops that nest across
+         calls
+       - Fix use-after-free in btf__add_type() in libbpf
+       - Invalidate a dynptr slice when its stack buffer is written or
+         when the frame of the buffer returns
+       - Fix the tracking of pointers to the stack in SCEV
+       - Keep the valid bytes of a packet pointer in SCEV
+       - Fix bpf_throw() in a prog with a private stack in x86 JIT
+       - Compare the arguments of an extension prog with those of its
+         target
+       - Don&amp;#39;t accept memory of the prog for struct arguments of
+         KF_ACQUIRE kfuncs and for arguments of an empty struct type
+       - Fix mmap() of an arena: refuse address 0 and a length above
+         max_entries pages, etc.
+       - Don&amp;#39;t let bpf_skb_adjust_room() raise gso_size to GSO_BY_FRAGS
+       - Fix lwt progs: reset skb-&amp;gt;cb and don&amp;#39;t leave a stale MAC header
+         after a prog pushes an IP header, require BPF_LWT_REROUTE when
+         an lwt_in prog changes the protocol, don&amp;#39;t call into IPv6 when
+         it is disabled, don&amp;#39;t look for the SRH again in the End.BPF
+         helpers, and set a dst for test runs of lwt_in progs
+
+   - Fix bpf_dynptr_copy() for overlapping ranges in one packet
+     (Ayushman Rout)
+
+   - Various fixes (Chris Mason):
+       - Reject memory of the prog for kfunc projection type arguments
+       - Require prog fd or capability for cgroup prog detach
+       - Keep the skb network offset signed in cgroup skb progs
+       - Reject non-IPv6 packets in BPF_LWT_ENCAP_SEG6
+       - Limit the SRH length and move the MAC header in
+         bpf_lwt_seg6_adjust_srh()
+       - Move the transport header together with the headers that
+         bpf_skb_adjust_room() and bpf_lwt_seg6_adjust_srh() move, and
+         use the inner transport header after a decap
+       - Check the offset in bpf_skb_generic_{push,pop}()
+
+   - Mark jmp mode of ftrace direct trampolines on x86 by clearing bit
+     63 of the address instead of setting bit 0, since an ftrace
+     callback can start at an odd address (Daniel Borkmann)
+
+   - Fix psock update-side data races on sk-&amp;gt;sk_prot and progs in
+     sockmap (Jakub Sitnicki)
+
+   - Fix skb_pull() BUG in __bpf_redirect_neigh(): make sure that the
+     MAC and IP headers are there and are linear (Jamal Hadi Salim)
+
+   - Fix jited line info that is off by the CFI preamble on x86-64,
+     arm64 and riscv64 (Jose Fernandez)
+
+   - Clamp the trace length in __bpf_get_stack() to fix a write after
+     the end of the buffer (Josef Bacik)
+
+   - Drop percpu_counter from the htab element count, since its lock can
+     deadlock with NMI and tracing progs that update the same map
+     (Puranjay Mohan)
+
+   - Propagate scalar precision through stack arguments (Xu Yunxiang)
+
+   - Fix callback recursion selftest with llvm24 (Yonghong Song)
+
+   - Free the skb when bpf_xmit() fails to expand the headroom (Yuqiang
+     Sun)&amp;quot;
+
+* tag &amp;#39;bpf-fixes&amp;#39; of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf: (61 commits)
+  libbpf: Fix use-after-free in btf__add_type
+  selftests/bpf: Exercise stack argument precision on state reuse
+  bpf: Propagate scalar precision through stack arguments
+  selftests/bpf: Fix callback recursion test with noipa global func
+  selftests/bpf: Test one may_goto time slice per prog invocation
+  bpf: End bpf_loop() when the time of may_goto is up
+  bpf: One may_goto time slice per prog invocation
+  bpf: Pass a pointer to arch_bpf_timed_may_goto()
+  s390/bpf: Support internal-only MOV instruction to resolve per-CPU addrs
+  selftests/bpf: End the loop of parallel_test_bitmap after 50 ms
+  selftests/bpf: Give the first loop of cond_break5 an end
+  selftests/bpf: Don&amp;#39;t cast a pointer to .bss in arena_htab_asm
+  bpf: Emit timed may_goto for JITed progs only
+  selftests/bpf: Test writes to the buffer of bpf_dynptr_slice_rdwr()
+  bpf: Invalidate a dynptr slice when its stack buffer is written
+  selftests/bpf: Test a callee that overwrites a spilled pointer of its caller
+  bpf: Don&amp;#39;t trust pointers spilled in slots that a callee can write
+  selftests/bpf: Test the join of fp+0 with a value that is not a pointer to stack
+  bpf: Fix the join of fp+0 with a value that is not a pointer to stack
+  selftests/bpf: Run arena_mmap serially and test MAP_FIXED addresses
+  ...&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/508d578642f08a3ffde7631c454497bd5a735941</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/508d578642f08a3ffde7631c454497bd5a735941"/>
+    <title>
+        Merge tag &#39;for-linus&#39; of git://git.kernel.org/pub/scm/virt/kvm/kvm
+    </title>
+    <updated>2026-11-03T00:11:25Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1024025?s=30&amp;v=4"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge tag &amp;#39;for-linus&amp;#39; of git://git.kernel.org/pub/scm/virt/kvm/kvm
+
+Pull KVM fixes from Paolo Bonzini:
+ &amp;quot;x86:
+   - Check validity of vmcb01 save area copied from SMRAM on RSM
+   - Conditionally resched when retrying gPTE walk on A/D update failure
+   - Conditionally resched when restarting REP string emulation
+   - Process each host MSR entry at most once when unwinding failed VM-Entry
+   - Cap number of parents of page table pages, to avoid quadratic teardown
+   - Unconditionally reset MMU context when emulating INIT
+   - Flush guest TLB when emulating a RESET to strictly honor the spec
+   - Add array_index_nospec() to evmcs_field_offset()&amp;quot;
+
+* tag &amp;#39;for-linus&amp;#39; of git://git.kernel.org/pub/scm/virt/kvm/kvm:
+  KVM: VMX: Add array_index_nospec() to evmcs_field_offset()
+  KVM: x86: Flush guest TLB when emulating a RESET to strictly honor the spec
+  KVM: x86: Unconditionally reset MMU context when emulating INIT
+  KVM: x86/mmu: Cap number of parent PTEs per SP at 1000 (the arbitrary rmap limit)
+  KVM: nVMX: Process each host MSR entry at most once when unwinding failed VM-Entry
+  KVM: x86: Conditionally resched when restarting REP string emulation
+  KVM: x86/mmu: Conditionally resched when retrying gPTE walk on A/D update failure
+  KVM: nSVM: Check validity of vmcs01 save area copied from SMRAM on RSM&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/b2e7a7bbc127534b73936a505237f08758552252</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/b2e7a7bbc127534b73936a505237f08758552252"/>
+    <title>
+        Merge tag &#39;libcrypto-for-linus&#39; of git://git.kernel.org/pub/scm/linux…
+    </title>
+    <updated>2026-11-03T00:04:49Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1024025?s=30&amp;v=4"/>
+    <author>
+      <name>torvalds</name>
+      <uri>https://github.com/torvalds</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge tag &amp;#39;libcrypto-for-linus&amp;#39; of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+
+Pull crypto library fixes from Eric Biggers:
+
+ - Disable the MIPS64 Octeon optimized SHA-1, SHA-256, and SHA-512 code
+   on little-endian kernels, since it doesn&amp;#39;t work correctly on them
+
+ - Remove the PowerPC optimized Poly1305 code. It&amp;#39;s already been marked
+   as BROKEN for over a year due to not working in softirq context, but
+   it turns out some of the Poly1305 math is incorrect too
+
+ - A few robustness improvements for the ML-DSA code
+
+* tag &amp;#39;libcrypto-for-linus&amp;#39; of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux:
+  lib/crypto: mldsa: Add __must_check to mldsa_verify()
+  lib/crypto: mldsa: Explicitly check that &amp;#39;alg&amp;#39; is a valid value
+  lib/crypto: mldsa: Check pk_len before doing pointer arithmetic
+  lib/crypto: powerpc/poly1305: Remove BROKEN implementation
+  lib/crypto: mips: Disable Octeon SHA code on little-endian kernels&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9abe2c42ecab6c86b54838d2d645ca2e10204606</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/9abe2c42ecab6c86b54838d2d645ca2e10204606"/>
+    <title>
+        libbpf: Fix use-after-free in btf__add_type
+    </title>
+    <updated>2026-11-02T22:47:44Z</updated>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/f6fcf4b16423c134869076571c1ae52a?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>ast@kernel.org</email>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;libbpf: Fix use-after-free in btf__add_type
+
+For every string btf_rewrite_str() does:
+
+  off = btf__add_str(p-&amp;gt;dst, btf__str_by_offset(p-&amp;gt;src, *str_off));
+
+When the string belongs to the base, the pointer goes into the raw data
+of the base. btf__add_str() looks the string up in the base first,
+btf__find_str() calls btf_ensure_modifiable() on the base, and that
+frees the raw data. Then strset__find_str() reads the freed string.
+
+Make all the bases of dst modifiable before the pointer is taken.
+
+This bug is triggered by the sharing of BTF bases between src
+and dst, as introduced by the resolve_btfids changes to build
+inline BTF.
+
+Fixes: cf91a7db92c6 (&amp;quot;resolve_btfids: Build separate main and inline BTF objects&amp;quot;)
+Reported-by: Nathan Chancellor &amp;lt;nathan@kernel.org&amp;gt;
+Signed-off-by: Alexei Starovoitov &amp;lt;ast@kernel.org&amp;gt;
+Signed-off-by: Alan Maguire &amp;lt;almagui@kernel.org&amp;gt;
+Signed-off-by: Alexei Starovoitov &amp;lt;ast@kernel.org&amp;gt;
+Tested-by: Alan Maguire &amp;lt;almagui@kernel.org&amp;gt;
+Link: https://patch.msgid.link/20261102185839.1190122-1-almagui@kernel.org&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/38bce81d4743902bef4bf6914f67d15d337c60b5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/38bce81d4743902bef4bf6914f67d15d337c60b5"/>
+    <title>
+        Merge branch &#39;bpf-fix-stack-argument-precision-propagation&#39;
+    </title>
+    <updated>2026-11-02T22:42:11Z</updated>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/f6fcf4b16423c134869076571c1ae52a?d=https%3A%2F%2Fgithub.githubassets.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>ast@kernel.org</email>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge branch &amp;#39;bpf-fix-stack-argument-precision-propagation&amp;#39;
+
+Xu Yunxiang says:
+
+====================
+bpf: Fix stack argument precision propagation
+
+Outgoing stack arguments retain scalar state separately from registers
+and ordinary spills. Their precision dependencies must reach ancestor
+states when verification reuses a state or falls back to marking all
+scalars precise. Otherwise, an out-of-bounds map access can reuse a state
+validated for an in-bounds argument.
+
+Patch 1 covers outgoing scalar argument slots in both precision paths.
+Patch 2 adds two load-only asm regressions in verifier_stack_arg.c, based
+on Alexei&amp;#39;s examples.
+
+Changes in v2:
+- Keep the patch 1 fix and explanation unchanged; rebase onto bpf/master
+  at 03b013897454064e0a2d84a8ba9a24753eb02f2b.
+- Replace the standalone instruction/BTF test builder with two asm tests
+  in the existing verifier_stack_arg.c, as requested by Alexei.
+- Reuse that file&amp;#39;s compiler capability and architecture guards, which
+  already cover x86-64, arm64 and RV64. Drop the separate host-side guard.
+- Rewrite patch 2&amp;#39;s explanation for the two replacement tests.
+
+v1:
+https://lore.kernel.org/bpf/20261027061303.1754535-1-xyx2021@mail.ustc.edu.cn/
+Review:
+https://lore.kernel.org/bpf/DMJI3GWXQOC9.UA3K9X139AR@gmail.com/
+
+Validation on x86-64 with Clang 23.1.4, JIT enabled and panic_on_warn=1:
+- Built all four kernel variants and their BPF test modules, plus the
+  complete test_progs runner with BPF_STRICT_BUILD=1.
+- The two new tests distinguish the two precision paths:
+
+                         State reuse       Fallback
+  Unmodified baseline    wrongly accepts   wrongly accepts
+  Propagation fix only   rejects           wrongly accepts
+  Fallback fix only      wrongly accepts   rejects
+  Complete fix           rejects           rejects
+
+  Rejections report the intended map-value bounds violation. The two
+  corresponding in-bounds controls load successfully on all four kernels.
+  These programs are never attached or executed.
+- All 274 subtests passed, with no skips, across verifier_precision,
+  verifier_spill_fill, verifier_subprog_precision, verifier_scalar_ids,
+  stack_arg_precision, verifier_stack_arg, verifier_stack_arg_order and
+  iters on the complete candidate. No kernel WARN/Oops or panic occurred.
+- Compiled the test object under x86-64, arm64 and RV64 guard definitions;
+  Clang 20 correctly selects the existing unsupported-compiler dummy.
+  Runtime testing was x86-64 only, and the unfiltered suite was not run.
+
+Codex assisted with implementation, test integration, commit messages
+and validation. The v2 test code was supplied by Alexei and is used
+unchanged.
+====================
+
+Link: https://patch.msgid.link/20261102190350.788433-1-xyx2021@mail.ustc.edu.cn
+Signed-off-by: Alexei Starovoitov &amp;lt;ast@kernel.org&amp;gt;&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/68851f7d3e2054d5d435449850cb4a97d2003e7d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/68851f7d3e2054d5d435449850cb4a97d2003e7d"/>
+    <title>
+        selftests/bpf: Exercise stack argument precision on state reuse
+    </title>
+    <updated>2026-11-02T22:42:11Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/98208832?s=30&amp;v=4"/>
+    <author>
+      <name>ustc21xyx</name>
+      <uri>https://github.com/ustc21xyx</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;selftests/bpf: Exercise stack argument precision on state reuse
+
+Add two asm regressions for the precision of the sixth argument, which
+is passed in a stack argument slot and used as a map value offset.
+
+The first test reuses a safe state after storing arg6 from a register.
+Precision must propagate from that slot to the register at an earlier
+checkpoint, so a later out-of-bounds path cannot reuse that checkpoint.
+
+The second test triggers conservative precision fallback by backtracking
+across a store through a register that later becomes a scalar through
+pointer subtraction. The caller&amp;#39;s argument slot must become precise so
+an out-of-bounds argument cannot reuse the safe state.
+
+Both programs are load-only rejection tests and use the existing stack
+argument compiler and architecture guards.
+
+The two test programs were supplied by Alexei Starovoitov during review
+and are included unchanged.
+
+AI assistance was used in preparing this patch.
+
+Suggested-by: Alexei Starovoitov &amp;lt;alexei.starovoitov@gmail.com&amp;gt;
+Signed-off-by: Xu Yunxiang &amp;lt;xyx2021@mail.ustc.edu.cn&amp;gt;
+Signed-off-by: Alexei Starovoitov &amp;lt;ast@kernel.org&amp;gt;
+Link: https://lore.kernel.org/bpf/DMJI3GWXQOC9.UA3K9X139AR@gmail.com/
+Link: https://patch.msgid.link/20261102190350.788433-3-xyx2021@mail.ustc.edu.cn&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d537252cc8a53b6ed6a3e7d0d895cb1cdd3ba42c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/torvalds/linux/commit/d537252cc8a53b6ed6a3e7d0d895cb1cdd3ba42c"/>
+    <title>
+        bpf: Propagate scalar precision through stack arguments
+    </title>
+    <updated>2026-11-02T22:42:10Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/98208832?s=30&amp;v=4"/>
+    <author>
+      <name>ustc21xyx</name>
+      <uri>https://github.com/ustc21xyx</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;bpf: Propagate scalar precision through stack arguments
+
+Outgoing stack arguments retain scalar verifier state separately from
+registers and ordinary spills. State comparison uses their precision
+marks, but propagate_precision() does not carry those dependencies from
+a reused state to the current path&amp;#39;s ancestors. A path can consequently
+reuse a state without making earlier checkpoints distinguish scalar
+values that will later be used as memory offsets.
+
+Seed the existing backtracking batch with precise scalar argument slots
+from every frame. Incoming arguments live in the caller&amp;#39;s outgoing
+slots, so include caller frames as well as the current frame.
+
+Also cover scalar argument slots in bpf_mark_all_scalars_precise(), so
+conservative fallback preserves the same invariant. Keep its existing
+ancestor-only traversal and leave pointer and uninitialized slots alone.
+
+AI assistance was used in preparing this patch.
+
+Fixes: 0f6bd5e7a804 (&amp;quot;bpf: Support stack arguments for bpf functions&amp;quot;)
+Signed-off-by: Xu Yunxiang &amp;lt;xyx2021@mail.ustc.edu.cn&amp;gt;
+Signed-off-by: Alexei Starovoitov &amp;lt;ast@kernel.org&amp;gt;
+Link: https://patch.msgid.link/20261102190350.788433-2-xyx2021@mail.ustc.edu.cn&lt;/pre&gt;
+    </content>
+  </entry>
+  
+</feed>

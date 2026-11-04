@@ -162,5 +162,27 @@ namespace CodeHollow.FeedReader.Tests
             Eq(false, item4.Explicit);
 
         }
+
+        [TestMethod]
+        public void TestItunesEpisodeSeasonTypeKeywords()
+        {
+            var feed = FeedReader.ReadFromString(@"<rss version=""2.0"" xmlns:itunes=""http://www.itunes.com/dtds/podcast-1.0.dtd""><channel>
+<title>t</title><itunes:type>serial</itunes:type><itunes:keywords>a, b ,,c</itunes:keywords>
+<item><title>i</title><itunes:episode>3</itunes:episode><itunes:season>2</itunes:season><itunes:episodeType>trailer</itunes:episodeType><itunes:keywords>x,y</itunes:keywords></item>
+<item><title>j</title></item></channel></rss>");
+            var channel = feed.GetItunesChannel();
+            Eq("serial", channel.Type);
+            CollectionAssert.AreEqual(new[] { "a", "b", "c" }, channel.Keywords);
+
+            var item = feed.Items.ElementAt(0).GetItunesItem();
+            Eq(3, item.Episode);
+            Eq(2, item.Season);
+            Eq("trailer", item.EpisodeType);
+            CollectionAssert.AreEqual(new[] { "x", "y" }, item.Keywords);
+
+            var empty = feed.Items.ElementAt(1).GetItunesItem();
+            Assert.IsNull(empty.Episode);
+            Eq(0, empty.Keywords.Length);
+        }
     }
 }

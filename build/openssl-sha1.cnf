@@ -1,0 +1,13 @@
+# Allows SHA1 signatures for a single process so the assembly can be strong-name signed
+# with key.snk on Linux distros that block SHA1 (Fedora/RHEL crypto-policies).
+# Strong naming is hard-wired to SHA1 and is an identity mechanism, not a security one;
+# the key must never change (public key token 66d870f2b3d70f48).
+#
+# Used by build/pack.sh via OPENSSL_CONF (does not change the system-wide policy).
+openssl_conf = openssl_init
+
+[openssl_init]
+alg_section = evp_properties
+
+[evp_properties]
+rh-allow-sha1-signatures = yes

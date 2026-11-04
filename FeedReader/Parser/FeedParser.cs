@@ -28,7 +28,7 @@
 
             if (rootElement.EqualsIgnoreCase("rss"))
             {
-                string version = doc.Root.Attribute("version").Value;
+                string version = doc.Root.Attribute("version")?.Value ?? string.Empty;
                 if (version.EqualsIgnoreCase("2.0")) {
                     if (doc.Root.Attribute(XName.Get("media", XNamespace.Xmlns.NamespaceName)) != null) {
                         return FeedType.MediaRss;
@@ -71,12 +71,13 @@
             {
                 feedContent = encoding.GetString(feedContentData);
                 feedContent = RemoveWrongChars(feedContent);
+                feedDoc = XDocument.Parse(feedContent);
             }
 
             var feedType = ParseFeedType(feedDoc);
 
             var parser = Factory.GetParser(feedType);
-            var feed = parser.Parse(feedContent);
+            var feed = parser.Parse(feedContent, feedDoc);
 
             return feed.ToFeed();
         }
@@ -95,7 +96,7 @@
             var feedType = ParseFeedType(feedDoc);
 
             var parser = Factory.GetParser(feedType);
-            var feed = parser.Parse(feedContent);
+            var feed = parser.Parse(feedContent, feedDoc);
 
             return feed.ToFeed();
         }

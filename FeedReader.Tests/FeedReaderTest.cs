@@ -54,13 +54,13 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
-        public async Task TestParseRssLinksHeise() { await TestParseRssLinksAsync("http://heise.de/", 2).ConfigureAwait(false); }
+        public async Task TestParseRssLinksSpiegel() { await TestParseRssLinksAsync("https://www.spiegel.de/", 2).ConfigureAwait(false); }
         [TestMethod]
-        public async Task TestParseRssLinksHeise2() { await TestParseRssLinksAsync("heise.de", 2).ConfigureAwait(false); }
+        public async Task TestParseRssLinksSpiegel2() { await TestParseRssLinksAsync("spiegel.de", 2).ConfigureAwait(false); }
         [TestMethod]
-        public async Task TestParseRssLinksHeise3() { await TestParseRssLinksAsync("www.heise.de", 2).ConfigureAwait(false); }
+        public async Task TestParseRssLinksSpiegel3() { await TestParseRssLinksAsync("www.spiegel.de", 2).ConfigureAwait(false); }
         [TestMethod]
-        public async Task TestParseRssLinksNYTimes() { await TestParseRssLinksAsync("nytimes.com", 1).ConfigureAwait(false); }
+        public async Task TestParseRssLinksTheGuardian() { await TestParseRssLinksAsync("https://www.theguardian.com/international", 1).ConfigureAwait(false); }
 
         private static async Task TestParseRssLinksAsync(string url, int expectedNumberOfLinks)
         {
@@ -91,11 +91,11 @@ namespace CodeHollow.FeedReader.Tests
         #region Read Feed
 
         [TestMethod]
-        public async Task TestReadAdobeFeed()
+        public async Task TestReadGitHubBlogFeed()
         {
-            var feed = await FeedReader.ReadAsync("https://theblog.adobe.com/news/feed").ConfigureAwait(false);
+            var feed = await FeedReader.ReadAsync("https://github.blog/feed/").ConfigureAwait(false);
             string title = feed.Title;
-            Assert.AreEqual("Adobe Blog", title);
+            Assert.AreEqual("The GitHub Blog", title);
         }
 
         [TestMethod]
@@ -110,9 +110,9 @@ namespace CodeHollow.FeedReader.Tests
         [TestMethod]
         public async Task TestReadRss20GermanFeed()
         {
-            var feed = await FeedReader.ReadAsync("http://guidnew.com/feed").ConfigureAwait(false);
+            var feed = await FeedReader.ReadAsync("https://www.spiegel.de/schlagzeilen/index.rss").ConfigureAwait(false);
             string title = feed.Title;
-            Assert.AreEqual("Guid.New", title);
+            Assert.AreEqual("DER SPIEGEL - Schlagzeilen", title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
@@ -219,10 +219,10 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
-        public async Task TestReadAPOD()
+        public async Task TestReadNasaImageOfTheDay()
         {
-            var feed = await FeedReader.ReadAsync("https://apod.nasa.gov/apod.rss").ConfigureAwait(false);
-            Assert.AreEqual("APOD", feed.Title);
+            var feed = await FeedReader.ReadAsync("https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss").ConfigureAwait(false);
+            Assert.AreEqual("NASA Image of the Day", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 
@@ -235,10 +235,10 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
-        public async Task TestReadTheStudentLawyer()
+        public async Task TestReadMailchimpArchiveFeed()
         {
-            var feed = await FeedReader.ReadAsync("http://us10.campaign-archive.com/feed?u=8da2e137a07b178e5d9a71c2c&id=9134b0cc95").ConfigureAwait(false);
-            Assert.AreEqual("The Student Lawyer Careers Network Archive Feed", feed.Title);
+            var feed = await FeedReader.ReadAsync("https://us13.campaign-archive.com/feed?u=0e2d5447755dbd4ee61d67ce4&id=8e8992bc83").ConfigureAwait(false);
+            Assert.AreEqual("NEPHTC Newsletter Webinar/Communications Archive Feed", feed.Title);
             Assert.IsTrue(feed.Items.Count > 0);
         }
 

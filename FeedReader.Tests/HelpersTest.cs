@@ -47,6 +47,79 @@ namespace CodeHollow.FeedReader.Tests
             TestLinkTagParse(input, new HtmlFeedLink("codehollow » Feed", "https://codehollow.com/feed/", FeedType.Rss));
         }
 
+        [TestMethod]
+        public void TestLinkTagUppercaseAttributes()
+        {
+            string input = "<link rel=\"alternate\" TYPE=\"application/rss+xml\" Title=\"codehollow\" HREF=\"https://codehollow.com/feed/\" />";
+            TestLinkTagParse(input, new HtmlFeedLink("codehollow", "https://codehollow.com/feed/", FeedType.Rss));
+        }
+
+        [TestMethod]
+        public void TestTryParseDateTimeInvalidReturnsNull()
+        {
+            Assert.IsNull(Helpers.TryParseDateTime("garbage"));
+            Assert.IsNull(Helpers.TryParseDateTime(" x"));
+            Assert.IsNotNull(Helpers.TryParseDateTime("Thu, 22 Dec 2016 17:36:00 CEST"));
+        }
+
+        [TestMethod]
+        public void TestRssWithoutVersionIsParsed()
+        {
+            var feed = FeedReader.ReadFromString("<rss><channel><title>t</title><item><title>i</title></item></channel></rss>");
+            Assert.AreEqual("t", feed.Title);
+            Assert.AreEqual(1, feed.Items.Count);
+        }
+
+        [TestMethod]
+        public void TestGetAbsoluteFeedUrl()
+        {
+            string Abs(string page, string link) => FeedReader.GetAbsoluteFeedUrl(page, new HtmlFeedLink("t", link, FeedType.Rss)).Url;
+
+            Assert.AreEqual("https://site.com/feed.xml", Abs("https://site.com/blog/post", "/feed.xml"));
+            Assert.AreEqual("https://site.com/blog/feed.xml", Abs("https://site.com/blog/", "feed.xml"));
+            Assert.AreEqual("https://cdn.site.com/f", Abs("https://site.com/", "//cdn.site.com/f"));
+            Assert.AreEqual("http://other.com/feed", Abs("https://site.com/", "http://other.com/feed"));
+            Assert.AreEqual("http://codehollow.com/feed", Abs("codehollow.com", "/feed"));
+        }
+
+        [TestMethod]
+        public void TestParseFeedUrlsSingleQuotes()
+        {
+            var links = Helpers.ParseFeedUrlsFromHtml("<link rel='alternate' type='application/rss+xml' title='t' href='/f'><link rel=\"alternate\" type=\"application/atom+xml\" href=\"/a\">").ToList();
+            Assert.AreEqual(2, links.Count);
+            Assert.AreEqual("/f", links[0].Url);
+            Assert.AreEqual("t", links[0].Title);
+            Assert.AreEqual("/a", links[1].Url);
+        }
+
+        [TestMethod]
+        public async Task TestDownloadRetriesWithoutHeadersOnForbidden()
+        {
+            var port = new Random().Next(20000, 60000);
+            var prefix = $"http://localhost:{port}/";
+            using (var listener = new System.Net.HttpListener())
+            {
+                listener.Prefixes.Add(prefix);
+                listener.Start();
+                var server = Task.Run(async () =>
+                {
+                    for (int i = 0; i < 2; i++)
+                    {
+                        var ctx = await listener.GetContextAsync();
+                        bool hasUserAgent = ctx.Request.Headers["User-Agent"] != null;
+                        ctx.Response.StatusCode = hasUserAgent ? 403 : 200;
+                        var body = System.Text.Encoding.UTF8.GetBytes(hasUserAgent ? "forbidden" : "ok");
+                        ctx.Response.OutputStream.Write(body, 0, body.Length);
+                        ctx.Response.Close();
+                    }
+                });
+
+                var content = await Helpers.DownloadBytesAsync(prefix);
+                await server;
+                Assert.AreEqual("ok", System.Text.Encoding.UTF8.GetString(content));
+            }
+        }
+
         private static void TestLinkTagParse(string input, HtmlFeedLink expectedResult)
         {
             var res = Helpers.GetFeedLinkFromLinkTag(input);

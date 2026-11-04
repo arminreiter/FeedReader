@@ -45,6 +45,15 @@
 
             Subtitle = channelElement.GetValue(NAMESPACEPREFIX, "subtitle");
             Summary = channelElement.GetValue(NAMESPACEPREFIX, "summary");
+            Type = channelElement.GetValue(NAMESPACEPREFIX, "type");
+            Keywords = ParseKeywords(channelElement.GetValue(NAMESPACEPREFIX, "keywords"));
+        }
+
+        internal static string[] ParseKeywords(string keywords)
+        {
+            if (string.IsNullOrWhiteSpace(keywords))
+                return new string[0];
+            return keywords.Split(',').Select(x => x.Trim()).Where(x => x.Length > 0).ToArray();
         }
 
         /// <summary>
@@ -96,6 +105,16 @@
         /// The itunes:summary element
         /// </summary>
         public string Summary { get; }
+
+        /// <summary>
+        /// The itunes:type element (episodic or serial)
+        /// </summary>
+        public string Type { get; }
+
+        /// <summary>
+        /// The itunes:keywords element, split by comma
+        /// </summary>
+        public string[] Keywords { get; }
 
         /// <summary>
         /// Sets the itunes categories

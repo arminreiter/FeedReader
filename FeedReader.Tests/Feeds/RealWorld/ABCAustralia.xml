@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+  <!-- This is a rebuild of News RSS. If you notice any issues please contact DG-NewsWeb@abc.net.au -->
+  <channel>
+    <title>Just In</title>
+    <category>Australian Broadcasting Corporation: All content</category>
+    <link>https://www.abc.net.au/news/justin/</link>
+    <atom:link href="https://www.abc.net.au/news/justin/" rel="self" type="application/rss+xml" />
+    <description>
+    </description>
+    <language>en-AU</language>
+    <copyright>Copyright 2026, Australian Broadcasting Corporation. All Rights Reserved.</copyright>
+    <pubDate>Wed, 04 Nov 2026 10:54:07 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 10:54:07 +0000</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <managingEditor>Newson1ine@abc.net.au (ABC News)</managingEditor>
+    <image>
+      <title>Just In</title>
+      <url>https://live-production.wcms.abc-cdn.net.au/6f61ef606af0bbbcbdaa7c6173a677e2?impolicy=wcms_crop_resize&amp;cropH=144&amp;cropW=144&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=862</url>
+      <link>https://www.abc.net.au/news/justin/</link>
+    </image>
+    <item>
+      <title>Telstra customers flooded with 'confusing' missed call notifications</title>
+      <link>https://www.abc.net.au/news/2026-11-04/telstra-customers-flooded-with-false-missed-call-messages/107347874</link>
+      <description>
+        <![CDATA[Telstra customers have reported their SMS inboxes flooded with messages about missed calls from contacts who had not attempted to call them.]]>
+      </description>
+      <dc:creator>Aoife Hilton</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 10:54:07 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/telstra-customers-flooded-with-false-missed-call-messages/107347874</guid>
+      <category>Mobile Phones</category>
+      <category>Mobile and Internet Access</category>
+      <category>Telecommunications Services Industry</category>
+      <media:group>
+        <media:description>A screenshot of a SMS inbox shows two missed call notifications.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/8b3fa07631c0b6437f15fe914f5dc3a9?impolicy=wcms_crop_resize&amp;cropH=203&amp;cropW=360&amp;xPos=0&amp;yPos=267&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/8b3fa07631c0b6437f15fe914f5dc3a9?impolicy=wcms_crop_resize&amp;cropH=360&amp;cropW=360&amp;xPos=0&amp;yPos=109&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/8b3fa07631c0b6437f15fe914f5dc3a9?impolicy=wcms_crop_resize&amp;cropH=240&amp;cropW=360&amp;xPos=0&amp;yPos=229&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/8b3fa07631c0b6437f15fe914f5dc3a9?impolicy=wcms_crop_resize&amp;cropH=469&amp;cropW=352&amp;xPos=4&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/8b3fa07631c0b6437f15fe914f5dc3a9?impolicy=wcms_crop_resize&amp;cropH=270&amp;cropW=360&amp;xPos=0&amp;yPos=199&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/8b3fa07631c0b6437f15fe914f5dc3a9?impolicy=wcms_crop_resize&amp;cropH=469&amp;cropW=264&amp;xPos=72&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/8b3fa07631c0b6437f15fe914f5dc3a9?impolicy=wcms_crop_resize&amp;cropH=469&amp;cropW=352&amp;xPos=4&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>'Doppelganger' may have been mistaken for MP Luke Gosling in bail caution</title>
+      <link>https://www.abc.net.au/news/2026-11-04/luke-gosling-bail-caution-possible-mistaken-identity-police/107336970</link>
+      <description>
+        <![CDATA[Northern Territory Police have admitted a formal caution issued to federal MP Luke Gosling for allegedly breaching his bail in September may have been a case of mistaken identity, which his lawyers say could "materially assist the defence".]]>
+      </description>
+      <dc:creator>Jason Walls and Olivana Lathouris</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 09:41:30 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/luke-gosling-bail-caution-possible-mistaken-identity-police/107336970</guid>
+      <category>Courts</category>
+      <media:group>
+        <media:description>Luke Gosling is charged with two counts of assaulting the NT administrator. He is contesting all charges. </media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/49c70e1014fa7a28b1c0ae2304996372?impolicy=wcms_crop_resize&amp;cropH=1828&amp;cropW=3249&amp;xPos=359&amp;yPos=392&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/49c70e1014fa7a28b1c0ae2304996372?impolicy=wcms_crop_resize&amp;cropH=3072&amp;cropW=3072&amp;xPos=123&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/49c70e1014fa7a28b1c0ae2304996372?impolicy=wcms_crop_resize&amp;cropH=2774&amp;cropW=4161&amp;xPos=0&amp;yPos=298&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/49c70e1014fa7a28b1c0ae2304996372?impolicy=wcms_crop_resize&amp;cropH=3072&amp;cropW=2304&amp;xPos=751&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/49c70e1014fa7a28b1c0ae2304996372?impolicy=wcms_crop_resize&amp;cropH=1984&amp;cropW=2646&amp;xPos=572&amp;yPos=258&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/49c70e1014fa7a28b1c0ae2304996372?impolicy=wcms_crop_resize&amp;cropH=3072&amp;cropW=1728&amp;xPos=1132&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/49c70e1014fa7a28b1c0ae2304996372?impolicy=wcms_crop_resize&amp;cropH=3072&amp;cropW=2304&amp;xPos=751&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>WA woman jailed for fatally stabbing partner during argument</title>
+      <link>https://www.abc.net.au/news/2026-11-04/geraldton-woman-jailed-partner-manslaughter/107346470</link>
+      <description>
+        <![CDATA[A woman has been jailed for five years for fatally stabbing her partner during an argument in WA's Midwest.]]>
+      </description>
+      <dc:creator>Chloe Henville</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 09:32:13 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/geraldton-woman-jailed-partner-manslaughter/107346470</guid>
+      <category>Courts</category>
+      <category>Police</category>
+      <category>Domestic Violence</category>
+      <media:group>
+        <media:description>Mollina Rose Anne Ryan has been sentenced in WA's highest court over the death of her partner.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7181435255ffd3bbcfd86e707bc4cd6a?impolicy=wcms_crop_resize&amp;cropH=2583&amp;cropW=4592&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7181435255ffd3bbcfd86e707bc4cd6a?impolicy=wcms_crop_resize&amp;cropH=2584&amp;cropW=2584&amp;xPos=1004&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7181435255ffd3bbcfd86e707bc4cd6a?impolicy=wcms_crop_resize&amp;cropH=2584&amp;cropW=3876&amp;xPos=358&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7181435255ffd3bbcfd86e707bc4cd6a?impolicy=wcms_crop_resize&amp;cropH=2584&amp;cropW=1938&amp;xPos=1327&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7181435255ffd3bbcfd86e707bc4cd6a?impolicy=wcms_crop_resize&amp;cropH=2584&amp;cropW=3445&amp;xPos=573&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/7181435255ffd3bbcfd86e707bc4cd6a?impolicy=wcms_crop_resize&amp;cropH=2584&amp;cropW=1453&amp;xPos=1569&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/7181435255ffd3bbcfd86e707bc4cd6a?impolicy=wcms_crop_resize&amp;cropH=2584&amp;cropW=1938&amp;xPos=1327&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>'Thick, orange water' safe to drink, woman told</title>
+      <link>https://www.abc.net.au/news/2026-11-04/taswater-tells-resident-orange-water-safe-to-drink/107347420</link>
+      <description>
+        <![CDATA[When Hobart resident Emma Thornley put a load of whites in her washing machine on Tuesday morning, she was not expecting it to come out covered in dark-orange stains.]]>
+      </description>
+      <dc:creator>Selina Bryan</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 08:55:46 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/taswater-tells-resident-orange-water-safe-to-drink/107347420</guid>
+      <category>Public Health</category>
+      <category>Utilities</category>
+      <category>Infrastructure</category>
+      <media:group>
+        <media:description>A Sandy Bay resident captured some of the murky water in a jar.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/442353c629ad8d85b9f2ecbd9bc2dcf6?impolicy=wcms_crop_resize&amp;cropH=864&amp;cropW=1536&amp;xPos=0&amp;yPos=314&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/442353c629ad8d85b9f2ecbd9bc2dcf6?impolicy=wcms_crop_resize&amp;cropH=1536&amp;cropW=1536&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/442353c629ad8d85b9f2ecbd9bc2dcf6?impolicy=wcms_crop_resize&amp;cropH=1024&amp;cropW=1536&amp;xPos=0&amp;yPos=239&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/442353c629ad8d85b9f2ecbd9bc2dcf6?impolicy=wcms_crop_resize&amp;cropH=1525&amp;cropW=1144&amp;xPos=89&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/442353c629ad8d85b9f2ecbd9bc2dcf6?impolicy=wcms_crop_resize&amp;cropH=1152&amp;cropW=1536&amp;xPos=0&amp;yPos=299&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/442353c629ad8d85b9f2ecbd9bc2dcf6?impolicy=wcms_crop_resize&amp;cropH=1637&amp;cropW=921&amp;xPos=298&amp;yPos=75&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/442353c629ad8d85b9f2ecbd9bc2dcf6?impolicy=wcms_crop_resize&amp;cropH=1525&amp;cropW=1144&amp;xPos=89&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>David Jones is on shaky ground. Here's what consumers should know</title>
+      <link>https://www.abc.net.au/news/2026-11-04/david-jones-possible-collapse-consumer-explainer/107347080</link>
+      <description>
+        <![CDATA[If David Jones goes belly-up, consumers could be out of pocket. Here's what the experts say shoppers should consider to avoid a Christmas nightmare.]]>
+      </description>
+      <dc:creator>Michael Atkin</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 08:50:41 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/david-jones-possible-collapse-consumer-explainer/107347080</guid>
+      <category>Retail Industry</category>
+      <media:group>
+        <media:description>Administrators could restructure David Jones, sell it or wind it up in a liquidation.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f3b76220071ed72202eb79b9d3c45ef8?impolicy=wcms_crop_resize&amp;cropH=1689&amp;cropW=3000&amp;xPos=0&amp;yPos=102&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f3b76220071ed72202eb79b9d3c45ef8?impolicy=wcms_crop_resize&amp;cropH=1886&amp;cropW=1886&amp;xPos=694&amp;yPos=8&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f3b76220071ed72202eb79b9d3c45ef8?impolicy=wcms_crop_resize&amp;cropH=1612&amp;cropW=2417&amp;xPos=205&amp;yPos=145&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f3b76220071ed72202eb79b9d3c45ef8?impolicy=wcms_crop_resize&amp;cropH=1886&amp;cropW=1414&amp;xPos=1157&amp;yPos=8&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f3b76220071ed72202eb79b9d3c45ef8?impolicy=wcms_crop_resize&amp;cropH=1886&amp;cropW=2512&amp;xPos=188&amp;yPos=8&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/f3b76220071ed72202eb79b9d3c45ef8?impolicy=wcms_crop_resize&amp;cropH=1900&amp;cropW=1068&amp;xPos=966&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/f3b76220071ed72202eb79b9d3c45ef8?impolicy=wcms_crop_resize&amp;cropH=1886&amp;cropW=1414&amp;xPos=1157&amp;yPos=8&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Marine scientist awarded 2027 Australian of the Year for NSW</title>
+      <link>https://www.abc.net.au/news/2026-11-04/nsw-australian-of-the-year-2027-nominees-announced/107345830</link>
+      <description>
+        <![CDATA[Whale expert Vanessa Pirotta has been honoured at a ceremony along with the founder of community shark bite kits, a veteran pilot doctor, and the founders of a youth charity in the state's Mid North Coast. ]]>
+      </description>
+      <dc:creator>Declan Bowring</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 08:41:24 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/nsw-australian-of-the-year-2027-nominees-announced/107345830</guid>
+      <category>Awards and Prizes</category>
+      <category>Marine Biology</category>
+      <category>Shark Attacks</category>
+      <category>Community Organisations</category>
+      <category>Doctors and Medical Professionals</category>
+      <media:group>
+        <media:description>Vanessa Pirotta is the 2027 Australian of the Year for NSW.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9a40b96b57fc6e9cd79a9edd53219af2?impolicy=wcms_crop_resize&amp;cropH=2813&amp;cropW=5000&amp;xPos=0&amp;yPos=260&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9a40b96b57fc6e9cd79a9edd53219af2?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=3333&amp;xPos=834&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9a40b96b57fc6e9cd79a9edd53219af2?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=5000&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9a40b96b57fc6e9cd79a9edd53219af2?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=2500&amp;xPos=1250&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9a40b96b57fc6e9cd79a9edd53219af2?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=4444&amp;xPos=278&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9a40b96b57fc6e9cd79a9edd53219af2?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=1875&amp;xPos=1563&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/9a40b96b57fc6e9cd79a9edd53219af2?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=2500&amp;xPos=1250&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>No evidence of fraud in Israeli election, commission finds</title>
+      <link>https://www.abc.net.au/news/2026-11-04/israeli-election-commission-fraud-investigation/107347454</link>
+      <description>
+        <![CDATA[Benjamin Netanyahu has accused Arab-led parties of stealing the election in which neither major bloc earned a parliamentary majority.]]>
+      </description>
+      <pubDate>Wed, 04 Nov 2026 08:39:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/israeli-election-commission-fraud-investigation/107347454</guid>
+      <category>Elections</category>
+      <category>World Politics</category>
+      <category>Electoral Fraud</category>
+      <media:group>
+        <media:description>Supporters of Benjamin Netanyahu protest against the formation of a government that includes Arab parties.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/df53a22b1685d10374dd379f170f6f3c?impolicy=wcms_crop_resize&amp;cropH=2813&amp;cropW=5000&amp;xPos=0&amp;yPos=521&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/df53a22b1685d10374dd379f170f6f3c?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=3333&amp;xPos=834&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/df53a22b1685d10374dd379f170f6f3c?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=5000&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/df53a22b1685d10374dd379f170f6f3c?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=2500&amp;xPos=1250&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/df53a22b1685d10374dd379f170f6f3c?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=4444&amp;xPos=278&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/df53a22b1685d10374dd379f170f6f3c?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=1875&amp;xPos=1563&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/df53a22b1685d10374dd379f170f6f3c?impolicy=wcms_crop_resize&amp;cropH=3333&amp;cropW=2500&amp;xPos=1250&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Paedophile McKenna to be released despite being declared high risk offender</title>
+      <link>https://www.abc.net.au/news/2026-11-04/dennis-mckenna-serial-paedophile-freed-within-weeks/107345760</link>
+      <description>
+        <![CDATA[One of WA's worst serial paedophiles, Dennis McKenna, will be free within weeks after serving his sentence.]]>
+      </description>
+      <dc:creator>Jake Sturmer</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 07:18:27 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/dennis-mckenna-serial-paedophile-freed-within-weeks/107345760</guid>
+      <category>Sexual Offences</category>
+      <category>Child Abuse</category>
+      <category>Courts</category>
+      <media:group>
+        <media:description>Serial paedophile Dennis John McKenna is set to be released after his sentence, with dozens of conditions.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9328760635e435b6fa258383c03175bb?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=1280&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9328760635e435b6fa258383c03175bb?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=720&amp;xPos=280&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9328760635e435b6fa258383c03175bb?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=1080&amp;xPos=100&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9328760635e435b6fa258383c03175bb?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=540&amp;xPos=370&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9328760635e435b6fa258383c03175bb?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=960&amp;xPos=160&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/9328760635e435b6fa258383c03175bb?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=405&amp;xPos=438&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/9328760635e435b6fa258383c03175bb?impolicy=wcms_crop_resize&amp;cropH=720&amp;cropW=540&amp;xPos=370&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Swans star returns positive drug test during roadside stop</title>
+      <link>https://www.abc.net.au/news/2026-11-04/swans-tom-papley-returns-positive-drug-test-during-roadside-stop/107347338</link>
+      <description>
+        <![CDATA[Tom Papley returns a positive preliminary drug test after being pulled over by NSW Police, who sprung him driving with a suspended licence.]]>
+      </description>
+      <pubDate>Wed, 04 Nov 2026 07:17:25 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/swans-tom-papley-returns-positive-drug-test-during-roadside-stop/107347338</guid>
+      <category>AFL</category>
+      <category>Australian Rules Football</category>
+      <category>Sport</category>
+      <media:group>
+        <media:description>Tom Papley has returned a preliminary positive drug test after being stopped by NSW Police.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&amp;cropH=1351&amp;cropW=2401&amp;xPos=0&amp;yPos=146&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&amp;cropH=1465&amp;cropW=1465&amp;xPos=126&amp;yPos=136&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&amp;cropH=1354&amp;cropW=2030&amp;xPos=0&amp;yPos=141&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&amp;cropH=1601&amp;cropW=1201&amp;xPos=258&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&amp;cropH=1455&amp;cropW=1939&amp;xPos=0&amp;yPos=146&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&amp;cropH=1601&amp;cropW=901&amp;xPos=521&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&amp;cropH=1601&amp;cropW=1201&amp;xPos=258&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    <item>
+      <title>Are these songs worthy of our first National Songbook? Experts say yes</title>
+      <link>https://www.abc.net.au/news/2026-11-04/national-songbook-apra-amcos-nfsa-midnight-oil-treaty/107344692</link>
+      <description>
+        <![CDATA[The initiative celebrates and preserves the songs and songwriters that helped shape Australia's cultural identity.]]>
+      </description>
+      <dc:creator>Al Newstead</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 07:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://www.abc.net.au/news/2026-11-04/national-songbook-apra-amcos-nfsa-midnight-oil-treaty/107344692</guid>
+      <category>Music</category>
+      <category>Arts, Culture and Entertainment</category>
+      <media:group>
+        <media:description>Midnight Oil, The Easybeats and Ruby Hunter are among the first inductees into the National Songbook.</media:description>
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/0d36ee1c3230687aed63b067d0eb673d?impolicy=wcms_crop_resize&amp;cropH=1125&amp;cropW=2000&amp;xPos=0&amp;yPos=0&amp;width=862&amp;height=485"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="485"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/0d36ee1c3230687aed63b067d0eb673d?impolicy=wcms_crop_resize&amp;cropH=1126&amp;cropW=1126&amp;xPos=14&amp;yPos=0&amp;width=862&amp;height=862"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="862"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/0d36ee1c3230687aed63b067d0eb673d?impolicy=wcms_crop_resize&amp;cropH=1126&amp;cropW=1689&amp;xPos=155&amp;yPos=0&amp;width=862&amp;height=575"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="575"
+            isDefault="true"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/0d36ee1c3230687aed63b067d0eb673d?impolicy=wcms_crop_resize&amp;cropH=1126&amp;cropW=845&amp;xPos=416&amp;yPos=0&amp;width=862&amp;height=1149"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1149"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/0d36ee1c3230687aed63b067d0eb673d?impolicy=wcms_crop_resize&amp;cropH=1126&amp;cropW=1501&amp;xPos=384&amp;yPos=0&amp;width=862&amp;height=647"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="647"
+          />
+        <media:content
+            url="https://live-production.wcms.abc-cdn.net.au/0d36ee1c3230687aed63b067d0eb673d?impolicy=wcms_crop_resize&amp;cropH=1126&amp;cropW=633&amp;xPos=683&amp;yPos=0&amp;width=862&amp;height=1533"
+            medium="image"
+            type="image/jpeg"
+            width="862"
+            height="1533"
+          />
+        <media:thumbnail
+            url="https://live-production.wcms.abc-cdn.net.au/0d36ee1c3230687aed63b067d0eb673d?impolicy=wcms_crop_resize&amp;cropH=1126&amp;cropW=845&amp;xPos=416&amp;yPos=0&amp;width=862&amp;height=1149"
+            width="862"
+            height="1149"
+          />
+      </media:group>
+    </item>
+    
+  </channel>
+</rss>

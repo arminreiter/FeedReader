@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:www.producthunt.com,2005:/feed?search=ai</id>
+  <link rel="alternate" type="text/html" href="https://www.producthunt.com"/>
+  <link rel="self" type="application/atom+xml" href="https://www.producthunt.com/feed?search=ai"/>
+  <title>Product Hunt — The best new products, every day</title>
+  <updated>2026-11-04T00:01:00-08:00</updated>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1301154</id>
+    <published>2026-11-01T20:15:55-08:00</published>
+    <updated>2026-11-04T03:30:54-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/kosa8"/>
+    <title>kosa8</title>
+    <content type="html">          &lt;p&gt;
+            Air-gapped microVM sandboxes for enterprise AI agents
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/kosa8?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1301154?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>fmerian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1303230</id>
+    <published>2026-11-03T08:49:46-08:00</published>
+    <updated>2026-11-04T03:30:54-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/basedash"/>
+    <title>Basedash Verified dashboards</title>
+    <content type="html">          &lt;p&gt;
+            Show your team which dashboards to trust
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/basedash?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1303230?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Max Musing</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1290695</id>
+    <published>2026-10-23T12:32:49-07:00</published>
+    <updated>2026-11-04T03:30:54-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/chorus-weather"/>
+    <title>Chorus Weather</title>
+    <content type="html">          &lt;p&gt;
+            Know when to trust the weather forecast
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/chorus-weather?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1290695?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>James Shaw</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1301612</id>
+    <published>2026-11-02T04:02:03-08:00</published>
+    <updated>2026-11-04T03:30:31-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/eyecon-auto-pause-video"/>
+    <title>Eyecon</title>
+    <content type="html">          &lt;p&gt;
+            Auto pause video when you look away
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/eyecon-auto-pause-video?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1301612?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Yunus</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1302684</id>
+    <published>2026-11-03T01:27:35-08:00</published>
+    <updated>2026-11-04T03:30:51-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/virelo"/>
+    <title>Virelo</title>
+    <content type="html">          &lt;p&gt;
+            Turn your video folders into a private streaming library
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/virelo?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1302684?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Riyo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1303034</id>
+    <published>2026-11-03T06:12:58-08:00</published>
+    <updated>2026-11-04T03:30:34-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/cloudflare"/>
+    <title>Zero Wire</title>
+    <content type="html">          &lt;p&gt;
+            Check your exposure to critical CVEs with one agent prompt 
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/cloudflare?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1303034?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Kate Ramakaieva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1303000</id>
+    <published>2026-11-03T05:45:28-08:00</published>
+    <updated>2026-11-04T03:30:48-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/livereacting"/>
+    <title>LiveReacting for ChatGPT</title>
+    <content type="html">          &lt;p&gt;
+            Run 24/7 and pre-recorded live streams from ChatGPT
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/livereacting?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1303000?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Alexander Shpilka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1303158</id>
+    <published>2026-11-03T08:01:13-08:00</published>
+    <updated>2026-11-04T03:30:49-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/deployed-yet"/>
+    <title>Deployed Yet?</title>
+    <content type="html">          &lt;p&gt;
+            See if your Vercel, Cloudflare and GitHub deploys shipped
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/deployed-yet?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1303158?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Andy Feliciotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1303614</id>
+    <published>2026-11-03T17:04:14-08:00</published>
+    <updated>2026-11-04T03:30:31-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/fedora-linux-45"/>
+    <title>Fedora Linux 45</title>
+    <content type="html">          &lt;p&gt;
+            GNOME 51: Wayland fixes, oo7 keys, and modern toolchains.
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/fedora-linux-45?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1303614?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Justin Jincaid</name>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:www.producthunt.com,2005:Post/1293092</id>
+    <published>2026-10-26T02:08:42-07:00</published>
+    <updated>2026-11-04T03:30:48-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.producthunt.com/products/mellow-kids"/>
+    <title>Mellow Kids</title>
+    <content type="html">          &lt;p&gt;
+            Personalized sleep and development app for parents
+          &lt;/p&gt;
+          &lt;p&gt;
+            &lt;a href="https://www.producthunt.com/products/mellow-kids?utm_campaign=producthunt-atom-posts-feed&amp;amp;utm_medium=rss-feed&amp;amp;utm_source=producthunt-atom-posts-feed"&gt;Discussion&lt;/a&gt;
+            |
+            &lt;a href="https://www.producthunt.com/r/p/1293092?app_id=339"&gt;Link&lt;/a&gt;
+          &lt;/p&gt;
+</content>
+    <author>
+      <name>Daiany </name>
+    </author>
+  </entry>
+  
+</feed>

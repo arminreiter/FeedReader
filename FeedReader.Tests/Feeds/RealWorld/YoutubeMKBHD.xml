@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ"/>
+ <id>yt:channel:BJycsmduvYEL83R_U4JriQ</id>
+ <yt:channelId>BJycsmduvYEL83R_U4JriQ</yt:channelId>
+ <title>Marques Brownlee</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ"/>
+ <author>
+  <name>Marques Brownlee</name>
+  <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+ </author>
+ <published>2008-03-21T15:25:54+00:00</published>
+ <entry>
+  <id>yt:video:g6Die8gVFn0</id>
+  <yt:videoId>g6Die8gVFn0</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>OLED iPad Mini is The Most Apple Product They've Ever Appled</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=g6Die8gVFn0"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-11-03T14:01:31+00:00</published>
+  <updated>2026-11-04T10:46:20+00:00</updated>
+  <media:group>
+   <media:title>OLED iPad Mini is The Most Apple Product They've Ever Appled</media:title>
+   <media:content url="https://www.youtube.com/v/g6Die8gVFn0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/g6Die8gVFn0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>iPad Mini 8 Refresh gets a big refresh and a big price bump and a LOT of laddering
+
+Protect and make your iPad more user-friendly with dbrand at https://dbrand.com/shop/ipad
+
+MKBHD Merch: http://shop.MKBHD.com
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+Tablet provided by Apple for review.
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD</media:description>
+   <media:community>
+    <media:starRating count="88519" average="5.00" min="1" max="5"/>
+    <media:statistics views="6013105"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:2reQut8WNGc</id>
+  <yt:videoId>2reQut8WNGc</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>Macbook PROLED XDR Impressions: They Said They Wouldn't!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=2reQut8WNGc"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-29T02:50:34+00:00</published>
+  <updated>2026-11-04T11:17:02+00:00</updated>
+  <media:group>
+   <media:title>Macbook PROLED XDR Impressions: They Said They Wouldn't!</media:title>
+   <media:content url="https://www.youtube.com/v/2reQut8WNGc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/2reQut8WNGc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The first touchscreen Mac is here, and I have thoughts.
+
+MKBHD Merch: http://shop.MKBHD.com
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD</media:description>
+   <media:community>
+    <media:starRating count="140109" average="5.00" min="1" max="5"/>
+    <media:statistics views="11641298"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ai1gIWacf0I</id>
+  <yt:videoId>ai1gIWacf0I</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>This can SEE Sound!</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/ai1gIWacf0I"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-27T20:14:55+00:00</published>
+  <updated>2026-10-31T04:31:18+00:00</updated>
+  <media:group>
+   <media:title>This can SEE Sound!</media:title>
+   <media:content url="https://www.youtube.com/v/ai1gIWacf0I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ai1gIWacf0I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is an acoustic imaging camera</media:description>
+   <media:community>
+    <media:starRating count="73106" average="5.00" min="1" max="5"/>
+    <media:statistics views="2571359"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_4ELeWAgMwo</id>
+  <yt:videoId>_4ELeWAgMwo</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>ASMR iPhone Duo Unboxing</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/_4ELeWAgMwo"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-21T14:00:33+00:00</published>
+  <updated>2026-10-24T22:12:41+00:00</updated>
+  <media:group>
+   <media:title>ASMR iPhone Duo Unboxing</media:title>
+   <media:content url="https://www.youtube.com/v/_4ELeWAgMwo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_4ELeWAgMwo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>iPhone duo only comes with 2 things in the box</media:description>
+   <media:community>
+    <media:starRating count="70982" average="5.00" min="1" max="5"/>
+    <media:statistics views="2277310"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ESABTN4VtrA</id>
+  <yt:videoId>ESABTN4VtrA</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>iPhone Duo Review: First Generation Fun!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ESABTN4VtrA"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-21T12:00:52+00:00</published>
+  <updated>2026-10-31T22:01:38+00:00</updated>
+  <media:group>
+   <media:title>iPhone Duo Review: First Generation Fun!</media:title>
+   <media:content url="https://www.youtube.com/v/ESABTN4VtrA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ESABTN4VtrA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What it's actually like to use the first folding iPhone - Duo
+
+Don’t miss Ridge’s friends and family sale at https://ridge.com/MKBHD
+Protect your iPhone Duo at https://dbrand.com/duo 
+
+MKBHD Merch: http://shop.MKBHD.com
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+Phone provided by Apple for review.
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD
+
+0:00 Intro
+1:13 First Generation
+3:21 The Hardware
+14:18 The Apps Situation
+20:02 What It's Good At
+25:11 Conclusion</media:description>
+   <media:community>
+    <media:starRating count="206592" average="5.00" min="1" max="5"/>
+    <media:statistics views="13399898"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:scwlR0QHGOk</id>
+  <yt:videoId>scwlR0QHGOk</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>The NEW Tesla Roadster: My Honest Reaction</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=scwlR0QHGOk"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-17T02:09:23+00:00</published>
+  <updated>2026-10-26T22:08:35+00:00</updated>
+  <media:group>
+   <media:title>The NEW Tesla Roadster: My Honest Reaction</media:title>
+   <media:content url="https://www.youtube.com/v/scwlR0QHGOk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/scwlR0QHGOk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Tesla doesn't do marketing. Until they do.
+
+Hagerty video: https://youtu.be/22rvpUecLts?si=z7reGi_rtH9mG3R3
+
+Auto Focus: http://youtube.com/AutoFocus
+
+MKBHD Merch: http://shop.MKBHD.com
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD</media:description>
+   <media:community>
+    <media:starRating count="192557" average="5.00" min="1" max="5"/>
+    <media:statistics views="12473354"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QVv3mQzlrN0</id>
+  <yt:videoId>QVv3mQzlrN0</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>Apple Homeview Impressions: Not Convinced!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QVv3mQzlrN0"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-13T22:42:38+00:00</published>
+  <updated>2026-10-19T18:05:12+00:00</updated>
+  <media:group>
+   <media:title>Apple Homeview Impressions: Not Convinced!</media:title>
+   <media:content url="https://www.youtube.com/v/QVv3mQzlrN0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QVv3mQzlrN0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>New Smart home display from Apple. With plenty of quirks and features.
+
+The deskpad! http://shop.MKBHD.com
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD</media:description>
+   <media:community>
+    <media:starRating count="107853" average="5.00" min="1" max="5"/>
+    <media:statistics views="11260538"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_0G4OG39XjI</id>
+  <yt:videoId>_0G4OG39XjI</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>WTF is a Googlebook?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_0G4OG39XjI"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-08T21:00:40+00:00</published>
+  <updated>2026-10-19T00:52:31+00:00</updated>
+  <media:group>
+   <media:title>WTF is a Googlebook?</media:title>
+   <media:content url="https://www.youtube.com/v/_0G4OG39XjI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_0G4OG39XjI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>New laptops are dropping left and right! Let's talk about Google's entry.
+
+MKBHD Merch: http://shop.MKBHD.com
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+Asus Googlebook provided by Asus for review.
+XPS Googlebook provided by Dell for review.
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD</media:description>
+   <media:community>
+    <media:starRating count="101626" average="5.00" min="1" max="5"/>
+    <media:statistics views="9095760"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3iRUwVzRDZQ</id>
+  <yt:videoId>3iRUwVzRDZQ</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>Xiaomi 18 Fold: How Does This Happen?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3iRUwVzRDZQ"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-10-02T20:50:25+00:00</published>
+  <updated>2026-10-13T13:57:30+00:00</updated>
+  <media:group>
+   <media:title>Xiaomi 18 Fold: How Does This Happen?</media:title>
+   <media:content url="https://www.youtube.com/v/3iRUwVzRDZQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3iRUwVzRDZQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is not an iPhone Duo. Xiaomi is at it again.
+
+The desk pad! https://mkbhd.com/products/overlay-deskpad
+
+Shoutout to dbrand for helping to source the phone from China.
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD</media:description>
+   <media:community>
+    <media:starRating count="102669" average="5.00" min="1" max="5"/>
+    <media:statistics views="12649013"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:e1q-TuHdc4Y</id>
+  <yt:videoId>e1q-TuHdc4Y</yt:videoId>
+  <yt:channelId>UCBJycsmduvYEL83R_U4JriQ</yt:channelId>
+  <title>Dear YouTube!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=e1q-TuHdc4Y"/>
+  <author>
+   <name>Marques Brownlee</name>
+   <uri>https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ</uri>
+  </author>
+  <published>2026-09-30T14:42:19+00:00</published>
+  <updated>2026-10-15T22:58:46+00:00</updated>
+  <media:group>
+   <media:title>Dear YouTube!</media:title>
+   <media:content url="https://www.youtube.com/v/e1q-TuHdc4Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/e1q-TuHdc4Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Let's talk about this new video A/B testing feature
+
+The Waveform podcast: https://youtu.be/UD9X5WxZ5nE?si=OxzE_7V_D1xiy_hD&amp;t=3870
+
+MKBHD Merch: http://shop.MKBHD.com
+
+Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+~
+http://twitter.com/MKBHD
+http://instagram.com/MKBHD
+http://facebook.com/MKBHD</media:description>
+   <media:community>
+    <media:starRating count="128403" average="5.00" min="1" max="5"/>
+    <media:statistics views="5881918"/>
+   </media:community>
+  </media:group>
+ </entry>
+ 
+</feed>

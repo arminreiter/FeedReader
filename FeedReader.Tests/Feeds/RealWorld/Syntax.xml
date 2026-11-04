@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://feeds.megaphone.fm/FSI1483080183" rel="self" type="application/rss+xml"/>
+    <title>Syntax - Tasty Web Development Treats</title>
+    <link>https://syntax.fm</link>
+    <language>en</language>
+    <copyright></copyright>
+    <description>Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like React, to the latest advancements in CSS to simplifying web tooling.</description>
+    <image>
+      <url>https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress</url>
+      <title>Syntax - Tasty Web Development Treats</title>
+      <link>https://syntax.fm</link>
+    </image>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle/>
+    <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+    <itunes:summary>Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like React, to the latest advancements in CSS to simplifying web tooling.</itunes:summary>
+    <content:encoded>
+      <![CDATA[Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like React, to the latest advancements in CSS to simplifying web tooling.]]>
+    </content:encoded>
+    <itunes:owner>
+      <itunes:name>Wes Bos</itunes:name>
+      <itunes:email>wes@wesbos.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+    <itunes:category text="Technology">
+    </itunes:category>
+    <itunes:category text="News">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <item>
+      <title>1052: Github Universe Keynote Recap</title>
+      <link>https://syntax.fm/1052</link>
+      <description>Scott, Wes, and CJ report live from GitHub Universe in San Francisco, breaking down GitHub’s re-architecture for agent-scale traffic, the GitHub Copilot app, Copilot Fusion, Projects, Automations, and AI push protection. Plus hacked conference badges, a USB-C lanyard, and the Syntax macropad.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+01:08 Syntax Meetup Recap in San Francisco
+
+02:10 Our Best Swag Ever: The USB-C Lanyard
+
+04:11 The Syntax Macropad: How CJ and Wes Built a Web Configurator
+
+07:37 GitHub Universe Swag, Good and Cringe, Plus the Matching Mugs
+
+09:52 Hacking the GitHub Universe Badges: Wes’s Photo Booth Printer
+
+13:15 Scott’s Badge: Pinball, a Bug Shooter and a Music Sequencer
+
+15:34 The Scale of GitHub in 2026: Pushes, Commits and Actions
+
+Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents
+
+
+
+
+17:19 Performance and Reliability: How GitHub Is Re-Architecting for Scale
+
+The bridge to agent-scale Git infrastructure
+
+
+
+
+19:49 The GitHub Copilot Desktop App and Team Collaboration
+
+21:10 Copilot Projects: Shared Chat and Agents Across Repos
+
+Working with projects in the GitHub Copilot app
+
+Managing agent sessions
+
+
+
+
+22:15 Wishing for Sign In with ChatGPT in Copilot
+
+23:37 Copilot Fusion: Single, Cascade and Critique Model Orchestration
+
+About GitHub Copilot Fusion
+
+Project HydraFusion: Frontier quality via multi-model orchestration
+
+
+
+
+27:22 Session Continuity Across Every Surface: Do We Still Need Editors?
+
+Continue a session from another client
+
+
+
+
+29:24 Copilot Automations: Scheduled and Event-Driven Cloud Agents
+
+Copilot automations
+
+
+
+
+31:06 Will Enterprise Buy-In Pull People Back to GitHub?
+
+33:09 GitHub Advanced Security: Secret Scanning and AI Push Protection
+
+35:20 Closing Remarks: 1% of the Code We’ll Write in Five Years
+
+36:47 Developer Burnout, Constraints and Reading the YouTube Comments
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Mon, 02 Nov 2026 12:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/af739d44-d492-11f1-915b-b303a9cde84b/image/9508b527a50e4a1f620b8f1f0f56b4b7.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Scott, Wes, and CJ report live from GitHub Universe in San Francisco, breaking down GitHub’s re-architecture for agent-scale traffic, the GitHub Copilot app, Copilot Fusion, Projects, Automations, and AI push protection. Plus hacked conference badges, a USB-C lanyard, and the Syntax macropad.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+01:08 Syntax Meetup Recap in San Francisco
+
+02:10 Our Best Swag Ever: The USB-C Lanyard
+
+04:11 The Syntax Macropad: How CJ and Wes Built a Web Configurator
+
+07:37 GitHub Universe Swag, Good and Cringe, Plus the Matching Mugs
+
+09:52 Hacking the GitHub Universe Badges: Wes’s Photo Booth Printer
+
+13:15 Scott’s Badge: Pinball, a Bug Shooter and a Music Sequencer
+
+15:34 The Scale of GitHub in 2026: Pushes, Commits and Actions
+
+Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents
+
+
+
+
+17:19 Performance and Reliability: How GitHub Is Re-Architecting for Scale
+
+The bridge to agent-scale Git infrastructure
+
+
+
+
+19:49 The GitHub Copilot Desktop App and Team Collaboration
+
+21:10 Copilot Projects: Shared Chat and Agents Across Repos
+
+Working with projects in the GitHub Copilot app
+
+Managing agent sessions
+
+
+
+
+22:15 Wishing for Sign In with ChatGPT in Copilot
+
+23:37 Copilot Fusion: Single, Cascade and Critique Model Orchestration
+
+About GitHub Copilot Fusion
+
+Project HydraFusion: Frontier quality via multi-model orchestration
+
+
+
+
+27:22 Session Continuity Across Every Surface: Do We Still Need Editors?
+
+Continue a session from another client
+
+
+
+
+29:24 Copilot Automations: Scheduled and Event-Driven Cloud Agents
+
+Copilot automations
+
+
+
+
+31:06 Will Enterprise Buy-In Pull People Back to GitHub?
+
+33:09 GitHub Advanced Security: Secret Scanning and AI Push Protection
+
+35:20 Closing Remarks: 1% of the Code We’ll Write in Five Years
+
+36:47 Developer Burnout, Constraints and Reading the YouTube Comments
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Scott, Wes, and CJ report live from GitHub Universe in San Francisco, breaking down GitHub’s re-architecture for agent-scale traffic, the GitHub Copilot app, Copilot Fusion, Projects, Automations, and AI push protection. Plus hacked conference badges, a USB-C lanyard, and the Syntax macropad.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax!</li>
+<li class="has-line-data"><strong><a href="#t=01:08">01:08</a></strong> Syntax <a href="https://syntax.fm/meetup">Meetup</a> Recap in San Francisco</li>
+<li class="has-line-data"><strong><a href="#t=02:10">02:10</a></strong> Our Best Swag Ever: The USB-C Lanyard</li>
+<li class="has-line-data"><strong><a href="#t=04:11">04:11</a></strong> The Syntax Macropad: How CJ and Wes Built a <a href="https://keyboard.syntax.fm/">Web Configurator</a></li>
+<li class="has-line-data"><strong><a href="#t=07:37">07:37</a></strong> GitHub Universe Swag, Good and Cringe, Plus the Matching Mugs</li>
+<li class="has-line-data"><strong><a href="#t=09:52">09:52</a></strong> Hacking the <a href="https://shop.pimoroni.com/en-ca">GitHub Universe Badges</a>: Wes’s Photo Booth Printer</li>
+<li class="has-line-data"><strong><a href="#t=13:15">13:15</a></strong> Scott’s Badge: Pinball, a Bug Shooter and a Music Sequencer</li>
+<li class="has-line-data"><strong><a href="#t=15:34">15:34</a></strong> The Scale of GitHub in 2026: Pushes, Commits and Actions
+<ul>
+<li class="has-line-data"><a href="https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/">Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=17:19">17:19</a></strong> Performance and Reliability: How GitHub Is Re-Architecting for Scale
+<ul>
+<li class="has-line-data"><a href="https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/">The bridge to agent-scale Git infrastructure</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=19:49">19:49</a></strong> The GitHub Copilot Desktop App and Team Collaboration</li>
+<li class="has-line-data"><strong><a href="#t=21:10">21:10</a></strong> Copilot Projects: Shared Chat and Agents Across Repos
+<ul>
+<li class="has-line-data"><a href="https://docs.github.com/en/copilot/how-tos/github-copilot-app/working-with-projects?utm_source=gh-universe-blog-projects-docs&amp;utm_medium=blog&amp;utm_campaign=universe-2026">Working with projects in the GitHub Copilot app</a></li>
+<li class="has-line-data"><a href="https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/manage-and-track-agents">Managing agent sessions</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=22:15">22:15</a></strong> Wishing for Sign In with ChatGPT in Copilot</li>
+<li class="has-line-data"><strong><a href="#t=23:37">23:37</a></strong> Copilot Fusion: Single, Cascade and Critique Model Orchestration
+<ul>
+<li class="has-line-data"><a href="https://docs.github.com/en/copilot/concepts/models/copilot-fusion">About GitHub Copilot Fusion</a></li>
+<li class="has-line-data"><a href="https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/">Project HydraFusion: Frontier quality via multi-model orchestration</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=27:22">27:22</a></strong> Session Continuity Across Every Surface: Do We Still Need Editors?
+<ul>
+<li class="has-line-data"><a href="https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/manage-and-track-agents?utm_source=gh-universe-blog-session-continuity-docs&amp;utm_medium=blog&amp;utm_campaign=universe-2026#continue-a-session-from-another-client">Continue a session from another client</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=29:24">29:24</a></strong> Copilot Automations: Scheduled and Event-Driven Cloud Agents
+<ul>
+<li class="has-line-data"><a href="https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations">Copilot automations</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=31:06">31:06</a></strong> Will Enterprise Buy-In Pull People Back to GitHub?</li>
+<li class="has-line-data"><strong><a href="#t=33:09">33:09</a></strong> GitHub Advanced Security: Secret Scanning and AI Push Protection</li>
+<li class="has-line-data"><strong><a href="#t=35:20">35:20</a></strong> Closing Remarks: 1% of the Code We’ll Write in Five Years</li>
+<li class="has-line-data"><strong><a href="#t=36:47">36:47</a></strong> Developer Burnout, Constraints and Reading the YouTube Comments</li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>2344</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[af739d44-d492-11f1-915b-b303a9cde84b]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI4626542802.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1051: Mourning the Death of Code</title>
+      <link>https://syntax.fm/1051</link>
+      <description>Scott and Wes tackle your potluck questions, from passing context between Claude Code and Codex to whether AI-generated skills are any good. Plus high-fidelity Figma builds, WebSerial reconnects on an ESP32, AG-UI vs WebMCP, a listener who thinks Syntax is too pro-AI, and Scott’s minimal Pi setup.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+Ask a Potluck Question
+
+
+
+
+01:05 How Do You Pass Context When Switching Coding Agents?
+
+dex
+
+
+
+
+06:40 Are AI Generated Skills Even Good?
+
+11:53 Getting AI Agents to Nail High Fidelity Figma Designs
+
+17:45 What Technical Skills Should I Focus On Without a CS Background?
+
+20:50 Be Curious: The Photo Frame Hardware Business Example
+
+25:13 Is Syntax Too Pro-AI? Responding to a Listener’s Criticism
+
+30:55 Brought to you by Sentry.io
+
+31:38 Handling WebSerial Reconnects When Flashing an ESP32
+
+EWatch: a programmable ESP32-S3 smartwatch
+
+
+
+
+34:57 Mourning the Death of Code: Feeling Guilty About Hard Won Skills
+
+41:44 AG-UI vs WebMCP: Two Approaches to Agent Integration
+
+47:12 Scott’s Pi Agent Setup: Start Minimal and Add What You Need
+
+omp
+
+
+
+
+51:46 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Scott: Cat6 Ethernet Cables
+
+Wes: Wall-mount Boom Arm
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Wed, 28 Oct 2026 12:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/b19293ca-cef0-11f1-ab21-4fa22842120e/image/fdfa39daf7cc07f16c2dab9cd07982ea.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Scott and Wes tackle your potluck questions, from passing context between Claude Code and Codex to whether AI-generated skills are any good. Plus high-fidelity Figma builds, WebSerial reconnects on an ESP32, AG-UI vs WebMCP, a listener who thinks Syntax is too pro-AI, and Scott’s minimal Pi setup.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+Ask a Potluck Question
+
+
+
+
+01:05 How Do You Pass Context When Switching Coding Agents?
+
+dex
+
+
+
+
+06:40 Are AI Generated Skills Even Good?
+
+11:53 Getting AI Agents to Nail High Fidelity Figma Designs
+
+17:45 What Technical Skills Should I Focus On Without a CS Background?
+
+20:50 Be Curious: The Photo Frame Hardware Business Example
+
+25:13 Is Syntax Too Pro-AI? Responding to a Listener’s Criticism
+
+30:55 Brought to you by Sentry.io
+
+31:38 Handling WebSerial Reconnects When Flashing an ESP32
+
+EWatch: a programmable ESP32-S3 smartwatch
+
+
+
+
+34:57 Mourning the Death of Code: Feeling Guilty About Hard Won Skills
+
+41:44 AG-UI vs WebMCP: Two Approaches to Agent Integration
+
+47:12 Scott’s Pi Agent Setup: Start Minimal and Add What You Need
+
+omp
+
+
+
+
+51:46 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Scott: Cat6 Ethernet Cables
+
+Wes: Wall-mount Boom Arm
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Scott and Wes tackle your potluck questions, from passing context between Claude Code and Codex to whether AI-generated skills are any good. Plus high-fidelity Figma builds, WebSerial reconnects on an ESP32, AG-UI vs WebMCP, a listener who thinks Syntax is too pro-AI, and Scott’s minimal Pi setup.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax!
+<ul>
+<li class="has-line-data"><a href="https://syntax.fm/potluck">Ask a Potluck Question</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:05">01:05</a></strong> How Do You Pass Context When Switching Coding Agents?
+<ul>
+<li class="has-line-data"><a href="https://dex.rip/">dex</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=06:40">06:40</a></strong> Are AI Generated Skills Even Good?</li>
+<li class="has-line-data"><strong><a href="#t=11:53">11:53</a></strong> Getting AI Agents to Nail High Fidelity Figma Designs</li>
+<li class="has-line-data"><strong><a href="#t=17:45">17:45</a></strong> What Technical Skills Should I Focus On Without a CS Background?</li>
+<li class="has-line-data"><strong><a href="#t=20:50">20:50</a></strong> Be Curious: The Photo Frame Hardware Business Example</li>
+<li class="has-line-data"><strong><a href="#t=25:13">25:13</a></strong> Is Syntax Too Pro-AI? Responding to a Listener’s Criticism</li>
+<li class="has-line-data"><strong><a href="#t=30:55">30:55</a></strong> Brought to you by <a href="https://sentry.io/syntax/">Sentry.io</a></li>
+<li class="has-line-data"><strong><a href="#t=31:38">31:38</a></strong> Handling WebSerial Reconnects When Flashing an ESP32
+<ul>
+<li class="has-line-data"><a href="https://www.ewanwills.co.uk/r/syntax/ewatch">EWatch: a programmable ESP32-S3 smartwatch</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=34:57">34:57</a></strong> Mourning the Death of Code: Feeling Guilty About Hard Won Skills</li>
+<li class="has-line-data"><strong><a href="#t=41:44">41:44</a></strong> <a href="https://github.com/ag-ui-protocol/ag-ui">AG-UI</a> vs <a href="https://github.com/webmachinelearning/webmcp">WebMCP</a>: Two Approaches to Agent Integration</li>
+<li class="has-line-data"><strong><a href="#t=47:12">47:12</a></strong> Scott’s Pi Agent Setup: Start Minimal and Add What You Need
+<ul>
+<li class="has-line-data"><a href="https://omp.sh/">omp</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=51:46">51:46</a></strong> Sick Picks + Shameless Plugs</li>
+</ul>
+<h3 class="code-line"><a></a>Sick Picks</h3>
+<ul>
+<li class="has-line-data">Scott: <a href="https://amzn.to/4yByOL7">Cat6 Ethernet Cables</a></li>
+<li class="has-line-data">Wes: <a href="https://link.amazon/B0gVJqzcA">Wall-mount Boom Arm</a></li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>3486</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[b19293ca-cef0-11f1-ab21-4fa22842120e]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI5922299313.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1050 - Everyone Is Hacking Their TV</title>
+      <link>https://syntax.fm/1050</link>
+      <description>Wes, Scott, and CJ run through the week’s biggest web dev news: everyone’s hacking their TVs, VoidZero open-sourced its Void framework with Cloudflare deploys, OpenCode got hacked, and Anthropic built its own git replacement. Plus DeepSeek V4.1 Flash, Cloudflare’s security audit skill, Krea 3, a local LLM speed tester, and Killswitch, an esoteric language designed to break coding agents.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+00:44 CJ Hacks a Round Thrift Store Photo Frame
+
+02:18 VoidZero Open Sources the Void Framework
+
+06:58 Jev Adds Image Support to Its Decision API
+
+11:18 Local Security Cameras: Frigate and Custom Wyze Firmware
+
+17:41 LLM Speed: Try Local Models Before You Buy Hardware
+
+21:00 Everyone Is Hacking Their TVs With Clean Your TV
+
+24:51 Are These the Final Days of Hardware Hacking With LLMs?
+
+29:24 Reverse Engineer Everything: Skills for Agentic Hacking
+
+31:42 Hacking a Tonal and Building a DIY Digital Resistance Gym
+
+37:24 Brought to you by Sentry.io
+
+38:34 OpenCode Console Hacked: What Happened and Who’s Affected
+
+41:31 Black Market API Tokens and Distillation Attacks
+
+44:13 Should Everyone Get Access to Cyber Models?
+
+47:48 Managing API Keys With Varlock and 1Password
+
+48:45 Anthropic Builds Its Own Git Replacement
+
+55:15 What Are We Losing in the Agentic Era?
+
+01:04:26 Killswitch: A Programming Language Built to Break LLMs
+
+01:06:53 Cheng Lou Turns JavaScript Code Into a Neural Net
+
+01:09:30 Antfu’s Furigana Font for Reading Japanese
+
+01:12:32 Guitoro: Strum a Guitar in the Browser
+
+01:17:39 Playing Snake on Network Switch Lights
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Mon, 26 Oct 2026 12:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/07cdf986-cf1a-11f1-bef0-a3ea08822a7a/image/3d3bad6a1fe9a6fcd3d1d232a1dab0ed.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Wes, Scott, and CJ run through the week’s biggest web dev news: everyone’s hacking their TVs, VoidZero open-sourced its Void framework with Cloudflare deploys, OpenCode got hacked, and Anthropic built its own git replacement. Plus DeepSeek V4.1 Flash, Cloudflare’s security audit skill, Krea 3, a local LLM speed tester, and Killswitch, an esoteric language designed to break coding agents.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+00:44 CJ Hacks a Round Thrift Store Photo Frame
+
+02:18 VoidZero Open Sources the Void Framework
+
+06:58 Jev Adds Image Support to Its Decision API
+
+11:18 Local Security Cameras: Frigate and Custom Wyze Firmware
+
+17:41 LLM Speed: Try Local Models Before You Buy Hardware
+
+21:00 Everyone Is Hacking Their TVs With Clean Your TV
+
+24:51 Are These the Final Days of Hardware Hacking With LLMs?
+
+29:24 Reverse Engineer Everything: Skills for Agentic Hacking
+
+31:42 Hacking a Tonal and Building a DIY Digital Resistance Gym
+
+37:24 Brought to you by Sentry.io
+
+38:34 OpenCode Console Hacked: What Happened and Who’s Affected
+
+41:31 Black Market API Tokens and Distillation Attacks
+
+44:13 Should Everyone Get Access to Cyber Models?
+
+47:48 Managing API Keys With Varlock and 1Password
+
+48:45 Anthropic Builds Its Own Git Replacement
+
+55:15 What Are We Losing in the Agentic Era?
+
+01:04:26 Killswitch: A Programming Language Built to Break LLMs
+
+01:06:53 Cheng Lou Turns JavaScript Code Into a Neural Net
+
+01:09:30 Antfu’s Furigana Font for Reading Japanese
+
+01:12:32 Guitoro: Strum a Guitar in the Browser
+
+01:17:39 Playing Snake on Network Switch Lights
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Wes, Scott, and CJ run through the week’s biggest web dev news: everyone’s hacking their TVs, VoidZero open-sourced its Void framework with Cloudflare deploys, OpenCode got hacked, and Anthropic built its own git replacement. Plus DeepSeek V4.1 Flash, Cloudflare’s security audit skill, Krea 3, a local LLM speed tester, and Killswitch, an esoteric language designed to break coding agents.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax!</li>
+<li class="has-line-data"><strong><a href="#t=00:44">00:44</a></strong> <a href="https://www.youtube.com/watch?v=ZLycoUMltNI">CJ Hacks a Round Thrift Store Photo Frame</a></li>
+<li class="has-line-data"><strong><a href="#t=02:18">02:18</a></strong> VoidZero Open Sources the <a href="https://blog.cloudflare.com/deploy-with-void/">Void Framework</a></li>
+<li class="has-line-data"><strong><a href="#t=06:58">06:58</a></strong> Jev Adds <a href="https://docs.typesafe.ai/images">Image Support</a> to Its Decision API</li>
+<li class="has-line-data"><strong><a href="#t=11:18">11:18</a></strong> Local Security Cameras: <a href="https://frigate.video/">Frigate</a> and Custom Wyze Firmware</li>
+<li class="has-line-data"><strong><a href="#t=17:41">17:41</a></strong> <a href="https://llmspeed.dev/">LLM Speed</a>: Try Local Models Before You Buy Hardware</li>
+<li class="has-line-data"><strong><a href="#t=21:00">21:00</a></strong> Everyone Is Hacking Their TVs With <a href="https://github.com/Gathin23/cleanyourtv">Clean Your TV</a></li>
+<li class="has-line-data"><strong><a href="#t=24:51">24:51</a></strong> Are These the Final Days of Hardware Hacking With LLMs?</li>
+<li class="has-line-data"><strong><a href="#t=29:24">29:24</a></strong> <a href="https://github.com/morluto/rea">Reverse Engineer Everything</a>: Skills for Agentic Hacking</li>
+<li class="has-line-data"><strong><a href="#t=31:42">31:42</a></strong> Hacking a Tonal and Building a DIY Digital Resistance Gym</li>
+<li class="has-line-data"><strong><a href="#t=37:24">37:24</a></strong> Brought to you by <a href="https://sentry.io/syntax/?">Sentry.io</a></li>
+<li class="has-line-data"><strong><a href="#t=38:34">38:34</a></strong> <a href="https://x.com/opencode/status/2111516673953935833">OpenCode Console Hacked</a>: What Happened and Who’s Affected</li>
+<li class="has-line-data"><strong><a href="#t=41:31">41:31</a></strong> <a href="https://www.youtube.com/watch?v=09UELaUhPEw">Black Market API Tokens</a> and Distillation Attacks</li>
+<li class="has-line-data"><strong><a href="#t=44:13">44:13</a></strong> Should Everyone Get Access to Cyber Models?</li>
+<li class="has-line-data"><strong><a href="#t=47:48">47:48</a></strong> Managing API Keys With Varlock and 1Password</li>
+<li class="has-line-data"><strong><a href="#t=48:45">48:45</a></strong> Anthropic Builds Its Own Git Replacement</li>
+<li class="has-line-data"><strong><a href="#t=55:15">55:15</a></strong> What Are We Losing in the Agentic Era?</li>
+<li class="has-line-data"><strong><a href="#t=01:04:26">01:04:26</a></strong> <a href="https://killswitch-lang.org/">Killswitch</a>: A Programming Language Built to Break LLMs</li>
+<li class="has-line-data"><strong><a href="#t=01:06:53">01:06:53</a></strong> Cheng Lou Turns JavaScript Code Into a Neural Net</li>
+<li class="has-line-data"><strong><a href="#t=01:09:30">01:09:30</a></strong> Antfu’s Furigana Font for <a href="https://furifont.antfu.me/">Reading Japanese</a></li>
+<li class="has-line-data"><strong><a href="#t=01:12:32">01:12:32</a></strong> <a href="https://guitoro.com/">Guitoro</a>: Strum a Guitar in the Browser</li>
+<li class="has-line-data"><strong><a href="#t=01:17:39">01:17:39</a></strong> <a href="https://x.com/cqcqcqdx/status/2112000242703089865">Playing Snake</a> on Network Switch Lights</li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>4790</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[07cdf986-cf1a-11f1-bef0-a3ea08822a7a]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI2480265141.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1049: WTF is a Software Factory?</title>
+      <link>https://syntax.fm/1049</link>
+      <description>Scott and Wes talk with Adam Jacob about software factories: what they actually are, why they’re unique to each team, and how to build trust in agent-generated code. They dig into Swamp Club, black box testing, domain driven design, adversarial review for accessibility, and whether unit tests still earn their keep.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+01:10 What Is Swamp Club and Adam Jacob’s Background
+
+02:37 Scott’s Personal Automations: Cleaning Folders and Filing Sentry Bugs
+
+03:28 Where Does This Fit If You Already Run Claude Code?
+
+07:22 Brought to you by Sentry.io
+
+07:46 Swapping Models and APIs: Flipping the Agent Loop Inside Out
+
+09:40 Pricing and Bringing Your Own Inference
+
+10:18 What Is a Software Factory, Really?
+
+14:50 Shipping 2,500 PRs a Month: Trust, Automation, and Black Box Testing
+
+16:55 Software Factory or Slop Factory? A Perception Problem
+
+19:06 How Big Companies Can Start: Give Five People Permission to Break the Rules
+
+24:16 Who Has Actually Pulled This Off So Far?
+
+25:54 What Do You Do With 10,500 Engineers?
+
+28:56 The Vibe Coded Adobe Suite: When Does This Stop?
+
+30:24 Personal Software: What If Software Got Smaller, Not Bigger?
+
+33:51 Testing With AI: Black Box, Integration, and Deleting Your Unit Tests
+
+39:03 How Do You Validate Trust in a Factory?
+
+39:30 Domain Driven Design Gives Your Agent a Vocabulary
+
+43:12 Adversarial Review: Accessibility, Lighthouse, and Fixing the Machine
+
+46:17 Why Skills Alone Aren’t Enough
+
+49:00 Figuring It Out Together: Engineers, Not the Labs, Know Their Systems
+
+53:53 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Adam: Dell XPS-14 running Linux with Omachy, Lorna Shore
+
+
+Shameless Plugs
+
+
+Adam: Swamp Club, Swamp Club Discord
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Wed, 21 Oct 2026 11:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/bebf2712-c710-11f1-8908-279bb18a6ff4/image/0e8261c5baca78106dd3d9659d3cf990.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Scott and Wes talk with Adam Jacob about software factories: what they actually are, why they’re unique to each team, and how to build trust in agent-generated code. They dig into Swamp Club, black box testing, domain driven design, adversarial review for accessibility, and whether unit tests still earn their keep.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+01:10 What Is Swamp Club and Adam Jacob’s Background
+
+02:37 Scott’s Personal Automations: Cleaning Folders and Filing Sentry Bugs
+
+03:28 Where Does This Fit If You Already Run Claude Code?
+
+07:22 Brought to you by Sentry.io
+
+07:46 Swapping Models and APIs: Flipping the Agent Loop Inside Out
+
+09:40 Pricing and Bringing Your Own Inference
+
+10:18 What Is a Software Factory, Really?
+
+14:50 Shipping 2,500 PRs a Month: Trust, Automation, and Black Box Testing
+
+16:55 Software Factory or Slop Factory? A Perception Problem
+
+19:06 How Big Companies Can Start: Give Five People Permission to Break the Rules
+
+24:16 Who Has Actually Pulled This Off So Far?
+
+25:54 What Do You Do With 10,500 Engineers?
+
+28:56 The Vibe Coded Adobe Suite: When Does This Stop?
+
+30:24 Personal Software: What If Software Got Smaller, Not Bigger?
+
+33:51 Testing With AI: Black Box, Integration, and Deleting Your Unit Tests
+
+39:03 How Do You Validate Trust in a Factory?
+
+39:30 Domain Driven Design Gives Your Agent a Vocabulary
+
+43:12 Adversarial Review: Accessibility, Lighthouse, and Fixing the Machine
+
+46:17 Why Skills Alone Aren’t Enough
+
+49:00 Figuring It Out Together: Engineers, Not the Labs, Know Their Systems
+
+53:53 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Adam: Dell XPS-14 running Linux with Omachy, Lorna Shore
+
+
+Shameless Plugs
+
+
+Adam: Swamp Club, Swamp Club Discord
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Scott and Wes talk with Adam Jacob about software factories: what they actually are, why they’re unique to each team, and how to build trust in agent-generated code. They dig into Swamp Club, black box testing, domain driven design, adversarial review for accessibility, and whether unit tests still earn their keep.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax!</li>
+<li class="has-line-data"><strong><a href="#t=01:10">01:10</a></strong> What Is <a href="https://swamp-club.com/">Swamp Club</a> and Adam Jacob’s Background</li>
+<li class="has-line-data"><strong><a href="#t=02:37">02:37</a></strong> Scott’s Personal Automations: Cleaning Folders and Filing Sentry Bugs</li>
+<li class="has-line-data"><strong><a href="#t=03:28">03:28</a></strong> Where Does This Fit If You Already Run Claude Code?</li>
+<li class="has-line-data"><strong><a href="#t=07:22">07:22</a></strong> Brought to you by <a href="https://sentry.io/syntax/">Sentry.io</a></li>
+<li class="has-line-data"><strong><a href="#t=07:46">07:46</a></strong> Swapping Models and APIs: Flipping the Agent Loop Inside Out</li>
+<li class="has-line-data"><strong><a href="#t=09:40">09:40</a></strong> Pricing and Bringing Your Own Inference</li>
+<li class="has-line-data"><strong><a href="#t=10:18">10:18</a></strong> What Is a Software Factory, Really?</li>
+<li class="has-line-data"><strong><a href="#t=14:50">14:50</a></strong> Shipping 2,500 PRs a Month: Trust, Automation, and Black Box Testing</li>
+<li class="has-line-data"><strong><a href="#t=16:55">16:55</a></strong> Software Factory or Slop Factory? A Perception Problem</li>
+<li class="has-line-data"><strong><a href="#t=19:06">19:06</a></strong> How Big Companies Can Start: Give Five People Permission to Break the Rules</li>
+<li class="has-line-data"><strong><a href="#t=24:16">24:16</a></strong> Who Has Actually Pulled This Off So Far?</li>
+<li class="has-line-data"><strong><a href="#t=25:54">25:54</a></strong> What Do You Do With 10,500 Engineers?</li>
+<li class="has-line-data"><strong><a href="#t=28:56">28:56</a></strong> The Vibe Coded Adobe Suite: When Does This Stop?</li>
+<li class="has-line-data"><strong><a href="#t=30:24">30:24</a></strong> Personal Software: What If Software Got Smaller, Not Bigger?</li>
+<li class="has-line-data"><strong><a href="#t=33:51">33:51</a></strong> Testing With AI: Black Box, Integration, and Deleting Your Unit Tests</li>
+<li class="has-line-data"><strong><a href="#t=39:03">39:03</a></strong> How Do You Validate Trust in a Factory?</li>
+<li class="has-line-data"><strong><a href="#t=39:30">39:30</a></strong> Domain Driven Design Gives Your Agent a Vocabulary</li>
+<li class="has-line-data"><strong><a href="#t=43:12">43:12</a></strong> Adversarial Review: Accessibility, Lighthouse, and Fixing the Machine</li>
+<li class="has-line-data"><strong><a href="#t=46:17">46:17</a></strong> Why Skills Alone Aren’t Enough</li>
+<li class="has-line-data"><strong><a href="#t=49:00">49:00</a></strong> Figuring It Out Together: Engineers, Not the Labs, Know Their Systems</li>
+<li class="has-line-data"><strong><a href="#t=53:53">53:53</a></strong> Sick Picks + Shameless Plugs</li>
+</ul>
+<h3 class="code-line"><a></a>Sick Picks</h3>
+<ul>
+<li class="has-line-data">Adam: Dell XPS-14 running Linux with <a href="https://omarchy.org/">Omachy</a>, <a href="https://lornashoreband.com/">Lorna Shore</a></li>
+</ul>
+<h3 class="code-line"><a></a>Shameless Plugs</h3>
+<ul>
+<li class="has-line-data">Adam: <a href="https://swamp-club.com/">Swamp Club</a>, <a href="https://discord.com/invite/swamp-club">Swamp Club Discord</a></li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>3453</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[bebf2712-c710-11f1-8908-279bb18a6ff4]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI9752067287.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1048: Deno Is Dead</title>
+      <link>https://syntax.fm/1048</link>
+      <description>Deno is shutting down and the team is heading to Cloudflare — Scott, Wes, and CJ break down what that means for the runtime, JSR, and workerd. Plus OpenCode 2.0 on durable objects, TanStack Start 1.0, SubQ Snap, Gemini 4 Argon, and Wes’s accidental $50 photo frame movement.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+Gemini 4 Argon is out
+
+
+
+
+01:31 Deno Is Shutting Down: The Team Joins Cloudflare
+
+06:23 Why Bun Spelled the End of Deno
+
+12:24 OpenCode 2.0: Durable Objects, Code Mode and Hot Reloading Plugins
+
+OpenCode 2.0
+
+Ryan Vogel runs OpenCode 2.0 inside a tweet
+
+
+
+
+20:24 Where Should Your Agent Actually Run?
+
+21:41 Talorys: A Personal AI Agent on the Cloudflare Free Tier
+
+22:42 I Accidentally Started a $50 Photo Frame Movement
+
+27:05 Agent Driven Open Source: Dozens of Pull Requests From Bots
+
+Simeon Griggs hacks his Peloton
+
+
+
+
+35:11 SubQ Snap: A Cheaper, Smarter Decision Model Than Jev
+
+41:26 AirDrop Reverse Engineered: Continuity on Linux
+
+T4T5: AirDrop fully reverse-engineered on Linux
+
+
+
+
+44:47 Brought to you by Sentry.io
+
+45:24 TanStack Start 1.0 Is Officially Stable
+
+TanStack announces Start 1.0 is officially stable
+
+fsearch
+
+FinderSearch
+
+Kuro: Tinycast file search is now 15–90× faster
+
+
+
+
+55:23 The FFF vs fsearch Twitter Drama
+
+Dmitriy Kovalenko compares fff to fsearch
+
+
+
+
+59:34 Model Roundup: Hands On With Gemini 4 Argon
+
+01:08:01 Zen Garden: Ranking Models on Their 3D Taste
+
+01:12:49 Muse Wonder From Meta
+
+Meta AI on Muse Spark open weights
+
+
+
+
+01:15:15 EmbeddingGemma 2 and Why Embeddings Power Better Search
+
+Sundar Pichai introduces EmbeddingGemma 2
+
+
+
+
+01:18:32 Claude Haiku 5.5 Gains Thinking Levels
+
+Claude announces Haiku 5.5
+
+Introducing Claude Haiku 5.5
+
+
+
+
+01:20:19 Grok Bot Leaks a CEO’s Bank Balance Into Company Slack
+
+Shane Mac: An AI agent posted my bank balances in Slack
+
+
+
+
+01:24:18 CJ’s Whirlwind Tour: A Commodore 64 Keycap Font
+
+01:25:08 Lightbulb Computer: A Projector Screwed Into Your Ceiling
+
+01:29:11 Recomps and Decomps: Running PS5 Games on Linux and Windows
+
+01:32:23 Open Source Photoshop Clones and the Whole Craft Suite
+
+01:35:25 Audacity 4 and the Case for Forking Old Open Source Apps
+
+01:36:35 PS2 and PSP Games Recompiled to WebAssembly
+
+01:37:39 Bootstrap 6 Alpha Brings Back Real Buttons
+
+01:39:39 Wrapping Up the Live Stream
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Mon, 19 Oct 2026 11:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/992dcb98-c8af-11f1-ba82-0366957cb860/image/c3ca5eb6bda9da5a32ce7ec281c652f3.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Deno is shutting down and the team is heading to Cloudflare — Scott, Wes, and CJ break down what that means for the runtime, JSR, and workerd. Plus OpenCode 2.0 on durable objects, TanStack Start 1.0, SubQ Snap, Gemini 4 Argon, and Wes’s accidental $50 photo frame movement.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+Gemini 4 Argon is out
+
+
+
+
+01:31 Deno Is Shutting Down: The Team Joins Cloudflare
+
+06:23 Why Bun Spelled the End of Deno
+
+12:24 OpenCode 2.0: Durable Objects, Code Mode and Hot Reloading Plugins
+
+OpenCode 2.0
+
+Ryan Vogel runs OpenCode 2.0 inside a tweet
+
+
+
+
+20:24 Where Should Your Agent Actually Run?
+
+21:41 Talorys: A Personal AI Agent on the Cloudflare Free Tier
+
+22:42 I Accidentally Started a $50 Photo Frame Movement
+
+27:05 Agent Driven Open Source: Dozens of Pull Requests From Bots
+
+Simeon Griggs hacks his Peloton
+
+
+
+
+35:11 SubQ Snap: A Cheaper, Smarter Decision Model Than Jev
+
+41:26 AirDrop Reverse Engineered: Continuity on Linux
+
+T4T5: AirDrop fully reverse-engineered on Linux
+
+
+
+
+44:47 Brought to you by Sentry.io
+
+45:24 TanStack Start 1.0 Is Officially Stable
+
+TanStack announces Start 1.0 is officially stable
+
+fsearch
+
+FinderSearch
+
+Kuro: Tinycast file search is now 15–90× faster
+
+
+
+
+55:23 The FFF vs fsearch Twitter Drama
+
+Dmitriy Kovalenko compares fff to fsearch
+
+
+
+
+59:34 Model Roundup: Hands On With Gemini 4 Argon
+
+01:08:01 Zen Garden: Ranking Models on Their 3D Taste
+
+01:12:49 Muse Wonder From Meta
+
+Meta AI on Muse Spark open weights
+
+
+
+
+01:15:15 EmbeddingGemma 2 and Why Embeddings Power Better Search
+
+Sundar Pichai introduces EmbeddingGemma 2
+
+
+
+
+01:18:32 Claude Haiku 5.5 Gains Thinking Levels
+
+Claude announces Haiku 5.5
+
+Introducing Claude Haiku 5.5
+
+
+
+
+01:20:19 Grok Bot Leaks a CEO’s Bank Balance Into Company Slack
+
+Shane Mac: An AI agent posted my bank balances in Slack
+
+
+
+
+01:24:18 CJ’s Whirlwind Tour: A Commodore 64 Keycap Font
+
+01:25:08 Lightbulb Computer: A Projector Screwed Into Your Ceiling
+
+01:29:11 Recomps and Decomps: Running PS5 Games on Linux and Windows
+
+01:32:23 Open Source Photoshop Clones and the Whole Craft Suite
+
+01:35:25 Audacity 4 and the Case for Forking Old Open Source Apps
+
+01:36:35 PS2 and PSP Games Recompiled to WebAssembly
+
+01:37:39 Bootstrap 6 Alpha Brings Back Real Buttons
+
+01:39:39 Wrapping Up the Live Stream
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Deno is shutting down and the team is heading to Cloudflare — Scott, Wes, and CJ break down what that means for the runtime, JSR, and workerd. Plus OpenCode 2.0 on durable objects, TanStack Start 1.0, SubQ Snap, Gemini 4 Argon, and Wes’s accidental $50 photo frame movement.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax!
+<ul>
+<li class="has-line-data"><a href="https://x.com/iruletheworldmo/status/2110038100483195236?s=20">Gemini 4 Argon is out</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:31">01:31</a></strong> <a href="https://deno.com/blog/cloudflare">Deno</a> Is Shutting Down: The Team Joins <a href="https://blog.cloudflare.com/deno-joins-cloudflare">Cloudflare</a></li>
+<li class="has-line-data"><strong><a href="#t=06:23">06:23</a></strong> Why Bun Spelled the End of Deno</li>
+<li class="has-line-data"><strong><a href="#t=12:24">12:24</a></strong> OpenCode 2.0: Durable Objects, Code Mode and Hot Reloading Plugins
+<ul>
+<li class="has-line-data"><a href="https://anoma.ly/notes/opencode-2-0/">OpenCode 2.0</a></li>
+<li class="has-line-data"><a href="https://x.com/ryanvogel/status/2110018158903919076?s=20">Ryan Vogel runs OpenCode 2.0 inside a tweet</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=20:24">20:24</a></strong> Where Should Your Agent Actually Run?</li>
+<li class="has-line-data"><strong><a href="#t=21:41">21:41</a></strong> Talorys: A Personal AI Agent on the Cloudflare Free Tier</li>
+<li class="has-line-data"><strong><a href="#t=22:42">22:42</a></strong> I Accidentally Started a $50 Photo Frame Movement</li>
+<li class="has-line-data"><strong><a href="#t=27:05">27:05</a></strong> Agent Driven Open Source: Dozens of Pull Requests From Bots
+<ul>
+<li class="has-line-data"><a href="https://x.com/simeonGriggs/status/2109942992857354387">Simeon Griggs hacks his Peloton</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=35:11">35:11</a></strong> <a href="https://subq.ai/introducing-subq-snap">SubQ</a> Snap: A Cheaper, Smarter Decision Model Than Jev</li>
+<li class="has-line-data"><strong><a href="#t=41:26">41:26</a></strong> AirDrop Reverse Engineered: Continuity on Linux
+<ul>
+<li class="has-line-data"><a href="https://x.com/t4t5/status/2108543714318582247">T4T5: AirDrop fully reverse-engineered on Linux</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=44:47">44:47</a></strong> Brought to you by <a href="https://sentry.io/syntax/">Sentry.io</a></li>
+<li class="has-line-data"><strong><a href="#t=45:24">45:24</a></strong> <a href="https://tanstack.com/blog/tanstack-start-1-0">TanStack</a> Start 1.0 Is Officially Stable
+<ul>
+<li class="has-line-data"><a href="https://x.com/tan_stack/status/2110022759338422327">TanStack announces Start 1.0 is officially stable</a></li>
+<li class="has-line-data"><a href="https://github.com/noahdunnagan/fsearch">fsearch</a></li>
+<li class="has-line-data"><a href="https://github.com/zeusinsight/FinderSearch">FinderSearch</a></li>
+<li class="has-line-data"><a href="https://x.com/abue_ammar/status/2109745915686994278">Kuro: Tinycast file search is now 15–90× faster</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=55:23">55:23</a></strong> The FFF vs fsearch Twitter Drama
+<ul>
+<li class="has-line-data"><a href="https://x.com/neogoose_btw/status/2109001807863366097">Dmitriy Kovalenko compares fff to fsearch</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=59:34">59:34</a></strong> Model Roundup: Hands On With Gemini 4 Argon</li>
+<li class="has-line-data"><strong><a href="#t=01:08:01">01:08:01</a></strong> Zen Garden: Ranking Models on Their 3D Taste</li>
+<li class="has-line-data"><strong><a href="#t=01:12:49">01:12:49</a></strong> Muse Wonder From <a href="https://research.meta.ai/blog/muse-wonder">Meta</a>
+<ul>
+<li class="has-line-data"><a href="https://x.com/AIatMeta/status/2109701605042032998?s=20">Meta AI on Muse Spark open weights</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:15:15">01:15:15</a></strong> EmbeddingGemma 2 and Why Embeddings Power Better Search
+<ul>
+<li class="has-line-data"><a href="https://x.com/sundarpichai/status/2107501975671890211">Sundar Pichai introduces EmbeddingGemma 2</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:18:32">01:18:32</a></strong> Claude Haiku 5.5 Gains Thinking Levels
+<ul>
+<li class="has-line-data"><a href="https://x.com/claudeai/status/2107894042235166750">Claude announces Haiku 5.5</a></li>
+<li class="has-line-data"><a href="https://www.anthropic.com/claude-haiku-5-5">Introducing Claude Haiku 5.5</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:20:19">01:20:19</a></strong> Grok Bot Leaks a CEO’s Bank Balance Into Company Slack
+<ul>
+<li class="has-line-data"><a href="https://x.com/ShaneMac/status/2107486740491669879">Shane Mac: An AI agent posted my bank balances in Slack</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:24:18">01:24:18</a></strong> CJ’s Whirlwind Tour: A Commodore 64 Keycap Font</li>
+<li class="has-line-data"><strong><a href="#t=01:25:08">01:25:08</a></strong> <a href="https://lightbulbcomputer.com/">Lightbulb Computer</a>: A Projector Screwed Into Your Ceiling</li>
+<li class="has-line-data"><strong><a href="#t=01:29:11">01:29:11</a></strong> Recomps and Decomps: Running PS5 Games on Linux and Windows</li>
+<li class="has-line-data"><strong><a href="#t=01:32:23">01:32:23</a></strong> Open Source Photoshop Clones and the Whole Craft Suite</li>
+<li class="has-line-data"><strong><a href="#t=01:35:25">01:35:25</a></strong> Audacity 4 and the Case for Forking Old Open Source Apps</li>
+<li class="has-line-data"><strong><a href="#t=01:36:35">01:36:35</a></strong> PS2 and PSP Games Recompiled to WebAssembly</li>
+<li class="has-line-data"><strong><a href="#t=01:37:39">01:37:39</a></strong> <a href="https://blog.getbootstrap.com/2026/10/08/bootstrap-6-alpha/">Bootstrap</a> 6 Alpha Brings Back Real Buttons</li>
+<li class="has-line-data"><strong><a href="#t=01:39:39">01:39:39</a></strong> Wrapping Up the Live Stream</li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>6009</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[992dcb98-c8af-11f1-ba82-0366957cb860]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI8730245538.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1047: Adobe has a big problem</title>
+      <link>https://syntax.fm/1047</link>
+      <description>Someone just clean-room ported seven Adobe apps to Rust, and Wes is shocked at how good it is. Scott and Wes break down what it gets right, what’s still missing, and why copying software is easy but inventing what comes next is the hard part.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+00:12 Adobe Is in Trouble: A Clean Room Port of the Entire Suite
+
+ArtCraft
+
+
+
+
+02:22 Scott’s Long Running Adobe Grudge Since 2017
+
+03:42 Figma Is Not a Raster Tool: Why Every Alternative Falls Short
+
+04:40 Opening Real Photoshop Files: Masks, Half Tones and Blend Modes
+
+PhotoCraft Github
+
+
+
+
+06:30 What Clean Room Porting Actually Means
+
+09:54 A Familiar Interface, Entirely Built in Rust
+
+10:15 Don’t Trash the Whole Thing Over One or Two Bugs
+
+12:14 What’s Missing: Artboards and the Tiny UI Interactions
+
+13:53 Where Are the Vibe Coded Photoshops? Four Months Later
+
+14:33 Figma’s Locked Down MCP and the Backlash
+
+17:22 Dylan’s Clap Back at Anthropic’s Own Closed Ecosystem
+
+18:08 The Real Photoshop Replacement Will Be a New Way of Working
+
+21:35 Good UI Is Still the Moat
+
+22:28 Caring About Your Project Past Two Days
+
+23:05 Audio Crackles and Paper Cuts: The Bugs Only Humans Chase
+
+24:56 Brought to you by Sentry!
+
+26:28 Copying Is Easy: The Hard Part Is Inventing What Comes Next
+
+27:28 DaVinci Resolve Keeps Shipping Useful Releases
+
+28:26 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Scott: KWS V2 Rack
+
+Wes: Insta360 Luna
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Wed, 14 Oct 2026 11:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/731d3ea2-c63e-11f1-a892-e3eeae403e64/image/31ef7e442915af18309dfd60ac414bfe.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Someone just clean-room ported seven Adobe apps to Rust, and Wes is shocked at how good it is. Scott and Wes break down what it gets right, what’s still missing, and why copying software is easy but inventing what comes next is the hard part.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+00:12 Adobe Is in Trouble: A Clean Room Port of the Entire Suite
+
+ArtCraft
+
+
+
+
+02:22 Scott’s Long Running Adobe Grudge Since 2017
+
+03:42 Figma Is Not a Raster Tool: Why Every Alternative Falls Short
+
+04:40 Opening Real Photoshop Files: Masks, Half Tones and Blend Modes
+
+PhotoCraft Github
+
+
+
+
+06:30 What Clean Room Porting Actually Means
+
+09:54 A Familiar Interface, Entirely Built in Rust
+
+10:15 Don’t Trash the Whole Thing Over One or Two Bugs
+
+12:14 What’s Missing: Artboards and the Tiny UI Interactions
+
+13:53 Where Are the Vibe Coded Photoshops? Four Months Later
+
+14:33 Figma’s Locked Down MCP and the Backlash
+
+17:22 Dylan’s Clap Back at Anthropic’s Own Closed Ecosystem
+
+18:08 The Real Photoshop Replacement Will Be a New Way of Working
+
+21:35 Good UI Is Still the Moat
+
+22:28 Caring About Your Project Past Two Days
+
+23:05 Audio Crackles and Paper Cuts: The Bugs Only Humans Chase
+
+24:56 Brought to you by Sentry!
+
+26:28 Copying Is Easy: The Hard Part Is Inventing What Comes Next
+
+27:28 DaVinci Resolve Keeps Shipping Useful Releases
+
+28:26 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Scott: KWS V2 Rack
+
+Wes: Insta360 Luna
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Someone just clean-room ported seven Adobe apps to Rust, and Wes is shocked at how good it is. Scott and Wes break down what it gets right, what’s still missing, and why copying software is easy but inventing what comes next is the hard part.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax!</li>
+<li class="has-line-data"><strong><a href="#t=00:12">00:12</a></strong> Adobe Is in Trouble: A Clean Room Port of the Entire Suite
+<ul>
+<li class="has-line-data"><a href="https://getartcraft.com/apps">ArtCraft</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=02:22">02:22</a></strong> Scott’s Long Running Adobe Grudge Since 2017</li>
+<li class="has-line-data"><strong><a href="#t=03:42">03:42</a></strong> Figma Is Not a Raster Tool: Why Every Alternative Falls Short</li>
+<li class="has-line-data"><strong><a href="#t=04:40">04:40</a></strong> Opening Real Photoshop Files: Masks, Half Tones and Blend Modes
+<ul>
+<li class="has-line-data"><a href="https://github.com/storytold/photocraft">PhotoCraft Github</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=06:30">06:30</a></strong> What Clean Room Porting Actually Means</li>
+<li class="has-line-data"><strong><a href="#t=09:54">09:54</a></strong> A Familiar Interface, Entirely Built in Rust</li>
+<li class="has-line-data"><strong><a href="#t=10:15">10:15</a></strong> Don’t Trash the Whole Thing Over One or Two Bugs</li>
+<li class="has-line-data"><strong><a href="#t=12:14">12:14</a></strong> What’s Missing: Artboards and the Tiny UI Interactions</li>
+<li class="has-line-data"><strong><a href="#t=13:53">13:53</a></strong> <a href="https://indiepixel.de/blog/posts/where-are-the-vibecoded-photoshops/">Where Are the Vibe Coded Photoshops?</a> Four Months Later</li>
+<li class="has-line-data"><strong><a href="#t=14:33">14:33</a></strong> Figma’s Locked Down MCP and the Backlash</li>
+<li class="has-line-data"><strong><a href="#t=17:22">17:22</a></strong> Dylan’s Clap Back at Anthropic’s Own Closed Ecosystem</li>
+<li class="has-line-data"><strong><a href="#t=18:08">18:08</a></strong> The Real Photoshop Replacement Will Be a New Way of Working</li>
+<li class="has-line-data"><strong><a href="#t=21:35">21:35</a></strong> Good UI Is Still the Moat</li>
+<li class="has-line-data"><strong><a href="#t=22:28">22:28</a></strong> Caring About Your Project Past Two Days</li>
+<li class="has-line-data"><strong><a href="#t=23:05">23:05</a></strong> Audio Crackles and Paper Cuts: The Bugs Only Humans Chase</li>
+<li class="has-line-data"><strong><a href="#t=24:56">24:56</a></strong> <a href="https://sentry.io/syntax/">Brought to you by Sentry!</a></li>
+<li class="has-line-data"><strong><a href="#t=26:28">26:28</a></strong> Copying Is Easy: The Hard Part Is Inventing What Comes Next</li>
+<li class="has-line-data"><strong><a href="#t=27:28">27:28</a></strong> DaVinci Resolve Keeps Shipping Useful Releases</li>
+<li class="has-line-data"><strong><a href="#t=28:26">28:26</a></strong> Sick Picks + Shameless Plugs</li>
+</ul>
+<h3 class="code-line"><a></a>Sick Picks</h3>
+<ul>
+<li class="has-line-data">Scott: <a href="https://makerworld.com/en/models/2893730-kws-rack-v2-rackmod#profileId-3233627">KWS V2 Rack</a></li>
+<li class="has-line-data">Wes: <a href="https://www.amazon.com/dp/B0GY8BS2FS?th=1&amp;linkCode=sl2&amp;tag=webo080-20&amp;linkId=e34810a238fa28af1a14b7a169f377ac&amp;language=en_US&amp;gaOptInStatus=true&amp;ref_=as_li_ss_tl">Insta360 Luna</a></li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>2108</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[731d3ea2-c63e-11f1-a892-e3eeae403e64]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI7349663145.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1046: The Pi Updates are insane</title>
+      <link>https://syntax.fm/1046</link>
+      <description>Scott, Wes, and CJ break down the latest Pi updates, including durable long-running agents, Codemode, and MCP support, then debate whether pull requests are dead in favor of issues. Plus Supabase picks up Turso, Screen Studio 4 drops, JavaScript Composites bring value-based equality, and a stack of new AI models from Google, OpenAI, Cloudflare, and more.
+
+Show Notes
+
+
+00:00 Welcome to Syntax Weekly
+
+00:46 example.com gets a facelift
+
+Oliver Dunk’s post
+
+IANA’s reply
+
+
+
+
+04:37 The death of pull requests
+
+Sindre Sorhus’ post
+
+Dave Kiss’ post
+
+SWC’s post
+
+Andreas Kling’s post
+
+Yusuke Wada’s post
+
+Wes’ NiimBlue PR
+
+JSON Alexander
+
+
+
+
+12:46 pi v1.0
+
+24:14 Brought to you by Sentry!
+
+25:08 Turso Joining Supabase
+
+28:13 Screen Studio Updates
+
+Screen Studio 4.0 upscaling
+
+
+
+
+33:24 Svelte 3.0 Release
+
+35:32 Effect 4.0
+
+38:14 Alchemy
+
+Cloudflare’s Programmatic configuration
+
+
+
+
+42:59 Foldkit
+
+44:10 OpenAI Dev Day Announcements
+
+Dots
+
+Rahim Nathwani’s reply regarding Luna
+
+Plugin Extensions
+
+Sites in ChatGPT
+
+56:40 Cloudflare Clef Decision Model
+
+01:01:25 Gemini 4 Argon
+
+Google’s announcement post
+
+
+
+
+01:09:04 Flux 3 Image Model
+
+01:11:50 Claude Mods
+
+01:13:44 Muse Gadgets
+
+Nat Friedman’s post
+
+
+
+
+01:17:27 Nvidia Lyra 2.0 World Model
+
+01:27:30 Game Recomps and Decomps
+
+01:30:54 JS Composite Type
+
+01:35:00 RFC 1149 Auction
+
+First implementation of the Carrier Pigeon Internet Protocol
+
+
+
+
+01:37:49 eslint cssicorn
+
+01:39:15 Syntax Meetup
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Mon, 12 Oct 2026 11:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/1c505cac-c306-11f1-b685-f75638c47567/image/0488d944eb1ccd9e1d1767cb3a8a4aee.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Scott, Wes, and CJ break down the latest Pi updates, including durable long-running agents, Codemode, and MCP support, then debate whether pull requests are dead in favor of issues. Plus Supabase picks up Turso, Screen Studio 4 drops, JavaScript Composites bring value-based equality, and a stack of new AI models from Google, OpenAI, Cloudflare, and more.
+
+Show Notes
+
+
+00:00 Welcome to Syntax Weekly
+
+00:46 example.com gets a facelift
+
+Oliver Dunk’s post
+
+IANA’s reply
+
+
+
+
+04:37 The death of pull requests
+
+Sindre Sorhus’ post
+
+Dave Kiss’ post
+
+SWC’s post
+
+Andreas Kling’s post
+
+Yusuke Wada’s post
+
+Wes’ NiimBlue PR
+
+JSON Alexander
+
+
+
+
+12:46 pi v1.0
+
+24:14 Brought to you by Sentry!
+
+25:08 Turso Joining Supabase
+
+28:13 Screen Studio Updates
+
+Screen Studio 4.0 upscaling
+
+
+
+
+33:24 Svelte 3.0 Release
+
+35:32 Effect 4.0
+
+38:14 Alchemy
+
+Cloudflare’s Programmatic configuration
+
+
+
+
+42:59 Foldkit
+
+44:10 OpenAI Dev Day Announcements
+
+Dots
+
+Rahim Nathwani’s reply regarding Luna
+
+Plugin Extensions
+
+Sites in ChatGPT
+
+56:40 Cloudflare Clef Decision Model
+
+01:01:25 Gemini 4 Argon
+
+Google’s announcement post
+
+
+
+
+01:09:04 Flux 3 Image Model
+
+01:11:50 Claude Mods
+
+01:13:44 Muse Gadgets
+
+Nat Friedman’s post
+
+
+
+
+01:17:27 Nvidia Lyra 2.0 World Model
+
+01:27:30 Game Recomps and Decomps
+
+01:30:54 JS Composite Type
+
+01:35:00 RFC 1149 Auction
+
+First implementation of the Carrier Pigeon Internet Protocol
+
+
+
+
+01:37:49 eslint cssicorn
+
+01:39:15 Syntax Meetup
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Scott, Wes, and CJ break down the latest Pi updates, including durable long-running agents, Codemode, and MCP support, then debate whether pull requests are dead in favor of issues. Plus Supabase picks up Turso, Screen Studio 4 drops, JavaScript Composites bring value-based equality, and a stack of new AI models from Google, OpenAI, Cloudflare, and more.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax Weekly</li>
+<li class="has-line-data"><strong><a href="#t=00:46">00:46</a></strong> <a href="https://example.com/">example.com</a> gets a facelift
+<ul>
+<li class="has-line-data"><a href="https://x.com/oliverdunk_/status/2105414731745886717">Oliver Dunk’s post</a></li>
+<li class="has-line-data"><a href="https://www.oliverdunk.com/2026/09/30/iana-reply">IANA’s reply</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=04:37">04:37</a></strong> The death of pull requests
+<ul>
+<li class="has-line-data"><a href="https://x.com/sindresorhus/status/2105693826690298314">Sindre Sorhus’ post</a></li>
+<li class="has-line-data"><a href="https://x.com/davekiss/status/2105714481380700505">Dave Kiss’ post</a></li>
+<li class="has-line-data"><a href="https://x.com/swc_rs/status/2105505428893544847">SWC’s post</a></li>
+<li class="has-line-data"><a href="https://x.com/awesomekling/status/2105571809370493272">Andreas Kling’s post</a></li>
+<li class="has-line-data"><a href="https://x.com/yusukebe/status/2107027870019445007">Yusuke Wada’s post</a></li>
+<li class="has-line-data"><a href="https://github.com/MultiMote/niimblue/issues/157">Wes’ NiimBlue PR</a></li>
+<li class="has-line-data"><a href="https://chromewebstore.google.com/detail/json-alexander/aegihabihhhoihnomlekgheekcdcifpk?pli=1">JSON Alexander</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=12:46">12:46</a></strong> <a href="https://earendil.com/posts/pi-durable/">pi v1.0</a></li>
+<li class="has-line-data"><strong><a href="#t=24:14">24:14</a></strong> <a href="https://sentry.io/syntax/">Brought to you by Sentry!</a></li>
+<li class="has-line-data"><strong><a href="#t=25:08">25:08</a></strong> <a href="https://x.com/tursodatabase/status/2106054567125532976">Turso Joining Supabase</a></li>
+<li class="has-line-data"><strong><a href="#t=28:13">28:13</a></strong> <a href="https://screen.studio/">Screen Studio</a> Updates
+<ul>
+<li class="has-line-data"><a href="https://x.com/pie6k/status/2105900587342606714">Screen Studio 4.0 upscaling</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=33:24">33:24</a></strong> <a href="https://svelte.dev/blog/sveltekit-3-is-here">Svelte 3.0 Release</a></li>
+<li class="has-line-data"><strong><a href="#t=35:32">35:32</a></strong> <a href="https://effect.website/blog/releases/effect/40">Effect 4.0</a></li>
+<li class="has-line-data"><strong><a href="#t=38:14">38:14</a></strong> <a href="https://alchemy.run/">Alchemy</a>
+<ul>
+<li class="has-line-data"><a href="https://developers.cloudflare.com/cf/projects/cloudflare-config/">Cloudflare’s Programmatic configuration</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=42:59">42:59</a></strong> <a href="https://foldkit.dev/">Foldkit</a></li>
+<li class="has-line-data"><strong><a href="#t=44:10">44:10</a></strong> <a href="https://openai.com/index/devday-2026-recap/">OpenAI Dev Day Announcements</a></li>
+<li class="has-line-data"><a href="https://openai.com/index/introducing-dots/">Dots</a></li>
+<li class="has-line-data"><a href="https://x.com/RahimNathwani/status/2105001661588754742">Rahim Nathwani’s reply regarding Luna</a></li>
+<li class="has-line-data"><a href="https://developers.openai.com/plugins/build/extensions">Plugin Extensions</a></li>
+<li class="has-line-data"><a href="https://chatgpt.com/features/sites/">Sites in ChatGPT</a></li>
+<li class="has-line-data"><strong><a href="#t=56:40">56:40</a></strong> <a href="https://blog.cloudflare.com/clef-decision-models/">Cloudflare Clef Decision Model</a></li>
+<li class="has-line-data"><strong><a href="#t=01:01:25">01:01:25</a></strong> <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/">Gemini 4 Argon</a>
+<ul>
+<li class="has-line-data"><a href="https://x.com/GoogleAI/status/2105388478683119904">Google’s announcement post</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:09:04">01:09:04</a></strong> <a href="https://bfl.ai/models/flux-3-image">Flux 3 Image Model</a></li>
+<li class="has-line-data"><strong><a href="#t=01:11:50">01:11:50</a></strong> <a href="https://x.com/ClaudeDevs/status/2105721434807083061">Claude Mods</a></li>
+<li class="has-line-data"><strong><a href="#t=01:13:44">01:13:44</a></strong> <a href="https://gadgets.muse.ai/">Muse Gadgets</a>
+<ul>
+<li class="has-line-data"><a href="https://x.com/natfriedman/status/2106099383037309211">Nat Friedman’s post</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:17:27">01:17:27</a></strong> <a href="https://nv-tlabs.github.io/Project-Lyra/">Nvidia Lyra 2.0 World Model</a></li>
+<li class="has-line-data"><strong><a href="#t=01:27:30">01:27:30</a></strong> <a href="https://www.youtube.com/watch?v=mYZPHdKKMaI">Game Recomps and Decomps</a></li>
+<li class="has-line-data"><strong><a href="#t=01:30:54">01:30:54</a></strong> <a href="https://x.com/robpalmer2/status/2105210017897214462">JS Composite Type</a></li>
+<li class="has-line-data"><strong><a href="#t=01:35:00">01:35:00</a></strong> <a href="https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216">RFC 1149 Auction</a>
+<ul>
+<li class="has-line-data"><a href="https://www.rfc-editor.org/info/rfc1149/">First implementation of the Carrier Pigeon Internet Protocol</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:37:49">01:37:49</a></strong> <a href="https://github.com/sindresorhus/eslint-cssicorn">eslint cssicorn</a></li>
+<li class="has-line-data"><strong><a href="#t=01:39:15">01:39:15</a></strong> <a href="https://luma.com/5ng6bniy">Syntax Meetup</a></li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>6008</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[1c505cac-c306-11f1-b685-f75638c47567]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI5030969566.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1045: Who can actually max out 5 AI subscriptions?</title>
+      <link>https://syntax.fm/1045</link>
+      <description>Scott and Wes answer listener questions about what replaced blogging, what to do while your AI agent works, and who should pay for token costs. They also cover keeping agents from going off the rails, getting your team excited about AI, and staying motivated when AI takes the fun out of coding.
+
+Show Notes
+
+
+00:00 Intro
+
+00:40 Welcome to Syntax!
+
+01:37 What’s the Modern Day Equivalent of Blogging?
+
+08:35 What Should You Be Doing While Your Agent Works?
+
+Vibe Stretch
+
+
+
+
+13:23 Brought to you by Sentry!
+
+14:02 How Much Should Your Employer Cover for Token Spend?
+
+18:32 Tracking What You Actually Burn with Codex Bar
+
+20:26 How Do You Code HTML Emails in 2026?
+
+25:22 How Do You Keep an Agent From Going Off the Rails?
+
+Swamp Club
+
+
+
+
+30:23 Steering an Agent Mid Turn: Which Harness Does It Best?
+
+32:44 How Do I Get My Engineers Interested in AI?
+
+35:48 Beyond Telegram: Better Interfaces for Non Coding Agents
+
+38:41 Staying Motivated When AI Takes the Fun Parts of Coding
+
+41:55 Killing Rogue Node Processes and Restarting Your Machine
+
+44:12 Custom Internal Harnesses: Worth It or a Token Hog?
+
+47:47 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Scott: Driving Rogue
+
+Wes: Amazon Basics Electric Screwdriver
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Wed, 07 Oct 2026 11:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/02dffedc-c1a6-11f1-a73e-cbbe1cc8c1a7/image/3fbe5a686d6e02958bf4fdd8a12011c9.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Scott and Wes answer listener questions about what replaced blogging, what to do while your AI agent works, and who should pay for token costs. They also cover keeping agents from going off the rails, getting your team excited about AI, and staying motivated when AI takes the fun out of coding.
+
+Show Notes
+
+
+00:00 Intro
+
+00:40 Welcome to Syntax!
+
+01:37 What’s the Modern Day Equivalent of Blogging?
+
+08:35 What Should You Be Doing While Your Agent Works?
+
+Vibe Stretch
+
+
+
+
+13:23 Brought to you by Sentry!
+
+14:02 How Much Should Your Employer Cover for Token Spend?
+
+18:32 Tracking What You Actually Burn with Codex Bar
+
+20:26 How Do You Code HTML Emails in 2026?
+
+25:22 How Do You Keep an Agent From Going Off the Rails?
+
+Swamp Club
+
+
+
+
+30:23 Steering an Agent Mid Turn: Which Harness Does It Best?
+
+32:44 How Do I Get My Engineers Interested in AI?
+
+35:48 Beyond Telegram: Better Interfaces for Non Coding Agents
+
+38:41 Staying Motivated When AI Takes the Fun Parts of Coding
+
+41:55 Killing Rogue Node Processes and Restarting Your Machine
+
+44:12 Custom Internal Harnesses: Worth It or a Token Hog?
+
+47:47 Sick Picks + Shameless Plugs
+
+
+Sick Picks
+
+
+Scott: Driving Rogue
+
+Wes: Amazon Basics Electric Screwdriver
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Scott and Wes answer listener questions about what replaced blogging, what to do while your AI agent works, and who should pay for token costs. They also cover keeping agents from going off the rails, getting your team excited about AI, and staying motivated when AI takes the fun out of coding.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Intro</li>
+<li class="has-line-data"><strong><a href="#t=00:40">00:40</a></strong> Welcome to Syntax!</li>
+<li class="has-line-data"><strong><a href="#t=01:37">01:37</a></strong> What’s the Modern Day Equivalent of Blogging?</li>
+<li class="has-line-data"><strong><a href="#t=08:35">08:35</a></strong> What Should You Be Doing While Your Agent Works?
+<ul>
+<li class="has-line-data"><a href="https://github.com/Eliasjunit/vibestretch">Vibe Stretch</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=13:23">13:23</a></strong> <a href="https://sentry.io/syntax/">Brought to you by Sentry!</a></li>
+<li class="has-line-data"><strong><a href="#t=14:02">14:02</a></strong> How Much Should Your Employer Cover for Token Spend?</li>
+<li class="has-line-data"><strong><a href="#t=18:32">18:32</a></strong> Tracking What You Actually Burn with <a href="https://codexbar.app/?lang=en">Codex Bar</a></li>
+<li class="has-line-data"><strong><a href="#t=20:26">20:26</a></strong> How Do You Code HTML Emails in 2026?</li>
+<li class="has-line-data"><strong><a href="#t=25:22">25:22</a></strong> How Do You Keep an Agent From Going Off the Rails?
+<ul>
+<li class="has-line-data"><a href="https://swamp-club.com/">Swamp Club</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=30:23">30:23</a></strong> Steering an Agent Mid Turn: Which Harness Does It Best?</li>
+<li class="has-line-data"><strong><a href="#t=32:44">32:44</a></strong> How Do I Get My Engineers Interested in AI?</li>
+<li class="has-line-data"><strong><a href="#t=35:48">35:48</a></strong> Beyond Telegram: Better Interfaces for Non Coding Agents</li>
+<li class="has-line-data"><strong><a href="#t=38:41">38:41</a></strong> Staying Motivated When AI Takes the Fun Parts of Coding</li>
+<li class="has-line-data"><strong><a href="#t=41:55">41:55</a></strong> Killing Rogue Node Processes and Restarting Your Machine</li>
+<li class="has-line-data"><strong><a href="#t=44:12">44:12</a></strong> Custom Internal Harnesses: Worth It or a Token Hog?</li>
+<li class="has-line-data"><strong><a href="#t=47:47">47:47</a></strong> Sick Picks + Shameless Plugs</li>
+</ul>
+<h3 class="code-line"><a></a>Sick Picks</h3>
+<ul>
+<li class="has-line-data">Scott: <a href="https://drivingrogue.com/">Driving Rogue</a></li>
+<li class="has-line-data">Wes: <a href="https://www.amazon.com/Amazon-Brand-Rechargeable-Cordless-Screwdriver/dp/B09PFCX8Q1/ref=sr_1_1?crid=13H71OOD4ZUV4&amp;dib=eyJ2IjoiMSJ9.-U0GcOOreL9EUW7f24XO7zIWxLzf4d7LfaOJnYACnFollIywnd33znQ26shkbyGOmeCJYWY67DN_YGAmseKIneFSn3cS8thr4Rlv1IqGHuHGnmglPSU8lJaFGui1lQK9pK4_0nhBDYBT4X8fye41UIL0vN1DVxKKdG6LcbaQn7iCUncThT0wcYiDmJ1VrRO4Qq6Is6YoPGeQUF_fKxfyvsUuu4EUVjv-lBj0rKtQrVyP6BLf69VfgbHY-W1iJNzLmHLTDEJtNLlxIonhFexChmplbZ0BKLAfmp3auZB5Q8s.V49SylHRXP730rQLCDbImc2DY9dq5xFHZikUaT_XNqw&amp;dib_tag=se&amp;keywords=amazon%2Bbasics%2Belectric%2Bscrewdriver&amp;qid=1791301626&amp;sprefix=amazon%2Bbasics%2Belectric%2Bscre%2Caps%2C226&amp;sr=8-1&amp;th=1&amp;currency=USD">Amazon Basics Electric Screwdriver</a></li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>3138</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[02dffedc-c1a6-11f1-a73e-cbbe1cc8c1a7]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI3285705008.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1044: Ruby on Rails is Dead</title>
+      <link>https://syntax.fm/1044</link>
+      <description>Scott, Wes, and CJ ask whether Ruby on Rails is really dead (and whether Rust is just Rails you don't have to read), then dig into Meta's new Muse agent, which is free, comes with its own VM, and is already reading messages nobody asked it to. Plus: upm, a tiny TypeScript npm replacement, Opus 5.5 moonlighting as a motion designer, Tart VMs on Apple Silicon, and a foundry for gloriously bad web fonts.
+
+
+
+Show Notes
+
+
+  00:00 Welcome
+
+  01:11 upm is a tiny fast npm
+
+  Pooya Parsa’s launch post
+
+
+
+
+  07:34 Zuck cooked with Muse
+  Mark Zuckerberg’s post
+
+  Safety and Security in Muse
+
+  Privacy concerns
+
+  Ray Wong’s post
+
+
+
+
+  19:21 Ruby on Rails is Dead
+
+  27:55 loco - Rails for Rust
+
+  31:06 Brought to you by Sentry!
+
+  33:12 How should new developers learn?
+
+  41:40 Opus 5.5 First Impressions
+
+  Stephan Livera’s motion graphics with Opus 5.5
+
+  Kenn Ejima’s single prompt motion graphics
+
+  Andras Bacsai’s Coolify motion graphics
+
+  Tyler Shukert’s Supabase motion graphics
+
+  Ben Vinegar’s Modem motion graphics
+
+  Wes’ gym builder
+
+  GFX
+
+
+
+
+  58:27 Tart - virtualization toolset for Apple Silicon
+
+  01:01:43 jevgrep
+  is-jeven
+
+
+
+
+  01:06:49 SHOW ME YOUR RACK
+
+  01:09:04 Chrome gets responsive iframe resizing
+
+  01:10:25 Bastardica - bastard web font foundry
+
+  01:14:23 Sonnet 5.5 Released
+
+  01:16:37 OpenAI Dev Day
+
+  01:20:02 Syntax SF Meetup
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Mon, 05 Oct 2026 11:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/e59d0448-bd75-11f1-be59-5746a19673d5/image/5cda6579dea1963881031be303d97d17.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Scott, Wes, and CJ ask whether Ruby on Rails is really dead (and whether Rust is just Rails you don't have to read), then dig into Meta's new Muse agent, which is free, comes with its own VM, and is already reading messages nobody asked it to. Plus: upm, a tiny TypeScript npm replacement, Opus 5.5 moonlighting as a motion designer, Tart VMs on Apple Silicon, and a foundry for gloriously bad web fonts.
+
+
+
+Show Notes
+
+
+  00:00 Welcome
+
+  01:11 upm is a tiny fast npm
+
+  Pooya Parsa’s launch post
+
+
+
+
+  07:34 Zuck cooked with Muse
+  Mark Zuckerberg’s post
+
+  Safety and Security in Muse
+
+  Privacy concerns
+
+  Ray Wong’s post
+
+
+
+
+  19:21 Ruby on Rails is Dead
+
+  27:55 loco - Rails for Rust
+
+  31:06 Brought to you by Sentry!
+
+  33:12 How should new developers learn?
+
+  41:40 Opus 5.5 First Impressions
+
+  Stephan Livera’s motion graphics with Opus 5.5
+
+  Kenn Ejima’s single prompt motion graphics
+
+  Andras Bacsai’s Coolify motion graphics
+
+  Tyler Shukert’s Supabase motion graphics
+
+  Ben Vinegar’s Modem motion graphics
+
+  Wes’ gym builder
+
+  GFX
+
+
+
+
+  58:27 Tart - virtualization toolset for Apple Silicon
+
+  01:01:43 jevgrep
+  is-jeven
+
+
+
+
+  01:06:49 SHOW ME YOUR RACK
+
+  01:09:04 Chrome gets responsive iframe resizing
+
+  01:10:25 Bastardica - bastard web font foundry
+
+  01:14:23 Sonnet 5.5 Released
+
+  01:16:37 OpenAI Dev Day
+
+  01:20:02 Syntax SF Meetup
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p>Scott, Wes, and CJ ask whether Ruby on Rails is really dead (and whether Rust is just Rails you don't have to read), then dig into Meta's new Muse agent, which is free, comes with its own VM, and is already reading messages nobody asked it to. Plus: upm, a tiny TypeScript npm replacement, Opus 5.5 moonlighting as a motion designer, Tart VMs on Apple Silicon, and a foundry for gloriously bad web fonts.</p>
+<p><br></p>
+<p>Show Notes</p>
+<ul>
+  <li><a href="#t=00:00">00:00</a> Welcome</li>
+  <li><a href="#t=01:11">01:11</a> <a href="https://upm.sh/">upm</a> is a tiny fast npm
+<ul>
+  <li><a href="https://x.com/_pi0_/status/2104348546682044525">Pooya Parsa’s launch post</a></li>
+</ul>
+</li>
+  <li><a href="#t=07:34">07:34</a> Zuck cooked with <a href="https://ai.meta.com/muse/">Muse</a><ul>
+  <li><a href="https://x.com/finkd/status/2104550609403695581">Mark Zuckerberg’s post</a></li>
+  <li><a href="https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse">Safety and Security in Muse</a></li>
+  <li><a href="https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202">Privacy concerns</a></li>
+  <li><a href="https://x.com/raywongy/status/2104309096534978595">Ray Wong’s post</a></li>
+</ul>
+</li>
+  <li><a href="#t=19:21">19:21</a> <a href="https://www.youtube.com/watch?app=desktop&amp;v=vDjW_dRyKXY&amp;ra=m">Ruby on Rails is Dead</a></li>
+  <li><a href="#t=27:55">27:55</a> <a href="https://loco.rs/">loco</a> - Rails for Rust</li>
+  <li><a href="#t=31:06">31:06</a> <a href="https://sentry.io/syntax/">Brought to you by Sentry!</a></li>
+  <li><a href="#t=33:12">33:12</a> How should new developers learn?</li>
+  <li><a href="#t=41:40">41:40</a> Opus 5.5 First Impressions
+<ul>
+  <li><a href="https://x.com/stephanlivera/status/2103315922098470926">Stephan Livera’s motion graphics with Opus 5.5</a></li>
+  <li><a href="https://x.com/kenn/status/2103337314021937232">Kenn Ejima’s single prompt motion graphics</a></li>
+  <li><a href="https://x.com/heyandras/status/2103453411857580294">Andras Bacsai’s Coolify motion graphics</a></li>
+  <li><a href="https://x.com/dshukertjr/status/2103511027308781677">Tyler Shukert’s Supabase motion graphics</a></li>
+  <li><a href="https://x.com/bentlegen/status/2104580654864466399">Ben Vinegar’s Modem motion graphics</a></li>
+  <li><a href="https://gym.wesbos.com/">Wes’ gym builder</a></li>
+  <li><a href="https://gfx.computer/">GFX</a></li>
+</ul>
+</li>
+  <li><a href="#t=58:27">58:27</a> <a href="https://tart.run/">Tart</a> - virtualization toolset for Apple Silicon</li>
+  <li><a href="#t=01:01:43">01:01:43</a> <a href="https://github.com/dzhng/jevgrep">jevgrep</a><ul>
+  <li><a href="https://github.com/wobsoriano/is-jeven">is-jeven</a></li>
+</ul>
+</li>
+  <li><a href="#t=01:06:49">01:06:49</a> SHOW ME YOUR RACK</li>
+  <li><a href="#t=01:09:04">01:09:04</a> <a href="https://x.com/sebastienlorber/status/2102738709795995737">Chrome gets responsive iframe resizing</a></li>
+  <li><a href="#t=01:10:25">01:10:25</a> <a href="https://bastardica.mitpit.com/">Bastardica</a> - bastard web font foundry</li>
+  <li><a href="#t=01:14:23">01:14:23</a> <a href="https://x.com/claudeai/status/2104633115620823187">Sonnet 5.5 Released</a></li>
+  <li><a href="#t=01:16:37">01:16:37</a> <a href="https://www.reddit.com/r/singularity/comments/1wr52pw/openai_devday_leaks_ultrafast_around_750_tokenss/">OpenAI Dev Day</a></li>
+  <li><a href="#t=01:20:02">01:20:02</a> <a href="https://luma.com/5ng6bniy">Syntax SF Meetup</a></li>
+</ul>
+<p>Hit us up on Socials!</p>
+<p>Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p>Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p>Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p>Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>4841</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[e59d0448-bd75-11f1-be59-5746a19673d5]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI9581119527.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>1043: I’m Using GPUI For Everything</title>
+      <link>https://syntax.fm/1043</link>
+      <description>Scott and Wes ditch Electron and Tauri for GPUI, the GPU accelerated Rust UI framework from the Zed team. They get into its React-like API, styling that feels a lot like Tailwind, GPUI Kit components, the community fork drama, and the tiny desktop apps Scott has built with it.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+GPUI
+
+
+
+
+01:24 Electron, Tauri, and the Trouble With Web Views
+
+04:05 Enter GPUI: Why We Don’t Take Money to Talk About Tools
+
+05:32 Brought to you by Sentry.io
+
+05:59 What GPUI Is: GPU Accelerated, Cross Platform, Native All the Way Down
+
+06:50 A React Like API in Rust: Divs, Flex, and Chained Methods
+
+09:35 Components, Props, and State in GPUI
+
+Scott’s GPUI Demo Gist
+
+
+
+
+11:21 How Much of CSS Does GPUI Actually Reimplement?
+
+12:52 Flexbox Everywhere, But Where Is CSS Grid?
+
+14:17 Where Does Your App Logic Live? No RPC Layer Needed
+
+15:53 Render vs RenderOnce: Stateful and Static Components
+
+16:57 GPUI Kit: The shadcn of GPUI
+
+18:46 GPUI CE: The Community Fork and Ecosystem Tension
+
+21:29 Apps Scott Built With GPUI: Gendo, File Bro, and Mr. Space
+
+22:48 Why Tiny Utility Apps Should Stay Tiny
+
+24:25 File Bro: File Automations a la Hazel
+
+25:27 Mr. Space: Building a macOS Window Manager
+
+27:05 The Downsides: No Native UI Elements and No Browser DOM
+
+Scott’s Rust Best Practices Skill
+
+
+
+
+29:56 Testing GPUI Apps With Jev and the Accessibility Tree
+
+gpui-agent
+
+
+
+
+30:39 GPUI Mobile: Experimental, But It Works
+
+GPUI Kit Mobile Docs
+
+gpui-mobile
+
+
+
+
+31:52 Final Verdict: GPUI for Personal Desktop Software
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</description>
+      <pubDate>Wed, 30 Sep 2026 11:00:00 -0000</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>Wes Bos &amp; Scott Tolinski - Full Stack JavaScript Web Developers</itunes:author>
+      <itunes:image href="https://megaphone.imgix.net/podcasts/e0dcd83c-bc00-11f1-a904-97314d8c7d00/image/c70f901affd63d947fc3473b9c439f17.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"/>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Scott and Wes ditch Electron and Tauri for GPUI, the GPU accelerated Rust UI framework from the Zed team. They get into its React-like API, styling that feels a lot like Tailwind, GPUI Kit components, the community fork drama, and the tiny desktop apps Scott has built with it.
+
+Show Notes
+
+
+00:00 Welcome to Syntax!
+
+GPUI
+
+
+
+
+01:24 Electron, Tauri, and the Trouble With Web Views
+
+04:05 Enter GPUI: Why We Don’t Take Money to Talk About Tools
+
+05:32 Brought to you by Sentry.io
+
+05:59 What GPUI Is: GPU Accelerated, Cross Platform, Native All the Way Down
+
+06:50 A React Like API in Rust: Divs, Flex, and Chained Methods
+
+09:35 Components, Props, and State in GPUI
+
+Scott’s GPUI Demo Gist
+
+
+
+
+11:21 How Much of CSS Does GPUI Actually Reimplement?
+
+12:52 Flexbox Everywhere, But Where Is CSS Grid?
+
+14:17 Where Does Your App Logic Live? No RPC Layer Needed
+
+15:53 Render vs RenderOnce: Stateful and Static Components
+
+16:57 GPUI Kit: The shadcn of GPUI
+
+18:46 GPUI CE: The Community Fork and Ecosystem Tension
+
+21:29 Apps Scott Built With GPUI: Gendo, File Bro, and Mr. Space
+
+22:48 Why Tiny Utility Apps Should Stay Tiny
+
+24:25 File Bro: File Automations a la Hazel
+
+25:27 Mr. Space: Building a macOS Window Manager
+
+27:05 The Downsides: No Native UI Elements and No Browser DOM
+
+Scott’s Rust Best Practices Skill
+
+
+
+
+29:56 Testing GPUI Apps With Jev and the Accessibility Tree
+
+gpui-agent
+
+
+
+
+30:39 GPUI Mobile: Experimental, But It Works
+
+GPUI Kit Mobile Docs
+
+gpui-mobile
+
+
+
+
+31:52 Final Verdict: GPUI for Personal Desktop Software
+
+
+Hit us up on Socials!
+
+Syntax: X Instagram Tiktok LinkedIn Threads
+
+Wes: X Instagram Tiktok LinkedIn Threads
+
+Scott: X Instagram Tiktok LinkedIn Threads
+
+Randy: X Instagram YouTube Threads</itunes:summary>
+      <content:encoded>
+        <![CDATA[<p class="has-line-data">Scott and Wes ditch Electron and Tauri for GPUI, the GPU accelerated Rust UI framework from the Zed team. They get into its React-like API, styling that feels a lot like Tailwind, GPUI Kit components, the community fork drama, and the tiny desktop apps Scott has built with it.</p>
+<h3 class="code-line"><a></a>Show Notes</h3>
+<ul>
+<li class="has-line-data"><strong><a href="#t=00:00">00:00</a></strong> Welcome to Syntax!
+<ul>
+<li class="has-line-data"><a href="https://gpui.rs/">GPUI</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=01:24">01:24</a></strong> Electron, Tauri, and the Trouble With Web Views</li>
+<li class="has-line-data"><strong><a href="#t=04:05">04:05</a></strong> Enter GPUI: Why We Don’t Take Money to Talk About Tools</li>
+<li class="has-line-data"><strong><a href="#t=05:32">05:32</a></strong> Brought to you by <a href="https://sentry.io/syntax/">Sentry.io</a></li>
+<li class="has-line-data"><strong><a href="#t=05:59">05:59</a></strong> What GPUI Is: GPU Accelerated, Cross Platform, Native All the Way Down</li>
+<li class="has-line-data"><strong><a href="#t=06:50">06:50</a></strong> A React Like API in Rust: Divs, Flex, and Chained Methods</li>
+<li class="has-line-data"><strong><a href="#t=09:35">09:35</a></strong> Components, Props, and State in GPUI
+<ul>
+<li class="has-line-data"><a href="https://gist.github.com/stolinski/234d65a09d65a81b99d67084841a0d22">Scott’s GPUI Demo Gist</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=11:21">11:21</a></strong> How Much of CSS Does GPUI Actually Reimplement?</li>
+<li class="has-line-data"><strong><a href="#t=12:52">12:52</a></strong> Flexbox Everywhere, But Where Is CSS Grid?</li>
+<li class="has-line-data"><strong><a href="#t=14:17">14:17</a></strong> Where Does Your App Logic Live? No RPC Layer Needed</li>
+<li class="has-line-data"><strong><a href="#t=15:53">15:53</a></strong> Render vs RenderOnce: Stateful and Static Components</li>
+<li class="has-line-data"><strong><a href="#t=16:57">16:57</a></strong> GPUI Kit: The shadcn of GPUI</li>
+<li class="has-line-data"><strong><a href="#t=18:46">18:46</a></strong> GPUI CE: The Community Fork and Ecosystem Tension</li>
+<li class="has-line-data"><strong><a href="#t=21:29">21:29</a></strong> Apps Scott Built With GPUI: Gendo, File Bro, and Mr. Space</li>
+<li class="has-line-data"><strong><a href="#t=22:48">22:48</a></strong> Why Tiny Utility Apps Should Stay Tiny</li>
+<li class="has-line-data"><strong><a href="#t=24:25">24:25</a></strong> File Bro: File Automations a la Hazel</li>
+<li class="has-line-data"><strong><a href="#t=25:27">25:27</a></strong> Mr. Space: Building a macOS Window Manager</li>
+<li class="has-line-data"><strong><a href="#t=27:05">27:05</a></strong> The Downsides: No Native UI Elements and No Browser DOM
+<ul>
+<li class="has-line-data"><a href="https://github.com/stolinski/s-stack/tree/main/skills/rust-best-practices">Scott’s Rust Best Practices Skill</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=29:56">29:56</a></strong> Testing GPUI Apps With Jev and the Accessibility Tree
+<ul>
+<li class="has-line-data"><a href="https://github.com/stolinski/gpui-agent">gpui-agent</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=30:39">30:39</a></strong> GPUI Mobile: Experimental, But It Works
+<ul>
+<li class="has-line-data"><a href="https://gpui-kit.com/docs/mobile/">GPUI Kit Mobile Docs</a></li>
+<li class="has-line-data"><a href="https://github.com/longbridge/gpui-mobile">gpui-mobile</a></li>
+</ul>
+</li>
+<li class="has-line-data"><strong><a href="#t=31:52">31:52</a></strong> Final Verdict: GPUI for Personal Desktop Software</li>
+</ul>
+<h3 class="code-line"><a></a>Hit us up on Socials!</h3>
+<p class="has-line-data">Syntax: <a href="https://twitter.com/syntaxfm">X</a> <a href="https://www.instagram.com/syntax_fm/">Instagram</a> <a href="https://www.tiktok.com/@syntaxfm">Tiktok</a> <a href="https://www.linkedin.com/company/96077407/admin/feed/posts/">LinkedIn</a> <a href="https://www.threads.net/@syntax_fm">Threads</a></p>
+<p class="has-line-data">Wes: <a href="https://twitter.com/wesbos">X</a> <a href="https://www.instagram.com/wesbos/">Instagram</a> <a href="https://www.tiktok.com/@wesbos">Tiktok</a> <a href="https://www.linkedin.com/in/wesbos/">LinkedIn</a> <a href="https://www.threads.net/@wesbos">Threads</a></p>
+<p class="has-line-data">Scott: <a href="https://twitter.com/stolinski">X</a> <a href="https://www.instagram.com/stolinski/">Instagram</a> <a href="https://www.tiktok.com/@stolinski">Tiktok</a> <a href="https://www.linkedin.com/in/stolinski/">LinkedIn</a> <a href="https://www.threads.net/@stolinski">Threads</a></p>
+<p class="has-line-data">Randy: <a href="https://twitter.com/randyrektor">X</a> <a href="https://www.instagram.com/randyrektor/">Instagram</a> <a href="https://www.youtube.com/@randyrektor">YouTube</a> <a href="https://www.threads.net/@randyrektor">Threads</a></p>]]>
+      </content:encoded>
+      <itunes:duration>1963</itunes:duration>
+      <guid isPermaLink="false"><![CDATA[e0dcd83c-bc00-11f1-a904-97314d8c7d00]]></guid>
+      <enclosure url="https://traffic.megaphone.fm/FSI9920896492.mp3" length="0" type="audio/mpeg"/>
+    </item>
+    
+  </channel>
+</rss>

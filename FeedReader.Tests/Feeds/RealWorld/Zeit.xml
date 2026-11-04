@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>DIE ZEIT | Nachrichten, News, Hintergründe und Debatten</title>
+    <link>https://www.zeit.de/index</link>
+    <description>Aktuelle Nachrichten, Kommentare, Analysen und Hintergrundberichte aus Politik, Wirtschaft, Gesellschaft, Wissen, Feuilleton und Sport lesen Sie bei der ZEIT.</description>
+    <language>de-de</language>
+    <copyright>Copyright © 2026, Zeitverlag Gerd Bucerius GmbH &amp; Co. KG</copyright>
+    <atom:link href="https://newsfeed.zeit.de/index" rel="self" type="application/rss+xml"/>
+    <docs>https://www.zeit.de/hilfe/rss</docs>
+    <generator>zeit.web 4.622</generator>
+    <managingEditor>online-cr@zeit.de (Chefredaktion DIE ZEIT)</managingEditor>
+    <webMaster>webmaster@zeit.de (Technik DIE ZEIT)</webMaster>
+    <image>
+      <url>https://static.zeit.de/p/zeit.web/icons/rss-feed-icon-96x96.png</url>
+      <title>DIE ZEIT | Nachrichten, News, Hintergründe und Debatten</title>
+      <link>https://www.zeit.de/index</link>
+    </image>
+    <item>
+      <title>Janosch: Der Tiger in der Hängematte</title>
+      <link>https://www.zeit.de/zeit-magazin/leben/2026-11/janosch-horst-eckert-illustrator-schriftsteller-nachruf</link>
+      <description>Janoschs Kindheit war geprägt von Sucht und Gewalt. Später flog er von der Kunsthochschule und verfiel dem Alkohol. Wie seine Helden rettete auch ihn das Nichtstun.</description>
+      <enclosure url="https://img.zeit.de/zeit-magazin/leben/2026-11/janosch-zeichnung-1/original__640x360" length="20480" type="image/jpeg"/>
+      <category>leben</category>
+      <dc:creator>DIE ZEIT: leben - Tillmann Prüfer</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:26:56 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:f369d40a-fdb4-49c3-98b1-4ce07b84dbe1}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/zeit-magazin/leben/2026-11/janosch-horst-eckert-illustrator-schriftsteller-nachruf"><img style="float:left; margin-right:5px" src="https://img.zeit.de/zeit-magazin/leben/2026-11/janosch-zeichnung-1/wide__148x84"></a> Janoschs Kindheit war geprägt von Sucht und Gewalt. Später flog er von der Kunsthochschule und verfiel dem Alkohol. Wie seine Helden rettete auch ihn das Nichtstun.]]></content:encoded>
+    </item>
+    <item>
+      <title>US-Kongresswahlen: Die Ergebnisse der Midterms 2026 – live</title>
+      <link>https://www.zeit.de/politik/ausland/2026-11/midterms-us-kongresswahlen-ergebnisse-live</link>
+      <description>Es geht auch um Trumps Macht: In den USA werden das Repräsentantenhaus und ein Teil des Senats neu gewählt. Hier finden Sie alle Ergebnisse – laufend aktualisiert. </description>
+      <enclosure url="https://img.zeit.de/politik/ausland/2026-11/midterms-us-kongresswahlen-ergebnisse-live-teaserbild/original__640x360" length="20480" type="image/jpeg"/>
+      <category>Ausland</category>
+      <dc:creator>DIE ZEIT: Ausland - Gregor Aisch, Paul Blickle, Carsten Luther, David Schach, Julian Stahnke</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:25:32 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:e5ffd79d-2acd-48e0-b153-26a75d8c9b3a}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/politik/ausland/2026-11/midterms-us-kongresswahlen-ergebnisse-live"><img style="float:left; margin-right:5px" src="https://img.zeit.de/politik/ausland/2026-11/midterms-us-kongresswahlen-ergebnisse-live-teaserbild/wide__148x84"></a> Es geht auch um Trumps Macht: In den USA werden das Repräsentantenhaus und ein Teil des Senats neu gewählt. Hier finden Sie alle Ergebnisse – laufend aktualisiert. ]]></content:encoded>
+    </item>
+    <item>
+      <title>Tourismus: EU-Kommission will Touristenströme besser verteilen</title>
+      <link>https://www.zeit.de/news/2026-11/04/eu-kommission-will-touristenstroeme-besser-verteilen</link>
+      <description></description>
+      <enclosure url="https://img.zeit.de/news/2026-11/04/eu-kommission-will-touristenstroeme-besser-verteilen-image-group/original__640x360" length="20480" type="image/jpeg"/>
+      <category>News</category>
+      <dc:creator>DIE ZEIT: News - </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:24:31 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:fe774cc6-197c-47fd-9cde-c98093bd0029}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/news/2026-11/04/eu-kommission-will-touristenstroeme-besser-verteilen"><img style="float:left; margin-right:5px" src="https://img.zeit.de/news/2026-11/04/eu-kommission-will-touristenstroeme-besser-verteilen-image-group/wide__148x84"></a> None]]></content:encoded>
+    </item>
+    <item>
+      <title>Nachfolge bei der Notenbank: Poker um EZB-Spitze: Wer folgt auf Christine Lagarde?</title>
+      <link>https://www.zeit.de/news/2026-11/04/poker-um-ezb-spitze-wer-folgt-auf-christine-lagarde</link>
+      <description></description>
+      <enclosure url="https://img.zeit.de/news/2026-11/04/poker-um-ezb-spitze-wer-folgt-auf-christine-lagarde-image-group/original__640x360" length="20480" type="image/jpeg"/>
+      <category>News</category>
+      <dc:creator>DIE ZEIT: News - </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:20:46 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:4a797018-0774-4bb6-9411-0d65150bce15}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/news/2026-11/04/poker-um-ezb-spitze-wer-folgt-auf-christine-lagarde"><img style="float:left; margin-right:5px" src="https://img.zeit.de/news/2026-11/04/poker-um-ezb-spitze-wer-folgt-auf-christine-lagarde-image-group/wide__148x84"></a> None]]></content:encoded>
+    </item>
+    <item>
+      <title>US-Republikaner: Das Ende des Trumpismus?</title>
+      <link>https://www.zeit.de/politik/2026-11/us-republikaner-midterms-2026-donald-trump-stimmungswechsel</link>
+      <description>Zwei Jahre nach Trumps Wiederwahl verlieren die Republikaner die Midterms. 2024 noch schien alles nach rechts zu rücken. Ist der Vibe-Shift vorbei? Oder gab es ihn nie?</description>
+      <enclosure url="https://img.zeit.de/politik/2026-11/us-republikaner-midterms-2026-donald-trump-stimmungswechsel-bild/original__640x360" length="20480" type="image/jpeg"/>
+      <category>Politik</category>
+      <dc:creator>DIE ZEIT: Politik - Paul Middelhoff</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:20:42 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:8faee90e-68d9-434f-953b-42f986dac002}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/politik/2026-11/us-republikaner-midterms-2026-donald-trump-stimmungswechsel"><img style="float:left; margin-right:5px" src="https://img.zeit.de/politik/2026-11/us-republikaner-midterms-2026-donald-trump-stimmungswechsel-bild/wide__148x84"></a> Zwei Jahre nach Trumps Wiederwahl verlieren die Republikaner die Midterms. 2024 noch schien alles nach rechts zu rücken. Ist der Vibe-Shift vorbei? Oder gab es ihn nie?]]></content:encoded>
+    </item>
+    <item>
+      <title>0:2 in Istanbul: «Dann killen die uns natürlich»: VfB mit Stolz und Verdacht</title>
+      <link>https://www.zeit.de/news/2026-11/04/dann-killen-die-uns-natuerlich-vfb-mit-stolz-und-verdacht</link>
+      <description></description>
+      <enclosure url="https://img.zeit.de/news/2026-11/04/dann-killen-die-uns-natuerlich-vfb-mit-stolz-und-verdacht-image-group/original__640x360" length="20480" type="image/jpeg"/>
+      <category>News</category>
+      <dc:creator>DIE ZEIT: News - </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:20:37 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:ec3fa98c-ea2f-4025-8a54-d7eaa4f61bbf}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/news/2026-11/04/dann-killen-die-uns-natuerlich-vfb-mit-stolz-und-verdacht"><img style="float:left; margin-right:5px" src="https://img.zeit.de/news/2026-11/04/dann-killen-die-uns-natuerlich-vfb-mit-stolz-und-verdacht-image-group/wide__148x84"></a> None]]></content:encoded>
+    </item>
+    <item>
+      <title>An Halloween gesammelt: Weitere Gegenstände in Süßigkeiten entdeckt</title>
+      <link>https://www.zeit.de/news/2026-11/04/weitere-gegenstaende-in-suessigkeiten-entdeckt</link>
+      <description></description>
+      <enclosure url="https://img.zeit.de/news/2026-11/04/weitere-gegenstaende-in-suessigkeiten-entdeckt-image-group/original__640x360" length="20480" type="image/jpeg"/>
+      <category>News</category>
+      <dc:creator>DIE ZEIT: News - </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:20:34 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:c79ead0f-9c20-473d-856f-d00993a3fb91}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/news/2026-11/04/weitere-gegenstaende-in-suessigkeiten-entdeckt"><img style="float:left; margin-right:5px" src="https://img.zeit.de/news/2026-11/04/weitere-gegenstaende-in-suessigkeiten-entdeckt-image-group/wide__148x84"></a> None]]></content:encoded>
+    </item>
+    <item>
+      <title>Notenbank: Niederlande nominieren Ex-Zentralbanker Knot als EZB-Chef</title>
+      <link>https://www.zeit.de/news/2026-11/04/niederlande-nominieren-ex-zentralbanker-knot-als-ezb-chef</link>
+      <description></description>
+      <enclosure url="https://img.zeit.de/news/2026-11/04/niederlande-nominieren-ex-zentralbanker-knot-als-ezb-chef-image-group/original__640x360" length="20480" type="image/jpeg"/>
+      <category>News</category>
+      <dc:creator>DIE ZEIT: News - </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:20:17 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:6532d070-8b0b-41b5-bbd0-6e60946052b9}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/news/2026-11/04/niederlande-nominieren-ex-zentralbanker-knot-als-ezb-chef"><img style="float:left; margin-right:5px" src="https://img.zeit.de/news/2026-11/04/niederlande-nominieren-ex-zentralbanker-knot-als-ezb-chef-image-group/wide__148x84"></a> None]]></content:encoded>
+    </item>
+    <item>
+      <title>US-Parlamentswahl: Trump abgestraft: Demokraten triumphieren bei Kongresswahl</title>
+      <link>https://www.zeit.de/news/2026-11/04/us-wahlen-erste-wahllokale-schliessen</link>
+      <description></description>
+      <enclosure url="https://img.zeit.de/news/2026-11/04/us-wahlen-erste-wahllokale-schliessen-image-group/original__640x360" length="20480" type="image/jpeg"/>
+      <category>News</category>
+      <dc:creator>DIE ZEIT: News - </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:20:14 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:4ae06274-bb6e-4213-bb66-73f9c8eccfe5}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/news/2026-11/04/us-wahlen-erste-wahllokale-schliessen"><img style="float:left; margin-right:5px" src="https://img.zeit.de/news/2026-11/04/us-wahlen-erste-wahllokale-schliessen-image-group/wide__148x84"></a> None]]></content:encoded>
+    </item>
+    <item>
+      <title>Luftverkehr: Fraport: Neues Terminal macht Flugbetrieb pünktlicher</title>
+      <link>https://www.zeit.de/news/2026-11/04/fraport-neues-terminal-macht-flugbetrieb-puenktlicher</link>
+      <description></description>
+      <enclosure url="https://img.zeit.de/news/2026-11/04/fraport-neues-terminal-macht-flugbetrieb-puenktlicher-image-group/original__640x360" length="20480" type="image/jpeg"/>
+      <category>News</category>
+      <dc:creator>DIE ZEIT: News - </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:19:45 -0000</pubDate>
+      <guid isPermaLink="false">{urn:uuid:ecf0344f-290e-4b88-bce0-920214b5160d}</guid>
+      <content:encoded><![CDATA[<a href="https://www.zeit.de/news/2026-11/04/fraport-neues-terminal-macht-flugbetrieb-puenktlicher"><img style="float:left; margin-right:5px" src="https://img.zeit.de/news/2026-11/04/fraport-neues-terminal-macht-flugbetrieb-puenktlicher-image-group/wide__148x84"></a> None]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

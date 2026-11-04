@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw"/>
+ <id>yt:channel:XuqSBlHAE6Xw-yeJA0Tunw</id>
+ <yt:channelId>XuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+ <title>Linus Tech Tips</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw"/>
+ <author>
+  <name>Linus Tech Tips</name>
+  <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+ </author>
+ <published>2008-11-25T00:46:52+00:00</published>
+ <entry>
+  <id>yt:video:vDmjw-c_R2k</id>
+  <yt:videoId>vDmjw-c_R2k</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>My F-You To Sam Altman</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vDmjw-c_R2k"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-11-02T17:13:11+00:00</published>
+  <updated>2026-11-04T10:48:29+00:00</updated>
+  <media:group>
+   <media:title>My F-You To Sam Altman</media:title>
+   <media:content url="https://www.youtube.com/v/vDmjw-c_R2k?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vDmjw-c_R2k/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Start building your website today! Visit https://squarespace.syuh.net/LTT and use offer code LTT for 50% off Core, Plus, and Advanced annual and monthly plans for the month of November
+
+Cloud AI has so many issues: Cloud downtime, monthly subscriptions, and not to mention a ton of privacy concerns. So what do you do when you want to still use AI despite all of that? Well, you build a local AI machine... That is if you have the money to fund something like this. We're building an absolute monster of a local AI workstation today with TWO RTX 5090's and so much more.
+
+Link to the LABS article: https://www.lttlabs.com/articles/2026/11/02/jarvis-at-home
+
+Discuss on the forum: https://linustechtips.com/topic/1644169-my-f-you-to-sam-altman/
+
+SilverStone ALTA T1 Case: https://geni.us/DYEZ
+Intel Xeon w9-3495X Processor: https://geni.us/5vQO
+ASUS Pro WS W790E-SAGE SE Motherboard: https://geni.us/39PgIE
+NVIDIA GeForce RTX 5090 Founders Edition: https://geni.us/HtbaYs0
+SilverStone HELA 3000Rz Power Supply: https://geni.us/0HyBbP
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+2:13 Linus' Test bench
+3:08 SilverStone Alta T1
+5:39 The Motherboard, CPU &amp; RAM
+6:30 RTX 5090's
+7:45 Hella RAM
+8:17 Installing the CPU &amp; Cooler
+10:05 Putting parts in the case
+13:37 Side quest with DGX Spark
+14:23 Pump &amp; reservoir are mounted
+15:05 Putting in the GPUs
+16:24 Storage
+16:47 Time for the PSU
+18:22 Let's try that again
+19:40 Wiring things up
+20:46 Whyyyyyyyyyyyyyyyyy
+21:53 Filling the loop
+22:16 Local AI shenanigans
+28:00 Sventlana is working
+30:32 Outro
+
+
+Corrections:
+23:30 Always use the official website: https://hermes-agent.nousresearch.com/</media:description>
+   <media:community>
+    <media:starRating count="61942" average="5.00" min="1" max="5"/>
+    <media:statistics views="3955519"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:g9IOdTisQyM</id>
+  <yt:videoId>g9IOdTisQyM</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>GTA 6 on PC May be Coming Sooner than We Thought</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=g9IOdTisQyM"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-11-01T16:45:10+00:00</published>
+  <updated>2026-11-02T17:05:45+00:00</updated>
+  <media:group>
+   <media:title>GTA 6 on PC May be Coming Sooner than We Thought</media:title>
+   <media:content url="https://www.youtube.com/v/g9IOdTisQyM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/g9IOdTisQyM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks to Meter for sponsoring this video! Go to https://meter.com/ltt to book a demo now!
+
+Despite Sony and Nintendo's war on PC, Console exclusives are finally coming to Battle Stations near you - thanks to major advancements in... AI-assisted decompilation, PS5 and PS4 emulation, and binary relinking... once locked-away games are running natively on PC hardware. We explore how these breakthroughs work, test performance, and discuss what this means for the future of gaming. 
+
+Discuss on the forum: https://linustechtips.com/topic/1644133-gta-6-on-pc-may-be-sooner-than-we-thought/
+
+Links to the Ports we used (USE AT YOUR OWN RISK)
+Fork of Kyty PS5 used for Astro Bot - https://github.com/Jetsku/KytyPS5
+Fork of Kyty PS5 used for Demon Souls - https://github.com/chenxiao07/KytyPS5
+Port of God of War 3 - https://github.com/FelipePrado0/SpartanPort
+Port of Bloodbourne - https://github.com/Mrsuss60/bloodborne_pc_windows_port
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:51 Playing Astro Bot
+4:20 Silly Time with Riley
+6:24 Morality of AI Assistance
+8:20 Why now?
+9:45  Playing Demon's Souls
+12:45 AnyPS5 is not quite ready
+15:30 Playing God of War III: Remastered
+19:28 Playing Bloodbourne</media:description>
+   <media:community>
+    <media:starRating count="18174" average="5.00" min="1" max="5"/>
+    <media:statistics views="1046571"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:H3Cnyj0I62c</id>
+  <yt:videoId>H3Cnyj0I62c</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>I Doubled My GPU’s Memory (in a guy's basement)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=H3Cnyj0I62c"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-31T17:00:30+00:00</published>
+  <updated>2026-11-02T19:21:43+00:00</updated>
+  <media:group>
+   <media:title>I Doubled My GPU’s Memory (in a guy's basement)</media:title>
+   <media:content url="https://www.youtube.com/v/H3Cnyj0I62c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/H3Cnyj0I62c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Check out https://www.youtube.com/@RingConnOfficial using our link! Gen 2 is 15% off for Halloween, October 30-31: https://bit.ly/4inH1fU
+See our RingConn Gen2 Unboxing: https://www.youtube.com/watch?v=HAQNn6y8Lz0
+
+Back in my day, getting more memory for your GPU simply just meant buying a new one. Not anymore! Luke travelled all the way to Michigan to meet up with the one and only Greg from GPU Lab to upgrade his RTX 4090 to have a whopping 48GB of VRAM
+
+Check out Greg!: https://www.youtube.com/@UC6UqUv4r97LPDQAAEVsNI6w 
+https://gpulab.net/
+
+Discuss on the forum: https://linustechtips.com/topic/1644115-i-doubled-my-gpu%E2%80%99s-memory%E2%80%A6/
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+2:00 What are we doing?
+2:50 What does Greg do?
+3:52 Applying memory chips
+4:52 Using the BGA rework station
+5:50 But wait, what are these PCBs?
+6:32 Good luck Luke
+8:12 He did it!
+9:02 Removing a GPU Core
+9:55 Removing memory modules
+11:21 Cleaning memory modules
+12:32 It's your turn again, Luke!
+13:55 Cleaning GPU Cores
+14:45 Adding solder balls to cores
+16:14 Adding solder balls to memory modules
+17:10 Ultrasonic cleaning
+17:30 Applying memory modules to Chinese circuit board
+19:30 Soldering the memory modules on GPU 1
+20:15 Attaching core to GPU 1
+22:46 Satisfying? More like terrifying
+22:58 Attaching coolers to GPU 1
+24:20 IT'S ALIVEEEEE
+25:05 Cleaning the GPU
+25:54 Time to bake
+28:07 Outro</media:description>
+   <media:community>
+    <media:starRating count="40173" average="5.00" min="1" max="5"/>
+    <media:statistics views="1866199"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9st7OYkUHJk</id>
+  <yt:videoId>9st7OYkUHJk</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>Ep. 35 - Best Tech for a Deserted Island...</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/9st7OYkUHJk"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-30T20:20:21+00:00</published>
+  <updated>2026-11-03T03:17:14+00:00</updated>
+  <media:group>
+   <media:title>Ep. 35 - Best Tech for a Deserted Island...</media:title>
+   <media:content url="https://www.youtube.com/v/9st7OYkUHJk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9st7OYkUHJk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>If Linus got stranded on a deserted island, what tech would he want to have with him? We toured the warehouse to find out!
+
+lmg.gg/nexigo</media:description>
+   <media:community>
+    <media:starRating count="3020" average="5.00" min="1" max="5"/>
+    <media:statistics views="163582"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7JOW7TTOGfI</id>
+  <yt:videoId>7JOW7TTOGfI</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>Apple Made a MacBook for ME</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7JOW7TTOGfI"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-29T05:30:34+00:00</published>
+  <updated>2026-11-03T16:18:55+00:00</updated>
+  <media:group>
+   <media:title>Apple Made a MacBook for ME</media:title>
+   <media:content url="https://www.youtube.com/v/7JOW7TTOGfI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7JOW7TTOGfI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Learn more about Zero Trust AI Control and book a demo to see it in action using our link: 
+https://www.threatlocker.com/capabilities/zero-trust-ai-control 
+
+We go over the coolest things from Apple's Pro and Tell event- especially touch-enabled &quot;PROLED&quot; displays on the new MacBook Pro!
+
+Discuss on the forum: https://linustechtips.com/topic/1644051-linus-was-right-apple-probably/
+
+Apple MacBook Pro PROLED XDR (14&quot;, M5 Pro): https://geni.us/pqNc7
+Apple iPad mini (A20 Pro, 128GB): https://geni.us/tFAMGA0
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+2:53 more on the Display
+4:48 how will MacOS adapt to touchscreens?
+5:44 Other Macbook Specs
+6:48 Macbook Prices
+7:14 New iPad Mini
+9:37 iMac
+11:09 outro</media:description>
+   <media:community>
+    <media:starRating count="27786" average="5.00" min="1" max="5"/>
+    <media:statistics views="2291752"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1KxqLC7F0iE</id>
+  <yt:videoId>1KxqLC7F0iE</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>I was wrong about Augmented Reality</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1KxqLC7F0iE"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-28T17:14:25+00:00</published>
+  <updated>2026-11-02T02:39:38+00:00</updated>
+  <media:group>
+   <media:title>I was wrong about Augmented Reality</media:title>
+   <media:content url="https://www.youtube.com/v/1KxqLC7F0iE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1KxqLC7F0iE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks to XREAL for sponsoring this video and giving us an early look at the XREAL Aura! learn more and get yours at https://us.shop.xreal.com/products/xreal-aura?utm_source=youtube&amp;utm_medium=kol&amp;utm_campaign=AURA_Launch&amp;utm_content=Linus_Tech_Tips
+
+The XREAL Aura smart glasses - powered by Android XR and the latest AR processor - are here. Featuring Micro-OLED displays, electrochromic dimming, and spatial audio, these lightweight glasses bring hands-free multitasking, 3D entertainment, and seamless PC connectivity right to your eyes. Is this a sneak peak into the future?
+
+Discuss on the forum: https://linustechtips.com/topic/1644019-i-was-wrong-about-augmented-reality/
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+00:00 Introduction &amp; The Promise of Spatial Computing
+00:55 Hardware &amp; Optics: Displays, Cameras, and Sensors
+02:22 Android XR Platform &amp; Gemini Integration
+03:07 Multitasking &amp; PC Display Passthrough
+03:53 The Processing Puck &amp; Performance Specs
+05:01 Mixed Reality Gaming: Demio Hands-On
+06:47 Immersion, Dimming Tint, &amp; Micro-OLED Displays
+08:25 3D Interactive Media: Nevatars Demo
+09:42 Watching 2D Content &amp; Follow Mode
+10:57 Auto-Dimming Passthrough &amp; Productivity Setup
+12:04 Nintendo Switch &amp; In-Game Gemini AI Assistance
+13:46 Immersive Google Maps 3D Exploration
+16:46 Final Thoughts &amp; Conclusion</media:description>
+   <media:community>
+    <media:starRating count="18793" average="5.00" min="1" max="5"/>
+    <media:statistics views="1502301"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:DZSYaQmxBLM</id>
+  <yt:videoId>DZSYaQmxBLM</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>Pros Try AI-Cloned Engineering Tools</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DZSYaQmxBLM"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-27T17:56:58+00:00</published>
+  <updated>2026-10-31T04:31:11+00:00</updated>
+  <media:group>
+   <media:title>Pros Try AI-Cloned Engineering Tools</media:title>
+   <media:content url="https://www.youtube.com/v/DZSYaQmxBLM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DZSYaQmxBLM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Choose the LTT collab Carpio wrist rest that suits your needs at: https://go.deltahub.io/carpio-ltt
+
+First the vibe-coders came for Adobe - the subscription everyone wishes they could ditch - but our team wasn't too impressed. But the plague of subscription software isn’t just limited to graphics. Will Vibe-Coded engineering apps impress our team?
+
+Discuss on the forum: https://linustechtips.com/topic/1643989-pros-try-ai-cloned-engineering-tools/
+
+We tried Version 0.16.2 of SolidCraft, and an un-numbered version of Purrametric, accessed on Oct 19, 2026, but these things are changing fast!
+
+Want to try them out for yourself?
+Try SolidCraft here: https://solidcraft.io/ (Fusion clone)
+Try Purrametric here: https://purrametric.deepmagic.de/ (SolidWorks clone)
+
+We also mentioned a pair of AutoCAD clones:
+CADCraft https://getartcraft.com/apps/cadcraft and
+OpenCADStudio https://www.opencadstudio.com/
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+0:55 SolidCraft is not Fusion
+6:45 Purrametric is not SolidWorks
+13:00 But wait, there's more!
+15:07 Credits</media:description>
+   <media:community>
+    <media:starRating count="19134" average="5.00" min="1" max="5"/>
+    <media:statistics views="1804756"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:P6pcTK0wTYA</id>
+  <yt:videoId>P6pcTK0wTYA</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>How to Switch to Linux</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=P6pcTK0wTYA"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-26T17:57:35+00:00</published>
+  <updated>2026-10-30T10:08:35+00:00</updated>
+  <media:group>
+   <media:title>How to Switch to Linux</media:title>
+   <media:content url="https://www.youtube.com/v/P6pcTK0wTYA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/P6pcTK0wTYA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Meter is funding the next generation of network engineers with grants of up to $2,000 for courses, certifications, and tools. Apply today: https://meter.com/grants
+
+If you've ever thought about switching to Linux but have been afraid of learning a new operating system, it's time to stop being afraid! We're here to tell you how to switch from the clutches of Windows into the vast, open, free sea that is Linux. Don't be tepid young one, you got this.
+
+Discuss on the forum: https://linustechtips.com/topic/1643960-how-to-switch-to-linux/
+
+Check out the LABS article: https://www.lttlabs.com/articles/2026/08/31/a-guide-to-switching-to-linux-and-grieving-windows
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:56 Choosing a distro
+3:24 Tools to install Linux
+4:02 Backing up data
+4:38 Installing Linux
+6:02 Where is everything?
+6:36 The file manager
+8:42 Getting apps
+12:20 Drivers
+13:47 YOU DID IT!!
+15:40 Outro</media:description>
+   <media:community>
+    <media:starRating count="37857" average="5.00" min="1" max="5"/>
+    <media:statistics views="2017192"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:DN953UW8iJ8</id>
+  <yt:videoId>DN953UW8iJ8</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>dbrand Forced me to Review the iPhone 18 Pro</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=DN953UW8iJ8"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-24T17:00:08+00:00</published>
+  <updated>2026-10-27T23:23:48+00:00</updated>
+  <media:group>
+   <media:title>dbrand Forced me to Review the iPhone 18 Pro</media:title>
+   <media:content url="https://www.youtube.com/v/DN953UW8iJ8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DN953UW8iJ8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get your overpriced cases, screen protectors, and stickers at https://shortlinus.com
+
+Initially we weren't going to review the Apple iPhone 18 Pro &amp; Pro Max. But then dbrand came in with some &quot;words of encouragement&quot; so we had no choice. It also helps that LTT LABS tested this phone and found some VERY interesting discoveries. These new phones show great improvement thanks to the new Apple A20 Pro, and many more things that we'll tell you all about.
+
+Discuss on the forum: https://linustechtips.com/topic/1643904-dbrand-forced-me-to-do-this-review/
+
+Check out the LABS article: https://www.lttlabs.com/articles/2026/09/24/iphone-18-pro-series-test-results
+
+Check out the sample photos: https://drive.google.com/drive/folders/1UkaqWIyF8sv81GsEOz-LMon0XlKxMMJO?usp=sharing 
+
+Apple iPhone 18 Pro (256GB): https://geni.us/tZz9S
+Apple iPhone 18 Pro Max (256GB): https://geni.us/W5OW9
+
+Check out our Channel Partners:
+
+Secretlab 
+- Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+- Grab an ATLAS ergonomic office chair:  https://lmg.gg/secretlablttatlas
+
+PIA 
+- Get the VPN of our choice: https://www.piavpn.com/ltt
+
+dbrand 
+- Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:58 Initial Impressions
+2:50 New CPU Cores
+3:49 Storage weirdness
+4:40 Gaming
+5:56 iOS27
+6:30 Battery life
+7:30 Screen
+7:59 Camera
+12:30 Siri AI &amp; Shortcuts
+15:44 Outro</media:description>
+   <media:community>
+    <media:starRating count="20822" average="5.00" min="1" max="5"/>
+    <media:statistics views="1481437"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FtjH_HHTpeg</id>
+  <yt:videoId>FtjH_HHTpeg</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>Guessing Costco Tech Prices</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/FtjH_HHTpeg"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-10-23T18:04:12+00:00</published>
+  <updated>2026-10-27T03:41:16+00:00</updated>
+  <media:group>
+   <media:title>Guessing Costco Tech Prices</media:title>
+   <media:content url="https://www.youtube.com/v/FtjH_HHTpeg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FtjH_HHTpeg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>We built a Costco gaming setup and tested Linus to see if he could guess Costco's tech prices based on quality.</media:description>
+   <media:community>
+    <media:starRating count="4712" average="5.00" min="1" max="5"/>
+    <media:statistics views="308135"/>
+   </media:community>
+  </media:group>
+ </entry>
+ 
+</feed>

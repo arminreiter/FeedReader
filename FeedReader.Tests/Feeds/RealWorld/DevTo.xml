@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>DEV Community</title>
+    <description>The most recent home feed on DEV Community.</description>
+    <link>https://dev.to</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://dev.to/feed"/>
+    <language>en</language>
+    <item>
+      <title>Elijah Paul: I Built a Trading Team Out of AI Agents. Here's How It Works</title>
+      <dc:creator>Elijah Paul</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:27:05 +0000</pubDate>
+      <link>https://dev.to/elijahpaul/elijah-paul-i-built-a-trading-team-out-of-ai-agents-heres-how-it-works-2kln</link>
+      <guid>https://dev.to/elijahpaul/elijah-paul-i-built-a-trading-team-out-of-ai-agents-heres-how-it-works-2kln</guid>
+      <description>&lt;p&gt;Coding agents put an engineering team in everyone's pocket.&lt;/p&gt;
+
+&lt;p&gt;I'm Elijah Paul, and with my co-founder Max (@0xWhoismax) I'm building Hot Bot, which puts a trading team in yours. Agentic trading on Solana: specialist agents that research, snipe and trade under rules you set.&lt;/p&gt;
+
+&lt;p&gt;First post here. So here's who I am, what we built, and why.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  why I started
+&lt;/h2&gt;
+
+&lt;p&gt;Everyone gets into crypto for a different reason, but it usually boils down to this: a fair shot at economic freedom.&lt;/p&gt;
+
+&lt;p&gt;Curiosity, creativity, community, and people with unique skillsets are what pushed this industry forward.&lt;/p&gt;
+
+&lt;p&gt;Take a look at memecoins. They are the most open market on earth. Prices where anyone can buy, with a focus on trading culture, creating community, and believing in something together.&lt;/p&gt;
+
+&lt;p&gt;At least that's how it's supposed to work.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  what the trenches actually look like in 2026
+&lt;/h2&gt;
+
+&lt;p&gt;The market right now is "Socialfi." A community focused trading trend. Or rather, cosplaying as community. And this community is gated.&lt;/p&gt;
+
+&lt;p&gt;FnF allocations. Cabals. Bundled launches. Vamps. Coordinated launches that all feed "the daily runners."&lt;/p&gt;
+
+&lt;p&gt;Socialfi made it easier than ever to copy a trader's wallet. It also made it easier than ever for insiders to run these plays on the people copy trading them.&lt;/p&gt;
+
+&lt;p&gt;A handful of people post massive PnLs daily. Great.&lt;/p&gt;
+
+&lt;p&gt;But what about everyone else?&lt;/p&gt;
+
+&lt;p&gt;The reason you don't hear about them is that they're quietly losing in a game that is rigged.&lt;/p&gt;
+
+&lt;p&gt;The trenches taught people that 10 minutes is a "long hold." "Just bundle, everyone's doing it." I'm deeply dissatisfied with that, and I'm obsessed with making it better.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  the idea
+&lt;/h2&gt;
+
+&lt;p&gt;I'm a trader myself. I wanted a private trading team. Something that could research coins, watch entries, and manage positions under my direction. So Max and I started building it.&lt;/p&gt;
+
+&lt;p&gt;The inspiration came from coding agents.&lt;/p&gt;
+
+&lt;p&gt;Coding agents put an engineering team in everyone's pocket. Power that used to sit behind years of training and six-figure payrolls landed in everyone's hands, and suddenly millions of people had the ability to change their lives.&lt;/p&gt;
+
+&lt;p&gt;I see that same possibility in trading.&lt;/p&gt;
+
+&lt;p&gt;Coding agents put an engineering team in your pocket. Hot Bot puts a trading team in yours.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  meet the team
+&lt;/h2&gt;
+
+&lt;p&gt;Hot Bot is an orchestration layer that coordinates specialist agents working together. I call it Agentic Trading as a Service.&lt;/p&gt;
+
+&lt;p&gt;Your team:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;strong&gt;Research Bot.&lt;/strong&gt; Your research assistant. Scans thousands of coins in a fraction of a second according to your settings. Want to avoid scam tokens altogether? Done.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Sniper Bot.&lt;/strong&gt; Watches for fast, strategic entries into tokens you want a position in. Or ones you didn't know you wanted, but you're glad you did.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Trader Bot.&lt;/strong&gt; Your personal market maker. Manages your open positions, watches volume, manages risk, and follows your exit strategy.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Type to it, talk to it, toggle settings on and off like any other trading terminal. Just, this one is smart, works together, and trades for you.&lt;/p&gt;
+
+&lt;p&gt;It feels like a strategy game. One of our first users put it better than I can:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;"It feels like a video game, I am having a blast trying out different strategies and just thinking of all of the possibilities..." - @penguinxbt_&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;
+  
+  
+  specialized beats general
+&lt;/h2&gt;
+
+&lt;p&gt;Generalized intelligence is great at many things. It can draw your cat in anime style, make you a landing page, and tell you the price of your favorite stock today.&lt;/p&gt;
+
+&lt;p&gt;But it is not incredible at one thing.&lt;/p&gt;
+
+&lt;p&gt;Specialized intelligence compounds when you relentlessly shape the models from the ground up on data in one domain. That's what we're doing with our own models and proprietary trading data.&lt;/p&gt;
+
+&lt;p&gt;People can copy our homework. They can't copy our training models and data ;)&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  you stay in control
+&lt;/h2&gt;
+
+&lt;p&gt;This part matters to me more than anything else in the product.&lt;/p&gt;
+
+&lt;p&gt;You set the budget. You set your limits. You choose whether the team asks permission before every buy, or executes automatically inside your rules.&lt;/p&gt;
+
+&lt;p&gt;Trader Bot can exit sooner, but it can never loosen your exit rules to hold longer.&lt;/p&gt;
+
+&lt;p&gt;The team works for you, never the other way around.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  no wrappers
+&lt;/h2&gt;
+
+&lt;p&gt;For the builders reading this, the part I'm proudest of is what's under the hood.&lt;/p&gt;
+
+&lt;p&gt;We cut out every middleman we could:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Built our own market indexer.&lt;/li&gt;
+&lt;li&gt;Built our own swap path, on our own custom model, indexer and machines, tested on mainnet. Trades land on chain in under 50ms. Fastest so far: 25ms.&lt;/li&gt;
+&lt;li&gt;Built our own custom database, on dedicated bare metal machines.&lt;/li&gt;
+&lt;li&gt;Host our own private network.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Speed is one of the biggest factors in a good trade, so it got priority. No shortcuts.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  shipping it
+&lt;/h2&gt;
+
+&lt;p&gt;On October 2nd, Max and I joined the ClawPump AnsemHack on the final day.&lt;/p&gt;
+
+&lt;p&gt;We won it.&lt;/p&gt;
+
+&lt;p&gt;Twenty four days later, Hot Bot went live. Hackathon project to a real agentic trading software business in under a month, built in public the whole way. Now we have 200 paying beta users and we're still shipping.&lt;/p&gt;
+
+&lt;p&gt;Around launch, the whole tech world was getting hit with security incidents, a lot of them driven by bad actors with agentic tools. So we paused, quintuple checked security through the entire stack, and shipped safely. People are trusting this with real money. I take that seriously.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  what I believe
+&lt;/h2&gt;
+
+&lt;p&gt;In the short term, the market is a voting machine. In the long term, it's a weighing machine.&lt;/p&gt;
+
+&lt;p&gt;Benjamin Graham said that, and Jeff Bezos brought it back up in his 2000 shareholder letter. I think about it a lot.&lt;/p&gt;
+
+&lt;p&gt;The most impactful innovations in crypto were born out of necessity. Toly designed Proof of History in 2017 and spent almost three years building before Solana launched. Hayden Adams taught himself to code after losing his job and shipped Uniswap a little over a year later. They kept building through bull and bear because the problem was bigger than a market cycle.&lt;/p&gt;
+
+&lt;p&gt;History remembers what they built, not what the market was doing while they built it.&lt;/p&gt;
+
+&lt;p&gt;That's the bar.&lt;/p&gt;
+
+&lt;p&gt;Let me be clear about what Hot Bot is not. It's not "deposit $100 and wake up to a gajillion." It's powerful technology made simple, and what you do with it is up to you.&lt;/p&gt;
+
+&lt;p&gt;The people who won with coding agents didn't type one prompt and walk away with their lives changed. They put in the time, learned the tool, and made it theirs.&lt;/p&gt;
+
+&lt;p&gt;This is the coding agent moment for trading.&lt;/p&gt;
+
+&lt;p&gt;Picture a market where your edge comes from how well you think, how hard you work, and how well you've trained your team. Not from which group chat you got into.&lt;/p&gt;
+
+&lt;p&gt;A fair shot shouldn't depend on who you know.&lt;/p&gt;
+
+&lt;p&gt;That's what I'm building.&lt;/p&gt;
+
+&lt;p&gt;Long on vision. Relentless on daily execution. 🔥🤖&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: Nothing here is financial advice. Memecoin trading is extremely risky and you can lose everything you put in. Hot Bot automates your Strategy; it does not guarantee profits.&lt;/em&gt;&lt;/p&gt;
+
+
+
+
+&lt;h3&gt;
+  
+  
+  About Elijah Paul
+&lt;/h3&gt;
+
+&lt;p&gt;Building Hot Bot. Agentic trading on Solana. Joined a hackathon on the final day, won it, went live 24 days later.&lt;/p&gt;
+
+&lt;p&gt;Co-founder of Hot Bot with Max (@0xWhoismax), your own trading team of specialist bots that snipe, filter and trade on Solana. Worked with the Anchorage Digital Bank team on an x402 gateway to an agentic banking platform, contributes to x402's open source security guardrails and privacy policy, and previously led AI for internal integrations and product rollout at Gate AI. Everything runs on GhostOps, his internal OS of agents.&lt;/p&gt;
+
+&lt;p&gt;Solve big problems with unique solutions that users love.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://elijahpaul.io" rel="noopener noreferrer"&gt;elijahpaul.io&lt;/a&gt; · &lt;a href="https://usehotbot.com" rel="noopener noreferrer"&gt;usehotbot.com&lt;/a&gt; · &lt;a href="https://x.com/elijahintek" rel="noopener noreferrer"&gt;x.com/elijahintek&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <category>ai</category>
+      <category>agents</category>
+      <category>solana</category>
+      <category>startup</category>
+    </item>
+    <item>
+      <title>Ollama Local TTS: Audio with LFM3-Audio on Linux &amp; Windows</title>
+      <dc:creator>KAMAL KISHOR</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:26:33 +0000</pubDate>
+      <link>https://dev.to/koolkamalkishor/ollama-local-tts-audio-with-lfm3-audio-on-linux-windows-583</link>
+      <guid>https://dev.to/koolkamalkishor/ollama-local-tts-audio-with-lfm3-audio-on-linux-windows-583</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; This guide demonstrates how to run local text-to-speech using Ollama and the LFM3-audio model from Liquid AI on Linux and Windows. Readers will learn the exact commands to get high-quality speech output directly on their machines without cloud dependencies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dealing with cloud text-to-speech (TTS) APIs can be a real pain. You're constantly thinking about latency, data privacy, and the monthly bill that creeps up. Building multimodal agents that need to speak without an internet connection, or just wanting to add an accessible voice feature to a local app, often means a compromise: either use lower-quality local options or pay for external services.&lt;/p&gt;
+
+&lt;p&gt;Ollama's recent &lt;code&gt;v0.40.13&lt;/code&gt; update changes that, bringing Liquid AI's LFM3 family of models, including &lt;code&gt;lfm3-audio&lt;/code&gt;, to Linux and Windows users. This extends the high-performance local inference capabilities previously available only on Apple Silicon, making robust text-to-speech accessible on standard workstations. This is a compact, fully-featured 2B parameter audio model that can run locally on laptops and edge devices. It takes text or audio as input and can respond with text, speech, or both. As someone who prefers free, local AI tools when the quality is good enough, this update is a big win for offline development and reducing cloud reliance.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Getting Started with LFM3-audio
+&lt;/h3&gt;
+
+&lt;p&gt;First, ensure you have Ollama installed and updated to at least version &lt;code&gt;0.40.13&lt;/code&gt;. You can check your version by running &lt;code&gt;ollama --version&lt;/code&gt;. If you need to update, the process is straightforward:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;&lt;span class="c"&gt;# If installed via Homebrew (macOS)&lt;/span&gt;
+brew update &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; brew upgrade ollama
+
+&lt;span class="c"&gt;# If installed via script (Linux)&lt;/span&gt;
+curl &lt;span class="nt"&gt;-fsSL&lt;/span&gt; https://ollama.com/install.sh | sh
+
+&lt;span class="c"&gt;# For Windows, download the latest installer from ollama.com/download&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;Once Ollama is up to date, pulling the &lt;code&gt;lfm3-audio&lt;/code&gt; model is a single command:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;ollama pull lfm3-audio
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;This command downloads the 2.1 GB model to your local machine.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Running Text-to-Speech
+&lt;/h3&gt;
+
+&lt;p&gt;With the model downloaded, you can now generate speech directly from your terminal. The &lt;code&gt;ollama run&lt;/code&gt; command plays the audio through your computer's speakers.&lt;/p&gt;
+
+&lt;p&gt;To generate speech from a simple text prompt:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;ollama run lfm3-audio &lt;span class="s2"&gt;"Hello from your local text-to-speech model!"&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;The model can handle various inputs and tasks, including multilingual speech synthesis in 18 languages. To specify a language and gender for the voice, you can use a system prompt:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;ollama run lfm3-audio &lt;span class="s2"&gt;"Perform TTS in English using a female voice. Hello, how are you today?"&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;The &lt;code&gt;lfm3-audio&lt;/code&gt; model also supports streaming replies in text and speech for voice chat applications.&lt;/p&gt;
+
+&lt;p&gt;You can also save the audio output to a WAV file instead of playing it directly. This is particularly useful for integrating TTS into applications or when working on a server without speakers:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;ollama run lfm3-audio &lt;span class="s2"&gt;"This text will be saved to a file."&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; speech.wav
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;For programmatic access, Ollama provides an OpenAI-compatible &lt;code&gt;/v1/audio/speech&lt;/code&gt; endpoint. You can interact with it using &lt;code&gt;curl&lt;/code&gt; to generate audio files:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;curl http://localhost:11434/v1/audio/speech &lt;span class="se"&gt;\&lt;/span&gt;
+  &lt;span class="nt"&gt;-H&lt;/span&gt; &lt;span class="s2"&gt;"Content-Type: application/json"&lt;/span&gt; &lt;span class="se"&gt;\&lt;/span&gt;
+  &lt;span class="nt"&gt;-d&lt;/span&gt; &lt;span class="s1"&gt;'{ "model": "lfm3-audio", "input": "This is an example from the API.", "voice": "default" }'&lt;/span&gt; &lt;span class="se"&gt;\&lt;/span&gt;
+  &lt;span class="nt"&gt;--output&lt;/span&gt; api_speech.wav
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;h3&gt;
+  
+  
+  Common Considerations
+&lt;/h3&gt;
+
+&lt;p&gt;While running local TTS with Ollama and LFM3-audio is powerful, there are a few things to keep in mind. The &lt;code&gt;lfm3-audio&lt;/code&gt; model handles up to 32K tokens for context length (input + output). Longer texts might need to be split, though &lt;code&gt;ollama run&lt;/code&gt; often handles this automatically at paragraph and sentence breaks. Also, be aware that numbers, prices, and URLs are often spoken in expanded form, and markdown symbols or emojis are typically skipped.&lt;/p&gt;
+
+&lt;p&gt;A potential trade-off with local models is the initial download size and the computational resources required. While &lt;code&gt;lfm3-audio&lt;/code&gt; is a compact 2B parameter model, a 2.1 GB download might take a little time depending on your internet connection. On the resource front, it's designed to run on laptops and edge devices, but its performance will still scale with your hardware, especially if you're running other models concurrently. For agentic coding or complex multi-step reasoning, LFM3-Audio-2B is not recommended due to its small size; it's better suited for local agents, tool calling, structured outputs, and domain-specific fine-tuning.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Sources
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  Ollama v0.40.13: LFM3 Support for Windows &amp;amp; Linux | Laravel - Richness. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBXXOtztFnnwqO0rHuU3SSgDBx5aRvMsHMQQbW4TPtngLAaUBVsqX3wjCqY51DBKn3Z7gUQ-_GfsdTGqapMHenmu61th7Ux6CAumvoRcLlEL5hRIf55cHLox8qYBpFo-7qUQ6oAmkjP9ozbGXY41cxWmoe9naurlergXpmGtzufCc=" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBXXOtztFnnwqO0rHuU3SSgDBx5aRvMsHMQQbW4TPtngLAaUBVsqX3wjCqY51DBKn3Z7gUQ-_GfsdTGqapMHenmu61th7Ux6CAumvoRcLlEL5hRIf55cHLox8qYBpFo-7qUQ6oAmkjP9ozbGXY41cxWmoe9naurlergXpmGtzufCc=&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  LFM3-Audio-2B - Liquid AI Docs. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV-zYGdK8LbCKGJofCjRwGsyEAmjWCTpAl7NmM-TGLJ8kjN89v0gd9GKCj82J4TH4MBTDkkl2WDCw1NB6jVpK6D8qUu1nTK-HVFeqNHD_NQORrtBk5fyC4SjsTdIEYgv8G3uKFvQMsK2zF" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV-zYGdK8LbCKGJofCjRwGsyEAmjWCTpAl7NmM-TGLJ8kjN89v0gd9GKCj82J4TH4MBTDkkl2WDCw1NB6jVpK6D8qUu1nTK-HVFeqNHD_NQORrtBk5fyC4SjsTdIEYgv8G3uKFvQMsK2zF&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  lfm3-audio - Ollama. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyai-ylXSU4fyjLPYvtSCsou5pQ8SrxttGGrC4KvZWKk4FEQIcFyaevKHD9g7kGGphMBv5F-xKwVWpAVcRPtwBqkIQpNKrjn5YPh-dovgqqnFhXePuCt9cVL20Y25-VIM=" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyai-ylXSU4fyjLPYvtSCsou5pQ8SrxttGGrC4KvZWKk4FEQIcFyaevKHD9g7kGGphMBv5F-xKwVWpAVcRPtwBqkIQpNKrjn5YPh-dovgqqnFhXePuCt9cVL20Y25-VIM=&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  Ollama 0.40.13: Speech Endpoint, d3 Models and LFM3 - ThreatFrontier.com. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGBMHXBcI7Jr0akcbuU2cwG4pq3rIUCCdRIUp7n7VL98V6y3Oi00X4Wax0cz-xsl7vgwNSiJG0udBFQ_sJ0PQeIEj8pJ_LUnmr33_dhJ6j6JpLj8uOwh1TAQYWV-d_wD_da88zUr_yh7MlsiUChwOakQqJNkl7r2inZrigJuhlvQ3MOraGhDzoWWNaS1I=" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGBMHXBcI7Jr0akcbuU2cwG4pq3rIUCCdRIUp7n7VL98V6y3Oi00X4Wax0cz-xsl7vgwNSiJG0udBFQ_sJ0PQeIEj8pJ_LUnmr33_dhJ6j6JpLj8uOwh1TAQYWV-d_wD_da88zUr_yh7MlsiUChwOakQqJNkl7r2inZrigJuhlvQ3MOraGhDzoWWNaS1I=&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  Ollama Release Notes - November 2026 Latest Updates - Releasebot. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuk_AL28rZMGb2LVRjhOd1YhwBoSSCzkTuXfI84djIjfQcnGFSoq35wahviPAOz9Nt-dWf53_T0EuBROTWtHBKWFDNyGxQznzAUvM2mTXYJPZnB88mpb_DJxWxeXVi0g==" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuk_AL28rZMGb2LVRjhOd1YhwBoSSCzkTuXfI84djIjfQcnGFSoq35wahviPAOz9Nt-dWf53_T0EuBROTWtHBKWFDNyGxQznzAUvM2mTXYJPZnB88mpb_DJxWxeXVi0g==&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  LiquidAI/LFM3-Audio-2B - Hugging Face. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxJG4idjl9X24S5pe6qipsTKLFEHZMeJDgU-8k0S0IpXVnKAgvQBnl-PIye2bJgBfInx7DlU12r2igT_dekrBEVtBOwEFtlX-WZKJ-VduuaUcwPIykGWIp1bFgNATOvYSNElthwrBe_g==" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxJG4idjl9X24S5pe6qipsTKLFEHZMeJDgU-8k0S0IpXVnKAgvQBnl-PIye2bJgBfInx7DlU12r2igT_dekrBEVtBOwEFtlX-WZKJ-VduuaUcwPIykGWIp1bFgNATOvYSNElthwrBe_g==&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  New audio model: LFM3-Audio-2B : r/LocalLLaMA - Reddit. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTkWPuGTpvwK3hUOBhtfipAW7K5xvuI16Rv7_WE9VYg6wwkRJUyaoYkg1cpqu5NOcPjVrn3hx3bbmH2RpbMukpnMJ52nSDmjYsaHRgzsGL0YHkGo2F8XwvSpBnQYFMTWT3IxoQQ_c9MaM8AyOtv16jBFUUvMpykkgg6nqVN6c83i2fRY4VR3wKJyXZ-A==" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTkWPuGTpvwK3hUOBhtfipAW7K5xvuI16Rv7_WE9VYg6wwkRJUyaoYkg1cpqu5NOcPjVrn3hx3bbmH2RpbMukpnMJ52nSDmjYsaHRgzsGL0YHkGo2F8XwvSpBnQYFMTWT3IxoQQ_c9MaM8AyOtv16jBFUUvMpykkgg6nqVN6c83i2fRY4VR3wKJyXZ-A==&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  LFM3-Audio-2B on Ollama: Better Speech, the Same Ears - OrcaRouter. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd7S_nlNcf-8Pwd-zZwixTa0De-ofd3GiSEns1oHLdIzuY51_DFIuBK2S9iXBxziVqC0iQKodDFpNmEG9oGvAMECHvRTRD7sH3-AGWRjiWLWZxrDPu_rxVTmgZ9m9CEoLXT89RlgIcLJALMnHZPNTsNOfXEken4-ABy8=" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd7S_nlNcf-8Pwd-zZwixTa0De-ofd3GiSEns1oHLdIzuY51_DFIuBK2S9iXBxziVqC0iQKodDFpNmEG9oGvAMECHvRTRD7sH3-AGWRjiWLWZxrDPu_rxVTmgZ9m9CEoLXT89RlgIcLJALMnHZPNTsNOfXEken4-ABy8=&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  Ollama Speaks! How to Use the New Local Text-to-Speech AI Models in Ollama. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGACGaTAqEC9XH3iG7O_BwnZ4OrtjmAfSbhdYlq09AHEV51pxnINeTPCLAVsSAq_4-1BfX_qTRJrTMSo1sviM9Kh6KbTjS3xc1dM1GrDoJ7lvr6C2MCNrJCXvimWT8nxTnPjG7co8=" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGACGaTAqEC9XH3iG7O_BwnZ4OrtjmAfSbhdYlq09AHEV51pxnINeTPCLAVsSAq_4-1BfX_qTRJrTMSo1sviM9Kh6KbTjS3xc1dM1GrDoJ7lvr6C2MCNrJCXvimWT8nxTnPjG7co8=&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;  Speech - Ollama documentation. &lt;a href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRO5UOaqGH7nzO1J4AwwKsFol-R6fJccb4NbB0OTzLd6hi251LHw0QKel99C-VyC3oBSSrYA0gwNCV6lWQbJdiILZshTB-izBV-mPSafi_443iLJrY4Z9VoSoAme4CYmm6P-G7co8=" rel="noopener noreferrer"&gt;https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRO5UOaqGH7nzO1J4AwwKsFol-R6fJccb4NbB0OTzLd6hi251LHw0QKel99C-VyC3oBSSrYA0gwNCV6lWQbJdiILZshTB-izBV-mPSafi_443iLJrY4Z9VoSoAme4CYmm6P-G7co8=&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;p&gt;&lt;em&gt;Written by **Kamal Kishor&lt;/em&gt;* (&lt;a href="https://dev.to/koolkamalkishor"&gt;@koolkamalkishor&lt;/a&gt;) — Sr. Frontend Developer building AI agents (React, TypeScript, LangChain). &lt;a href="https://www.linkedin.com/in/koolkamalkishor/" rel="noopener noreferrer"&gt;LinkedIn&lt;/a&gt; · &lt;a href="https://github.com/koolkamalkishor" rel="noopener noreferrer"&gt;GitHub&lt;/a&gt; · &lt;a href="https://kamalkishor.vercel.app" rel="noopener noreferrer"&gt;Portfolio&lt;/a&gt;*&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Published: 04 Nov 2026. This article was generated with AI (Google Gemini + web search). Please check important details against the sources above.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+      <category>ai</category>
+      <category>linux</category>
+      <category>llm</category>
+      <category>tutorial</category>
+    </item>
+    <item>
+      <title>Building RTL (Arabic) Interfaces: Layout, Type, Tone, and Testing for Saudi Users</title>
+      <dc:creator>Wavespace Agency</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:26:33 +0000</pubDate>
+      <link>https://dev.to/obidulla_almamun_b2db557/building-rtl-arabic-interfaces-layout-type-tone-and-testing-for-saudi-users-pa</link>
+      <guid>https://dev.to/obidulla_almamun_b2db557/building-rtl-arabic-interfaces-layout-type-tone-and-testing-for-saudi-users-pa</guid>
+      <description>&lt;p&gt;Saudi Arabia is one of the most exciting digital markets right now. Fintech, e-commerce, healthtech, logistics, and SaaS products are launching fast. But many of them still make the same mistake: they design in English, translate to Arabic, and hope it works. &lt;br&gt;
+If you do a simple translation for local Arabic users, it’ll never work. It can even break your site. Here's what Arabic-first really means, broken into four parts: layout, type, tone, and testing.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Why translation alone isn't enough
+&lt;/h2&gt;
+
+&lt;p&gt;Saudi users are used to polished Arabic experiences. The banking apps, delivery apps, and government services they use every day are built properly for Arabic. When a new product shows up with an English layout and translated text, they notice right away.&lt;br&gt;
+We often get this type of issue from our clients at &lt;strong&gt;&lt;a href="https://www.wavespace.agency/" rel="noopener noreferrer"&gt;Wavespace&lt;/a&gt;&lt;/strong&gt;. It’s that the bounce rate is high for their local users. &lt;br&gt;
+They usually won't say, "This has a UX problem." They'll just feel the product isn't made for them, and they'll leave. &lt;br&gt;
+So, all your site’s misaligned buttons, menus on the wrong side, send the same message: this company didn't take Arabic users seriously.&lt;br&gt;
+Arabic-first design fixes that by building the product around Arabic speakers from the first screen, not adding Arabic at the end. It's the approach a good &lt;strong&gt;&lt;a href="https://www.wavespace.agency/locations/ui-ux-agency-in-riyadh" rel="noopener noreferrer"&gt;UI/UX design agency in Riyadh&lt;/a&gt;&lt;/strong&gt; takes from day one.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Part 1: Layout
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  Mirror the structure, don't just flip the screen
+&lt;/h3&gt;
+
+&lt;p&gt;Right-to-left design means the whole reading flow moves from right to left. Navigation anchors on the right. Form labels sit on the right. Content hierarchy starts on the right.&lt;br&gt;
+But flipping every element blindly creates a mess. Good RTL design rebuilds the layout so it still feels balanced and the most important content stays easy to find.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Know what to mirror and what to leave alone
+&lt;/h3&gt;
+
+&lt;p&gt;Should mirror:&lt;/p&gt;
+
+&lt;p&gt;Navigation and menus&lt;br&gt;
+Back and forward arrows, chevrons&lt;br&gt;
+Progress bars and step indicators&lt;br&gt;
+Carousels and swipe direction&lt;br&gt;
+Icons that point a direction&lt;/p&gt;
+
+&lt;p&gt;Should stay the same:&lt;/p&gt;
+
+&lt;p&gt;Logos and brand marks&lt;br&gt;
+Play, pause, and media controls&lt;br&gt;
+Checkmarks and most universal icons&lt;br&gt;
+Phone numbers, emails, codes, and URLs&lt;br&gt;
+Agree on this list early. It saves weeks of back-and-forth later.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Plan for mixed content
+&lt;/h3&gt;
+
+&lt;p&gt;Saudi products are full of English inside Arabic: brand names, product codes, prices, and emails. If these aren't handled properly, sentences jump around and become hard to read. Your design and dev teams should decide how mixed text behaves before the first screen is built.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Keep it the same everywhere
+&lt;/h3&gt;
+
+&lt;p&gt;A great Arabic mobile app doesn't help if the web dashboard or emails switch back to left-to-right. Users move between phone, laptop, and inbox. The experience should feel the same for everyone.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Part 2: Type
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  Use fonts built for Arabic UI
+&lt;/h3&gt;
+
+&lt;p&gt;Not every Arabic font works on screens. Some look elegant in print but fall apart at small sizes. Popular UI choices include Cairo, Almarai, IBM Plex Sans Arabic, and Noto Sans Arabic. Pick one that pairs well with your Latin font, so both languages feel like the same brand.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Give Arabic room to breathe
+&lt;/h3&gt;
+
+&lt;p&gt;Arabic letters have taller shapes above and below the line. Text that looks fine in English can feel cramped in Arabic. Increase line height, test real paragraphs, and leave space in buttons and labels. &lt;br&gt;
+This matters most in mobile app design, where small screens leave little room for error and most Saudi users meet your brand first.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Avoid English-only styles
+&lt;/h3&gt;
+
+&lt;p&gt;No letter-spacing. Arabic letters connect. Spacing them out breaks words.&lt;br&gt;
+No uppercase tricks. Arabic has no capital letters, so styles that rely on caps don't carry over. Careful with italics. Fake slanted Arabic often looks broken.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Decide on numbers and currency
+&lt;/h3&gt;
+
+&lt;p&gt;Arabic can use Western digits (123) or Eastern Arabic digits (١٢٣). Many Saudi products use Western digits in the interface, but it depends on your audience. Pick one rule and apply it to prices, dates, and stats everywhere. Saudi Arabia also introduced an official riyal symbol in 2025. Check that your fonts and design system support it before you use it in pricing.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Part 3: Tone
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  Rewrite, don't just translate
+&lt;/h3&gt;
+
+&lt;p&gt;Word-for-word translation often sounds stiff or strange. Arabic communication tends to be more formal, and some English phrases simply don't carry the same meaning. You have to write all the headlines, buttons, error messages, and onboarding copy in Arabic. &lt;br&gt;
+And, you can take help from someone local who understands both the language and your product.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Choose your voice: formal or friendly
+&lt;/h3&gt;
+
+&lt;p&gt;Modern Standard Arabic feels professional and works well for banking, government, and enterprise tools. A lighter, more conversational tone can work for consumer apps and younger audiences. Decide early, document it, and stay consistent.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Watch for gendered language
+&lt;/h3&gt;
+
+&lt;p&gt;Arabic grammar is gendered. A button or message written only for one gender can feel off to half your users. Good Arabic UX writing finds neutral phrasing or adapts based on what users have shared.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Respect local context
+&lt;/h3&gt;
+
+&lt;p&gt;Small details build trust:&lt;/p&gt;
+
+&lt;p&gt;Support both Hijri and Gregorian dates where users expect them.&lt;br&gt;
+Remember the Saudi work week runs Sunday to Thursday. Schedules, support hours, and delivery estimates should reflect that.&lt;br&gt;
+Use local sign-in and payment options your users already trust.&lt;br&gt;
+Make privacy and consent screens clear, especially with Saudi Arabia's Personal Data Protection Law (PDPL) now in force.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Part 4: Testing
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  Test with real Saudi users
+&lt;/h3&gt;
+
+&lt;p&gt;Automated checkers and design reviews catch layout bugs. They don't catch the moments where a user in Riyadh or Jeddah feels confused, unsure, or put off by the tone.&lt;br&gt;
+Run short usability sessions with real Saudi users from your target audience. Five people per key segment usually surface the biggest problems.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Test both languages, not just one
+&lt;/h3&gt;
+
+&lt;p&gt;Switch the full product to Arabic and walk through every core flow: sign-up, onboarding, checkout, payments, and support. Then do the same in English. Many bugs only show up when users switch languages mid-session.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Use real Arabic content
+&lt;/h3&gt;
+
+&lt;p&gt;Placeholder text hides problems. So, when you use long names, real addresses, and actual product descriptions, it reveals broken layouts that lorem ipsum never will.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  What this looks like in real projects
+&lt;/h2&gt;
+
+&lt;p&gt;At Wavespace, we've worked with 550+ companies since 2019 and hold a 4.9 average rating across 250+ reviews on Clutch, Upwork, and Fiverr. Our Gulf work is Arabic-first from day one:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cerebra&lt;/strong&gt;: we designed and built a bilingual Arabic-English platform for a Saudi cybersecurity company serving banks, government, and enterprise teams. Keeping design and development in one team kept both languages aligned from the first screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Akshab&lt;/strong&gt;: for a Saudi luxury oud and fragrance brand, we designed an e-commerce experience with premium storytelling, delivering 45% faster product discovery.&lt;br&gt;
+If you're planning a product for Saudi users, use the checklist below as a starting point before your first design review.&lt;/p&gt;
+
+</description>
+      <category>design</category>
+      <category>frontend</category>
+      <category>ux</category>
+    </item>
+    <item>
+      <title>Northmeadow Alpha 1: one encrypted memory for your local agents and your team</title>
+      <dc:creator>Northmeadow</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:25:50 +0000</pubDate>
+      <link>https://dev.to/northmeadow/northmeadow-alpha-1-one-encrypted-memory-for-your-local-agents-and-your-team-1o3m</link>
+      <guid>https://dev.to/northmeadow/northmeadow-alpha-1-one-encrypted-memory-for-your-local-agents-and-your-team-1o3m</guid>
+      <description>&lt;p&gt;Every agent session starts from zero. What your agent settled yesterday sits in yesterday's chat, and today's agent asks the same question again.&lt;/p&gt;
+
+&lt;p&gt;Northmeadow is our answer to that: a company brain that AI agents and people share. Alpha 1 is out today. It is free and runs on your own machine.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  What is in Alpha 1
+&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A browser interface for people, running locally on WSL2 (Windows), Linux or macOS.&lt;/li&gt;
+&lt;li&gt;Notes organised in mandates: one per project, client or department.&lt;/li&gt;
+&lt;li&gt;Notes encrypted with AES-256-GCM-SIV before they are stored. The service keeps them and cannot read them.&lt;/li&gt;
+&lt;li&gt;A Record: every access to Northmeadow goes into a SHA-256 hash chain that you export and check yourself with an Apache-2.0 verifier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;
+  
+  
+  How agents work with it
+&lt;/h2&gt;
+
+&lt;p&gt;In Chrome or Edge, a local agent such as Claude Code or Codex works through a folder copy of a mandate: plain Markdown files it can read and change. Saved changes flow back while the page and the mandate are open. The folder copy itself is not encrypted, so treat it like any local working folder.&lt;/p&gt;
+
+&lt;p&gt;MCP support is in the works and comes in an upcoming alpha.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Install
+&lt;/h2&gt;
+
+&lt;p&gt;One command in a terminal on WSL2, Linux or macOS:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight shell"&gt;&lt;code&gt;curl &lt;span class="nt"&gt;-fsSL&lt;/span&gt; https://github.com/bavarian-studio/northmeadow/releases/download/v0.1.0-alpha.1/install-northmeadow.sh | bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;It downloads the release and checks the checksum and the signature against the release key. If you prefer to check by hand, the release notes show how.&lt;/p&gt;
+
+&lt;p&gt;On native Linux you need a FIDO2 key, such as a YubiKey 5, or a phone via QR code.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Tell us what breaks
+&lt;/h2&gt;
+
+&lt;p&gt;It is an alpha, so expect rough edges. Questions, bugs and ideas go to &lt;a href="https://github.com/bavarian-studio/northmeadow/discussions?utm_source=devto&amp;amp;utm_medium=community&amp;amp;utm_campaign=alpha1" rel="noopener noreferrer"&gt;GitHub Discussions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/bavarian-studio/northmeadow/releases/tag/v0.1.0-alpha.1?utm_source=devto&amp;amp;utm_medium=community&amp;amp;utm_campaign=alpha1" rel="noopener noreferrer"&gt;Release and start guides&lt;/a&gt; · &lt;a href="https://northmeadow.ai/?utm_source=devto&amp;amp;utm_medium=community&amp;amp;utm_campaign=alpha1" rel="noopener noreferrer"&gt;northmeadow.ai&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzy79y0sdig6f2qmfuo7i.png" class="article-body-image-wrapper"&gt;&lt;img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzy79y0sdig6f2qmfuo7i.png" alt=" " width="800" height="336"&gt;&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <category>showdev</category>
+      <category>ai</category>
+      <category>selfhosted</category>
+      <category>security</category>
+    </item>
+    <item>
+      <title>I built 59 free browser-based dev tools in vanilla JS — here's what I learned</title>
+      <dc:creator>Yuva</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:25:10 +0000</pubDate>
+      <link>https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-4cim</link>
+      <guid>https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-4cim</guid>
+      <description>&lt;p&gt;I've been quietly building &lt;strong&gt;&lt;a href="https://antigravitytools.app" rel="noopener noreferrer"&gt;Antigravity Tools&lt;/a&gt;&lt;/strong&gt; — a collection of 59 free, browser-based developer utilities — and today I'm sharing everything I built and learned.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Why vanilla JS? No React, no build step.
+&lt;/h2&gt;
+
+&lt;p&gt;The main constraint I set for myself: &lt;strong&gt;zero dependencies, zero server, zero telemetry&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you paste your JWT token into jwt.io, it goes to their server. When you use an online regex tester, your test strings are logged. I built Antigravity Tools so every operation runs inside your browser, using native APIs.&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;No Node.js backend
+No npm packages
+No webpack/vite/parcel
+No Google Analytics
+No cookies
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;Everything runs on &lt;code&gt;Web Crypto API&lt;/code&gt;, &lt;code&gt;Canvas API&lt;/code&gt;, &lt;code&gt;Web Audio API&lt;/code&gt;, and &lt;code&gt;IndexedDB&lt;/code&gt; — all native to modern browsers.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  The 8 tool categories
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  🔐 Security &amp;amp; Auth Tools
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;JWT Inspector&lt;/strong&gt; — decode JWT header, payload, and check expiry locally&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;RSA &amp;amp; ECC Key Generator&lt;/strong&gt; — generate 2048-bit key pairs via SubtleCrypto&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Hash &amp;amp; Password Generator&lt;/strong&gt; — SHA-256/SHA-512 via Web Crypto&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;PII Masker&lt;/strong&gt; — strip emails, credit cards, SSNs, IPs from text&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Universal Encoder/Decoder&lt;/strong&gt; — Base64, URL, Hex, HTML entities, Unicode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  🤖 AI &amp;amp; Prompting Tools
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;AI Token Counter&lt;/strong&gt; — estimate cost across GPT-4o, Claude 3.5, Gemini 2.0, DeepSeek R1&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;System Prompt Builder&lt;/strong&gt; — structure agent instructions with XML tags and tool definitions&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;AI Text Humanizer&lt;/strong&gt; — rephrase robotic AI output into natural writing&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Prompt Cost Trimmer&lt;/strong&gt; — compress prompts by 30–50% to reduce API costs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;
+  
+  
+  ⚡ Dev &amp;amp; Code Tools
+&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;JSON Workbench&lt;/strong&gt; — beautify, validate, convert to TypeScript, Python, Go types&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;cURL Converter&lt;/strong&gt; — cURL → JS fetch, Python requests, Go, PHP&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Regex Tester&lt;/strong&gt; — real-time match highlighting with capture group display&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Cron Builder&lt;/strong&gt; — visual cron expression editor with plain-English output&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Git Command Helper&lt;/strong&gt; — build undo/squash/cherry-pick commands visually&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;
+  
+  
+  Try it
+&lt;/h2&gt;
+
+&lt;p&gt;👉 &lt;strong&gt;&lt;a href="https://antigravitytools.app" rel="noopener noreferrer"&gt;https://antigravitytools.app&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+      <category>webdev</category>
+      <category>javascript</category>
+      <category>tools</category>
+      <category>programming</category>
+    </item>
+    <item>
+      <title>MCP server not showing in Claude Code or Codex? Find out which of three problems you have</title>
+      <dc:creator>agentflowshub</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:24:35 +0000</pubDate>
+      <link>https://dev.to/agentflowshub/mcp-server-not-showing-in-claude-code-or-codex-find-out-which-of-three-problems-you-have-4c33</link>
+      <guid>https://dev.to/agentflowshub/mcp-server-not-showing-in-claude-code-or-codex-find-out-which-of-three-problems-you-have-4c33</guid>
+      <description>&lt;p&gt;"The MCP server is not working" can mean three different things, and each has a different fix. Before you edit any configuration, find out which one you have:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The server is &lt;strong&gt;missing&lt;/strong&gt; from your application's list.&lt;/li&gt;
+&lt;li&gt;The server is &lt;strong&gt;listed but not connected&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;The server is &lt;strong&gt;connected, but the tool you wanted never runs&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;
+  
+  
+  First, see what is configured
+&lt;/h2&gt;
+
+&lt;div class="table-wrapper-paragraph"&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Claude Code&lt;/th&gt;
+&lt;th&gt;Codex&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;List servers&lt;/td&gt;
+&lt;td&gt;
+&lt;code&gt;claude mcp list&lt;/code&gt;, or &lt;code&gt;/mcp&lt;/code&gt; in a session&lt;/td&gt;
+&lt;td&gt;
+&lt;code&gt;codex mcp list&lt;/code&gt;, or &lt;code&gt;/mcp&lt;/code&gt; in the TUI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Add a local server&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;claude mcp add &amp;lt;name&amp;gt; -- &amp;lt;command&amp;gt; [args]&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;codex mcp add &amp;lt;name&amp;gt; -- &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Add a remote server&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;claude mcp add --transport http &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;codex mcp add &amp;lt;name&amp;gt; --url &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stored in&lt;/td&gt;
+&lt;td&gt;
+&lt;code&gt;~/.claude.json&lt;/code&gt; (local and user scope) or &lt;code&gt;.mcp.json&lt;/code&gt; in the project root (project scope)&lt;/td&gt;
+&lt;td&gt;
+&lt;code&gt;~/.codex/config.toml&lt;/code&gt;, or &lt;code&gt;.codex/config.toml&lt;/code&gt; in a trusted project, under &lt;code&gt;[mcp_servers.&amp;lt;name&amp;gt;]&lt;/code&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;
+
+&lt;p&gt;The desktop app, CLI and IDE extension of Codex share one configuration. Claude Code and Codex never read each other's files, so a server added to one is invisible to the other.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  1. The server is missing
+&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Check that you added it to the application you are actually using.&lt;/li&gt;
+&lt;li&gt;In Claude Code, check the scope. A local-scope server loads only in the project folder where you added it; &lt;code&gt;--scope user&lt;/code&gt; makes it available in every project.&lt;/li&gt;
+&lt;li&gt;A server in a project's &lt;code&gt;.mcp.json&lt;/code&gt; waits for your approval the first time Claude Code opens that folder. Until then it shows &lt;code&gt;Pending approval&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If the same name is defined in more than one place, Claude Code uses one definition: local scope first, then project, user, plugin-provided servers and claude.ai connectors. Fields are not merged, so editing a lower-priority copy has no effect.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;
+  
+  
+  2. The server is listed but not connected
+&lt;/h2&gt;
+
+&lt;p&gt;Claude Code shows &lt;code&gt;Connected&lt;/code&gt;, &lt;code&gt;Needs authentication&lt;/code&gt; or &lt;code&gt;Failed to connect&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;strong&gt;Needs authentication:&lt;/strong&gt; run &lt;code&gt;/mcp&lt;/code&gt; and sign in, or &lt;code&gt;claude mcp login &amp;lt;name&amp;gt;&lt;/code&gt; from the terminal. In Codex, run &lt;code&gt;codex mcp login &amp;lt;name&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Failed, local server:&lt;/strong&gt; run the exact command from the configuration in a terminal. A missing &lt;code&gt;node&lt;/code&gt;, &lt;code&gt;npx&lt;/code&gt;, &lt;code&gt;uvx&lt;/code&gt; or &lt;code&gt;docker&lt;/code&gt; is the most common cause. An application started from a desktop shortcut may not see the same &lt;code&gt;PATH&lt;/code&gt; as your terminal.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Failed, remote server:&lt;/strong&gt; check the URL against the server's documentation. A service's homepage is not its MCP endpoint.&lt;/li&gt;
+&lt;li&gt;
+&lt;strong&gt;Slow to start:&lt;/strong&gt; Claude Code reads the &lt;code&gt;MCP_TIMEOUT&lt;/code&gt; environment variable in milliseconds (&lt;code&gt;MCP_TIMEOUT=10000 claude&lt;/code&gt;). Codex uses &lt;code&gt;startup_timeout_sec&lt;/code&gt; in the server's entry; the default is 10 seconds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A local server that fails to start is not retried automatically in Claude Code. After you fix it, choose &lt;strong&gt;Reconnect&lt;/strong&gt; in &lt;code&gt;/mcp&lt;/code&gt;. Change one thing at a time and look at the status again after each change.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  3. Connected, but the tool never runs
+&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open &lt;code&gt;/mcp&lt;/code&gt; and look at the tools the server actually exposes. Compare them with its documentation: your account may lack access to some operations, or the server may need a setting that enables them.&lt;/li&gt;
+&lt;li&gt;Then ask for the operation by name with a small, known input, for example "use the GitHub server to list three open issues in this repository", and watch the tool activity. A plausible answer does not prove the tool ran; the model may have answered from memory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;
+  
+  
+  What to include when you ask for help
+&lt;/h2&gt;
+
+&lt;p&gt;The application and version, the scope or config file, the server name, how it connects (local command or URL), the status shown and the exact error message. Remove tokens and private data first.&lt;/p&gt;
+
+&lt;p&gt;The same checklist, with more detail on each state: &lt;a href="https://www.agentflowshub.com/en/learn/mcp-server-not-showing" rel="noopener noreferrer"&gt;MCP server not showing in Claude Code or Codex&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Written with AI assistance.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+      <category>mcp</category>
+      <category>ai</category>
+      <category>chatgpt</category>
+      <category>claude</category>
+    </item>
+    <item>
+      <title>Why I'm learning software engineering 💻</title>
+      <dc:creator>Immaculate Nansubuga </dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:23:58 +0000</pubDate>
+      <link>https://dev.to/immaculatenansubuga/why-im-learning-software-engineering-497l</link>
+      <guid>https://dev.to/immaculatenansubuga/why-im-learning-software-engineering-497l</guid>
+      <description>&lt;p&gt;Hi, I'm Immaculate from Uganda. I'm learning software engineering because I want to build tools that solve real problems in my community.&lt;/p&gt;
+
+&lt;p&gt;I've seen how much difference the right technology can make, and I want to be one of the people building it. I plan to study computer science at university and, after that, start my own software engineering company.&lt;/p&gt;
+
+&lt;p&gt;For now, I'm learning in public. I'll share what I'm learning, the small projects I build, and the mistakes I make along the way. Some posts will be technical, and some will be about the problems I see around me that software could help solve.&lt;/p&gt;
+
+&lt;p&gt;My first goal is to build a simple web app and publish it. I'll write about how it goes, including the parts that break.&lt;/p&gt;
+
+&lt;p&gt;If you're also learning to code, or you've been through this journey, I'd love to hear your advice. Follow along, and let's learn together.&lt;/p&gt;
+
+</description>
+      <category>beginners</category>
+      <category>buildinpublic</category>
+      <category>learning</category>
+      <category>softwareengineering</category>
+    </item>
+    <item>
+      <title>I Built a Free One-Page Restaurant Template in Pure HTML/CSS</title>
+      <dc:creator>Rachid Menai</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:23:40 +0000</pubDate>
+      <link>https://dev.to/rachid_menai_331df424f85a/i-built-a-free-one-page-restaurant-template-in-pure-htmlcss-bog</link>
+      <guid>https://dev.to/rachid_menai_331df424f85a/i-built-a-free-one-page-restaurant-template-in-pure-htmlcss-bog</guid>
+      <description>&lt;p&gt;Restaurant websites don't need a framework, a build step, or a backend to look great. So I built a small, fast restaurant template in pure HTML and CSS — and the lite version is free.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  What the free lite version includes
+&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A hero section with the restaurant's name and mood&lt;/li&gt;
+&lt;li&gt;Featured dishes with prices&lt;/li&gt;
+&lt;li&gt;Opening hours and contact block&lt;/li&gt;
+&lt;li&gt;Fully responsive, mobile-first layout&lt;/li&gt;
+&lt;li&gt;No build step, no JavaScript framework, no backend&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;
+  
+  
+  Try it
+&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Live demo: &lt;a href="https://rachidmenai5588-collab.github.io/saffron-and-sage/lite/index.html" rel="noopener noreferrer"&gt;https://rachidmenai5588-collab.github.io/saffron-and-sage/lite/index.html&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Source code (MIT): &lt;a href="https://github.com/rachidmenai5588-collab/saffron-and-sage-lite" rel="noopener noreferrer"&gt;https://github.com/rachidmenai5588-collab/saffron-and-sage-lite&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just download it, change the text, colors, and photos, and it is your restaurant's page.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Want the full version?
+&lt;/h2&gt;
+
+&lt;p&gt;The full "Saffron &amp;amp; Sage" template adds everything a real restaurant site needs across 6 pages: a complete menu with a working category filter, a reservation form, a gallery with a lightbox, an about page, and a contact page — still pure HTML/CSS/vanilla JS.&lt;/p&gt;
+
+&lt;p&gt;Full version: $15 (one-time). To buy it, email &lt;a href="mailto:rachidmenai5588@gmail.com"&gt;rachidmenai5588@gmail.com&lt;/a&gt; and mention "Saffron &amp;amp; Sage template".&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Built as a lightweight alternative to heavy themes: one stylesheet, one script, and photos you can swap in minutes.&lt;/p&gt;
+
+</description>
+      <category>html</category>
+      <category>css</category>
+      <category>webdev</category>
+      <category>opensource</category>
+    </item>
+    <item>
+      <title>OAuth Test Flows Need a Browser-Binding Check</title>
+      <dc:creator>SophiaXS</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:23:27 +0000</pubDate>
+      <link>https://dev.to/sophiax99/oauth-test-flows-need-a-browser-binding-check-3nbn</link>
+      <guid>https://dev.to/sophiax99/oauth-test-flows-need-a-browser-binding-check-3nbn</guid>
+      <description>&lt;p&gt;OAuth tests can pass while proving the wrong thing. A browser starts a login, an identity provider redirects back, and a test sees a successful session. But if two workers share a browser context, or an old callback is accepted, the green result may belong to another flow.&lt;/p&gt;
+
+&lt;p&gt;The security question is not only “did authentication complete?” It is “did this browser, this authorization request, and this account complete the same flow?” I treat that as a browser-binding check. It is a small addition to a test fixture, but it makes session mix-ups and replay-like bugs much easier to see.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  The browser-binding problem
+&lt;/h2&gt;
+
+&lt;p&gt;An OAuth browser test usually has at least four identities:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the test worker and its run ID&lt;/li&gt;
+&lt;li&gt;the browser context that holds cookies&lt;/li&gt;
+&lt;li&gt;the client registration and redirect URI&lt;/li&gt;
+&lt;li&gt;the user account that receives the authorization result&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The email fixture adds another boundary. A throwaway email address can help create an isolated test account, but receiving a message does not prove that the current browser initiated the request. If a helper simply opens the newest message, a previous worker can accidentally supply the evidence.&lt;/p&gt;
+
+&lt;p&gt;This is a common failure pattern:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Worker A starts an authorization request.&lt;/li&gt;
+&lt;li&gt;Worker B reuses a shared inbox or browser context.&lt;/li&gt;
+&lt;li&gt;A callback from B is observed by A.&lt;/li&gt;
+&lt;li&gt;The test checks only that a session exists and passes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The product may still have a real defect: weak state validation, an overly broad redirect handler, or a session cookie that crosses test boundaries. The test did not catch it because its assertion was too wide.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  What state and PKCE actually prove
+&lt;/h2&gt;
+
+&lt;p&gt;The OAuth &lt;code&gt;state&lt;/code&gt; value is a correlation value for the authorization request. A callback should match the value stored by the same browser session, and the value should be unpredictable. It is not a universal proof that the user intended every action after login.&lt;/p&gt;
+
+&lt;p&gt;PKCE adds a different check. The client creates a verifier, sends a derived challenge to the authorization server, and later presents the verifier at the token endpoint. A stolen authorization code should not be enough without that verifier. These controls work together, but neither one removes the need to isolate browser state in tests.&lt;/p&gt;
+
+&lt;p&gt;For a test fixture, keep the ownership rules explicit:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight typescript"&gt;&lt;code&gt;&lt;span class="kd"&gt;type&lt;/span&gt; &lt;span class="nx"&gt;OAuthRun&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="na"&gt;runId&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kr"&gt;string&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="nl"&gt;state&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kr"&gt;string&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="nl"&gt;codeVerifier&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kr"&gt;string&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="nl"&gt;browserContextId&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kr"&gt;string&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="nl"&gt;inboxId&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kr"&gt;string&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+  &lt;span class="nl"&gt;startedAt&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kr"&gt;string&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;The callback handler can now check that the request belongs to the current run, that the browser owns the stored state, and that the token exchange uses the matching verifier. Do not log the verifier, authorization code, or full email address. A short run ID and redacted message ID is enough for most diagnosis.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Build a test fixture with explicit ownership
+&lt;/h2&gt;
+
+&lt;p&gt;Start each test with a fresh browser context. Generate a run ID and store it outside page content, such as in the test worker's fixture state. Create an isolated account using a throwaway email address only for the test environment, then place a non-secret correlation marker where the application can safely associate it with the run.&lt;/p&gt;
+
+&lt;p&gt;The sequence should look like this:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight plaintext"&gt;&lt;code&gt;new worker -&amp;gt; new browser context -&amp;gt; new account -&amp;gt; new OAuth request
+    |             |                    |              |
+  run ID       cookies             inbox lease       state + PKCE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;When the callback arrives, assert all of these conditions rather than only checking the final URL:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the redirect URI is the expected environment and exact path&lt;/li&gt;
+&lt;li&gt;the &lt;code&gt;state&lt;/code&gt; value matches the current context&lt;/li&gt;
+&lt;li&gt;the code exchange uses the current PKCE verifier&lt;/li&gt;
+&lt;li&gt;the account identity matches the account created by this run&lt;/li&gt;
+&lt;li&gt;the session cookie exists only in this browser context&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The last check is easy to skip, and it catches surprises that URL assertions miss. It also make parallel failures easier to reproduce.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Exercise the failure paths
+&lt;/h2&gt;
+
+&lt;p&gt;A security-aware test suite should deliberately send the wrong evidence. These cases are more valuable than repeating the happy path many times:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;replace &lt;code&gt;state&lt;/code&gt; with a value from another worker&lt;/li&gt;
+&lt;li&gt;use a valid authorization code with the wrong PKCE verifier&lt;/li&gt;
+&lt;li&gt;replay a callback after the run has expired&lt;/li&gt;
+&lt;li&gt;send the callback to a staging host from a production fixture&lt;/li&gt;
+&lt;li&gt;read an email received before the current run started&lt;/li&gt;
+&lt;li&gt;open the callback in a different browser context&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each case should fail for a named reason. “Login failed” is not enough; &lt;code&gt;state_mismatch&lt;/code&gt;, &lt;code&gt;pkce_verifier_rejected&lt;/code&gt;, and &lt;code&gt;stale_message&lt;/code&gt; tell the maintainer what boundary worked. The test should not retry a rejected security condition until it becomes green. That can hide a bug and make the report less clear.&lt;/p&gt;
+
+&lt;p&gt;If a manual note includes terms such as &lt;code&gt;tempail&lt;/code&gt; or &lt;code&gt;temp org mail&lt;/code&gt;, keep them out of account ownership assertions. They may explain a search or fixture history, but they are not identity evidence.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Keep CI evidence useful
+&lt;/h2&gt;
+
+&lt;p&gt;OAuth failures are difficult to investigate when CI saves only a screenshot of the final page. Save a redacted receipt with the run ID, browser context ID, redirect host, state result, PKCE result, message ID, and final decision. Do not save access tokens, refresh tokens, authorization codes, or complete inbox contents.&lt;/p&gt;
+
+&lt;p&gt;For a compact pattern, pair the receipt with &lt;a href="https://dev.to/pong1965/api-smoke-tests-need-a-reviewable-ci-receipt-go7"&gt;a reviewable CI receipt for API checks&lt;/a&gt;. The principle is the same: a result should explain what was checked, not merely claim that a command exited successfully. During deployment investigations, &lt;a href="https://dev.to/jasonmills94/ecr-to-kubernetes-keep-a-deploy-receipt-2bjk"&gt;a deploy receipt that explains what happened&lt;/a&gt; is a useful reminder that provenance matters across system boundaries.&lt;/p&gt;
+
+&lt;p&gt;A receipt could contain:&lt;br&gt;
+&lt;/p&gt;
+
+&lt;div class="highlight js-code-highlight"&gt;
+&lt;pre class="highlight json"&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nl"&gt;"run_id"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"oauth-7f31"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nl"&gt;"browser_context"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"ctx-204"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nl"&gt;"redirect_host"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"staging.example.test"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nl"&gt;"state"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"matched"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nl"&gt;"pkce"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"matched"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nl"&gt;"email_message"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"msg-redacted-81"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;
+  &lt;/span&gt;&lt;span class="nl"&gt;"decision"&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"accepted"&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/div&gt;
+
+
+
+&lt;p&gt;This format is boring on purpose. It gives a teammate enough information to compare parallel runs without turning sensitive protocol values into permanent CI artifacts.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  A practical security checklist
+&lt;/h2&gt;
+
+&lt;p&gt;Before relying on an OAuth browser test, verify:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;every worker gets a fresh browser context and run ID&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;state&lt;/code&gt; is generated, stored, and checked per context&lt;/li&gt;
+&lt;li&gt;PKCE is enabled where the client flow supports it&lt;/li&gt;
+&lt;li&gt;redirect URIs are exact and environment-aware&lt;/li&gt;
+&lt;li&gt;the email fixture is isolated and filtered by run start time&lt;/li&gt;
+&lt;li&gt;account identity is checked after token exchange&lt;/li&gt;
+&lt;li&gt;rejected callbacks have stable, specific reasons&lt;/li&gt;
+&lt;li&gt;artifacts redact tokens, codes, and mailbox contents&lt;/li&gt;
+&lt;li&gt;expired fixtures are cleaned up, even when the test fails&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The checklist is small enough to review during a pull request. More importantly, it turns an OAuth test from a page-navigation script into a set of claims about ownership.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Common questions
+&lt;/h2&gt;
+
+&lt;h3&gt;
+  
+  
+  Is checking &lt;code&gt;state&lt;/code&gt; enough?
+&lt;/h3&gt;
+
+&lt;p&gt;No. State helps correlate a callback with an authorization request, while PKCE protects the code exchange. You still need isolated browser state, exact redirect checks, and an assertion about the account that was authenticated.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  Should every test use a real personal inbox?
+&lt;/h3&gt;
+
+&lt;p&gt;No. Personal inboxes make isolation, cleanup, and privacy harder. Use controlled test fixtures in a non-production environment, with short lifetimes and redacted evidence.&lt;/p&gt;
+
+&lt;h3&gt;
+  
+  
+  What is the best first improvement?
+&lt;/h3&gt;
+
+&lt;p&gt;Give every worker a fresh browser context and a visible run ID, then record why each callback was accepted or rejected. That change usually exposes hidden sharing before the suite needs a larger redesign.&lt;/p&gt;
+
+&lt;p&gt;Browser binding is not an extra layer of ceremony. It is the missing assertion that connects the authorization request, the email fixture, the callback, and the resulting session to one test run.&lt;/p&gt;
+
+</description>
+      <category>security</category>
+      <category>oauth</category>
+      <category>authentication</category>
+      <category>webdev</category>
+    </item>
+    <item>
+      <title>fanotify permission events can block file access, but only while the listener answers</title>
+      <dc:creator>jeffrey</dc:creator>
+      <pubDate>Wed, 04 Nov 2026 11:21:46 +0000</pubDate>
+      <link>https://dev.to/jeffreyciend/fanotify-permission-events-can-block-file-access-but-only-while-the-listener-answers-4pb6</link>
+      <guid>https://dev.to/jeffreyciend/fanotify-permission-events-can-block-file-access-but-only-while-the-listener-answers-4pb6</guid>
+      <description>&lt;h1&gt;
+  
+  
+  fanotify permission events can block file access, but only while the listener answers
+&lt;/h1&gt;
+
+&lt;p&gt;fanotify can notify a process when another process opens a file. With permission events such as &lt;code&gt;FAN_OPEN_PERM&lt;/code&gt;, the kernel waits for the listener to approve or deny the operation. That makes fanotify useful for malware controls, file-integrity products, and data-loss prevention. It also makes the listener part of the filesystem availability path.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  A permission event is a blocking decision
+&lt;/h2&gt;
+
+&lt;p&gt;The fanotify manual describes permission events as operations that require a response from the program that initialized the notification group. The program reads an event and writes a decision to the fanotify file descriptor. The decision happens before the file is opened. This is different from an audit event that reports access after the fact.&lt;/p&gt;
+
+&lt;p&gt;Permission events are not merged into one queue entry. A busy host can therefore create a large number of individual decisions. Design the listener with bounded queues, explicit overload behavior, and monitoring. If the listener is slow, applications may wait. If it crashes, administrators need to know whether access resumes, is denied, or remains pending. Test that behavior in a lab before enabling enforcement on production mounts.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Scope the mark before the decision
+&lt;/h2&gt;
+
+&lt;p&gt;An enforcement profile should identify the mount, the object mask, and the processes whose events matter. Marking an entire root filesystem captures the package manager, log rotation, backup agents, and the monitoring process itself. Exclude the listener's own events where the API permits it, and use separate groups for visibility and blocking. A group that only reports events should not inherit the failure mode of a group that decides them.&lt;/p&gt;
+
+&lt;p&gt;The capability needed to initialize fanotify is privileged. Give the listener only the capability and namespace it needs. Run it as a dedicated service, keep its configuration root-owned, and do not expose a control socket to unprivileged users. If the product offers an allowlist file, that file is security policy and should be versioned and reviewed.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Plan for unavailable storage
+&lt;/h2&gt;
+
+&lt;p&gt;A file-access control can become an availability incident when the policy server or local daemon is unavailable. Use a local decision path with a short timeout and a documented fallback. Do not assume that a closed file descriptor automatically yields the safest outcome in every kernel version. Test the exact kernel and distribution, record the result, and choose a behavior that matches the risk of the protected data.&lt;/p&gt;
+
+&lt;p&gt;Monitor the event rate, decision latency, queue length, dropped events, listener restarts, and denied operations. A sudden rise in &lt;code&gt;FAN_OPEN_PERM&lt;/code&gt; events can indicate a scan loop or a change in the mount scope. Send the listener's health to the same monitoring system as the protected service, and alert before the queue becomes full.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  Verify both allow and deny
+&lt;/h2&gt;
+
+&lt;p&gt;Use a benign file and an application that should be allowed. Confirm that the open succeeds and that the listener records the decision. Use a test file that the policy should block and confirm that the application sees a refusal. Restart the listener during a test and observe whether the service recovers without manual cleanup. Repeat the test after a kernel or product update.&lt;/p&gt;
+
+&lt;p&gt;The strongest deployment separates visibility from enforcement. Start with a report-only group, build a map of normal access, then add a narrow permission policy. That sequence reduces the chance that a noisy or unavailable listener becomes an unplanned outage.&lt;/p&gt;
+
+&lt;h2&gt;
+  
+  
+  References
+&lt;/h2&gt;
+
+&lt;p&gt;[1] &lt;a href="https://man7.org/linux/man-pages/man7/fanotify.7.html" rel="noopener noreferrer"&gt;Linux fanotify manual&lt;/a&gt;&lt;/p&gt;
+
+</description>
+      <category>linux</category>
+      <category>fanotify</category>
+      <category>fileaccess</category>
+    </item>
+    
+  </channel>
+</rss>

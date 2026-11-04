@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News]]></title>
+        <description><![CDATA[BBC News - World]]></description>
+        <link>https://www.bbc.co.uk/news/world</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News</title>
+            <link>https://www.bbc.co.uk/news/world</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 04 Nov 2026 11:31:06 GMT</lastBuildDate>
+        <atom:link href="https://feeds.bbci.co.uk/news/world/rss.xml" rel="self" type="application/rss+xml"/>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[South Carolina elects Democratic senator for first time in almost three decades]]></title>
+            <description><![CDATA[Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cjy56z440nl9o#0</guid>
+            <pubDate>Wed, 04 Nov 2026 07:32:02 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6a3/live/caaae0c0-d822-11f1-93e1-3b657b665bcf.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[James Talarico becomes first Democrat to win Texas Senate seat since 1988]]></title>
+            <description><![CDATA["This wasn't just a tsunami, not just a referendum, but this was a bloodbath," one expert told the BBC on Democrats' historic wins in Texas.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o#0</guid>
+            <pubDate>Wed, 04 Nov 2026 05:39:36 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73ea/live/1e2e9940-d836-11f1-a701-fddedf244c16.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Florida Republicans fend off Democrats as state elects first black governor]]></title>
+            <description><![CDATA[Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida. ]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c9146d88pl32o#0</guid>
+            <pubDate>Wed, 04 Nov 2026 07:12:21 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee47/live/138d4020-d80b-11f1-915d-779ac405bbbc.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Iran's chief negotiator says Americans voted 'no to war']]></title>
+            <description><![CDATA["We endorse this message," Mohammed Bagher Ghalibaf says, as Donald Trump acknowledges the conflict's role in the Republican Party's defeat.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6d934npl9y8o#0</guid>
+            <pubDate>Wed, 04 Nov 2026 10:11:39 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd62/live/d825bb50-d82f-11f1-a701-fddedf244c16.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Delhi air quality worsens ahead of Diwali as firework restrictions enter force]]></title>
+            <description><![CDATA[On Wednesday morning, Delhi's air quality index reading stood at 377, in the "very poor" category.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c699z8792n7ro#0</guid>
+            <pubDate>Wed, 04 Nov 2026 07:39:38 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f657/live/383e2830-d810-11f1-bc0e-b5a9e0785e4b.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[ANC under pressure to reverse South Africa decline]]></title>
+            <description><![CDATA[As South Africans vote in local elections, residents tell the BBC they are tired of the poor quality of services they get.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo#0</guid>
+            <pubDate>Wed, 04 Nov 2026 00:03:19 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb2c/live/fc87dad0-d7aa-11f1-93e1-3b657b665bcf.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Rwanda's army team removed from Africa league after US sanctions, NBA says]]></title>
+            <description><![CDATA[The US imposed sanctions on Rwanda's army over its role in the conflict in DR Congo.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c699zdx9knmpo#1</guid>
+            <pubDate>Wed, 04 Nov 2026 11:12:15 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6062/live/1ba36940-d830-11f1-be97-417dbcdedd32.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Killer who escaped Tennessee prison captured after week-long manhunt]]></title>
+            <description><![CDATA[Jacob Allen Morley was serving a life sentence for murder before he escaped over a prison fence.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cmq8nj23v8qqo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cmq8nj23v8qqo#1</guid>
+            <pubDate>Wed, 04 Nov 2026 02:11:40 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35c5/live/aa0e52d0-d7f9-11f1-afc1-71ff3c391379.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea]]></title>
+            <description><![CDATA[Papua New Guinea police had earlier dismissed speculation that the 32kg object was "merely a dummy".]]></description>
+            <link>https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o#1</guid>
+            <pubDate>Wed, 04 Nov 2026 03:46:10 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03fb/live/ecd52fb0-d800-11f1-b851-6586c863d7ea.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Spanish transport minister resigns days after deadly train crash]]></title>
+            <description><![CDATA[At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.]]></description>
+            <link>https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo#1</guid>
+            <pubDate>Tue, 03 Nov 2026 22:45:59 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6eee/live/c7353ed0-d81e-11f1-a701-fddedf244c16.jpg"/>
+        </item>
+        
+    </channel>
+</rss>

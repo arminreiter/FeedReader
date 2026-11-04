@@ -15,7 +15,25 @@ namespace CodeHollow.FeedReader.Tests
             Assert.AreEqual(expected, actual);
         }
 
-        #region Synchronous 
+        #region Synchronous
+
+        [TestMethod]
+        public void TestAtomLinkPrefersAlternateAndCategoriesUseTerm()
+        {
+            var feed = FeedReader.ReadFromString(@"<feed xmlns=""http://www.w3.org/2005/Atom"">
+<title>t</title><link rel=""self"" href=""https://x/feed.xml""/><link href=""https://x/""/><category term=""news""/>
+<entry><title>e</title>
+<link rel=""replies"" type=""application/atom+xml"" href=""https://x/comments""/>
+<link rel=""alternate"" type=""application/atom+xml"" href=""https://x/post.xml""/>
+<link rel=""alternate"" type=""text/html"" href=""https://x/post""/>
+</entry>
+<entry><title>f</title><link rel=""edit"" href=""https://x/edit""/></entry></feed>");
+
+            Eq("https://x/", feed.Link);
+            Eq("news", ((AtomFeed)feed.SpecificFeed).Categories.Single());
+            Eq("https://x/post", feed.Items.ElementAt(0).Link);
+            Eq("https://x/edit", feed.Items.ElementAt(1).Link); // fallback: first link
+        }
 
                 [TestMethod]
         public void TestAtomParseAdobe()
