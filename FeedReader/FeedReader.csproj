@@ -14,7 +14,7 @@
     <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/arminreiter/FeedReader/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/arminreiter/FeedReader/</RepositoryUrl>
-    <Version>2.1.0</Version>
+    <Version>2.1.1</Version>
     <PackageReleaseNotes>New:
 - CategoryDetails on RSS 0.92/2.0, MediaRSS and Atom feeds and items: categories with domain/scheme, term and label
 - itunes:title on GetItunesChannel() and GetItunesItem()
