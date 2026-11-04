@@ -27,6 +27,11 @@ jobs:
       - name: Tag must match csproj version
         run: grep -q "<Version>${V#v}</Version>" FeedReader/FeedReader.csproj
 
+      # Debug config on purpose: the test build compiles the library unsigned (see FeedReader.Tests.csproj),
+      # pack.sh builds the signed Release from scratch
+      - name: Test
+        run: dotnet test FeedReader.Tests
+
       - name: Pack
         run: build/pack.sh "-p:PackageReleaseNotes=https://github.com/${{ github.repository }}/releases/tag/$V"
 
