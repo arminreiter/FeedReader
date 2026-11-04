@@ -72,6 +72,11 @@
         public ICollection<string> Categories { get; set; } // category
 
         /// <summary>
+        /// All "category" elements with their attributes (domain, term, scheme, label)
+        /// </summary>
+        public ICollection<FeedCategory> CategoryDetails { get; set; }
+
+        /// <summary>
         /// The "generator" element
         /// </summary>
         public string Generator { get; set; }
@@ -136,6 +141,7 @@
 
             var categories = channel.GetElements("category");
             this.Categories = categories.Select(x => x.GetValue()).ToList();
+            this.CategoryDetails = categories.Select(x => new FeedCategory(x)).ToList();
 
             this.Sy = new Syndication(channel);
             this.Generator = channel.GetValue("generator");

@@ -57,6 +57,11 @@
         public ICollection<string> Categories { get; set; }
 
         /// <summary>
+        /// All "category" elements with their attributes (domain, term, scheme, label)
+        /// </summary>
+        public ICollection<FeedCategory> CategoryDetails { get; set; }
+
+        /// <summary>
         /// All entries from the "media:content" elements.
         /// </summary>
         public ICollection<Media> Media { get; set; }
@@ -110,6 +115,7 @@
 
             var categories = item.GetElements("category");
             this.Categories = categories.Select(x => x.GetValue()).ToList();
+            this.CategoryDetails = categories.Select(x => new FeedCategory(x)).ToList();
 
             this.Guid = item.GetValue("guid");
             this.Description = item.GetValue("description");

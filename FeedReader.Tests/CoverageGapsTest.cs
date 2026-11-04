@@ -93,6 +93,51 @@ namespace CodeHollow.FeedReader.Tests
         }
 
         [TestMethod]
+        public void TestCategoryDetails()
+        {
+            var rss = FeedReader.ReadFromString(Rss(
+                "<category domain=\"https://example.com/tax\">News</category>" +
+                "<item><title>a</title><category>Plain</category><category domain=\"d\">Tech</category></item>"));
+            var channelCategory = ((Rss20Feed)rss.SpecificFeed).CategoryDetails.Single();
+            Assert.AreEqual("News", channelCategory.Name);
+            Assert.AreEqual("https://example.com/tax", channelCategory.Scheme);
+            var itemCategories = ((Rss20FeedItem)rss.Items.Single().SpecificItem).CategoryDetails.ToArray();
+            Assert.AreEqual("Plain", itemCategories[0].Name);
+            Assert.IsNull(itemCategories[0].Scheme);
+            Assert.AreEqual("d", itemCategories[1].Scheme);
+
+            var atom = FeedReader.ReadFromString(
+                "<feed xmlns=\"http://www.w3.org/2005/Atom\"><title>t</title>" +
+                "<entry><title>e</title><category term=\"dotnet\" scheme=\"https://example.com/s\" label=\".NET\"/><category term=\"go\"/></entry></feed>");
+            var atomItem = (AtomFeedItem)atom.Items.Single().SpecificItem;
+            var first = atomItem.CategoryDetails.First();
+            Assert.AreEqual(".NET", first.Name);
+            Assert.AreEqual("dotnet", first.Term);
+            Assert.AreEqual(".NET", first.Label);
+            Assert.AreEqual("https://example.com/s", first.Scheme);
+            Assert.AreEqual("go", atomItem.CategoryDetails.Last().Name);
+            CollectionAssert.AreEqual(atomItem.Categories.ToArray(), atomItem.CategoryDetails.Select(c => c.Name).ToArray());
+        }
+
+        [TestMethod]
+        public void TestItunesTitle()
+        {
+            var feed = FeedReader.ReadFromString(Rss(
+                "<itunes:title>Show</itunes:title><item><title>a</title><itunes:title>Episode</itunes:title></item>"));
+            Assert.AreEqual("Show", feed.GetItunesChannel().Title);
+            Assert.AreEqual("Episode", feed.Items.Single().GetItunesItem().Title);
+        }
+
+        [TestMethod]
+        public async System.Threading.Tasks.Task TestReadFromStream()
+        {
+            var bytes = Encoding.UTF8.GetBytes(Rss("<description>Grüße</description>"));
+            Assert.AreEqual("Grüße", FeedReader.ReadFromStream(new System.IO.MemoryStream(bytes)).Description);
+            var feed = await FeedReader.ReadFromStreamAsync(new System.IO.MemoryStream(bytes));
+            Assert.AreEqual("Grüße", feed.Description);
+        }
+
+        [TestMethod]
         public void TestUnknownEncodingFallsBackToUtf8()
         {
             var xml = "<?xml version=\"1.0\" encoding=\"no-such-encoding\"?>" + Rss("<description>Grüße</description>");

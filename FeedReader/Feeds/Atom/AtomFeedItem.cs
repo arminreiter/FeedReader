@@ -21,6 +21,11 @@ namespace CodeHollow.FeedReader.Feeds
         public ICollection<string> Categories { get; set; }
 
         /// <summary>
+        /// All "category" elements with their attributes (domain, term, scheme, label)
+        /// </summary>
+        public ICollection<FeedCategory> CategoryDetails { get; set; }
+
+        /// <summary>
         /// The "content" element
         /// </summary>
         public string Content { get; set; }
@@ -99,6 +104,7 @@ namespace CodeHollow.FeedReader.Feeds
 
             var categories = item.GetElements("category");
             this.Categories = categories.Select(GetCategoryName).ToList();
+            this.CategoryDetails = categories.Select(x => new FeedCategory(x)).ToList();
 
             this.Content = item.GetValue("content").HtmlDecode();
             this.Contributor = new AtomPerson(item.GetElement("contributor"));
@@ -120,14 +126,7 @@ namespace CodeHollow.FeedReader.Feeds
         /// Human-readable name of an atom category: the optional "label", else the "term" identifier
         /// (often already readable), else the element text (non-standard feeds). Issue #56.
         /// </summary>
-        internal static string GetCategoryName(XElement category)
-        {
-            var label = (string)category.Attribute("label");
-            if (!string.IsNullOrEmpty(label))
-                return label;
-            var term = (string)category.Attribute("term");
-            return !string.IsNullOrEmpty(term) ? term : category.Value;
-        }
+        internal static string GetCategoryName(XElement category) => new FeedCategory(category).Name;
 
         /// <inheritdoc/>
         internal override FeedItem ToFeedItem()

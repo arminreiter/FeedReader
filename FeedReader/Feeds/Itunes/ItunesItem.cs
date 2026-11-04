@@ -15,6 +15,7 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
         public ItunesItem(XElement itemElement)
         {
             Author = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "author");
+            Title = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "title");
             Block = itemElement.GetValue(ItunesChannel.NAMESPACEPREFIX, "block").EqualsIgnoreCase("yes");
             var imageElement = itemElement.GetElement(ItunesChannel.NAMESPACEPREFIX, "image");
 
@@ -132,6 +133,11 @@ namespace CodeHollow.FeedReader.Feeds.Itunes
         /// The itunes:episodeType element (full, trailer or bonus)
         /// </summary>
         public string EpisodeType { get; }
+
+        /// <summary>
+        /// The itunes:title element
+        /// </summary>
+        public string Title { get; }
 
         /// <summary>
         /// The itunes:keywords element, split by comma

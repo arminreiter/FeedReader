@@ -21,6 +21,11 @@
         public ICollection<string> Categories { get; set; }
 
         /// <summary>
+        /// All "category" elements with their attributes (domain, term, scheme, label)
+        /// </summary>
+        public ICollection<FeedCategory> CategoryDetails { get; set; }
+
+        /// <summary>
         /// The "contributor" element
         /// </summary>
         public AtomPerson Contributor { get; set; }
@@ -95,6 +100,7 @@
 
             var categories = feed.GetElements("category");
             this.Categories = categories.Select(AtomFeedItem.GetCategoryName).ToList();
+            this.CategoryDetails = categories.Select(x => new FeedCategory(x)).ToList();
 
             this.Contributor = new AtomPerson(feed.GetElement("contributor"));
             this.Generator = feed.GetValue("generator");

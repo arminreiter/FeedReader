@@ -17,6 +17,7 @@
         public ItunesChannel(XElement channelElement)
         {
             Author = channelElement.GetValue(NAMESPACEPREFIX, "author");
+            Title = channelElement.GetValue(NAMESPACEPREFIX, "title");
             Block = channelElement.GetValue(NAMESPACEPREFIX, "block").EqualsIgnoreCase("yes");
             Categories = GetItunesCategories(channelElement);
 
@@ -110,6 +111,11 @@
         /// The itunes:type element (episodic or serial)
         /// </summary>
         public string Type { get; }
+
+        /// <summary>
+        /// The itunes:title element
+        /// </summary>
+        public string Title { get; }
 
         /// <summary>
         /// The itunes:keywords element, split by comma

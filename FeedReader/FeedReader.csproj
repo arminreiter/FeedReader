@@ -16,16 +16,9 @@
     <RepositoryUrl>https://github.com/arminreiter/FeedReader/</RepositoryUrl>
     <Version>2.1.0</Version>
     <PackageReleaseNotes>New:
-- JSON Feed 1.0/1.1 support (FeedType.JsonFeed), incl. html discovery of application/feed+json
-- Podcasting 2.0 tags via feed.GetPodcastChannel() / item.GetPodcastItem()
-- Helpers.HttpClient to use a custom HttpClient (proxy, logging, timeout)
-- Atom 0.3 fallbacks (tagline, issued/created, modified), RSS 1.0 content:encoded
-
-Fixes:
-- RFC 2822 time zones (EST, PST, ...) are converted correctly - dates of such feeds change, they were read as utc
-- Code pages like windows-1251 decode on .NET Core / .NET 8 (#49)
-- Atom categories use label, then term, then text (#56)
-- HTML feed link parsing: unquoted attributes, data-rel, regex timeout</PackageReleaseNotes>
+- CategoryDetails on RSS 0.92/2.0, MediaRSS and Atom feeds and items: categories with domain/scheme, term and label
+- itunes:title on GetItunesChannel() and GetItunesItem()
+- FeedReader.ReadFromStream / ReadFromStreamAsync</PackageReleaseNotes>
     <PackageTags>feed rss atom jsonfeed podcast</PackageTags>
     <AssemblyName>CodeHollow.FeedReader</AssemblyName>
     <RootNamespace>CodeHollow.FeedReader</RootNamespace>

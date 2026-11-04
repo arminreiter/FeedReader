@@ -1,4 +1,6 @@
 # FeedReader
+[![NuGet](https://img.shields.io/nuget/v/CodeHollow.FeedReader.svg)](https://www.nuget.org/packages/CodeHollow.FeedReader/)
+
 FeedReader is a .net library used for reading and parsing RSS, ATOM and JSON feeds. Supports **RSS 0.91, 0.92, 1.0, 2.0, ATOM (1.0 and 0.3) and JSON Feed (1.0 and 1.1)**, plus the iTunes and Podcasting 2.0 (`podcast:`) podcast extensions.
 Developed because tested existing libraries do not work with different languages, encodings or have other issues. 
 Library tested with multiple languages, encodings and feeds.

@@ -253,5 +253,34 @@
         {
             return FeedParser.GetFeed(feedContent);
         }
+
+        /// <summary>
+        /// reads a feed from a stream, e.g. a http response or a file. The stream is read to the end, not disposed.
+        /// </summary>
+        /// <param name="stream">stream with the feed content (xml or json)</param>
+        /// <returns>parsed feed</returns>
+        public static Feed ReadFromStream(System.IO.Stream stream)
+        {
+            using (var ms = new System.IO.MemoryStream())
+            {
+                stream.CopyTo(ms);
+                return ReadFromByteArray(ms.ToArray());
+            }
+        }
+
+        /// <summary>
+        /// reads a feed from a stream, e.g. a http response or a file. The stream is read to the end, not disposed.
+        /// </summary>
+        /// <param name="stream">stream with the feed content (xml or json)</param>
+        /// <param name="cancellationToken">token to cancel operation</param>
+        /// <returns>parsed feed</returns>
+        public static async Task<Feed> ReadFromStreamAsync(System.IO.Stream stream, CancellationToken cancellationToken = default)
+        {
+            using (var ms = new System.IO.MemoryStream())
+            {
+                await stream.CopyToAsync(ms, 81920, cancellationToken).ConfigureAwait(false);
+                return ReadFromByteArray(ms.ToArray());
+            }
+        }
     }
 }

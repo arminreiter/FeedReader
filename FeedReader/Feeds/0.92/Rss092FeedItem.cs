@@ -15,6 +15,11 @@
         public ICollection<string> Categories { get; set; }
 
         /// <summary>
+        /// All "category" elements with their attributes (domain, term, scheme, label)
+        /// </summary>
+        public ICollection<FeedCategory> CategoryDetails { get; set; }
+
+        /// <summary>
         /// The "enclosure" field
         /// </summary>
         public FeedItemEnclosure Enclosure { get; set; }
@@ -46,6 +51,7 @@
 
             var categories = item.GetElements("category");
             this.Categories = categories.Select(x => x.GetValue()).ToList();
+            this.CategoryDetails = categories.Select(x => new FeedCategory(x)).ToList();
         }
     }
 }
