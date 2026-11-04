@@ -236,7 +236,7 @@
         /// <summary>
         /// reads a feed from the <paramref name="feedContent" />
         /// </summary>
-        /// <param name="feedContent">the feed content (xml)</param>
+        /// <param name="feedContent">the feed content (xml or json)</param>
         /// <returns>parsed feed</returns>
         public static Feed ReadFromString(string feedContent)
         {

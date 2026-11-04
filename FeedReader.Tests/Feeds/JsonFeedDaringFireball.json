@@ -1,0 +1,72 @@
+{
+   "version": "https://jsonfeed.org/version/1.1",
+   "title": "Daring Fireball",
+   "home_page_url": "https://daringfireball.net/",
+   "feed_url": "https://daringfireball.net/feeds/json",
+   "authors": [
+      {
+         "url": "https://twitter.com/gruber",
+         "name": "John Gruber"
+      }
+   ],
+   "icon": "https://daringfireball.net/graphics/apple-touch-icon.png",
+   "favicon": "https://daringfireball.net/graphics/favicon-64.png",
+   "items": [
+      {
+         "title": "This Election Will Not Look Surprising in History",
+         "date_published": "2026-11-04T15:15:51Z",
+         "date_modified": "2026-11-04T15:41:40Z",
+         "id": "https://daringfireball.net/linked/2026/11/04/this-election-will-not-look-surprising-in-history",
+         "url": "https://daringfireball.net/linked/2026/11/04/this-election-will-not-look-surprising-in-history",
+         "external_url": "https://apple.news/Afq6SKrYkTcCEHrCEQmxm5A?web_embed_link=aHR0cHM6Ly9uZXdzLWFzc2V0cy5hcHBsZS5jb20vZW1iZWRzLzY2ZDQzYzg0LTMyMWYtNGQ0Ny05Mzk4LWE3NjE3NDgwZWE2Yi9pbmRleC5odG1sI2NvbnRleHQ9TU9EQUwmc3RpY2t5PWZhbHNlJmVmZmVjdD1ub25lJmxpZ2h0X2JnX2NvbG9yPWU5ZWNmMiZkYXJrX2JnX2NvbG9yPTJkM2Q1NCZzY29wZT11cyZvcmlnaW49c2hhcnJvdyZsaXZlYWN0aXZpdGllcz10cnVlJm5mZl9jaWQ9NTZjMjQ1OTQtNDIxNC00NDM0LTlhNTgtNWE1YTIxM2ZkMTBi",
+         "authors": [
+            {
+               "name": "John Gruber"
+            }
+         ],
+         "content_html": "\n<p><a href=\"https://daringfireball.net/misc/2026/11/apple-news-election-trend-map.png\">This striking map</a> from Apple News tells the story of the magnitude of the shift since 2024.</p>\n\n<p>The late Lindsey Graham, <a href=\"https://x.com/LindseyGrahamSC/status/727604522156228608\">on Twitter back in May 2016</a> (punctuation <em>sic</em>):</p>\n\n<blockquote>\n  <p>If we nominate Trump, we will get destroyed.......and we will deserve it.</p>\n</blockquote>\n\n<p>The wheels of history grind slowly, but they do grind. By the time of his death, Graham was amongst <a href=\"https://www.rawstory.com/lindsey-graham-2673879675/\">the lickspittlest</a> of Trump’s GOP toadies. Graham’s <a href=\"https://apnews.com/article/darline-graham-taiwan-debate-national-security-5b045abd68cc4aa350177b5d1c6ee650\">idiot sister</a> ran for his vacant Senate seat in South Carolina <a href=\"https://www.nbcnews.com/politics/2026-elections/south-carolina-senate-results\">and lost</a>.</p>\n\n<p>Former representative Liz Cheney, <a href=\"https://x.com/TigerTownDream/status/2117853229274837210\">at the January 6 hearings in 2021</a>:</p>\n\n<blockquote>\n  <p>I say this to my Republican colleagues who are defending the\nindefensible. There will come a day when Donald Trump is gone, but\nyour dishonor will remain.</p>\n</blockquote>\n\n<p><a href=\"https://winstonchurchill.hillsdale.edu/americans-will-always-right-thing/\">Winston Churchill, perhaps apocryphally</a>:</p>\n\n<blockquote>\n  <p>Americans can always be trusted to do the right thing, once all\nother possibilities have been exhausted.</p>\n</blockquote>\n\n<p><a href=\"https://www.goodreads.com/quotes/275126-you-can-fool-some-of-the-people-all-of-the\">Abraham Lincoln</a>:</p>\n\n<blockquote>\n  <p>You can fool some of the people all of the time, and all of the\npeople some of the time, but you can not fool all of the people\nall of the time.</p>\n</blockquote>\n\n<p class=\"x-netnewswire-hide\" style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://apple.news/Afq6SKrYkTcCEHrCEQmxm5A?web_embed_link=aHR0cHM6Ly9uZXdzLWFzc2V0cy5hcHBsZS5jb20vZW1iZWRzLzY2ZDQzYzg0LTMyMWYtNGQ0Ny05Mzk4LWE3NjE3NDgwZWE2Yi9pbmRleC5odG1sI2NvbnRleHQ9TU9EQUwmc3RpY2t5PWZhbHNlJmVmZmVjdD1ub25lJmxpZ2h0X2JnX2NvbG9yPWU5ZWNmMiZkYXJrX2JnX2NvbG9yPTJkM2Q1NCZzY29wZT11cyZvcmlnaW49c2hhcnJvdyZsaXZlYWN0aXZpdGllcz10cnVlJm5mZl9jaWQ9NTZjMjQ1OTQtNDIxNC00NDM0LTlhNTgtNWE1YTIxM2ZkMTBi\">apple.news/Afq6SKrYkTcCEHrCEQmxm5A?web_embed_link…</a></strong></em></p>\n"
+      },
+      {
+         "title": "‘Political Reckoning Shatters Trump’s Grip on Washington’",
+         "date_published": "2026-11-04T14:56:47Z",
+         "date_modified": "2026-11-04T15:00:07Z",
+         "id": "https://daringfireball.net/linked/2026/11/04/political-reckoning",
+         "url": "https://daringfireball.net/linked/2026/11/04/political-reckoning",
+         "external_url": "https://www.wsj.com/politics/elections/a-political-reckoning-shatters-trumps-grip-on-washington-bd3c7705?st=xABDit",
+         "authors": [
+            {
+               "name": "John Gruber"
+            }
+         ],
+         "content_html": "\n<p>Aaron Zitner, reporting for the Rupert Murdoch-owned Wall Street Journal:</p>\n\n<blockquote>\n  <p>Rarely in American politics has a president traded away so much\npolitical support so quickly.</p>\n\n<p>The losses that Republicans suffered on Tuesday marked one of the\nmost decisive repudiations of a president in modern history.\nPresident Trump had re-entered the White House with advantages he\nlacked in his first term: a victory in the popular vote, a cadre\nof aides eager to expand his authority and cultural currency that\nhad NFL players doing the “Trump dance” in the end zone.</p>\n\n<p>Only two years later, his political standing has collapsed, all\nbecause of a dramatic miscalculation of his power to shape events.\nA war of choice with Iran and tariffs imposed on U.S. trading\npartners betrayed his promise to avoid foreign entanglements and\ntame inflation. His extraordinary interventions in his party’s\nprimaries left Republicans with a set of unusually weak\ncandidates.</p>\n</blockquote>\n\n<p>The Democrats went from out of power in Washington to a massive majority in the House and an apparent 55-45 or even 56-44 majority in the Senate. <a href=\"https://www.nbcnews.com/politics/2026-elections/georgia-governor-results\">Keisha Lance Bottoms was elected the first black woman governor</a> in history — in <em>Georgia</em>. By a 9-point margin. <a href=\"https://www.nytimes.com/2026/11/04/us/texas-talarico-hinojosa-abbott-paxton.html?unlocked_article_code=1.N1E.-7W3.vGY-dcYSYFiL\">Texas elected Democrats</a> to the Senate and governor’s mansion. Kansas elected a Democratic senator <a href=\"https://www.nytimes.com/2026/11/03/us/kansas-senate-marshall-hamilton.html?unlocked_article_code=1.N1E.6vJy.RMWLyOyKsCLa\">for the first time in 94 years</a>.</p>\n\n<p>The fever, finally, well and truly broke.</p>\n\n<p class=\"x-netnewswire-hide\" style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.wsj.com/politics/elections/a-political-reckoning-shatters-trumps-grip-on-washington-bd3c7705?st=xABDit\">wsj.com/politics/elections/a-political-reckoning-shatters…</a></strong></em></p>\n"
+      },
+      {
+         "title": "Apple Begins Opening Siri AI to Developers",
+         "date_published": "2026-11-03T23:58:49Z",
+         "date_modified": "2026-11-03T23:58:50Z",
+         "id": "https://daringfireball.net/linked/2026/11/03/apple-begins-opening-siri-ai-to-developers",
+         "url": "https://daringfireball.net/linked/2026/11/03/apple-begins-opening-siri-ai-to-developers",
+         "external_url": "https://developer.apple.com/news/?id=gdk2umrf",
+         "authors": [
+            {
+               "name": "John Gruber"
+            }
+         ],
+         "content_html": "\n<p>Apple Developer:</p>\n\n<blockquote>\n  <p>Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and\nvisionOS 27.3 betas, a new Developer Preview enables any developer\nto integrate their app with Siri AI, giving businesses and\ndevelopers new ways to reach and serve their customers. [...]</p>\n\n<p>This developer beta offers a sneak peek at Siri AI app intents for\ndevelopers. With this early Developer Preview, your app can work\ndirectly with Siri AI, giving you a first look at new ways to\nreach and serve your customers. This preview provides early access\nbefore first shipping to customers in a few months; and with\nsubmission to the App Store opening up in the spring, developers\nhave time to explore, build, and help shape their experiences\nbefore launch. Try it out and share your feedback.</p>\n\n<p>As you explore early, we will follow up with more details about\nthe terms and usage policies for experiences enabled through Siri\nAI. More to share soon.</p>\n</blockquote>\n\n<p><a href=\"https://mastodon.social/@agiletortoise/117554110669725591\">Greg Pierce</a> (developer of <a href=\"https://getdrafts.com/\">Drafts</a> and <a href=\"https://agiletortoise.com/\">other fine apps</a>):</p>\n\n<blockquote>\n  <p>This sounds amazing, and I didn’t think we’d see App Intents\nintegration into Siri AI until next WWDC.</p>\n</blockquote>\n\n<p>Siri AI is getting to the point of underpromising and overdelivering, which is where you want products to be. In 2025 things were <a href=\"https://daringfireball.net/2025/03/something_is_rotten_in_the_state_of_cupertino\">so bad</a>, Apple had overpromised and not just underdelivered, but delivered nothing.</p>\n\n<p class=\"x-netnewswire-hide\" style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://developer.apple.com/news/?id=gdk2umrf\">developer.apple.com/news/?id=gdk2umrf</a></strong></em></p>\n"
+      },
+      {
+         "title": "iPad Mini (A20 Pro) Review Roundup",
+         "date_published": "2026-11-03T23:45:18Z",
+         "date_modified": "2026-11-03T23:46:57Z",
+         "id": "https://daringfireball.net/linked/2026/11/03/ipad-mini-review-roundup",
+         "url": "https://daringfireball.net/linked/2026/11/03/ipad-mini-review-roundup",
+         "external_url": "https://www.techmeme.com/261103/p15#a261103p15",
+         "authors": [
+            {
+               "name": "John Gruber"
+            }
+         ],
+         "content_html": "\n<p><a href=\"https://www.theverge.com/tech/1025015/2026-ipad-mini-oled-review\">David Pierce at The Verge</a>, on the Acoustic Display:</p>\n\n<blockquote>\n  <p>It means the sound fires out of the front panel rather than from\nspeaker holes. (Some TVs currently work the same way.) It doesn’t\nsound any better than before, maybe a tiny bit bassier, but it\nalso doesn’t sound worse, and if anything it’s slightly better to\nhave the sound actually pointed at you instead of out the sides of\nthe tablet. Mostly it’s a wash in service of the ruggedization,\nwhich is good enough for me.</p>\n</blockquote>\n\n<p><a href=\"https://www.youtube.com/watch?v=PBBjiZYylD4\">Stephen Robles, on YouTube</a>, thinks it sounds muffled at high volumes and doesn’t seem to like how you can feel the whole tablet vibrate at high volumes.</p>\n\n<p><a href=\"https://www.tomsguide.com/computing/ipads/apple-ipad-mini-8-review\">Tony Polanco at Tom’s Guide</a> liked the Acoustic Display sound quality and praised the battery life (but only had time to run the battery test once):</p>\n\n<blockquote>\n  <p>In the Tom’s Guide battery test, which involves continuous\nweb-surfing over Wi-Fi with the display set to 150 nits of\nbrightness, the iPad mini 8 lasted for an astonishing 14 hours and\n24 minutes! That’s nearly four hours longer than the previous\nmodel and Apple’s claims.</p>\n</blockquote>\n\n<p><a href=\"https://www.macstories.net/reviews/ipad-mini-2026-review-pushing-the-boundaries-with-apples-smallest-ipad/\">John Voorhees at MacStories</a> was impressed by the Mini’s local AI performance:</p>\n\n<blockquote>\n  <p>The mini’s local AI capabilities extend beyond software optimized\nfor the Neural Engine. To explore those, I ran Qwen 3.5 4B (4-bit)\nlocally using a benchmark built into <a href=\"https://apps.apple.com/us/app/russet-openrouter-local-ai/id6754737926\">Russet</a>, a local AI and\ndeveloper tool. The 512GB iPad mini averaged a pace of 40 tokens\nper second across four sessions on both tests that output 128 or\n256 tokens with a time to first token of 0.32 seconds for the 128\noutput token tests and 0.36 for the 256 output token tests.</p>\n\n<p>I couldn’t compare the new mini’s local AI performance to my 6th\ngeneration iPad mini because it only has 4GB of memory, which is\ntoo little for the models Russet offers for download. Instead, I\ndownloaded the same model on my 11-inch M4 iPad Pro and ran the\nsame Russet benchmark. The A20 Pro came out on top in my tests.\nThe Russet tests I ran use <a href=\"https://github.com/ml-explore/mlx\">MLX</a>, which runs on the CPU and GPU,\nso they don’t measure the benefit of the Dual 16-core Neural\nEngine. However, they do demonstrate the A20 Pro’s serious local\nAI capabilities.</p>\n</blockquote>\n\n<p class=\"x-netnewswire-hide\" style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.techmeme.com/261103/p15#a261103p15\">techmeme.com/261103/p15#a261103p15</a></strong></em></p>\n"
+      }
+   ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "user_comment": "Hand-written sample covering every JSON Feed 1.1 field and some edge cases.",
+  "title": "My Example Feed – äöü",
+  "home_page_url": "https://example.org/",
+  "feed_url": "https://example.org/feed.json",
+  "description": "A feed with all fields",
+  "next_url": "https://example.org/feed.json?page=2",
+  "icon": "https://example.org/icon.png",
+  "favicon": "https://example.org/favicon.png",
+  "language": "de-AT",
+  "expired": true,
+  "authors": [
+    { "name": "Jane Doe", "url": "https://example.org/jane", "avatar": "https://example.org/jane.png" },
+    { "name": "John Roe" },
+    {}
+  ],
+  "author": { "name": "Ignored Because Authors Exists" },
+  "hubs": [ { "type": "WebSub", "url": "https://websub.example.org/" } ],
+  "_custom": { "about": "https://example.org/ext", "rating": 5 },
+  "items": [
+    {
+      "id": "https://example.org/2",
+      "url": "https://example.org/2",
+      "external_url": "https://other.example.com/linked",
+      "title": "Second post",
+      "content_html": "<p>Hello, <b>world</b>!</p>",
+      "content_text": "Hello, world!",
+      "summary": "A short summary",
+      "image": "https://example.org/2/image.png",
+      "banner_image": "https://example.org/2/banner.png",
+      "date_published": "2010-02-07T14:04:00-05:00",
+      "date_modified": "2010-02-08T09:00:00Z",
+      "authors": [ { "name": "Guest Author" } ],
+      "tags": [ "json", "feeds", 42 ],
+      "language": "en-US",
+      "attachments": [
+        { "url": "https://example.org/2/episode.mp3", "mime_type": "audio/mpeg", "title": "Episode 2", "size_in_bytes": 89970236, "duration_in_seconds": 1234.5 },
+        { "url": "https://example.org/2/episode.m4a", "mime_type": "audio/x-m4a", "title": "Episode 2" },
+        { "mime_type": "audio/mpeg" }
+      ],
+      "_custom": { "flag": true }
+    },
+    {
+      "id": 1,
+      "content_text": "A microblog post without title, url and authors.",
+      "date_published": "not a date",
+      "title": null,
+      "summary": null,
+      "tags": null
+    },
+    {
+      "title": "Item without id - must be discarded",
+      "content_text": "x"
+    },
+    {
+      "id": "   ",
+      "title": "Item with blank id - must be discarded",
+      "content_text": "x"
+    }
+  ]
+}

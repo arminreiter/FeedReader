@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- podcast namespace bound to a non-standard prefix, plus edge cases for numbers and missing attributes -->
+<rss version="2.0" xmlns:pc="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title>Edge Cases</title>
+    <link>https://example.com/</link>
+    <description>Podcast namespace edge cases</description>
+    <pc:locked>no</pc:locked>
+    <pc:license>cc-by-4.0</pc:license>
+    <pc:block id="spotify">yes</pc:block>
+    <pc:txt purpose="verify">S6lpp-7ZCn8-dZfGc-OoyVG</pc:txt>
+    <pc:txt purpose="ai-content">false</pc:txt>
+    <pc:updateFrequency complete="true" dtstart="2023-04-01T00:00:00.000Z" rrule="FREQ=WEEKLY">Weekly</pc:updateFrequency>
+    <pc:person>Anonymous Host</pc:person>
+    <pc:socialInteract protocol="disabled" />
+    <pc:trailer pubdate="Thu, 01 Apr 2021 08:00:00 +0200" url="https://example.com/trailer.mp3" season="2">Season 2 trailer</pc:trailer>
+    <item>
+      <title>Bonus episode</title>
+      <guid>ep-100-5</guid>
+      <pc:season>2</pc:season>
+      <pc:episode display="Bonus">100.5</pc:episode>
+      <pc:soundbite startTime="12.5" duration="1234.25">Best part</pc:soundbite>
+      <pc:alternateEnclosure type="application/x-mpegURL" rel="video" codecs="avc1.4d401e" lang="de" height="1080">
+        <pc:source uri="https://example.com/ep.m3u8" contentType="application/x-mpegURL" />
+      </pc:alternateEnclosure>
+    </item>
+    <item>
+      <title>Broken values</title>
+      <guid>broken</guid>
+      <pc:season>abc</pc:season>
+      <pc:episode></pc:episode>
+      <pc:soundbite startTime="x" duration="-5" />
+    </item>
+  </channel>
+</rss>

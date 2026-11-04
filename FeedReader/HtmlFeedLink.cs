@@ -16,7 +16,7 @@
         public string Url { get; set; }
 
         /// <summary>
-        /// The type of the feed - rss or atom
+        /// The type of the feed - rss, atom or json feed
         /// </summary>
         public FeedType FeedType { get; set; }
 

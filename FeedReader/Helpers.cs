@@ -176,6 +176,8 @@
             if (string.IsNullOrWhiteSpace(datetime))
                 return null;
 
+            datetime = ReplaceRfc2822TimeZone(datetime.Trim());
+
             var dateTimeFormat = cultureInfo?.DateTimeFormat ?? DateTimeFormatInfo.CurrentInfo;
             bool parseSuccess = DateTimeOffset.TryParse(datetime, dateTimeFormat, DateTimeStyles.None, out var dt);
 
@@ -205,6 +207,28 @@
                 return null;
 
             return dt.UtcDateTime;
+        }
+
+        // named zones of RFC 822 / RFC 2822 (US zones, as used in rss pubDate). DateTimeOffset only knows GMT and Z.
+        // Other abbreviations (CEST, IST, ...) are ambiguous and still fall back to utc in TryParseDateTime.
+        private static readonly Dictionary<string, string> Rfc2822TimeZones = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "UT", "+00:00" },
+            { "EST", "-05:00" }, { "EDT", "-04:00" },
+            { "CST", "-06:00" }, { "CDT", "-05:00" },
+            { "MST", "-07:00" }, { "MDT", "-06:00" },
+            { "PST", "-08:00" }, { "PDT", "-07:00" }
+        };
+
+        /// <summary>
+        /// Replaces a trailing RFC 2822 time zone name with its offset, e.g. "08:00:00 EST" -> "08:00:00 -05:00"
+        /// </summary>
+        private static string ReplaceRfc2822TimeZone(string datetime)
+        {
+            int lastSpace = datetime.LastIndexOf(' ');
+            if (lastSpace > 0 && Rfc2822TimeZones.TryGetValue(datetime.Substring(lastSpace + 1), out var offset))
+                return datetime.Substring(0, lastSpace + 1) + offset;
+            return datetime;
         }
 
         /// <summary>
@@ -274,7 +298,7 @@
 
         /// <summary>
         /// Returns a HtmlFeedLink object from a linktag (link href="" type="")
-        /// only support application/rss and application/atom as type
+        /// only support application/rss, application/atom and application/feed+json as type
         /// if type is not supported, null is returned
         /// </summary>
         /// <param name="input">link tag, e.g. &lt;link rel="alternate" type="application/rss+xml" title="codehollow &gt; Feed" href="https://codehollow.com/feed/" /&gt;</param>
@@ -284,7 +308,10 @@
             string linkTag = input.HtmlDecode();
             string type = GetAttributeFromLinkTag("type", linkTag).ToLower();
 
-            if (!type.Contains("application/rss") && !type.Contains("application/atom"))
+            // json feed: only application/feed+json - plain application/json is also used for
+            // non-feed links, e.g. the WordPress REST API (<link rel="alternate" type="application/json" href="/wp-json/...">)
+            bool isJsonFeed = type.Contains("application/feed+json");
+            if (!type.Contains("application/rss") && !type.Contains("application/atom") && !isJsonFeed)
                 return null;
 
             HtmlFeedLink hfl = new HtmlFeedLink();
@@ -292,7 +319,7 @@
             string href = GetAttributeFromLinkTag("href", linkTag);
             hfl.Title = title;
             hfl.Url = href;
-            hfl.FeedType = type.Contains("rss") ? FeedType.Rss : FeedType.Atom;
+            hfl.FeedType = isJsonFeed ? FeedType.JsonFeed : type.Contains("rss") ? FeedType.Rss : FeedType.Atom;
             return hfl;
         }
 

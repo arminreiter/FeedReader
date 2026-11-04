@@ -1,5 +1,5 @@
 # FeedReader
-FeedReader is a .net library used for reading and parsing RSS and ATOM feeds. Supports **RSS 0.91, 0.92, 1.0, 2.0 and ATOM (1.0 and 0.3)**.
+FeedReader is a .net library used for reading and parsing RSS, ATOM and JSON feeds. Supports **RSS 0.91, 0.92, 1.0, 2.0, ATOM (1.0 and 0.3) and JSON Feed (1.0 and 1.1)**, plus the iTunes and Podcasting 2.0 (`podcast:`) podcast extensions.
 Developed because tested existing libraries do not work with different languages, encodings or have other issues. 
 Library tested with multiple languages, encodings and feeds.
 
@@ -31,6 +31,23 @@ There are some properties that are only available in e.g. RSS 2.0. If you want t
     {
         var rss20feed = (Feeds.Rss20Feed)feed.SpecificFeed;
         Console.WriteLine("Generator: " + rss20feed.Generator);
+    }
+```
+
+Podcast feeds: the iTunes and Podcasting 2.0 tags are available via extension methods:
+
+```csharp
+    using CodeHollow.FeedReader.Feeds.Itunes;
+    using CodeHollow.FeedReader.Feeds.Podcast;
+
+    var feed = await FeedReader.ReadAsync("https://feeds.podcastindex.org/pc20.xml");
+    var podcast = feed.GetPodcastChannel();              // podcast:guid, locked, funding, person, ...
+    Console.WriteLine("Guid: " + podcast.Guid);
+
+    foreach (var item in feed.Items)
+    {
+        var episode = item.GetPodcastItem();             // podcast:transcript, chapters, season, episode, ...
+        Console.WriteLine(item.Title + " - transcripts: " + episode.Transcripts.Length);
     }
 ```
 
@@ -83,6 +100,8 @@ build/pack.sh
 - RSS 1.0 : http://web.resource.org/rss/1.0/spec
 - RSS 2.0 : https://validator.w3.org/feed/docs/rss2.html
 - ATOM    : https://validator.w3.org/feed/docs/atom.html
+- JSON Feed: https://jsonfeed.org/version/1.1
+- Podcasting 2.0 namespace: https://podcastindex.org/namespace/1.0
 
 ## Release
 ```bash

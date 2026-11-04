@@ -146,6 +146,21 @@ namespace CodeHollow.FeedReader.Tests
         [DataRow("2017-01-07T09:00:01-05:00", 2017, 1, 7, 14, 0, 1)]
         [DataRow("Sat, 07 Jan 2017 10:19:44 -0500", 2017, 1, 7, 15, 19, 44)]
         [DataRow("2019-04-27T14:25:30Z", 2019, 4, 27, 14, 25, 30)]
+        // RFC 822 / 2822 time zone names
+        [DataRow("Thu, 01 Apr 2021 08:00:00 EST", 2021, 4, 1, 13, 0, 0)]
+        [DataRow("Thu, 01 Jul 2021 08:00:00 EDT", 2021, 7, 1, 12, 0, 0)]
+        [DataRow("Thu, 01 Apr 2021 08:00:00 CST", 2021, 4, 1, 14, 0, 0)]
+        [DataRow("Thu, 01 Jul 2021 08:00:00 CDT", 2021, 7, 1, 13, 0, 0)]
+        [DataRow("Thu, 01 Apr 2021 08:00:00 MST", 2021, 4, 1, 15, 0, 0)]
+        [DataRow("Thu, 01 Jul 2021 08:00:00 MDT", 2021, 7, 1, 14, 0, 0)]
+        [DataRow("Thu, 01 Apr 2021 08:00:00 PST", 2021, 4, 1, 16, 0, 0)]
+        [DataRow("Thu, 01 Jul 2021 08:00:00 PDT", 2021, 7, 1, 15, 0, 0)]
+        [DataRow("Thu, 01 Apr 2021 08:00:00 pst ", 2021, 4, 1, 16, 0, 0)]
+        [DataRow("Thu, 01 Apr 2021 08:00:00 UT", 2021, 4, 1, 8, 0, 0)]
+        [DataRow("Thu, 01 Apr 2021 08:00:00 GMT", 2021, 4, 1, 8, 0, 0)]
+        [DataRow("Thu, 01 Apr 2021 08:00 EST", 2021, 4, 1, 13, 0, 0)]
+        // ambiguous zone names are not in RFC 2822 and still fall back to utc
+        [DataRow("Thu, 22 Dec 2016 17:36:00 CEST", 2016, 12, 22, 17, 36, 0)]
         // ponytail: offset-less strings ("2020-01-01") parse as machine-local time, so they're left out to keep this TZ-independent
         public void TestDateTimeParse(string input, int year, int month, int day, int hour, int minute, int second)
         {

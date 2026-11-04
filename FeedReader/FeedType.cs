@@ -44,6 +44,11 @@
         /// <summary>
         /// Unknown - default type
         /// </summary>
-        Unknown
+        Unknown,
+
+        /// <summary>
+        /// JSON Feed 1.0 / 1.1 (https://jsonfeed.org). Added after Unknown so existing numeric values stay the same.
+        /// </summary>
+        JsonFeed
     }
 }

@@ -1,0 +1,432 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" version="2.0">
+  <channel>
+    <title>Podcasting 2.0</title>
+    <description>The Podcast Index presents Podcasting 2.0 - Upgrading Podcasting</description>
+    <link>http://podcastindex.org</link>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <generator>Sovereign Feeds</generator>
+    <pubDate>Fri, 30 Oct 2026 19:22:30 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2026 19:22:30 +0000</lastBuildDate>
+    <podcast:locked owner="adam@curry.com">yes</podcast:locked>
+    <podcast:funding url="https://paypal.me/podcastindex">Value 4 Value</podcast:funding>
+    <managingEditor>adam@curry.com (Adam Curry)</managingEditor>
+    <webMaster>adam@curry.com (Adam Curry)</webMaster>
+    <itunes:owner>
+      <itunes:email>adam@curry.com</itunes:email>
+      <itunes:name><![CDATA[Adam Curry & Dave Jones]]></itunes:name>
+    </itunes:owner>
+    <image>
+      <url>https://noagendaassets.com/enc/1684513486.722_pcifeedimage.png</url>
+      <link>http://podcastindex.org</link>
+      <title>Podcasting 2.0</title>
+      <description>The Podcast Index presents Podcasting 2.0 - Upgrading Podcasting</description>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <itunes:summary>The Podcast Index presents Podcasting 2.0 - Upgrading Podcasting</itunes:summary>
+    <itunes:author>Podcast Index LLC</itunes:author>
+    <itunes:image href="https://noagendaassets.com/enc/1684513486.722_pcifeedimage.png"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:keywords>podcasting,media,software</itunes:keywords>
+    <itunes:category text="News &amp; Politics"/>
+    <itunes:category text="Technology"/>
+    <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+      <podcast:valueRecipient name="Podcastindex.org" type="lnaddress" address="podcastindex@getalby.com" split="93"/>
+      <podcast:valueRecipient name="Dreb Scott (Chapters)" type="lnaddress" address="drebscott@getalby.com" split="5"/>
+      <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="5"/>
+      <podcast:valueRecipient name="Boostagram Monitor" type="lnaddress" address="adam@getalby.com" split="1"/>
+      <podcast:valueRecipient name="Fountain Boost Bot" type="lnaddress" address="boostbot@fountain.fm" split="1"/>
+      <podcast:valueRecipient name="IPFSPodcasting.net" type="node" address="028eb5be336f7fdf2a4e40c57ff55d3d5d71277bb4197ea14957f756bff249e623" split="5" fee="true"/>
+    </podcast:value>
+    <podcast:guid>917393e3-1b1e-5cef-ace4-edaa54e1f810</podcast:guid>
+    <podcast:medium>podcast</podcast:medium>
+    <podcast:complete>no</podcast:complete>
+    <podcast:block>no</podcast:block>
+    <podcast:block id="apple">yes</podcast:block>
+    <podcast:block id="spotify">yes</podcast:block>
+    <podcast:block id="amazon">yes</podcast:block>
+    <podcast:person href="http://curry.com/" img="https://feeds.podcastindex.org/adam_avatar.jpg" group="cast" role="host">Adam Curry</podcast:person>
+    <podcast:person href="http://dave.sobr.org" img="https://feeds.podcastindex.org/dave_avatar.jpg" group="cast" role="host">Dave Jones</podcast:person>
+    <category><![CDATA[News & Politics]]></category>
+    <category>Technology</category>
+    <podcast:podroll>
+      <podcast:remoteItem feedGuid="ae38e5df-3281-5138-b120-b07cb835cac5" feedUrl="https://newmediashow.com/feed/audio/"/>
+      <podcast:remoteItem feedGuid="396d9ae0-da7e-5557-b894-b606231fa3ea" feedUrl="https://feeds.buzzsprout.com/1538779.rss"/>
+      <podcast:remoteItem feedGuid="856cd618-7f34-57ea-9b84-3600f1f65e7f" feedUrl="http://feed.nashownotes.com/rss.xml"/>
+      <podcast:remoteItem feedGuid="e722d2b3-0a9a-5ecc-ba3f-a5de968c18d4" feedUrl="https://feeds.rssblue.com/phantom-power-business-hour"/>
+      <podcast:remoteItem feedGuid="55b53584-4219-4fb0-b916-075ce23f714e" feedUrl="https://serve.podhome.fm/rss/55b53584-4219-4fb0-b916-075ce23f714e"/>
+      <podcast:remoteItem feedGuid="1ebc8445-f337-5150-a82a-48ec3e759e46" feedUrl="https://anchor.fm/s/101adcf44/podcast/rss"/>
+      <podcast:remoteItem feedGuid="d35a8293-f3dd-4186-959f-e0f1211da2df" feedUrl="https://feeds.redcircle.com/d35a8293-f3dd-4186-959f-e0f1211da2df"/>
+      <podcast:remoteItem feedGuid="29cdca4a-32d8-56ba-b48b-09a011c5daa9" feedUrl="https://feeds.buzzsprout.com/231452.rss"/>
+    </podcast:podroll>
+    <podcast:liveItem status="live" start="2026-10-30T17:20:00.000Z" chat="irc.zeronode.net" end="2026-10-30T19:50:00.000Z">
+      <title>PC2.0 277 Live October 30th 2026</title>
+      <description><![CDATA[<p><strong>PC2.0 Episode #277 October 30th 2026 Live!</strong></p>
+<p><strong>Pre-Boost Us!</strong></p>
+<p>Get Podcast Addict, Podcast Guru, CurioCaster, Podverse, Fountain and Truefans from <a href="http://newpodcastapp.com">newpodcastapps.com</a></p>]]></description>
+      <enclosure length="33" type="audio/mpeg" url="https://op3.dev/e/listen.voidzero.stream/radio"/>
+      <guid isPermaLink="false">9bfc7565-bb33-4b02-989d-cbae609ebae9</guid>
+      <itunes:image href="https://behindthesch3m3s.com/wp-content/uploads/2023/01/v4v-storm-good-quality.gif"/>
+      <itunes:subtitle>PC2.0 277 Live October 30th 2026</itunes:subtitle>
+      <itunes:summary><![CDATA[<p><strong>PC2.0 Episode #277 October 30th 2026 Live!</strong></p>
+<p><strong>Pre-Boost Us!</strong></p>
+<p>Get Podcast Addict, Podcast Guru, CurioCaster, Podverse, Fountain and Truefans from <a href="http://newpodcastapp.com">newpodcastapps.com</a></p>]]></itunes:summary>
+      <podcast:contentLink href="http://adam.curry.com/html/NoAgendaStreamandCha-1414965812.html">Listen Live in the Chat Room</podcast:contentLink>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Sovereign Feeds" type="lnaddress" address="steven@getalby.com" split="10"/>
+        <podcast:valueRecipient name="boostbot@fountain.fm" type="lnaddress" address="boostbot@fountain.fm" split="2"/>
+        <podcast:valueRecipient name="Dreb Scott - Chapters" type="lnaddress" address="drebscott@getalby.com" split="5"/>
+        <podcast:valueRecipient name="Podping" type="lnaddress" address="Podping@sats.v4v.app" split="2"/>
+        <podcast:valueRecipient name="Boost AC" type="lnaddress" address="adam@getalby.com" split="3"/>
+        <podcast:valueRecipient name="Alecks Gates Strike" type="lnaddress" address="agates@strike.me" split="20"/>
+        <podcast:valueRecipient name="PodcastIndex LN Wallet Test" type="lnaddress" address="podcastindex@getalby.com" split="58"/>
+      </podcast:value>
+      <podcast:chat server="irc.zeronode.net" protocol="irc" accountId="adamc1999" space="#Podcasting20" embedUrl="https://kiwiirc.com/nextclient/irc.zeronode.net/?nick=webtroll?#Podcasting20"/>
+      <podcast:socialInteract uri="https://podcastindex.social/@dave/110634382833124876" protocol="activitypub" accountId="adam" accountUrl="https://podcastindex.social/users/dave"/>
+      <podcast:liveValue uri="https://curiohoster.com/event?event_id=8a2cfa5a-7a4d-466a-9d32-362ad68f945e" protocol="socket.io"/>
+    </podcast:liveItem>
+    <item>
+      <title><![CDATA[Episode 277: "x402 Bitch!"]]></title>
+      <description><![CDATA[<p><span style="font-size: 18pt;"><strong>Podcasting 2.0 October 30th 2026 Episode 277 - "x402 Bitch!"</strong></span></p>
+<div>
+<div>&nbsp;</div>
+<div>
+<div>
+<p><strong>ShowNotes</strong></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>00 - 🚨 THE WEEK THE INDEX WENT DARK ON PURPOSE &mdash; PHP, NODE AND THE SCRAPERS</p>
+<p><a href="https://www.php.net/archive/2026.php" target="_blank" rel="noopener"><strong>Tue 20 Oct, steven:</strong>&nbsp;"PHP 9.2 CVE" &rarr; php.net archive. Two critical unauthenticated RCEs (Castopod lists CVE-2026-109618 &amp; -109619, PHP below 8.4.27).</a></p>
+<p><a href="https://podcastindex.social/@dave/117479258728316180" target="_blank" rel="noopener"><strong>Dave, 21 Oct 12:25 UTC:</strong>&nbsp;"Heads up, if Podcast Index api goes down at 9:00 am central time you'll know why." Then: "<strong>I've taken all the php servers offline until details come out.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@dave/117480517086273711" target="_blank" rel="noopener"><strong>16:07:</strong>&nbsp;"Podcast index api servers are patched and serving data again."&nbsp;<strong>19:20:</strong>&nbsp;"After upgrading php-fpm&hellip;&nbsp;<strong>the fpm default config was in place so the api is running like a dawg.</strong>&nbsp;Restoring the pre-tuned settings now..."&nbsp;<strong>20:19:</strong>&nbsp;"Fixed."</a></p>
+<p><a href="https://podcastindex.social/@dave/117480812021901748" target="_blank" rel="noopener"><strong>Dave on the pile-on:</strong>&nbsp;"Security people are unbearable&hellip; I know you'll be up all night patching PHP servers but there are also 27 CVE's in 5 other parts of your stack that are just as bad... or worse! Sure." (amended: "security influencers")</a></p>
+<p><a href="https://podcastindex.social/@dave/117484443011611511" target="_blank" rel="noopener"><strong>Then Node, 22 Oct:</strong>&nbsp;"Working on getting the web-ui repo upgraded because&nbsp;<strong>node.js blows worse than php</strong>. This day won't end." &rarr; "Done. Site is now on a current LTS node release and fully patched.&nbsp;<strong>Also blocked a large residential proxy scraper and a Chinese scraper bot in the process.</strong>" &rarr; "Well, the site is down. I'm not a node guy&hellip;" (recovered). Adam: "Thank you Brother. This was a rough day for you."</a></p>
+<p><a href="https://github.com/Podcastindex-org/web-ui/pull/630" target="_blank" rel="noopener">web-ui PR #630: Harden outbound fetches to untrusted hosts (Node CVEs)</a></p>
+<p><a href="https://mastodon.archive.org/@brewsterkahle/117481215431503956" target="_blank" rel="noopener"><strong>Others in the fire:</strong>&nbsp;Internet Archive ops (boosted by Dave) "used Claude to make fixes for our older php versions, used local models to run simulated attacks, deployed." Castopod 1.15.6 moved Docker to PHP 8.4.27. brianoflondon shut two MediaWiki sites.</a></p>
+<p><a href="https://podcastindex.social/@dave/117480672660153787" target="_blank" rel="noopener"><strong>And Dave's timing joke:</strong>&nbsp;someone shipped a release "on the same day as the global PHP panic? That's like someone choosing to release their indie film on the same day as Ghostbusters."</a></p>
+<p>🔍&nbsp;<strong>For Dave:</strong>&nbsp;what was in the scraper traffic, and is the API back to its pre-tuned numbers?</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>01 - 🎙️ PNWR: THE PROFESSOR, LIQUID CONTENT, AND "SOMEBODY AS SMART AS ADAM CURRY" (2 clips)</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">Podnews Weekly Review, 23 Oct &mdash; "Podcasting is liquid content now" (1h36m). Guest:&nbsp;<strong>Steven Goldstein</strong>, CEO/founder of Amplify Media and NYU professor.</a></p>
+<p><strong>The open:</strong>&nbsp;Sam Sethi: "The Podcasting 2.0 and the Podcast Index, the Adam Curry and Dave Jones Project,&nbsp;<strong>is now six years old</strong>." James: "an awful lot of hard work going on with Dave Jones at the moment to make it easier for anybody to keep it updated."</p>
+<p><strong>Liquid content, per Goldstein:</strong>&nbsp;not his term (Matthew Loran, Google DeepMind), but he brought it to podcasting: "why does content have to be in one place when people are now consuming in multiple places in multiple ways?" His model is the New York Times: print to ~400K, The Daily audio to 2&ndash;3M a day.</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 1 &mdash; Sam Sethi - Adam Curry Vibe Codes His Own Podcast App, Is That The Future - POD NEWS WEEKLY REVIEW</strong>&nbsp;(0:58)</a></p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 2 &mdash; Steven Goldstein - The Robot's Getting Smarter, Ten Years Out - POD NEWS WEEKLY REVIEW</strong>&nbsp;(1:47)</a></p>
+<p><a href="https://podcastindex.social/@adam/117468254555290308" target="_blank" rel="noopener"><strong>Adam's answer is already on the record, 19 Oct:</strong>&nbsp;"While I am indeed not a 'normal' person,&nbsp;<strong>I vibe coded this app with one prompt and 19 followups</strong>&nbsp;for bugs or changes." And: "Sooner than even I expected" &mdash; Google Play now supports private vibe-coded apps built for one person.</a></p>
+<p><a href="https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/" target="_blank" rel="noopener">TechCrunch: Google Play now supports private vibe-coded apps built just for you</a></p>
+<p><strong>The "normal person" who already did it (PNWR listener mail, 87:06):</strong>&nbsp;Claire Waite Brown had her husband build her own show-notes/titles/clips platform with AI a year ago, with a spelling dictionary. James: "it relates back to what Adam said&hellip; you don't need external platforms to do this." Then: "Dave was talking about normies, and Adam was getting upset about people talking about normies."</p>
+<p><a href="https://podcastindex.social/@dave/117458253586547155" target="_blank" rel="noopener"><strong>Pushback from our side:</strong>&nbsp;ChadF: "I haven't seen a great vibecoded 2.0 app yet and that includes my own stuff b/c they are extremely hard to make." Dave: "<strong>Give the listener control of the entire experience. Let their agents customize the whole experience.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@adam/117484567222515844" target="_blank" rel="noopener"><strong>Adam to aegrumet, 22 Oct:</strong>&nbsp;his Muse app gets new recommendations through the day, "based on lots of parameters, including where I am physically&hellip; It has become exciting to see what pops up vs a 'new' indicator in a mailbox." And 20 Oct: "Why would you want to be in the middle of the dream/build loop?"</a></p>
+<p><strong>Also on PNWR:</strong>&nbsp;Spotify paid podcast memberships (34 markets, 10% cut, bought on the web, not in-app) &middot; Substack tests dynamic ad insertion &middot; Netflix podcasts ("revenues up 12%, that's not failing") &middot; Castos launches UltraClip &middot; Podgagement's Networking Radar.</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>02 - 🤖 EVERYBODY HAS AN MCP NOW</p>
+<p><a href="https://podcastindex.social/@samsethi/117452022498456195" target="_blank" rel="noopener"><strong>Sam Sethi to Adam and Dave:</strong>&nbsp;"<strong>TrueFans MCP connector will be ready by the end of the month.</strong>&nbsp;We already have a test version working internally&hellip; Kevin &amp; Kelly prototypes to let users ask questions." ("This was a boost that never got read or seen. ;-(")</a></p>
+<p><a href="https://show.fm/docs/developers/" target="_blank" rel="noopener"><strong>show.fm</strong>&nbsp;(danmaby): developer docs updated for the new API and "the read-only MCP".</a></p>
+<p><a href="https://podcastindex.social/@samsethi/117490827424243472" target="_blank" rel="noopener"><strong>Sam Sethi is testing WebMCP</strong>&nbsp;&mdash; Google and Microsoft's proposed standard that lets a web page expose tools directly to a browser AI agent in the same tab.</a></p>
+<p><a href="https://businessbrain.show/fridai-agents-talking-to-agents-business-brain-799/" target="_blank" rel="noopener"><strong>Dave Hamilton (Business Brain 799, "Agents talking to Agents"):</strong>&nbsp;had Claude build an MCP connector for his company's backend in about 30 minutes; "When your customer's AI agent hits a roadblock&hellip; it simply goes somewhere else."</a></p>
+<p><a href="https://billynewmanphoto.com/films/oregon/" target="_blank" rel="noopener"><strong>billynewman:</strong>&nbsp;a 220-degree immersive Oregon film cut and rendered by "KINOCUT MCP for ffmpeg", with a V4V support interface under the theater.</a></p>
+<p><a href="https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/" target="_blank" rel="noopener"><strong>JS:</strong>&nbsp;people are vibe-coding their smart TVs "to get rid of sponsored ads, speed up the app launcher&hellip; disable tracking features."</a></p>
+<p><a href="https://youtu.be/T9LPrGXbyt4" target="_blank" rel="noopener"><strong>mikek999's topic suggestion:</strong>&nbsp;AI prompt injection (YouTube example).</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
+<div><small>Last Modified 10/23/2026 14:23:12 by&nbsp;<a href="http://freedomcontroller.com/">Freedom Controller</a></small>&nbsp;<a title="Link to the opml for this document." href="http://adam.curry.com/opml/Podcasting20Episode2-zqWvwGpxe7x9fjwErDXBNV.opml">&nbsp;</a></div>
+</div>
+</div>]]></description>
+      <link>https://www.podpage.com/podcasting-20/x402-bitch/</link>
+      <guid isPermaLink="false">PC20-277</guid>
+      <pubDate>Fri, 30 Oct 2026 19:16:55 +0000</pubDate>
+      <podcast:chapters url="https://reflex.livewire.io/chapters/podcast/917393e3-1b1e-5cef-ace4-edaa54e1f810/item/PC20-277/chapters/https://mp3s.nashownotes.com/PC20-277-Chapters.json" type="application/json"/>
+      <podcast:transcript url="https://mp3s.nashownotes.com/PC20-277-Captions.srt" type="application/srt" rel="captions"/>
+      <itunes:subtitle><![CDATA[Episode 277: "x402 Bitch!"]]></itunes:subtitle>
+      <itunes:summary><![CDATA[<p><span style="font-size: 18pt;"><strong>Podcasting 2.0 October 30th 2026 Episode 277 - "x402 Bitch!"</strong></span></p>
+<div>
+<div>&nbsp;</div>
+<div>
+<div>
+<p><strong>ShowNotes</strong></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>00 - 🚨 THE WEEK THE INDEX WENT DARK ON PURPOSE &mdash; PHP, NODE AND THE SCRAPERS</p>
+<p><a href="https://www.php.net/archive/2026.php" target="_blank" rel="noopener"><strong>Tue 20 Oct, steven:</strong>&nbsp;"PHP 9.2 CVE" &rarr; php.net archive. Two critical unauthenticated RCEs (Castopod lists CVE-2026-109618 &amp; -109619, PHP below 8.4.27).</a></p>
+<p><a href="https://podcastindex.social/@dave/117479258728316180" target="_blank" rel="noopener"><strong>Dave, 21 Oct 12:25 UTC:</strong>&nbsp;"Heads up, if Podcast Index api goes down at 9:00 am central time you'll know why." Then: "<strong>I've taken all the php servers offline until details come out.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@dave/117480517086273711" target="_blank" rel="noopener"><strong>16:07:</strong>&nbsp;"Podcast index api servers are patched and serving data again."&nbsp;<strong>19:20:</strong>&nbsp;"After upgrading php-fpm&hellip;&nbsp;<strong>the fpm default config was in place so the api is running like a dawg.</strong>&nbsp;Restoring the pre-tuned settings now..."&nbsp;<strong>20:19:</strong>&nbsp;"Fixed."</a></p>
+<p><a href="https://podcastindex.social/@dave/117480812021901748" target="_blank" rel="noopener"><strong>Dave on the pile-on:</strong>&nbsp;"Security people are unbearable&hellip; I know you'll be up all night patching PHP servers but there are also 27 CVE's in 5 other parts of your stack that are just as bad... or worse! Sure." (amended: "security influencers")</a></p>
+<p><a href="https://podcastindex.social/@dave/117484443011611511" target="_blank" rel="noopener"><strong>Then Node, 22 Oct:</strong>&nbsp;"Working on getting the web-ui repo upgraded because&nbsp;<strong>node.js blows worse than php</strong>. This day won't end." &rarr; "Done. Site is now on a current LTS node release and fully patched.&nbsp;<strong>Also blocked a large residential proxy scraper and a Chinese scraper bot in the process.</strong>" &rarr; "Well, the site is down. I'm not a node guy&hellip;" (recovered). Adam: "Thank you Brother. This was a rough day for you."</a></p>
+<p><a href="https://github.com/Podcastindex-org/web-ui/pull/630" target="_blank" rel="noopener">web-ui PR #630: Harden outbound fetches to untrusted hosts (Node CVEs)</a></p>
+<p><a href="https://mastodon.archive.org/@brewsterkahle/117481215431503956" target="_blank" rel="noopener"><strong>Others in the fire:</strong>&nbsp;Internet Archive ops (boosted by Dave) "used Claude to make fixes for our older php versions, used local models to run simulated attacks, deployed." Castopod 1.15.6 moved Docker to PHP 8.4.27. brianoflondon shut two MediaWiki sites.</a></p>
+<p><a href="https://podcastindex.social/@dave/117480672660153787" target="_blank" rel="noopener"><strong>And Dave's timing joke:</strong>&nbsp;someone shipped a release "on the same day as the global PHP panic? That's like someone choosing to release their indie film on the same day as Ghostbusters."</a></p>
+<p>🔍&nbsp;<strong>For Dave:</strong>&nbsp;what was in the scraper traffic, and is the API back to its pre-tuned numbers?</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>01 - 🎙️ PNWR: THE PROFESSOR, LIQUID CONTENT, AND "SOMEBODY AS SMART AS ADAM CURRY" (2 clips)</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">Podnews Weekly Review, 23 Oct &mdash; "Podcasting is liquid content now" (1h36m). Guest:&nbsp;<strong>Steven Goldstein</strong>, CEO/founder of Amplify Media and NYU professor.</a></p>
+<p><strong>The open:</strong>&nbsp;Sam Sethi: "The Podcasting 2.0 and the Podcast Index, the Adam Curry and Dave Jones Project,&nbsp;<strong>is now six years old</strong>." James: "an awful lot of hard work going on with Dave Jones at the moment to make it easier for anybody to keep it updated."</p>
+<p><strong>Liquid content, per Goldstein:</strong>&nbsp;not his term (Matthew Loran, Google DeepMind), but he brought it to podcasting: "why does content have to be in one place when people are now consuming in multiple places in multiple ways?" His model is the New York Times: print to ~400K, The Daily audio to 2&ndash;3M a day.</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 1 &mdash; Sam Sethi - Adam Curry Vibe Codes His Own Podcast App, Is That The Future - POD NEWS WEEKLY REVIEW</strong>&nbsp;(0:58)</a></p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 2 &mdash; Steven Goldstein - The Robot's Getting Smarter, Ten Years Out - POD NEWS WEEKLY REVIEW</strong>&nbsp;(1:47)</a></p>
+<p><a href="https://podcastindex.social/@adam/117468254555290308" target="_blank" rel="noopener"><strong>Adam's answer is already on the record, 19 Oct:</strong>&nbsp;"While I am indeed not a 'normal' person,&nbsp;<strong>I vibe coded this app with one prompt and 19 followups</strong>&nbsp;for bugs or changes." And: "Sooner than even I expected" &mdash; Google Play now supports private vibe-coded apps built for one person.</a></p>
+<p><a href="https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/" target="_blank" rel="noopener">TechCrunch: Google Play now supports private vibe-coded apps built just for you</a></p>
+<p><strong>The "normal person" who already did it (PNWR listener mail, 87:06):</strong>&nbsp;Claire Waite Brown had her husband build her own show-notes/titles/clips platform with AI a year ago, with a spelling dictionary. James: "it relates back to what Adam said&hellip; you don't need external platforms to do this." Then: "Dave was talking about normies, and Adam was getting upset about people talking about normies."</p>
+<p><a href="https://podcastindex.social/@dave/117458253586547155" target="_blank" rel="noopener"><strong>Pushback from our side:</strong>&nbsp;ChadF: "I haven't seen a great vibecoded 2.0 app yet and that includes my own stuff b/c they are extremely hard to make." Dave: "<strong>Give the listener control of the entire experience. Let their agents customize the whole experience.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@adam/117484567222515844" target="_blank" rel="noopener"><strong>Adam to aegrumet, 22 Oct:</strong>&nbsp;his Muse app gets new recommendations through the day, "based on lots of parameters, including where I am physically&hellip; It has become exciting to see what pops up vs a 'new' indicator in a mailbox." And 20 Oct: "Why would you want to be in the middle of the dream/build loop?"</a></p>
+<p><strong>Also on PNWR:</strong>&nbsp;Spotify paid podcast memberships (34 markets, 10% cut, bought on the web, not in-app) &middot; Substack tests dynamic ad insertion &middot; Netflix podcasts ("revenues up 12%, that's not failing") &middot; Castos launches UltraClip &middot; Podgagement's Networking Radar.</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>02 - 🤖 EVERYBODY HAS AN MCP NOW</p>
+<p><a href="https://podcastindex.social/@samsethi/117452022498456195" target="_blank" rel="noopener"><strong>Sam Sethi to Adam and Dave:</strong>&nbsp;"<strong>TrueFans MCP connector will be ready by the end of the month.</strong>&nbsp;We already have a test version working internally&hellip; Kevin &amp; Kelly prototypes to let users ask questions." ("This was a boost that never got read or seen. ;-(")</a></p>
+<p><a href="https://show.fm/docs/developers/" target="_blank" rel="noopener"><strong>show.fm</strong>&nbsp;(danmaby): developer docs updated for the new API and "the read-only MCP".</a></p>
+<p><a href="https://podcastindex.social/@samsethi/117490827424243472" target="_blank" rel="noopener"><strong>Sam Sethi is testing WebMCP</strong>&nbsp;&mdash; Google and Microsoft's proposed standard that lets a web page expose tools directly to a browser AI agent in the same tab.</a></p>
+<p><a href="https://businessbrain.show/fridai-agents-talking-to-agents-business-brain-799/" target="_blank" rel="noopener"><strong>Dave Hamilton (Business Brain 799, "Agents talking to Agents"):</strong>&nbsp;had Claude build an MCP connector for his company's backend in about 30 minutes; "When your customer's AI agent hits a roadblock&hellip; it simply goes somewhere else."</a></p>
+<p><a href="https://billynewmanphoto.com/films/oregon/" target="_blank" rel="noopener"><strong>billynewman:</strong>&nbsp;a 220-degree immersive Oregon film cut and rendered by "KINOCUT MCP for ffmpeg", with a V4V support interface under the theater.</a></p>
+<p><a href="https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/" target="_blank" rel="noopener"><strong>JS:</strong>&nbsp;people are vibe-coding their smart TVs "to get rid of sponsored ads, speed up the app launcher&hellip; disable tracking features."</a></p>
+<p><a href="https://youtu.be/T9LPrGXbyt4" target="_blank" rel="noopener"><strong>mikek999's topic suggestion:</strong>&nbsp;AI prompt injection (YouTube example).</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
+<div><small>Last Modified 10/23/2026 14:23:12 by&nbsp;<a href="http://freedomcontroller.com/">Freedom Controller</a></small>&nbsp;<a title="Link to the opml for this document." href="http://adam.curry.com/opml/Podcasting20Episode2-zqWvwGpxe7x9fjwErDXBNV.opml">&nbsp;</a></div>
+</div>
+</div>]]></itunes:summary>
+      <itunes:author>Podcast Index LLC</itunes:author>
+      <author>Podcast Index LLC</author>
+      <itunes:image href="https://noagendaassets.com/enc/1684513486.722_pcifeedimage.png"/>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>podcasting,curry,podfather,technology,developers</itunes:keywords>
+      <enclosure url="https://op3.dev/e/mp3s.nashownotes.com/PC20-277-2026-10-30-Final.mp3" type="audio/mpeg" length="65977986"/>
+      <podcast:person group="cast" role="host" img="https://feeds.podcastindex.org/adam_avatar.jpg" href="http://curry.com">Adam Curry</podcast:person>
+      <podcast:person href="http://dave.sobr.org" img="https://feeds.podcastindex.org/dave_avatar.jpg" group="cast" role="host">Dave Jones</podcast:person>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Dreb Scott (Chapters)" type="lnaddress" address="drebscott@getalby.com" split="5"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="steven@getalby.com" type="lnaddress" split="10"/>
+        <podcast:valueRecipient name="Fountain Boost bot" type="lnaddress" address="boostbot@fountain.fm" split="1"/>
+        <podcast:valueRecipient name="Reflex.io" type="lnaddress" address="reflex@livewire.io" split="5"/>
+        <podcast:valueRecipient name="ericpp@getalby.com" type="lnaddress" address="ericpp@getalby.com" split="5"/>
+        <podcast:valueRecipient name="Strike Test" type="lnaddress" address="adamcurry@strike.me" split="3"/>
+        <podcast:valueRecipient name="Alecks Gates Strike" type="lnaddress" address="agates@strike.me" split="5"/>
+        <podcast:valueRecipient name="PodcastIndex LN Test Wallet" type="lnaddress" address="podcastindex@getalby.com" split="61"/>
+        <podcast:valueRecipient name="Boost Monitor" type="lnaddress" address="adam@getalby.com" split="5"/>
+      </podcast:value>
+      <podcast:socialInteract protocol="activitypub" uri="https://podcastindex.social/@PodcastsLive/117531021097716836" accountId="@adam" accountUrl="https://podcastindex.social/users/adam"/>
+      <itunes:duration>5496</itunes:duration>
+      <podcast:funding url="https://www.paypal.com/donate?token=-hvWBEXZQfp7oSFJz0TwT3QXYcjYuemZRPIOml3nrL-EhtiUPAwuVHS6DPN5cBat9wjqwYEtyW-K8zSS">Support us with Value 4 Value</podcast:funding>
+    </item>
+    <item>
+      <title><![CDATA[Episode 276: "Jackleg leechers"]]></title>
+      <description><![CDATA[<p><span style="font-size: 18pt;"><strong>Podcasting 2.0 October 23d 2026 Episode 276 - "Jackleg Leechers"</strong></span></p>
+<div>
+<div>
+<p><strong>ShowNotes</strong></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>00 - 🚨 THE WEEK THE INDEX WENT DARK ON PURPOSE &mdash; PHP, NODE AND THE SCRAPERS</p>
+<p><a href="https://www.php.net/archive/2026.php" target="_blank" rel="noopener"><strong>Tue 20 Oct, steven:</strong>&nbsp;"PHP 9.2 CVE" &rarr; php.net archive. Two critical unauthenticated RCEs (Castopod lists CVE-2026-109618 &amp; -109619, PHP below 8.4.27).</a></p>
+<p><a href="https://podcastindex.social/@dave/117479258728316180" target="_blank" rel="noopener"><strong>Dave, 21 Oct 12:25 UTC:</strong>&nbsp;"Heads up, if Podcast Index api goes down at 9:00 am central time you'll know why." Then: "<strong>I've taken all the php servers offline until details come out.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@dave/117480517086273711" target="_blank" rel="noopener"><strong>16:07:</strong>&nbsp;"Podcast index api servers are patched and serving data again."&nbsp;<strong>19:20:</strong>&nbsp;"After upgrading php-fpm&hellip;&nbsp;<strong>the fpm default config was in place so the api is running like a dawg.</strong>&nbsp;Restoring the pre-tuned settings now..."&nbsp;<strong>20:19:</strong>&nbsp;"Fixed."</a></p>
+<p><a href="https://podcastindex.social/@dave/117480812021901748" target="_blank" rel="noopener"><strong>Dave on the pile-on:</strong>&nbsp;"Security people are unbearable&hellip; I know you'll be up all night patching PHP servers but there are also 27 CVE's in 5 other parts of your stack that are just as bad... or worse! Sure." (amended: "security influencers")</a></p>
+<p><a href="https://podcastindex.social/@dave/117484443011611511" target="_blank" rel="noopener"><strong>Then Node, 22 Oct:</strong>&nbsp;"Working on getting the web-ui repo upgraded because&nbsp;<strong>node.js blows worse than php</strong>. This day won't end." &rarr; "Done. Site is now on a current LTS node release and fully patched.&nbsp;<strong>Also blocked a large residential proxy scraper and a Chinese scraper bot in the process.</strong>" &rarr; "Well, the site is down. I'm not a node guy&hellip;" (recovered). Adam: "Thank you Brother. This was a rough day for you."</a></p>
+<p><a href="https://github.com/Podcastindex-org/web-ui/pull/630" target="_blank" rel="noopener">web-ui PR #630: Harden outbound fetches to untrusted hosts (Node CVEs)</a></p>
+<p><a href="https://mastodon.archive.org/@brewsterkahle/117481215431503956" target="_blank" rel="noopener"><strong>Others in the fire:</strong>&nbsp;Internet Archive ops (boosted by Dave) "used Claude to make fixes for our older php versions, used local models to run simulated attacks, deployed." Castopod 1.15.6 moved Docker to PHP 8.4.27. brianoflondon shut two MediaWiki sites.</a></p>
+<p><a href="https://podcastindex.social/@dave/117480672660153787" target="_blank" rel="noopener"><strong>And Dave's timing joke:</strong>&nbsp;someone shipped a release "on the same day as the global PHP panic? That's like someone choosing to release their indie film on the same day as Ghostbusters."</a></p>
+<p>🔍&nbsp;<strong>For Dave:</strong>&nbsp;what was in the scraper traffic, and is the API back to its pre-tuned numbers?</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>01 - 🎙️ PNWR: THE PROFESSOR, LIQUID CONTENT, AND "SOMEBODY AS SMART AS ADAM CURRY" (2 clips)</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">Podnews Weekly Review, 23 Oct &mdash; "Podcasting is liquid content now" (1h36m). Guest:&nbsp;<strong>Steven Goldstein</strong>, CEO/founder of Amplify Media and NYU professor.</a></p>
+<p><strong>The open:</strong>&nbsp;Sam Sethi: "The Podcasting 2.0 and the Podcast Index, the Adam Curry and Dave Jones Project,&nbsp;<strong>is now six years old</strong>." James: "an awful lot of hard work going on with Dave Jones at the moment to make it easier for anybody to keep it updated."</p>
+<p><strong>Liquid content, per Goldstein:</strong>&nbsp;not his term (Matthew Loran, Google DeepMind), but he brought it to podcasting: "why does content have to be in one place when people are now consuming in multiple places in multiple ways?" His model is the New York Times: print to ~400K, The Daily audio to 2&ndash;3M a day.</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 1 &mdash; Sam Sethi - Adam Curry Vibe Codes His Own Podcast App, Is That The Future - POD NEWS WEEKLY REVIEW</strong>&nbsp;(0:58)</a></p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 2 &mdash; Steven Goldstein - The Robot's Getting Smarter, Ten Years Out - POD NEWS WEEKLY REVIEW</strong>&nbsp;(1:47)</a></p>
+<p><a href="https://podcastindex.social/@adam/117468254555290308" target="_blank" rel="noopener"><strong>Adam's answer is already on the record, 19 Oct:</strong>&nbsp;"While I am indeed not a 'normal' person,&nbsp;<strong>I vibe coded this app with one prompt and 19 followups</strong>&nbsp;for bugs or changes." And: "Sooner than even I expected" &mdash; Google Play now supports private vibe-coded apps built for one person.</a></p>
+<p><a href="https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/" target="_blank" rel="noopener">TechCrunch: Google Play now supports private vibe-coded apps built just for you</a></p>
+<p><strong>The "normal person" who already did it (PNWR listener mail, 87:06):</strong>&nbsp;Claire Waite Brown had her husband build her own show-notes/titles/clips platform with AI a year ago, with a spelling dictionary. James: "it relates back to what Adam said&hellip; you don't need external platforms to do this." Then: "Dave was talking about normies, and Adam was getting upset about people talking about normies."</p>
+<p><a href="https://podcastindex.social/@dave/117458253586547155" target="_blank" rel="noopener"><strong>Pushback from our side:</strong>&nbsp;ChadF: "I haven't seen a great vibecoded 2.0 app yet and that includes my own stuff b/c they are extremely hard to make." Dave: "<strong>Give the listener control of the entire experience. Let their agents customize the whole experience.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@adam/117484567222515844" target="_blank" rel="noopener"><strong>Adam to aegrumet, 22 Oct:</strong>&nbsp;his Muse app gets new recommendations through the day, "based on lots of parameters, including where I am physically&hellip; It has become exciting to see what pops up vs a 'new' indicator in a mailbox." And 20 Oct: "Why would you want to be in the middle of the dream/build loop?"</a></p>
+<p><strong>Also on PNWR:</strong>&nbsp;Spotify paid podcast memberships (34 markets, 10% cut, bought on the web, not in-app) &middot; Substack tests dynamic ad insertion &middot; Netflix podcasts ("revenues up 12%, that's not failing") &middot; Castos launches UltraClip &middot; Podgagement's Networking Radar.</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>02 - 🤖 EVERYBODY HAS AN MCP NOW</p>
+<p><a href="https://podcastindex.social/@samsethi/117452022498456195" target="_blank" rel="noopener"><strong>Sam Sethi to Adam and Dave:</strong>&nbsp;"<strong>TrueFans MCP connector will be ready by the end of the month.</strong>&nbsp;We already have a test version working internally&hellip; Kevin &amp; Kelly prototypes to let users ask questions." ("This was a boost that never got read or seen. ;-(")</a></p>
+<p><a href="https://show.fm/docs/developers/" target="_blank" rel="noopener"><strong>show.fm</strong>&nbsp;(danmaby): developer docs updated for the new API and "the read-only MCP".</a></p>
+<p><a href="https://podcastindex.social/@samsethi/117490827424243472" target="_blank" rel="noopener"><strong>Sam Sethi is testing WebMCP</strong>&nbsp;&mdash; Google and Microsoft's proposed standard that lets a web page expose tools directly to a browser AI agent in the same tab.</a></p>
+<p><a href="https://businessbrain.show/fridai-agents-talking-to-agents-business-brain-799/" target="_blank" rel="noopener"><strong>Dave Hamilton (Business Brain 799, "Agents talking to Agents"):</strong>&nbsp;had Claude build an MCP connector for his company's backend in about 30 minutes; "When your customer's AI agent hits a roadblock&hellip; it simply goes somewhere else."</a></p>
+<p><a href="https://billynewmanphoto.com/films/oregon/" target="_blank" rel="noopener"><strong>billynewman:</strong>&nbsp;a 220-degree immersive Oregon film cut and rendered by "KINOCUT MCP for ffmpeg", with a V4V support interface under the theater.</a></p>
+<p><a href="https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/" target="_blank" rel="noopener"><strong>JS:</strong>&nbsp;people are vibe-coding their smart TVs "to get rid of sponsored ads, speed up the app launcher&hellip; disable tracking features."</a></p>
+<p><a href="https://youtu.be/T9LPrGXbyt4" target="_blank" rel="noopener"><strong>mikek999's topic suggestion:</strong>&nbsp;AI prompt injection (YouTube example).</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
+<div><small>Last Modified 10/23/2026 14:23:12 by&nbsp;<a href="http://freedomcontroller.com/">Freedom Controller</a></small>&nbsp;<a title="Link to the opml for this document." href="http://adam.curry.com/opml/Podcasting20Episode2-zqWvwGpxe7x9fjwErDXBNV.opml">&nbsp;</a></div>
+</div>]]></description>
+      <link>https://www.podpage.com/podcasting-20/jackleg-leechers/</link>
+      <guid isPermaLink="false">PC20-276</guid>
+      <pubDate>Fri, 23 Oct 2026 19:17:46 +0000</pubDate>
+      <podcast:chapters url="https://reflex.livewire.io/chapters/podcast/917393e3-1b1e-5cef-ace4-edaa54e1f810/item/PC20-276/chapters/https://mp3s.nashownotes.com/PC20-276-Chapters.json" type="application/json"/>
+      <podcast:transcript url="https://mp3s.nashownotes.com/PC20-276-Captions.srt" type="application/srt" rel="captions"/>
+      <itunes:subtitle><![CDATA[Episode 276: "Jackleg leechers"]]></itunes:subtitle>
+      <itunes:summary><![CDATA[<p><span style="font-size: 18pt;"><strong>Podcasting 2.0 October 23d 2026 Episode 276 - "Jackleg Leechers"</strong></span></p>
+<div>
+<div>
+<p><strong>ShowNotes</strong></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>00 - 🚨 THE WEEK THE INDEX WENT DARK ON PURPOSE &mdash; PHP, NODE AND THE SCRAPERS</p>
+<p><a href="https://www.php.net/archive/2026.php" target="_blank" rel="noopener"><strong>Tue 20 Oct, steven:</strong>&nbsp;"PHP 9.2 CVE" &rarr; php.net archive. Two critical unauthenticated RCEs (Castopod lists CVE-2026-109618 &amp; -109619, PHP below 8.4.27).</a></p>
+<p><a href="https://podcastindex.social/@dave/117479258728316180" target="_blank" rel="noopener"><strong>Dave, 21 Oct 12:25 UTC:</strong>&nbsp;"Heads up, if Podcast Index api goes down at 9:00 am central time you'll know why." Then: "<strong>I've taken all the php servers offline until details come out.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@dave/117480517086273711" target="_blank" rel="noopener"><strong>16:07:</strong>&nbsp;"Podcast index api servers are patched and serving data again."&nbsp;<strong>19:20:</strong>&nbsp;"After upgrading php-fpm&hellip;&nbsp;<strong>the fpm default config was in place so the api is running like a dawg.</strong>&nbsp;Restoring the pre-tuned settings now..."&nbsp;<strong>20:19:</strong>&nbsp;"Fixed."</a></p>
+<p><a href="https://podcastindex.social/@dave/117480812021901748" target="_blank" rel="noopener"><strong>Dave on the pile-on:</strong>&nbsp;"Security people are unbearable&hellip; I know you'll be up all night patching PHP servers but there are also 27 CVE's in 5 other parts of your stack that are just as bad... or worse! Sure." (amended: "security influencers")</a></p>
+<p><a href="https://podcastindex.social/@dave/117484443011611511" target="_blank" rel="noopener"><strong>Then Node, 22 Oct:</strong>&nbsp;"Working on getting the web-ui repo upgraded because&nbsp;<strong>node.js blows worse than php</strong>. This day won't end." &rarr; "Done. Site is now on a current LTS node release and fully patched.&nbsp;<strong>Also blocked a large residential proxy scraper and a Chinese scraper bot in the process.</strong>" &rarr; "Well, the site is down. I'm not a node guy&hellip;" (recovered). Adam: "Thank you Brother. This was a rough day for you."</a></p>
+<p><a href="https://github.com/Podcastindex-org/web-ui/pull/630" target="_blank" rel="noopener">web-ui PR #630: Harden outbound fetches to untrusted hosts (Node CVEs)</a></p>
+<p><a href="https://mastodon.archive.org/@brewsterkahle/117481215431503956" target="_blank" rel="noopener"><strong>Others in the fire:</strong>&nbsp;Internet Archive ops (boosted by Dave) "used Claude to make fixes for our older php versions, used local models to run simulated attacks, deployed." Castopod 1.15.6 moved Docker to PHP 8.4.27. brianoflondon shut two MediaWiki sites.</a></p>
+<p><a href="https://podcastindex.social/@dave/117480672660153787" target="_blank" rel="noopener"><strong>And Dave's timing joke:</strong>&nbsp;someone shipped a release "on the same day as the global PHP panic? That's like someone choosing to release their indie film on the same day as Ghostbusters."</a></p>
+<p>🔍&nbsp;<strong>For Dave:</strong>&nbsp;what was in the scraper traffic, and is the API back to its pre-tuned numbers?</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>01 - 🎙️ PNWR: THE PROFESSOR, LIQUID CONTENT, AND "SOMEBODY AS SMART AS ADAM CURRY" (2 clips)</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">Podnews Weekly Review, 23 Oct &mdash; "Podcasting is liquid content now" (1h36m). Guest:&nbsp;<strong>Steven Goldstein</strong>, CEO/founder of Amplify Media and NYU professor.</a></p>
+<p><strong>The open:</strong>&nbsp;Sam Sethi: "The Podcasting 2.0 and the Podcast Index, the Adam Curry and Dave Jones Project,&nbsp;<strong>is now six years old</strong>." James: "an awful lot of hard work going on with Dave Jones at the moment to make it easier for anybody to keep it updated."</p>
+<p><strong>Liquid content, per Goldstein:</strong>&nbsp;not his term (Matthew Loran, Google DeepMind), but he brought it to podcasting: "why does content have to be in one place when people are now consuming in multiple places in multiple ways?" His model is the New York Times: print to ~400K, The Daily audio to 2&ndash;3M a day.</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 1 &mdash; Sam Sethi - Adam Curry Vibe Codes His Own Podcast App, Is That The Future - POD NEWS WEEKLY REVIEW</strong>&nbsp;(0:58)</a></p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/20007510-podcasting-is-liquid-content-now" target="_blank" rel="noopener">🎧&nbsp;<strong>CLIP 2 &mdash; Steven Goldstein - The Robot's Getting Smarter, Ten Years Out - POD NEWS WEEKLY REVIEW</strong>&nbsp;(1:47)</a></p>
+<p><a href="https://podcastindex.social/@adam/117468254555290308" target="_blank" rel="noopener"><strong>Adam's answer is already on the record, 19 Oct:</strong>&nbsp;"While I am indeed not a 'normal' person,&nbsp;<strong>I vibe coded this app with one prompt and 19 followups</strong>&nbsp;for bugs or changes." And: "Sooner than even I expected" &mdash; Google Play now supports private vibe-coded apps built for one person.</a></p>
+<p><a href="https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/" target="_blank" rel="noopener">TechCrunch: Google Play now supports private vibe-coded apps built just for you</a></p>
+<p><strong>The "normal person" who already did it (PNWR listener mail, 87:06):</strong>&nbsp;Claire Waite Brown had her husband build her own show-notes/titles/clips platform with AI a year ago, with a spelling dictionary. James: "it relates back to what Adam said&hellip; you don't need external platforms to do this." Then: "Dave was talking about normies, and Adam was getting upset about people talking about normies."</p>
+<p><a href="https://podcastindex.social/@dave/117458253586547155" target="_blank" rel="noopener"><strong>Pushback from our side:</strong>&nbsp;ChadF: "I haven't seen a great vibecoded 2.0 app yet and that includes my own stuff b/c they are extremely hard to make." Dave: "<strong>Give the listener control of the entire experience. Let their agents customize the whole experience.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@adam/117484567222515844" target="_blank" rel="noopener"><strong>Adam to aegrumet, 22 Oct:</strong>&nbsp;his Muse app gets new recommendations through the day, "based on lots of parameters, including where I am physically&hellip; It has become exciting to see what pops up vs a 'new' indicator in a mailbox." And 20 Oct: "Why would you want to be in the middle of the dream/build loop?"</a></p>
+<p><strong>Also on PNWR:</strong>&nbsp;Spotify paid podcast memberships (34 markets, 10% cut, bought on the web, not in-app) &middot; Substack tests dynamic ad insertion &middot; Netflix podcasts ("revenues up 12%, that's not failing") &middot; Castos launches UltraClip &middot; Podgagement's Networking Radar.</p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>02 - 🤖 EVERYBODY HAS AN MCP NOW</p>
+<p><a href="https://podcastindex.social/@samsethi/117452022498456195" target="_blank" rel="noopener"><strong>Sam Sethi to Adam and Dave:</strong>&nbsp;"<strong>TrueFans MCP connector will be ready by the end of the month.</strong>&nbsp;We already have a test version working internally&hellip; Kevin &amp; Kelly prototypes to let users ask questions." ("This was a boost that never got read or seen. ;-(")</a></p>
+<p><a href="https://show.fm/docs/developers/" target="_blank" rel="noopener"><strong>show.fm</strong>&nbsp;(danmaby): developer docs updated for the new API and "the read-only MCP".</a></p>
+<p><a href="https://podcastindex.social/@samsethi/117490827424243472" target="_blank" rel="noopener"><strong>Sam Sethi is testing WebMCP</strong>&nbsp;&mdash; Google and Microsoft's proposed standard that lets a web page expose tools directly to a browser AI agent in the same tab.</a></p>
+<p><a href="https://businessbrain.show/fridai-agents-talking-to-agents-business-brain-799/" target="_blank" rel="noopener"><strong>Dave Hamilton (Business Brain 799, "Agents talking to Agents"):</strong>&nbsp;had Claude build an MCP connector for his company's backend in about 30 minutes; "When your customer's AI agent hits a roadblock&hellip; it simply goes somewhere else."</a></p>
+<p><a href="https://billynewmanphoto.com/films/oregon/" target="_blank" rel="noopener"><strong>billynewman:</strong>&nbsp;a 220-degree immersive Oregon film cut and rendered by "KINOCUT MCP for ffmpeg", with a V4V support interface under the theater.</a></p>
+<p><a href="https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/" target="_blank" rel="noopener"><strong>JS:</strong>&nbsp;people are vibe-coding their smart TVs "to get rid of sponsored ads, speed up the app launcher&hellip; disable tracking features."</a></p>
+<p><a href="https://youtu.be/T9LPrGXbyt4" target="_blank" rel="noopener"><strong>mikek999's topic suggestion:</strong>&nbsp;AI prompt injection (YouTube example).</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
+<div><small>Last Modified 10/23/2026 14:23:12 by&nbsp;<a href="http://freedomcontroller.com/">Freedom Controller</a></small>&nbsp;<a title="Link to the opml for this document." href="http://adam.curry.com/opml/Podcasting20Episode2-zqWvwGpxe7x9fjwErDXBNV.opml">&nbsp;</a></div>
+</div>]]></itunes:summary>
+      <itunes:author>Podcast Index LLC</itunes:author>
+      <author>Podcast Index LLC</author>
+      <itunes:image href="https://noagendaassets.com/enc/1684513486.722_pcifeedimage.png"/>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>podcasting,curry,podfather,technology,developers</itunes:keywords>
+      <enclosure url="https://op3.dev/e/mp3s.nashownotes.com/PC20-276-2026-10-23-Final.mp3" type="audio/mpeg" length="64037934"/>
+      <podcast:person group="cast" role="host" img="https://feeds.podcastindex.org/adam_avatar.jpg" href="http://curry.com">Adam Curry</podcast:person>
+      <podcast:person href="http://dave.sobr.org" img="https://feeds.podcastindex.org/dave_avatar.jpg" group="cast" role="host">Dave Jones</podcast:person>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Dreb Scott (Chapters)" type="lnaddress" address="drebscott@getalby.com" split="5"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="steven@getalby.com" type="lnaddress" split="10"/>
+        <podcast:valueRecipient name="Fountain Boost bot" type="lnaddress" address="boostbot@fountain.fm" split="1"/>
+        <podcast:valueRecipient name="Reflex.io" type="lnaddress" address="reflex@livewire.io" split="5"/>
+        <podcast:valueRecipient name="ericpp@getalby.com" type="lnaddress" address="ericpp@getalby.com" split="5"/>
+        <podcast:valueRecipient name="Strike Test" type="lnaddress" address="adamcurry@strike.me" split="3"/>
+        <podcast:valueRecipient name="Alecks Gates Strike" type="lnaddress" address="agates@strike.me" split="5"/>
+        <podcast:valueRecipient name="PodcastIndex LN Test Wallet" type="lnaddress" address="podcastindex@getalby.com" split="61"/>
+        <podcast:valueRecipient name="Boost Monitor" type="lnaddress" address="adam@getalby.com" split="5"/>
+      </podcast:value>
+      <podcast:socialInteract protocol="activitypub" uri="https://podcastindex.social/@PodcastsLive/117491366129316912" accountId="@adam" accountUrl="https://podcastindex.social/users/adam"/>
+      <itunes:duration>5335</itunes:duration>
+      <podcast:funding url="https://www.paypal.com/donate?token=-hvWBEXZQfp7oSFJz0TwT3QXYcjYuemZRPIOml3nrL-EhtiUPAwuVHS6DPN5cBat9wjqwYEtyW-K8zSS">Support us with Value 4 Value</podcast:funding>
+    </item>
+    <item>
+      <title><![CDATA[Episode 275: "Off The Rails"]]></title>
+      <description><![CDATA[<p><span style="font-size: 18pt;"><strong>Podcasting 2.0 October 16th 2026 Episode 275 - "Off The Rails"</strong></span></p>
+<div>
+<div>
+<p>What is the future of independent Podcast apps. OR any apps for the matter? Adam and Dave don't agree</p>
+<div>
+<p><strong>ShowNotes</strong></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>01 - 🎙️ THE ROBOT GOES ON PNWR &mdash; "I DON'T SEE THE NECESSITY FOR PODCAST APPS" (summary, no clips)</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/19971325-adam-curry-s-ai-podcast-future" target="_blank" rel="noopener">Podnews Weekly Review, 16 Oct &mdash; "Adam Curry's AI Podcast Future" (1h29m; Adam, 4:00&ndash;53:45)</a></p>
+<p><strong>Sam's setup:</strong>&nbsp;on our last show Adam "changed Dave Jones' mind&hellip; from a skeptic to a believer". Adam: "I went back and listened&hellip;&nbsp;<strong>the first thing that Dave went to was advertising.</strong>&nbsp;It seems like anything with podcasting always evolves around advertising, even though&hellip; we don't have advertising on our podcast."</p>
+<p><strong>On Muse and the "spying" story:</strong>&nbsp;"Muse is collecting all this data, it's making files of every single one of your friends&hellip;&nbsp;<strong>That is a feature, not a bug.</strong>" &mdash; and the five machines at home running local models.</p>
+<p><strong>Sam:</strong>&nbsp;Reddit removed RSS and charged for its API ($43M from selling data); Lightning/L402 "worked for a while, but then&hellip; legislation and technical challenges." Will clients pay x402 to reach the Index through the MCP?&nbsp;<strong>Adam:</strong>&nbsp;"I don't see the necessity for YouTube apps, podcast apps, email apps&hellip; all clients that access all data will be some version of an agent working on the user's behalf." And: "<strong>Amazon did the stupidest thing ever by blocking Muse.</strong>"</p>
+<p><strong>On the newsletter:</strong>&nbsp;"40% of all value for value revenue always comes after we send the newsletter."</p>
+<p><strong>On RSS:</strong>&nbsp;"RSS stays. It's a perfect format&hellip; no different from HTTP or SMTP." Podcast Index Robot "goes into this structured RSS feed, which is very low overhead."</p>
+<p><strong>On podcast apps:</strong>&nbsp;"Podcast apps has been probably the crappiest part of the entire podcasting business. It's truly a labor of love&hellip; Do you want to be an interim step in between the data and the user? Maybe, but I don't know." And on Godcaster: "We're in the app business too&hellip; same issues apply."</p>
+<p><strong>The clean-feed line:</strong>&nbsp;Adam had his Omarchy box build a Cleanfeed-equivalent into his playout &mdash; "I'm gonna probably cancel my subscription, which is only $36."</p>
+<p><strong>Sam's close:</strong>&nbsp;TrueFans is building "Kevin and Kelly" as experimental agents on the Index fire hose. Afterward, to James: "Adam Curry is very smart and he can use it" &mdash; but normal people won't. James: "I don't think normal people will be doing that, will they?"</p>
+<p><a href="https://podcastindex.social/@adam/117444815477511023" target="_blank" rel="noopener"><strong>And the follow-up on Mastodon.</strong>&nbsp;Sam posted a Fintech Times piece on agentic payments "after all the chat with Adam and Dave about micropayments 2.0 using X.402"; Adam: "<strong>The power will shift to consumer power with agentic negotiation between vendors of goods and services.</strong>"</a></p>
+<p><a href="https://thefintechtimes.com/news-views-podcast-the-real-barrier-to-agentic-payments-is-not-the-ai/" target="_blank" rel="noopener">Fintech Times: the real barrier to agentic payments is not the AI</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>02 - 🚫 WILL APPLE LET THE ROBOT SKIP THE ADS?</p>
+<p><a href="https://podcastindex.social/@aegrumet/117424368148654254" target="_blank" rel="noopener"><strong>aegrumet, under Adam's 274 post:</strong>&nbsp;"I still think you're underestimating the pressure that will fall on platforms to create and enforce TOS that forbids this stuff&hellip;&nbsp;<strong>the tech is ahead of the policy, and&hellip; the latter will eventually catch up.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@dave/117427465672916264" target="_blank" rel="noopener"><strong>Dave:</strong>&nbsp;"You're saying you think Apple will change their terms to prohibit local on device models from assisting in ad skipping?" &hellip; "<strong>Ad blockers are already allowed on the AppStore and PlayStore</strong>&hellip; a popular Reddit ad/nag blocker and things like 1Blocker for Safari&hellip;&nbsp;<strong>Neither Apple, nor Google serve podcast ads</strong>."</a></p>
+<p><strong>aegrumet's last word:</strong>&nbsp;Google and Apple "are fundamentally different with respect to ads. Hence Chrome is much more aggressive with respect to blocking the blockers. I don't see the current moment as a policy so much as a lack of one."</p>
+<p><strong>Sam on PNWR:</strong>&nbsp;"This week Apple blocked Muse, and so did Amazon" &mdash; agents doing price checks and arbitrage. TrueFans built a web application firewall off JS's bot list because AI bots were running up its MongoDB bill.</p>
+<p><a href="https://tomkahe.com/@tom/117424481628102191" target="_blank" rel="noopener"><strong>Dave on Spotify, boosted:</strong>&nbsp;"Spotify harnessing hundreds of dev hours and the power of 3 supercomputers to change what the like button does again."</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>03 - 🏷️ NAMESPACE &mdash; A FEED FOR PEOPLE, AND VIDEO IN THE ALTERNATE ENCLOSURE</p>
+<p><a href="https://github.com/Podcastindex-org/podcast-namespace/discussions/498#discussioncomment-18772440" target="_blank" rel="noopener"><strong>podcast:person for fictional characters</strong>&nbsp;(discussion #498). Dave: "Makes great sense."</a></p>
+<p><a href="https://podcastindex.social/@dave/117413318081047105" target="_blank" rel="noopener"><strong>Nathan Gathright:</strong>&nbsp;propose a&nbsp;<strong>personGUID</strong>&nbsp;attribute pointing at a&nbsp;<strong>medium=person</strong>&nbsp;feed &mdash; so "Tap on a person, open up a list of their podcast appearances" works for every podcast:person tag. alecksgates: "the problem is no source of truth." Mitch: maybe a publisher or playlist feed referenced with a guid. Sam: TrueFans tried this two years ago and is "reliant on the hosts first implementing support for the person tag."</a></p>
+<p><a href="https://podcastindex.social/@mitch/117437255403581192" target="_blank" rel="noopener"><strong>Adam replied: "SOPML!!"</strong>&nbsp;Mitch asked the robot what Adam meant &mdash; "Adam Curry almost certainly meant SOPML = Social OPML" &mdash; and: "thanks to transcripts and BoK, you can now communicate in mere grunts." Dave: "lol!"</a></p>
+<p><a href="https://podcastindex.social/@dave/117444545984036459" target="_blank" rel="noopener"><strong>Podnews ships video through the alternate enclosure</strong>&nbsp;(Liquid Studios pilot): Spotify, LinkedIn, TrueFans, Pocket Casts, YouTube &mdash; "Not on Apple Podcasts, sadly." Podcast Guru: works, but now needs a switch-to-video toggle "since it's not HLS." Dave: "Assuming you chose mp4 since Apple Podcasts doesn't play HLS out of the alternate enclosure yet?" James: "mp4 because that's all I can produce&hellip; I don't really want to serve HLS, given it's massively more expensive to serve." Podcast Guru: "honestly you're the first podcaster we've seen doing it. 😆"</a></p>
+<p><a href="https://gist.github.com/nathangathright/23584bc9d32c31db58ec482e7cbf80f0" target="_blank" rel="noopener"><strong>partytime3:</strong>&nbsp;Nathan's agent listed the partytime parser bugs it hit; Dave: "I'll post the partytime3 code shortly and see what is still outstanding."</a></p>
+<p><a href="https://github.com/Podcastindex-org/podcast-namespace/pull/794" target="_blank" rel="noopener"><strong>#794 closed:</strong>&nbsp;JS fixed the podcast:guid example XML with a valid UUID.</a></p>
+<p>🔍&nbsp;<strong>For Dave:</strong>&nbsp;is partytime3 out?</p>
+</div>
+<div><small>Last Modified 10/16/2026 14:34:17 by&nbsp;<a href="http://freedomcontroller.com/">Freedom Controller</a></small>&nbsp;<a title="Link to the opml for this document." href="http://adam.curry.com/opml/Podcasting20Episode2-51DKTHvUXHYRmTjl2mJqPQ.opml">&nbsp;</a></div>
+</div>
+</div>]]></description>
+      <link>https://www.podpage.com/podcasting-20/off-the-rails/</link>
+      <guid isPermaLink="false">PC20-275</guid>
+      <pubDate>Fri, 16 Oct 2026 19:31:29 +0000</pubDate>
+      <podcast:chapters url="https://reflex.livewire.io/chapters/podcast/917393e3-1b1e-5cef-ace4-edaa54e1f810/item/PC20-275/chapters/https://mp3s.nashownotes.com/PC20-275-Chapters.json" type="application/json"/>
+      <podcast:transcript url="https://mp3s.nashownotes.com/PC20-275-Captions.srt" type="application/srt" rel="captions"/>
+      <itunes:subtitle><![CDATA[Episode 275: "Off The Rails"]]></itunes:subtitle>
+      <itunes:summary><![CDATA[<p><span style="font-size: 18pt;"><strong>Podcasting 2.0 October 16th 2026 Episode 275 - "Off The Rails"</strong></span></p>
+<div>
+<div>
+<p>What is the future of independent Podcast apps. OR any apps for the matter? Adam and Dave don't agree</p>
+<div>
+<p><strong>ShowNotes</strong></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>01 - 🎙️ THE ROBOT GOES ON PNWR &mdash; "I DON'T SEE THE NECESSITY FOR PODCAST APPS" (summary, no clips)</p>
+<p><a href="https://www.buzzsprout.com/1538779/episodes/19971325-adam-curry-s-ai-podcast-future" target="_blank" rel="noopener">Podnews Weekly Review, 16 Oct &mdash; "Adam Curry's AI Podcast Future" (1h29m; Adam, 4:00&ndash;53:45)</a></p>
+<p><strong>Sam's setup:</strong>&nbsp;on our last show Adam "changed Dave Jones' mind&hellip; from a skeptic to a believer". Adam: "I went back and listened&hellip;&nbsp;<strong>the first thing that Dave went to was advertising.</strong>&nbsp;It seems like anything with podcasting always evolves around advertising, even though&hellip; we don't have advertising on our podcast."</p>
+<p><strong>On Muse and the "spying" story:</strong>&nbsp;"Muse is collecting all this data, it's making files of every single one of your friends&hellip;&nbsp;<strong>That is a feature, not a bug.</strong>" &mdash; and the five machines at home running local models.</p>
+<p><strong>Sam:</strong>&nbsp;Reddit removed RSS and charged for its API ($43M from selling data); Lightning/L402 "worked for a while, but then&hellip; legislation and technical challenges." Will clients pay x402 to reach the Index through the MCP?&nbsp;<strong>Adam:</strong>&nbsp;"I don't see the necessity for YouTube apps, podcast apps, email apps&hellip; all clients that access all data will be some version of an agent working on the user's behalf." And: "<strong>Amazon did the stupidest thing ever by blocking Muse.</strong>"</p>
+<p><strong>On the newsletter:</strong>&nbsp;"40% of all value for value revenue always comes after we send the newsletter."</p>
+<p><strong>On RSS:</strong>&nbsp;"RSS stays. It's a perfect format&hellip; no different from HTTP or SMTP." Podcast Index Robot "goes into this structured RSS feed, which is very low overhead."</p>
+<p><strong>On podcast apps:</strong>&nbsp;"Podcast apps has been probably the crappiest part of the entire podcasting business. It's truly a labor of love&hellip; Do you want to be an interim step in between the data and the user? Maybe, but I don't know." And on Godcaster: "We're in the app business too&hellip; same issues apply."</p>
+<p><strong>The clean-feed line:</strong>&nbsp;Adam had his Omarchy box build a Cleanfeed-equivalent into his playout &mdash; "I'm gonna probably cancel my subscription, which is only $36."</p>
+<p><strong>Sam's close:</strong>&nbsp;TrueFans is building "Kevin and Kelly" as experimental agents on the Index fire hose. Afterward, to James: "Adam Curry is very smart and he can use it" &mdash; but normal people won't. James: "I don't think normal people will be doing that, will they?"</p>
+<p><a href="https://podcastindex.social/@adam/117444815477511023" target="_blank" rel="noopener"><strong>And the follow-up on Mastodon.</strong>&nbsp;Sam posted a Fintech Times piece on agentic payments "after all the chat with Adam and Dave about micropayments 2.0 using X.402"; Adam: "<strong>The power will shift to consumer power with agentic negotiation between vendors of goods and services.</strong>"</a></p>
+<p><a href="https://thefintechtimes.com/news-views-podcast-the-real-barrier-to-agentic-payments-is-not-the-ai/" target="_blank" rel="noopener">Fintech Times: the real barrier to agentic payments is not the AI</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>02 - 🚫 WILL APPLE LET THE ROBOT SKIP THE ADS?</p>
+<p><a href="https://podcastindex.social/@aegrumet/117424368148654254" target="_blank" rel="noopener"><strong>aegrumet, under Adam's 274 post:</strong>&nbsp;"I still think you're underestimating the pressure that will fall on platforms to create and enforce TOS that forbids this stuff&hellip;&nbsp;<strong>the tech is ahead of the policy, and&hellip; the latter will eventually catch up.</strong>"</a></p>
+<p><a href="https://podcastindex.social/@dave/117427465672916264" target="_blank" rel="noopener"><strong>Dave:</strong>&nbsp;"You're saying you think Apple will change their terms to prohibit local on device models from assisting in ad skipping?" &hellip; "<strong>Ad blockers are already allowed on the AppStore and PlayStore</strong>&hellip; a popular Reddit ad/nag blocker and things like 1Blocker for Safari&hellip;&nbsp;<strong>Neither Apple, nor Google serve podcast ads</strong>."</a></p>
+<p><strong>aegrumet's last word:</strong>&nbsp;Google and Apple "are fundamentally different with respect to ads. Hence Chrome is much more aggressive with respect to blocking the blockers. I don't see the current moment as a policy so much as a lack of one."</p>
+<p><strong>Sam on PNWR:</strong>&nbsp;"This week Apple blocked Muse, and so did Amazon" &mdash; agents doing price checks and arbitrage. TrueFans built a web application firewall off JS's bot list because AI bots were running up its MongoDB bill.</p>
+<p><a href="https://tomkahe.com/@tom/117424481628102191" target="_blank" rel="noopener"><strong>Dave on Spotify, boosted:</strong>&nbsp;"Spotify harnessing hundreds of dev hours and the power of 3 supercomputers to change what the like button does again."</a></p>
+<p>-------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>03 - 🏷️ NAMESPACE &mdash; A FEED FOR PEOPLE, AND VIDEO IN THE ALTERNATE ENCLOSURE</p>
+<p><a href="https://github.com/Podcastindex-org/podcast-namespace/discussions/498#discussioncomment-18772440" target="_blank" rel="noopener"><strong>podcast:person for fictional characters</strong>&nbsp;(discussion #498). Dave: "Makes great sense."</a></p>
+<p><a href="https://podcastindex.social/@dave/117413318081047105" target="_blank" rel="noopener"><strong>Nathan Gathright:</strong>&nbsp;propose a&nbsp;<strong>personGUID</strong>&nbsp;attribute pointing at a&nbsp;<strong>medium=person</strong>&nbsp;feed &mdash; so "Tap on a person, open up a list of their podcast appearances" works for every podcast:person tag. alecksgates: "the problem is no source of truth." Mitch: maybe a publisher or playlist feed referenced with a guid. Sam: TrueFans tried this two years ago and is "reliant on the hosts first implementing support for the person tag."</a></p>
+<p><a href="https://podcastindex.social/@mitch/117437255403581192" target="_blank" rel="noopener"><strong>Adam replied: "SOPML!!"</strong>&nbsp;Mitch asked the robot what Adam meant &mdash; "Adam Curry almost certainly meant SOPML = Social OPML" &mdash; and: "thanks to transcripts and BoK, you can now communicate in mere grunts." Dave: "lol!"</a></p>
+<p><a href="https://podcastindex.social/@dave/117444545984036459" target="_blank" rel="noopener"><strong>Podnews ships video through the alternate enclosure</strong>&nbsp;(Liquid Studios pilot): Spotify, LinkedIn, TrueFans, Pocket Casts, YouTube &mdash; "Not on Apple Podcasts, sadly." Podcast Guru: works, but now needs a switch-to-video toggle "since it's not HLS." Dave: "Assuming you chose mp4 since Apple Podcasts doesn't play HLS out of the alternate enclosure yet?" James: "mp4 because that's all I can produce&hellip; I don't really want to serve HLS, given it's massively more expensive to serve." Podcast Guru: "honestly you're the first podcaster we've seen doing it. 😆"</a></p>
+<p><a href="https://gist.github.com/nathangathright/23584bc9d32c31db58ec482e7cbf80f0" target="_blank" rel="noopener"><strong>partytime3:</strong>&nbsp;Nathan's agent listed the partytime parser bugs it hit; Dave: "I'll post the partytime3 code shortly and see what is still outstanding."</a></p>
+<p><a href="https://github.com/Podcastindex-org/podcast-namespace/pull/794" target="_blank" rel="noopener"><strong>#794 closed:</strong>&nbsp;JS fixed the podcast:guid example XML with a valid UUID.</a></p>
+<p>🔍&nbsp;<strong>For Dave:</strong>&nbsp;is partytime3 out?</p>
+</div>
+<div><small>Last Modified 10/16/2026 14:34:17 by&nbsp;<a href="http://freedomcontroller.com/">Freedom Controller</a></small>&nbsp;<a title="Link to the opml for this document." href="http://adam.curry.com/opml/Podcasting20Episode2-51DKTHvUXHYRmTjl2mJqPQ.opml">&nbsp;</a></div>
+</div>
+</div>]]></itunes:summary>
+      <itunes:author>Podcast Index LLC</itunes:author>
+      <author>Podcast Index LLC</author>
+      <itunes:image href="https://noagendaassets.com/enc/1684513486.722_pcifeedimage.png"/>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>podcasting,curry,podfather,technology,developers</itunes:keywords>
+      <enclosure url="https://op3.dev/e/mp3s.nashownotes.com/PC20-275-2026-10-16-Final.mp3" type="audio/mpeg" length="71957106"/>
+      <podcast:person group="cast" role="host" img="https://feeds.podcastindex.org/adam_avatar.jpg" href="http://curry.com">Adam Curry</podcast:person>
+      <podcast:person href="http://dave.sobr.org" img="https://feeds.podcastindex.org/dave_avatar.jpg" group="cast" role="host">Dave Jones</podcast:person>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Dreb Scott (Chapters)" type="lnaddress" address="drebscott@getalby.com" split="5"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="steven@getalby.com" type="lnaddress" split="10"/>
+        <podcast:valueRecipient name="Fountain Boost bot" type="lnaddress" address="boostbot@fountain.fm" split="1"/>
+        <podcast:valueRecipient name="Reflex.io" type="lnaddress" address="reflex@livewire.io" split="5"/>
+        <podcast:valueRecipient name="ericpp@getalby.com" type="lnaddress" address="ericpp@getalby.com" split="5"/>
+        <podcast:valueRecipient name="Strike Test" type="lnaddress" address="adamcurry@strike.me" split="3"/>
+        <podcast:valueRecipient name="Alecks Gates Strike" type="lnaddress" address="agates@strike.me" split="5"/>
+        <podcast:valueRecipient name="PodcastIndex LN Test Wallet" type="lnaddress" address="podcastindex@getalby.com" split="50"/>
+        <podcast:valueRecipient name="Pod Sage" type="lnaddress" address="dave@getalby.com" split="1"/>
+        <podcast:valueRecipient name="Boost Monitor" type="lnaddress" address="adam@getalby.com" split="5"/>
+      </podcast:value>
+      <podcast:socialInteract protocol="activitypub" uri="https://podcastindex.social/@adam/117452268966202772" accountId="@adam" accountUrl="https://podcastindex.social/users/adam"/>
+      <itunes:duration>5995</itunes:duration>
+      <podcast:funding url="https://www.paypal.com/donate?token=-hvWBEXZQfp7oSFJz0TwT3QXYcjYuemZRPIOml3nrL-EhtiUPAwuVHS6DPN5cBat9wjqwYEtyW-K8zSS">Support us with Value 4 Value</podcast:funding>
+    </item>
+  </channel>
+</rss>

@@ -68,6 +68,12 @@
         public static Feed GetFeed(byte[] feedContentData)
         {
             string feedContent = Encoding.UTF8.GetString(feedContentData); // 1.) get string of the content
+
+            // json is always utf-8, no encoding detection needed. Checked before RemoveWrongChars:
+            // that xml cleanup would also remove valid characters inside json strings (e.g. in ids).
+            if (JsonFeedParser.IsJson(feedContent))
+                return new JsonFeedParser().Parse(feedContent).ToFeed();
+
             feedContent = RemoveWrongChars(feedContent);
 
             XDocument feedDoc = XDocument.Parse(feedContent); // 2.) read document to get the used encoding
@@ -98,6 +104,9 @@
         /// <returns>parsed feed</returns>
         public static Feed GetFeed(string feedContent)
         {
+            if (JsonFeedParser.IsJson(feedContent)) // before RemoveWrongChars, see GetFeed(byte[])
+                return new JsonFeedParser().Parse(feedContent).ToFeed();
+
             feedContent = RemoveWrongChars(feedContent);
 
             XDocument feedDoc = XDocument.Parse(feedContent);

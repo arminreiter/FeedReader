@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Version 1.0 Feed",
+  "home_page_url": "https://example.com/",
+  "author": { "name": "Old Style Author", "url": "https://example.com/about" },
+  "items": [
+    {
+      "id": "1",
+      "title": "Item with own 1.0 author",
+      "content_html": "<p>one</p>",
+      "author": { "name": "Item Author" }
+    },
+    {
+      "id": "2",
+      "title": "Item inherits the feed author",
+      "content_html": "<p>two</p>"
+    }
+  ]
+}

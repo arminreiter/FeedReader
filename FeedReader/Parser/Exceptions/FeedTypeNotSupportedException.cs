@@ -4,7 +4,7 @@
 
     /// <summary>
     /// Exception is thrown if the type of the feed is not supported. Supported feed types
-    /// are RSS 0.91, RSS 0.92, RSS 1.0, RSS 2.0 and ATOM
+    /// are RSS 0.91, RSS 0.92, RSS 1.0, RSS 2.0, ATOM and JSON Feed
     /// </summary>
     public class FeedTypeNotSupportedException : Exception
     {

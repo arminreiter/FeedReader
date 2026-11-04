@@ -2,7 +2,6 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Text;
     using System.Xml.Linq;
 
     /// <summary>
@@ -47,35 +46,6 @@
                     return true;
             }
             return false;
-        }
-
-        /// <summary>
-        /// Converts a string to UTF-8
-        /// </summary>
-        /// <param name="text">text to convert</param>
-        /// <returns>text as utf8 encoded string</returns>
-        public static string ToUtf8(this string text)
-        {
-            return Encoding.UTF8.GetString(Encoding.GetEncoding(0).GetBytes(text));
-        }
-
-        /// <summary>
-        /// Converts a string to UTF-8
-        /// </summary>
-        /// <param name="text">text to convert</param>
-        /// <param name="encoding">the encoding of the text</param>
-        /// <returns>text as utf8 encoded string</returns>
-        public static string ToUtf8(this string text, Encoding encoding)
-        {
-            if (encoding == Encoding.UTF8)
-                return text;
-
-            if (encoding == Encoding.GetEncoding(0))
-                return text;
-
-            var utf = Encoding.UTF8;
-            var convertedBytes = Encoding.Convert(encoding, utf, encoding.GetBytes(text));
-            return Encoding.UTF8.GetString(convertedBytes);
         }
 
         /// <summary>
